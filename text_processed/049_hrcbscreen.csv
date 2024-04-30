@@ -1,0 +1,1377 @@
+Text,IsQuestion
+,0
+,0
+,0
+,0
+,0
+1,0
+,0
+1,0
+,0
+,0
+,0
+,0
+ALAMEDA,0
+"SANTOS, 2101",0
+SÃO PAULO,0
+,0
+INSERIR NOME DO,0
+FORNECEDOR,0
+(PELO CAMPO),0
+,0
+INÍCIO:,0
+,0
+,0
+____:____,0
+,0
+TÉRMINO:,0
+,0
+,0
+_____:_____,0
+,0
+NÚMERO DO,0
+QUESTIONÁRIO:,0
+,0
+,0
+|____|____|____|__,0
+__|,0
+,0
+JOB Nº 090690  Prevenção,0
+,0
+NOME DO ENTREVISTADO:,0
+,0
+,0
+,0
+DDD:,0
+,0
+FONE RES:,0
+,0
+ENDEREÇO:,0
+,0
+,0
+FONE COM:,0
+,0
+CELULAR:,0
+,0
+e-mail:,0
+,0
+,0
+BAIRRO: ZONA:,0
+,0
+ENTREVISTADOR(A): CPF:,0
+,0
+|___|___|___|.|___|___|___|.|___|___|___|.|___|___|,0
+,0
+DATA:,0
+,0
+_____/_____/ 08,0
+,0
+CRÍTICO(A): CPF:,0
+,0
+|___|___|___|.|___|___|___|.|___|___|___|.|___|___|,0
+,0
+DATA:,0
+,0
+_____/_____/ 08,0
+,0
+VERIFICADOR(A): CPF:,0
+,0
+|___|___|___|.|___|___|___|.|___|___|___|.|___|___|,0
+,0
+DATA:,0
+,0
+_____/_____/ 08,0
+,0
+CONTROLE DE QUALIDADE IBOPE RECRÍTICA: CPF:,0
+,0
+|___|___|___|.|___|___|___|.|___|___|___|.|___|___|,0
+,0
+DATA:,0
+,0
+_____/_____/ 08,0
+,0
+CONTROLE DE QUALIDADE IBOPE VERIFICAÇÃO: CPF:,0
+,0
+|___|___|___|.|___|___|___|.|___|___|___|.|___|___|,0
+,0
+DATA:,0
+,0
+_____/_____/ 08,0
+,0
+VOLTAS DE PROCESSAMENTO E CODIFICAÇÃO CÓDIGO DO CODIFICADOR:,0
+,0
+,0
+|______|______|______|,0
+,0
+,0
+,0
+VOLTAS DE CAMPO,0
+,0
+,0
+,0
+,0
+COMENTÁRIOS DE CAMPO,0
+,0
+NOME DA ESCOLA,0
+,0
+,0
+,0
+,0
+,0
+INTRODUÇÃO:,0
+,0
+,0
+"Meu nome é (nome do entrevistador), faço parte da equipe de avaliação do projeto PREVENÇÃO. Há",0
+"alguns dias um entrevistador do IBOPE conversou com o(a) sr(a) na escola do(s) seu(s) filho(s), onde",0
+"o(a) sr(a) nos forneceu seus dados para contato telefônico, e é por isso que estou ligando hoje.",0
+,0
+"Como já foi explicado, a escola em que seu filho está se matriculando é uma das participantes desse",0
+grande projeto financiado pelo governo federal que tem o objetivo de desenvolver estudos que permitam,0
+compreender melhor os problemas emocionais e de comportamento das crianças. O projeto é uma,0
+"parceria entre a Universidade Federal do Rio Grande do Sul (UFRGS), Universidade Federal de São",0
+"Paulo (UNIFESP), Universidade de São Paulo (USP), Secretaria de Educação do seu estado e escola do",0
+seu filho.,0
+,0
+"O projeto conta com psiquiatras, psicólogos e fonoaudiólogos, bem como uma ampla equipe de pesquisa",0
+que poderá entrar em contato com o(a) sr(a) e com seu filho no próximo ano. As crianças selecionadas,0
+para participação no projeto contarão com entrevistas em casa sobre seu filho e sua família e avaliações,0
+especializadas do seu filho na escola.,0
+,0
+A secretaria de educação e a sua escola são parceiras nesse projeto e estimulam a sua participação.,0
+Para continuar participando basta responder algumas questões sobre o(a) sr(a) e sobre sua família em,0
+"uma entrevista comigo (com duração de cerca de 15 minutos). Lembre-se, o(a) sr(a) poderá se retirar da",0
+pesquisa em qualquer momento do estudo. A equipe estará a disposição para dar as informações,0
+necessárias acerca do projeto.,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+2,0
+,0
+2,0
+,0
+,0
+,0
+,0
+,0
+A. rematricula B. Cidade,0
+,0
+Sim 1 São Paulo 1,0
+,0
+Não 2 - encerrar Porto Alegre 2,1
+,0
+,0
+,0
+,0
+P4. Anote o sexo do respondente? (RU),0
+,0
+,0
+Masculino 01,0
+,0
+Feminino 02,0
+,0
+,0
+,0
+P5. O(a) sr(a) poderia nos confirmar  seu nome completo e idade?,1
+,0
+,0
+Nome,0
+,0
+Idade,0
+,0
+,0
+,0
+,0
+P6. O(a) sr(a) poderia nos confirmar o nome completo de cada um dos seus filhos?,1
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+P7. O(a) Sr.(a) possui algum filho(a) falecido? (RU),1
+,0
+Sim 01,0
+,0
+Não 02 Pule para,0
+P10,0
+,0
+,0
+,0
+P8. Qual o nome do(a) seu(sua) filho(a) falecido(a)?,1
+,0
+Nome,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+Filho 1,0
+,0
+Filho 2,0
+,0
+Filho 3,0
+,0
+Filho 4,0
+,0
+Filho 5,0
+,0
+Filho 6,0
+,0
+Filho 7,0
+,0
+Filho 8,0
+,0
+Filho 9,0
+,0
+Filho 10,0
+,0
+Filho 11,0
+,0
+Filho 1,0
+,0
+Filho 2,0
+,0
+Filho 3,0
+,0
+Filho 4,0
+,0
+Filho 5,0
+,0
+Filho 6,0
+,0
+Filho 7,0
+,0
+Filho 8,0
+,0
+Filho 9,0
+,0
+Filho 10,0
+,0
+Filho 11,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+3,0
+,0
+3,0
+,0
+,0
+,0
+P9. Com que idade o seu filho LER NOMES ABAIXO faleceu?,1
+Aplicar para cada resposta da P8.,0
+,0
+Anos,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+P10. Qual a idade do(a) LER NOMES ABAIXO.,1
+Aplicar para cada resposta da P6.,0
+,0
+Anos,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+P11. O Sr(a) matriculou o(a) LER NOMES ABAIXO na escola recentemente? (RU POR FILHO),1
+Aplicar para cada resposta da P6.,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+P12. Em qual série (ano) a criança (LER NOMES ABAIXO) será matriculada no ano de 2010?,1
+Aplicar para cada resposta da P6. (RU POR FILHO),0
+,0
+,0
+Filho 1,0
+,0
+Filho 2,0
+,0
+Filho 3,0
+,0
+Filho 4,0
+,0
+Filho 5,0
+,0
+Filho 6,0
+,0
+Filho 7,0
+,0
+Filho 8,0
+,0
+Filho 9,0
+,0
+Filho 10,0
+,0
+Filho 11,0
+,0
+Filho 1,0
+,0
+Filho 2,0
+,0
+Filho 3,0
+,0
+Filho 4,0
+,0
+Filho 5,0
+,0
+Filho 6,0
+,0
+Filho 7,0
+,0
+Filho 8,0
+,0
+Filho 9,0
+,0
+Filho 10,0
+,0
+Filho 11,0
+,0
+Sim Não,0
+,0
+Filho 1 1 2,0
+,0
+Filho 2 1 2,0
+,0
+Filho 3 1 2,0
+,0
+Filho 4 1 2,0
+,0
+Filho 5 1 2,0
+,0
+Filho 6 1 2,0
+,0
+Filho 7 1 2,0
+,0
+Filho 8 1 2,0
+,0
+Filho 9 1 2,0
+,0
+Filho 10 1 2,0
+,0
+Filho 11 1 2,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+4,0
+,0
+4,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+P13. Em qual período (manhã / tarde / noite / integral) a criança (LER NOME ABAIXO) será,0
+matriculada no ano de 2010?,0
+Aplicar para cada resposta da P6. (RU POR FILHO),0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+P14. Qual o sexo do(a) LER CADA NOME ABAIXO,1
+Aplicar para cada resposta da P6. (RU POR FILHO),0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+P15. Os seus filhos possuem o mesmo pai/ a mesma mãe?  (RU),1
+,0
+Sim 01 Anote o nome na P16 e pule para P18,0
+,0
+Não 02,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+1º ano 2º ano 3º ano 4º ano 5º ano 6º ano 7º ano 8º ano 9º ano,0
+,0
+Filho 1 1 2 3 4 5 6 7 8 9,0
+,0
+Filho 2 1 2 3 4 5 6 7 8 9,0
+,0
+Filho 3 1 2 3 4 5 6 7 8 9,0
+,0
+Filho 4 1 2 3 4 5 6 7 8 9,0
+,0
+Filho 5 1 2 3 4 5 6 7 8 9,0
+,0
+Filho 6 1 2 3 4 5 6 7 8 9,0
+,0
+Filho 7 1 2 3 4 5 6 7 8 9,0
+,0
+Filho 8 1 2 3 4 5 6 7 8 9,0
+,0
+Filho 9 1 2 3 4 5 6 7 8 9,0
+,0
+Filho 10 1 2 3 4 5 6 7 8 9,0
+,0
+Filho 11 1 2 3 4 5 6 7 8 9,0
+,0
+Manhã Tarde Noite Integral,0
+,0
+Filho 1 1 2 3 4,0
+,0
+Filho 2 1 2 3 4,0
+,0
+Filho 3 1 2 3 4,0
+,0
+Filho 4 1 2 3 4,0
+,0
+Filho 5 1 2 3 4,0
+,0
+Filho 6 1 2 3 4,0
+,0
+Filho 7 1 2 3 4,0
+,0
+Filho 8 1 2 3 4,0
+,0
+Filho 9 1 2 3 4,0
+,0
+Filho 10 1 2 3 4,0
+,0
+Filho 11 1 2 3 4,0
+,0
+Masculino Feminino,0
+,0
+Filho 1 1 2,0
+,0
+Filho 2 1 2,0
+,0
+Filho 3 1 2,0
+,0
+Filho 4 1 2,0
+,0
+Filho 5 1 2,0
+,0
+Filho 6 1 2,0
+,0
+Filho 7 1 2,0
+,0
+Filho 8 1 2,0
+,0
+Filho 9 1 2,0
+,0
+Filho 10 1 2,0
+,0
+Filho 11 1 2,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+5,0
+,0
+5,0
+,0
+P16. Qual o nome do pai/ da mãe dos seus filhos?,1
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+P17. Quem é o pai/ a mãe de (NOME DA CRIANÇA),1
+,0
+Aplicar para cada resposta da P6,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+P18. O(a) Sr(a) possui filhos gêmeos? (RU),1
+,0
+Sim 01,0
+,0
+Não 02 Pule para P21,0
+,0
+,0
+,0
+,0
+P19. O(a) Sr(a) poderia me indicar quais deles são gêmeos?,1
+Fazer consistência entre P10 e P17,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+P20 Eles são gêmeos idênticos? (RU),0
+,0
+Sim 01,0
+,0
+Não 02,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+Nome,0
+Pai/ Mãe,0
+,0
+1,0
+_______,0
+,0
+Nome,0
+Pai/ Mãe,0
+,0
+2,0
+_______,0
+,0
+Nome,0
+Pai/ Mãe,0
+,0
+3,0
+_______,0
+,0
+Nome,0
+Pai/ Mãe,0
+,0
+4,0
+_______,0
+,0
+Filho 1 1 2 3 4,0
+,0
+Filho 2 1 2 3 4,0
+,0
+Filho 3 1 2 3 4,0
+,0
+Filho 4 1 2 3 4,0
+,0
+Filho 5 1 2 3 4,0
+,0
+Filho 6 1 2 3 4,0
+,0
+Filho 7 1 2 3 4,0
+,0
+Filho 8 1 2 3 4,0
+,0
+Filho 9 1 2 3 4,0
+,0
+Filho 10 1 2 3 4,0
+,0
+Filho 11 1 2 3 4,0
+,0
+Gemeos,0
+,0
+Filho 1 1,0
+,0
+Filho 2 1,0
+,0
+Filho 3 1,0
+,0
+Filho 4 1,0
+,0
+Filho 5 1,0
+,0
+Filho 6 1,0
+,0
+Filho 7 1,0
+,0
+Filho 8 1,0
+,0
+Filho 9 1,0
+,0
+Filho 10 1,0
+,0
+Filho 11 1,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+6,0
+,0
+6,0
+,0
+P21. Quais dessas pessoas moram na mesma residência que o(a) Sr(a)? (RU POR FAMILIAR),0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+A3 Agora eu gostaria que o(a) sr(a) pegasse um lápis ou caneta e um pedaço de papel e,0
+escrevesse os nomes conforme eu ditar (LER NOMES ABAIXO).,0
+,0
+O(a) sr(a) pode ler a lista para mim? (Cheque para ter certeza de que as duas listas coincidem).,0
+,0
+"Atenção: para que o filho entre na lista abaixo, ele deve ter entre 6 e 12 anos e estar sendo matriculado",0
+"hoje, ou ser irmão/ meio irmão, de alguma criança de 6 a 12 anos que esteja sendo matriculada hoje.",0
+"Para que o pai/mãe entre na lista abaixo, deve ser pai/mãe de alguma criança de 6 a 12 anos que seja",0
+matriculada hoje,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+Para as perguntas T1 a T37 usar a lista acima como itens de resposta.,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+Sim Não,0
+,0
+Filho 1 1 2,0
+,0
+Filho 2 1 2,0
+,0
+Filho 3 1 2,0
+,0
+Filho 4 1 2,0
+,0
+Filho 5 1 2,0
+,0
+Filho 6 1 2,0
+,0
+Filho 7 1 2,0
+,0
+Filho 8 1 2,0
+,0
+Filho 9 1 2,0
+,0
+Filho 10 1 2,0
+,0
+Filho 11 1 2,0
+,0
+Pai/ mãe 1 1 2,0
+,0
+Pai/ mãe 2 1 2,0
+,0
+Pai/ mãe 3 1 2,0
+,0
+Pai/ mãe 4 1 2,0
+,0
+,0
+,0
+Filho 1,0
+,0
+Filho 2,0
+,0
+Filho 3,0
+,0
+Filho 4,0
+,0
+Filho 5,0
+,0
+Filho 6,0
+,0
+Filho 7,0
+,0
+Filho 8,0
+,0
+Filho 9,0
+,0
+Filho 10,0
+,0
+Filho 11,0
+,0
+Pai/ mãe 1,0
+,0
+Pai/ mãe 2,0
+,0
+Pai/ mãe 3,0
+,0
+Pai/ mãe 4,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+7,0
+,0
+7,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+8,0
+,0
+8,0
+,0
+"Para as perguntas T1 a T37 somente aceitar resposta para a lista acima. (OBS: quando houver perguntas condicionais, aplicar somente para os",0
+,0
+familiares mencionados na pergunta origem),0
+,0
+,0
+Filho,0
+,0
+1,0
+Filho,0
+,0
+2,0
+Filho,0
+,0
+3,0
+Filho,0
+,0
+4,0
+Filho,0
+,0
+5,0
+Filho,0
+,0
+6,0
+Filho,0
+,0
+7,0
+Filho,0
+,0
+8,0
+Filho,0
+,0
+9,0
+Filho,0
+10,0
+,0
+Filho,0
+11,0
+,0
+Pai/,0
+Mae,0
+,0
+1,0
+,0
+Pai/,0
+Mae,0
+,0
+2,0
+,0
+Pai/,0
+Mae,0
+,0
+3,0
+,0
+Pai/,0
+Mae,0
+,0
+4,0
+,0
+"T1. Alguém da lista às vezes fica triste, para",1
+baixo ou deprimido na maior parte do tempo,1
+por duas semanas ou mais?,1
+,0
+T2. Alguém da lista no período de duas,1
+semanas ou mais  perdeu o interesse na,1
+"maioria das coisas que habitualmente gostava,",1
+"como trabalho, atividades de lazer OU nos",1
+relacionamentos pessoais?,1
+,0
+T2A’ [Se sim para 1 ou 2] Essa pessoa já ficou,1
+"por um período se sentindo muito cansada,",1
+"com menos energia, com alteração do sono,",1
+sem conseguir dar conta dos afazeres,1
+habituais ou com diminuição da capacidade de,1
+concentração nesse período? (duas semanas,1
+ou mais),1
+,0
+"T2B’ [Se sim para 1, 2] Esses momentos",1
+ocorreram APENAS após a morte de uma,1
+pessoa próxima?,1
+,0
+T2C’ [Se sim p/ 2B] Esses momentos duraram,1
+no máximo 2 meses depois do falecimento,1
+dessa pessoa?,1
+,0
+T3. Alguém da lista já ficou por um período se,1
+sentindo extremamente feliz ou “para cima” ou,1
+alto?,1
+,0
+T3A’ [Se sim para 3] Eu quero dizer “para,1
+cima” de tal forma que as pessoas ficaram,1
+muito preocupadas com ele ou que isso tenha,1
+interferido no desempenho de suas,1
+responsabilidades habituais.,1
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+9,0
+,0
+9,0
+,0
+T4. Alguém na lista já ficou por um período,1
+mais ativo ou falante que o normal?,1
+,0
+T4A' [Se sim para 4] Eu quero dizer,0
+"EXTREMAMENTE mais ativo ou falante, de tal",0
+forma que as pessoas ficaram preocupadas,0
+com essa pessoa ou que isso tenha interferido,0
+no desempenho de suas responsabilidades,0
+habituais,0
+,0
+T5. Alguém da lista já teve um ataque de,1
+"medo ou pânico, que durou em torno de 20",1
+"minutos, em que de repente sentiu dificuldade",1
+"de respirar, tremores, tontura, sentiu seu",1
+coração batendo forte e rápido OU pensou que,1
+"poderia perder o controle, morrer ou",1
+enlouquecer?,0
+,0
+T5A' [Se sim para 5] Essa pessoa teve vários,1
+"ataques como esse, que aconteciam de uma",1
+hora para outra e foram seguidos de um medo,1
+de que um novo ataque pudesse acontecer?,1
+,0
+,0
+,0
+"T6. Alguém da lista ficou muito preocupado,",1
+nervoso ou ansioso QUASE TODOS OS DIAS,1
+"POR SEIS MESES OU MAIS, com coisas com",1
+as quais as outras pessoas não se,1
+preocupariam tanto?,1
+,0
+T6A' [Se sim para 6] Essa pessoa se sentia,1
+"cansada, irritada, tinha problemas para dormir",1
+e isso atrapalhava de forma significativa a sua,1
+"vida pessoal, profissional ou escolar?",1
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+10,0
+,0
+10,0
+,0
+T7. Alguém da lista alguma vez já ficou com,1
+"muito medo de sair de casa sozinho, estar no",1
+"meio de uma multidão, ir a lugares públicos,",1
+"viajar sozinho, viajar para longe de casa, estar",1
+"em locais onde não poderia fugir, escapar ou",1
+obter ajuda?,1
+,0
+T7A' [Se sim para 7] Essa pessoa sempre teve,1
+tanto medo dessas situações que não,1
+conseguiu enfrentá-las OU sentiu um intenso,1
+"mal estar quando as enfrentou; OU ainda,",1
+procurou estar acompanhado para enfrentá-,1
+las?,0
+,0
+T8. Alguém da lista já ficou com muito medo de,1
+"altura ou de lugares altos, animais, piscina,",1
+"lago, tempestades, sangue, ferimentos,",1
+"dentista, médico ou de tomar injeção?",1
+,0
+T9. Alguém da lista já sentiu muito medo ou,1
+"muita timidez em situações sociais, como",1
+"conhecer novas pessoas, ir a festas, sair com",1
+"um pretendente, ou usar um banheiro público?",1
+,0
+T10. Alguém da lista já sentiu muito medo e,1
+desconforto quando tinha que fazer algo em,1
+"frente a um grupo de pessoas, como dar uma",1
+palestra ou fazer um discurso com medo de,1
+ser humilhado ou estar no centro das,1
+atenções?,0
+,0
+T10A'. [Se sim p 9 ou 10] Essa pessoa ficava,1
+tão envergonhada e com medo a ponto de,1
+NÃO CONSEGUIR FAZER as coisas que a,1
+incomodavam?,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+11,0
+,0
+11,0
+,0
+"“Eu sei que o(a) sr(a) sabe isso, mas eu tenho",1
+que lembrá-lo que TODAS essas questões são,1
+sobre se qualquer pessoa listada na página,1
+tem ou teve esses problemas. O(a) sr(a),1
+gostaria de acrescentar alguma informação,1
+anterior que o(a) sr(a) esqueceu?,1
+,0
+T11. Alguém da sua lista já se sentiu,0
+incomodado(a) por uma necessidade das,1
+"coisas estarem perfeitas ou exatas, OU já teve",1
+"preocupações com simetria, em fazer coisas",1
+repetidas vezes até que os objetos estejam,1
+arrumados ou simétricos?,1
+,0
+"T11A’.[ Se sim para 11], Essa pessoa gastava",0
+muito tempo com “manias” de arrumacão ou,0
+organização?,0
+,0
+T12. Alguém na sua lista já sentiu muito medo,0
+de estar doente? E quanto a ter medo de estar,0
+contaminado por bactérias ou sujeira?,0
+,0
+"T12A' [Se SIM para 12], Essa pessoa precisou",1
+"lavar ou limpar excessivamente, ou de uma",1
+"maneira ritualizada, seu próprio corpo ou",1
+objetos? Já teve mania de limpeza?,1
+,0
+T13. Alguém da sua lista já se sentiu,1
+incomodado(a) por preocupações ou medos de,1
+que algo muito ruim possa acontecer? E,1
+quanto a ter pensamentos impróprios de,1
+conteúdo sexual ou religioso?,1
+,0
+"T13A'.[ Se SIM para 13], Essa pessoa precisou",1
+"fazer alguma coisa repetidas vezes, tais como",1
+"rezar, ou confessar, para afastar esses",1
+"pensamentos de agressão, sexuais ou",1
+religiosos?,0
+,0
+T14. Alguém da sua lista já chegou a guardar,1
+ou colecionar MUITAS coisas ou objetos?,1
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+12,0
+,0
+12,0
+,0
+T15. Alguém da lista parece ter dificuldades,1
+em distinguir a diferença entre fantasia e,1
+realidade?,0
+,0
+T16. Alguém da lista já apresentou,1
+"comportamentos que parecem estranhos,",1
+bizarros ou sem sentido?,1
+,0
+T17. Alguém da lista já ouviu vozes ou teve,1
+visões que as outras pessoas não podiam ver,1
+ou ouvir?,0
+,0
+T18. Alguém da lista já acreditou em coisas,1
+que eram muito estranhas OU que não eram,1
+"verdade, por exemplo, que pessoas estavam",1
+"conspirando contra ele, ou que os programas",1
+de TV mandavam mensagens especiais,1
+somente para ele?,0
+,0
+T19. [Se sim p 17 ou 18] Não incluindo,1
+"experiências causadas por álcool ou drogas,",1
+ou experiências religiosas que sejam comuns,1
+"na religião dessa pessoa, ou uma criança",1
+pequena que tenha um amigo invisível. Fora,1
+"isso, a pessoa claramente e freqüentemente",1
+ouvia vozes e tinha visões OU acreditava em,1
+coisas que eram muito estranhas ou que não,1
+eram verdade?,0
+,0
+"“Eu sei que o(a) sr(a) sabe isso, mas eu tenho",1
+que lembrá-lo que TODAS essas questões são,1
+sobre se qualquer pessoa listada na página,1
+tem ou teve esses problemas. O(a) sr(a),1
+gostaria de acrescentar alguma informação,1
+anterior que o(a) sr(a) esqueceu?,0
+,0
+T20. Alguém da lista já teve um período da,1
+vida em que bebia muito?,1
+,0
+T20A' [Se sim p 20] A pessoa teve problemas,1
+com a bebida ou as pessoas achavam que ela,1
+tinha problemas com a bebida?,1
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+13,0
+,0
+13,0
+,0
+T21. Alguém da lista já teve um período da,1
+vida em que usou regularmente drogas ilícitas?,1
+,0
+T21A'. [Se sim p 21] A pessoa teve problema,1
+com drogas ou as pessoas achavam que ela,1
+tinha problemas com drogas?,0
+,0
+T22. Alguém da lista já foi colocado atrás das,1
+"grades, ou preso, ou julgado culpado de um",1
+crime que não seja dirigir embriagado?,0
+,0
+“As próximas questões são sobre problemas,1
+que as crianças e jovens às vezes têm. Já que,1
+nós queremos saber se alguém da lista já teve,1
+"o problema ao longo da sua vida toda, por",1
+favor se lembre de pensar se os adultos,1
+"tiveram o problema quando eram crianças,",1
+assim como se as crianças o tem tido nesse,1
+momento.”,0
+,0
+"T23. Quando criança, alguém da sua lista teve",1
+"dificuldade em tarefas de leitura, escrita ou",1
+matemática?,0
+,0
+"T24. Quando criança, alguém da sua lista teve",1
+dificuldade para falar ou compreender o que,1
+lhe é ou era dito?,1
+,0
+"T25. Quando criança, alguém da sua lista teve",1
+medo para se separar de seus pais ou de,1
+"outras pessoas com quem era muito apegado,",1
+com medo de ir à escola ou a outros lugares,1
+sem essas pessoas?,0
+,0
+,0
+,0
+T25A' [Se sim p 25] Muito mais que a maioria,1
+das crianças da idade dele?,1
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+14,0
+,0
+14,0
+,0
+"T26. Quando criança, alguém da sua lista se",1
+sentia muito nervoso e tinha muita dificuldade,1
+para falar com pessoas que não conhecia?,1
+,0
+,0
+,0
+"T27. Quando eram crianças, alguém da lista",1
+"roubava, matava aulas, fugia de casa,",1
+quebrava regras?,0
+,0
+T27A'. [Se sim p 27] A pessoa roubava bens,1
+"VALIOSOS, matava MUITAS aulas ou",1
+"quebrava MUITAS regras, mais que as outras",0
+crianças?,0
+,0
+"T28 Quando criança, alguém da sua lista",1
+"discutia muito com adultos, recusava-se a",1
+"fazer o que os pais ou professores lhe pediam,",1
+"irritava-se com facilidade, era rancoroso ou",1
+vingativo e desafiador?,0
+,0
+"T29 Quando criança, alguém da sua lista era",1
+"desatento e se distraía com facilidade, tinha",1
+"dificuldades para manter a atenção, perdia",1
+coisas necessárias para realização de tarefas,1
+ou se esquecia de atividades do dia-a-dia?,1
+,0
+"T30 Quando criança, alguém da sua lista era",1
+"ativo, inquieto, agitado, impaciente, estava",1
+"sempre “a todo vapor”, levantando da cadeira",1
+"quando devia ficar sentado, correndo ou",1
+subindo em cima das coisas quando não,1
+deveria?,0
+,0
+"T31 Quando criança, alguém da sua lista era",1
+"impulsivo, frequentemente respondia sem",1
+"chegar a ouvir a pergunta até o fim, tinha",1
+dificuldade em esperar a sua vez nas,1
+atividades e se intrometia na conversa ou,1
+brincadeira dos outros?,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+15,0
+,0
+15,0
+,0
+"T31 A’ [Se sim para 29, 30 OU 31] A pessoa",1
+realmente enfrentava dificuldades com esse,1
+"jeito de ser, mais que os outros",1
+(meninos/meninas) da sua idade OU chegou a,1
+ter reclamações da escola sobre esse seu,1
+comportamento?,0
+,0
+T32. Alguém da lista JÁ foi suspenso ou,1
+expulso da escola?,0
+,0
+T33. Alguém da lista JÁ tentou se matar?,1
+,0
+T33A'. [Se sim p 33] Essa pode ser uma,1
+"questão dolorosa, mas de fato se matou?",1
+,0
+T37. Alguém da lista já teve dificuldade para,1
+dar conta de suas responsabilidades habituais,1
+"como trabalhar, ir à escola ou cuidar da família",1
+ou da casa por causa de um algum dos,1
+problemas psicológicos ou emocionais que,1
+conversamos durante toda a entrevista?,1
+,0
+T34. Alguém da lista já consultou com um,1
+"psiquiatra ou psicólogo, por causa de um",1
+algum dos problemas psicológicos ou,1
+emocionais que conversamos durante toda a,1
+entrevista?,0
+,0
+T35. Alguém da lista já teve que ser internado,1
+em um hospital ou em algum lugar de,1
+tratamento por uma noite ou mais por causa de,1
+um algum dos problemas psicológicos ou,1
+emocionais que conversamos durante toda a,1
+entrevista?,0
+,0
+T36. Já aconteceu de algum médico ter dado,1
+algum medicamento para algum dos,1
+problemas psicológicos ou emocionais,1
+comentados até agora para alguém da sua,1
+lista?,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+16,0
+,0
+16,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+Preencher informações pessoais e nome da escola,0

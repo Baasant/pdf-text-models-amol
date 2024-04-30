@@ -1,0 +1,6409 @@
+Text,IsQuestion
+,0
+,0
+1,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+PREVENTION - Protocolo Escolar,0
+,0
+PSICÓLOGO,0
+,0
+,0
+,0
+[PARA USO DA COORDENAÇÃO – PREENCHER ANTES DE ENTREGAR],0
+,0
+IDENTIFICAÇÃO DO APLICADOR,0
+,0
+PSICO_Profissional (Nome do Aplicador),0
+,0
+|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|,0
+,0
+|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|____|,0
+,0
+,0
+PSICO_ID: |____|____|,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+COLE A ETIQUETA AQUI,0
+,0
+,0
+,0
+,0
+,0
+,0
+[PARA USO DO PSICÓLOGO],0
+,0
+ANTES DE SAIR PARA CAMPO CONFIRA:,0
+,0
+,0
+(1) CERTIFIQUE-SE DE QUE VOCÊ ESTÁ LEVANDO:,0
+a. O PROTOCOLO DENTRO DO SACO PLÁSTICO GRANDE IDENTIFICADO,0
+b. A ETIQUETA PARA COLAR NO LOCAL INDICADO ACIMA,0
+,0
+(2) CERTIFIQUE-SE QUE TODAS AS ETIQUETAS POSSUEM O MESMO CÓDIGO IDENTIFICADOR E DO NOME DA CRIANÇA,0
+"(3) CERTIFIQUE-SE DE QUE VOCÊ ESTÁ LEVANDO OS SEUS MATERIAIS DE ESTÍMULOS, 2 CANETAS, 2 LÁPIS GRAFITE,",0
+,0
+"APONTADOR, BORRACHA E CRONÔMETRO PESSOAL",0
+,0
+P_OCOR1. ANOTE AQUI ALGUMA OCORRÊCIA DE CAMPO QUE VOCÊ DESEJA RELATAR,0
+,0
+__________________________________________________________________________________________________________,0
+,0
+__________________________________________________________________________________________________________,0
+,0
+__________________________________________________________________________________________________________,0
+,0
+__________________________________________________________________________________________________________,0
+,0
+__________________________________________________________________________________________________________,0
+,0
+,0
+,0
+,0
+2,0
+,0
+,0
+,0
+IDENTIFICAÇÃO e REGISTRO,0
+,0
+,0
+[ENTREVISTADOR],0
+"CONFIRA COM A CRIANÇA, O NOME DOS PAIS BIOLÓGICOS, ENDEREÇO E TELEFONES DA ETIQUETA",0
+,0
+"a. SE HOUVER TROCA DE ETIQUETA, COMUNIQUE IMEDIATAMENTE A EQUIPE INPD PELO TELEFONE",0
+,0
+,0
+ANTES DE INICIAR A ENTREVISTA à  COLOQUE SEU CELULAR NO SILENCIOSO OU DESLIGUE,0
+[DIGITADOR] NO CAMPO ID DIGITAR O IDENTIFICADOR DA ETIQUETA,0
+[DIGITADOR] NO CAMPO ID [REPETIÇÃO] DIGITAR MAIS UMA VEZ O MESMO CÓDIGO IDENTIFICADOR,0
+,0
+[DIGITADOR] NO CAMPO “ORDEM” DIGITAR O NÚMERO DE ORDEM QUE ESTÁ NO CANTO DIREITO DA ETIQUETA,0
+[DIGITADOR] NO CAMPO “ORDEM”[REPETIÇÃO] DIGITAR MAIS UMA VEZ O MESMO NÚMERO DE ORDEM (CANTO DA ETIQUETA),0
+,0
+P_REG5. Código da escola em que a criança estuda: ______,0
+(  ) 99 ERRO DE REGISTRO / ESCOLA EM QUE A CRIANÇA ESTUDAVA NÃO ESTÁ NA LISTA à COMUNICAR SUPERVISOR,0
+,0
+Código Escolas Porto Alegre,0
+01 EEEF Custódio de Mello 12 Col. Est. Francisco A Viera Caldas Jr,0
+02 EEEM José do Patrocínio 13 Col Est. Eng. Ildo Meneghetti,0
+03 EEEB Almirante Bacelar 14 Col. Est. Japão,0
+04 EEEF Eva Carminatti 15 EEE Cel Aparício Borges,0
+05 Almirante Álvaro A.Motta e Silva 16 Col Est. Odila Gay da Fonseca,0
+06 Escola Brigadeiro Francisco Lima e Silva 17 EEEF Antão de Faria,0
+07 EEEM Mariz e Barros 18 EEEM Itália,0
+08 Dom Pedro I 19 C. Est. De E Med Raul Pilla,0
+09 EEB Dolores Alcaraz Caldas 20 IE Dom Diogo de Souza,0
+10 EEEF Julio Brunelli 21 EEEB Mons. Leopoldo Hoff,0
+11 EEEF Prof. Edgar Luiz Schneider 22 Escola Dr. José Loureiro da Silva,0
+,0
+Código Escolas São Paulo,0
+23 Adelina Issa Ashcar 41 Nossa Senhora Aparecida,0
+24 Alcides Gonçalves 42 Oswaldo Walder,0
+25 Prof.André Dreyfuss 43 Pandiá Calógeras,0
+26 Annita Atalla 44 Prof Pedro Voss,0
+27 Antonio Castelar de Franceschi 45 Raul Humaitá,0
+28 Arthur Sabóia 46 República do Paraguay,0
+29 Astrogildo Silva 47 Roberto Mange,0
+30 Brasil Japão 48 Rodrigues Alves,0
+31 Caetano de Campos 49 Presidente Roosevelt,0
+32 Prof Calixto de Souza Aranha 50 Deputado Rubens do Amaral,0
+"33 Prof Carolina Augusta da Costa Galvão,  51 Samuel Klabin",0
+34 Daisy Fugiwara 52 Silvio Braga,0
+35 Marechal Floriano 53 Solano Trindade,0
+36 Henrique de Souza Filho – Henfil 54 Tarsila do Amaral,0
+37 Jacques Maritain 55 Terezinha Medeiros,0
+38 Prof.Julia Collaço França 56 Valentim Gentil,0
+39 Melvin Jones 57 Visconde de Itaúna,0
+40 Prof Mildre Alves Biaggi 60 Maria Odila Guimarães Bueno,0
+,0
+,0
+,0
+P_REG7. Ano que a criança está cursando em (2010) ?,0
+(  ) 1 - 1ª. ano (pré-escola),0
+(  ) 2 – 2º. Ano (1ª. série),0
+(  ) 3 – 3º. Ano (2ª. série),0
+(  ) 4 – 4º. Ano (3ª. série),0
+(  ) 5 – 5º. Ano (4ª. série),0
+(  ) 6 – 6º. Ano (5ª. série),0
+(  ) 7 – 7º. Ano (6ª. série),0
+(  ) 8 – 8º. Ano (7ª. série),0
+(  ) 9 – 9º. Ano (8ª. série),0
+,0
+P_ REG8. Turma/Sala__________________________ (NOME / NÚMERO DA TURMA SEGUNDO A ESCOLA); (  ) 99 NÃO SABE,0
+,0
+,0
+,0
+,0
+3,0
+,0
+,0
+,0
+,0
+EXPLICAÇÃO SOBRE O PROJETO E CONSENTIMENTO,0
+,0
+,0
+[LEIA] Oi! Meu nome é [NOME DO PSICÓLOGO]. Eu sou da equipe do projeto PREVENÇÃO. Desde a sua,0
+"matrícula estamos acompanhando você dentro da escola. Há alguns dias, a sua mãe recebeu uma visita em casa",0
+para uma entrevista detalhada sobre você e hoje iremos fazer a complementação dessa entrevista com algumas,0
+tarefas e perguntas acerca de como você se sente.,0
+,0
+Para não cansar você a avaliação foi dividida em 2 seções de 1 hora com a fonoaudióloga [que você já fez/ que você,0
+irá fazer nos próximos dias] e 2 seções de 1 hora comigo que sou  psicólogo(a) [que você já fez/ que você irá fazer,0
+"nos próximos dias] – num total de 4 seções. São algumas tarefas simples, não se preocupe. A maioria delas",0
+parecem “jogos” em que você tem que tentar acertar o máximo que você puder. Faremos também algumas,0
+perguntas acerca do que vem sentindo e percebendo nos últimos tempo.,0
+,0
+[PSICÓLOGO],0
+,0
+• NÃO É NECESSÁRIO O PREENCHIMENTO DO CABEÇALHO DO TCLE,0
+• PEÇA A CRIANÇA PARA ASSINAR AS 2 VIAS DOS TCLES (TERMOS DE CONSENTIMENTO LIVRE E ESCLARECIDO),0
+,0
+DENTRO DO PROTOCOLO E VOCÊ MESMO (ENTREVISTADOR)  ASSINE AS 2 VIAS DO TCLE COMO TESTEMUNHA DA,0
+ASSINATURA,0
+,0
+,0
+,0
+,0
+,0
+,0
+4,0
+,0
+,0
+HOSPITAL DAS CLÍNICAS DA FACULDADE DE MEDICINA DA,0
+,0
+UNIVERSIDADE DE SÃO PAULO-HCFMUSP,0
+,0
+TERMO DE CONSENTIMENTO LIVRE E ESCLARECIDO,0
+(OBRIGATÓRIO PARA PESQUISAS CIENTÍFICAS EM SERES HUMANOS -,0
+,0
+RESOLUÇÃO NO 196 - CNS),0
+,0
+________________________________________________________________________________________,0
+,0
+DADOS DE IDENTIFICAÇÃO DO SUJEITO DA PESQUISA OU RESPONSÁVEL LEGAL,0
+1. NOME: ....................................................................................................................................................,0
+DOCUMENTO DE IDENTIDADE Nº : ........................................ SEXO :    .M □   F  □,0
+DATA NASCIMENTO: ......../......../......,0
+ENDEREÇO ................................................................................. Nº ........................... APTO: ..................,0
+BAIRRO:  ........................................................................ CIDADE  .............................................................,0
+CEP:.........................................  TELEFONE: DDD (............) ......................................................................,0
+,0
+2.RESPONSÁVEL LEGAL ..............................................................................................................................,0
+"NATUREZA (grau de parentesco, tutor, curador etc.) ..................................................................................",0
+DOCUMENTO DE IDENTIDADE :....................................SEXO:  M □   F □,0
+DATA NASCIMENTO.: ....../......./......,0
+ENDEREÇO: ............................................................................................. Nº ................... APTO: .............................,0
+BAIRRO: ................................................................................ CIDADE: ......................................................................,0
+CEP: .............................................. TELEFONE: DDD (............)..................................................................................,0
+__________________________________________________________________________________________________________,0
+,0
+,0
+,0
+DADOS SOBRE A PESQUISA,0
+,0
+1. TÍTULO DO PROTOCOLO DE PESQUISA,0
+,0
+"“Esquizofrenia e Transtorno Afetivo Bipolar: identificação de estado mental de risco (EMR),",0
+caracterização de endofenótipos e impacto de intervenções para prevenção”.,0
+,0
+,0
+2 PESQUISADOR RESPONSÁVEL: EURÍPEDES CONSTANTINO MIGUEL FILHO.,0
+,0
+CARGO/FUNÇÃO: PROFESSOR ASSOCIADO INSCRIÇÃO CONSELHO REGIONAL Nº 45280,0
+,0
+UNIDADE DO HCFMUSP: Departamento de Psiquiatria,0
+,0
+,0
+Investigadores executantes:,0
+,0
+• Rodrigo Affonseca Bressan,0
+Professor Adjunto da Universidade Federal de São Paulo - UNIFESP.,0
+Inscrição no Conselho Regional no 72193 (CRM-SP),0
+,0
+,0
+,0
+,0
+3. AVALIAÇÃO DO RISCO DA PESQUISA:,0
+,0
+RISCO MÍNIMO □  RISCO MÉDIO X,0
+,0
+RISCO BAIXO □  RISCO MAIOR □,0
+,0
+4.DURAÇÃO DA PESQUISA : A duração total deste projeto é prevista em 3 anos.,0
+,0
+,0
+,0
+,0
+5,0
+,0
+,0
+Informações sobre a pesquisa dirigidas à menores entre 06-12 anos:,0
+,0
+,0
+,0
+"Assim como outras crianças e adolescentes, você está sendo convidado(a) a participar de uma pesquisa sobre detecção",0
+,0
+precoce de problemas de saúde mental. Atualmente sabemos que muitos dos problemas mentais da vida adulta se iniciam nessa,0
+,0
+"fase da vida. Se esses problemas fossem identificados mais cedo, poderíamos evitar que ficassem mais graves. Nossa intenção",0
+,0
+"com este estudo é entender melhor os fatores que levam a dois dos problemas a esquizofrenia e o transtorno afetivo bipolar,",0
+,0
+"para, no futuro, podermos preveni-los.",0
+,0
+"A sua participação seria, primeiramente, responder a alguns questionários e nos deixar coletar amostras de sangue e/",0
+,0
+"ou saliva, o que poderá trazer certo desconforto a você, como cansaço e uma picada de agulha no braço, caso concordar em nos",0
+,0
+"deixar coletar sangue. Entretanto, nossa equipe é composta de profissionais de saúde altamente treinados para diminuir ou",0
+,0
+cuidar de qualquer desconforto.,0
+,0
+Algumas crianças deste estudo serão convidadas a participarem de um exame de ressonância magnética que é uma,0
+,0
+espécie de “fotografia” do cérebro realizada em um aparelho especial. Este é um exame de aproximadamente 20 minutos de,0
+,0
+"duração em que você poderá se sentir um pouco ansioso por ter de permanecer sem se mexer. Entretanto, não causa riscos a",0
+,0
+sua saúde.,0
+,0
+"Informamos, ainda, que em qualquer momento você poderá desistir de participar. Além disso, você só participará por",0
+,0
+"livre e espontânea vontade e com a autorização do seu responsável legal (pai ou mãe). Em qualquer momento, você poderá",0
+,0
+decidir sair do estudo sem nenhuma conseqüência para você ou para a sua família.,0
+,0
+------------------------------------------------- ------------------,0
+,0
+Assinatura do participante/ menor Data         /       /,0
+,0
+-----------------------------------------------------------------------,0
+,0
+Assinatura do participante/representante legal Data         /       /,0
+,0
+,0
+,0
+(Somente para o responsável do projeto),0
+,0
+Declaro que obtive de forma apropriada e voluntária o Consentimento Livre e Esclarecido deste paciente ou representante legal para,0
+,0
+a participação neste estudo.,0
+,0
+-------------------------------------------------------------------------,0
+,0
+Assinatura do responsável pelo estudo Data         /       /,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+6,0
+,0
+,0
+HOSPITAL DAS CLÍNICAS DA FACULDADE DE MEDICINA DA,0
+,0
+UNIVERSIDADE DE SÃO PAULO-HCFMUSP,0
+,0
+TERMO DE CONSENTIMENTO LIVRE E ESCLARECIDO,0
+(OBRIGATÓRIO PARA PESQUISAS CIENTÍFICAS EM SERES HUMANOS -,0
+,0
+RESOLUÇÃO NO 196 - CNS),0
+,0
+________________________________________________________________________________________,0
+,0
+DADOS DE IDENTIFICAÇÃO DO SUJEITO DA PESQUISA OU RESPONSÁVEL LEGAL,0
+1. NOME: ....................................................................................................................................................,0
+DOCUMENTO DE IDENTIDADE Nº : ........................................ SEXO :    .M □   F  □,0
+DATA NASCIMENTO: ......../......../......,0
+ENDEREÇO ................................................................................. Nº ........................... APTO: ..................,0
+BAIRRO:  ........................................................................ CIDADE  .............................................................,0
+CEP:.........................................  TELEFONE: DDD (............) ......................................................................,0
+,0
+2.RESPONSÁVEL LEGAL ..............................................................................................................................,0
+"NATUREZA (grau de parentesco, tutor, curador etc.) ..................................................................................",0
+DOCUMENTO DE IDENTIDADE :....................................SEXO:  M □   F □,0
+DATA NASCIMENTO.: ....../......./......,0
+ENDEREÇO: ............................................................................................. Nº ................... APTO: .............................,0
+BAIRRO: ................................................................................ CIDADE: ......................................................................,0
+CEP: .............................................. TELEFONE: DDD (............)..................................................................................,0
+__________________________________________________________________________________________________________,0
+,0
+,0
+,0
+DADOS SOBRE A PESQUISA,0
+,0
+1. TÍTULO DO PROTOCOLO DE PESQUISA,0
+,0
+"“Esquizofrenia e Transtorno Afetivo Bipolar: identificação de estado mental de risco (EMR),",0
+caracterização de endofenótipos e impacto de intervenções para prevenção”.,0
+,0
+,0
+2 PESQUISADOR RESPONSÁVEL: EURÍPEDES CONSTANTINO MIGUEL FILHO.,0
+,0
+CARGO/FUNÇÃO: PROFESSOR ASSOCIADO INSCRIÇÃO CONSELHO REGIONAL Nº 45280,0
+,0
+UNIDADE DO HCFMUSP: Departamento de Psiquiatria,0
+,0
+,0
+Investigadores executantes:,0
+,0
+• Rodrigo Affonseca Bressan,0
+Professor Adjunto da Universidade Federal de São Paulo - UNIFESP.,0
+Inscrição no Conselho Regional no 72193 (CRM-SP),0
+,0
+,0
+,0
+,0
+3. AVALIAÇÃO DO RISCO DA PESQUISA:,0
+,0
+RISCO MÍNIMO □  RISCO MÉDIO X,0
+,0
+RISCO BAIXO □  RISCO MAIOR □,0
+,0
+4.DURAÇÃO DA PESQUISA : A duração total deste projeto é prevista em 3 anos.,0
+,0
+,0
+,0
+,0
+7,0
+,0
+,0
+Informações sobre a pesquisa dirigidas à menores entre 06-12 anos:,0
+,0
+,0
+,0
+"Assim como outras crianças e adolescentes, você está sendo convidado(a) a participar de uma pesquisa sobre detecção",0
+,0
+precoce de problemas de saúde mental. Atualmente sabemos que muitos dos problemas mentais da vida adulta se iniciam nessa,0
+,0
+"fase da vida. Se esses problemas fossem identificados mais cedo, poderíamos evitar que ficassem mais graves. Nossa intenção",0
+,0
+"com este estudo é entender melhor os fatores que levam a dois dos problemas a esquizofrenia e o transtorno afetivo bipolar,",0
+,0
+"para, no futuro, podermos preveni-los.",0
+,0
+"A sua participação seria, primeiramente, responder a alguns questionários e nos deixar coletar amostras de sangue e/",0
+,0
+"ou saliva, o que poderá trazer certo desconforto a você, como cansaço e uma picada de agulha no braço, caso concordar em nos",0
+,0
+"deixar coletar sangue. Entretanto, nossa equipe é composta de profissionais de saúde altamente treinados para diminuir ou",0
+,0
+cuidar de qualquer desconforto.,0
+,0
+Algumas crianças deste estudo serão convidadas a participarem de um exame de ressonância magnética que é uma,0
+,0
+espécie de “fotografia” do cérebro realizada em um aparelho especial. Este é um exame de aproximadamente 20 minutos de,0
+,0
+"duração em que você poderá se sentir um pouco ansioso por ter de permanecer sem se mexer. Entretanto, não causa riscos a",0
+,0
+sua saúde.,0
+,0
+"Informamos, ainda, que em qualquer momento você poderá desistir de participar. Além disso, você só participará por",0
+,0
+"livre e espontânea vontade e com a autorização do seu responsável legal (pai ou mãe). Em qualquer momento, você poderá",0
+,0
+decidir sair do estudo sem nenhuma conseqüência para você ou para a sua família.,0
+,0
+------------------------------------------------- ------------------,0
+,0
+Assinatura do participante/ menor Data         /       /,0
+,0
+-----------------------------------------------------------------------,0
+,0
+Assinatura do participante/representante legal Data         /       /,0
+,0
+,0
+,0
+(Somente para o responsável do projeto),0
+,0
+Declaro que obtive de forma apropriada e voluntária o Consentimento Livre e Esclarecido deste paciente ou representante legal para,0
+,0
+a participação neste estudo.,0
+,0
+-------------------------------------------------------------------------,0
+,0
+Assinatura do responsável pelo estudo Data         /       /,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+8,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+SEÇÃO 1,0
+,0
+,0
+,0
+P_REG1a. ANOTE A DATA DA ENTREVISTA: ____ / ____ / _________,0
+,0
+P_REG1b. ANOTE O DIA DA SEMANA E O TURNO DA AVALIAÇÃO,0
+MANHÃ   TARDE,0
+(   ) 1 SEGUNDA-FEIRA (   ) 6 SEGUNDA-FEIRA,0
+(   ) 2 TERÇA-FEIRA  (   ) 7 TERÇA-FEIRA,0
+(   ) 3 QUARTA-FEIRA (   ) 8 QUARTA-FEIRA,0
+(   ) 4 QUINTA-FEIRA  (   ) 9 QUINTA-FEIRA,0
+(   ) 5 SEXTA-FEIRA  (   ) 10 SEXTA-FEIRA,0
+,0
+P_REG1c. ANOTE A HORA EXATA DE INÍCIO: ____ : ____,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+9,0
+,0
+,0
+,0
+,0
+PRÉ-TESTE 1,0
+,0
+,0
+SONO,0
+PSICO1_1. Você está com sono agora?,0
+"(  ) 0 Não;  (  ) 1 Sim, um pouco; (  ) 2 Sim, muito",1
+,0
+,0
+"PSICO1_2. [Mesmo que você não esteja com sono], você está se sentindo cansado, como se não tivesse dormido o bastante?",1
+"(  ) 0 Não; (  ) 1 Sim, um pouco; (  ) 2 Sim, muito",0
+,0
+,0
+PSICO1_3. Quantas horas você dormiu de ontem para hoje aproximadamente? ______ horas;  (  ) 99 NÃO SABE,1
+,0
+,0
+"PSICO1_4. Pensando nos últimos 7 dias, você dormiu bem?",1
+"(  ) 0 Não; (  ) 1 Mais ou menos; (  ) 2 Sim, muito bem",0
+"[PSICO] SE VOCÊ ESTIVER NO INÍCIO DA SEMANA (SEG/TER), PERGUNTE ACERCA DA SEMANA PASSADA",0
+"SE VOCÊ ESTIVER DO MEIO DA SEMANA (QUA/QUI/SEX), PERGUNTE ACERCA DESSA SEMANA",0
+ALIMENTAÇÃO,0
+PSICO1_5. Você está com fome agora?,1
+"(  ) 0 Não;  (  ) 1 Sim, um pouco; (  ) 2 Sim, muito",0
+,0
+,0
+"PSICO1_6. E, o contrário, você está se sentindo mal por que comeu demais?",1
+"(  ) 0 Não; (  ) 1 Sim, um pouco; (  ) 2 Sim, muito",0
+,0
+,0
+PSICO1_7. Faz quanto tempo que você comeu pela última vez? ______ minutos;  (  ) 99 NÃO SABE,1
+"[PSICO] CONTAR O TEMPO DA ÚLTIMA REFEIÇÃO (INCLUINDO CONSUMO DE CHOCOLATE).  NÃO CONTAR BALAS, CHICLETES OU REFRIGERANTES.",0
+ANSIEDADE,0
+"PSICO1_8. Qual o seu nível de estresse nesse momento? Eu quero dizer, o quanto você anda preocupado com tarefas (como",1
+trabalhos ou provas) ou problemas na escola ou ainda o quanto você anda preocupado com problemas que estejam,0
+acontecendo em casa ou com os amigos?,0
+,0
+Nenhum Mínimo Leve Moderado Intenso Muito,0
+Intenso,0
+,0
+Máximo,0
+,0
+,0
+(  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5 (  ) 6 (  ) 7 (  ) 8 (  ) 9 (  ) 10,0
+,0
+,0
+PSICO1_9. [PSICO] ANOTE SUA PERCEPÇÃO SUBJETIVA DA ANSIEDADE DA CRIANÇA?,1
+NENHUM MÍNIMO LEVE MODERADO INTENSO MUITO,1
+,0
+INTENSO,0
+MÁXIMO,0
+,0
+,0
+(  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5 (  ) 6 (  ) 7 (  ) 8 (  ) 9 (  ) 10,0
+,0
+,0
+,0
+[PSICO] IMPORTANTE ANOTAR APENAS SINTOMAS RELACIONADOS À ANSIEDADE RELACIONADOS AO TESTE. SE CRIANÇA ESTIVER APRESENTANDO OS,0
+"SINTOMAS ACIMA RELACIONADOS A UMA DOENÇA CLÍNICA, TENTAR SEPARAR O COMPONENTE ANSIOSO ATRAVÉS DO COMPORTAMENTO DA CRIANÇA",0
+,0
+PSICO1_10a se sentindo trêmulo? (  ) 0 Não (  ) 1 Um pouco (  ) 2 Muito,1
+PSICO1_10b sentindo seu coração bater forte ou rápido demais? (  ) 0 Não (  ) 1 Um pouco (  ) 2 Muito,1
+"PSICO1_10c sentindo dificuldade de respirar, com se estivesse sufocado? (  ) 0 Não (  ) 1 Um pouco (  ) 2 Muito",1
+PSICO1_10d se sentindo tonto? (  ) 0 Não (  ) 1 Um pouco (  ) 2 Muito,1
+PSICO1_10e sentido vontade de vomitar ou como se fosse vomitar? (  ) 0 Não (  ) 1 Um pouco (  ) 2 Muito,1
+PSICO1_10f suando muito de nervoso? (  ) 0 Não (  ) 1 Um pouco (  ) 2 Muito,1
+PSICO1_10g com dor de barriga? (  ) 0 Não (  ) 1 Um pouco (  ) 2 Muito,1
+PSICO1_10h com dor de cabeça? (  ) 0 Não (  ) 1 Um pouco (  ) 2 Muito,1
+PSICO1_10i muito preocupado? (  ) 0 Não (  ) 1 Um pouco (  ) 2 Muito,1
+PSICO1_10j com muito medo? (  ) 0 Não (  ) 1 Um pouco (  ) 2 Muito,1
+,0
+,0
+,0
+EXERCÍCIO FÍSICO,0
+"PSICO1_11. Você fez alguma atividade física hoje? Como jogar futebol, jogar vôlei, uma longa caminhada ou uma corrida ou",1
+outra brincadeira que você ficou cansado?,1
+"(  ) 0 Não;  (  ) 1 Sim, um pouco; (  ) 2 Sim, muito; (  ) 3 Sim, mais que muito",0
+,0
+"PSICO1_11a. Se SIM,  Faz quanto tempo que você fez esse exercício pela última vez? ______ minutos;",1
+(  ) 88 NÃO SE APLICA (NÃO FEZ ATIVIDADE FÍSICA); (  ) 99 NÃO SABE,0
+,0
+DOENÇA FÍSICA,0
+"PSICO1_12 [PSICO] A CRIANÇA ESTÁ CLARAMENTE COM ALGUMA DOENÇA CLÍNICA AGUDA, COMO UMA INFECÇÃO",0
+"RESPIRATÓRIA (RESFRIADO, GRIPE, ETC.) OU DO TRATO GASTRO-INTESTINAL (DIARRÉIA, ETC.)",0
+(  ) 0 Não;,0
+"(  ) 1 Sim, sem comprometimento no estado geral (é possível que influencie a testagem)",0
+"(  ) 2 Sim, com algum comprometimento no estado geral (é provável que influenciará a testagem)",0
+"(  ) 3 Sim, com comprometimento importante no estado geral (certamente influenciará a testagem)",0
+MEDICAÇÕES,0
+PSICO1_13. Você toma alguma medicação todos os dias ou quase todos os dias para problemas de comportamento (como,1
+"agressividade), falta de atenção ou emocionais (como tristeza, preocupações, timidez)?",0
+"(  ) 0 Não; (  ) 1 Sim, apenas uma; (  ) 2 Sim, mais de uma",0
+,0
+"PSICO1_ 13a.SE SIM, você tomou ela (ou alguma delas) hoje?",1
+(  ) 0 Não; (  ) 1 Sim; (  ) 88 NÃO SE APLICA (Não toma medicação),0
+"PSICO1_13b. SE SIM, você tomou ela (ou alguma delas) na última semana?",0
+(  ) 0 Não; (  ) 1 Sim; (  ) 88 NÃO SE APLICA (Não toma medicação),0
+"PSICO1_13c. SE SIM, você tomou ela (ou alguma delas) no último mês de todos os dias ou quase todos os dias?",1
+(  ) 0 Não; (  ) 1 Sim; (  ) 88 NÃO SE APLICA (Não toma medicação),0
+,0
+,0
+,0
+,0
+10,0
+,0
+,0
+,0
+,0
+,0
+ESTADO,0
+DE,0
+HUMOR,0
+,0
+Abaixo temos uma lista de palavras que descrevem os sentimentos que as pessoas têm. Como você se sente,0
+nesse momento?,0
+,0
+,0
+Nem um,0
+pouco Um pouco Moderadamente Bastante Extremamente,0
+,0
+PSICO1_14 com Raiva (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+PSICO1_15 Deprimido (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+PSICO1_16 Irritado/Incomodado (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+PSICO1_17 Infeliz (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+PSICO1_18 Nervoso (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+PSICO1_19 Apavorado (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+PSICO1_20 Triste (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+PSICO1_21 Mal humorado (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+PSICO1_22 Preocupado (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+11,0
+,0
+,0
+,0
+,0
+,0
+FIGURA DE REY – CÓPIA,0
+à[PSICO] ENTREGAR FOLHA BRANCA A4 E LÁPIS A2,0
+à [LEIA] Nesta tarefa apresentarei uma figura e gostaria que você copiasse da melhor forma possível (ou “bem,0
+"caprichado”). Você não poderá utilizar régua, nem borracha, portanto, preste atenção.",0
+à [PSICO] ENTREGUE 1 FOLHA NA POSIÇÃO HORIZONTAL E APRESENTE A FIGURA. NÃO PERMITA QUE A,0
+CRIANÇA GIRE A FOLHA OU A FIGURA DE ESTÍMULO.,0
+à [PSICO] ACIONAR O CRONOMETRO ASSIM QUE VOCÊ TERMINAR DE DAR AS INSTRUÇÕES ACERCA DA,0
+CÓPIA,0
+"à [PSICO] ANOTAR A SEQUÊNCIA DE CONSTRUÇÃO DA FIGURA, PARA POSTERIOR PONTUAÇÃO DO BQSS",0
+à [PSICO] AO TÉRMINO DA CÓPIA REGISTRAR TEMPO DE EXECUÇÃO NA SEÇÃO ABAIXO,0
+,0
+,0
+,0
+,0
+è,0
+,0
+,0
+Figura Complexa de Rey,0
+,0
+,0
+BQSS. Modelo BQSS: Ordem de Execução,0
+,0
+,0
+,0
+BQSS_C – Pontuação cópia,0
+,0
+"(  ) 4  Macroestruturas (retângulo base, linhas horizontais e",0
+verticais) são desenhados antes de os agrupamentos ou,0
+detalhes.,0
+,0
+(  ) 3 Apenas o retângulo grande com ou sem o triângulo à,0
+direita são realizados antes dos detalhes serem iniciados.,0
+A forma geral é mantida.,0
+,0
+"(  ) 2 A execução do desenho segue alguma lógica (ou ordem),",0
+porém não inicia a partir das macroestruturas acima,0
+citadas.O retângulo grande e a maioria dos detalhes,0
+estão presentes..,0
+,0
+(  ) 1 Não há uma ordem lógica ou sistemática na execução do,0
+desenho. O retângulo pode ou não ser reconhecido e,0
+muitos detalhes não estão presentes.,0
+,0
+,0
+,0
+BQSS_RI – Recuperação Imediata,0
+,0
+"(  ) 4  Macroestruturas (retângulo base, linhas horizontais e",0
+verticais) são desenhados antes de os agrupamentos ou,0
+detalhes.,0
+,0
+(  ) 3 Apenas o retângulo grande com ou sem o triângulo à,0
+direita são realizados antes dos detalhes serem iniciados.,0
+A forma geral é mantida.,0
+,0
+"(  ) 2 A execução do desenho segue alguma lógica (ou ordem),",0
+porém não inicia a partir das macroestruturas acima,0
+citadas.O retângulo grande e a maioria dos detalhes,0
+estão presentes..,0
+,0
+(  ) 1 Não há uma ordem lógica ou sistemática na execução do,0
+desenho. O retângulo pode ou não ser reconhecido e,0
+muitos detalhes não estão presentes.,0
+,0
+,0
+,0
+,0
+,0
+,0
+BQSS_RT – Recuperação Tardia,0
+,0
+"(  ) 4  Macroestruturas (retângulo base, linhas horizontais e",0
+verticais) são desenhados antes de os agrupamentos ou,0
+detalhes.,0
+,0
+(  ) 3 Apenas o retângulo grande com ou sem o triângulo à,0
+direita são realizados antes dos detalhes serem iniciados.,0
+A forma geral é mantida.,0
+,0
+"(  ) 2 A execução do desenho segue alguma lógica (ou ordem),",0
+porém não inicia a partir das macroestruturas acima,0
+citadas.O retângulo grande e a maioria dos detalhes,0
+estão presentes..,0
+,0
+(  ) 1 Não há uma ordem lógica ou sistemática na execução do,0
+desenho. O retângulo pode ou não ser reconhecido e,0
+muitos detalhes não estão presentes.,0
+,0
+,0
+,0
+,0
+12,0
+,0
+,0
+,0
+,0
+,0
+SISTEMA SAVAGE,0
+O SISTEMA SAVAGE DE CORREÇÃO TEM COMO PRINCÍPIO AVALIAR O PLANEJAMENTO DA CRIANÇA AO REALIZAR O DESENHO DA FIGURA DE REY. DESTA,0
+"FORMA, SERÁ MUITO IMPORTANTE REGISTRAR A ORDEM COM QUE ELA FEZ O DESENHO. EM CADA ITEM ABAIXO, PONTUE SE A CRIANÇA DESENHOU A",0
+PARTE DESCRITA DA FIGURA DE UMA VEZ SÓ OU DE MANEIRA FRAGMENTADA.,0
+,0
+"POR EXEMPLO, PARA O RETÂNGULO BASE, VOCÊ DEVE PONTUAR 2 SE O DESENHO FOI FEITO UMA VEZ SÓ OU 0, SE A CRIANÇA DESENHOU POR PARTES",0
+OU NEM CHEGOU A DESENHAR A REFERIDA PARTE. E ASSIM POR DIANTE.,0
+,0
+SAVA_C. Modelo Savage PARA CÓPIA Pontos,0
+,0
+SAVA_C1 Retângulo Base,0
+(  ) 2 Não desenhado como unidade fragmentada.,0
+(  ) 0 Ausente ou desenhado de modo fragmentado.,0
+,0
+SAVA_C2 Diagonais                                x,0
+(  ) 1 Não desenhado como unidade fragmentada.,0
+(  ) 0 Ausente ou desenhado de modo fragmentado.,0
+,0
+SAVA_C3 Linha Vertical do Meio (  ) 1 Não desenhado como unidade fragmentada.,0
+(  ) 0 Ausente ou desenhado de modo fragmentado.,0
+SAVA_C4 Linha Horizontal do Meio (  ) 1 Não desenhado como unidade fragmentada.,0
+(  ) 0 Ausente ou desenhado de modo fragmentado.,0
+,0
+SAVA_C5 Vértice do Triângulo                  >,0
+(  ) 1 Não desenhado como unidade fragmentada.,0
+(  ) 0 Ausente ou desenhado de modo fragmentado.,0
+,0
+,0
+SAVA_RI. Modelo Savage PARA Rec. Imediata Pontos,0
+,0
+SAVA_RI1 Retângulo Base,0
+(  ) 2 Não desenhado como unidade fragmentada.,0
+(  ) 0 Ausente ou desenhado de modo fragmentado.,0
+,0
+SAVA_RI2 Diagonais                                x,0
+(  ) 1 Não desenhado como unidade fragmentada.,0
+(  ) 0 Ausente ou desenhado de modo fragmentado.,0
+,0
+SAVA_RI3 Linha Vertical do Meio (  ) 1 Não desenhado como unidade fragmentada.,0
+(  ) 0 Ausente ou desenhado de modo fragmentado.,0
+SAVA_RI4 Linha Horizontal do Meio (  ) 1 Não desenhado como unidade fragmentada.,0
+(  ) 0 Ausente ou desenhado de modo fragmentado.,0
+,0
+SAVA_RI5 Vértice do Triângulo                  >,0
+(  ) 1 Não desenhado como unidade fragmentada.,0
+(  ) 0 Ausente ou desenhado de modo fragmentado.,0
+,0
+,0
+SAVA_RT. Modelo Savage PARA Rec. Tardia Pontos,0
+,0
+SAVA_RT1 Retângulo Base,0
+(  ) 2 Não desenhado como unidade fragmentada.,0
+(  ) 0 Ausente ou desenhado de modo fragmentado.,0
+,0
+SAVA_RT2 Diagonais                                x,0
+(  ) 1 Não desenhado como unidade fragmentada.,0
+(  ) 0 Ausente ou desenhado de modo fragmentado.,0
+,0
+SAVA_RT3 Linha Vertical do Meio (  ) 1 Não desenhado como unidade fragmentada.,0
+(  ) 0 Ausente ou desenhado de modo fragmentado.,0
+SAVA_RT4 Linha Horizontal do Meio (  ) 1 Não desenhado como unidade fragmentada.,0
+(  ) 0 Ausente ou desenhado de modo fragmentado.,0
+,0
+SAVA_RT5 Vértice do Triângulo                  >,0
+(  ) 1 Não desenhado como unidade fragmentada.,0
+(  ) 0 Ausente ou desenhado de modo fragmentado.,0
+,0
+,0
+,0
+,0
+13,0
+,0
+,0
+,0
+,0
+,0
+"REL.  Classificação e Pontuação por elemento – PARA CÓPIA, RECUPERAÇÃO IMEDIATA E REC. TARDIA",0
+,0
+,0
+,0
+Pontuação: Considerar cada um dos 18,0
+"itens separadamente, avalie a precisão de",0
+cada unidade e sua posição em relação ao,0
+desenho como um todo. Para cada unidade,0
+pontue seguindo os critérios abaixo:,0
+2 Pontos - Preciso (tamanho/forma) e bem,0
+bem localizado,0
+,0
+1 Ponto - Preciso (tamanho/forma) e mal,0
+localizado ou impreciso (tamanho/ forma) e,0
+bem localizado,0
+,0
+"0,5 Ponto",0
+Impreciso (tamanho/forma) e mal localizado,0
+,0
+0 Ponto,0
+Irreconhecível ou ausente,0
+,0
+Elementos Pontos Cópia Pontos Rec.,0
+Imediata,0
+,0
+Pontos Rec.,0
+Tardia,0
+,0
+1 Cruz vertical no canto superior esquerdo fora do,0
+retângulo.,0
+,0
+REL1c,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL1i,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL1t,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+2 Retângulo grande 2. REL2c,0
+"(  )2; (  )1;  (  )0,5;  (  )0",0
+,0
+REL2i,0
+"(  )2; (  )1;  (  )0,5;  (  )0",0
+,0
+REL2t,0
+"(  )2; (  )1;  (  )0,5;  (  )0",0
+,0
+3 Cruz diagonal dentro do retângulo grande 2. REL3c,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL3i,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL3t,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+4 Linha horizontal no meio do retângulo. REL4c,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL4i,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL4t,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+5 Linha vertical no meio do triângulo. REL5c,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL5i,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL5t,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+"6 Retângulo pequeno, dentro de 2, á esquerda. REL6c",0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL6i,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL6t,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+7 Segmento de reta acima do retângulo pequeno 6. REL7c,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL7i,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL7t,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+"8 Quatro linhas paralelas dentro de 2, acima e á",0
+esquerda.,0
+,0
+REL8c,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL8i,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL8t,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+"9 Triângulo acima de 2, superior á direita. REL9c",0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL9i,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL9t,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+10 Segmento de reta vertical dentro de 2 abaixo de 9.  REL10c,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL10i,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL10t,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+11 Circulo com 3 pontos dentro de 2 acima à direita. REL11c,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL11i,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL11t,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+"12 Cinco linha paralelas dentro de 2, quadrado inferior",0
+direito,0
+,0
+REL12c,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL12i,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL12t,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+"13 Lados de um triângulo externo a 2, ligado a ele á",0
+direita,0
+,0
+REL13c,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL13i,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL13t,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+14 Losango ligado a 13. REL14c,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL14i,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL14t,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+"15 Linha vertical, dentro de 13, paralelo a 2. REL15c",0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL15i,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL15t,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+"16 Linha horizontal, dentro de 13, em continuação a 4. REL16c",0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL16i,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL16t,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+17 Cruz ligada a 5 através da linha vertical central. REL17c,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL17i,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL17t,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+"18 Quadrado externo ligado a 2, canto inferior",0
+esquerdo.,0
+,0
+REL18c,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL18i,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REL18t,0
+"(  )2;  (  )1;  (  )0,5;  (  )0",0
+,0
+REYT.  Tempo de Execução,0
+REYT_c                                Cópia _______seg.,0
+,0
+,0
+,0
+REYT_i                     Rec. Imediata _______seg.,0
+,0
+,0
+REYT_t                        Rec. Tardia _______seg.,0
+,0
+,0
+,0
+,0
+,0
+14,0
+,0
+,0
+,0
+,0
+,0
+,0
+Dígitos Ordem Direta,0
+INICIAR COM A TENTATIVA 1 DO ITEM 1.,0
+"[LEIA]: Vou dizer alguns números. escute cuidadosamente e quando eu acabar, você deve repetí-los da mesma forma",0
+,0
+[PSICO],0
+,0
+"LEIA OS DÍGITOS NUM RITMO DE UM NÚMERO POR SEGUNDO, BAIXANDO A INFLEXÃO DE SUA VOZ LEVEMENTE NO ÚLTIMO DÍGITO DA",0
+SEQÜÊNCIA.,0
+,0
+INTERRUPÇÃO: PONTUAÇÃO ZERO NAS DUAS TENTATIVAS DE UM MESMO ITEM.,0
+,0
+"PONTUAÇÃO: 0 PONTOS SE A CRIANÇA ERRAR AS DUAS TENTATIVAS DO ITEM, 1 PONTO SE A CRIANÇA ACERTAR UMA DAS TENTATIVAS DO ITEM E 2 PONTOS SE A",0
+CRIANÇA ACERTAR AMBAS AS TENTATIVAS DO ITEM.,0
+,0
+,0
+,0
+,0
+Dígitos Ordem Direta,0
+,0
+Item 1ª Tentativa / Resposta,0
+Ponto,0
+1ª Tent,0
+,0
+(0 ou 1),0
+,0
+2ª Tentativa / Resposta,0
+Ponto,0
+2ª Tent,0
+,0
+(0 ou 1),0
+,0
+Pontos do Item: 0 ou 1,0
+ou 2,0
+,0
+1. 2 – 9   4 – 6   DGD1    (  )0;  (  )1;  (  )2,0
+,0
+2. 3 – 8 - 6  6 – 1 – 2   DGD2    (  )0;  (  )1;  (  )2,0
+,0
+3. 3 – 4 – 1 – 7   6 – 1 – 5 – 8   DGD 3   (  )0;  (  )1;  (  )2,0
+,0
+4. 8 – 4 – 2 – 3 – 9   5 – 2 – 1 – 8 – 6   DGD4    (  )0;  (  )1;  (  )2,0
+,0
+5. 3 – 8 – 9 – 1 – 7 – 4   7 – 9 – 6 – 4 – 8 – 3   DGD5    (  )0;  (  )1;  (  )2,0
+,0
+6. 5 – 1 – 7 – 4 – 2 – 3 – 8   9 – 8 – 5 – 2 – 1 – 6 – 3   DGD6    (  )0;  (  )1;  (  )2,0
+,0
+7. 1 – 6 – 4 – 5 – 9 – 7 – 6 – 3   2 – 9 – 7 – 6 – 3 – 1 – 5 – 4   DGD7    (  )0;  (  )1;  (  )2,0
+,0
+8. 5 – 3 – 8 – 7 – 1 – 2 – 4 – 6 – 9   4 – 2 – 6 – 9 – 1 – 7 – 8 – 3 – 5   DGD8    (  )0;  (  )1;  (  )2,0
+,0
+,0
+,0
+,0
+,0
+,0
+15,0
+,0
+,0
+,0
+,0
+,0
+Dígitos Ordem Inversa,0
+"[LEIA] Agora vou dizer mais alguns números e quero que você repita de trás para frente. por exemplo, se eu disser 8-2, o que você diria?”.",0
+"à SE A CRIANÇA RESPONDER CORRETAMENTE, [LEIA] “MUITO BEM”. CONTINUAR COM A TENTATIVA 1 DO ITEM 1.",0
+"à SE A CRIANÇA RESPONDER ERRADO [LEIA]: “Não. você deveria dizer 2-8. Eu disse 8-2, então para dizer ao contrário você deveria dizer 2-8. Agora",0
+tente estes números. lembre que você deve dizê-los em ordem inversa: 5-6”.,0
+"[PSICO] MESMO QUE A CRIANÇA NÃO RESPONDA CORRETAMENTE, NÃO AJUDE E INICIE A TENTATIVA 1 DO ITEM 1.",0
+,0
+[PSICO],0
+,0
+"LEIA OS DÍGITOS NUM RITMO DE UM NÚMERO POR SEGUNDO, BAIXANDO A INFLEXÃO DE SUA VOZ LEVEMENTE NO ÚLTIMO DÍGITO DA",0
+SEQÜÊNCIA.,0
+,0
+INTERRUPÇÃO: PONTUAÇÃO ZERO NAS DUAS TENTATIVAS DE UM MESMO ITEM.,0
+,0
+"PONTUAÇÃO: 0 PONTOS SE A CRIANÇA ERRAR AS DUAS TENTATIVAS DO ITEM, 1 PONTO SE A CRIANÇA ACERTAR UMA DAS TENTATIVAS DO ITEM E 2 PONTOS SE A",0
+CRIANÇA ACERTAR AMBAS AS TENTATIVAS DO ITEM.,0
+,0
+,0
+,0
+Dígitos Ordem Inversa,0
+,0
+Item 1ª Tentativa /,0
+Resposta,0
+,0
+Ponto,0
+1ª Tent,0
+(0 ou 1),0
+,0
+2ª Tentativa / Resposta,0
+Ponto,0
+2ª Tent,0
+(0 ou 1),0
+,0
+Pontos do Item: 0 ou 1 ou 2,0
+,0
+Exemplo: 8 – 2   Exemplo 2: 5 – 6,0
+,0
+1. 2 – 5   6 – 3   DGI1       (  )0;  (  )1;  (  )2,0
+,0
+2. 6 – 7 – 4   2 – 5 – 9   DGI2       (  )0;  (  )1;  (  )2,0
+,0
+3. 7 – 2 – 9 – 6   8 – 4 – 9 – 3   DGI3       (  )0;  (  )1;  (  )2,0
+,0
+4. 4 – 1 – 3 – 5 – 7   9 – 7 – 8 – 5 – 2   DGI4       (  )0;  (  )1;  (  )2,0
+,0
+5. 1 – 6 – 5 – 2 – 9 – 8   3 – 6 – 7 – 1 – 9 – 4   DGI5       (  )0;  (  )1;  (  )2,0
+,0
+6. 8 – 5 – 9 – 2 – 3 – 4 – 2   4 – 5 – 7 – 9 – 2 – 8 – 1   DGI6       (  )0;  (  )1;  (  )2,0
+,0
+7. 6 – 9 – 1 – 6 – 3 – 2 – 5 – 8   3 – 1 – 7 – 9 – 5 – 4 – 8 – 2   DGI7       (  )0;  (  )1;  (  )2,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+FIGURA DE REY – RECUPERAÇÃO IMEDIATA,0
+,0
+à[PSICO] ENTREGAR FOLHA BRANCA A4 E LÁPIS A2,0
+à [LEIA] Agora eu gostaria que você desenhasse o que você lembra acerca da figura que você copiou agora há,0
+"pouco, só que desta vez não mostrarei a figura.",0
+à [PSICO] ENTREGUE 1 FOLHA NA POSIÇÃO HORIZONTAL. NÃO PERMITA QUE A CRIANÇA GIRE A FOLHA.,0
+à [PSICO] ACIONAR O CRONOMETRO ASSIM QUE VOCÊ TERMINAR DE DAR AS INSTRUÇÕES ACERCA DA,0
+RECUPERAÇÃO IMEDIATA,0
+à [PSICO] VOLTAR NA SEÇÃO FIGURA DE REY PARA ANOTAR A SEQUÊNCIA DE CONSTRUÇÃO DA FIGURA,0
+"NA RECUPERAÇÃO IMEDIATA, PARA POSTERIOR PONTUAÇÃO DO BQSS",0
+à [PSICO] REGISTRAR TEMPO DE EXECUÇÃO DA RECUPERAÇÃO IMEDIATA NA SEÇÃO FIGURA DE REY,0
+,0
+,0
+,0
+,0
+,0
+,0
+16,0
+,0
+,0
+,0
+,0
+,0
+Cubos,0
+,0
+,0
+Modelo 1 (6 a 7 anos de idade ou para crianças entre 8 e 12 que,0
+errarem o item 3),0
+[PSICO]. COLOQUE 2 CUBOS NA FRENTE DA CRIANÇA,0
+[LEIA]  Veja estes cubos. Os dois são iguais. Em alguns lados eles são,0
+"vermelhos, em outros são brancos e em outros são metade vermelhos e",0
+metade brancos.,0
+[PSICO]: VIRE OS CUBOS PARA MOSTRAR TODAS AS FACES.,0
+[LEIA]  Vou colocá-los juntos para fazer alguma coisa com eles. Olhe.,0
+[PSICO]  MONTAR OS CUBOS.,0
+[LEIA]  Agora você junta os seus para que fiquem iguais aos meus.,0
+[PSICO]  COMECE A CRONOMETRAR,0
+,0
+,0
+,0
+Modelo 3 (todas as idades),0
+[LEIA]  Veja estes cubos. Todos são iguais. Em alguns lados eles são,0
+"vermelhos, em outros são brancos e em oturos são metade vermelhos e",0
+metade brancos.,0
+[PSICO]: VIRE OS CUBOS PARA MOSTRAR TODAS AS FACES.,0
+"[LEIA]  Agora vamos colocar os cubos juntos, para que fiquem iguais a",0
+esta figura. Veja o que vou fazer.,0
+"[PSICO]  CONSTRUA O MODELO LENTALMENTE, USANDO OS",0
+CUBOS DA CRIANÇA.,0
+"[LEIA]  Como você vê, a parte de cima dos cubos está igual ao da figura.",0
+[PSICO]  MISTURE OS CUBOS USADOS NA DEMONSTRAÇÃO,0
+"[LEIA]  Agora olhe a figura e faça uma igual a ela, com estes cubos. Pode",0
+começar.,0
+[PSICO]  COMECE A CRONOMETRAR,0
+,0
+[PSICO] TODOS OS ITENS DEVEM SER CRONOMETRADOS.,0
+,0
+"[PSICO]  NOS ITENS 1 A 3, SE A CRIANÇA NÃO CONSEGUIR MONTAR OS CUBOS OU EXTRAPOLAR O TEMPO NA PRIMEIRA TENTATIVA,",0
+"DEVERÁ SER ADMINISTRADA A SEGUNDA TENTATIVA. NA SEGUNDA TENTATIVA, O EXAMINADOR MANTÉM O MODELO INTACTO E FAZ A",0
+MONTAGEM UTILIZANDO OS CUBOS DA CRIANÇA.,0
+,0
+"[PSICO] A PARTIR DO ITEM 4, O EXAMINADOR NÃO DEVERÁ MONTAR MAIS OS CUBOS E OS ITENS SERÃO PONTUADOS CONFORME O",0
+"TEMPO DE EXECUÇÃO DA CRIANÇA, PORTANTO AVISE A ELA PARA QUE ELA FAÇA O MAIS RÁPIDO QUE ELA CONSEGUIR.",0
+,0
+"[PSICO]  NOS ITENS 1 A 4, APRESENTAR OS CUBOS DE FORMA PADRONIZADA (VERIFICAR QUAIS FACES ESTARÃO VOLTADAS PARA",0
+"CIMA (EX: 1V, 1V = 1 VERMELHO E 1 VERMELHO)",0
+,0
+"[PSICO] A ROTAÇÃO DO MODELO DE 30 GRAUS OU MAIS É CONSIDERADA COMO ERRO. A PRIMEIRA VEZ QUE A CRIANÇA DESLOCAR UM MODELO, PONTUAR A",0
+"RESPOSTA COMO ERRADA, MAS MOSTRAR À CRIANÇA O MODELO CORRETO. AO COLOCAR O CUBO NA POSIÇÃO CORRETA DIZER: MAS, COMO VOCÊ VÊ, OS",0
+CUBOS SÃO ASSIM. FAZER ESTA CORREÇÃO SOMENTE UMA VEZ DURANTE O TESTE.,0
+,0
+"INVERSO: PARA 8-16 ANOS USAR SEQÜÊNCIA NORMAL PARA OS ITENS ANTERIORES, NO CASO DE ERRO EM QUALQUER DAS TENTATIVAS DO MODELO",0
+3,0
+REGRA DE INTERRUPÇÃO: INTERROMPER APÓS 2 ITENS  CONSECUTIVOS COM PONTUAÇÃO ZERO.,0
+,0
+,0
+Modelos Tempo,0
+Limite Resposta,0
+,0
+Tempo,0
+Exec.,0
+(seg.),0
+,0
+Execução,0
+Correta?,0
+(Ainda,0
+,0
+que fora,0
+do tempo),0
+,0
+Pontos,0
+,0
+Marque a pontuação apropriada para cada item,0
+,0
+1,0
+(6 a 7 anos),0
+,0
+"1V,1V",0
+,0
+,0
+Avaliador constrói o,0
+modelo,0
+,0
+,0
+,0
+45”     1ª,0
+tentativa,0
+,0
+CB1ta,0
+,0
+_____ CB1mc,0
+(  )1 Sim,0
+(  )0 Não,0
+,0
+CB1 (  )2; Acerto na 1ª tentativa,0
+,0
+(  )1; Acerto na 2ª tentativa,0
+,0
+(  )0; Erro em ambas     2ª,0
+tentativa,0
+,0
+CB1tb,0
+,0
+_____,0
+,0
+2,0
+"1V, 2B, 1VB",0
+,0
+,0
+Avaliador constrói o,0
+,0
+modelo,0
+,0
+,0
+45”,0
+,0
+1ª,0
+tentativa,0
+,0
+CB2ta,0
+,0
+_____,0
+CB2mc,0
+(  )1 Sim,0
+(  )0 Não,0
+,0
+,0
+,0
+CB2 (  )2; Acerto na 1ª tentativa,0
+,0
+(  )1; Acerto na 2ª tentativa,0
+,0
+(  )0; Erro em ambas,0
+2ª,0
+,0
+tentativa,0
+,0
+CB2tb,0
+,0
+______,0
+,0
+,0
+,0
+3,0
+(8 a 16 anos),0
+,0
+"1V, 2B, 1VB",0
+,0
+,0
+Avaliador mostra a,0
+figura e  também,0
+constrói o modelo,0
+,0
+45”,0
+,0
+1ª,0
+tentativa,0
+,0
+CB3ta,0
+,0
+______,0
+,0
+CB3mc,0
+(  )1 Sim,0
+(  )0 Não,0
+,0
+CB3 (  )2; Acerto na 1ª tentativa,0
+,0
+(  )1; Acerto na 2ª tentativa,0
+,0
+(  )0; Erro em ambas,0
+,0
+,0
+,0
+2ª,0
+tentativa,0
+,0
+CB3tb,0
+,0
+______,0
+,0
+,0
+,0
+,0
+,0
+,0
+17,0
+,0
+,0
+,0
+,0
+,0
+4,0
+"2V,1B,1VB",0
+,0
+,0
+"A partir deste item o,",0
+avaliador não,0
+,0
+"constrói, a criança",0
+tenta montar direto da,0
+,0
+figura,0
+,0
+45”,0
+,0
+,0
+,0
+CB4t,0
+,0
+______ CB4mc,0
+(  )1 Sim,0
+(  )0 Não,0
+,0
+18”-45”  12”-17”  8”-11”  1”-7”,0
+,0
+CB4 (  )0 (  )4 (  )5 (  )6 (  )7,0
+,0
+5,0
+,0
+45”,0
+,0
+,0
+,0
+CB5t,0
+,0
+______,0
+,0
+CB5mc,0
+(  )1 Sim,0
+(  )0 Não,0
+,0
+20”-45” 14”-19” 9”-13” 1”-8”,0
+,0
+CB5 (  )0 (  )4 (  )5 (  )6 (  )7,0
+,0
+6,0
+,0
+75”,0
+,0
+,0
+,0
+CB6t,0
+,0
+______,0
+,0
+CB6mc,0
+(  )1 Sim,0
+(  )0 Não,0
+,0
+24”-75” 15”-23” 10”-14” 1”-9”,0
+,0
+CB6 (  )0 (  )4 (  )5 (  )6 (  )7,0
+,0
+7,0
+,0
+75”,0
+,0
+,0
+,0
+CB7t,0
+,0
+______,0
+,0
+CB7mc,0
+(  )1 Sim,0
+(  )0 Não,0
+,0
+32”-75” 18”-31” 12”-17” 1”-11”,0
+,0
+CB7  (  )0 (  )4 (  )5 (  )6 (  )7,0
+,0
+8,0
+,0
+75”,0
+,0
+,0
+,0
+CB8t,0
+,0
+______,0
+,0
+CB8mc,0
+(  )1 Sim,0
+(  )0 Não,0
+,0
+31”-75” 19”-30” 14”-18” 1”-13”,0
+,0
+CB8 (  )0 (  )4 (  )5 (  )6 (  )7,0
+,0
+9,0
+,0
+75”,0
+,0
+,0
+,0
+CB9t,0
+,0
+______,0
+,0
+CB9mc,0
+(  )1 Sim,0
+(  )0 Não,0
+,0
+44”-75” 28”-43” 19”-27” 1”-18”,0
+,0
+CB9 (  )0 (  )4 (  )5 (  )6 (  )7,0
+,0
+10,0
+,0
+120”,0
+,0
+,0
+,0
+CB10t,0
+,0
+______,0
+CB10mc,0
+(  )1 Sim,0
+(  )0 Não,0
+,0
+77”-120” 54”-76’ 38”-53” 1”-37”,0
+,0
+CB10 (  )0 (  )4 (  )5 (  )6 (  )7,0
+,0
+11,0
+,0
+120”,0
+,0
+,0
+,0
+CB11t,0
+,0
+______,0
+CB11mc,0
+(  )1 Sim,0
+(  )0 Não,0
+,0
+86”-120” 69”-85” 47”-68” 1”-46”,0
+,0
+CB11 (  )0 (  )4 (  )5 (  )6 (  )7,0
+,0
+12,0
+,0
+120”,0
+,0
+,0
+,0
+CB12t,0
+,0
+______,0
+CB12mc,0
+(  )1 Sim,0
+(  )0 Não,0
+,0
+86”-120” 67”-85” 53”-66” 1”-52”,0
+,0
+CB12 (  )0 (  )4 (  )5 (  )6 (  )7,0
+,0
+CB13               Total de Pontos (Máx. 69 pts),0
+,0
+,0
+,0
+,0
+,0
+,0
+18,0
+,0
+,0
+,0
+,0
+Vocabulário,0
+[LEIA] Eu vou dizer algumas palavras. Escute com atenção e responda o que significa cada palavra.,0
+,0
+[PSICO] FORNECER A RESPOSTA CORRETA DO ITEM 1 SE A CRIANÇA DER UMA RESPONTA DE ZERO OU de UM PONTO.,0
+"[LEIA] Veja, chapéu é um objeto que se coloca na cabeça para proteger do sol.",0
+,0
+[PSICO] REALIZAR INQUÉRITO SEMPRE QUE NECESSÁRIO PARA ESCLARECER AS RESPOSTAS. TENTE DESCOBRIR SE A CRIANÇA,0
+SABE O SIGNIFICADO DA PALAVRA.,0
+[LEIA] Diga o que mais.,0
+[PSICO]  ANOTE COM (Q) QUANDO FOR REALIZADO O INQUÉRITO,0
+,0
+PONTUAÇÃO (CONSULTAR CRIVO):,0
+"2 PONTOS – DEFINIÇÕES DO DICIONÁRIO, CONCEITOS MAIS GENÉRICOS, SINÔNIMOS, UTILIZAÇÃO IMPORTANTE, UMA OU MAIS CARACTERÍSTICAS DO OBJETO",0
+"1 PONTO - EXEMPLOS OU CONCEITOS MAIS CONCRETOS QUE INDICAM QUE A CRIANÇA CONHECE E SABE O QUE SIGNIFICA A PALAVRA, PORÉM NÃO CONSEGUE",0
+DEFINI-LA APROPRIADAMENTE,0
+"0 PONTO – RESPOSTAS VAGAS, QUE FAZEM ALGUMA ASSOCIAÇÃO COM A PALAVRA, PORÉM NÃO A DEFINEM E DEMONSTRAM POBRE CONHECIMENTO DA",0
+PALAVRA.,0
+,0
+"NÃO É DADA PONTUAÇÃO PELO SIMPLES FATO DE A CRIANÇA APONTAR PARA UM OBJETO. SE A CRIANÇA NÃO RESPONDER ORALMENTE, DIZER: DIGA-ME COM",0
+PALAVRAS O QUE É [PALAVRA],0
+"SE A CRIANÇA, POR ENGANO, ESCUTAR UMA PALAVRA DIFERENTE (ABSOLVER EM VEZ DE ABSORVER), DIZER:",0
+*ESCUTE COM ATENÇÃO; O QUE SIGNIFICA [PALAVRA],0
+"CONTUDO, NÃO SOLETRE Â PALAVRA PARA A CRIANÇA.",0
+,0
+INÍCIO: TODAS AS IDADES: ITEM 1,0
+INTERRUPÇÃO: INTERROMPER APÓS 6 ITENS CONSECUTIVOS COM PONTUAÇÃO ZERO.,0
+,0
+,0
+Item  Resposta da criança Pontos,0
+,0
+(0 ou 1 ou 2),0
+,0
+VOC1 *Chapéu  (  )0;  (  )1;  (  )2,0
+,0
+VOC2 *Relógio  (  )0;  (  )1;  (  )2,0
+,0
+VOC3 Ladrão  (  )0;  (  )1;  (  )2,0
+,0
+VOC4 Guarda-chuva  (  )0;  (  )1;  (  )2,0
+,0
+VOC5 Burro  (  )0;  (  )1;  (  )2,0
+,0
+VOC6 Vaca  (  )0;  (  )1;  (  )2,0
+,0
+VOC7 Bicicleta  (  )0;  (  )1;  (  )2,0
+,0
+VOC8 Valente  (  )0;  (  )1;  (  )2,0
+,0
+VOC9 Imitar  (  )0;  (  )1;  (  )2,0
+,0
+VOC10 Antigo  (  )0;  (  )1;  (  )2,0
+,0
+VOC11 Sair  (  )0;  (  )1;  (  )2,0
+,0
+VOC12 Alfabeto  (  )0;  (  )1;  (  )2,0
+,0
+VOC13 Exato  (  )0;  (  )1;  (  )2,0
+,0
+VOC14 Transparente  (  )0;  (  )1;  (  )2,0
+,0
+VOC15 Isolar  (  )0;  (  )1;  (  )2,0
+,0
+,0
+,0
+,0
+19,0
+,0
+,0
+,0
+,0
+,0
+VOC16 Ilha  (  )0;  (  )1;  (  )2,0
+,0
+VOC17 Fábula  (  )0;  (  )1;  (  )2,0
+,0
+VOC18 Absorver  (  )0;  (  )1;  (  )2,0
+,0
+VOC19 Migrar  (  )0;  (  )1;  (  )2,0
+,0
+VOC20 Rivalidade  (  )0;  (  )1;  (  )2,0
+,0
+VOC21 Aflição  (  )0;  (  )1;  (  )2,0
+,0
+VOC22 Absurdo  (  )0;  (  )1;  (  )2,0
+,0
+VOC23 Retificação  (  )0;  (  )1;  (  )2,0
+,0
+VOC24 Unânime  (  )0;  (  )1;  (  )2,0
+,0
+VOC25 Aberração  (  )0;  (  )1;  (  )2,0
+,0
+VOC26 Vangloriar  (  )0;  (  )1;  (  )2,0
+,0
+VOC27 Árduo  (  )0;  (  )1;  (  )2,0
+,0
+VOC28 Iminente  (  )0;  (  )1;  (  )2,0
+,0
+VOC29 Compelir  (  )0;  (  )1;  (  )2,0
+,0
+VOC30 Dilatório  (  )0;  (  )1;  (  )2,0
+,0
+"* Indica que se a criança errar, pontua-se com zero e dá-se auxílio",0
+,0
+,0
+,0
+,0
+20,0
+,0
+,0
+,0
+,0
+,0
+FIGURA DE REY – RECUPERAÇÃO TARDIA,0
+,0
+à[PSICO] ENTREGAR FOLHA BRANCA A4 E LÁPIS A2,0
+à [LEIA] Agora eu gostaria que você desenhasse o que você lembra acerca da figura que você copiou lá no início da,0
+"nossa testagem, só que desta vez também não mostrarei a figura.",0
+à [PSICO] ENTREGUE 1 FOLHA NA POSIÇÃO HORIZONTAL. NÃO PERMITA QUE A CRIANÇA GIRE A FOLHA OU,0
+A FIGURA DE ESTÍMULO.,0
+à [PSICO] ACIONAR O CRONOMETRO ASSIM QUE VOCÊ TERMINAR DE DAR AS INSTRUÇÕES ACERCA DA,0
+RECUPERAÇÃO TARDIA,0
+à [PSICO] VOLTAR NA SEÇÃO FIGURA DE REY  PARA ANOTAR A SEQUÊNCIA DE CONSTRUÇÃO DA FIGURA,0
+"NA RECUPERAÇÃO TARDIA, PARA POSTERIOR PONTUAÇÃO DO BQSS",0
+à [PSICO] REGISTRAR TEMPO DE EXECUÇÃO DA RECUPERAÇÃO TARDIA NA SEÇÃO FIGURA DE REY.,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+21,0
+,0
+,0
+,0
+,0
+Avaliação Clínica de Psicose I,0
+[LEIA] Agora eu gostaria lhe fazer algumas perguntas sobre as coisas nas quais você acredita. Às vezes as pessoas acreditam em,0
+"certas coisas em que outras pessoas não acreditam, eu gostaria que você me contasse um pouco sobre a forma que você pensa",0
+,0
+"[PSICO] PARA TODAS AS PERGUNTAS, A RECOMENDAÇÃO “EXPLORE” É UMA INDICAÇÃO PARA VOCÊ PEDIR UMA DESCRIÇÃO",0
+"DETALHADA DO SINTOMA PARA PODER CARACTERIZÁ-LO. UTILIZE, POR EXEMPLO:",0
+àCOMO É ISSO? / à VOCÊ PODE ME DAR UM EXEMPLO DISSO QUE VOCÊ ESTÁ ME FALANDO?,0
+,0
+APÓS:,0
+à CARACTERIZE FREQUENCIA,0
+à CARACTERIZE INCÔMODO (SOFRIMENTO E PREJUÍZO),0
+à CARACTERIZE PROBABILIDADE DE SER UM SINTOMA PSICÓTICO REAL,0
+,0
+,0
+,0
+"CAPE1. Você acredita em bruxaria, macumba ou",0
+coisas sobrenaturais?,0
+,0
+,0
+(  ) 0 Não,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1 Sim,0
+à EXPLORE O SINTOMA,0
+,0
+"CAPE1a. FREQUENCIA: É só às vezes,",0
+frequentemente ou quase sempre?,0
+,0
+(  ) 0,0
+Nunca,0
+,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1,0
+Às vezes,0
+,0
+(  ) 2,0
+Frequentemente,0
+,0
+(  ) 3,0
+Quase sempre,0
+,0
+CAPE1b. INCÔMODO: O quanto você se incomoda,0
+com esse sintoma?,0
+,0
+(  ) 0 Não me,0
+incomodo,0
+,0
+(  ) 1 Me,0
+incomodo um,0
+,0
+pouco,0
+,0
+(  ) 2 Me incomodo,0
+bastante,0
+,0
+(  ) 3 Me,0
+incomodo muito,0
+,0
+CAPE1c. SINTOMA REAL: [PSICO] QUAL A,0
+PROBABILIDADE DA EXPERIÊNCIA RELATADA SER,0
+"VERDADEIRAMENTE UM SINTOMA, ISTO É, FUGIR DA",0
+NORMALIDADE?,0
+,0
+(  ) 0 Improvável (  ) Pouco,0
+provável (  ) 2 Muito provável (  ) 3,0
+,0
+Certamente,0
+,0
+CAPE1d. DÚVIDA:[PSICO] CASO TENHA DÚVIDA,0
+SOBRE A POSSIBILIDADE DA EXPERIÊNCIA,0
+"RELATADA SER UM SINTOMA PSICÓTICO,",0
+DESCREVA AO LADO A EXPERIÊNCIA,0
+,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+,0
+,0
+"O OBJETIVO É INVESTIGAR COMO A CRIANÇA LIDA COM SUAS CRENÇAS, O QUANTO CRENDICES EM MACUMBA E BRUXARIA A INCOMODAM E",0
+ATRAPALHAM.,0
+,0
+,0
+CAPE2. Às vezes você sente que existem algumas coisas nas,0
+"revistas, jornais, filmes ou na TV foram feitas especialmente",0
+para você ou que falam sobre você?,0
+,0
+(  ) 0 Não,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1 Sim,0
+à EXPLORE O SINTOMA,0
+,0
+"CAPE2a. FREQUENCIA: É só às vezes,",0
+frequentemente ou quase sempre?,0
+,0
+(  ) 0,0
+Nunca,0
+,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1,0
+Às vezes,0
+,0
+(  ) 2,0
+Frequentemente,0
+,0
+(  ) 3,0
+Quase sempre,0
+,0
+CAPE2b. INCÔMODO: O quanto você se incomoda,1
+com esse sintoma?,1
+,0
+(  ) 0 Não me,0
+incomodo,0
+,0
+(  ) 1 Me,0
+incomodo um,0
+,0
+pouco,0
+,0
+(  ) 2 Me incomodo,0
+bastante,0
+,0
+(  ) 3 Me,0
+incomodo muito,0
+,0
+CAPE2c. SINTOMA REAL: [PSICO] QUAL A,0
+PROBABILIDADE DA EXPERIÊNCIA RELATADA SER,1
+"VERDADEIRAMENTE UM SINTOMA, ISTO É, FUGIR DA",1
+NORMALIDADE?,1
+,0
+(  ) 0 Improvável (  ) Pouco,0
+provável (  ) 2 Muito provável (  ) 3,0
+,0
+Certamente,0
+,0
+CAPE2d. DÚVIDA:[PSICO] CASO TENHA DÚVIDA,1
+SOBRE A POSSIBILIDADE DA EXPERIÊNCIA,1
+"RELATADA SER UM SINTOMA PSICÓTICO,",1
+DESCREVA AO LADO A EXPERIÊNCIA,1
+,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+,0
+,0
+"PRESTE ATENÇÃO EM SINAIS DE AUTOREFERÊNCIA, OU SEJA CRENÇAS DE QUE JORNAIS, REVISTA OU TELEVISÃO FALAM SOBRE A VIDA DA",0
+CRIANÇA,0
+,0
+,0
+,0
+,0
+22,0
+,0
+,0
+,0
+,0
+CAPE3. Às vezes você acha que as pessoas são diferentes,1
+daquilo que elas parecem ser?,1
+,0
+(  ) 0 Não,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1 Sim,0
+à EXPLORE O SINTOMA,0
+,0
+"CAPE3a. FREQUENCIA: É só às vezes,",0
+frequentemente ou quase sempre?,0
+,0
+(  ) 0,0
+Nunca,0
+,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1,0
+Às vezes,0
+,0
+(  ) 2,0
+Frequentemente,0
+,0
+(  ) 3,0
+Quase sempre,0
+,0
+CAPE3b. INCÔMODO: O quanto você se incomoda,1
+com esse sintoma?,1
+,0
+(  ) 0 Não me,0
+incomodo,0
+,0
+(  ) 1 Me,0
+incomodo um,0
+,0
+pouco,0
+,0
+(  ) 2 Me incomodo,0
+bastante,0
+,0
+(  ) 3 Me,0
+incomodo muito,0
+,0
+CAPE3c. SINTOMA REAL: [PSICO] QUAL A,1
+PROBABILIDADE DA EXPERIÊNCIA RELATADA SER,1
+"VERDADEIRAMENTE UM SINTOMA, ISTO É, FUGIR DA",1
+NORMALIDADE?,1
+,0
+(  ) 0 Improvável (  ) Pouco,0
+provável (  ) 2 Muito provável (  ) 3,0
+,0
+Certamente,0
+,0
+CAPE3d. DÚVIDA:[PSICO] CASO TENHA DÚVIDA,0
+SOBRE A POSSIBILIDADE DA EXPERIÊNCIA,0
+"RELATADA SER UM SINTOMA PSICÓTICO,",0
+DESCREVA AO LADO A EXPERIÊNCIA,0
+,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+,0
+,0
+A INVESTIGAÇÃO SE REFERE A DELIRIOS DE QUE AS PESSOAS SÃO CLONES OU ESTÃO DISFARÇADAS OU AINDA SENTIMENTOS DE QUE A AS,0
+PESSOAS SÃO FALSAS OU DISSIMULADAS.,0
+,0
+CAPE4. Às vezes você tem a sensação de que está sendo,1
+perseguido?,1
+,0
+,0
+(  ) 0 Não,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1 Sim,0
+à EXPLORE O SINTOMA,0
+,0
+"CAPE4a. FREQUENCIA: É só às vezes,",1
+frequentemente ou quase sempre?,1
+,0
+(  ) 0,0
+Nunca,0
+,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1,0
+Às vezes,0
+,0
+(  ) 2,0
+Frequentemente,0
+,0
+(  ) 3,0
+Quase sempre,0
+,0
+CAPE4b. INCÔMODO: O quanto você se incomoda,1
+com esse sintoma?,1
+,0
+(  ) 0 Não me,0
+incomodo,0
+,0
+(  ) 1 Me,0
+incomodo um,0
+,0
+pouco,0
+,0
+(  ) 2 Me incomodo,0
+bastante,0
+,0
+(  ) 3 Me,0
+incomodo muito,0
+,0
+CAPE4c. SINTOMA REAL: [PSICO] QUAL A,1
+PROBABILIDADE DA EXPERIÊNCIA RELATADA SER,1
+"VERDADEIRAMENTE UM SINTOMA, ISTO É, FUGIR DA",1
+NORMALIDADE?,1
+,0
+(  ) 0 Improvável (  ) Pouco,0
+provável (  ) 2 Muito provável (  ) 3,0
+,0
+Certamente,0
+,0
+CAPE4d. DÚVIDA:[PSICO] CASO TENHA DÚVIDA,0
+SOBRE A POSSIBILIDADE DA EXPERIÊNCIA,0
+"RELATADA SER UM SINTOMA PSICÓTICO,",0
+DESCREVA AO LADO A EXPERIÊNCIA,0
+,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+,0
+,0
+INVESTIGAR A PRESENÇA DE DELÍRIOS PERSECUTÓRIOS,0
+,0
+CAPE5. As vezes você tem a sensação de que as pessoas,1
+mandam mensagens para você através de pequenas coisas,1
+como a forma de olhar ou mesmo sem fazer nada? Acontece,1
+de as pessoas dizerem coisas para você que tem mais de um,1
+significado?,1
+,0
+(  ) 0 Não,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1 Sim,0
+à EXPLORE O SINTOMA,0
+,0
+"CAPE5a. FREQUENCIA: É só às vezes,",0
+frequentemente ou quase sempre?,0
+,0
+(  ) 0,0
+Nunca,0
+,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1,0
+Às vezes,0
+,0
+(  ) 2,0
+Frequentemente,0
+,0
+(  ) 3,0
+Quase sempre,0
+,0
+CAPE5b. INCÔMODO: O quanto você se incomoda,1
+com esse sintoma?,1
+,0
+(  ) 0 Não me,0
+incomodo,0
+,0
+(  ) 1 Me,0
+incomodo um,0
+,0
+pouco,0
+,0
+(  ) 2 Me incomodo,0
+bastante,0
+,0
+(  ) 3 Me,0
+incomodo muito,0
+,0
+CAPE5c. SINTOMA REAL: [PSICO] QUAL A,1
+PROBABILIDADE DA EXPERIÊNCIA RELATADA SER,1
+"VERDADEIRAMENTE UM SINTOMA, ISTO É, FUGIR DA",1
+NORMALIDADE?,1
+,0
+(  ) 0 Improvável (  ) Pouco,0
+provável (  ) 2 Muito provável (  ) 3,0
+,0
+Certamente,0
+,0
+CAPE5d. DÚVIDA:[PSICO] CASO TENHA DÚVIDA,0
+SOBRE A POSSIBILIDADE DA EXPERIÊNCIA,0
+"RELATADA SER UM SINTOMA PSICÓTICO,",0
+DESCREVA AO LADO A EXPERIÊNCIA,0
+,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+,0
+,0
+INVESTIGAR O QUANTO AS PERCEPÇÕES DE COMUNICAÇÃO DA CRIANÇA SÃO BASEADAS EM FATOS REAIS OU SE ELA ENTENDE ESTAR,0
+RECEBENDO UMA COMUNICAÇÃO MESMO SEM INTENÇÃO DO INTERLOCUTOR,0
+,0
+,0
+,0
+,0
+,0
+23,0
+,0
+,0
+,0
+CAPE6. Ás vezes você tem a sensação de que as pessoas,1
+estão se organizando e fazendo planos contra você?,1
+,0
+,0
+(  ) 0 Não,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1 Sim,0
+à EXPLORE O SINTOMA,0
+,0
+"CAPE6a. FREQUENCIA: É só às vezes,",0
+frequentemente ou quase sempre?,0
+,0
+(  ) 0,0
+Nunca,0
+,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1,0
+Às vezes,0
+,0
+(  ) 2,0
+Frequentemente,0
+,0
+(  ) 3,0
+Quase sempre,0
+,0
+CAPE6b. INCÔMODO: O quanto você se incomoda,1
+com esse sintoma?,1
+,0
+(  ) 0 Não me,0
+incomodo,0
+,0
+(  ) 1 Me,0
+incomodo um,0
+,0
+pouco,0
+,0
+(  ) 2 Me incomodo,0
+bastante,0
+,0
+(  ) 3 Me,0
+incomodo muito,0
+,0
+CAPE6c. SINTOMA REAL: [PSICO] QUAL A,0
+PROBABILIDADE DA EXPERIÊNCIA RELATADA SER,1
+"VERDADEIRAMENTE UM SINTOMA, ISTO É, FUGIR DA",1
+NORMALIDADE?,1
+,0
+(  ) 0 Improvável (  ) Pouco,0
+provável (  ) 2 Muito provável (  ) 3,0
+,0
+Certamente,0
+,0
+CAPE6d. DÚVIDA:[PSICO] CASO TENHA DÚVIDA,0
+SOBRE A POSSIBILIDADE DA EXPERIÊNCIA,0
+"RELATADA SER UM SINTOMA PSICÓTICO,",0
+DESCREVA AO LADO A EXPERIÊNCIA,0
+,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+,0
+,0
+"INVESTIGAR DELÍRIOS DE CONSPIRAÇÃO, COMPLÔ, ETC",0
+,0
+CAPE7. Ás vezes você tem a sensação de que você nasceu,0
+com o destino marcado para ser alguém muito importante?,0
+,0
+,0
+(  ) 0 Não,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1 Sim,0
+à EXPLORE O SINTOMA,0
+,0
+"CAPE7a. FREQUENCIA: É só às vezes,",0
+frequentemente ou quase sempre?,0
+,0
+(  ) 0,0
+Nunca,0
+,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1,0
+Às vezes,0
+,0
+(  ) 2,0
+Frequentemente,0
+,0
+(  ) 3,0
+Quase sempre,0
+,0
+CAPE7b. INCÔMODO: O quanto você se incomoda,1
+com esse sintoma?,1
+,0
+(  ) 0 Não me,0
+incomodo,0
+,0
+(  ) 1 Me,0
+incomodo um,0
+,0
+pouco,0
+,0
+(  ) 2 Me incomodo,0
+bastante,0
+,0
+(  ) 3 Me,0
+incomodo muito,0
+,0
+CAPE7c. SINTOMA REAL: [PSICO] QUAL A,0
+PROBABILIDADE DA EXPERIÊNCIA RELATADA SER,1
+"VERDADEIRAMENTE UM SINTOMA, ISTO É, FUGIR DA",1
+NORMALIDADE?,1
+,0
+(  ) 0 Improvável (  ) Pouco,0
+provável (  ) 2 Muito provável (  ) 3,0
+,0
+Certamente,0
+,0
+CAPE7d. DÚVIDA:[PSICO] CASO TENHA DÚVIDA,0
+SOBRE A POSSIBILIDADE DA EXPERIÊNCIA,0
+"RELATADA SER UM SINTOMA PSICÓTICO,",0
+DESCREVA AO LADO A EXPERIÊNCIA,0
+,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+,0
+,0
+"INVESTIGAR DELÍRIO DE GRANDEZA, DE QUE A PESSOA FOI PREDESTINADA PARA SER ALGUÉM MUITO ESPECIAL",0
+,0
+CAPE8. Às vezes você tem a sensação de que você é uma,1
+pessoa muito especial ou diferente das outras?,1
+,0
+,0
+(  ) 0 Não,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1 Sim,0
+à EXPLORE O SINTOMA,0
+,0
+"CAPE8a. FREQUENCIA: É só às vezes,",1
+frequentemente ou quase sempre?,1
+,0
+(  ) 0,0
+Nunca,0
+,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1,0
+Às vezes,0
+,0
+(  ) 2,0
+Frequentemente,0
+,0
+(  ) 3,0
+Quase sempre,0
+,0
+CAPE8b. INCÔMODO: O quanto você se incomoda,0
+com esse sintoma?,0
+,0
+(  ) 0 Não me,0
+incomodo,0
+,0
+(  ) 1 Me,0
+incomodo um,0
+,0
+pouco,0
+,0
+(  ) 2 Me incomodo,0
+bastante,0
+,0
+(  ) 3 Me,0
+incomodo muito,0
+,0
+CAPE8c. SINTOMA REAL: [PSICO] QUAL A,0
+PROBABILIDADE DA EXPERIÊNCIA RELATADA SER,0
+"VERDADEIRAMENTE UM SINTOMA, ISTO É, FUGIR DA",0
+NORMALIDADE?,0
+,0
+(  ) 0 Improvável (  ) Pouco,0
+provável (  ) 2 Muito provável (  ) 3,0
+,0
+Certamente,0
+,0
+CAPE8d. DÚVIDA:[PSICO] CASO TENHA DÚVIDA,0
+SOBRE A POSSIBILIDADE DA EXPERIÊNCIA,0
+"RELATADA SER UM SINTOMA PSICÓTICO,",0
+DESCREVA AO LADO A EXPERIÊNCIA,0
+,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+,0
+,0
+INVESTIGAR DELÍRIOS DE GRANDEZA,0
+,0
+,0
+,0
+,0
+,0
+24,0
+,0
+,0
+,0
+CAPE9. Você as vezes acha que as pessoas se comunicam,0
+através do pensamento?,0
+,0
+,0
+(  ) 0 Não,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1 Sim,0
+à EXPLORE O SINTOMA,0
+,0
+"CAPE9a. FREQUENCIA: É só às vezes,",1
+frequentemente ou quase sempre?,1
+,0
+(  ) 0,0
+Nunca,0
+,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1,0
+Às vezes,0
+,0
+(  ) 2,0
+Frequentemente,0
+,0
+(  ) 3,0
+Quase sempre,0
+,0
+CAPE9b. INCÔMODO: O quanto você se incomoda,1
+com esse sintoma?,1
+,0
+(  ) 0 Não me,0
+incomodo,0
+,0
+(  ) 1 Me,0
+incomodo um,0
+,0
+pouco,0
+,0
+(  ) 2 Me incomodo,0
+bastante,0
+,0
+(  ) 3 Me,0
+incomodo muito,0
+,0
+CAPE9c. SINTOMA REAL: [PSICO] QUAL A,0
+PROBABILIDADE DA EXPERIÊNCIA RELATADA SER,0
+"VERDADEIRAMENTE UM SINTOMA, ISTO É, FUGIR DA",0
+NORMALIDADE?,0
+,0
+(  ) 0 Improvável (  ) Pouco,0
+provável (  ) 2 Muito provável (  ) 3,0
+,0
+Certamente,0
+,0
+CAPE9d. DÚVIDA:[PSICO] CASO TENHA DÚVIDA,0
+SOBRE A POSSIBILIDADE DA EXPERIÊNCIA,0
+"RELATADA SER UM SINTOMA PSICÓTICO,",0
+DESCREVA AO LADO A EXPERIÊNCIA,0
+,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+,0
+,0
+INVESTIGAR DELÍRIOS DE COMUNICAÇÃO TELEPÁTICA PELO PENSAMENTO,0
+,0
+CAPE10. Às vezes você tem a sensação de que os aparelhos,0
+eletrônicos como computadores e celulares podem influenciar,0
+o seu pensamento?,0
+,0
+,0
+(  ) 0 Não,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1 Sim,0
+à EXPLORE O SINTOMA,0
+,0
+"CAPE10a. FREQUENCIA: É só às vezes,",0
+frequentemente ou quase sempre?,0
+,0
+(  ) 0,0
+Nunca,0
+,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1,0
+Às vezes,0
+,0
+(  ) 2,0
+Frequentemente,0
+,0
+(  ) 3,0
+Quase sempre,0
+,0
+CAPE10b. INCÔMODO: O quanto você se,0
+incomoda com esse sintoma?,0
+,0
+(  ) 0 Não me,0
+incomodo,0
+,0
+(  ) 1 Me,0
+incomodo um,0
+,0
+pouco,0
+,0
+(  ) 2 Me incomodo,0
+bastante,0
+,0
+(  ) 3 Me,0
+incomodo muito,0
+,0
+CAPE10c. SINTOMA REAL: [PSICO] QUAL A,0
+PROBABILIDADE DA EXPERIÊNCIA RELATADA SER,0
+"VERDADEIRAMENTE UM SINTOMA, ISTO É, FUGIR DA",0
+NORMALIDADE?,0
+,0
+(  ) 0 Improvável (  ) Pouco,0
+provável (  ) 2 Muito provável (  ) 3,0
+,0
+Certamente,0
+,0
+CAPE10d. DÚVIDA:[PSICO] CASO TENHA,0
+DÚVIDA SOBRE A POSSIBILIDADE DA,0
+EXPERIÊNCIA RELATADA SER UM SINTOMA,0
+"PSICÓTICO, DESCREVA AO LADO A",0
+EXPERIÊNCIA,0
+,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+,0
+,0
+"INVESTIGAR DELÍRIOS DE INFLUENCIA, OU SEJA, DE QUE ALGUMA COISA EXTERNA COMANDO O PENSAMENTO DA CRIANÇA",0
+,0
+CAPE11. Às vezes você tem a sensação de que as pessoas,1
+olham para você de um jeito estranho por causa da sua,1
+aparência?,1
+,0
+,0
+(  ) 0 Não,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1 Sim,0
+à EXPLORE O SINTOMA,0
+,0
+"CAPE11a. FREQUENCIA: É só às vezes,",1
+frequentemente ou quase sempre?,1
+,0
+(  ) 0,0
+Nunca,0
+,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1,0
+Às vezes,0
+,0
+(  ) 2,0
+Frequentemente,0
+,0
+(  ) 3,0
+Quase sempre,0
+,0
+CAPE11b. INCÔMODO: O quanto você se,0
+incomoda com esse sintoma?,1
+,0
+(  ) 0 Não me,0
+incomodo,0
+,0
+(  ) 1 Me,0
+incomodo um,0
+,0
+pouco,0
+,0
+(  ) 2 Me incomodo,0
+bastante,0
+,0
+(  ) 3 Me,0
+incomodo muito,0
+,0
+CAPE11c. SINTOMA REAL: [PSICO] QUAL A,0
+PROBABILIDADE DA EXPERIÊNCIA RELATADA SER,1
+"VERDADEIRAMENTE UM SINTOMA, ISTO É, FUGIR DA",1
+NORMALIDADE?,1
+,0
+(  ) 0 Improvável (  ) Pouco,0
+provável (  ) 2 Muito provável (  ) 3,0
+,0
+Certamente,0
+,0
+CAPE11d. DÚVIDA:[PSICO] CASO TENHA,0
+DÚVIDA SOBRE A POSSIBILIDADE DA,1
+EXPERIÊNCIA RELATADA SER UM SINTOMA,1
+"PSICÓTICO, DESCREVA AO LADO A",1
+EXPERIÊNCIA,0
+,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+,0
+,0
+"INVESTIGAR AUTO-REFERÊNCIA, OU SEJA, INTERPRETAR QUE AS PESSOAS ESTÃO OLHANDO PARA SI OU PRESTANDO ATENÇÃO EM SI",0
+QUANDO NA VERDADE PODEM NÃO ESTAR,0
+,0
+,0
+,0
+,0
+,0
+25,0
+,0
+,0
+,0
+,0
+,0
+CAPE12. Às vezes você sente que sua mente está vazia?,1
+(  ) 0 Não,0
+,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1 Sim,0
+à EXPLORE O SINTOMA,0
+,0
+"CAPE12a. FREQUENCIA: É só às vezes,",0
+frequentemente ou quase sempre?,1
+,0
+(  ) 0,0
+Nunca,0
+,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1,0
+Às vezes,0
+,0
+(  ) 2,0
+Frequentemente,0
+,0
+(  ) 3,0
+Quase sempre,0
+,0
+CAPE12b. INCÔMODO: O quanto você se,0
+incomoda com esse sintoma?,1
+,0
+(  ) 0 Não me,0
+incomodo,0
+,0
+(  ) 1 Me,0
+incomodo um,0
+,0
+pouco,0
+,0
+(  ) 2 Me incomodo,0
+bastante,0
+,0
+(  ) 3 Me,0
+incomodo muito,0
+,0
+CAPE12c. SINTOMA REAL: [PSICO] QUAL A,0
+PROBABILIDADE DA EXPERIÊNCIA RELATADA SER,1
+"VERDADEIRAMENTE UM SINTOMA, ISTO É, FUGIR DA",1
+NORMALIDADE?,1
+,0
+(  ) 0 Improvável (  ) Pouco,0
+provável (  ) 2 Muito provável (  ) 3,0
+,0
+Certamente,0
+,0
+CAPE12d. DÚVIDA:[PSICO] CASO TENHA,0
+DÚVIDA SOBRE A POSSIBILIDADE DA,0
+EXPERIÊNCIA RELATADA SER UM SINTOMA,0
+"PSICÓTICO, DESCREVA AO LADO A",0
+EXPERIÊNCIA,0
+,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+,0
+,0
+"INVESTIGAR DELÍRIO DE QUE A MENTE FICOU ESVAZIADA, QUE NÃO TEM MAIS PENSAMENTOS NA CABEÇA",0
+,0
+,0
+CAPE13. Às vezes você tem a sensação de que os,0
+pensamentos da sua cabeça estão sendo roubados de você?,0
+,0
+(  ) 0 Não,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1 Sim,0
+à EXPLORE O SINTOMA,0
+,0
+"CAPE13a. FREQUENCIA: É só às vezes,",0
+frequentemente ou quase sempre?,0
+,0
+(  ) 0,0
+Nunca,0
+,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1,0
+Às vezes,0
+,0
+(  ) 2,0
+Frequentemente,0
+,0
+(  ) 3,0
+Quase sempre,0
+,0
+CAPE13b. INCÔMODO: O quanto você se,0
+incomoda com esse sintoma?,1
+,0
+(  ) 0 Não me,0
+incomodo,0
+,0
+(  ) 1 Me,0
+incomodo um,0
+,0
+pouco,0
+,0
+(  ) 2 Me incomodo,0
+bastante,0
+,0
+(  ) 3 Me,0
+incomodo muito,0
+,0
+CAPE13c. SINTOMA REAL: [PSICO] QUAL A,0
+PROBABILIDADE DA EXPERIÊNCIA RELATADA SER,1
+"VERDADEIRAMENTE UM SINTOMA, ISTO É, FUGIR DA",1
+NORMALIDADE?,1
+,0
+(  ) 0 Improvável (  ) Pouco,0
+provável (  ) 2 Muito provável (  ) 3,0
+,0
+Certamente,0
+,0
+CAPE13d. DÚVIDA:[PSICO] CASO TENHA,0
+DÚVIDA SOBRE A POSSIBILIDADE DA,0
+EXPERIÊNCIA RELATADA SER UM SINTOMA,0
+"PSICÓTICO, DESCREVA AO LADO A",0
+EXPERIÊNCIA,0
+,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+,0
+,0
+INVESTIGAR DELÍRIOS DE ROUBO DE PENSAMENTO,0
+,0
+CAPE14. Às vezes você tem a sensação de que os,1
+pensamentos da sua cabeça não são seus?,1
+Como sabe que não são seus?  De onde eles vêm?,1
+,0
+(  ) 0 Não,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1 Sim,0
+à EXPLORE O SINTOMA,0
+,0
+"CAPE14a. FREQUENCIA: É só às vezes,",0
+frequentemente ou quase sempre?,1
+,0
+(  ) 0,0
+Nunca,0
+,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1,0
+Às vezes,0
+,0
+(  ) 2,0
+Frequentemente,0
+,0
+(  ) 3,0
+Quase sempre,0
+,0
+CAPE14b. INCÔMODO: O quanto você se,1
+incomoda com esse sintoma?,1
+,0
+(  ) 0 Não me,0
+incomodo,0
+,0
+(  ) 1 Me,0
+incomodo um,0
+,0
+pouco,0
+,0
+(  ) 2 Me incomodo,0
+bastante,0
+,0
+(  ) 3 Me,0
+incomodo muito,0
+,0
+CAPE14c. SINTOMA REAL: [PSICO] QUAL A,0
+PROBABILIDADE DA EXPERIÊNCIA RELATADA SER,1
+"VERDADEIRAMENTE UM SINTOMA, ISTO É, FUGIR DA",1
+NORMALIDADE?,1
+,0
+(  ) 0 Improvável (  ) Pouco,0
+provável (  ) 2 Muito provável (  ) 3,0
+,0
+Certamente,0
+,0
+CAPE14d. DÚVIDA:[PSICO] CASO TENHA,0
+DÚVIDA SOBRE A POSSIBILIDADE DA,0
+EXPERIÊNCIA RELATADA SER UM SINTOMA,0
+"PSICÓTICO, DESCREVA AO LADO A",0
+EXPERIÊNCIA,0
+,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+,0
+,0
+"INVESTIGAR DELÍRIO DE INSERÇÃO DE PENSAMENTO, OU SEJA, IDÉIAS DE QUE PENSAMENTO NÃO PRÓPRIOS SÃO COLOCADOS NA CABEÇA DA",0
+CRIANÇA CONTRA SUA VONTADE,0
+,0
+,0
+,0
+,0
+,0
+,0
+26,0
+,0
+,0
+,0
+,0
+CAPE15. Às vezes você tem a sensação de que os seus,0
+"pensamentos são tão vivos, tão fortes que você fica",1
+preocupado que outras pessoas possam ouvi-los?,1
+,0
+(  ) 0 Não,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1 Sim,0
+à EXPLORE O SINTOMA,0
+,0
+"CAPE15a. FREQUENCIA: É só às vezes,",0
+frequentemente ou quase sempre?,1
+,0
+(  ) 0,0
+Nunca,0
+,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1,0
+Às vezes,0
+,0
+(  ) 2,0
+Frequentemente,0
+,0
+(  ) 3,0
+Quase sempre,0
+,0
+CAPE15b. INCÔMODO: O quanto você se,1
+incomoda com esse sintoma?,1
+,0
+(  ) 0 Não me,0
+incomodo,0
+,0
+(  ) 1 Me,0
+incomodo um,0
+,0
+pouco,0
+,0
+(  ) 2 Me incomodo,0
+bastante,0
+,0
+(  ) 3 Me,0
+incomodo muito,0
+,0
+CAPE15c. SINTOMA REAL: [PSICO] QUAL A,0
+PROBABILIDADE DA EXPERIÊNCIA RELATADA SER,1
+"VERDADEIRAMENTE UM SINTOMA, ISTO É, FUGIR DA",1
+NORMALIDADE?,1
+,0
+(  ) 0 Improvável (  ) Pouco,0
+provável (  ) 2 Muito provável (  ) 3,0
+,0
+Certamente,0
+,0
+CAPE15d. DÚVIDA:[PSICO] CASO TENHA,0
+DÚVIDA SOBRE A POSSIBILIDADE DA,0
+EXPERIÊNCIA RELATADA SER UM SINTOMA,0
+"PSICÓTICO, DESCREVA AO LADO A",0
+EXPERIÊNCIA,0
+,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+,0
+,0
+INVESTIGAR DELÍRIO DE TRANSMISSÃO TELEPÁTICA DO PENSAMENTO,0
+,0
+,0
+CAPE16. Às vezes você tem a sensação de que você é capaz,1
+de ouvir os seus próprios pensamentos?,1
+,0
+(  ) 0 Não,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1 Sim,0
+à EXPLORE O SINTOMA,0
+,0
+"CAPE16a. FREQUENCIA: É só às vezes,",1
+frequentemente ou quase sempre?,1
+,0
+(  ) 0,0
+Nunca,0
+,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1,0
+Às vezes,0
+,0
+(  ) 2,0
+Frequentemente,0
+,0
+(  ) 3,0
+Quase sempre,0
+,0
+CAPE16b. INCÔMODO: O quanto você se,0
+incomoda com esse sintoma?,1
+,0
+(  ) 0 Não me,0
+incomodo,0
+,0
+(  ) 1 Me,0
+incomodo um,0
+,0
+pouco,0
+,0
+(  ) 2 Me incomodo,0
+bastante,0
+,0
+(  ) 3 Me,0
+incomodo muito,0
+,0
+CAPE16c. SINTOMA REAL: [PSICO] QUAL A,0
+PROBABILIDADE DA EXPERIÊNCIA RELATADA SER,1
+"VERDADEIRAMENTE UM SINTOMA, ISTO É, FUGIR DA",1
+NORMALIDADE?,1
+,0
+(  ) 0 Improvável (  ) Pouco,0
+provável (  ) 2 Muito provável (  ) 3,0
+,0
+Certamente,0
+,0
+CAPE16d. DÚVIDA:[PSICO] CASO TENHA,0
+DÚVIDA SOBRE A POSSIBILIDADE DA,0
+EXPERIÊNCIA RELATADA SER UM SINTOMA,0
+"PSICÓTICO, DESCREVA AO LADO A",0
+EXPERIÊNCIA,0
+,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+,0
+,0
+"INVESTIGAR ECO DO PENSAMENTO, OU SEJA SENSAÇÃO DE QUE OS PENSAMENTO QUE SÃO PRODUZIDOS VOLTAM PARA CABEÇA DO",0
+"INDIVÍDUO NA FORMA DE ECO. DIFERENCIAR DE REVERBERAÇÃO, PREOCUPAÇÃO EXCESSIVA QUE LEVA A CRIANÇA A FICAR PENSANDO EM",0
+UMA MESMA COISA A TODO INSTANTE,0
+,0
+,0
+CAPE17. Às vezes você tem a sensação de que você está sob,0
+o controle de uma força ou poder fora de você?,0
+,0
+(  ) 0 Não,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1 Sim,0
+à EXPLORE O SINTOMA,0
+,0
+"CAPE17a. FREQUENCIA: É só às vezes,",0
+frequentemente ou quase sempre?,1
+,0
+(  ) 0,0
+Nunca,0
+,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1,0
+Às vezes,0
+,0
+(  ) 2,0
+Frequentemente,0
+,0
+(  ) 3,0
+Quase sempre,0
+,0
+CAPE17b. INCÔMODO: O quanto você se,0
+incomoda com esse sintoma?,1
+,0
+(  ) 0 Não me,0
+incomodo,0
+,0
+(  ) 1 Me,0
+incomodo um,0
+,0
+pouco,0
+,0
+(  ) 2 Me incomodo,0
+bastante,0
+,0
+(  ) 3 Me,0
+incomodo muito,0
+,0
+CAPE17c. SINTOMA REAL: [PSICO] QUAL A,0
+PROBABILIDADE DA EXPERIÊNCIA RELATADA SER,1
+"VERDADEIRAMENTE UM SINTOMA, ISTO É, FUGIR DA",1
+NORMALIDADE?,1
+,0
+(  ) 0 Improvável (  ) Pouco,0
+provável (  ) 2 Muito provável (  ) 3,0
+,0
+Certamente,0
+,0
+CAPE17d. DÚVIDA:[PSICO] CASO TENHA,0
+DÚVIDA SOBRE A POSSIBILIDADE DA,0
+EXPERIÊNCIA RELATADA SER UM SINTOMA,0
+"PSICÓTICO, DESCREVA AO LADO A",0
+EXPERIÊNCIA,0
+,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+,0
+,0
+"INVESTIGAR DELÍRIO DE CONTROLE, OU SEJA, CRENÇAS DE QUE UMA FORÇA EXTERNA COMANDA A CRIANÇA",0
+,0
+,0
+,0
+,0
+,0
+27,0
+,0
+,0
+,0
+,0
+CAPE18. Às vezes acontece de você estar sozinho e ouvir,0
+vozes?,0
+,0
+(  ) 0 Não,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1 Sim,0
+à EXPLORE O SINTOMA,0
+,0
+"CAPE18a. FREQUENCIA: É só às vezes,",0
+frequentemente ou quase sempre?,0
+,0
+(  ) 0,0
+Nunca,0
+,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1,0
+Às vezes,0
+,0
+(  ) 2,0
+Frequentemente,0
+,0
+(  ) 3,0
+Quase sempre,0
+,0
+CAPE18b. INCÔMODO: O quanto você se,0
+incomoda com esse sintoma?,0
+,0
+(  ) 0 Não me,0
+incomodo,0
+,0
+(  ) 1 Me,0
+incomodo um,0
+,0
+pouco,0
+,0
+(  ) 2 Me incomodo,0
+bastante,0
+,0
+(  ) 3 Me,0
+incomodo muito,0
+,0
+CAPE18c. SINTOMA REAL: [PSICO] QUAL A,0
+PROBABILIDADE DA EXPERIÊNCIA RELATADA SER,0
+"VERDADEIRAMENTE UM SINTOMA, ISTO É, FUGIR DA",0
+NORMALIDADE?,0
+,0
+(  ) 0 Improvável (  ) Pouco,0
+provável (  ) 2 Muito provável (  ) 3,0
+,0
+Certamente,0
+,0
+CAPE18d. DÚVIDA:[PSICO] CASO TENHA,0
+DÚVIDA SOBRE A POSSIBILIDADE DA,0
+EXPERIÊNCIA RELATADA SER UM SINTOMA,0
+"PSICÓTICO, DESCREVA AO LADO A",0
+EXPERIÊNCIA,0
+,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+,0
+,0
+INVESTIGAR ALUCINAÇÕES AUDITIVAS,0
+,0
+,0
+CAPE19. As vezes acontece de você ouvir vozes conversando,0
+umas com as outras enquanto está sozinho?,0
+,0
+(  ) 0 Não,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1 Sim,0
+à EXPLORE O SINTOMA,0
+,0
+"CAPE19a. FREQUENCIA: É só às vezes,",0
+frequentemente ou quase sempre?,0
+,0
+(  ) 0,0
+Nunca,0
+,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1,0
+Às vezes,0
+,0
+(  ) 2,0
+Frequentemente,0
+,0
+(  ) 3,0
+Quase sempre,0
+,0
+CAPE19b. INCÔMODO: O quanto você se,0
+incomoda com esse sintoma?,0
+,0
+(  ) 0 Não me,0
+incomodo,0
+,0
+(  ) 1 Me,0
+incomodo um,0
+,0
+pouco,0
+,0
+(  ) 2 Me incomodo,0
+bastante,0
+,0
+(  ) 3 Me,0
+incomodo muito,0
+,0
+CAPE19c. SINTOMA REAL: [PSICO] QUAL A,0
+PROBABILIDADE DA EXPERIÊNCIA RELATADA SER,0
+"VERDADEIRAMENTE UM SINTOMA, ISTO É, FUGIR DA",0
+NORMALIDADE?,0
+,0
+(  ) 0 Improvável (  ) Pouco,0
+provável (  ) 2 Muito provável (  ) 3,0
+,0
+Certamente,0
+,0
+CAPE19d. DÚVIDA:[PSICO] CASO TENHA,0
+DÚVIDA SOBRE A POSSIBILIDADE DA,0
+EXPERIÊNCIA RELATADA SER UM SINTOMA,0
+"PSICÓTICO, DESCREVA AO LADO A",0
+EXPERIÊNCIA,0
+,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+,0
+,0
+INVESTIGAR ALUCINAÇÕES AUDITIVAS,0
+,0
+CAPE20. Às vezes você tem a impressão de que um membro,0
+da sua família ou que algum amigo ou conhecido foi,1
+substituído por um clone ou um impostor?,1
+,0
+(  ) 0 Não,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1 Sim,0
+à EXPLORE O SINTOMA,0
+,0
+"CAPE20a. FREQUENCIA: É só às vezes,",1
+frequentemente ou quase sempre?,1
+,0
+(  ) 0,0
+Nunca,0
+,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1,0
+Às vezes,0
+,0
+(  ) 2,0
+Frequentemente,0
+,0
+(  ) 3,0
+Quase sempre,0
+,0
+CAPE20b. INCÔMODO: O quanto você se,0
+incomoda com esse sintoma?,1
+,0
+(  ) 0 Não me,0
+incomodo,0
+,0
+(  ) 1 Me,0
+incomodo um,0
+,0
+pouco,0
+,0
+(  ) 2 Me incomodo,0
+bastante,0
+,0
+(  ) 3 Me,0
+incomodo muito,0
+,0
+CAPE20c. SINTOMA REAL: [PSICO] QUAL A,1
+PROBABILIDADE DA EXPERIÊNCIA RELATADA SER,1
+"VERDADEIRAMENTE UM SINTOMA, ISTO É, FUGIR DA",1
+NORMALIDADE?,1
+,0
+(  ) 0 Improvável (  ) Pouco,0
+provável (  ) 2 Muito provável (  ) 3,0
+,0
+Certamente,0
+,0
+CAPE20d. DÚVIDA:[PSICO] CASO TENHA,0
+DÚVIDA SOBRE A POSSIBILIDADE DA,0
+EXPERIÊNCIA RELATADA SER UM SINTOMA,0
+"PSICÓTICO, DESCREVA AO LADO A",0
+EXPERIÊNCIA,0
+,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+,0
+,0
+"INVESTIGAR DELÍRIOS DE QUE UM MEMBRO DA FAMÍLIA FOI SUBSTITUÍDO POR UM IMPOSTOR OU CLONE, QUE NÃO É QUEM REALMENTE",0
+PARECE SER,0
+,0
+,0
+,0
+,0
+,0
+28,0
+,0
+,0
+,0
+,0
+"CAPE21. Às vezes você vê coisas, pessoas ou animais que",1
+outras pessoas não conseguem ver?,1
+,0
+(  ) 0 Não,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1 Sim,0
+à EXPLORE O SINTOMA,0
+,0
+"CAPE21a. FREQUENCIA: É só às vezes,",0
+frequentemente ou quase sempre?,0
+,0
+(  ) 0,0
+Nunca,0
+,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1,0
+Às vezes,0
+,0
+(  ) 2,0
+Frequentemente,0
+,0
+(  ) 3,0
+Quase sempre,0
+,0
+CAPE21b. INCÔMODO: O quanto você se,0
+incomoda com esse sintoma?,0
+,0
+(  ) 0 Não me,0
+incomodo,0
+,0
+(  ) 1 Me,0
+incomodo um,0
+,0
+pouco,0
+,0
+(  ) 2 Me incomodo,0
+bastante,0
+,0
+(  ) 3 Me,0
+incomodo muito,0
+,0
+CAPE21c. SINTOMA REAL: [PSICO] QUAL A,0
+PROBABILIDADE DA EXPERIÊNCIA RELATADA SER,0
+"VERDADEIRAMENTE UM SINTOMA, ISTO É, FUGIR DA",0
+NORMALIDADE?,0
+,0
+(  ) 0 Improvável (  ) Pouco,0
+provável (  ) 2 Muito provável (  ) 3,0
+,0
+Certamente,0
+,0
+CAPE21d. DÚVIDA:[PSICO] CASO TENHA,0
+DÚVIDA SOBRE A POSSIBILIDADE DA,0
+EXPERIÊNCIA RELATADA SER UM SINTOMA,0
+"PSICÓTICO, DESCREVA AO LADO A",0
+EXPERIÊNCIA,0
+,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+,0
+,0
+INVESTIGAR ALUCINAÇÕES VISUAIS,0
+,0
+CAPE22. Às vezes você tem a sensação de que personagens,0
+"de desenhos animados, jogos de vídeo game, computador ou",0
+histórias entraram na sua vida?,0
+,0
+(  ) 0 Não,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1 Sim,0
+à EXPLORE O SINTOMA,0
+,0
+"CAPE22a. FREQUENCIA: É só às vezes,",0
+frequentemente ou quase sempre?,0
+,0
+(  ) 0,0
+Nunca,0
+,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1,0
+Às vezes,0
+,0
+(  ) 2,0
+Frequentemente,0
+,0
+(  ) 3,0
+Quase sempre,0
+,0
+CAPE22b. INCÔMODO: O quanto você se,1
+incomoda com esse sintoma?,1
+,0
+(  ) 0 Não me,0
+incomodo,0
+,0
+(  ) 1 Me,0
+incomodo um,0
+,0
+pouco,0
+,0
+(  ) 2 Me incomodo,0
+bastante,0
+,0
+(  ) 3 Me,0
+incomodo muito,0
+,0
+CAPE22c. SINTOMA REAL: [PSICO] QUAL A,0
+PROBABILIDADE DA EXPERIÊNCIA RELATADA SER,1
+"VERDADEIRAMENTE UM SINTOMA, ISTO É, FUGIR DA",1
+NORMALIDADE?,1
+,0
+(  ) 0 Improvável (  ) Pouco,0
+provável (  ) 2 Muito provável (  ) 3,0
+,0
+Certamente,0
+,0
+CAPE22d. DÚVIDA:[PSICO] CASO TENHA,0
+DÚVIDA SOBRE A POSSIBILIDADE DA,0
+EXPERIÊNCIA RELATADA SER UM SINTOMA,0
+"PSICÓTICO, DESCREVA AO LADO A",0
+EXPERIÊNCIA,0
+,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+,0
+,0
+"INVESTIGAR SE A CRIANÇA CONFUNDE SITUAÇÕES VIRTUAIS COM REAIS, EX. ACHA QUE NAMORA O MOCINHO DA NOVELA,ACREDITA SER UM",0
+"SUPER HERÓI, ETC",0
+,0
+,0
+CAPE23. Às vezes você fica na dúvida se certas coisas são,0
+‘de verdade’ ou ‘de mentira’?,0
+,0
+(  ) 0 Não,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1 Sim,0
+à EXPLORE O SINTOMA,0
+,0
+"CAPE23a. FREQUENCIA: É só às vezes,",1
+frequentemente ou quase sempre?,1
+,0
+(  ) 0,0
+Nunca,0
+,0
+àPRÓXIMA,0
+QUESTÃO,0
+,0
+(  ) 1,0
+Às vezes,0
+,0
+(  ) 2,0
+Frequentemente,0
+,0
+(  ) 3,0
+Quase sempre,0
+,0
+CAPE23b. INCÔMODO: O quanto você se,1
+incomoda com esse sintoma?,1
+,0
+(  ) 0 Não me,0
+incomodo,0
+,0
+(  ) 1 Me,0
+incomodo um,0
+,0
+pouco,0
+,0
+(  ) 2 Me incomodo,0
+bastante,0
+,0
+(  ) 3 Me,0
+incomodo muito,0
+,0
+CAPE23c. SINTOMA REAL: [PSICO] QUAL A,0
+PROBABILIDADE DA EXPERIÊNCIA RELATADA SER,1
+"VERDADEIRAMENTE UM SINTOMA, ISTO É, FUGIR DA",1
+NORMALIDADE?,1
+,0
+(  ) 0 Improvável (  ) Pouco,0
+provável (  ) 2 Muito provável (  ) 3,0
+,0
+Certamente,0
+,0
+CAPE23d. DÚVIDA:[PSICO] CASO TENHA,0
+DÚVIDA SOBRE A POSSIBILIDADE DA,0
+EXPERIÊNCIA RELATADA SER UM SINTOMA,0
+"PSICÓTICO, DESCREVA AO LADO A",0
+EXPERIÊNCIA,0
+,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+__________________________________________________,0
+,0
+,0
+INVESTIGAR SE A CRIANÇA CONSEGUE DISTINGUIR BEM O QUE É REAL DO QUE É IMAGINÁRIO,0
+,0
+,0
+,0
+,0
+,0
+29,0
+,0
+,0
+CAPE24. [PSICO] PRESENÇA DE CONTEÚDO MENTAL INCOMUM,0
+(  ) 0 Nunca/ausência Nenhum conteúdo mental incomum,0
+,0
+(  ) 1 Questionável Leve elaboração das crenças convencionais (entendidas da forma como a maior parte da população as,0
+entende),0
+,0
+(  ) 2 Leve,0
+"Vaga impressão de que algo está diferente ou de que há algo de errado com o mundo, uma impressão de",0
+"que as coisas mudaram, mas o entrevistado não consegue definir, de formal clara e articulada, o que foi",0
+que mudou.  Esta experiência não é fonte de preocupação para o entrevistado,0
+,0
+(  ) 3 Moderado Sentimento de perplexidade. Uma maior sensação de incerteza em relação aos pensamentos do que na,0
+coluna 2,0
+,0
+(  ) 4 Moderadamente,0
+Grave,0
+,0
+"Idéias referenciais de que certos eventos, objetos ou pessoas têm um significado particular ou incomum.",0
+Sentimento de que a experiência possa estar vindo de fora de si mesmo. Não tem plena convicção desta,0
+"crença, o entrevistado é capaz de questioná-la. Não resulta em alteração comportamental",0
+,0
+(  ) 5 Grave,0
+,0
+Pensamentos incomuns contendo material absolutamente excêntrico e altamente improvável. Entrevistado,0
+consegue duvidar (pensamento não se mantém porque não existe uma convicção que beire o delírio ou o,0
+entrevistado não acredita nestes pensamentos o tempo todo). Pode resultar em alteração comportamental,0
+embora esta seja pequena.,0
+,0
+(  ) 6 Psicótico e,0
+grave,0
+,0
+Pensamentos incomuns contendo material absolutamente excêntrico e altamente improvável mantidos,0
+com uma convicção que beira o delírio (nenhuma dúvida).  Pode influenciar o comportamento de forma,0
+marcante,0
+,0
+,0
+,0
+TEXTO DE APOIO,0
+"[PSICO] SE VOCÊ FICAR COM DÚVIDA ACERCA DESSE ITEM, LEIA ABAIXO",0
+O conteúdo mental incomum é definido pela presença de idéias bizarras ou não-usuais relacionadas a situações,0
+claramente improváveis ou impossíveis. Existem 3 tipos de conteúdos que devem ser investigados nesse item:,0
+"perplexidade, idéias de referência e idéias bizarras.",0
+,0
+"A perplexidade refere-se a uma situação se sentir diferente, que você mudou e não entende o que ocorreu. Essa",0
+sensação também pode ocorrer em relação ao mundo ou as pessoas próximas.,0
+Exemplos de pergunta:,0
+• Você já sentiu que algo estranho está acontecendo e você não consegue explicar o que é? Como é isso?,1
+• Você se sente desorientado em relação a alguma coisa? Os ambientes familiares te parecem estranhos?,1
+• Você sente que você mudou de alguma forma?,1
+• Você sente que os outros ou o mundo mudaram de alguma forma?,1
+,0
+"As idéias de referencia são uma percepção de que as coisas ao seu redor têm um significado único, direcionado",0
+especialmente para a pessoa.,0
+Exemplo de pergunta:,0
+• Você já sentiu que as coisas que ocorriam a sua volta tinham um significado especial ou que as pessoas estavam,0
+,0
+tentando te enviar mensagens? Como foi? Como isso começou?,1
+,0
+"As idéias bizarras dizem respeito a conteúdo ou situações absurdas, impossíveis de ocorrer. Abaixo os exemplos de",1
+situações e perguntas que devem ser investigados:,1
+"• Pensamentos, sentimentos e impulsos fabricados: Você já sentiu que alguém ou alguma coisa fora de você tem",1
+,1
+"controlado os teus pensamentos, sentimentos ou impulsos e estes parecem não vir de você?",0
+• Passividade Somática: Você tem sentido sensações estranhas no teu corpo? Sabe o que as causa? Elas poderiam,0
+,0
+ser atribuídas a outras pessoas ou forças que estão fora de você?,1
+• Introdução de pensamentos: Você já sentiu que idéias ou pensamentos que não seus foram colocados na sua,1
+,0
+cabeça? Como sabe que não são seus?  De onde eles vêm?,1
+• Remoção de pensamentos: Você já sentiu alguma vez que as idéias ou pensamentos estão sendo retirados de sua,1
+,0
+cabeça? Como isso acontece?,1
+• Transmissão de pensamentos: os seus pensamentos são transmitidos de maneira que as outras pessoas sabem,1
+,0
+sobre o que você está pensando?,1
+• Leitura de pensamentos: Existem outras pessoas que conseguem ler a sua mente?,1
+,0
+,0
+,0
+,0
+30,0
+,0
+,0
+CAPE25. [PSICO] PRESENÇA DE EXPERIÊNCIAS SENSORIAIS INCOMUNS,0
+(  ) 0 Nunca/ausência Nenhuma experiência perceptiva.,0
+(  ) 1 Questionável,0
+,0
+(  ) 2 Leve,0
+"Percepções exacerbadas ou entorpecidas, ilusões (ex. luzes/sombras).",0
+Não é particularmente angustiante.,0
+Experiências hipnagôgicas/ hipnopômpicas,0
+,0
+(  ) 3 Moderado,0
+,0
+"Experiências mais intrigantes: distorções/ilusões mais intensas/vívidas murmúrios indiferenciados, etc. .",0
+Entrevistado não tem certeza acerca da natureza das experiências.,0
+Consegue descartá-las.,0
+Não causa sofrimento.,0
+Desrealização.,0
+Despersonalização,0
+,0
+(  ) 4 Moderadamente,0
+Grave,0
+,0
+"Experiências mais vívidas do que na classificação 3 como, por exemplo, ter o seu nome chamado, ouvir o",0
+"telefone tocar, etc. mas podem ser fugazes, transitórias.",0
+É capaz de dar uma explicação plausível para a experiência.,0
+Pode estar associado com um leve sofrimento,0
+,0
+(  ) 5 Grave,0
+"Verdadeiras alucinações (ex. ouvir vozes ou conversas, sentir alguém tocando o corpo.",0
+"Ao esforçar-se, o entrevistado é capaz de duvidar da experiência.",0
+Pode ser assustador ou estar associado a certo grau de sofrimento,0
+,0
+(  ) 6 Psicótico e,0
+grave,0
+,0
+Verdadeiras alucinações as quais o entrevistado acredita serem reais no momento em que ele/ela as,0
+"vivencia, assim como depois de tê-las vivenciado.",0
+Pode causar muito sofrimento,0
+,0
+,0
+TEXTO DE APOIO,0
+"[PSICO] SE VOCÊ FICAR COM DÚVIDA ACERCA DESSE ITEM, LEIA ABAIXO",0
+"Esse item tem por objetivo avaliar a presença de experiências incomuns relacionadas aos sentidos (visão,",0
+"audição, tato, paladar, olfato).",0
+,0
+Exemplos de perguntas:,0
+• Você tem visões ou vê coisas que podem não estar realmente lá aonde você as vê? Você costuma ver,0
+,0
+coisas que as outras pessoas não conseguem ou parecem não notar? O que você vê? Quando você vê,0
+"estas coisas, quão reais elas parecem ser? Você se dá conta de que elas não são reais na mesma hora",0
+ou somente mais tarde?,0
+,0
+• Você ouve coisas que podem não existir? Você ouve coisas que as outras pessoas parecem não ouvir,0
+"(como, por exemplo, sons ou vozes)? O que você ouve? Quando você ouve essas coisas, quão reais",0
+elas parecem ser? Você se dá conta de que elas não são reais na mesma hora ou somente mais tarde?,0
+,0
+"• Você sente o cheiro de coisas das quais as outras pessoas não se dão conta? Nesta hora, estes cheiros",0
+parecem reais?  Você se dá conta de que elas não são reais na mesma hora ou somente mais tarde?,0
+,0
+"• Você sente um gosto estranho na tua boca? Quando você sente este gosto, quão real ele parece ser",0
+para você? Você se dá conta de que elas não são reais na mesma hora ou somente mais tarde?,0
+,0
+"• Você sente algo estranho sobre ou logo abaixo da tua pele? Quando você sente estas coisas, quão real",0
+elas te parecem ser?  Você se dá conta de que elas não são reais na mesma hora ou somente mais,0
+tarde?,0
+,0
+,0
+,0
+,0
+31,0
+,0
+,0
+CAPE26. [PSICO] DISCURSO DO ENTREVISTADO,0
+"(  ) 0 Nunca/ausência Discurso normal e lógico, sem desorganização, nenhuma dificuldade para se comunicar ou se fazer",0
+,0
+entender,0
+(  ) 1 Questionável,0
+,0
+(  ) 2 Leve Dificuldades subjetivas leves (ex. dificuldade de transmitir a mensagem).,0
+Imperceptível para as outras pessoas.,0
+,0
+(  ) 3 Moderado Meio vago; certa evidência de circunstancialidade ou irrelevância em seu discurso.,0
+Sentimento de não ser entendido.,0
+,0
+(  ) 4 Moderadamente,0
+Grave,0
+,0
+Evidência clara de discurso e de padrões de raciocínio levemente desconexos,0
+Os elos entre as idéias são mais tangenciais.,0
+Sentimento crescente de frustração durante uma conversa.,0
+,0
+(  ) 5 Grave,0
+"Circunstancialidade ou tangencialidade acentuadas durante o discurso, mas responde à reestruturação",0
+durante a entrevista.,0
+Talvez tenha que apelar para a gesticulação ou a mímica para se comunicar.,0
+,0
+(  ) 6 Psicótico e,0
+grave,0
+,0
+"Falta de coerência, discurso ininteligível, dificuldade significativa de seguir uma linha de raciocínio.",0
+A fala apresenta associações “frouxas”,0
+,0
+,0
+TEXTO DE APOIO,0
+"[PSICO] SE VOCÊ FICAR COM DÚVIDA ACERCA DESSE ITEM, LEIA ABAIXO",0
+Esse item visa avaliar a organização do pensamento do entrevistado através da capacidade de dar respostas,0
+"adequadas e objetivas às perguntas formuladas, desenvolver raciocínios coerentes e com encadeamento lógico.",0
+Exemplos de perguntas:,0
+,0
+• Às vezes é difícil acompanhar o que o entrevistado está dizendo devido do fato de ele estar usando palavras,0
+erradas ou estar sendo circunstancial ou tangencial?,0
+,0
+"• Ele é vago, extremamente abstrato ou concreto? As respostas podem ser condensadas?",0
+,0
+• Ele muda de assunto com freqüência e se perde com as palavras? Parece ter dificuldade para encontrar as,0
+palavras certas? Repete as palavras que você já usou ou faz uso de palavras estranhas (“não-palavras”) durante,0
+uma conversação normal.,0
+,0
+,0
+,0
+CAPE27. [PSICO] EMBOTAMENTO AFETIVO,0
+(  ) 0 Nunca/ausência Não foram observadas anormalidades,0
+(  ) 1 Questionável,0
+(  ) 2 Leve Pode ser observado um leve grau de constricção emocional,0
+,0
+(  ) 3 Moderado,0
+Constrição do campo emocional observável.,0
+Evita ou não consegue demonstrar sentimentos.  Expressividade emocional reduzida.,0
+O entrevistador sente um “distanciamento” ou uma capacidade reduzida de estabelecer contato.,0
+,0
+(  ) 4 Moderadamente,0
+Grave,0
+,0
+Grau mais acentuado de inércia ou embotamento.,0
+O observador identifica uma clara diminuição na capacidade de estabelecer contato,0
+,0
+(  ) 5 Grave Evidência mínima de emotividade,0
+,0
+(  ) 6 Psicótico e,0
+grave,0
+,0
+Embotamento total da emotividade.,0
+Não é observada nenhuma expressão emocional espontânea durante a entrevista,0
+,0
+,0
+,0
+TEXTO DE APOIO,0
+"[PSICO] SE VOCÊ FICAR COM DÚVIDA ACERCA DESSE ITEM, LEIA ABAIXO",0
+"O objetivo de item é avaliar se a expressão de afeto do entrevistado está normal, adequado ao que se espera para a",0
+"idade e contexto da entrevista, ou se encontra reduzida. Os parâmetros para avaliar o afeto são a entonação da voz, a",0
+"mímica facial e os gestos. Quando a expressão facial está reduzida o entrevistado parece distante, vazio, robotizado. É",0
+importante distinguir essas alterações  de timidez excessiva ou ansiedade que podem ocorrer pela situação da,0
+entrevista. Exemplos de perguntas:,0
+,0
+"• Você reparou em qualquer mudança nos teus sentimentos ou emoções como, por exemplo, achar que não tem",0
+,0
+"sentimentos, sentir que as suas emoções estão “esvaziadas” ou que as tuas emoções não são, de alguma",0
+"maneira, verdadeiras?",0
+,0
+• Houve alguma mudança na maneira como você tem usado as tuas emoções?,0
+,0
+• Você ainda tem conseguido desfrutar das coisas ou sentir prazer?,0
+,0
+"• Você acha que, mesmo quando algo ruim acontece, você não consegue mais se sentir triste? Ou quando algo de",0
+"bom acontece, você não consegue mais se sentir feliz?",0
+,0
+"• As pessoas fizeram comentários a respeito da tua expressão facial, dizendo que ela está “vazia” ou que é difícil",0
+saber o que você está pensando?,0
+,0
+,0
+,0
+,0
+,0
+,0
+32,0
+,0
+,0
+,0
+,0
+,0
+Avaliação Clínica de Psicose II,0
+,0
+ALUCINAÇÕES,0
+[PSICO] PARA ESSA AVALIAÇÃO MARQUE APENAS AS ALTERAÇÕES CLARAMENTE PSICÓTICAS APÓS EXPLORAR OS,0
+SINTOMAS USANDO AS PERGUNTAS ANTECEDIDAS DA SETA “à”,0
+,0
+"KALU1.Tem crianças que quando estão sozinhas acham que escutam vozes, ou vêem coisas ou sentem",0
+"cheiros que elas não sabem, realmente, de onde eles vêm. Alguma vez isso aconteceu com você?",0
+,0
+è Como foi isso?,0
+(  ) 0 Não (  ) 1 Sim,0
+,0
+KALU2. Já aconteceu você pensar que ouviu vozes quando você estava sozinho?,0
+è O que você ouviu? (  ) 0 Não (  ) 1 Sim,0
+,0
+KALU3. Você alguma vez ouviu alguém chamar seu nome mesmo quando não havia ninguém por perto?,0
+è Que tipo de coisas você ouviu? (  ) 0 Não (  ) 1 Sim,0
+,0
+KALU4. Alguma vez você já ouviu música que outras pessoas não ouviram? (  ) 0 Não (  ) 1 Sim,0
+,0
+"KALU5. Já aconteceu você ver coisas que, de verdade, não estavam ali?",1
+è Poderiam ser sombras ou outros objetos se movendo? (  ) 0 Não (  ) 1 Sim,0
+,0
+KALU6. E você já pensou que viu fantasma?,1
+è Quando?,1
+è Isto acontece só à noite?,1
+è É quando você está tentando dormir ou acontece de dia também?,1
+è O que você viu?,1
+,0
+(  ) 0 Não (  ) 1 Sim,0
+,0
+[PSICO],0
+"è SE “SIM” EM QUALQUER UM DOS ITENS ACIMA, AVALIE A CONVICÇÃO DA PESSOA SOBRE A REALIDADE DAS",0
+,0
+ALUCINAÇÕES COM AS PERGUNTAS ABAIXO ANTES DE PONTUAR O ITEM ALUCINAÇÃO ABAIXO,0
+,0
+,0
+"è SE “NÃO” EM TODAS AS PERGUNTAS ACIMA, PASSE PARA AVALIAÇÃO DE DELÍRIOS",0
+,0
+O que você pensou que era?,1
+Você pensou que era a sua imaginação ou alguma coisa verdadeira?,1
+"Você pensou que era de verdade quando você (viu, ouviu, etc.)?",1
+Essas vozes que você escuta (ou outras alucinações) ocorrem quando você está acordado ou dormindo? Poderia ter sido um,1
+sonho?,1
+Elas acontecem quando você está começando a dormir? Acordado?,1
+Só quando está escuro?,1
+Acontece também em alguma outra hora?,1
+Quando isso aconteceu você estava com febre?,1
+"Você tinha tomado alguma bebida alcoólica como cerveja, batidinha, pinga vinho?",1
+Tinha usado alguma droga quando isso aconteceu?,1
+"Era mais parecido com um pensamento, com uma voz (som, barulho) ou com uma visão/imagem?",1
+PONTUAÇÃO CLÍNICA FINAL DO MÓDULO DE ALUCINAÇÃO APÓS AVALIAÇÃO DA CONVICÇÃO SOBRE A REALIDADE,0
+DAS ALUCINAÇÕES,0
+,0
+KALU_PRE Presente (  ) 0 Nenhuma,0
+informação (  ) 1 Ausente (  ) 2 Abaixo do limiar /,0
+,0
+suspeito ou provável,0
+(  ) 3 Limiar / presente com,0
+,0
+certeza,0
+,0
+KALU_PAS. Passado (  ) 0 Nenhuma,0
+informação (  ) 1 Ausente (  ) 2 Abaixo do limiar /,0
+,0
+suspeito ou provável,0
+(  ) 3 Limiar / presente com,0
+,0
+certeza,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+33,0
+,0
+,0
+,0
+,0
+DELÍRIOS,0
+[PSICO] PARA ESSA AVALIAÇÃO MARQUE APENAS AS ALTERAÇÕES CLARAMENTE PSICÓTICAS APÓS EXPLORAR OS,0
+SINTOMAS USANDO AS PERGUNTAS ANTECEDIDAS DA SETA “à”,0
+,0
+KDEL1. Você sabe o que é imaginar coisas? O que é? Alguma vez a sua imaginação já lhe pregou um,0
+susto?,0
+,0
+è Que tipo de susto?,0
+è Fale mais sobre isso.,0
+,0
+,0
+,0
+,0
+(  ) 0 Não (  ) 1 Sim,0
+,0
+KDEL2. Você tem idéias ou pensamentos sobre certas coisas que você nunca disse a ninguém com medo,0
+deles não te entenderem?,0
+,0
+è Que idéias?  (  ) 0 Não (  ) 1 Sim,0
+,0
+KDEL3. Você acredita em coisas que outras pessoas não acreditam?,0
+"è Em quê, por exemplo?",0
+,0
+(  ) 0 Não (  ) 1 Sim,0
+,0
+Pergunte sobre cada um dos delirios citados abaixo:,0
+,0
+,0
+KDEL4. Teve alguma vez que você achou que alguém queria machucá-lo?,0
+,0
+è Quem?,0
+è Pôr que?,0
+,0
+,0
+(  ) 0 Não (  ) 1 Sim,0
+,0
+KDEL5. Você achou que você é um pessoa importante ou famosa?,0
+,0
+,0
+(  ) 0 Não (  ) 1 Sim,0
+,0
+KDEL6. Quando você está com pessoas que você não conhece você pensa que eles estão falando sobre,0
+você?,0
+,0
+(  ) 0 Não (  ) 1 Sim,0
+,0
+KDEL7. Alguma vez você sentiu que estava acontecendo alguma coisa diferente ou estranha com o seu,0
+corpo?,0
+,0
+è Como se houvesse alguma coisa muito errada com ele ou que ele estivesse se estragando por,0
+dentro?,0
+,0
+,0
+,0
+(  ) 0 Não (  ) 1 Sim,0
+,0
+KDEL8. Você já se sentiu com a certeza de que o mundo estava acabando?,0
+è Com que frequência você pensava nisso?,0
+,0
+(  ) 0 Não (  ) 1 Sim,0
+,0
+DELÍRIOS PONTUAÇÃO CLÍNICA DO MÓDULO DE DELÍRIO,0
+,0
+KDEL_PRE Presente (  ) 0 Nenhuma,0
+informação,0
+,0
+(  ) 1 Ausente (  ) 2 Abaixo do,0
+limiar / suspeito,0
+ou provável,0
+,0
+(  ) 3 Limiar /,0
+presente com,0
+certeza,0
+,0
+KDEL_PAS. Passado (  ) 0 Nenhuma,0
+informação,0
+,0
+(  ) 1 Ausente (  ) 2 Abaixo do,0
+limiar / suspeito,0
+ou provável,0
+,0
+(  ) 3 Limiar /,0
+presente com,0
+certeza,0
+,0
+,0
+,0
+P_REG1d. ANOTE A HORA EXATA DE TÉRMINO DA APLICAÇÃO 1: ____ : ____,0
+,0
+,0
+,0
+,0
+,0
+,0
+34,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+SEÇÃO 2,0
+,0
+,0
+,0
+P_REG2a. ANOTE A DATA DA ENTREVISTA: ____ / ____ / _________,0
+,0
+P_REG2b. ANOTE O DIA DA SEMANA E O TURNO DA AVALIAÇÃO,0
+MANHÃ   TARDE,0
+(   ) 1 SEGUNDA-FEIRA (   ) 6 SEGUNDA-FEIRA,0
+(   ) 2 TERÇA-FEIRA  (   ) 7 TERÇA-FEIRA,0
+(   ) 3 QUARTA-FEIRA (   ) 8 QUARTA-FEIRA,0
+(   ) 4 QUINTA-FEIRA  (   ) 9 QUINTA-FEIRA,0
+(   ) 5 SEXTA-FEIRA  (   ) 10 SEXTA-FEIRA,0
+,0
+P_REG2c. ANOTE A HORA EXATA DE INÍCIO: ____ : ____,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+35,0
+,0
+,0
+,0
+,0
+,0
+PRÉ-TESTE 2,0
+,0
+SONO,0
+PSICO2_1. Você está com sono agora?,0
+"(  ) 0 Não;  (  ) 1 Sim, um pouco; (  ) 2 Sim, muito",0
+,0
+,0
+"PSICO2_2. [Mesmo que você não esteja com sono], você está se sentindo cansado, como se não tivesse dormido o bastante?",0
+"(  ) 0 Não; (  ) 1 Sim, um pouco; (  ) 2 Sim, muito",0
+,0
+,0
+PSICO2_3. Quantas horas você dormiu de ontem para hoje aproximadamente? ______ horas;  (  ) 99 NÃO SABE,0
+,0
+,0
+"PSICO2_4. Pensando nos últimos 7 dias, você dormiu bem?",0
+"(  ) 0 Não; (  ) 1 Mais ou menos; (  ) 2 Sim, muito bem",0
+"[PSICO] SE VOCÊ ESTIVER NO INÍCIO DA SEMANA (SEG/TER), PERGUNTE ACERCA DA SEMANA PASSADA",0
+"SE VOCÊ ESTIVER DO MEIO DA SEMANA (QUA/QUI/SEX), PERGUNTE ACERCA DESSA SEMANA",0
+ALIMENTAÇÃO,0
+PSICO2_5. Você está com fome agora?,0
+"(  ) 0 Não;  (  ) 1 Sim, um pouco; (  ) 2 Sim, muito",0
+,0
+,0
+"PSICO2_6. E, o contrário, você está se sentindo mal por que comeu demais?",0
+"(  ) 0 Não; (  ) 1 Sim, um pouco; (  ) 2 Sim, muito",0
+,0
+,0
+PSICO2_7. Faz quanto tempo que você comeu pela última vez? ______ minutos;  (  ) 99 NÃO SABE,0
+"[PSICO] CONTAR O TEMPO DA ÚLTIMA REFEIÇÃO (INCLUINDO CONSUMO DE CHOCOLATE).  NÃO CONTAR BALAS, CHICLETES OU REFRIGERANTES.",0
+ANSIEDADE,0
+"PSICO2_8. Qual o seu nível de estresse nesse momento? Eu quero dizer, o quanto você anda preocupado com tarefas (como",0
+trabalhos ou provas) ou problemas na escola ou ainda o quanto você anda preocupado com problemas que estejam,0
+acontecendo em casa ou com os amigos?,0
+,0
+Nenhum Mínimo Leve Moderado Intenso Muito,0
+Intenso,0
+,0
+Máximo,0
+,0
+,0
+(  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5 (  ) 6 (  ) 7 (  ) 8 (  ) 9 (  ) 10,0
+,0
+,0
+PSICO2_9. [PSICO] ANOTE SUA PERCEPÇÃO SUBJETIVA DA ANSIEDADE DA CRIANÇA?,0
+NENHUM MÍNIMO LEVE MODERADO INTENSO MUITO,0
+,0
+INTENSO,0
+MÁXIMO,0
+,0
+,0
+(  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5 (  ) 6 (  ) 7 (  ) 8 (  ) 9 (  ) 10,0
+,0
+,0
+,0
+[PSICO] IMPORTANTE ANOTAR APENAS SINTOMAS RELACIONADOS À ANSIEDADE RELACIONADOS AO TESTE. SE CRIANÇA ESTIVER APRESENTANDO OS,0
+"SINTOMAS ACIMA RELACIONADOS A UMA DOENÇA CLÍNICA, TENTAR SEPARAR O COMPONENTE ANSIOSO ATRAVÉS DO COMPORTAMENTO DA CRIANÇA",0
+,0
+PSICO2_10a se sentindo trêmulo? (  ) 0 Não (  ) 1 Um pouco (  ) 2 Muito,0
+PSICO2_10b sentindo seu coração bater forte ou rápido demais? (  ) 0 Não (  ) 1 Um pouco (  ) 2 Muito,0
+"PSICO2_10c sentindo dificuldade de respirar, com se estivesse sufocado? (  ) 0 Não (  ) 1 Um pouco (  ) 2 Muito",0
+PSICO2_10d se sentindo tonto? (  ) 0 Não (  ) 1 Um pouco (  ) 2 Muito,0
+PSICO2_10e sentido vontade de vomitar ou como se fosse vomitar? (  ) 0 Não (  ) 1 Um pouco (  ) 2 Muito,0
+PSICO2_10f suando muito de nervoso? (  ) 0 Não (  ) 1 Um pouco (  ) 2 Muito,0
+PSICO2_10g com dor de barriga? (  ) 0 Não (  ) 1 Um pouco (  ) 2 Muito,0
+PSICO2_10h com dor de cabeça? (  ) 0 Não (  ) 1 Um pouco (  ) 2 Muito,0
+PSICO2_10i muito preocupado? (  ) 0 Não (  ) 1 Um pouco (  ) 2 Muito,0
+PSICO2_10j com muito medo? (  ) 0 Não (  ) 1 Um pouco (  ) 2 Muito,0
+,0
+,0
+,0
+EXERCÍCIO FÍSICO,0
+"PSICO2_11. Você fez alguma atividade física hoje? Como jogar futebol, jogar vôlei, uma longa caminhada ou uma corrida ou",1
+outra brincadeira que você ficou cansado?,1
+"(  ) 0 Não;  (  ) 1 Sim, um pouco; (  ) 2 Sim, muito; (  ) 3 Sim, mais que muito",0
+,0
+"PSICO2_11a. Se SIM,  Faz quanto tempo que você fez esse exercício pela última vez? ______ minutos;",0
+(  ) 88 NÃO SE APLICA (NÃO FEZ ATIVIDADE FÍSICA); (  ) 99 NÃO SABE,0
+,0
+DOENÇA FÍSICA,0
+"PSICO2_12 [PSICO] A CRIANÇA ESTÁ CLARAMENTE COM ALGUMA DOENÇA CLÍNICA AGUDA, COMO UMA INFECÇÃO",0
+"RESPIRATÓRIA (RESFRIADO, GRIPE, ETC.) OU DO TRATO GASTRO-INTESTINAL (DIARRÉIA, ETC.)",0
+(  ) 0 Não;,0
+"(  ) 1 Sim, sem comprometimento no estado geral (é possível que influencie a testagem)",0
+"(  ) 2 Sim, com algum comprometimento no estado geral (é provável que influenciará a testagem)",0
+"(  ) 3 Sim, com comprometimento importante no estado geral (certamente influenciará a testagem)",0
+MEDICAÇÕES,0
+PSICO2_13. Você toma alguma medicação todos os dias ou quase todos os dias para problemas de comportamento (como,0
+"agressividade), falta de atenção ou emocionais (como tristeza, preocupações, timidez)?",1
+"(  ) 0 Não; (  ) 1 Sim, apenas uma; (  ) 2 Sim, mais de uma",0
+,0
+"PSICO2_ 13a.SE SIM, você tomou ela (ou alguma delas) hoje?",1
+(  ) 0 Não; (  ) 1 Sim,0
+"PSICO2_13b. SE SIM, você tomou ela (ou alguma delas) na última semana?",1
+(  ) 0 Não; (  ) 1 Sim,0
+"PSICO2_13c. SE SIM, você tomou ela (ou alguma delas) no último mês de todos os dias ou quase todos os dias?",1
+(  ) 0 Não; (  ) 1 Sim,0
+,0
+,0
+,0
+,0
+36,0
+,0
+,0
+,0
+,0
+,0
+ESTADO DE HUMOR,0
+Abaixo temos uma lista de palavras que descrevem os sentimentos que as pessoas têm. Como você se sente,1
+nesse momento?,1
+,0
+,0
+,0
+Nem um,0
+pouco Um pouco Moderadamente Bastante Extremamente,0
+,0
+PSICO2_14 com Raiva (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+PSICO2_15 Deprimido (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+PSICO2_16 Irritado/Incomodado (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+PSICO2_17 Infeliz (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+PSICO2_18 Nervoso (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+PSICO2_19 Apavorado (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+PSICO2_20 Triste (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+PSICO2_21 Mal humorado (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+PSICO2_22 Preocupado (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+37,0
+,0
+,0
+,0
+,0
+,0
+Blocos de Corsi – Ordem Direta,0
+"[LEIA] Você está vendo estes cubos azuis? Nesta tarefa eu vou apontar, tocando com o dedo, alguns cubos. Olhe com bastante",0
+"atenção, porque logo em seguida você terá de apontar os mesmos cubos, na mesma ordem que eu fiz. Por exemplo, se eu fizer",0
+"assim ([PSICO]TOQUE OS CUBOS 3 E 1), o que você deve fazer?”Interrupção: Pontuação zero nas duas tentativas de um mesmo item.",0
+,0
+"Pontuação: 0 pontos se a criança errar as duas tentativas do item, 1 ponto se a criança acertar uma das tentativas do item e 2 pontos se a criança",0
+acertar ambas as tentativas do item.,0
+,0
+,0
+,0
+,0
+Blocos de Corsi Ordem Direta,0
+,0
+Item 1ª Tentativa / Resposta,0
+Ponto,0
+1ª Tent,0
+(0 ou 1),0
+,0
+2ª Tentativa / Resposta,0
+Ponto,0
+2ª Tent,0
+(0 ou 1),0
+,0
+Pontos do Item:,0
+0 ou 1 ou 2,0
+,0
+1. 3 – 0  7 – 4   BLD1       (  )0;  (  )1;  (  )2,0
+,0
+2. 1 – 9 – 3  8 – 2 – 7   BLD2       (  )0;  (  )1;  (  )2,0
+,0
+,0
+3. 4 – 9 – 1 – 6   0 – 6 – 2 – 7   BLD3       (  )0;  (  )1;  (  )2,0
+,0
+,0
+4. 6 –5 – 1 – 4 – 8   5 – 7 – 9 – 8 – 2   BLD4       (  )0;  (  )1;  (  )2,0
+,0
+,0
+5. 4 – 1 – 9 – 3 – 8 – 0   9 –2 – 6 – 7 – 3 – 5   BLD5       (  )0;  (  )1;  (  )2,0
+,0
+,0
+6. 0 – 1 – 6 – 4 – 8 – 5 – 7   2 –6 – 3 – 8 – 2 – 0 – 1   BLD6       (  )0;  (  )1;  (  )2,0
+,0
+,0
+7. 7 – 3 – 0 – 5 – 7 –8 – 4 – 9   6 – 9 – 3 – 2 – 1 – 7 – 0 – 5   BLD7       (  )0;  (  )1;  (  )2,0
+,0
+,0
+8. 5– 8 – 4 – 0 – 7 – 3 – 1 – 9 – 6   8 – 2 – 6 – 1 – 0 – 3 – 7 – 4 – 9   BLD8       (  )0;  (  )1;  (  )2,0
+,0
+,0
+,0
+,0
+,0
+38,0
+,0
+,0
+,0
+,0
+,0
+Blocos de Corsi – Ordem Inversa,0
+"[LEIA] Vou apontar, tocando com o dedo, alguns cubos. olhe com bastante atenção, porque logo eu seguida você terá de repetir de",0
+"trás pra frente (TOQUE OS CUBOS 3 E 1), o que você deve fazer?”",0
+,0
+SE A CRIANÇA RESPONDER CORRETAMENTE [LEIA]: “MUITO BEM” à Continuar com a tentativa 1 do item 1.,0
+"SE A CRIANÇA RESPONDER ERRADO AO ITEM EXEMPLO, [LEIA]: “Não. Você deveria fazer assim ([PSICO]TOQUE OS CUBOS 1 E 3). então para apontar ao",0
+contrário você deveria  tocar este (1) e depois este (3).,0
+,0
+"[PSICO] MESMO QUE A CRIANÇA NÃO RESPONDA CORRETAMENTE, NÃO AJUDE E INICIE A TENTATIVA 1 DO ITEM 1.",0
+Interrupção: Pontuação zero nas duas tentativas de um mesmo item.,0
+"Pontuação: 0 pontos se a criança errar as duas tentativas do item, 1 ponto se a criança acertar uma das tentativas do item e 2 pontos se a criança",0
+acertar ambas as tentativas do item.,0
+,0
+,0
+,0
+Blocos de Corsi Ordem Inversa,0
+,0
+Item 1ª Tentativa / Resposta,0
+Ponto,0
+1ª Tent,0
+(0 ou 1),0
+,0
+2ª Tentativa / Resposta,0
+Ponto,0
+2ª Tent,0
+(0 ou 1),0
+,0
+Pontos do Item:,0
+0 ou 1 ou 2,0
+,0
+1. 7 – 4   3 – 0   BLI1       (  )0;  (  )1;  (  )2,0
+,0
+2. 8 – 2 – 7   1 – 9 – 3   BLI2       (  )0;  (  )1;  (  )2,0
+,0
+3. 0 – 6 – 2 – 7   4 – 9 – 1 – 6   BLI3       (  )0;  (  )1;  (  )2,0
+,0
+4. 5 –7 – 9 – 8 – 2   6 – 5 – 1 – 4 – 8   BLI4       (  )0;  (  )1;  (  )2,0
+,0
+5. 9 – 2 – 6 – 7 – 3 – 5   4 – 1 – 9 – 3 – 8 – 0   BLI5       (  )0;  (  )1;  (  )2,0
+,0
+6. 2 – 6 – 3 – 8 – 2 – 0 – 1   0 – 1 – 6 – 4 – 8 – 5 – 7   BLI6       (  )0;  (  )1;  (  )2,0
+,0
+7. 6 – 9 – 3 – 2 – 1 – 7 – 0 – 5   7 –3 – 0 – 5 – 7 – 8 – 4 – 9   BLI7       (  )0;  (  )1;  (  )2,0
+,0
+8. 5 – 8 -  4 – 0 – 7 – 3 – 1 – 9 – 6   6 – 9 – 1- 3 – 7 – 0 – 4 – 8 – 5   BLI8       (  )0;  (  )1;  (  )2,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+39,0
+,0
+,0
+,0
+,0
+,0
+Luria,0
+"[LEIA] Agora eu farei algumas coisas com as mãos, e logo depois quero que você repita igual a mim, ok?",0
+,0
+[PSICO] FAZER O MODELO PARA O EXAMINANDO COM 4 CICLOS DO PROGRAMA MOTOR,0
+[PSICO] FAZER TREINO COM A CRIANÇA DE 1 CICLO DESTE PROGRAMA MOTOR,0
+"[PSICO] PEÇA A CRIANÇA PARA FAZER O MAIS RÁPIDO QUE PUDER. ENQUANTO O EXAMINANDO ESTIVER REALIZANDO A TAREFA NÃO SE  CORRIGE,",0
+"MAS PODE OFERECER INCENTIVO VERBAL (EX.: CONTINUE) E/OU DEMONSTRAÇÃO, SEM INTERROMPER OS MOVIMENTOS DO AVALIANDO (EX.: FAZER O",0
+FORMATO DE UMA MOEDA COM O SEU DEDO PARA APERFEIÇOAR OS MOVIMENTOS DO EXAMINANDO),0
+[PSICO] AVISE QUE A TAREFA IRÁ COMEÇAR E CRONOMETRE O TEMPO DE EXECUÇÃO.,0
+,0
+è INICIAR MODELO OPOR DEDOS AO POLEGAR (4 CICLOS) à  TREINO (1 CICLO) à  TAREFA (4 CICLOS) /1 CICLO =,0
+,0
+,0
+,0
+è SEGUIDO DE MODELO DE OZERETSKI (4 CICLOS) à  TREINO (1 CICLO) à  TAREFA (4 CICLOS)  / 1 CICLO =,0
+,0
+è SEGUIDO DE MODELO  PALMAS ESTENDIDAS ( 4 CICLOS) à  TREINO(1 CICLO) à  TAREFA (4 CICLOS) / 1 CICLO =,0
+,0
+LUDP. Opor Dedos ao Polegar: Realizar,0
+movimentos simultâneos  e simétricos,0
+"com ambas as mãos, tocando primeiro o",0
+"dedo indicador no polegar, depois o",0
+"médio, depois o anelar e depois o mínimo.",0
+,0
+"[LEIA] “Ao realizar o movimento, você",0
+deve se preocupar em manter o formato,0
+de uma moeda enquanto toca os dedos,0
+no polegar.”,0
+,0
+LUO. Ozeretski: Realizar movimentos,0
+alternados com as mãos. Enquanto uma,0
+"fecha a outra abre, e vice-versa.",0
+,0
+LUPE. Palmas Estendidas: Realizar,0
+movimentos alternados com ambas as,0
+mãos estendidas. Enquanto uma está com,0
+"a palma virada para baixo,  a outra está",0
+virada com a palma para cima. E vice-,0
+versa.,0
+,0
+,0
+,0
+LUDP1 Tempo (4 ciclos): ______seg. LUO1 Tempo (4 ciclos): ______seg. LUPE1 Tempo (4 ciclos): ______seg.,0
+,0
+LUDP2. Dedos ao Polegar,0
+(  ) 2 Quatro ciclos sem erros após o,0
+examinador fazer o modelo inicial,0
+(  ) 1 Quatro ciclos com estímulo verbal,0
+(ex.: “continue”) e/ou modelo externo,0
+(  ) 0 Erros apesar do  estímulo verbal e/ou,0
+modelo,0
+,0
+LUO2. Ozeretski,0
+(  ) 2 Quatro ciclos sem erros após o,0
+examinador fazer o modelo inicial,0
+(  ) 1 Quatro ciclos com estímulo verbal,0
+(ex.: “continue”) e/ou modelo externo,0
+(  ) 0 Erros apesar do  estímulo verbal e/ou,0
+modelo,0
+,0
+LUPE2. Palmas estendidas,0
+(  ) 2 Quatro ciclos sem erros após o,0
+examinador fazer o modelo inicial,0
+,0
+(  ) 1 Quatro ciclos com estímulo verbal,0
+(ex.: “continue”) e/ou modelo externo,0
+(  ) 0 Erros apesar do  estímulo verbal e/ou,0
+modelo,0
+,0
+Avaliação Qualitativa:,0
+,0
+Opor Dedos ao Polegar Ozeretski Palmas Estendidas,0
+,0
+LUDP3 É fluente?,1
+RITMO E VELOCIDADE ADEQUADOS,0
+(  )1 Sim; (  )0 Não,0
+,0
+LUO3 É fluente?,1
+RITMO E VELOCIDADE ADEQUADOS,0
+(  )1 Sim;  (  )0 Não,0
+,0
+LUPE3  É fluente?,1
+RITMO E VELOCIDADE ADEQUADOS,0
+(  )1 Sim; (  )0 Não,0
+,0
+LUDP4 Tem precisão?,1
+POSTURA CORRETA DA MÃO E DOS DEDOS,0
+(  )1 Sim; (  )0 Não,0
+,0
+LUO4 Tem precisão?,1
+POSTURA CORRETA DA MÃO E DOS DEDOS,0
+(  )1 Sim; (  )0 Não,0
+,0
+LUPE4   Tem precisão?,1
+POSTURA CORRETA DA MÃO E DOS DEDOS,0
+(  )1 Sim; (  )0 Não,0
+,0
+LUDP5 Tem simetria?,1
+O MOVIMENTO DAS MÃOS É SIMÉTRICO,0
+(  )1 Sim; (  )0 Não,0
+,0
+LUO5   Tem simetria?,1
+O MOVIMENTO DAS MÃOS É SIMÉTRICO,0
+(  )1 Sim; (  )0 Não,0
+,0
+LUPE5   Tem simetria?,1
+O MOVIMENTO DAS MÃOS É SIMÉTRICO,0
+(  )1 Sim; (  )0 Não,0
+,0
+LUDP6 Mantêm a coordenação?,1
+NÃO PERDE A SEQUÊNCIA DOS MOVIMENTOS,0
+(  )1 Sim; (  )0 Não,0
+,0
+LUO6  Mantêm a coordenação?,1
+NÃO PERDE A SEQUÊNCIA DOS MOVIMENTOS,0
+(  )1 Sim; (  )0 Não,0
+,0
+LUPE6  Mantêm a coordenação?,1
+NÃO PERDE A SEQUÊNCIA DOS MOVIMENTOS,0
+(  )1 Sim; (  )0 Não,0
+,0
+LUDP7 Acompanha com os olhos?,1
+PRECISA OLHAR PARA AS MÃOS,0
+(  )1 Sim; (  )0 Não,0
+,0
+LUO7  Acompanha com os olhos?,1
+PRECISA OLHAR PARA AS MÃOS,0
+(  )1 Sim; (  )0 Não,0
+,0
+LUPE7 Acompanha com os olhos?,1
+PRECISA OLHAR PARA AS MÃOS,0
+(  )1 Sim; (  )0 Não,0
+,0
+LUDP8. Observação:  LUO8. Observação:  LUPE8. Observação,0
+,0
+,0
+,0
+,0
+40,0
+,0
+,0
+,0
+,0
+BENDER,0
+[LEIA]: Você recebeu uma folha e um lápis e deverá desenhar nesta única folha os nove desenhos que estão desenhados nestes,0
+cartões (mostrar). Eu vou apresentar um desenho de cada vez e você deverá copiá-la da forma mais parecida que puder. Quando,0
+tiver copiado eu apresentarei a figura seguinte. Está pronto? Então vamos começar. Você não poderá utilizar borracha ou régua,0
+nessa tarefa.,0
+,0
+[PSICO] A LÂMINA DEVERÁ SER MUDADA ASSIM QUE A CRIANÇA TIVER CONCLUÍDO A CÓPIA. NÃO É PERMITIDO O USO DE BORRACHAS OU QUALQUER,0
+OUTRO TIPO DE MATERIAL QUE SIRVA DE SUPORTE MECÂNICO (EX.: RÉGUA).,0
+,0
+CORREÇÃO: É ATRIBUÍDA UMA NOTA DE 0 A 3 PONTOS DE ACORDO COM A QUALIDADE DO DESENHO. OS DESENHOS MAIS PONTUADOS POSSUEM,0
+MAIS ERROS (UTILIZAR O MANUAL DE CORREÇÃO ILUSTRATIVO PARA A PONTUAÇÃO).,0
+,0
+[PSICO] MOSTRAR FIGURAS NA ORDEM DE CORREÇÃO ABAIXO.,0
+,0
+,0
+CORREÇÃO,0
+,0
+,0
+BDA. FIGURA A (Pontuar somente o quadrado),0
+"(  ) 0 pontos Configuração semelhante ao modelo. Ao traçar as diagonais do quadrado, a maior e menor reta do quadrado",0
+,0
+"possuem  diferença menor ou igual a 50% (ou seja, uma não deve ser 1,5x maior do que a outra).",0
+"(  ) 1 ponto Quadrado substituído por outra figura com ângulos, tais como, retângulo, triângulo ou losango (achatamento do",0
+,0
+quadrado em 50% ou mais),0
+(  ) 2 pontos (a) Quadrado substituído por figura sem ângulo OU,0
+,0
+(b) Com ângulos mas muito diferente do quadrado (ex:estrela ou fig. de 2 ângulos),0
+,0
+,0
+BD1. FIGURA 1,0
+(  ) 0 pontos Pelo menos 9 elementos preenchidos total ou parcialmente.,0
+(  ) 1 ponto (a )Ao menos 3 elementos preenchidos total ou parcialmente OU,0
+,0
+"(b)ponto pequeno c/ difícil identificação se é ponto, pingo ou se está preenchido.",0
+(  ) 2 pontos (a) Até 2 elementos preenchidos OU,0
+,0
+(b) Todos vazados OU,0
+(c) Até 5 elementos desenhados OU,0
+(d) Metade ou mais dos elementos substituídos por traços OU,0
+(e) Não configura-se como fileira,0
+,0
+,0
+BD2. FIGURA 2,0
+(  ) 0 pontos Mantida configuração modelo (inclinação da coluna de extremidade e regularidade de intervalo) e elem. vazados,0
+(  ) 1 ponto (a) Coluna de extremidade não está inclinada como o modelo E/OU,0
+,0
+(b) Não há distancia regular ou nítida separação entre filas e colunas E/OU,0
+(c) Disposição das linhas não é reta ou paralela,0
+(d) Até 8 elementos total ou parcialmente preenchidos,0
+,0
+(  ) 2 pontos Deformação total (ex: omissão ou acréscimo de fileira; mais de 8 elementos total ou parcialmente preenchidos; 6,0
+ou menos colunas).,0
+,0
+,0
+BD3. FIGURA 3,0
+"(  ) 0 pontos Configuração semelhante ao modelo, elementos preenchidos total ou parcialmente, com ângulo.",0
+(  ) 1 ponto (a) elementos vazados E/OU,0
+,0
+(b) ângulos substituídos por curvas,0
+(  ) 2 pontos Deformação total (ex: falta de partes do desenho; comprimento. igual ou menor que altura; figura no “avesso”;,0
+,0
+fileira reta; ausência de crescendum; pontos dispersos; fileiras a mais).,0
+,0
+,0
+BD4. FIGURA 4,0
+(  ) 0 pontos Mantida configuração geral.,0
+(  ) 1 ponto (a) Assimetria das pontas E/OU,0
+,0
+"(b) Lados da figura curvilínea, mantendo configuração geral semelhante OU",0
+(c) Base menor que altura,0
+,0
+"(  ) 2 pontos (a) Deformação total; câmpula deformada., bastante achatada, acinturada, em forma de “S” OU",0
+(b) Excessivamente mais alta do que larga,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+41,0
+,0
+,0
+,0
+,0
+,0
+,0
+BD5. FIGURA 5,0
+"(  ) 0 pontos Forma de semicírculo, c/ até 7 elementos não preenchido parcial ou totalmente",0
+"(  ) 1 ponto (a) Elementos vazados, mas mantém forma correta OU",0
+,0
+"(b) Elementos preenchidos, mas c/ semicírculo achatado OU",0
+"(c) Elementos preenchidos, mas base da fig. é menor que altura",0
+,0
+(  ) 2 pontos (a) Deformação importante do semicírculo OU,0
+(b) Figura é triângulo OU,0
+(c) Quadrado,0
+"(d) Vazado, achatado",0
+,0
+,0
+BD6. FIGURA 6,0
+(  ) 0 pontos Ambos traçados c/ ondulação bem característica (curvas homogêneas e iguais ao modelo). Extensão e tamanho,0
+,0
+do traçado horizontal nitidamente maiores do que o vertical,0
+(  ) 1 ponto (a) Extensão do traçado e tamanho das curvas diferente do modelo E/OU,0
+,0
+(b) Apenas um traçado tiver a ondulação caracterizada corretamente,0
+(  ) 2 pontos Um ou ambos os traçados têm pedaços de curvas caracterizada (ao menos 2 ondas desenhadas),0
+"(  ) 3 pontos Ambos os traçados diferentes de curvas (ex: retas, espirais)",0
+,0
+,0
+BD7AB. FIGURA 7AB (considerar cada um dos hexágonos),0
+(  ) 0 pontos Configuração próxima a hexágono (ambas as extremidades possuem ângulos bem caracterizados),0
+(  ) 1 ponto Ao menos uma ponta está caracterizada c/ os lados formando uma reta (apenas uma das extremidades do,0
+,0
+hexágono possui os ângulos bem caracterizados).,0
+(  ) 2 pontos (a) Perda de ângulos e configuração geral; adição ou omissão de ângulos,0
+,0
+(b) Pontas não saem linhas retas,0
+,0
+,0
+BD8. FIGURA 8,0
+"(  ) 0 pontos Próximos a hexágono, ambas as extremidades com ângulos bem caracterizados",0
+(  ) 1 ponto Uma extremidade com ângulos bem caracterizados,0
+"(  ) 2 pontos Perda de ângulos em ambas as extremidades, perda da configuração geral; adição ou omissão de ângulos",0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+42,0
+,0
+,0
+,0
+,0
+,0
+Teste dos 5 Pontos,0
+[LEIA] Você deve fazer o maior número possível de diferentes desenhos ligando os pontos dentro de cada um dos,0
+"quadrados com linhas retas e únicas, você terá 3 minutos para fazer esta tarefa. Antes de começar vou fazer dois",0
+exemplos para você.,0
+[PSICO] VOCÊ DEVE LIGAR OS 5 PONTOS DENTRO DO PRIMEIRO QUADRADO E NO SEGUNDO QUADRADO LIGAR APENAS 2,0
+,0
+[LEIA] Você pode utilizar alguns ou todos os pontos para fazer os desenhos.,0
+,0
+[PSICO] FORNECER MAIS UMA FOLHA DE APLICAÇÃO SE O EXAMINANDO ESGOTAR A PRIMEIRA FOLHA ANTES DE TERMINAR O,0
+"TEMPO. SE O EXAMINANDO COMETER ALGUM ERRO NO SEU PRIMEIRO DESENHO VOCÊ DEVE CORRIGI-LO, MAS APENAS NO",0
+PRIMEIRO DESENHO.,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+"T5P1. Número total de desenhos únicos válidos:  _____ desenhos (excluindo-se os 2 exemplos, as perseverações/",0
+repetições e e as violações de regra),0
+,0
+T5P2. Número total de perseverações: _____ perseverações,0
+,0
+T5P3. Violações de regra: _____ violações (Violação = ligar os pontos com linhas curvas ou outra ação que envolva,0
+não ligar um ponto a outro),0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+43,0
+,0
+,0
+FOLHA,0
+1,0
+,0
+,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+,0
+,0
+,0
+FOLHA 1,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+43,0
+,0
+,0
+,0
+,0
+,0
+44,0
+,0
+,0
+,0
+,0
+FOLHA,0
+2,0
+,0
+,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+�,0
+,0
+,0
+,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+�,0
+,0
+�,0
+,0
+,0
+,0
+,0
+,0
+FOLHA 2,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+44,0
+,0
+,0
+,0
+,0
+,0
+45,0
+,0
+,0
+,0
+Lateralidade,0
+,0
+,0
+,0
+Qual a mão que você usa para: Sempre,0
+a mão E,0
+,0
+Em geral,0
+a mão E,0
+,0
+Sem,0
+preferência,0
+,0
+Em geral,0
+a mão D,0
+,0
+Sempre,0
+a mão D,0
+,0
+LAT1. escrever uma carta (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+LAT2. arremessar uma bola (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+LAT3. segurar a raquete de tênis (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+LAT4. risca o fósforo (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+LAT5. segura a tesoura para cortar (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+LAT6. enfia a linha na agulha (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+LAT7. distribui cartas de jogo (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+LAT8. martela um prego (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+LAT9 escova os dentes (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+LAT10. desatarraxar uma tampa (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+,0
+,0
+,0
+Qual o olho que você usa para: Sempre,0
+o olho E,0
+,0
+Em geral,0
+o olho E Sem preferência Em geral,0
+,0
+o olho D,0
+Sempre,0
+o olho D,0
+,0
+LAT11. Olhar no buraco da fechadura (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+,0
+LAT12. Sua mãe é canhota?,0
+(  ) 1 Sim; (  ) 0 Não; (  ) 99 NÃO SABE,0
+,0
+LAT13. Seu pai é canhoto?,0
+(  ) 1 Sim; (  ) 0 Não; (  ) 99 NÃO SABE,0
+,0
+LAT14. Algum irmão seu (filho do mesmo pai e da mesma mãe) é canhoto?,0
+(  ) 1 Sim; (  ) 0 Não; (  ) 99 NÃO SABE/NÃO SE APLICA,0
+,0
+,0
+,0
+Estado de Humor em geral,0
+Abaixo temos uma lista de palavras que descrevem os sentimentos que as pessoas têm. Como você se,0
+sente em geral?,0
+,0
+,0
+Nem um,0
+pouco,0
+,0
+Um,0
+pouco Moderadamente Bastante Extremamente,0
+,0
+POMS1 com Raiva (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+POMS2 Deprimido (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+POMS3 Irritado/Incomodado (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+POMS4 Infeliz (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+POMS5 Nervoso (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+POMS6 Apavorado (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+POMS7 Triste (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+POMS8 Mal humorado (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+POMS9 Preocupado (  ) 0 (  ) 1 (  ) 2 (  ) 3 (  ) 4,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+46,0
+,0
+,0
+,0
+,0
+,0
+Avaliação Ansiedade – Sintomas ansiosos,0
+,0
+O quanto VERDADEIRO ou FALSO é cada afirmação para você? FALSO MAIS OU MENOS,0
+VERDADEIRO VERDADEIRO,0
+,0
+"SDQ_c3 Muitas vezes tenho dor de cabeça, dor de barriga ou enjôo (  ) 0 (  ) 1 (  ) 2",0
+,0
+SQQ_c6 Eu estou quase sempre sozinho. Eu geralmente jogo sozinho ou fico na minha (  ) 0 (  ) 1 (  ) 2,0
+,0
+"SDQ_c8 Tenho muitas preocupações, muitas vezes pareço preocupado com tudo (  ) 0 (  ) 1 (  ) 2",0
+,0
+SDQ_c11 Eu tenho pelo menos um bom amigo ou amiga (  ) 0 (  ) 1 (  ) 2,0
+,0
+"SDQ_c13 Frequentemente estou chateado, desanimado ou choroso",0
+(  ) 0 (  ) 1 (  ) 2,0
+,0
+"SDQ_c14 Em geral, as outras crianças gostam de mim (  ) 0 (  ) 1 (  ) 2",0
+,0
+"SDQ16 Fico nervoso quando tenho que fazer alguma coisa diferente, facilmente perco a",0
+confiança em mim mesmo (  ) 0 (  ) 1 (  ) 2,0
+,0
+"SDQ_c19 As outras crianças me pertubam, 'pegam no pé' (  ) 0 (  ) 1 (  ) 2",0
+,0
+SDQ_c23 Eu me dou melhor com os adultos do que com crianças da minha idade (  ) 0 (  ) 1 (  ) 2,0
+,0
+"SDQ_c24 Eu sinto muito medo, eu me assusto facilmente (  ) 0 (  ) 1 (  ) 2",0
+,0
+,0
+,0
+O quanto VERDADEIRO cada frase é para você: NUNCA OU,0
+RARAMENTE ÀS VEZES MUITAS VEZES OU,0
+,0
+QUASE SEMPRE,0
+,0
+"SC1 Quando eu fico com medo, eu tenho dificuldade de respirar. (  ) 0 (  ) 1 (  ) 2",0
+,0
+SC2 Eu sinto dor de cabeça quando estou na escola. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC3 Eu não gosto de estar com pessoas que não conheço bem. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC4 Eu fico com medo quando eu durmo fora de casa. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC5,0
+Eu me preocupo se outras pessoas gostam de mim. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC6,0
+"Quando eu fico com medo, eu sinto como se eu fosse desmaiar. (  ) 0 (  ) 1 (  ) 2",0
+,0
+SC7,0
+Eu sou nervoso (a). (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC8,0
+Eu sigo a minha mãe ou o meu pai aonde eles vão. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC9,0
+As pessoas me dizem que eu pareço nervoso. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC10,0
+Eu fico nervoso(a) com pessoas que eu não conheço bem. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC11,0
+Eu tenho dor de barriga na escola. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC12,0
+"Quando eu fico com medo, eu acho que vou enlouquecer. (  ) 0 (  ) 1 (  ) 2",0
+,0
+SC13,0
+Eu tenho medo de dormir sozinho. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC14,0
+Eu me preocupo em ser tão bom quanto as outras crianças. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC15,0
+"Quando eu fico com medo, tenho a impressão de que as coisas não são",0
+reais. (  ) 0 (  ) 1 (  ) 2,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Typewriter,0
+GAD,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Typewriter,0
+Sep Anx,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Typewriter,0
+Soc Anx,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Typewriter,0
+School Anx,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Typewriter,0
+Panic,0
+,0
+,0
+,0
+,0
+47,0
+,0
+,0
+,0
+,0
+O quanto verdadeiro ou falso é cada afirmação para você? NUNCA OU,0
+RARAMENTE ÀS VEZES MUITAS VEZES OU,0
+,0
+QUASE SEMPRE,0
+,0
+SC16,0
+Eu tenho pesadelos com coisas ruins acontecendo com os meus pais. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC17,0
+Eu fico preocupado quando tenho que ir à escola. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC18,0
+"Quando eu fico com medo, o meu coração bate rápido. (  ) 0 (  ) 1 (  ) 2",0
+,0
+SC19,0
+"Quando eu fico nervoso, eu tremo de medo. (  ) 0 (  ) 1 (  ) 2",0
+,0
+SC20,0
+Eu tenho pesadelos com alguma coisa ruim acontecendo comigo. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC21,0
+Eu fico preocupado se as coisas vão dar certo para mim. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC22,0
+"Quando eu fico com medo, eu suo muito. (  ) 0 (  ) 1 (  ) 2",0
+,0
+SC23,0
+Eu sou muito preocupado. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC24,0
+Eu fico com muito medo sem nenhum motivo. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC25,0
+Eu tenho medo de ficar sozinho em casa. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC26,0
+Eu tenho dificuldade para falar com pessoas que não conheço bem. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC27,0
+"Quando eu fico com medo, eu me sinto sufocado. (  ) 0 (  ) 1 (  ) 2",0
+,0
+SC28,0
+As pessoas dizem que eu me preocupo demais. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC29,0
+Eu não gosto de ficar longe da minha família. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC30,0
+Eu tenho medo de ter ataques de ansiedade (ou ataques de pânico). (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC31,0
+Eu tenho medo de que alguma coisa ruim aconteça com os meus pais. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC32,0
+Eu fico com vergonha na frente de pessoas que não conheço bem. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC33,0
+Eu me preocupo muito com o que vai acontecer no futuro. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC34,0
+"Quando eu fico com medo, eu tenho vontade de vomitar. (  ) 0 (  ) 1 (  ) 2",0
+,0
+SC35,0
+Eu me preocupo muito em fazer as coisas bem feitas. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC36,0
+Eu tenho medo de ir à escola. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC37,0
+Eu me preocupo com as coisas que já aconteceram. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC38,0
+"Quando eu fico com medo, eu me sinto tonto. (  ) 0 (  ) 1 (  ) 2",0
+,0
+SC39,0
+,0
+Eu fico nervoso quando estou com outras crianças ou adultos e tenho que,0
+"fazer algo enquanto eles me olham (por exemplo, ler em voz alta, falar, jogar",0
+um jogo ou praticar um esporte).,0
+,0
+(  ) 0 (  ) 1 (  ) 2,0
+,0
+SC40,0
+"Eu fico nervoso para ir a festas, bailes ou qualquer lugar onde estejam",0
+pessoas que não conheço bem. (  ) 0 (  ) 1 (  ) 2,0
+,0
+SC41,0
+Eu sou tímido. (  ) 0 (  ) 1 (  ) 2,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+,0
+,0
+,0
+48,0
+,0
+,0
+,0
+,0
+,0
+Avaliação Ansiedade - Temperamento,0
+,0
+[,0
+PSICO],0
+LEIA,0
+CADA,0
+UMA,0
+DAS,0
+AFIRMAÇÕES,0
+ABAIXO,0
+COM,0
+A,0
+CRIANÇA,0
+E,0
+PEÇA,0
+PARA,0
+ELA,0
+CLASSIFICAR,0
+A,0
+AFIRMAÇÃO.,0
+,0
+,0
+,0
+[PSICO],0
+NÃO,0
+FAÇA,0
+A,0
+TRANSPOSIÇÃO,0
+PARA,0
+TERCEIRA,0
+PESSOA.,0
+LEIA,0
+JUNTO,0
+COM,0
+A,0
+CRIANÇA,0
+COMO,0
+SE,0
+FOSSE,0
+ELA,0
+RESPONDENDO,0
+O,0
+,0
+QUESTIONÁRIO,0
+JUNTO,0
+COM,0
+VOCÊ.,0
+,0
+SE,0
+A,0
+CRIANÇA,0
+FICAR,0
+COM,0
+"DÚVIDA,",0
+LEIA,0
+O,0
+FACILITADOR,0
+EM,0
+ITÁLICO,0
+ENTRE,0
+PARÊNTESIS.,0
+,0
+,0
+,0
+,0
+,0
+O quanto verdadeiro ou falso é cada afirmação,0
+para você?,0
+,0
+SEMPRE,0
+OU QUASE,0
+,0
+SEMPRE,0
+FALSO,0
+,0
+EM GERAL,0
+É FALSO,0
+,0
+"Às vezes FALSO,",0
+às vezes,0
+,0
+VERDADEIRO,0
+,0
+EM GERAL É,0
+VERDADEIRO,0
+,0
+SEMPRE OU,0
+QUASE SEMPRE,0
+,0
+VERDADEIRO,0
+,0
+"EQ1 Para mim, é realmente fácil me concentrar nas tarefas de",1
+casa (temas/lição/dever) (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+EQ3 Eu acho que seria legal me mudar para uma nova cidade. (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,1
+,0
+EQ7 Tenho muita dificuldade em terminar as tarefas na data,1
+combinada (no prazo). (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+EQ8 Eu me sinto envergonhado com crianças do sexo diferente,1
+do meu (perto de meninas/perto de meninos) (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,1
+,0
+"EQ10 Para mim, é difícil, não abrir os presentes antes da hora",1
+combinada. (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+EQ14 Quando alguém me diz para parar de fazer alguma coisa,1
+"que eu estou fazendo, é muito fácil para mim parar de",1
+fazer essa coisa.,1
+,0
+(  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+EQ15 Eu fico envergonhado quando tenho que conhecer,1
+pessoas novas ,0
+(  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+EQ18,0
+Antes de começar as minhas tarefas de casa,1
+(temas/lição/dever) faço algo divertido durante algum,1
+"tempo, mesmo quando eu não deveria.",1
+,0
+(  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+"EQ19 Eu não gostaria de viver numa cidade grande, mesmo se",1
+fosse seguro. (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+EQ25 Fico incomodado quando tento fazer um,1
+telefonema/ligação e a linha de telefone está ocupada. (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,1
+,0
+EQ26,0
+"Quanto mais eu tento parar de fazer algo que não devo,",1
+mais chance eu tenho de continuar fazendo isso (quando,1
+"eu estou fazendo algo que eu sei que não devo, quanto",1
+"mais eu tento parar, mais eu continuo fazendo)",1
+,0
+(  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+EQ28 Descer rapidamente um morro alto de bicicleta me parece,1
+assustador. (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,1
+,0
+EQ30,0
+"Se eu tenho uma tarefa difícil para fazer, começo a fazer",1
+ela logo,1
+,0
+,0
+(  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+EQ32 Eu fico assustado quando ando de carro com uma pessoa,1
+que gosta de correr (na direção). (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,1
+,0
+EQ34,0
+É difícil para mim trocar de um assunto (matéria/disciplina),1
+para outro na escola (Por exemplo: começar a entender a,1
+"matéria de português, depois de sair de uma aula de",1
+matemática),0
+,0
+(  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+EQ35 Eu me preocupo com a minha família quando não estou,1
+com eles. (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+EQ36 Eu fico muito chateado quando quero fazer algo e os meus,1
+pais não deixam. (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+"EQ38 Quando tento estudar, tenho dificuldade em desviar a",1
+atenção do barulho e me concentrar nos estudos.  (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,1
+,0
+EQ39 Eu termino as minhas tarefas antes da data combinada,1
+(limite/prazo). (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,1
+,0
+EQ40 Eu me preocupo com a possibilidade de entrar em,1
+confusão (Ex.: como entrar em uma briga sem querer). (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,1
+,0
+EQ41,0
+Eu estou sempre prestando atenção nas coisas que,1
+acontecendo na minha volta. (sempre ligado em tudo que,1
+está acontecendo onde eu estou),1
+,0
+,0
+,0
+,0
+,0
+,0
+"EQ42 Não teria medo de praticar um esporte de risco, como",1
+mergulhar em alto mar. (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,1
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+,0
+,0
+,0
+49,0
+,0
+,0
+,0
+,0
+,0
+O quanto verdadeiro ou falso é cada afirmação,1
+para você?,1
+,0
+SEMPRE,0
+OU QUASE,0
+,0
+SEMPRE,0
+FALSO,0
+,0
+EM GERAL,0
+É FALSO,0
+,0
+"Às vezes FALSO,",0
+às vezes,0
+,0
+VERDADEIRO,0
+,0
+EM GERAL É,0
+VERDADEIRO,0
+,0
+SEMPRE OU,0
+QUASE SEMPRE,0
+,0
+VERDADEIRO,0
+,0
+EQ43 É fácil para mim guardar um segredo. (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,1
+EQ45 Eu sou tímido (envergonhado). (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,1
+,0
+EQ46 Eu tenho medo de garotos na escola que empurram as,1
+pessoas e atiram seus livros no chão. (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,1
+,0
+EQ47 Eu fico irritado quando tenho que parar de fazer alguma,1
+coisa que eu esteja gostando de fazer. (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+EQ48 Eu não teria medo de tentar algo como escalar montanhas.  (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,1
+,0
+EQ49 Eu deixo para fazer o trabalho (as tarefas) depois até,1
+quase o prazo acabar (“deixo tudo para última hora”). (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,1
+,0
+EQ51 Eu me preocupo com a possibilidade dos meus pais,1
+morrerem ou me deixarem. (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+EQ52,0
+Eu gosto de estar em locais (lugares) onde há grandes,1
+multidões e muita agitação. (Ex.: como num shopping,1
+"cheia, em uma praça cheia, etc.)",1
+,0
+(  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+EQ53 Eu não sou tímido. (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,1
+EQ56 Eu me incomodo muito de esperar em filas longas. (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+EQ57 Eu fico com medo quando entro numa sala escura em,1
+casa. (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+EQ59,0
+Eu presto muita atenção quando alguém me diz como,1
+"fazer algo (Ex.: quando alguém me ensina alguma coisa,",1
+ou me explica como eu devo fazer uma tarefa),1
+,0
+(  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+EQ60 Eu fico muito frustrado (desapontado/chateado) quando,1
+erro nas minhas tarefas da escola. (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,1
+,0
+EQ61,0
+"Eu tenho tendência de parar no meio de uma tarefa,",1
+interromper o que eu estava fazendo e ir fazer outra coisa.,1
+(Ex.: Começar a fazer o dever de casa e parar no meio,1
+"para ver televisão ou jogar bola, sem terminar o dever)",1
+,0
+(  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+EQ62 Eu fico frustrado (desapontado/chateado) se as pessoas,1
+me interrompem quando estou falando. (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,1
+,0
+EQ63,0
+Eu consigo me focar nos meus planos e objetivos (dar,1
+prioridade para aquilo que eu planejei e dar prioridade para,1
+aquilo que eu quero no futuro),1
+,0
+(  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,0
+,0
+EQ64 Eu fico chateado se não sou capaz de fazer muito bem,1
+uma tarefa. (  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5,1
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+EQ_CONF.ANOTE ABAIXO A SUA PERCEPÇÃO ACERCA DA FALTA DE COMPREENSÃO DOS ITENS DESSA ESCALA PELA CRIANÇA,1
+(  ) 1 (  ) 2 (  ) 3 (  ) 4 (  ) 5 (  ) 6,0
+,0
+COMPREENDEU,0
+TODOS OS ITENS,0
+PERGUNTADOS,0
+,0
+,0
+0 ITEM SEM,0
+,0
+COMPREENSÃO OU,0
+DIFICULDADE,0
+,0
+NÃO COMPREENDEU,0
+POUCOS ITENS,0
+,0
+,0
+1-5 ITENS SEM,0
+,0
+COMPREENSÃO OU,0
+MUITA DIFICULDADE,0
+,0
+NÃO COMPREENDEU,0
+ALGUNS ITENS,0
+,0
+,0
+5-10 ITENS SEM,0
+,0
+COMPREENSÃO OU,0
+MUITA DIFICULDADE,0
+,0
+NÃO COMPREENDEU,0
+"VÁRIOS ITENS, MAS",0
+MENOS DA METADE,0
+,0
+,0
+10-20 ITENS SEM,0
+,0
+COMPREENSÃO OU,0
+MUITA DIFICULDADE,0
+,0
+NÃO COMPREENDEU,0
+MAIS DA METADE DOS,0
+,0
+ITENS,0
+,0
+,0
+20-30 ITENS SEM,0
+COMPREENSÃO OU,0
+MUITA DIFICULDADE,0
+,0
+NÃO COMPREENDEU A,0
+MAIORIA DOS ITENS,0
+,0
+,0
+>30 ITENS SEM,0
+,0
+COMPREENSÃO OU,0
+MUITA DIFICULDADE,0
+,0
+,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+,0
+,0
+,0
+50,0
+,0
+,0
+,0
+,0
+Situações que acontecem com você na escola,0
+,0
+,0
+,0
+[LEIA] Agora vamos fazer uma série de perguntas sobre algumas coisas que acontecem com você na escola,0
+,0
+,0
+,0
+Dizemos que uma pessoa sofre “bullying” [PRONUNCIA-SE “BULIN”] quando um estudante ou grupo de estudantes diz,0
+ou faz coisas desagradáveis e maldosas para ele(a). É também “bullying” quando um estudante é importunado,0
+"repetidamente de uma maneira que não gosta. São exemplos de “bullying”: colocar apelidos maldosos, humilhar, agredir ou",0
+"machucar um colega indefeso, empurrar, quebrar e roubar pertences, perseguir, isolar, ignorar, fazer sofrer etc.",0
+,0
+P_FAT22. Você sofreu “bullying” alguma vez na vida? [LEIA OPÇÕES],0
+,0
+(  ) 1 Sim,0
+(  ) 0 Não à (MARCAR 88 NAS QUESTÕES CONDICIONAIS ABAIXO),0
+(  ) 99 NÃO SABE à (MARCAR 88 NAS QUESTÕES CONDICIONAIS ABAIXO),0
+,0
+"P_FAT22a. Se sim, e neste ano, você sofreu “bullying”?",1
+(  ) 1 Sim,0
+(  ) 0 Não,0
+(  ) 99 NÃO SABE,0
+(  ) 88 NA (Não sofreu Bullying),0
+,0
+,0
+"P_FAT22b. Se sim, com que freqüência você sofreu “bullying” neste ano?",1
+(  ) 1 Uma a duas vezes neste ano,0
+"(  ) 2 Às vezes, “uma vez ou outra”",0
+(  ) 3 Cerca de uma vez por semana,0
+(  ) 4 Diversas vezes por semana / quase todos os dias,0
+(  ) 5 Todos os dias,0
+(  ) 99 NÃO SABE,0
+(  ) 88 NA (Não sofreu Bullying esse ano),0
+,0
+P_FAT22c. O quanto isso incomodava ou incomoda você?,1
+(  ) 0 Nada; (  ) 1 Um pouco; (  ) 2 Muito; (  ) 3 Extremamente; (  ) 88 NA (Não sofreu Bullying esse ano),0
+,0
+,0
+,0
+P_FAT23. Você fez “bullying” alguma vez na vida? [LEIA OPÇÕES],0
+,0
+(  ) 1 Sim,0
+(  ) 0 Não à (MARCAR 88 NAS QUESTÕES CONDICIONAIS ABAIXO),0
+(  ) 99 NÃO SABE  à (MARCAR 88 NAS QUESTÕES CONDICIONAIS ABAIXO),0
+,0
+"P_FAT23a. Se sim, e neste ano, você fez “bullying”?",0
+(  ) 1 Sim,0
+(  ) 0 Não,0
+(  ) 99 NÃO SABE,0
+(  ) 88 NA (Não fez Bullying),0
+,0
+,0
+"P_FAT23b. Se sim, com que freqüência você “bullying” neste ano?",1
+(  ) 1 Uma a duas vezes neste ano,0
+"(  ) 2 Às vezes, “uma vez ou outra”",0
+(  ) 3 Cerca de uma vez por semana,0
+(  ) 4 Diversas vezes por semana / quase todos os dias,0
+(  ) 5 Todos os dias,0
+(  ) 99 NÃO SABE,0
+(  ) 88 NA (Não fez Bullying esse ano),0
+,0
+P_FAT23c. Você se sentia ou se sente culpado por ter esse comportamento?,1
+(  ) 0 Nada; (  ) 1 Um pouco; (  ) 2 Muito; (  ) 3 Extremamente; (  ) 88 NA (Não fez Bullying esse ano),0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+51,0
+,0
+,0
+,0
+,0
+Situações que acontecem com você em casa,0
+,0
+,0
+,0
+[LEIA] Agora vamos fazer uma série de perguntas sobre algumas coisas que acontecem com você em casa,0
+,0
+,0
+,0
+"P_FAT34. Alguma vez na vida, já aconteceu de você ter apanhado seriamente de um adulto dentro de casa, chegando a",0
+deixar você machucado(a) ou com marcas pelo corpo? [LEIA OPÇÕES],0
+(  ) 0 Não;,0
+"(  ) 1 Sim, aconteceu uma ou duas vezes;",0
+"(  ) 2 Sim, acontecia ou acontece de vez em quando;",0
+"(  ) 3 Sim, acontecia ou acontece frequentemente:",0
+(  ) 99 NÃO SABE,0
+,0
+"P_FAT35. Num momento de dificuldade, alguma vez na vida, já aconteceu de você não ter o que comer dentro de casa e/ou",0
+de ter que vestir roupas sujas ou rasgadas? [LEIA OPÇÕES],0
+(  ) 0 Não;,0
+"(  ) 1 Sim, aconteceu uma ou duas vezes;",0
+"(  ) 2 Sim, acontecia ou acontece de vez em quando;",0
+"(  ) 3 Sim, acontecia ou acontece frequentemente:",0
+(  ) 99 NÃO SABE,0
+,0
+"P_FAT37. Já aconteceu de você ser xingado por algum adulto (incluindo você), com palavras como “burro(a)”, “idiota”,",0
+"“estúpido(a)” e/ou de alguém ter dito que você não servia para nada, gritando ou berrando com? [LEIA OPÇÕES]",0
+(  ) 0 Não;,0
+"(  ) 1 Sim, aconteceu uma ou duas vezes;",0
+"(  ) 2 Sim, acontecia ou acontece de vez em quando;",0
+"(  ) 3 Sim, acontecia ou acontece frequentemente:",0
+(  ) 99 NÃO SABE,0
+,0
+[PSICO],0
+SE,0
+MÃE,0
+BIOLÓGICA,0
+TEVE,0
+ALGUM,0
+CONTATO,0
+COM,0
+A,0
+CRIANÇA,0
+AO,0
+LONGO,0
+DA,0
+VIDA,0
+↓,0
+RESPONDA,0
+QUESTÕES,0
+ABAIXO,0
+,0
+SE,0
+MÃE,0
+BIOLÓGICA,0
+SEM,0
+NENHUM,0
+CONTATO,0
+COM,0
+A,0
+CRIANÇA,0
+AO,0
+LONGO,0
+DA,0
+VIDA/DESC,0
+↓MARQUE,0
+88,0
+NAS,0
+QUESTÕES,0
+ABAIXO,0
+,0
+,0
+[ENTREVISTADOR] SE MÃE FALECIDA OU SEM CONTATO à USAR TEMPO PASSADO,0
+SE MÃE EM CONTATO à USAR TEMPO PRESENTE,0
+,0
+,0
+,0
+[LEIA] Agora gostaríamos de saber um pouco da relação entre você e a sua mãe biológica.,0
+,0
+"P_FAT38a. A sua mãe, sorri(a) para você, fala(va) com uma voz meiga e carinhosa, elogiando as coisas que você",0
+"faz(ia) corretamente, tentando entender os seus problemas e ajudar você a resolver eles? [LEIA OPÇÕES]",0
+(  ) 0 Nunca ou raramente; (  ) 1 Às vezes; (  ) 2 Frequentemente; (  ) 3 Muito frequentemente ou sempre; (  ) 88 NA,0
+,0
+"P_FAT38b. A sua mãe dá(va) liberdade para você, deixando você se vestir como você quer(ia) e tomar as suas",0
+próprias decisões? [LEIA OPÇÕES],0
+(  ) 0 Nunca ou raramente; (  ) 1 Às vezes; (  ) 2 Frequentemente; (  ) 3 Muito frequentemente ou sempre; (  ) 88 NA,0
+,0
+"P_FAT38c. A sua mãe trata(va) você como se fosse um bebê, isto é, é(era) muito superprotetora, não querendo que",0
+você cresça(crescesse)? [LEIA OPÇÕES],0
+(  ) 0 Nunca ou raramente; (  ) 1 Às vezes; (  ) 2 Frequentemente; (  ) 3 Muito frequentemente ou sempre; (  ) 88 NA,0
+,0
+,0
+[PSICO],0
+SE,0
+MÃE,0
+BIOLÓGICA,0
+TEVE,0
+ALGUM,0
+CONTATO,0
+COM,0
+A,0
+CRIANÇA,0
+AO,0
+LONGO,0
+DA,0
+VIDA↓RESPONDA,0
+AS,0
+QUESTÕES,0
+ABAIXO,0
+,0
+SE,0
+MÃE,0
+BIOLÓGICA,0
+SEM,0
+NENHUM,0
+CONTATO,0
+COM,0
+A,0
+CRIANÇA,0
+AO,0
+LONGO,0
+DA,0
+VIDA/DESC,0
+↓MARQUE,0
+88,0
+NAS,0
+QUESTÕES,0
+ABAIXO,0
+,0
+,0
+[ENTREVISTADOR] SE PAI FALECIDO OU SEM CONTATO à USAR TEMPO PASSADO,0
+SE PAI EM CONTATO à USAR TEMPO PRESENTE,0
+,0
+,0
+[LEIA] Agora gostaríamos de saber um pouco da relação entre você e o seu pai biológico.,0
+,0
+"P_FAT39a. O seu pai sorri(a) para você, fala(va) com uma voz meiga e carinhosa, elogiando as coisas que você",0
+"faz(ia) corretamente, tentando entender os problemas e ajudar você a resolver eles? [LEIA OPÇÕES]",0
+(  ) 0 Nunca ou raramente; (  ) 1 Às vezes; (  ) 2 Frequentemente; (  ) 3 Muito frequentemente ou sempre. (  ) 88 NA,0
+,0
+"P_FAT39b. O seu pai dá(va) liberdade para ele(a), deixando ele(a) se vestir como ele(a) quer(ia), tomar as suas",0
+próprias decisões? [LEIA OPÇÕES],0
+(  ) 0 Nunca ou raramente; (  ) 1 Às vezes; (  ) 2 Frequentemente; (  ) 3 Muito frequentemente ou sempre; (  ) 88 NA,0
+,0
+"P_FAT39c. O seu pai trata(va) [nome da criança] como se fosse um bebê, isto é, é(era) muito superprotetor, não",0
+querendo que ele(a) cresça(crescesse)? [LEIA OPÇÕES],0
+(  ) 0 Nunca ou raramente; (  ) 1 Às vezes; (  ) 2 Frequentemente; (  ) 3 Muito frequentemente ou sempre; (  ) 88 NA,0
+,0
+,0
+,0
+P_REG2d. ANOTE A HORA EXATA DE TERMINO DA APLICAÇÃO 2: ____ : ____,0
+,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Typewriter,0
+cphysab,0
+,0
+andresimi,0
+Typewriter,0
+cphysneg,0
+,0
+andresimi,0
+Typewriter,0
+cemoab,0
+,0
+,0
+,0
+,0
+52,0
+,0
+,0
+,0
+,0
+,0
+,0
+Checagem de material,0
+,0
+,0
+"[PSICO] CONFIRA COM MUITO CUIDADO, O QUE VOCÊ ESTÁ LEVANDO PARA A SEDE",0
+AO FINAL DA ENTREVISTA VOCÊ DEVE ESTAR LEVANDO:,0
+,0
+,0
+,0
+P_CHECK1. Você está levando 2 cópias ASSINADAS dos termos de consentimento livre e esclarecido,0
+(  ) 1 Sim; (  ) 0 Não (material faltante); (  ) 88 Não Recusa,0
+,0
+P_CHECK2. O saco plástico pequeno e grande do questionário estão identificados com a etiqueta?,0
+(  ) 1 Sim; (  ) 0 Não,0
+,0
+P_CHECK3. Você está levando o questionário da PROFESSORA?,0
+(  ) 1 Sim; (  ) 0 Não,0
+,0
+,0
+,0
+[LEIA] Nós agradecemos muito a sua participação. Sabemos que a entrevista é longa e por isso gostaríamos de,0
+"agradecer pela sua colaboração e paciência. Como dissemos acima, nós iremos fazer uma avaliação em alguns dias",0
+com seu filho. A nossa equipe está a sua disposição para esclarecer qualquer dúvida.,0
+,0
+"No próximo ano, voltamos a entrar em contato com vocês, para saber como andam as coisas.",0
+,0
+,0
+,0
+P_CHECK4. A entrevista foi realizada:,0
+(  ) 1 Em um ambiente ótimo (sem barulho e interrupções por afazeres do entrevistado),0
+"(  ) 2 Em um ambiente bom, com pouco barulho e interrupções",0
+"(  ) 3 Em um ambiente médio, com algum barulho e algumas interrupções",0
+"(  ) 4 Em um ambiente ruim, com muito barulho e várias interrupções",0
+"(  ) 5 Em um ambiente muito ruim, em que o entrevistador duvida muito das respostas apresentadas pelo respondente",0
+,0
+P_CHECK5. A CRIANÇA JÁ TINHA REALIZADO TESTE DE QI NA VIDA?,0
+(  ) 1 Sim; (  ) 0 Não;,0
+,0
+,0
+P_CHECK 6. Você teve a privacidade necessária com o respondente para fazer as perguntas mais delicadas do,0
+"questionário? Ou sentiu que talvez, em um ambiente com mais privacidade outras questões apareceriam?",0
+(  ) 1 Senti que a privacidade estava mantida e que o entrevistado se sentiu acolhido para falar questões delicadas,0
+(  ) 0 Senti que não tivemos a privacidade necessária para que as coisas mais delicadas aparecessem,0
+,0
+,0
+P_CHECK8. Hora exata de término: ___ : ___,0
+,0
+,0
+,0
+SEÇÃO 1,0
+PRÉ-TESTE 1,0
+FIGURA DE REY – CÓPIA,0
+Dígitos Ordem Direta,0
+Dígitos Ordem Inversa,0
+FIGURA DE REY – RECUPERAÇÃO IMEDIATA,0
+Cubos,0
+Vocabulário,0
+FIGURA DE REY – RECUPERAÇÃO TARDIA,0
+Avaliação Clínica de Psicose I,0
+Avaliação Clínica de Psicose II,0
+,0
+SEÇÃO 2,0
+PRÉ-TESTE 2,0
+Blocos de Corsi – Ordem Direta,0
+Blocos de Corsi – Ordem Inversa,0
+Luria,0
+BENDER,0
+Teste dos 5 Pontos,0
+Lateralidade,0
+Estado de Humor em geral,0
+Avaliação Ansiedade – Sintomas ansiosos,0
+Avaliação Ansiedade - Temperamento,0
+Situações que acontecem com você na escola,0
+Situações que acontecem com você em casa,0
+,0
+Checagem de material,0

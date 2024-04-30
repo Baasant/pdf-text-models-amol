@@ -1,0 +1,961 @@
+Text,IsQuestion
+,0
+NEIGHBOURHOOD ASSESSMENT,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+VISIT 1 2 3 4 5 6,0
+"Day of Week (Monday = 1, Tues = 2, Weds=3, Thurs-4.",0
+,0
+"Fri=5, Sat=6, Sun=7",0
+,0
+,0
+"Time of Day Morning = 1, Afternoon = 2, Evening =3",0
+1. How would you rate the general condition of,1
+,0
+most of the residences or other buildings in,1
+the street?,1
+,0
+"Well kept, good repair & exterior surfaces",0
+Fair condition,0
+,0
+"Poor condition, peeling paint, broken",0
+windows,0
+,0
+Badly deteriorated,0
+,0
+1,0
+2,0
+3,0
+,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+,0
+2. Do any of the fronts of residential or,1
+"commercial units have metal security blinds,",1
+,0
+"gates, or iron bars & grilles?",1
+,0
+None,0
+Some,0
+Most,0
+,0
+1,0
+2,0
+3,0
+,0
+1,0
+2,0
+3,0
+,0
+1,0
+2,0
+3,0
+,0
+1,0
+2,0
+3,0
+,0
+1,0
+2,0
+3,0
+,0
+1,0
+2,0
+3,0
+,0
+3. Are there any traffic calming measures in,1
+place on the street?,1
+,0
+Yes,0
+No,0
+,0
+1,0
+2,0
+,0
+,0
+,0
+4. How would you rate the volume of traffic on,1
+the street?,1
+,0
+No traffic permitted,0
+Light,0
+,0
+Moderate,0
+,0
+Heavy,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+5. Are there any abandoned or burnt-out cars,1
+,0
+on the street?,0
+Yes,0
+,0
+No,0
+,0
+1,0
+,0
+2,0
+1,0
+,0
+2,0
+1,0
+,0
+2,0
+1,0
+,0
+2,0
+1,0
+,0
+2,0
+1,0
+,0
+2,0
+"6. Is there any of the following: rubbish, litter,",1
+,0
+"broken glass, drug related items, beer cans",1
+"etc, cigarette ends or discarded packs - in the",1
+street or on the pavement?,1
+,0
+None or almost none,0
+"Yes, some",0
+,0
+"Yes, just about everywhere you look",0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+7. Is there dog mess on the pavement? None,1
+Some,0
+,0
+A lot,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+8. Is there any graffiti on walls or on public,1
+,0
+"spaces like bus shelters, telephone boxes or",1
+notice boards?,0
+,0
+No,0
+A little,0
+,0
+A lot,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+9. Is there any evidence of vandalism such as,0
+,0
+"broken glass from car windows, bus shelters,",0
+telephone boxes?,0
+,0
+No,0
+,0
+Yes,0
+,0
+1,0
+,0
+2,0
+1,0
+,0
+2,0
+1,0
+,0
+2,0
+1,0
+,0
+2,0
+1,0
+,0
+2,0
+1,0
+,0
+2,0
+,0
+10. Are there any adults or teenagers in the,1
+"street or on the pavements arguing, fighting,",1
+"drinking, or behaving in any kind of hostile or",1
+threatening way?,0
+,0
+No–one seen in the street or pavement,0
+None observed behaving in hostile ways,0
+,0
+"Yes, one or two arguing etc.",0
+,0
+"Yes, at least one group of three or more",0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+"11 How did you feel parking, walking, waiting at",0
+,0
+the door in the street?,0
+"Very comfortable, can imagine living/",0
+,0
+shopping here,0
+Comfortable - a safe and friendly place,0
+,0
+Fairly safe and comfortable,0
+I would be uncomfortable living/,0
+,0
+working/shopping here,0
+"I felt like an outsider, looked on",0
+,0
+suspiciously,0
+,0
+I felt afraid for my personal safety,0
+,0
+,0
+1,0
+2,0
+3,0
+,0
+,0
+4,0
+,0
+,0
+5,0
+,0
+6,0
+,0
+,0
+1,0
+2,0
+3,0
+,0
+,0
+4,0
+,0
+,0
+5,0
+,0
+6,0
+,0
+,0
+1,0
+2,0
+3,0
+,0
+,0
+4,0
+,0
+,0
+5,0
+,0
+6,0
+,0
+,0
+1,0
+2,0
+3,0
+,0
+,0
+4,0
+,0
+,0
+5,0
+,0
+6,0
+,0
+,0
+1,0
+2,0
+3,0
+,0
+,0
+4,0
+,0
+,0
+5,0
+,0
+6,0
+,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+,0
+5,0
+,0
+6,0
+12. Did you notice anything else - positive or,0
+,0
+negative - about the street?  WRITE IN,0
+,0
+,0
+---------------------------------------------------------------------------------------------------------,0
+,0
+---------------------------------------------------------------------------------------------------------,0
+,0
+---------------------------------------------------------------------------------------------------------,0
+,0
+,0
+,0
+INTERVIEWER: stick barcode label here.,0
+If you have no more barcode labels please write in the,0
+,0
+household serial number,0
+,0
+,0
+,0
+The assessments on this page must be for the same household as the,0
+previous page,0
+,0
+,0
+NEIGHBOURHOOD ASSESSMENT,0
+,0
+,0
+VISIT 1 2 3 4 5 6,0
+"Day of Week (Monday = 1, Tues = 2, Weds=3, Thurs-4.",0
+,0
+"Fri=5, Sat=6, Sun=7",0
+,0
+,0
+"Time of Day Morning = 1, Afternoon = 2, Evening =3",0
+1. How would you rate the general condition of,0
+,0
+most of the residences or other buildings in,0
+the street?,0
+,0
+"Well kept, good repair & exterior surfaces",0
+Fair condition,0
+,0
+"Poor condition, peeling paint, broken",0
+windows,0
+,0
+Badly deteriorated,0
+,0
+1,0
+2,0
+3,0
+,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+,0
+2. Do any of the fronts of residential or,0
+"commercial units have metal security blinds,",0
+,0
+"gates, or iron bars & grilles?",0
+,0
+None,0
+Some,0
+Most,0
+,0
+1,0
+2,0
+3,0
+,0
+1,0
+2,0
+3,0
+,0
+1,0
+2,0
+3,0
+,0
+1,0
+2,0
+3,0
+,0
+1,0
+2,0
+3,0
+,0
+1,0
+2,0
+3,0
+,0
+3. Are there any traffic calming measures in,1
+place on the street?,1
+,0
+Yes,0
+No,0
+,0
+1,0
+2,0
+,0
+,0
+,0
+4. How would you rate the volume of traffic on,1
+the street?,1
+,0
+No traffic permitted,0
+Light,0
+,0
+Moderate,0
+,0
+Heavy,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+5. Are there any abandoned or burnt-out cars,1
+,0
+on the street?,1
+Yes,0
+,0
+No,0
+,0
+1,0
+,0
+2,0
+1,0
+,0
+2,0
+1,0
+,0
+2,0
+1,0
+,0
+2,0
+1,0
+,0
+2,0
+1,0
+,0
+2,0
+"6. Is there any of the following: rubbish, litter,",1
+,0
+"broken glass, drug related items, beer cans",1
+"etc, cigarette ends or discarded packs - in the",1
+street or on the pavement?,0
+,1
+None or almost none,0
+"Yes, some",0
+,0
+"Yes, just about everywhere you look",0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+7. Is there dog mess on the pavement? None,1
+Some,0
+,0
+A lot,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+8. Is there any graffiti on walls or on public,0
+,0
+"spaces like bus shelters, telephone boxes or",0
+notice boards?,0
+,0
+No,0
+A little,0
+,0
+A lot,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+,0
+1,0
+2,0
+,0
+3,0
+9. Is there any evidence of vandalism such as,0
+,0
+"broken glass from car windows, bus shelters,",0
+telephone boxes?,0
+,0
+No,0
+,0
+Yes,0
+,0
+1,0
+,0
+2,0
+1,0
+,0
+2,0
+1,0
+,0
+2,0
+1,0
+,0
+2,0
+1,0
+,0
+2,0
+1,0
+,0
+2,0
+,0
+10. Are there any adults or teenagers in the,1
+"street or on the pavements arguing, fighting,",1
+"drinking, or behaving in any kind of hostile or",1
+threatening way?,0
+,0
+No–one seen in the street or pavement,0
+None observed behaving in hostile ways,0
+,0
+"Yes, one or two arguing etc.",0
+,0
+"Yes, at least one group of three or more",0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+"11 How did you feel parking, walking, waiting at",0
+,0
+the door in the street?,0
+"Very comfortable, can imagine living/",0
+,0
+shopping here,0
+Comfortable - a safe and friendly place,0
+,0
+Fairly safe and comfortable,0
+I would be uncomfortable living/,0
+,0
+working/shopping here,0
+"I felt like an outsider, looked on",0
+,0
+suspiciously,0
+,0
+I felt afraid for my personal safety,0
+,0
+,0
+1,0
+2,0
+3,0
+,0
+,0
+4,0
+,0
+,0
+5,0
+,0
+6,0
+,0
+,0
+1,0
+2,0
+3,0
+,0
+,0
+4,0
+,0
+,0
+5,0
+,0
+6,0
+,0
+,0
+1,0
+2,0
+3,0
+,0
+,0
+4,0
+,0
+,0
+5,0
+,0
+6,0
+,0
+,0
+1,0
+2,0
+3,0
+,0
+,0
+4,0
+,0
+,0
+5,0
+,0
+6,0
+,0
+,0
+1,0
+2,0
+3,0
+,0
+,0
+4,0
+,0
+,0
+5,0
+,0
+6,0
+,0
+,0
+1,0
+2,0
+3,0
+,0
+4,0
+,0
+5,0
+,0
+6,0
+12. Did you notice anything else - positive or,0
+,0
+negative - about the street?  WRITE IN,0
+,0
+,0
+---------------------------------------------------------------------------------------------------------,0
+,0
+---------------------------------------------------------------------------------------------------------,0
+,0
+---------------------------------------------------------------------------------------------------------,0

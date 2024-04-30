@@ -1,0 +1,654 @@
+Text,IsQuestion
+,0
+,0
+,0
+,0
+ID: |___|___|___|___|___|,0
+,0
+Data: ___ / ___ / ______,0
+,0
+,0
+,0
+,0
+Este questionário é confidencial.,0
+Seu nome não aparecerá nele.,0
+,0
+,0
+,0
+,0
+,0
+"Se você tiver alguma dúvida, chame a psicóloga. Ela irá ajudar você sem olhar as suas respostas.",0
+,0
+,0
+,0
+Leia as perguntas com atenção e marque um X na resposta que você achar melhor.  Não há,0
+,0
+"resposta certa ou errada, queremos apenas a sua opinião.",0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+CONF. RESPONDEU CONFIDENCIAL?,0
+,0
+(   ) 1 SIM,0
+,0
+"(   ) 2 NÃO, RECUSA",0
+,0
+"(   ) 3 NÃO, OUTRO MOTIVO",0
+,0
+,0
+,0
+,0
+,0
+AS PRIMEIRAS PERGUNTAS SÃO SOBRE ÁLCOOL,0
+"Q1. ALGUMA VEZ NA VIDA, você já tomou",0
+,0
+"alguma bebida de álcool, como cerveja, vinho ou",0
+,0
+vodka?,0
+,0
+(   ) 1 Sim,0
+,0
+(   ) 2 Não,0
+,0
+"Q2. SE SIM, que IDADE você tinha quando tomou",0
+,0
+pela primeira vez?,0
+,0
+,0
+,0
+____  ____ anos,0
+,0
+(   ) 99 Não se aplica (nunca tomei bebida de álcool),0
+,0
+"Q3. SE SIM, você tomou bebida de álcool NOS",0
+,0
+ÚLTIMOS 12 MESES?,0
+,0
+(   ) 1 Sim,0
+,0
+(   ) 2 Não,0
+,0
+(   ) 99 Não se aplica (nunca tomei álcool),0
+,0
+"Q4. SE SIM, com que frequência você tomou",0
+,0
+bebida de álcool nos ÚLTIMOS 12 MESES?,1
+,0
+(   ) 1 Uma ou duas vezes,0
+,0
+(   ) 2 Mensalmente,0
+,0
+(   ) 3 Semanalmente,0
+,0
+(   ) 4 Diariamente ou quase diariamente,0
+,0
+(   ) 99 Não se aplica (não tomei nos últimos meses),0
+,0
+(   ) 99 Não se aplica (nunca tomei álcool),0
+,0
+"Q5. SE SIM, com que frequência você tomou um",0
+,0
+porre ou ficou bêbedo nos ÚLTIMOS 12 MESES?,1
+,0
+(   ) 1 Uma ou duas vezes,0
+,0
+(   ) 2 Mensalmente,0
+,0
+(   ) 3 Semanalmente,0
+,0
+(   ) 4 Diariamente ou quase diariamente,0
+,0
+(   ) 99 Não se aplica (não tomei porre),0
+,0
+(   ) 99 Não se aplica (não tomei nos últimos meses),0
+,0
+(   ) 99 Não se aplica (nunca tomei álcool),0
+,0
+"Q6. SE SIM, beber tem causado problemas para",0
+,0
+"você (com seus pais, com seus amigos, na escola",0
+,0
+ou no trabalho)?,0
+,0
+(   ) 1 Sim,0
+,0
+(   ) 2 Não,0
+,0
+(   ) 99 Não se aplica (nunca tomei álcool),0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+AS PRÓXIMAS PERGUNTAS SÃO SOBRE CIGARRO E SUBSTÂNCIAS,0
+"Q7. ALGUMA VEZ NA VIDA, você já fumou",0
+,0
+"cigarro, charuto ou mascou fumo?",1
+,0
+(   ) 1 Sim,0
+,0
+(   ) 2 Não,0
+,0
+"Q8. SE SIM, que IDADE você tinha quando",0
+,0
+experimentou pela primeira vez?,0
+,0
+,0
+,0
+____  ____ anos,0
+,0
+(   ) 99 Não se aplica (nunca fumei cigarro),0
+,0
+"Q9. SE SIM, você fumou cigarro alguma vez NOS",0
+,0
+ÚLTIMOS 12 MESES?,0
+,0
+(   ) 1 Sim,0
+,0
+(   ) 2 Não,0
+,0
+(   ) 99 Não se aplica (nunca fumei cigarro),0
+,0
+"Q10. SE SIM, com que frequência você fumou",0
+,0
+cigarro NOS ÚLTIMOS 12 MESES?,0
+,0
+(   ) 1 Uma ou duas vezes,0
+,0
+(   ) 2 Mensalmente,0
+,0
+(   ) 3 Semanalmente,0
+,0
+(   ) 4 Diariamente ou quase diariamente,0
+,0
+(   ) 99 Não se aplica (não fumei nos últimos meses),0
+,0
+Q11. Os seus AMIGOS ou alguém da sua turma,0
+,0
+usam alguma dessas coisas?,0
+,0
+Bebida de álcool,0
+,0
+Cigarro,0
+,0
+Cola de sapateiro,0
+,0
+Solvente ou tiner,0
+,0
+Cocaína,0
+,0
+Maconha,0
+,0
+Crack,0
+,0
+"Ecstasy (MDMA, “bala”)",0
+,0
+Ácido ou LSD (“doce”),0
+,0
+Anfetamina (“speed”),0
+,0
+Esteróides (anabolizantes ou “bomba”),0
+,0
+Remédios para dar algum “barato”?,0
+,0
+Outra coisa? __________________,0
+,0
+,0
+,0
+,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+"Q12. E você, ALGUMA VEZ NA VIDA já",0
+,0
+experimentou alguma dessas coisas?,0
+,0
+Cola de sapateiro,0
+,0
+Solvente ou tiner,0
+,0
+Cocaína,0
+,0
+Maconha,0
+,0
+Crack,0
+,0
+"Ecstasy (MDMA, “bala”)",0
+,0
+Ácido ou LSD (“doce”),0
+,0
+Anfetamina (“speed”),0
+,0
+Esteróides (anabolizantes ou “bomba”),0
+,0
+Remédios para dar algum “barato”?,0
+,0
+Outra coisa? __________________,0
+,0
+,0
+,0
+,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+"Q13. NOS ÚLTIMOS 12 MESES, você usou",0
+,0
+alguma dessas coisas?,0
+,0
+Cola de sapateiro,0
+,0
+Solvente ou tiner,0
+,0
+Cocaína,0
+,0
+Maconha,0
+,0
+Crack,0
+,0
+"Ecstasy (MDMA, “bala”)",0
+,0
+Ácido ou LSD (“doce”),0
+,0
+Anfetamina (“speed”),0
+,0
+Esteróides (anabolizantes ou “bomba”),0
+,0
+Remédios para dar algum “barato”?,0
+,0
+Outra coisa? __________________,0
+,0
+,0
+,0
+,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+(   ) 1 Sim     (   ) 2 Não,0
+,0
+"Q14. SE SIM, o uso dessa(s) substância(s) tem",1
+,0
+"causado problemas para você (com seus pais,",1
+,0
+"com seus amigos, na escola ou no trabalho)?",1
+,0
+(   ) 1 Sim,0
+,0
+(   ) 2 Não,0
+,0
+(   ) 99 Não se aplica (não usei nenhuma substância),0
+,0
+AS PRÓXIMAS PERGUNTAS SÃO SOBRE RELAÇÕES SEXUAIS,0
+Q15. Você já teve alguma relação sexual (você já,0
+,0
+transou?),0
+,0
+(   ) 1 Sim,0
+,0
+(   ) 2 Não,0
+,0
+"Q16. SE VOCÊ JÁ TRANSOU, com que idade",0
+,0
+você teve relação pela primeira vez?,0
+,0
+,0
+,0
+________ anos,0
+,0
+(   ) 99 Não se aplica (nunca transei),0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+AS PRÓXIMAS PERGUNTAS SÃO SOBRE COISAS QUE PODEM TER,0
+ACONTECIDO COM VOCÊ NOS ÚLTIMOS 3 ANOS,0
+,0
+"Q17. NOS ÚLTIMOS 3 ANOS, aconteceu",0
+,0
+de você não ter o que comer dentro de,0
+,0
+casa ou de ter que vestir roupas sujas ou,0
+,0
+rasgadas?,0
+,0
+"(  ) 0 Não, nunca aconteceu;",0
+"(  ) 1 Já aconteceu, mas não nos últimos 3 anos;",0
+"(  ) 2 Sim, aconteceu uma ou duas vezes nos últimos 3 anos;",0
+"(  ) 3 Sim, aconteceu de vez em quando nos últimos 3 anos;",0
+"(  ) 4 Sim, aconteceu frequentemente nos últimos 3 anos;",0
+,0
+"Q18. NOS ÚLTIMOS 3 ANOS, você foi",0
+,0
+xingado por algum adulto (incluindo seus,0
+,0
+"pais e familiares), com palavras como",0
+,0
+"burro(a), idiota(a), estúpido(a)?",0
+,0
+"(  ) 0 Não, nunca aconteceu;",0
+"(  ) 1 Já aconteceu, mas não nos últimos 3 anos;",0
+"(  ) 2 Sim, aconteceu uma ou duas vezes nos últimos 3 anos;",0
+"(  ) 3 Sim, aconteceu de vez em quando nos últimos 3 anos;",0
+"(  ) 4 Sim, aconteceu frequentemente nos últimos 3 anos;",0
+,0
+"Q19. NOS ÚLTIMOS 3 ANOS, alguém",0
+,0
+disse a você que você não servia para,0
+,0
+"nada, gritando ou berrando com você?",0
+,0
+"(  ) 0 Não, nunca aconteceu;",0
+"(  ) 1 Já aconteceu, mas não nos últimos 3 anos;",0
+"(  ) 2 Sim, aconteceu uma ou duas vezes nos últimos 3 anos;",0
+"(  ) 3 Sim, aconteceu de vez em quando nos últimos 3 anos;",0
+"(  ) 4 Sim, aconteceu frequentemente nos últimos 3 anos;",0
+,0
+"Q20. NOS ÚLTIMOS 3 ANOS, você",0
+,0
+apanhou seriamente de um adulto dentro,0
+,0
+"de casa, chegando a deixar você",0
+,0
+machucado ou com marcas pelo corpo?,0
+,0
+"(  ) 0 Não, nunca aconteceu;",0
+"(  ) 1 Já aconteceu, mas não nos últimos 3 anos;",0
+"(  ) 2 Sim, aconteceu uma ou duas vezes nos últimos 3 anos;",0
+"(  ) 3 Sim, aconteceu de vez em quando nos últimos 3 anos;",0
+"(  ) 4 Sim, aconteceu frequentemente nos últimos 3 anos;",0
+,0
+"Q21. NOS ÚLTIMOS 3 ANOS, aconteceu",0
+,0
+de terem feitos coisas sexuais com você,0
+,0
+ou de ameaçarem bater ou algo do tipo se,0
+,0
+você não fizesse coisas sexuais?,0
+,0
+"(  ) 0 Não, nunca aconteceu;",0
+"(  ) 1 Já aconteceu, mas não nos últimos 3 anos;",0
+"(  ) 2 Sim, aconteceu uma ou duas vezes nos últimos 3 anos;",0
+"(  ) 3 Sim, aconteceu de vez em quando nos últimos 3 anos;",0
+"(  ) 4 Sim, aconteceu frequentemente nos últimos 3 anos;",0
+,0
+,0
+,0
+Q22. SE VOCÊ RESPONDEU SIM,0
+,0
+PARA QUALQUER QUESTÃO,0
+,0
+"ACIMA, nos conte com as suas",0
+,0
+palavras o que aconteceu.,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+(   ) 99 Não se aplica (não aconteceu nenhuma situação comigo),0
+(   ) 88 Não quero falar sobre o que aconteceu,0
+,0
+,0
+,0
+,0
+,0
+,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Highlight,0
+,0
+andresimi,0
+Line,0
+,0
+andresimi,0
+Typewriter,0
+=,0
+p_fat37,0
+cemoab,0
+,0
+andresimi,0
+Typewriter,0
+=,0
+p_fat34,0
+cphysab,0
+,0
+andresimi,0
+Typewriter,0
+=,0
+p_fat35,0
+cphysneg,0
+,0
+andresimi,0
+Typewriter,0
+�cse�ab,0
+,0
+andresimi,0
+Textbox,0
+-,0
+1,0
+2,0
+3,0
+,0
+andresimi,0
+Textbox,0
+-,0
+1,0
+2,0
+3,0
+,0
+,0
+,0
+SÓ RESPONDA AS QUESTÕES DESTA PÁGINA SE VOCÊ FOR MENINA,0
+Q23. Você já menstruou?  (   ) 1 Sim       (   ) 2 Não,0
+,0
+"Q24. SE VOCÊ JÁ MENSTRUOU, com que idade",0
+,0
+aconteceu pela primeira vez?,0
+,0
+_______ anos,0
+,0
+(   ) 99 Não se aplica (nunca menstruei),0
+,0
+Q25. Você já engravidou?  (   ) 1 Sim       (   ) 2 Não,0
+,0
+Q26. Você está grávida? (   ) 1 Sim       (   ) 2 Não,0
+,0
+(   ) 3 Não se aplica (nunca engravidei),0
+,0
+Q27. Você já abortou? (   ) 1 Sim        (   ) 2 Não,0
+,0
+(   ) 3 Não se aplica (nunca engravidei),0
+,0
+Q28. Quantos filhos vivos você tem? _______ filhos,0
+,0
+(   ) 99 Não se aplica (não tenho filhos),0
+,0
+,0
+,0
+,0
+"Q29. Por favor, marque com um X no número do quadrinho abaixo que mais se parece contigo agora:",0
+,0
+,0
+,0
+(   ) Quadro 1 (   ) Quadro 2 (   ) Quadro 4 (   ) Quadro 4 (   ) Quadro 5,0
+,0
+,0
+,0
+,0
+"Q30. Por favor, marque com um X no número do quadrinho abaixo que mais se parece contigo agora:",0
+,0
+,0
+,0
+(   ) Quadro 1 (   ) Quadro 2 (   ) Quadro 4 (   ) Quadro 4 (   ) Quadro 5,0
+,0
+,0
+,0
+SÓ RESPONDA AS QUESTÕES DESTA PÁGINA SE VOCÊ FOR MENINO,0
+Q31. Você já engravidou alguma menina?  (   ) 1 Sim,0
+,0
+(   ) 2 Não,0
+,0
+Q32. Alguma menina que você engravidou fez,0
+,0
+aborto?,0
+,0
+(   ) 1 Sim,0
+,0
+(   ) 2 Não,0
+,0
+(   ) 3 Não se aplica (nunca engravidei ninguém),0
+,0
+Q33. Quantos filhos vivos você tem?,0
+,0
+_______ filhos,0
+,0
+(   ) 99 Não se aplica (não tenho filhos),0
+,0
+,0
+,0
+,0
+"Q34. Por favor, marque com um X no número do quadrinho abaixo que mais se parece contigo agora:",0
+,0
+,0
+,0
+(   ) Quadro 1 (   ) Quadro 2 (   ) Quadro 4 (   ) Quadro 4 (   ) Quadro 5,0
+,0
+,0
+,0
+,0
+"Q35. Por favor, marque com um X no número do quadrinho abaixo que mais se parece contigo agora:",0
+,0
+,0
+,0
+(   ) Quadro 1 (   ) Quadro 2 (   ) Quadro 4 (   ) Quadro 4 (   ) Quadro 5,0
+,0
+,0
+,0
+,0
+,0
+ÁLCOOL,0
+CIGARRO E SUBSTÂNCIAS,0
+RELAÇÕES SEXUAIS,0
+TRAUMA NOS ÚLTIMOS 3 ANOS,0
+MENINA,0
+MENINO,0
