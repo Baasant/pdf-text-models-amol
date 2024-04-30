@@ -1,0 +1,61 @@
+Cell Data,Filename,Table Number,IsQuestion
+symptom put an “X” in the box beneath the answer that best describes how you have been feeling.,C:\Users\tates\Downloads\pdf-questionnaire-extraction-main\pdf-questionnaire-extraction-main\data\preprocessed_tables\006_apadsm5severitymeasurefordepre.json,1,0
+"Clinician 
+Use",C:\Users\tates\Downloads\pdf-questionnaire-extraction-main\pdf-questionnaire-extraction-main\data\preprocessed_tables\006_apadsm5severitymeasurefordepre.json,1,0
+"Item 
+score",C:\Users\tates\Downloads\pdf-questionnaire-extraction-main\pdf-questionnaire-extraction-main\data\preprocessed_tables\006_apadsm5severitymeasurefordepre.json,1,0
+"(0) 
+Not at all",C:\Users\tates\Downloads\pdf-questionnaire-extraction-main\pdf-questionnaire-extraction-main\data\preprocessed_tables\006_apadsm5severitymeasurefordepre.json,1,0
+"(1) 
+Several 
+days",C:\Users\tates\Downloads\pdf-questionnaire-extraction-main\pdf-questionnaire-extraction-main\data\preprocessed_tables\006_apadsm5severitymeasurefordepre.json,1,0
+"(2) 
+More than 
+half the days",C:\Users\tates\Downloads\pdf-questionnaire-extraction-main\pdf-questionnaire-extraction-main\data\preprocessed_tables\006_apadsm5severitymeasurefordepre.json,1,0
+"(3) 
+Nearly 
+every day",C:\Users\tates\Downloads\pdf-questionnaire-extraction-main\pdf-questionnaire-extraction-main\data\preprocessed_tables\006_apadsm5severitymeasurefordepre.json,1,0
+"Feeling down, depressed, irritable, or hopeless?",C:\Users\tates\Downloads\pdf-questionnaire-extraction-main\pdf-questionnaire-extraction-main\data\preprocessed_tables\006_apadsm5severitymeasurefordepre.json,1,1
+Little interest or pleasure in doing things?,C:\Users\tates\Downloads\pdf-questionnaire-extraction-main\pdf-questionnaire-extraction-main\data\preprocessed_tables\006_apadsm5severitymeasurefordepre.json,1,1
+"Trouble falling asleep, staying asleep, or sleeping too 
+much?",C:\Users\tates\Downloads\pdf-questionnaire-extraction-main\pdf-questionnaire-extraction-main\data\preprocessed_tables\006_apadsm5severitymeasurefordepre.json,1,1
+"Poor appetite, weight loss, or overeating?",C:\Users\tates\Downloads\pdf-questionnaire-extraction-main\pdf-questionnaire-extraction-main\data\preprocessed_tables\006_apadsm5severitymeasurefordepre.json,1,1
+"Feeling tired, or having little energy?",C:\Users\tates\Downloads\pdf-questionnaire-extraction-main\pdf-questionnaire-extraction-main\data\preprocessed_tables\006_apadsm5severitymeasurefordepre.json,1,1
+"Feeling bad about yourself—or feeling that you are a 
+failure, or that you have let yourself or your family 
+down?",C:\Users\tates\Downloads\pdf-questionnaire-extraction-main\pdf-questionnaire-extraction-main\data\preprocessed_tables\006_apadsm5severitymeasurefordepre.json,1,1
+"Trouble concentrating on things like school work, 
+reading, or watching TV?",C:\Users\tates\Downloads\pdf-questionnaire-extraction-main\pdf-questionnaire-extraction-main\data\preprocessed_tables\006_apadsm5severitymeasurefordepre.json,1,1
+"Moving or speaking so slowly that other people could 
+have noticed? 
+ 
+Or the opposite—being so fidgety or restless that you 
+were moving around a lot more than usual?",C:\Users\tates\Downloads\pdf-questionnaire-extraction-main\pdf-questionnaire-extraction-main\data\preprocessed_tables\006_apadsm5severitymeasurefordepre.json,1,1
+"Thoughts that you would be better off dead, or of 
+hurting yourself in some way?",C:\Users\tates\Downloads\pdf-questionnaire-extraction-main\pdf-questionnaire-extraction-main\data\preprocessed_tables\006_apadsm5severitymeasurefordepre.json,1,1
+Total/Partial Raw Score:,C:\Users\tates\Downloads\pdf-questionnaire-extraction-main\pdf-questionnaire-extraction-main\data\preprocessed_tables\006_apadsm5severitymeasurefordepre.json,1,0
+Prorated Total Raw Score: (if 1-2 items left unanswered),C:\Users\tates\Downloads\pdf-questionnaire-extraction-main\pdf-questionnaire-extraction-main\data\preprocessed_tables\006_apadsm5severitymeasurefordepre.json,1,0
+"-point scale (0=Not at all; 1=Several
+. The total score can range from 0 to 27, with higher scores indicating greater severity of depression. 
+f each item on the measure during the clinical inte
+“Clinician Use.” The raw scores on the 9 items should be summed to obtain a total raw 
+table below: 
+Interpretation Table of Total Raw Score",C:\Users\tates\Downloads\pdf-questionnaire-extraction-main\pdf-questionnaire-extraction-main\data\preprocessed_tables\006_apadsm5severitymeasurefordepre.json,2,0
+Total Raw Score,C:\Users\tates\Downloads\pdf-questionnaire-extraction-main\pdf-questionnaire-extraction-main\data\preprocessed_tables\006_apadsm5severitymeasurefordepre.json,2,0
+Severity of depressive disorder or episode,C:\Users\tates\Downloads\pdf-questionnaire-extraction-main\pdf-questionnaire-extraction-main\data\preprocessed_tables\006_apadsm5severitymeasurefordepre.json,2,0
+"0-4  
+5-9  
+10-14  
+15-19 
+20-27",C:\Users\tates\Downloads\pdf-questionnaire-extraction-main\pdf-questionnaire-extraction-main\data\preprocessed_tables\006_apadsm5severitymeasurefordepre.json,2,0
+"None 
+Mild  
+Moderate  
+Moderately severe  
+Severe",C:\Users\tates\Downloads\pdf-questionnaire-extraction-main\pdf-questionnaire-extraction-main\data\preprocessed_tables\006_apadsm5severitymeasurefordepre.json,2,0
+"total raw score on the measure should not be used.
+ The prorated score is calculated by summing 
+re. Multiply the partial raw score by the total number of items on the 
+-A)—Modified (i.e., 9) and divide the value by the number of items that were actually answered 
+score to Total Raw Score is:
+____________(Raw sum x 9)______________",C:\Users\tates\Downloads\pdf-questionnaire-extraction-main\pdf-questionnaire-extraction-main\data\preprocessed_tables\006_apadsm5severitymeasurefordepre.json,2,0
