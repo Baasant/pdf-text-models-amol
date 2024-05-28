@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+models/*
+Harmony_LSTM_model (1).ipynb
 # C extensions
 *.so
 
