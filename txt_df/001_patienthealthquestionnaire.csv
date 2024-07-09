@@ -1,0 +1,43 @@
+text,label
+P A T I E N T  H E A L T H  Q U E S T I O N N A I R E - 9,0
+( P H Q - 9 ),0
+"Over the last 2 weeks, how often have you been bothered",0
+by any of the following problems?,0
+(Use “✔” to indicate your answer) Not at all,0
+Several,0
+days,0
+More,0
+than half,0
+the days,0
+Nearly,0
+every,0
+day,0
+Little interest or pleasure in doing things,1
+"Feeling down, depressed, or hopeless",1
+"Trouble falling or staying asleep, or sleeping too much",1
+Feeling tired or having little energy,1
+Poor appetite or overeating,1
+6. <q>Feeling bad about yourself — or that you are a failure or,0
+have let yourself or your family down</q> 0 1 2 3,0
+"7. <q>Trouble concentrating on things, such as reading the",0
+newspaper or watching television</q> 0 1 2 3,0
+8. <q>Moving or speaking so slowly that other people could have,0
+noticed?  Or the opposite — being so fidgety or restless,0
+that you have been moving around a lot more than usual</q>,0
+0 1 2 3,0
+9. <q>Thoughts that you would be better off dead or of hurting,0
+yourself in some way</q> 0 1 2 3,0
+FOR OFFICE CODING     0      + ______  +  ______  +  ______,0
+=Total Score:  ______,0
+"If you checked off any problems, how difficult have these problems made it for you to do your",0
+"work, take care of things at home, or get along with other people?",0
+Not difficult,0
+at all,0
+Somewhat,0
+difficult,0
+Very,0
+difficult,0
+Extremely,0
+difficult,0
+"Developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues, with an educational grant from",0
+"Pfizer Inc.  No permission required to reproduce, translate, display or distribute.",0

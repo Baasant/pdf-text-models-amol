@@ -1,0 +1,295 @@
+text,label
+1,0
+Adult Behavior Checklist,0
+Aproximadamente quantos(as) amigos(as) próximos(as) ele(a) tem? (Não incluir pessoas da ,1
+família),0
+(   ) 0 Nenhum,0
+(   ) 1 Um,0
+(   ) 2 Dois ou três,0
+(   ) 4 Quatro ou mais,0
+(   ) 99 NÃO SABE,0
+"ABCL5b. <q>Aproximadamente, quantas vezes por mês ele(a) tem contato com qualquer um dos amigo(a)",0
+"próximo(a)?</q> (Incluir contatos pessoalmente, por telefonemas, cartas, e-mails.)",0
+(   ) 0 Menos de um,0
+(   ) 1 Um ou dois,0
+(   ) 3 Três ou quatro,0
+(   ) 5 Cinco ou mais,0
+(   ) 99 NÃO SABE,0
+ABCL5c. Até que ponto ele(a) se dá bem com amigos(as) próximos?,0
+(   ) 0 Não se dá bem,0
+(   ) 1 Na média,0
+(   ) 2 Acima da média,0
+(   ) 3 Bem acima da média,0
+(   ) 99 NÃO SABE,0
+"Aproximadamente, quantas vezes por mês amigos ou familiares o (a) visitam? ",1
+(   ) 0 Menos de um,0
+(   ) 1 Um ou dois,0
+(   ) 3 Três ou quatro,0
+(   ) 5 Cinco ou mais,0
+(   ) 99 NÃO SABE,0
+Qual o estado civil dele(a)? ,1
+(   ) 0 Nunca foi casado,0
+(   ) 1 Casado e vivendo com o(a) esposo(a),0
+(   ) 2 Casado mas separado,0
+(   ) 3 Divorciado(a),0
+(   ) 4 Viúvo(a),0
+(   ) 5 Outro:___________,0
+(   ) 99 NÃO SABE,0
+"Em algum momento nos últimos seis meses, ele(a) viveu com um(a) esposo(a) ou companheiro(a)? ",1
+(   ) 1 Sim ↓ AB7a,0
+(   ) 0 Não à AB8.,0
+(   ) 99 NÃO SABE à AB8.,0
+2,0
+"Agora por favor, circule 0, 1 ou 2 ao lado das afirmações abaixo para descrever o relacionamento",1
+dele(a) nos últimos seis meses:,0
+O jovem ... Não é,0
+verdadeira,0
+Um pouco ou,0
+algumas vezes,0
+verdadeira,0
+Muito ou,0
+frequentement,0
+e verdadeira,0
+Se dá bem com o esposo(a) ou companheiro(a) (  ) 0 (  ) 1 (  ) 2 ,1
+ABCL7a2. Tem dificuldade em dividir responsabilidades com,0
+esposo(a) ou companheiro(a) (  ) 0 (  ) 1 (  ) 2,0
+ABCL7a3. <q>Parece satisfeito(a) com esposo(a) ou,0
+companheiro(a)</q> (  ) 0 (  ) 1 (  ) 2,0
+ABCL7a4. <q>Gosta das mesmas atividades que o esposo(a) ou,0
+companheiro(a)</q> (  ) 0 (  ) 1 (  ) 2,0
+Discorda do esposo(a) ou companheiro(a) sobre ,1
+"questões de administração do lar, como onde morar (  ) 0 (  ) 1 (  ) 2",0
+ABCL7a6. <q>Ele(a) tem problemas com a família do esposo(a) ou,0
+companheiro(a)</q> (  ) 0 (  ) 1 (  ) 2,0
+Gosta dos amigos do esposo(a) ou companheiro(a) (  ) 0 (  ) 1 (  ) 2 ,1
+ABCL7a8. <q>Incomoda-se com o comportamento do esposo(a) ou,0
+companheiro(a)</q> (  ) 0 (  ) 1 (  ) 2,0
+Ele(a) tem alguma doença ou deficiência? ,1
+(   ) 1 Sim ↓ AB8a,0
+(   ) 0 Não à AB9.,0
+(   ) 99 NÃO SABEà AB9.,0
+"Se sim, por favor, ",1
+descreva:________________________________________________________________ (   ) 99 NÃO SABE,0
+"Por favor, descreva quaisquer preocupações que você tenha sobre ele: ",1
+:_________________________________________________________________________________________,0
+:_________________________________________________________________________________________,0
+"Por favor, descreva as principais qualidades e pontos positivos dele(a): ",1
+:_________________________________________________________________________________________,0
+:_________________________________________________________________________________________,0
+3,0
+[ENTREVISTADOR] MOSTRAR C17,0
+"[LEIA] Logo abaixo, você encontrará uma lista de afirmações que descrevem as pessoas. Para cada",0
+"afirmação que descreve o jovem relacionado a você, neste momento ou nos últimos seis meses. Por",0
+"favor, responda a todas as afirmações o melhor que possa, mesmo que algumas não pareçam aplicáveis",0
+ao(à) [NOME DO JOVEM],0
+0 = Não é verdadeiro (tanto quanto,0
+sabe),0
+1 = Um pouco verdadeira ou algumas,0
+vezes verdadeira,0
+2 = Muito verdadeira ou frequentemente,0
+verdadeira,0
+É muito esquecido(a),1
+0 1 2 AL2. <q>Sabe aproveitar as oportunidades que,0
+Acha que os outros o(a) perseguem ,1
+Discute muito,1
+Desenvolve suas habilidades,1
+a sofrer acidentes,0
+0 1 2 AL5. <q>Culpa os outros por seus próprios,0
+Mete-se em muitas brigas ,1
+0 1 2,0
+AL6. <q>Usa drogas (que não álcool ou,0
+nicotina) sem fins medicinais (descreva):</q>,0
+_______________________,0
+Suas relações com os vizinhos são ,1
+insatisfatórias,0
+Gosta de contar vantagem,1
+"0 1 2 AL8. <q>Não consegue concentrar-se, não",0
+consegue prestar atenção muito tempo</q>  0 1 2,0
+AL40. <q>Escuta sons ou vozes que não existem,0
+(descreva):</q>,0
+________________________________,0
+0 1 2,0
+AL9. <q>Não consegue tirar certos,0
+pensamentos da cabeça; obsessões,0
+(descreva):</q> ________________,0
+É impulsivo(a) ou age sem pensar ,1
+"0 1 2 AL10. Não consegue parar sentado(a), não",0
+Prefere estar sozinho(a) do que ficar em ,1
+companhia de outros,0
+É muito dependente dos outros,1
+Reclama de solidão,1
+responsabilidades,0
+Fica confuso(a) ou desorientado(a),1
+Chora muito  ,1
+AL46. <q>Tem movimentos repetitivos que não,0
+consegue parar (tiques) (descreva):</q>,0
+____________________,0
+É bastante honesto(a),1
+"0 1 2 AL16. <q>É cruel, intimida ou faz maldade com",0
+As outras pessoas não gostam dele(a) ,1
+0 1 2 AL17. <q>Vive no “mundo da lua” ou perde-se,0
+Pode fazer certas coisas melhor do que ,1
+outras pessoas,0
+0 1 2 AL18. <q>Machuca-se de propósito ou já tentou,0
+É muito medroso(a) ou ansioso(a) ,1
+0 1 2 AL19. <q>Exige que prestem muita atenção,0
+Tem tonturas ,1
+0 1 2 AL20. <q>Estraga ou destrói as suas próprias,0
+Sente-se muito culpado(a) ,1
+0 1 2 AL21. <q>Estraga ou destrói as coisas de,0
+Tem problemas em fazer planos para o ,1
+futuro,0
+Preocupa-se com seu futuro,1
+0 1 2 AL23. <q>Desrespeita as regras no trabalho ou,0
+em outros lugares</q>  0 1 2 AL55. <q>Seu humor oscila entre excitação e,0
+depressão</q>,0
+Não come tão bem quanto deveria,1
+(sem causa médica)</q>,0
+Não se dá bem com outras pessoas,1
+0 1 2 AL26. <q>Não se sente culpado depois de se,0
+Dores de cabeça ,1
+Sente ciúme ou inveja com facilidade,1
+Não se dá bem com a família  ,1
+AL56d. <q>Problemas com os olhos (que não são,0
+corrigidos com o uso de óculos) (descreva):</q>,0
+______________,0
+0 1 2,0
+"AL29. <q>Tem medo de certos animais,",0
+situações ou lugares (descreva):</q>,0
+__________________________,0
+Problemas de pele ,1
+0 1 2 AL30. <q>Suas relações com o sexo oposto são,0
+Dores de estômago ou de barriga ,1
+0 1 2 AL31. <q>Tem medo de pensar ou fazer,0
+Vômitos ,1
+Acha que tem que fazer tudo perfeito      ,1
+4,0
+0 = Não é verdadeiro (tanto quanto,0
+sabe),0
+1 = Um pouco verdadeira ou algumas,0
+vezes verdadeira,0
+2 = Muito verdadeira ou frequentemente,0
+verdadeira,0
+Ataca fisicamente as pessoas,1
+de se irritar</q>,0
+0 1 2,0
+AL58. <Q>Cutuca a pele ou outras partes do corpo,0
+(descreva):</q>,0
+________________________________,0
+0 1 2 AL87. <q>Tem mudanças repentinas de humor ou,0
+de sentimentos</q>,0
+0 1 2 AL59. <q>Deixa incompletas as coisas que deveria,0
+Gosta de estar com pessoas ,1
+Poucas coisas lhe dão prazer,1
+riscos</q>,0
+0 1 2 AL61. <q>Seu desempenho no trabalho é,0
+insatisfatório</q>  0 1 2 AL90. <q>Toma muita bebida alcoólica ou fica,0
+bêbado(a)</q>,0
+"0 1 2 AL62. <q>É desastrado(a), desajeitado(a) (má",0
+Fala que vai se matar ,1
+0,0
+1,0
+2,0
+AL63. <q>Prefere estar com pessoas mais velhas a,0
+estar com pessoas da sua idade</q>,0
+0,0
+1,0
+2,0
+AL92. <q>Faz coisas que podem lhe trazer,0
+problemas com a lei (descreva):</q>,0
+________________________,0
+0 1 2 AL64. <q>Tem dificuldades em estabelecer,0
+Fala demais ,1
+Recusa-se a falar,1
+0,0
+1,0
+2,0
+AL66. <q>Repete as mesmas ações várias vezes,0
+seguidas; compulsões (descreva):</q>,0
+______________________,0
+0,0
+1,0
+Tem crises de birra ou é esquentado(a),1
+0 1 2 AL67. <q>Tem dificuldades para fazer ou manter,0
+É passivo(a) ou sem iniciativa ,1
+Grita muito,1
+"0 1 2 AL69. <q>É reservado(a), fechado(a), não conta suas",0
+Gosta de ajudar os outros ,1
+Vê coisas que não existem (descreva): ,1
+_______  0 1 2 AL99. <q>Não gosta de ficar em um mesmo lugar,0
+por muito tempo</q>,0
+0,0
+1,0
+2,0
+AL71. <q>Fica sem jeito na frente das pessoas com,0
+"facilidade, preocupado(a) com o que os outros",0
+vão pensar dele(a)</q>,0
+0,0
+1,0
+2,0
+Tem problemas com o sono,1
+(descreva):___________________________,0
+Preocupa-se com sua família,1
+está doente ou de férias</q>,0
+0 1 2 AL73. <q>Cumpre suas responsabilidades para com,0
+"sua família</q>  0 1 2 AL102. <q>É pouco ativo(a), seus movimentos são",0
+lentos ou tem falta de energia</q>,0
+"Gosta de se exibir, fazer palhaçadas",1
+É muito acanhado(a) ou tímido(a),1
+Comporta-se de maneira irresponsável,1
+0 1 2,0
+AL77. <q>Dorme mais do que a maioria das pessoas,0
+durante o dia e/ou a noite (descreva):</q>,0
+__________,0
+Tenta ser justo(a) com os outros ,1
+Tem dificuldades para tomar decisões,1
+Tem problemas de fala (descreva): ,1
+Tem tendência a perder as coisas ,1
+"Fica com o olhar parado, “olhando o vazio”",1
+Seu comportamento varia muito,1
+Rouba,1
+outros,0
+Entedia-se com facilidade,1
+Tem comportamento estranho (descreva): ,1
+Aborrece-se muito ,1
+Tem ideias estranhas (descreva): ,1
+___________     AL114. <q>Deixa de pagar suas dívidas ou cumprir,0
+com outras obrigações financeiras</q>,0
+5,0
+0 = Não é verdadeiro (tanto quanto,0
+sabe),0
+1 = Um pouco verdadeira ou algumas vezes,0
+verdadeira,0
+2 = Muito verdadeira ou frequentemente,0
+verdadeira,0
+É inquieto ou agitado,1
+emprego,0
+0 1 2 AL116. <q>Fica perturbado(a) com,0
+É uma pessoa feliz ,1
+0,0
+1,0
+2,0
+AL117. <q>Tem problemas para,0
+administrar seu dinheiro ou,0
+cartões de crédito</q>,0
+________vezes por dia,0
+"AL124. <q>Nos últimos seis meses,",0
+aproximadamente quantas vezes por dia ele(a),0
+usou tabaco (inclusive fumo de mascar)?</q>,0
+0 1 2 AL118. <q>É muito impaciente,0
+_____________dias</q>,0
+"AL125. <q>Nos últimos seis meses, quantos dias",0
+ele(a) ficou bêbado?</q>,0
+0,0
+1,0
+2,0
+AL119. <q>Presta pouca atenção,0
+aos detalhes</q>,0
+_____________dias,0
+"AL126. <q>Nos últimos seis meses, quantos dias",0
+ele(a) usou drogas para fins não medicinais,0
+"(inclusive maconha, cocaína e outras drogas,",0
+exceto álcool e nicotina)?</q>,0
+Dirige muito rápido      ,1
+Tende a se atrasar nos ,1
+compromissos,0

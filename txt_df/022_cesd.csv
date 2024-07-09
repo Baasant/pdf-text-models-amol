@@ -1,0 +1,48 @@
+text,label
+"Center for Epidemiologic Studies Depression Scale (CES-D), NIMH",0
+Below is a list of the ways you might have felt or behaved. Please tell me how often you have felt this way during the past week.,0
+During the Past,0
+Week,0
+Rarely or none of,0
+the time (less than,0
+1 day ),0
+Some or a,0
+little of the,0
+time (1-2,0
+days),0
+Occasionally or a,0
+moderate amount of time,0
+(3-4 days),0
+Most or all of,0
+the time (5-7,0
+days),0
+1.  <q>I was bothered by things that usually,0
+don’t bother me.</q>,0
+2.  <q>I did not feel like eating; my appetite,0
+was poor.</q>,0
+3.  <q>I felt that I could not shake off the,0
+blues even with help from my family or,0
+friends.</q>,0
+4.  <q>I felt I was just as good as other,0
+people.</q>,0
+5.  <q>I had trouble keeping my mind on,0
+what I was doing.</q>,0
+I felt depressed.,1
+7.  <q>I felt that everything I did was an,0
+effort.</q>,0
+I felt hopeful about the future.,1
+I thought my life had been a failure.,1
+I felt fearful.,1
+My sleep was restless.,1
+I was happy.,1
+I talked less than usual.,1
+I felt lonely.,1
+People were unfriendly.,1
+I enjoyed life.,1
+I had crying spells.,1
+I felt sad.,1
+I felt that people dislike me.,1
+I could not get “going.”,1
+"SCORING: zero for answers in the first column, 1 for answers in the second column, 2 for answers in the third column, 3 for",0
+"answers in the fourth column.  The scoring of positive items is reversed.  Possible range of scores is zero to 60, with the higher",0
+scores indicating the presence of more symptomatology.,0

@@ -1,0 +1,5667 @@
+
+ 
+
+ 
+
+ 
+
+ 
+
+UCL Centre for Longitudinal Studies 
+
+COVID-19 Online Survey Questionnaire - 
+
+Wave 1 - April 2020 (Version 1) 
+
+  
+
+
+
+ 
+
+ 
+
+ Page 2 of 87 
+
+Studies covered:  
+
+ Millennium Cohort Study (born 2000-02)  
+
+ Next Steps (born 1989-90) 
+
+ 1970 British Cohort Study 
+
+ 1958 National Child Development Study 
+
+ MRC National Survey of Health and Development (1946 British birth 
+cohort)  
+
+ SABRE cohort  
+
+ 
+
+Topics covered:  
+
+ Physical health (including COVID-19)  
+
+ Time-use 
+
+ Household composition, relationships and caring  
+
+ Pregnancy, children, school and childcare  
+
+ Housing and financial situation  
+
+ Finances and benefits  
+
+ Employment (pre- and post- outbreak)  
+
+ Education (pre- and post- outbreak) 
+
+ Health behaviours  
+
+ Social contact and social support  
+
+ Loneliness and mental health  
+
+ Trust  
+
+ COVID-19 experiences (open text question) 
+
+ Linkage to COVID-19 symptom tracker app 
+
+ 
+
+Notes: 
+
+ The questionnaire indicates cohort-specific questions using routing variable 
+CohortID which is set as follows. 1. NCDS  2. BCS70  3. Next Steps  4. MCS  
+5. NSHD 6. SABRE. Further cohort specific questionnaire changes may be 
+made for NSHD and SABRE before the survey is issued to those cohorts. 
+
+ In Millennium Cohort Study parents are included as well as cohort members  
+
+
+
+ 
+
+ 
+
+ Page 3 of 87 
+
+ 
+
+INTROTX  
+
+Thank you. The survey should take about 20 minutes to complete. As always, answering these 
+
+questions is voluntary and you can skip over any questions that you cannot or would prefer not 
+
+to answer. The 'Privacy and data protection' FAQs on the study website provide details about 
+
+how we protect the information you provide and how it will be used for research. 
+
+   
+
+If you have any problems, queries or concerns, you can contact us using the contact details in 
+
+the email that we sent to you. 
+
+ 
+ 
+
+Start of Block: Physical health 
+
+ 
+
+PHEALINT  
+
+ 
+
+  The first few questions will ask about your health. 
+
+ 
+
+ 
+
+COVID19 Do you think that you have or have had Coronavirus?   
+
+o Yes, confirmed by a positive test  (1)  
+
+o Yes, based on strong personal suspicion or medical advice  (2)  
+
+o Unsure  (3)  
+
+o No  (4)  
+
+ 
+
+ 
+
+COVIDSYMPT Have you experienced any of the following symptoms in the past 2 weeks?  
+
+ 
+
+Please select all that apply. 
+
+▢  Fever  (1)  
+
+▢  Cough - dry  (2)  
+
+▢  Cough - mucus or phlegm  (3)  
+
+▢  Sore throat  (4)  
+
+▢  Chest tightness  (5)  
+
+
+
+ 
+
+ 
+
+ Page 4 of 87 
+
+▢  Shortness of breath  (6)  
+
+▢  Runny nose  (7)  
+
+▢  Nasal congestion  (8)  
+
+▢  Sneezing  (18)  
+
+▢  Muscle or body aches  (10)  
+
+▢  Fatigue  (11)  
+
+▢  Unusual loose motions or diarrhoea  (12)  
+
+▢  Vomiting  (16)  
+
+▢  Loss of smell  (13)  
+
+▢  Loss of taste  (14)  
+
+▢  Skin rash  (17)  
+
+▢  Headaches  (19)  
+
+▢  Other  (20)  
+
+▢  No - none of these  (23)  
+
+ 
+
+  
+
+
+
+ 
+
+ 
+
+ Page 5 of 87 
+
+Display This Question: 
+
+If Whether has had Coronavirus = Yes, confirmed by a positive test 
+
+Or Whether has had Coronavirus = Yes, based on strong personal suspicion or medical advice 
+
+Or Whether has had Coronavirus = Unsure 
+
+ 
+
+COVIDADV Have you sought medical advice in relation to any symptoms you have had, which 
+
+you think may be caused by Coronavirus?  Please select all that apply. 
+
+▢  Yes - discussed symptoms with doctor/practice nurse  (1)  
+
+▢  Yes - discussed symptoms with NHS 111 in England, Wales and Northern Ireland or 
+
+NHS 24 in Scotland  (2)  
+
+▢  Yes – accessed online advice at NHS 111 in England, Wales and Northern Ireland or 
+
+NHS 24 in Scotland  (3)  
+
+▢  Yes - visited pharmacist  (4)  
+
+▢  Yes - visited A&E or walk in centre  (5)  
+
+▢  No  (6)  
+
+ 
+
+ 
+
+Display This Question: 
+
+If Whether has had Coronavirus = Yes, confirmed by a positive test 
+
+Or Whether has had Coronavirus = Yes, based on strong personal suspicion or medical advice 
+
+Or Whether has had Coronavirus = Unsure 
+
+ 
+
+COVID HOSPAD Have you been in hospital because of Coronavirus symptoms? 
+
+o Yes  (1)  
+
+o No  (2)  
+
+ 
+
+COVIDTEST Have you been tested for Coronavirus? 
+
+o Yes  (1)  
+
+o No  (2)  
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 6 of 87 
+
+Display This Question: 
+
+If Whether been tested for Coronavirus = Yes 
+
+ 
+
+COVIDRESULT What was the result of your coronavirus test?  If you had more than 
+
+one test please report the findings of the latest test. 
+
+o Positive - it showed I had coronavirus  (1)  
+
+o Negative - it showed I did not have coronavirus  (2)  
+
+o Inconclusive  (3)  
+
+o Waiting for results  (4)  
+
+ 
+
+ 
+
+GHQ In general, would you say your health is... 
+
+o Excellent  (1)  
+
+o Very good  (2)  
+
+o Good  (3)  
+
+o Fair  (4)  
+
+o Poor  (5)  
+
+ 
+
+ 
+
+GHQPRECOVID In general, in the 3 months before the Coronavirus outbreak would you say 
+
+your health was... 
+
+o Excellent  (1)  
+
+o Very good  (2)  
+
+o Good  (3)  
+
+o Fair  (4)  
+
+o Poor  (5)  
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 7 of 87 
+
+LLI Do you have any of the following? 
+
+ 
+
+ 
+
+Please select all that apply. 
+
+▢  Cancer  (1)  
+
+▢  Cystic fibrosis  (2)  
+
+▢  Asthma  (3)  
+
+▢  Chronic Obstructive Pulmonary Disease  (4)  
+
+▢  Wheezy bronchitis  (5)  
+
+▢  Diabetes  (6)  
+
+▢  Recurrent backache, prolapsed disc, sciatica or other back problem  (7)  
+
+▢  Problems with hearing  (8)  
+
+▢  High blood pressure  (9)  
+
+▢  Heart disease, congenital or acquired  (10)  
+
+▢  Depression or other emotional, nervous or psychiatric problems  (11)  
+
+▢  Obesity  (12)  
+
+▢  Chronic obstructive airways disease  (13)  
+
+▢  Infection  (14)  
+
+▢  HIV / Immunodeficiency  (15)  
+
+▢  Condition affecting the brain and nerves (e.g. Parkinson’s, Multiple Sclerosis)  (16)  
+
+▢  None  (17)  
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 8 of 87 
+
+SURGCAN Have you had any surgery, medical procedures or any other medical appointments 
+
+cancelled since the outbreak of the Coronavirus? 
+
+o Yes  (1)  
+
+o No  (2)  
+
+ 
+
+SHIELD Have you received a letter or text message from the NHS or Chief Medical Officer 
+
+saying that you have been identified as someone at risk of severe illness if you catch 
+
+Coronavirus, because you have an underlying disease or health condition? 
+
+o Yes  (1)  
+
+o No  (2)  
+
+ 
+
+End of Block: Physical health 
+ 
+
+Start of Block: Social distancing 
+
+COMPLIANC The next question is about the extent to which you are complying with the social 
+
+distancing guidelines issued by the Government.  
+
+    
+
+On a scale from 0 to 10, where 0 means that you are 'not complying at all' and 10 means you 
+
+are 'fully complying', how much would you say you are complying with the guidelines? 
+
+o Not complying at all 0   (1)  
+
+o 1  (2)  
+
+o 2  (3)  
+
+o 3  (4)  
+
+o 4  (5)  
+
+o 5  (6)  
+
+o 6  (7)  
+
+o 7  (8)  
+
+o 8  (9)  
+
+o 9  (10)  
+
+o Complying fully  10   (11)  
+
+
+
+ 
+
+ 
+
+ Page 9 of 87 
+
+End of Block: Social distancing 
+ 
+
+Start of Block: Time use 
+
+ 
+ 
+
+Timeuse1  
+
+We would like to know about how you have been spending your time since the Coronavirus 
+
+outbreak.   
+
+    
+
+  
+
+How many hours have you been spending doing each of the following activities on a typical 
+
+week day since the Coronavirus outbreak began?   
+
+    
+
+Please round to the nearest hour.  
+
+ 
+
+ Number of hours (1) 
+
+Paid work (1)   
+
+Volunteering / unpaid work (not for your 
+household) (2)  
+
+ 
+
+Home schooling your children (if you have 
+any) (3)  
+
+ 
+
+Other interactive activities with children (e.g. 
+reading to them, playing games with them, 
+painting/drawing with them, doing puzzles 
+
+together). (16)  
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 10 of 87 
+
+Caring for someone other than a child (4)   
+
+Housework (e.g. cleaning, laundry, cooking, 
+DIY) (5)  
+
+ 
+
+Formal learning as part of a course (6)   
+
+Physical activity / exercise (7)   
+
+Other leisure activities and hobbies (e.g. TV, 
+gaming, reading, news, listening to music, 
+
+gardening, online shopping, mealtime, 
+relaxing) (8)  
+
+ 
+
+Socialising with non-household members via 
+telephone, video-calling or messaging (9)  
+
+ 
+
+Socialising with non-household members in 
+person (10)  
+
+ 
+
+Travelling for work (11)   
+
+Shopping or essential appointments (12)   
+
+
+
+ 
+
+ 
+
+ Page 11 of 87 
+
+Personal care (e.g. taking a shower/bath, 
+grooming, getting dressed etc.) (13)  
+
+ 
+
+Ill in bed (14)   
+
+Other (15)   
+
+ 
+
+ 
+
+ 
+ 
+
+Timeuse2 How many hours in total have you been spending outside of your home on a typical 
+
+week day since the Coronavirus outbreak began?  
+
+    
+
+  
+
+Please do not include time spent in your garden or any other outdoor space which is part of your 
+
+home.    
+
+    
+
+Please round to the nearest hour.   
+
+________________________________________________________________ 
+ 
+
+ 
+
+End of Block: Time use 
+ 
+
+Start of Block: Household Grid 
+
+ 
+ 
+
+HHNUM The next questions are about who you are currently living with. 
+
+ 
+
+ 
+
+How many people do you currently live with? Please include yourself.  
+
+ 
+
+________________________________________________________________ 
+ 
+
+
+
+ 
+
+ 
+
+ Page 12 of 87 
+
+Display This Question: 
+
+If If The next questions are about who you are currently living with.How many people do you currently 
+live with? Please include yourself.&nbsp; Text Response Is Greater Than  1 
+
+ 
+
+HHNUMWH Who do you currently live with?  
+
+ 
+
+Please select all that apply. 
+
+▢  Husband/Wife/Cohabiting Partner  (1)  
+
+▢  Children (including step-children, adopted children, foster children or any other children 
+
+you consider yourself parent to)  (2)  
+
+▢  Parent or Parent-in-law (including step-parent or adoptive parent)  (3)  
+
+▢  Grandparent  (4)  
+
+▢  Grandchild  (5)  
+
+▢  Sibling  (6)  
+
+▢  Other relative  (7)  
+
+▢  Friend / unrelated sharer  (8)  
+
+▢  Other  (9)  
+
+ 
+
+ 
+
+ANYCHNL Do you have any children who you do not live with? Please include any adopted 
+
+children, step-children or foster children of whom you consider yourself a parent. Please include 
+
+grown-up children.  
+
+o Yes  (1)  
+
+o No  (2)  
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 13 of 87 
+
+COVCHAN Have there been any changes to the people you are living with since the 
+
+Coronavirus outbreak? 
+
+o Yes  (1)  
+
+o No  (2)  
+
+ 
+
+ 
+
+Display This Question: 
+
+If Who do you currently live with = Husband/Wife/Cohabiting Partner 
+
+And People living with change because of Covid-19 = Yes 
+
+ 
+
+COVPART Have you started living with your partner since the Coronavirus outbreak ? 
+
+o Yes  (1)  
+
+o No  (2)  
+
+ 
+
+ 
+
+Display This Question: 
+
+If Any children not living with = Yes 
+
+Or Who do you currently live with = Children (including step-children, adopted children, foster 
+children or any other children you consider yourself parent to) 
+
+And If 
+
+People living with change because of Covid-19 = Yes 
+
+ 
+
+COVCHIL Have any of the following occurred since the Coronavirus outbreak?  
+
+▢  At least one of my children has moved into my home  (1)  
+
+▢  At least one of my children has moved out of my home  (2)  
+
+▢  I have moved into one of my children's homes  (3)  
+
+▢  None of these  (4)  
+
+  
+
+
+
+ 
+
+ 
+
+ Page 14 of 87 
+
+Display This Question: 
+
+If Who do you currently live with = Parent or Parent-in-law (including step-parent or adoptive parent) 
+
+And People living with change because of Covid-19 = Yes 
+
+ 
+
+COVPER Have any of the following occurred since the Coronavirus outbreak? 
+
+o At least one of my parents (or in-laws) has moved in with me  (1)  
+
+o I have moved in with at least one of my parents (or in-laws)  (2)  
+
+o None of these  (3)  
+
+ 
+
+Display This Question: 
+
+If Who do you currently live with = Grandparent 
+
+Or Who do you currently live with = Grandchild 
+
+Or Who do you currently live with = Sibling 
+
+Or Who do you currently live with = Other relative 
+
+Or Who do you currently live with = Friend / unrelated sharer 
+
+Or Who do you currently live with = Other 
+
+And If 
+
+People living with change because of Covid-19 = Yes 
+
+ 
+
+COVOTH Have any of the following occurred since the Coronavirus outbreak?  
+
+o Someone other than a parent or child has moved in to my home  (1)  
+
+o I have moved in to someone other than a parent or child's home  (2)  
+
+o None of these  (3)  
+
+ 
+
+End of Block: Household Grid 
+ 
+
+Start of Block: Relationships 
+
+ 
+
+Display This Question: 
+
+If Who do you currently live with != Husband/Wife/Cohabiting Partner 
+
+ 
+
+OTHRELA Are you in a relationship with someone at the moment? 
+
+o Yes  (1)  
+
+o No  (2)  
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 15 of 87 
+
+Display This Question: 
+
+If Who do you currently live with = Husband/Wife/Cohabiting Partner 
+
+Or Whether in a non-cohabiting relationship = Yes 
+
+ 
+
+RELSAT On a scale from 1 to 7, where ‘1’ means that you are ‘very unhappy’ and ‘7’ means 
+
+that you are ‘very happy’, how happy is your relationship with your partner at the moment, all 
+
+things considered? 
+
+o Very unhappy 1  (1)  
+
+o 2  (2)  
+
+o 3  (4)  
+
+o 4  (5)  
+
+o 5  (6)  
+
+o 6  (7)  
+
+o Very happy 7  (8)  
+
+ 
+
+Display This Question: 
+
+If Who do you currently live with = Husband/Wife/Cohabiting Partner 
+
+Or Whether in a non-cohabiting relationship = Yes 
+
+ 
+
+RELCONFL Since the Coronavirus outbreak began, has the amount you have argued with your 
+
+partner changed?  
+
+o My partner and I have argued more often  (1)  
+
+o No change - same as before  (2)  
+
+o My partner and I have argued less often  (3)  
+
+  
+
+
+
+ 
+
+ 
+
+ Page 16 of 87 
+
+End of Block: Relationships 
+ 
+
+Start of Block: Pregnancy 
+
+Display This Question: 
+
+If Who do you currently live with = Husband/Wife/Cohabiting Partner 
+
+Or Whether in a non-cohabiting relationship = Yes 
+
+And SEX = 1 
+
+Or If 
+
+SEX = 2 
+
+ 
+
+CURPREG Are you or your partner (if you have one) currently pregnant? 
+
+o Yes  (1)  
+
+o No  (2)  
+
+ 
+
+ 
+
+Display This Question: 
+
+If Whether currently pregnant = Yes 
+
+ 
+ 
+
+PREDUE How many weeks pregnant are you/is she?   
+
+________________________________________________________________ 
+ 
+
+ 
+
+End of Block: Pregnancy 
+ 
+
+Start of Block: Children and childcare 
+
+Display This Question: 
+
+If Who do you currently live with = Children (including step-children, adopted children, foster children 
+or any other children you consider yourself parent to) 
+
+ 
+ 
+
+NUMCHIL How many of your children do you currently live with? 
+
+________________________________________________________________ 
+ 
+  
+
+
+
+ 
+
+ 
+
+ Page 17 of 87 
+
+Display This Question: 
+If If Number of children live with Text Response Is Greater Than  0 
+
+ 
+CHILAGE Please give the age of each child you live with. 
+
+ Years old (1) 
+
+If How many of your children do you currently live 
+with? Text Response Is Greater Than or Equal to  
+
+1 
+
+Child 1 (1)  
+
+ 
+
+If How many of your children do you currently live 
+with? Text Response Is Greater Than or Equal to  
+
+2 
+
+Child 2 (2)  
+
+ 
+
+If How many of your children do you currently live 
+with? Text Response Is Greater Than or Equal to  
+
+3 
+
+Child 3 (3)  
+
+ 
+
+If How many of your children do you currently live 
+with? Text Response Is Greater Than or Equal to  
+
+4 
+
+Child 4 (4)  
+
+ 
+
+If How many of your children do you currently live 
+with? Text Response Is Greater Than or Equal to  
+
+5 
+
+Child 5 (5)  
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 18 of 87 
+
+If How many of your children do you currently live 
+with? Text Response Is Greater Than or Equal to  
+
+6 
+
+Child 6 (6)  
+
+ 
+
+If How many of your children do you currently live 
+with? Text Response Is Greater Than or Equal to  
+
+7 
+
+Child 7 (7)  
+
+ 
+
+If How many of your children do you currently live 
+with? Text Response Is Greater Than or Equal to  
+
+8 
+
+Child 8 (8)  
+
+ 
+
+If How many of your children do you currently live 
+with? Text Response Is Greater Than or Equal to  
+
+9 
+
+Child 9 (9)  
+
+ 
+
+If The next questions are about who you are 
+currently living with. Firstly, how many people, 
+
+includi... Text Response Is Greater Than or Equal 
+to  10 
+
+Child 10 (10)  
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 19 of 87 
+
+Display This Question: 
+
+If If Age of each child <span style="font-size:13px;">Child 1</span> - Years old Is Less Than or 
+Equal to  4 
+
+Or Or Age of each child <span style="font-size:13px;">Child 2</span> - Years old Is Less Than or 
+Equal to  4 
+
+Or Or Age of each child <span style="font-size:13px;">Child 3</span> - Years old Is Less Than or 
+Equal to  4 
+
+Or Or Age of each child <span style="font-size:13px;">Child 4</span> - Years old Is Less Than or 
+Equal to  4 
+
+Or Or Age of each child <span style="font-size:13px;">Child 5</span> - Years old Is Less Than or 
+Equal to  4 
+
+Or Or Age of each child <span style="font-size:13px;">Child 6</span> - Years old Is Less Than or 
+Equal to  4 
+
+Or Or Age of each child <span style="font-size:13px;">Child 7</span> - Years old Is Less Than or 
+Equal to  4 
+
+Or Or Age of each child <span style="font-size:13px;">Child 8</span> - Years old Is Less Than or 
+Equal to  4 
+
+Or Or Age of each child <span style="font-size:13px;">Child 9</span> - Years old Is Less Than or 
+Equal to  4 
+
+Or Or Age of each child <span style="font-size:13px;">Child 10</span> - Years old Is Less Than or 
+Equal to  4 
+
+ 
+
+PREC19CA Before the Coronavirus outbreak, which of the following applied to your child(ren) 
+
+aged   4 or under? 
+
+o My child(ren) aged 4 or under were home all the time  (1)  
+
+o My child(ren) aged 4 or under did attend day care or school  (2)  
+
+o Some of my children aged 4 or under were at home all the time and some attend 
+
+day care or school  (4)  
+
+ 
+
+Display This Question: 
+
+If Age of each child , My child(ren) aged 4 or under were home all the time Is Displayed 
+
+ 
+
+POSC19AC Which of the following now applies to your child(ren) aged 4 or under? 
+
+o My child(ren) aged 4 or under are at home all the time  (1)  
+
+o My child(ren) aged 4 or under attend day care or school  (2)  
+
+o Some of my children aged 4 and under are at home all the time and some attend 
+
+day care or school  (3)  
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 20 of 87 
+
+Display This Question: 
+
+If Age of each child = My child(ren) aged 4 or under attend day care or school 
+
+Or Age of each child = Some of my children aged 4 and under are at home all the time and some 
+attend day care or school 
+
+ 
+
+YCATSCW Why is your child(ren) still attending day care or school?  
+
+▢  I am a key worker  (1)  
+
+▢  My partner is a key worker  (2)  
+
+▢  My child has Special Education Needs (SEN) or Education and Healthcare plan (EHCP)  
+
+(3)  
+
+▢  Other reason  (4)  
+
+ 
+
+Display This Question: 
+
+If If Age of each child <span style="font-size:13px;">Child 1</span> - Years old Is Greater Than or 
+Equal to  5 
+
+And And Age of each child <span style="font-size:13px;">Child 1</span> - Years old Is Less Than or 
+Equal to  16 
+
+Or If 
+
+If Age of each child <span style="font-size:13px;">Child 2</span> - Years old Is Greater Than or 
+Equal to  5 
+
+And And Age of each child <span style="font-size:13px;">Child 2</span> - Years old Is Less Than or 
+Equal to  16 
+
+Or If 
+
+If Age of each child <span style="font-size:13px;">Child 3</span> - Years old Is Greater Than or 
+Equal to  5 
+
+And And Age of each child <span style="font-size:13px;">Child 3</span> - Years old Is Less Than or 
+Equal to  16 
+
+Or If 
+
+If Age of each child <span style="font-size:13px;">Child 4</span> - Years old Is Greater Than or 
+Equal to  5 
+
+And And Age of each child <span style="font-size:13px;">Child 4</span> - Years old Is Less Than or 
+Equal to  16 
+
+Or If 
+
+If Age of each child <span style="font-size:13px;">Child 5</span> - Years old Is Greater Than or 
+Equal to  5 
+
+And And Age of each child <span style="font-size:13px;">Child 5</span> - Years old Is Less Than or 
+Equal to  16 
+
+
+
+ 
+
+ 
+
+ Page 21 of 87 
+
+Or If 
+
+If Age of each child <span style="font-size:13px;">Child 6</span> - Years old Is Greater Than or 
+Equal to  5 
+
+And And Age of each child <span style="font-size:13px;">Child 6</span> - Years old Is Less Than or 
+Equal to  16 
+
+Or If 
+
+If Age of each child <span style="font-size:13px;">Child 7</span> - Years old Is Greater Than or 
+Equal to  5 
+
+And And Age of each child <span style="font-size:13px;">Child 7</span> - Years old Is Less Than or 
+Equal to  16 
+
+Or If 
+
+If Age of each child <span style="font-size:13px;">Child 8</span> - Years old Is Greater Than or 
+Equal to  5 
+
+And And Age of each child <span style="font-size:13px;">Child 8</span> - Years old Is Less Than or 
+Equal to  16 
+
+Or If 
+
+If Age of each child <span style="font-size:13px;">Child 9</span> - Years old Is Greater Than or 
+Equal to  5 
+
+And And Age of each child <span style="font-size:13px;">Child 9</span> - Years old Is Less Than or 
+Equal to  16 
+
+Or If 
+
+If Age of each child <span style="font-size:13px;">Child 10</span> - Years old Is Greater Than or 
+Equal to  5 
+
+And And Age of each child <span style="font-size:13px;">Child 10</span> - Years old Is Less Than 
+or Equal to  16 
+
+ 
+
+SCATSCH Are any of your child(ren) aged between 5 and 16 still physically attending school 
+
+daily? 
+
+o Yes  (23)  
+
+o No  (24)  
+
+ 
+
+Display This Question: 
+If School age child still attending school = Yes 
+
+ 
+
+SCATSCHW Why is your child(ren) still physically attending school?  
+
+▢  I am a key worker  (1)  
+
+▢  My partner is a key worker  (2)  
+
+▢  My child has Special Education Needs (SEN) or Education and Healthcare plan (EHCP)  (3)  
+
+▢  Other reason  (4)  
+
+
+
+ 
+
+ 
+
+ Page 22 of 87 
+
+End of Block: Children and childcare 
+ 
+
+Start of Block: Caring 
+
+ 
+
+CARE Before the Coronavirus outbreak did you or a person you live with usually get help with 
+
+regular personal tasks (washing, dressing), or domestic tasks (shopping, providing meals) that 
+
+cannot be managed alone?  
+
+▢  No help received  (1)  
+
+▢  Help received for myself  (2)  
+
+▢  Help received for someone I live with  (3)  
+
+Display This Question: 
+
+If care before COVID outbreak = Help received for myself 
+
+Or care before COVID outbreak = Help received for someone I live with 
+
+ 
+
+CAREWHO Who provided this help? 
+
+▢  Husband/wife/partner/self  (1)  
+
+▢  Son or daughter or other family member (include even if not blood related)  (2)  
+
+▢  Friend or neighbour  (3)  
+
+▢  Voluntary helper  (4)  
+
+▢  Paid/professional help  (5)  
+
+▢  Other  (6)  
+
+ 
+
+Display This Question: 
+
+If care before COVID outbreak = Help received for myself 
+
+Or care before COVID outbreak = Help received for someone I live with 
+
+ 
+
+HCARPRE  
+
+Altogether, how many hours help did you or someone you live with usually get in a week?  
+
+o Up to 4 hours  (1)  
+
+o 5-9 hours  (4)  
+
+o 10-19 hours  (5)  
+
+
+
+ 
+
+ 
+
+ Page 23 of 87 
+
+o 20-34 hours  (6)  
+
+o 35 hours or more  (7)  
+
+ 
+
+ 
+
+CARECHAN  
+
+Since the Coronavirus outbreak, have you or someone you live with had a change in help 
+
+needed and/or received? 
+
+o Yes, there has been a change to the care needed or received  (1)  
+
+o No change  (2)  
+
+ 
+
+Display This Question: 
+
+If Change in care because of covid = Yes, there has been a change to the care needed or received 
+
+ 
+
+CACHANWH Which of these statements best describes the change in help needed or received? 
+
+o Needs remain the same, but regular care reduced due to the Coronavirus 
+
+outbreak  (1)  
+
+o New or more care needed but not received  (2)  
+
+o New or more care needed and received  (3)  
+
+ 
+
+Display This Question: 
+
+If Change in care because of covid = Yes, there has been a change to the care needed or received 
+
+ 
+
+CARHRAF Since the Coronavirus outbreak, how many hours of help have you or someone you 
+
+typically received each week? 
+
+o 0 hours  (2)  
+
+o 1-4 hours  (3)  
+
+o 5-9 hours  (4)  
+
+o 10-19 hours  (5)  
+
+o 20-34 hours  (6)  
+
+o 35 hours or more  (7)  
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 24 of 87 
+
+Display This Question: 
+
+If Care amount since covid = 1-4 hours 
+
+Or Care amount since covid = 5-9 hours 
+
+Or Care amount since covid = 10-19 hours 
+
+Or Care amount since covid = 20-34 hours 
+
+Or Care amount since covid = 35 hours or more 
+
+ 
+
+PRNCARE Who provided this help? 
+
+o Husband/wife/partner/self  (1)  
+
+o Son or daughter or other family member (include even if not blood related)  (2)  
+
+o Friend or neighbour  (3)  
+
+o Voluntary helper  (4)  
+
+o Paid/professional help  (5)  
+
+o Other  (6)  
+
+ 
+
+End of Block: Caring 
+ 
+
+Start of Block: Housing 
+
+ 
+ 
+
+NUMROOMS  
+
+The next few questions are about where you are currently living. 
+
+ 
+
+How many rooms are there in the home where you are currently living, not counting kitchens, 
+
+bathrooms, toilets, halls and garages? 
+
+ 
+
+ 
+
+Please do not include conservatories unless they are used as a living room all year round. 
+
+ 
+
+________________________________________________________________ 
+ 
+
+  
+
+
+
+ 
+
+ 
+
+ Page 25 of 87 
+
+ 
+ 
+
+CMPOST Please enter the postcode of the address at which you are currently living, even if this 
+
+is a temporary address. 
+
+Use capitalised letters and leave a space between the two parts of the postcode. For 
+
+example WC1H 0AL. 
+
+________________________________________________________________ 
+ 
+
+ 
+
+OUTDOORS Do you have a garden, a patio or yard, a roof terrace or large balcony? 
+
+ 
+
+ 
+
+Please select all that apply 
+
+▢  A garden  (1)  
+
+▢  A patio or yard  (2)  
+
+▢  A roof terrace or large balcony  (3)  
+
+▢  None of the above  (4)  
+
+ 
+
+End of Block: Housing 
+ 
+
+Start of Block: Financial situation 
+
+ 
+
+FINANCIALMANB The following questions are about your financial situation, your job, or any 
+
+other things that you were doing before and since the Coronavirus outbreak. 
+
+ 
+
+In the 3 months before the Coronavirus outbreak, how well would you say you personally were 
+
+managing financially? 
+
+o Living comfortably  (1)  
+
+o Doing all right  (2)  
+
+o Just about getting by   (3)  
+
+o Finding it quite difficult  (4)  
+
+o Finding it very difficult  (5)  
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 26 of 87 
+
+FINANCIALMAND Overall, how do you feel your current financial situation compares to before 
+
+the Coronavirus outbreak? 
+
+o I’m much worse off  (1)  
+
+o I’m a little worse off  (2)  
+
+o I’m about the same  (3)  
+
+o I’m a little better off  (4)  
+
+o I’m much better off  (5)  
+
+ 
+
+ 
+
+FOODAFFORD Which of the following statements best describes the food eaten in your 
+
+household since the Coronavirus outbreak began? 
+
+o You and other household members always have had enough of the kinds of 
+
+foods you wanted to eat  (1)  
+
+o You and other household members have had enough to eat, but not always the 
+
+kinds of foods you wanted  (2)  
+
+o Sometimes you and other household members did not have enough to eat  (3)  
+
+o Often you and other household members did not have enough to eat  (4)  
+
+ 
+
+ 
+
+FOODBANK How often has your household used a food bank, or similar service, since the 
+
+Coronavirus outbreak began? 
+
+o Never  (1)  
+
+o Less than four times  (2)  
+
+o Four times or more  (3)  
+
+  
+
+
+
+ 
+
+ 
+
+ Page 27 of 87 
+
+End of Block: Financial situation 
+ 
+
+Start of Block: Benefits claimed 
+
+ 
+
+BENEFITB In the three months before the Coronavirus outbreak, have you (or your partner if 
+
+you have one) received any of the following? 
+
+ Please select all that apply. 
+
+▢  Free school meals  (1)  
+
+▢  Universal credit  (2)  
+
+▢  Pension credit  (3)  
+
+▢  Income support or Job Seeker’s Allowance  (4)  
+
+▢  Working Tax Credit or Child Tax credit  (5)  
+
+▢  Employment and Support Allowance  (6)  
+
+▢  Statutory sick pay  (8)  
+
+▢  Housing benefit  (14)  
+
+▢  Council tax support or reduction  (9)  
+
+▢  Pension credit  (11)  
+
+▢  Carers allowance, Personal independence payments, or Disability Living Allowance  (12)  
+
+▢  No - none of these  (13)  
+
+ 
+
+ 
+
+BENEFITD Now thinking about the time since the Coronavirus outbreak, have you (or your 
+
+partner if you have one) made any new claims for the following?  
+
+ 
+
+ Please select all that apply. 
+
+▢  Free school meals  (1)  
+
+
+
+ 
+
+ 
+
+ Page 28 of 87 
+
+▢  Universal credit  (2)  
+
+▢  Employment and Support Allowance  (4)  
+
+▢  Statutory sick pay  (5)  
+
+▢  Council tax support or reduction  (6)  
+
+▢  Carers allowance or Personal independence payments  (9)  
+
+▢  New government financial support for self employed people  (7)  
+
+▢  No - none of these  (8)  
+
+ 
+
+ 
+
+BENEFITOTH Since the Coronavirus outbreak, have you used any of the following?  
+
+ 
+
+ Please select all that apply. 
+
+▢  Mortgage or rent payment holidays  (1)  
+
+▢  Council tax payment holiday  (5)  
+
+▢  Other debt repayment or interest payment holidays  (2)  
+
+▢  No - none of these  (4)  
+
+ 
+
+End of Block: Benefits claimed 
+ 
+
+Start of Block: Employment circumstances - prior outbreak 
+
+ 
+
+ECONACTIVITYB Which of these best describes what you were doing just before the 
+
+Coronavirus outbreak? If you were doing more than one activity, please choose the activity that 
+
+you spent most time doing.     
+
+o Employed  (1)  
+
+o Self-employed  (2)  
+
+
+
+ 
+
+ 
+
+ Page 29 of 87 
+
+o In unpaid/ voluntary work  (3)  
+
+o Apprenticeship  (4)  
+
+o Unemployed  (5)  
+
+o Permanently sick or disabled  (6)  
+
+o Looking after home or family  (7)  
+
+o In education at school/college/university  (8)  
+
+o Retired  (9)  
+
+o Doing something else  (10)  
+
+ 
+
+Display This Question: 
+
+If Economic activity - prior outbreak = Apprenticeship 
+
+ 
+
+APPRENTYPE Was this apprenticeship part of..? 
+
+o A full time job  (1)  
+
+o Or a part time job  (2)  
+
+o Not part of any job  (3)  
+
+ 
+
+ 
+
+Display This Question: 
+
+If Economic activity - prior outbreak = Employed 
+
+Or Economic activity - prior outbreak = Self-employed 
+
+Or Economic activity - prior outbreak = In unpaid/ voluntary work 
+
+Or Economic activity - prior outbreak = Apprenticeship 
+
+And Apprenticeship type != Not part of any job 
+
+ 
+ 
+
+WRKHOURSB How many hours per week did you usually work, not including meal breaks but 
+
+including overtime?  
+
+________________________________________________________________ 
+
+
+
+ 
+
+ 
+
+ Page 30 of 87 
+
+Display This Question: 
+
+If Economic activity - prior outbreak = Employed 
+
+Or Economic activity - prior outbreak = Self-employed 
+
+Or Economic activity - prior outbreak = In unpaid/ voluntary work 
+
+Or Economic activity - prior outbreak = Apprenticeship 
+
+And Apprenticeship type != Not part of any job 
+
+ 
+ 
+
+JTITLEB What was your job title?  
+
+________________________________________________________________ 
+ 
+
+ 
+
+Display This Question: 
+
+If Economic activity - prior outbreak = Employed 
+
+Or Economic activity - prior outbreak = Self-employed 
+
+Or Economic activity - prior outbreak = In unpaid/ voluntary work 
+
+Or Economic activity - prior outbreak = Apprenticeship 
+
+And Apprenticeship type != Not part of any job 
+
+ 
+
+JDOB Please describe in your own words what you mainly did in this job. Please describe in 
+
+detail (for example job title and the type of work). 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+  
+
+
+
+ 
+
+ 
+
+ Page 31 of 87 
+
+Display This Question: 
+
+If Economic activity - prior outbreak = Employed 
+
+Or Economic activity - prior outbreak = In unpaid/ voluntary work 
+
+Or Economic activity - prior outbreak = Apprenticeship 
+
+And Apprenticeship type != Not part of any job 
+
+ 
+ 
+
+JMAKEB What did the firm or organisation you worked for mainly make or do?  
+
+ 
+
+ 
+
+Please describe in detail (for example manufacturing, processing or distribution, goods 
+
+produced, materials used, wholesale or retail). 
+
+      
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+ 
+
+Display This Question: 
+
+If Economic activity - prior outbreak = Self-employed 
+
+ 
+ 
+
+JMAKESEB What did your firm or organisation mainly make or do?  
+
+ 
+
+ 
+
+Please describe in detail (for example manufacturing, processing or distribution, goods 
+
+produced, materials used, wholesale or retail). 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+
+
+
+ 
+
+ 
+
+ Page 32 of 87 
+
+Display This Question: 
+
+If Economic activity - prior outbreak = Employed 
+
+ 
+
+ZEROHB In this job, did you have a zero hours contract? 
+
+o Yes  (1)  
+
+o No  (2)  
+
+ 
+
+End of Block: Employment circumstances - prior outbreak 
+ 
+
+Start of Block: Education - prior outbreak 
+
+Display This Question: 
+
+If Economic activity - prior outbreak = Apprenticeship 
+
+And Apprenticeship type = Not part of any job 
+
+ 
+
+FTCOURSEAPPRENT Was this apprenticeship a full time course at a college or training 
+
+centre? 
+
+o Yes  (1)  
+
+o No  (2)  
+
+ 
+
+Display This Question: 
+
+If Whether apprenticeship a full time course = No 
+
+ 
+
+STUDYAPPRENT Did it involve periods of study at a college or training centre? 
+
+o Yes  (1)  
+
+o No  (2)  
+
+ 
+
+  
+
+
+
+ 
+
+ 
+
+ Page 33 of 87 
+
+Display This Question: 
+
+If Economic activity - prior outbreak = In education at school/college/university 
+
+Or Economic activity - prior outbreak = Apprenticeship 
+
+And Apprenticeship type = Not part of any job 
+
+ 
+
+STUDYORG Where were you studying or doing your apprenticeship? 
+
+o School  (1)  
+
+o College  (2)  
+
+o University  (3)  
+
+o Other  (4)  
+
+ 
+
+ 
+
+Display This Question: 
+
+If Economic activity - prior outbreak = In education at school/college/university 
+
+ 
+
+STUDYHRS Were you studying or doing your apprenticeship full or part time? 
+
+o Full-time  (1)  
+
+o Part time  (2)  
+
+ 
+
+ 
+
+Display This Question: 
+
+If Economic activity - prior outbreak = In education at school/college/university 
+
+Or Economic activity - prior outbreak = Apprenticeship 
+
+And Apprenticeship type = Not part of any job 
+
+ 
+ 
+
+COURSENAME What is the name of the course you were studying? 
+
+    
+
+   Please write the name of the course in the box below. 
+
+________________________________________________________________ 
+ 
+
+
+
+ 
+
+ 
+
+ Page 34 of 87 
+
+Display This Question: 
+
+If Economic activity - prior outbreak = In education at school/college/university 
+
+Or Economic activity - prior outbreak = Apprenticeship 
+
+And Apprenticeship type = Not part of any job 
+
+ 
+
+STUDYORGNAME In the boxes below please write the full name of the school, college, 
+
+university or other organisation at which you were studying or doing your apprenticeship, and 
+
+the town in which it is in: 
+
+o Name:  (4) ________________________________________________ 
+
+o Town:  (5) ________________________________________________ 
+
+ 
+
+ 
+
+Display This Question: 
+
+If Economic activity - prior outbreak = In education at school/college/university 
+
+Or Economic activity - prior outbreak = Apprenticeship 
+
+And Apprenticeship type = Not part of any job 
+
+ 
+
+COURSEDUR What is the duration of the course or apprenticeship? 
+
+o One year  (1)  
+
+o Two years  (2)  
+
+o Three years  (3)  
+
+o Four years  (4)  
+
+o Other (please specify)  (5) 
+
+________________________________________________ 
+
+ 
+
+ 
+
+  
+
+
+
+ 
+
+ 
+
+ Page 35 of 87 
+
+Display This Question: 
+
+If Economic activity - prior outbreak = In education at school/college/university 
+
+Or Economic activity - prior outbreak = Apprenticeship 
+
+And Apprenticeship type = Not part of any job 
+
+ 
+
+STUDYYEAR Which course year or year in the apprenticeship are you currently in? 
+
+o First year  (1)  
+
+Course duration = Two years 
+
+Or Course duration = Three years 
+
+Or Course duration = Four years 
+
+Or Course duration = Other (please specify) 
+
+o Second year  (2)  
+
+Course duration = Three years 
+
+Or Course duration = Four years 
+
+Or Course duration = Other (please specify) 
+
+o Third year  (3)  
+
+Course duration = Four years 
+
+Or Course duration = Other (please specify) 
+
+o Fourth year  (4)  
+
+Course duration = Other (please specify) 
+
+o Other (please specify)  (5) 
+
+________________________________________________ 
+
+  
+
+
+
+ 
+
+ 
+
+ Page 36 of 87 
+
+Display This Question: 
+
+If Economic activity - prior outbreak = In education at school/college/university 
+
+Or Economic activity - prior outbreak = Apprenticeship 
+
+And Apprenticeship type = Not part of any job 
+
+ 
+
+LEARNACTIVITYCHNG Has your learning activity changed in any of the following ways since 
+
+the Coronavirus outbreak? 
+
+o No - there is no interruption to learning activities  (1)  
+
+o Yes - I am taking  a formal break in learning activities  (2)  
+
+o Yes - I am studying at home with online resources provided by my learning 
+
+establishment  (3)  
+
+o Yes - I am studying at home with no online resources provided by my learning 
+
+establishment  (4)  
+
+o Yes - I dropped out from learning activities  (5)  
+
+o Other (Please specify)  (6) 
+
+________________________________________________ 
+
+  
+
+
+
+ 
+
+ 
+
+ Page 37 of 87 
+
+Display This Question: 
+
+If Change in learning activity - during outbreak = Yes - I am studying at home with online resources 
+provided by my learning establishment 
+
+Or Change in learning activity - during outbreak = Yes - I am studying at home with no online 
+resources provided by my learning establishment 
+
+ 
+
+LEARNSATISFACTION Using a scale of 0 to 10, where 0 means 'completely disagree' and 10 
+
+means 'completely agree', please indicate the extent to which you agree or disagree with each 
+
+of the statements below. 
+
+ 
+
+ 
+Completely 
+
+disagree 
+ 0 (14) 
+
+1 
+(25) 
+
+2 
+(26) 
+
+3 
+(15) 
+
+4 
+(16) 
+
+5 
+(17) 
+
+6 
+(18) 
+
+7 
+(19) 
+
+8 
+(20) 
+
+9 
+(21) 
+
+ 
+Completely 
+
+agree 
+ 10 (28) 
+
+I am satisfied 
+with the 
+learning 
+
+resources 
+provided by 
+my learning 
+
+establishment 
+(5)  
+
+o  o  o  o  o  o  o  o  o  o  o  
+
+I have been 
+able to 
+
+continue my 
+studies 
+
+effectively 
+whilst being 
+at home (6)  
+
+o  o  o  o  o  o  o  o  o  o  o  
+
+ 
+
+  
+
+
+
+ 
+
+ 
+
+ Page 38 of 87 
+
+End of Block: Education - prior outbreak 
+ 
+
+Start of Block: Economic activity - during outbreak - if in education or non-job 
+apprenticeship 
+
+Display This Question: 
+
+If Change in learning activity - during outbreak = Yes - I am taking  a formal break in learning 
+activities 
+
+Or Change in learning activity - during outbreak = Yes - I dropped out from learning activities 
+
+ 
+
+ECONACTIVITYDEDU And which of these best describes what you are doing now - that is 
+
+since the Coronavirus outbreak? 
+
+ If you are doing more than one activity, please choose the activity that you spend most time 
+
+doing.     
+
+o Employed  (1)  
+
+o Self-employed  (2)  
+
+o In unpaid/ voluntary work  (3)  
+
+o Apprenticeship  (4)  
+
+o Unemployed  (5)  
+
+o Permanently sick or disabled  (6)  
+
+o Looking after home or family  (7)  
+
+o In education at school/college/university  (8)  
+
+o Retired  (9)  
+
+o Doing something else  (10)  
+
+  
+
+
+
+ 
+
+ 
+
+ Page 39 of 87 
+
+Display This Question: 
+
+If Economic activity - during outbreak if learning interrupted = Employed 
+
+Or Economic activity - during outbreak if learning interrupted = Self-employed 
+
+Or Economic activity - during outbreak if learning interrupted = In unpaid/ voluntary work 
+
+ 
+ 
+
+WRKHOURSDEDU And how many hours per week do you usually work now, not including 
+
+meal breaks but including overtime?  
+
+________________________________________________________________ 
+ 
+
+Display This Question: 
+
+If Economic activity - during outbreak if learning interrupted = Employed 
+
+Or Economic activity - during outbreak if learning interrupted = Self-employed 
+
+Or Economic activity - during outbreak if learning interrupted = In unpaid/ voluntary work 
+
+ 
+
+WRKLOCATIONDEDU Which of the following best describes your work location since the 
+
+Coronavirus outbreak? 
+
+o Work from your own home  (1)  
+
+o Work at employer's premises  (2)  
+
+o Other  (3)  
+
+ 
+
+ 
+
+Display This Question: 
+
+If Economic activity - during outbreak if learning interrupted = Employed 
+
+Or Economic activity - during outbreak if learning interrupted = Self-employed 
+
+Or Economic activity - during outbreak if learning interrupted = In unpaid/ voluntary work 
+
+ 
+
+KEYWORKEREDU Are you a Key worker, or has your work been classified as critical to the 
+
+Covid-19 response? 
+
+o Yes  (1)  
+
+o No  (2)  
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 40 of 87 
+
+End of Block: Economic activity - during outbreak - if in education or non-job 
+apprenticeship 
+
+ 
+
+Start of Block: Employment circumstances - during outbreak 
+
+Display This Question: 
+
+If Economic activity - prior outbreak != In education at school/college/university 
+
+And Apprenticeship type != Not part of any job 
+
+ 
+
+ECONACTIVITYD And which of these would you say best describes your situation now - that is 
+
+since the Coronavirus outbreak? 
+
+o Employed and currently working  (1)  
+
+o Employed but on paid leave (including furlough)  (2)  
+
+o Employed and on unpaid leave  (3)  
+
+o Apprenticeship  (4)  
+
+o In unpaid/voluntary work  (5)  
+
+o Self-employed and currently working  (6)  
+
+o Self-employed but not currently working  (7)  
+
+o Unemployed  (8)  
+
+o Permanently sick or disabled  (9)  
+
+o Looking after home or family  (10)  
+
+o In education at school/college/university  (11)  
+
+o Retired  (12)  
+
+o Doing something else  (13)  
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 41 of 87 
+
+Display This Question: 
+
+If Economic activity - during outbreak = Employed and currently working 
+
+Or Economic activity - during outbreak = Apprenticeship 
+
+Or Economic activity - during outbreak = In unpaid/voluntary work 
+
+Or Economic activity - during outbreak = Self-employed and currently working 
+
+ 
+ 
+
+WRKHOURSD And how many hours per week do you usually work now, not including meal 
+
+breaks but including overtime?  
+
+________________________________________________________________ 
+ 
+
+Display This Question: 
+
+If Economic activity - during outbreak = Employed and currently working 
+
+Or Economic activity - during outbreak = Apprenticeship 
+
+Or Economic activity - during outbreak = In unpaid/voluntary work 
+
+Or Economic activity - during outbreak = Self-employed and currently working 
+
+ 
+
+WRKLOCATIOND Which of the following best describes your work location since the 
+
+Coronavirus outbreak? 
+
+o Work from your own home  (1)  
+
+o Work at employer's premises  (2)  
+
+o Other  (3)  
+
+ 
+
+Display This Question: 
+
+If Economic activity - during outbreak = Employed and currently working 
+
+Or Economic activity - during outbreak = Apprenticeship 
+
+Or Economic activity - during outbreak = In unpaid/voluntary work 
+
+Or Economic activity - during outbreak = Self-employed and currently working 
+
+ 
+
+KEYWORKERD Are you a Key worker, or has your work been classified as critical to the Covid-
+
+19 response? 
+
+o Yes  (1)  
+
+o No  (2)  
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 42 of 87 
+
+ 
+
+End of Block: Employment circumstances - during outbreak 
+ 
+
+Start of Block: Employment circumstances - prior outbreak - partner 
+
+Display This Question: 
+
+If Who do you currently live with = Husband/Wife/Cohabiting Partner 
+
+ 
+
+PECONACTIVITYB Which of these best describes what your partner was doing just before the 
+
+Coronavirus outbreak? If they were doing more than one activity, please choose the activity that 
+
+they spent most time doing.     
+
+o Employed  (1)  
+
+o Self-employed  (2)  
+
+o In unpaid/ voluntary work  (3)  
+
+o Apprenticeship  (4)  
+
+o Unemployed  (5)  
+
+o Permanently sick or disabled  (6)  
+
+o Looking after home or family  (7)  
+
+o In education at school/college/university  (8)  
+
+o Retired  (9)  
+
+o Doing something else  (10)  
+
+ 
+
+Display This Question: 
+
+If Partner's economic activity - prior outbreak = Apprenticeship 
+
+ 
+
+PAPPRENTYPE Was this apprenticeship part of..? 
+
+o A full time job  (1)  
+
+o Or a part time job  (2)  
+
+o Not part of any job  (3)  
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 43 of 87 
+
+Display This Question: 
+
+If Partner's economic activity - prior outbreak = Employed 
+
+Or Partner's economic activity - prior outbreak = Self-employed 
+
+Or Partner's economic activity - prior outbreak = In unpaid/ voluntary work 
+
+Or Partner's economic activity - prior outbreak = Apprenticeship 
+
+And Apprenticeship type - partner != Not part of any job 
+
+ 
+ 
+
+PWRKHOURSB How many hours per week did your partner usually work, not including meal 
+
+breaks but including overtime?  
+
+________________________________________________________________ 
+ 
+
+Display This Question: 
+
+If Partner's economic activity - prior outbreak = Employed 
+
+Or Partner's economic activity - prior outbreak = Self-employed 
+
+Or Partner's economic activity - prior outbreak = In unpaid/ voluntary work 
+
+Or Partner's economic activity - prior outbreak = Apprenticeship 
+
+And Apprenticeship type - partner != Not part of any job 
+
+ 
+ 
+
+PJTITLEB What was your partner's job title?  
+
+________________________________________________________________ 
+ 
+
+Display This Question: 
+
+If Partner's economic activity - prior outbreak = Employed 
+
+Or Partner's economic activity - prior outbreak = Self-employed 
+
+Or Partner's economic activity - prior outbreak = In unpaid/ voluntary work 
+
+Or Partner's economic activity - prior outbreak = Apprenticeship 
+
+And Apprenticeship type - partner != Not part of any job 
+
+ 
+ 
+
+PJDOB Please describe in your own words what your partner mainly did in this job. Please 
+
+describe in detail (for example job title and the type of work). 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+ 
+
+
+
+ 
+
+ 
+
+ Page 44 of 87 
+
+Display This Question: 
+
+If Partner's economic activity - prior outbreak = Employed 
+
+Or Partner's economic activity - prior outbreak = In unpaid/ voluntary work 
+
+Or Partner's economic activity - prior outbreak = Apprenticeship 
+
+And Apprenticeship type - partner != Not part of any job 
+
+ 
+ 
+
+PJMAKEB What did the firm or organisation your partner worked for mainly make or do? 
+
+Please describe in detail (for example manufacturing, processing or distribution, goods 
+
+produced, materials used, wholesale or retail. 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+ 
+
+Display This Question: 
+
+If Partner's economic activity - prior outbreak = Self-employed 
+
+ 
+ 
+
+PJMAKESEB What did your partner's firm or organisation mainly make or do? Please describe 
+
+in detail (for example manufacturing, processing or distribution, goods produced, materials 
+
+used, wholesale or retail. 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+  
+
+
+
+ 
+
+ 
+
+ Page 45 of 87 
+
+Display This Question: 
+
+If Partner's economic activity - prior outbreak = Employed 
+
+ 
+
+PZEROHB In this job, did your partner have a zero hours contract? 
+
+o Yes  (1)  
+
+o No  (2)  
+
+End of Block: Employment circumstances - prior outbreak - partner 
+ 
+
+Start of Block: Economic activity - partner - since outbreak 
+
+Display This Question: 
+
+If Who do you currently live with = Husband/Wife/Cohabiting Partner 
+
+ 
+
+PECONACTIVITYD And which of these would you say best describes your partner’s situation 
+
+now - that is since the Coronavirus outbreak? 
+
+o Employed and currently working  (1)  
+
+o Employed but on paid leave (including furlough)  (2)  
+
+o Employed and on unpaid leave  (3)  
+
+o Apprenticeship  (4)  
+
+o In unpaid/voluntary work  (5)  
+
+o Self-employed and currently working  (6)  
+
+o Self-employed but not currently working  (7)  
+
+o Unemployed  (8)  
+
+o Permanently sick or disabled  (9)  
+
+o Looking after home or family  (10)  
+
+o In education at school/college/university  (11)  
+
+o Retired  (12)  
+
+o Doing something else  (13)  
+
+
+
+ 
+
+ 
+
+ Page 46 of 87 
+
+Display This Question: 
+
+If Partner's economic activity - during outbreak = Employed and currently working 
+
+Or Partner's economic activity - during outbreak = Apprenticeship 
+
+Or Partner's economic activity - during outbreak = In unpaid/voluntary work 
+
+Or Partner's economic activity - during outbreak = Self-employed and currently working 
+
+ 
+ 
+
+PWRKHOURSD And how many hours per week does your partner usually work now, not 
+
+including meal breaks 
+
+    but including overtime?  
+
+________________________________________________________________ 
+ 
+
+Display This Question: 
+
+If Partner's economic activity - during outbreak = Employed and currently working 
+
+Or Partner's economic activity - during outbreak = Apprenticeship 
+
+Or Partner's economic activity - during outbreak = In unpaid/voluntary work 
+
+Or Partner's economic activity - during outbreak = Self-employed and currently working 
+
+ 
+
+PKEYWORKER Is your partner a Key worker, or has their work been classified as critical to 
+
+the Covid-19 response? 
+
+o Yes  (1)  
+
+o No  (2)  
+
+ 
+
+ 
+
+End of Block: Economic activity - partner - since outbreak 
+ 
+
+Start of Block: EDU&EMP MCS ONLY 
+
+Display This Question: 
+
+If GROUP = 4 
+
+ 
+
+EDUOFFER Have you, at any stage, formally accepted an offer for a place on a college or 
+
+university course or an apprenticeship programme which will start later this year? 
+
+o Yes  (1)  
+
+o No  (2)  
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 47 of 87 
+
+Display This Question: 
+
+If GROUP = 4 
+
+And Whether accepted a place at college or university = Yes 
+
+ 
+
+EDUORGNAME In the boxes below please write the full name of the college, university or other 
+
+organisation at which you have been offered a place, and the town in which it is in: 
+
+o Name:  (4) ________________________________________________ 
+
+o Town:  (5) ________________________________________________ 
+
+ 
+
+Display This Question: 
+
+If GROUP = 4 
+
+And Whether accepted a place at college or university = Yes 
+
+ 
+
+EDUOFFERINTENT Do you still intend to take up this course or have your plans changed? 
+
+o No change to plans - I will take up the course or apprenticeship  (1)  
+
+o Deferred entry to course or apprenticeship  (2)  
+
+o Do not plan to do the course or apprenticeship anymore  (3)  
+
+o Not sure / Still deciding  (4)  
+
+ 
+
+End of Block: EDU&EMP MCS ONLY 
+ 
+
+Start of Block: Health Behaviours 
+
+ 
+
+SMOKING The next set of questions are about smoking, drinking alcohol, exercise, diet and 
+
+sleep.  
+
+ 
+
+ 
+
+Which of these statements applies to you? 
+
+o I've never smoked cigarettes  (1)  
+
+o I used to smoke cigarettes but don't at all now  (2)  
+
+o I now smoke cigarettes occasionally but not every day  (3)  
+
+o I smoke cigarettes every day  (4)  
+
+
+
+ 
+
+ 
+
+ Page 48 of 87 
+
+Display This Question: 
+
+If Smoking behaviour = I now smoke cigarettes occasionally but not every day 
+
+Or Smoking behaviour = I smoke cigarettes every day 
+
+ 
+ 
+
+NUMCIGSPP In the month before the Coronavirus outbreak, how many cigarettes a day did 
+
+you usually smoke? 
+
+________________________________________________________________ 
+ 
+
+ 
+
+Display This Question: 
+
+If Smoking behaviour = I now smoke cigarettes occasionally but not every day 
+
+Or Smoking behaviour = I smoke cigarettes every day 
+
+ 
+ 
+
+NUMCIGSSP Since the start of the Coronavirus outbreak, how many cigarettes a day have you 
+
+typically smoked? 
+
+________________________________________________________________ 
+ 
+
+ 
+
+VAPE Now thinking about electronic cigarettes or vaping devices, which of these statements 
+
+applies to you? 
+
+o I’ve never used an electronic cigarette or a vaping device  (1)  
+
+o I used to use an electronic cigarette or a vaping device but don't at all now  (2)  
+
+o I now use an electronic cigarette or a vaping device occasionally but not every 
+
+day  (3)  
+
+o I use electronic cigarettes or vaping devices every day  (4)  
+
+  
+
+
+
+ 
+
+ 
+
+ Page 49 of 87 
+
+Display This Question: 
+
+If Vaping behaviour = I now use an electronic cigarette or a vaping device occasionally but not every 
+day 
+
+Or Vaping behaviour = I use electronic cigarettes or vaping devices every day 
+
+ 
+
+VAPESP Since the start of the Coronavirus outbreak, has the amount you have been using an 
+
+electronic cigarette or vaping device changed? 
+
+o Yes - I have used an electronic cigarette or vaping device more often  (1)  
+
+o Yes - I have used an electronic cigarette or vaping device less often  (2)  
+
+o No  (3)  
+
+ 
+
+ALDRPP In the month before the Coronavirus outbreak, how often did you have a drink 
+
+containing alcohol? 
+
+o 4 or more times a week  (1)  
+
+o 2-3 times a week  (2)  
+
+o 2-4 times per month  (3)  
+
+o Monthly or less  (4)  
+
+o Never  (5)  
+
+ 
+
+Display This Question: 
+
+If How often drank alcohol pre Coranavirus outbreak = 4 or more times a week 
+
+Or How often drank alcohol pre Coranavirus outbreak = 2-3 times a week 
+
+Or How often drank alcohol pre Coranavirus outbreak = 2-4 times per month 
+
+Or How often drank alcohol pre Coranavirus outbreak = Monthly or less 
+
+ 
+
+AUNDPP In the month before the Coronavirus outbreak, how many standard alcoholic drinks 
+
+have you had on a typical day when you were drinking? 
+
+o 1-2  (1)  
+
+o 3-4  (2)  
+
+o 5-6  (3)  
+
+o 7-9  (4)  
+
+o 10+  (5)  
+
+
+
+ 
+
+ 
+
+ Page 50 of 87 
+
+ALDRSP Since the start of the Coronavirus outbreak, how often have you had a drink 
+
+containing alcohol?  
+
+o 4 or more times a week  (1)  
+
+o 2-3 times a week  (2)  
+
+o 2-4 times per month  (3)  
+
+o Monthly or less  (4)  
+
+o Never  (5)  
+
+ 
+
+Display This Question: 
+
+If How often drinks alcohol since Coronavirus outbreak = 4 or more times a week 
+
+Or How often drinks alcohol since Coronavirus outbreak = 2-3 times a week 
+
+Or How often drinks alcohol since Coronavirus outbreak = 2-4 times per month 
+
+Or How often drinks alcohol since Coronavirus outbreak = Monthly or less 
+
+ 
+
+AUNDSP Since the start of the Coronavirus outbreak, how many standard alcoholic drinks do 
+
+you have on a typical day when you were drinking? 
+
+o 1-2  (1)  
+
+o 3-4  (2)  
+
+o 5-6  (3)  
+
+o 7-9  (4)  
+
+o 10+  (5)  
+
+ 
+
+Display This Question: 
+
+If How often drinks alcohol since Coronavirus outbreak = 4 or more times a week 
+
+Or How often drinks alcohol since Coronavirus outbreak = 2-3 times a week 
+
+Or How often drinks alcohol since Coronavirus outbreak = 2-4 times per month 
+
+Or How often drinks alcohol since Coronavirus outbreak = Monthly or less 
+
+ 
+
+AUSDSP Since the start of the Coronavirus outbreak, how often have you found you were not 
+
+able to stop drinking once you had started? 
+
+o Never  (1)  
+
+o Less than monthly  (2)  
+
+
+
+ 
+
+ 
+
+ Page 51 of 87 
+
+o Monthly  (3)  
+
+o Weekly  (4)  
+
+o Daily or almost daily  (5)  
+
+ 
+
+ 
+
+Display This Question: 
+
+If How often drinks alcohol since Coronavirus outbreak = 4 or more times a week 
+
+Or How often drinks alcohol since Coronavirus outbreak = 2-3 times a week 
+
+Or How often drinks alcohol since Coronavirus outbreak = 2-4 times per month 
+
+Or How often drinks alcohol since Coronavirus outbreak = Monthly or less 
+
+ 
+
+AUACSP Since the start of the Coronavirus outbreak, how often have you failed to do what was 
+
+expected of you because of drinking? 
+
+o Never  (1)  
+
+o Less than monthly  (2)  
+
+o Monthly  (3)  
+
+o Weekly  (4)  
+
+o Daily or almost daily  (5)  
+
+ 
+
+Display This Question: 
+
+If How often drinks alcohol since Coronavirus outbreak = 4 or more times a week 
+
+Or How often drinks alcohol since Coronavirus outbreak = 2-3 times a week 
+
+Or How often drinks alcohol since Coronavirus outbreak = 2-4 times per month 
+
+Or How often drinks alcohol since Coronavirus outbreak = Monthly or less 
+
+ 
+
+AUCDSP Since the start of the Coronavirus outbreak, has a relative, friend, doctor or health 
+
+worker been concerned about your drinking or advised you to cut down?  
+
+o Yes  (1)  
+
+o No  (2)  
+
+  
+
+
+
+ 
+
+ 
+
+ Page 52 of 87 
+
+ 
+ 
+
+EXCISEPP In the month before the start of the Coronavirus outbreak, on how many days in a 
+
+typical week did you do 30 minutes or more of exercise where you are working hard enough to 
+
+raise your heart rate and break into a sweat? 
+
+ 
+
+ 
+
+________________________________________________________________ 
+ 
+
+ 
+
+ 
+ 
+
+EXCISESP Since the start of the Coronavirus outbreak, on how many days in a typical week 
+
+did you do 30 minutes or more of exercise where you are working hard enough to raise your 
+
+heart rate and break into a sweat? 
+
+________________________________________________________________ 
+ 
+
+ 
+
+ 
+ 
+
+FRTVEGPP  
+
+In the month before the start of the Coronavirus outbreak, how many portions of fresh fruit and 
+
+vegetables did you eat in a typical day?   
+
+    
+
+  
+
+ A portion of fruit could be a whole piece of fruit, like an apple or banana or 80g of fruit (like in a 
+
+fruit salad).    
+
+ A portion of vegetables is 3 heaped tablespoons of cooked vegetables or beans /pulses or a 
+
+handful of cherry tomatoes or a small bowl of salad. It does not include potatoes.     
+
+ Juice/smoothies can count as 1 portion per day. 
+
+________________________________________________________________ 
+ 
+
+  
+
+
+
+ 
+
+ 
+
+ Page 53 of 87 
+
+ 
+ 
+
+FRTVEGSP  
+
+Since the start of the Coronavirus outbreak, how many portions of fresh fruit and vegetables 
+
+have you eaten in a typical day?   
+
+    
+
+  
+
+ A portion of fruit could be a whole piece of fruit, like an apple or banana or 80g of fruit (like in a 
+
+fruit salad).    
+
+ A portion of vegetables is 3 heaped tablespoons of cooked vegetables or beans /pulses or a 
+
+handful of cherry tomatoes or a small bowl of salad. It does not include potatoes.     
+
+ Juice/smoothies can count as 1 portion per day. 
+
+________________________________________________________________ 
+ 
+
+ 
+
+ 
+ 
+
+HSLEEPPP In the month before the start of the Coronavirus outbreak, how many hours did you 
+
+sleep each night on average? 
+
+ 
+
+ 
+
+Please round to the nearest hour. 
+
+________________________________________________________________ 
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+HSLEEPSP Since the start of the Coronavirus outbreak, how many hours have you slept each 
+
+night on average? 
+
+ 
+
+ 
+
+Please round to the nearest hour. 
+
+________________________________________________________________ 
+ 
+
+
+
+ 
+
+ 
+
+ Page 54 of 87 
+
+Weight The next question is about your weight. Would you prefer to report your weight in 
+
+kilograms or stones and pounds?  
+
+o Kilograms  (1)  
+
+o Stones and Pounds  (2)  
+
+o I do not wish to report my weight  (3)  
+
+ 
+
+Display This Question: 
+
+If The next question is about your weight. Would you prefer to report your weight in kilograms or st... 
+= Kilograms 
+
+ 
+ 
+
+WGHTKG What is your weight in kilograms? 
+
+________________________________________________________________ 
+ 
+
+Display This Question: 
+
+If The next question is about your weight. Would you prefer to report your weight in kilograms or st... 
+= Stones and Pounds 
+
+ 
+
+WGHTSTP What is your weight in stones and pounds? 
+
+o Stone  (4) ________________________________________________ 
+
+o Pounds  (5) ________________________________________________ 
+
+ 
+
+End of Block: Health Behaviours 
+ 
+
+Start of Block: Contact 
+
+ 
+
+SCON1 The next few questions are about the contact you have had with people you do not live 
+
+with in the last seven days. 
+
+ 
+
+In the last seven days, on how many days did you meet up in person with any of your family or 
+
+friends who do not live with you?   
+
+o Every day  (1)  
+
+o 4-6 days  (2)  
+
+
+
+ 
+
+ 
+
+ Page 55 of 87 
+
+o 2-3 days  (3)  
+
+o 1 day  (4)  
+
+o Never  (5)  
+
+ 
+
+ 
+
+SCON2 In the last seven days, on how many days did you talk to family or friends you do not 
+
+live with via phone or video calls? 
+
+o Every day  (1)  
+
+o 4-6 days  (2)  
+
+o 2-3 days  (3)  
+
+o 1 day  (4)  
+
+o Never  (5)  
+
+ 
+
+ 
+
+SCON3 In the last seven days, on how many days did you keep in contact with family or friends 
+
+you do not live with by email or text or other electronic messaging? 
+
+o Every day  (1)  
+
+o 4-6 days  (2)  
+
+o 2-3 days  (3)  
+
+o 1 day  (4)  
+
+o Never  (5)  
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 56 of 87 
+
+SCON4 In the last seven days, on how many days did you take part in an online community 
+
+activity, e.g. an online community group, online chat group, street or neighbourhood social 
+
+media group? 
+
+o Every day  (1)  
+
+o 4-6 days  (2)  
+
+o 2-3 days  (3)  
+
+o 1 day  (4)  
+
+o Never  (5)  
+
+ 
+
+ 
+
+SCON5 In the last seven days, on how many days did you give help to people outside of your 
+
+household affected by Coronavirus or the current restrictions?   
+
+ 
+
+ 
+
+Please include doing shopping, collecting medicines, checking in on people and any other 
+
+voluntary work for community groups or other organisations. 
+
+o Every day  (1)  
+
+o 4-6 days  (2)  
+
+o 2-3 days  (3)  
+
+o 1 day  (4)  
+
+o Never  (5)  
+
+  
+
+
+
+ 
+
+ 
+
+ Page 57 of 87 
+
+End of Block: Contact 
+ 
+
+Start of Block: Social provision 
+
+Display This Question: 
+
+If COHORTID = 3 
+
+Or COHORTID = 4 
+
+ 
+
+SOCPROV In answering the following questions, think about your current relationships with 
+
+friends, family members, community members, and so on.   
+
+Please indicate to what extent each statement describes your current relationships with other 
+
+people. 
+
+ Very true (9) Partly true (10) Not true at all (11) 
+
+I have family and 
+friends who help me 
+feel safe, secure and 
+
+happy (2)  
+o  o  o  
+
+There is someone I 
+trust whom I would 
+turn to for advice if I 
+
+were having problems 
+(1)  
+
+o  o  o  
+
+There is no one I feel 
+close to (3)  o  o  o  
+
+ 
+
+ 
+
+SICK If you were sick in bed how much could you count on the people around you to help out? 
+
+o Not at all  (1)  
+
+o A little  (6)  
+
+o Somewhat  (7)  
+
+o A great deal  (8)  
+
+  
+
+
+
+ 
+
+ 
+
+ Page 58 of 87 
+
+Display This Question: 
+
+If COHORTID = 1 
+
+Or COHORTID = 2 
+
+ 
+
+LISTEN If you needed to talk about your problems and private feelings, how much would the 
+
+people around you be willing to listen? 
+
+o Not at all  (2)  
+
+o A little  (6)  
+
+o Somewhat  (7)  
+
+o A great deal  (8)  
+
+ 
+
+End of Block: Social provision 
+ 
+
+Start of Block: Loneliness 
+
+ 
+
+LONELY      
+
+ Hardly ever (1) Some of the time (2) Often (3) 
+
+How often do you feel 
+that you lack 
+
+companionship? (2)  o  o  o  
+
+How often do you feel 
+left out? (3)  o  o  o  
+
+How often do you feel 
+isolated from others? 
+
+(4)  o  o  o  
+
+How often do you feel 
+lonely? (6)  o  o  o  
+
+ 
+
+ 
+
+End of Block: Loneliness 
+ 
+
+Start of Block: Life sat 
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 59 of 87 
+
+SATN Overall, how satisfied are you with your life nowadays, where 0 means 'not at all' and 10 
+
+means 'completely'? 
+
+o Not at all satisfied 0  (100)  
+
+o 1   (101)  
+
+o 2   (102)  
+
+o 3   (103)  
+
+o 4   (104)  
+
+o 5   (105)  
+
+o 6   (106)  
+
+o 7   (107)  
+
+o 8   (108)  
+
+o 9   (109)  
+
+o Completely satisfied 10  (110)  
+
+ 
+
+End of Block: Life sat 
+ 
+
+Start of Block: MCS Mental health scale 
+
+Display This Question: 
+
+If COHORTID = 4 
+
+ 
+
+PHDE The next few questions are about how you have felt over the last 30 days.  
+
+ 
+
+During the last 30 days, about how often did you feel so depressed that nothing could cheer you 
+
+up? 
+
+o All of the time  (1)  
+
+o Most of the time  (2)  
+
+o Some of the time  (3)  
+
+
+
+ 
+
+ 
+
+ Page 60 of 87 
+
+o A little of the time  (4)  
+
+o None of the time  (5)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 4 
+
+ 
+
+PHHO During the last 30 days, about how often did you feel hopeless? 
+
+o All of the time  (1)  
+
+o Most of the time  (2)  
+
+o Some of the time  (3)  
+
+o A little of the time  (4)  
+
+o None of the time  (5)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 4 
+
+ 
+
+PHRF During the last 30 days, about how often did you feel restless or fidgety? 
+
+o All of the time  (1)  
+
+o Most of the time  (2)  
+
+o Some of the time  (3)  
+
+o A little of the time  (4)  
+
+o None of the time  (5)  
+
+ 
+
+  
+
+
+
+ 
+
+ 
+
+ Page 61 of 87 
+
+Display This Question: 
+
+If COHORTID = 4 
+
+ 
+
+PHEE During the last 30 days, about how often did you feel that everything was an effort? 
+
+o All of the time  (1)  
+
+o Most of the time  (2)  
+
+o Some of the time  (3)  
+
+o A little of the time  (4)  
+
+o None of the time  (5)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 4 
+
+ 
+
+PHWO During the last 30 days, about how often did you feel worthless? 
+
+o All of the time  (1)  
+
+o Most of the time  (2)  
+
+o Some of the time  (3)  
+
+o A little of the time  (4)  
+
+o None of the time  (5)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 4 
+
+ 
+
+PHNE During the last 30 days, about how often did you feel nervous? 
+
+o All of the time  (1)  
+
+o Most of the time  (2)  
+
+o Some of the time  (3)  
+
+o A little of the time  (4)  
+
+o None of the time  (5)  
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 62 of 87 
+
+Display This Question: 
+If COHORTID = 4 
+
+ 
+
+HARM Since the start of the Coronavirus outbreak have you hurt yourself on purpose in any 
+
+way? 
+
+o Yes  (1)  
+
+o No  (2)  
+
+ 
+
+Display This Question: 
+If COHORTID = 4 
+
+ 
+
+WEMWBS Below are some statements about feelings and thoughts.  
+
+ 
+
+Please select the answer that best describes your experience of each over the last two weeks.  
+
+ 
+None of the 
+
+time (1) 
+Rarely (2) 
+
+Some of the 
+time (3) 
+
+Often (4) 
+All of the time 
+
+(5) 
+
+I’ve been 
+feeling 
+
+optimistic 
+about the 
+future (1)  
+
+o  o  o  o  o  
+
+I’ve been 
+feeling useful 
+
+(2)  o  o  o  o  o  
+
+I’ve been 
+feeling 
+
+relaxed (3)  o  o  o  o  o  
+
+I’ve been 
+dealing with 
+
+problems well 
+(4)  
+
+o  o  o  o  o  
+
+I’ve been 
+thinking 
+
+clearly (5)  o  o  o  o  o  
+
+I’ve been 
+feeling close 
+
+to other 
+people (6)  
+
+o  o  o  o  o  
+
+I’ve been 
+able to make 
+up my own 
+mind about 
+things (7)  
+
+o  o  o  o  o  
+
+
+
+ 
+
+ 
+
+ Page 63 of 87 
+
+End of Block: MCS Mental health scale 
+ 
+
+Start of Block: NCDS&BCS Mental health scale 
+
+Display This Question: 
+
+If COHORTID = 1 
+
+Or COHORTID = 2 
+
+ 
+
+MALAISE The next questions are concerned with how you are feeling generally. 
+
+ Yes (1) No (2) 
+
+Do you feel tired most of the 
+time? (3)  o  o  
+
+Do you often feel miserable or 
+depressed? (4)  o  o  
+
+Do you often get worried 
+about things? (5)  o  o  
+
+Do you often get in a violent 
+rage? (6)  o  o  
+
+Do you often suddenly 
+become scared for no good 
+
+reason? (7)  o  o  
+
+Are you easily upset or 
+irritated? (8)  o  o  
+
+Are you constantly keyed up 
+and jittery? (9)  o  o  
+
+Does every little thing get on 
+your nerves and wear you 
+
+out? (10)  o  o  
+
+Does your heart often race 
+like mad? (11)  o  o  
+
+ 
+
+  
+
+
+
+ 
+
+ 
+
+ Page 64 of 87 
+
+End of Block: NCDS&BCS Mental health scale 
+ 
+
+Start of Block: NS Mental health scale 
+
+Display This Question: 
+
+If COHORTID = 3 
+
+ 
+
+GHQ121  
+
+Have you recently been able to concentrate on what you’re doing? 
+
+o  Better than usual  (1)  
+
+o Same as usual  (2)  
+
+o Less than usual  (3)  
+
+o Much less than usual  (4)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 3 
+
+ 
+
+GHQ122 Have you recently lost much sleep over worry? 
+
+o Not at all  (1)  
+
+o No more than usual  (2)  
+
+o Rather more than usual  (3)  
+
+o Much more than usual  (4)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 3 
+
+ 
+
+GHQ123 Have you recently felt that you are playing a useful part in things? 
+
+o  More so than usual  (1)  
+
+o Same as usual  (2)  
+
+o Less useful than usual  (3)  
+
+o Much less useful  (4)  
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 65 of 87 
+
+Display This Question: 
+
+If COHORTID = 3 
+
+ 
+
+GHQ124 Have you recently felt capable of making decisions about things? 
+
+o  More so than usual  (1)  
+
+o Same as usual  (2)  
+
+o Less so than usual  (3)  
+
+o Much less capable  (4)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 3 
+
+ 
+
+GHQ125 Have you recently felt constantly under strain? 
+
+o Not at all  (1)  
+
+o No more than usual  (2)  
+
+o Rather more than usual  (3)  
+
+o Much more than usual  (4)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 3 
+
+ 
+
+GHQ126 Have you recently felt you couldn’t overcome your difficulties? 
+
+o Not at all  (1)  
+
+o No more than usual  (2)  
+
+o Rather more than usual  (3)  
+
+o Much more than usual  (4)  
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 66 of 87 
+
+Display This Question: 
+
+If COHORTID = 3 
+
+ 
+
+GHQ127 Have you recently been able to enjoy your normal day to day activities? 
+
+o More so than usual  (1)  
+
+o Same as usual  (2)  
+
+o Less so than usual  (3)  
+
+o Much less than usual  (4)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 3 
+
+ 
+
+GHQ128 Have you recently been able to face up to your problems? 
+
+o More so than usual  (1)  
+
+o Same as usual  (2)  
+
+o Less so than usual  (3)  
+
+o Much less able  (4)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 3 
+
+ 
+
+GHQ129 Have you recently been feeling unhappy or depressed? 
+
+o  Not at all  (1)  
+
+o No more than usual  (2)  
+
+o Rather more than usual  (3)  
+
+o Much more than usual  (4)  
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 67 of 87 
+
+Display This Question: 
+
+If COHORTID = 3 
+
+ 
+
+GHQ1210 Have you recently been losing confidence in yourself? 
+
+o Not at all  (1)  
+
+o No more than usual  (2)  
+
+o Rather more than usual  (3)  
+
+o Much more than usual  (4)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 3 
+
+ 
+
+GHQ1211 Have you recently been thinking of yourself as a worthless person? 
+
+o Not at all  (1)  
+
+o No more than usual  (2)  
+
+o Rather more than usual  (3)  
+
+o Much more than usual  (4)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 3 
+
+ 
+
+GHQ1212  
+
+ 
+
+Have you recently been feeling reasonably happy, all things considered? 
+
+o More so than usual  (1)  
+
+o Same as usual  (5)  
+
+o Less so than usual  (6)  
+
+o Much less than usual  (7)  
+
+
+
+ 
+
+ 
+
+ Page 68 of 87 
+
+End of Block: NS Mental health scale 
+ 
+
+Start of Block: NSHD Mental health scale 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ0115 Please answer ALL the following questions about how you have been feeling over 
+
+the past few weeks.  
+
+ 
+
+ 
+
+Remember that we want to know about your present and recent complaints, not those you had 
+
+in the past.  
+
+ 
+
+HAVE YOU RECENTLY:  
+
+ 
+
+Been feeling perfectly well and in good health? 
+
+o Better then ususal  (1)  
+
+o Same as usual  (2)  
+
+o Worse than usual  (3)  
+
+o Much worse than usual  (4)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ0215 Been feeling in need of a good tonic? 
+
+o Not at all  (1)  
+
+o No more than usual  (2)  
+
+o Rather more than usual  (3)  
+
+o Much more than usual  (4)  
+
+ 
+
+  
+
+
+
+ 
+
+ 
+
+ Page 69 of 87 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ0315 Been feeling run down and out of sorts? 
+
+o Not at all  (1)  
+
+o No more than usual  (2)  
+
+o Rather more than usual  (3)  
+
+o Much more than usual  (4)  
+
+ 
+
+ 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ0415 Felt that you are ill? 
+
+o Not at all  (1)  
+
+o No more than usual  (2)  
+
+o Rather more than usual  (3)  
+
+o Much more than usual  (4)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ0515 Been getting any pains in your head? 
+
+o Not at all  (1)  
+
+o No more than usual  (2)  
+
+o Rather more than usual  (3)  
+
+o Much more than usual  (4)  
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 70 of 87 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ0615  Been getting a feeling of tightness or pressure in your head? 
+
+o Not at all  (1)  
+
+o No more than usual  (2)  
+
+o Rather more than usual  (3)  
+
+o Much more than usual  (4)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ0715 Been having hot or cold spells? 
+
+o Not at all  (1)  
+
+o No more than usual  (2)  
+
+o Rather more than usual  (3)  
+
+o Much more than usual  (4)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ0815 Lost much sleep over worry? 
+
+o Not at all  (1)  
+
+o No more than usual  (2)  
+
+o Rather more than usual  (3)  
+
+o Much more than usual  (4)  
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 71 of 87 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ0915 Had difficulty staying asleep once you are off?  
+
+o Not at all  (1)  
+
+o No more than usual  (2)  
+
+o Rather more than usual  (3)  
+
+o Much more than usual  (4)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ1015 Been managing to keep yourself busy and occupied? 
+
+o More so than usual  (1)  
+
+o Same as usual  (2)  
+
+o Rather less so than usual  (3)  
+
+o Much less than usual  (4)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ1115 Been taking longer over the things you do? 
+
+o Quicker than usual   (1)  
+
+o Same as usual  (2)  
+
+o Longer than ususal  (3)  
+
+o Much longer than usual  (4)  
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 72 of 87 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ1215 Felt on the whole you were doing things well? 
+
+o Better than usual   (1)  
+
+o About the same as usual  (2)  
+
+o Less well than ususal  (3)  
+
+o Much less well  (4)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ1315 Been satisfied with the way you’ve carried out your task? 
+
+o More satisfied   (1)  
+
+o About the same as usual  (2)  
+
+o Less satisfied than usual  (3)  
+
+o Much less satisfied  (4)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ1415 Felt that you are playing a useful part in things? 
+
+o More so than usual  (1)  
+
+o Same as usual  (2)  
+
+o Rather less so than usual  (3)  
+
+o Much less useful  (4)  
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 73 of 87 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ1515 Felt capable of making decisions about things? 
+
+o More so than usual  (1)  
+
+o Same as usual  (2)  
+
+o Rather less so than usual  (3)  
+
+o Much less capable  (4)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ1615 Felt constantly under strain? 
+
+o Not at all   (1)  
+
+o No more than usual  (2)  
+
+o Rather more than usual  (3)  
+
+o Much more than usual  (4)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ1715 Been able to enjoy your normal day-to-day activities? 
+
+o More so than usual    (1)  
+
+o Same as usual  (2)  
+
+o Less so than usual  (3)  
+
+o Much less than usual  (4)  
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 74 of 87 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ1815 Been getting edgy and bad-tempered? 
+
+o Not at all   (1)  
+
+o No more than  usual  (2)  
+
+o Rather more than usual  (3)  
+
+o Much more than usual  (4)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ1915  Been getting scared or panicky for no good reason? 
+
+o Not at all   (1)  
+
+o No more than  usual  (2)  
+
+o Rather more than usual  (3)  
+
+o Much more than usual  (4)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ2015 Found everything getting on top of you? 
+
+o Not at all   (1)  
+
+o No more than  usual  (2)  
+
+o Rather more than usual  (3)  
+
+o Much more than usual  (4)  
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 75 of 87 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ2115  Been thinking of yourself as a worthless person? 
+
+o Not at all   (1)  
+
+o No more than  usual  (2)  
+
+o Rather more than usual  (3)  
+
+o Much more than usual  (4)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ2215 Felt that life is entirely hopeless? 
+
+o Not at all   (1)  
+
+o No more than  usual  (2)  
+
+o Rather more than usual  (3)  
+
+o Much more than usual  (4)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ2315 Been feeling nervous and strung-up all the time? 
+
+o Not at all   (1)  
+
+o No more than  usual  (2)  
+
+o Rather more than usual  (3)  
+
+o Much more than usual  (4)  
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 76 of 87 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ2415 Felt that life isn’t worth living? 
+
+o Not at all   (1)  
+
+o No more than  usual  (2)  
+
+o Rather more than usual  (3)  
+
+o Much more than usual  (4)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ2515 Thought of the possibility that you might make away with yourself? 
+
+o Definitely not  (1)  
+
+o I don’t think so  (2)  
+
+o Has crossed my mind  (3)  
+
+o Definitely have  (4)  
+
+ 
+
+Display This Question: 
+
+If COHORTID = 5 
+
+ 
+
+GHQ2615 Found at times you couldn’t do anything because your nerves were too bad? 
+
+o Not at all   (1)  
+
+o No more than  usual  (2)  
+
+o Rather more than usual  (3)  
+
+o Much more than usual  (4)  
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 77 of 87 
+
+Display This Question: 
+If COHORTID = 5 
+
+ 
+
+GHQ2715 Found yourself wishing you were dead and away from it all? 
+
+o Not at all   (1)  
+
+o No more than  usual  (2)  
+
+o Rather more than usual  (3)  
+
+o Much more than usual  (4)  
+
+ 
+
+Display This Question: 
+If COHORTID = 5 
+
+ 
+
+GHQ2815 Found that the idea of taking your life kept coming into your mind?  
+
+o Definitely not  (1)  
+
+o I don’t think so  (2)  
+
+o Has crossed my mind  (3)  
+
+o Definitely has  (4)  
+
+ 
+
+End of Block: NSHD Mental health scale 
+ 
+
+Start of Block: Mental health scale 
+
+GAD2PHQ2 Over the last 2 weeks, how often have you been bothered by the following 
+
+problems? 
+
+ Not at all (1) Several days (2) 
+More than half 
+
+the days (3) 
+Nearly every day 
+
+(4) 
+
+Feeling nervous, 
+anxious or on 
+
+edge (5)  o  o  o  o  
+
+Not being able to 
+stop or control 
+worrying (6)  o  o  o  o  
+
+Little interest or 
+pleasure in doing 
+
+things (7)  o  o  o  o  
+
+Feeling down, 
+depressed or 
+hopeless (8)  o  o  o  o  
+
+
+
+ 
+
+ 
+
+ Page 78 of 87 
+
+End of Block: Mental health scale 
+ 
+
+Start of Block: Risk & patience 
+
+ 
+
+RISK On a scale from 0-10, where 0 is 'never' and 10 is 'always', how willing to take risks would 
+
+say you are? 
+
+o Never 0  (1)  
+
+o 1  (2)  
+
+o 2  (3)  
+
+o 3  (4)  
+
+o 4  (5)  
+
+o 5  (6)  
+
+o 6  (7)  
+
+o 7  (8)  
+
+o 8  (9)  
+
+o 9  (10)  
+
+o Always 10   (11)  
+
+ 
+
+ 
+
+PATIENT On a scale from 0-10, where 0 is 'never' and 10 is 'always', how patient would you say 
+
+you are? 
+
+o Never 0  (1)  
+
+o 1  (2)  
+
+o 2  (3)  
+
+o 3  (4)  
+
+o 4  (5)  
+
+o 5  (6)  
+
+
+
+ 
+
+ 
+
+ Page 79 of 87 
+
+o 6  (7)  
+
+o 7  (8)  
+
+o 8  (9)  
+
+o 9  (10)  
+
+o Always 10   (11)  
+
+ 
+
+End of Block: Risk & patience 
+ 
+
+Start of Block: Trust 
+
+ 
+
+TRUST On a scale from 0-10 where 0 means you are 'not at all trusting' of other people and 10 
+
+means you are 'extremely trusting' of other people, how trusting of other people would you say 
+
+you are? 
+
+o Not at all trusting 0  (1)  
+
+o 1  (2)  
+
+o 2  (3)  
+
+o 3  (4)  
+
+o 4  (5)  
+
+o 5  (6)  
+
+o 6  (7)  
+
+o 7  (8)  
+
+o 8  (9)  
+
+o 9  (10)  
+
+o Extremely trusting 10  (11)  
+
+ 
+
+End of Block: Trust 
+ 
+
+Start of Block: Trust in government 
+
+
+
+ 
+
+ 
+
+ Page 80 of 87 
+
+TRUSTPOLP On a scale from 0-10 where 0 means you are 'not at all trusting' and 10 means 
+
+you are 'extremely trusting', how trusting are you that British Governments, of any party, place 
+
+the needs of the nation above the needs of their own political party? 
+
+o Not at all trusting 0   (1)  
+
+o 1  (2)  
+
+o 2  (3)  
+
+o 3  (4)  
+
+o 4  (5)  
+
+o 5  (6)  
+
+o 6  (7)  
+
+o 7  (8)  
+
+o 8  (9)  
+
+o 9  (10)  
+
+o Extremely trusting 10   (11)  
+
+ 
+
+End of Block: Trust in government 
+ 
+
+Start of Block: COVID changes grid 
+
+CVDCHNG Since the Coronavirus outbreak please indicate how the following have changed. 
+
+ More than before (1) Same - no change (2) Less than before (3) 
+
+The amount of stress 
+I've been feeling (1)  o  o  o  
+
+The amount of trust I 
+have in the 
+
+Government (2)  o  o  o  
+
+The amount of trust I 
+have in people in my 
+
+local area (3)  o  o  o  
+
+The amount of 
+conflict I have had 
+with people around 
+
+me (4)  
+o  o  o  
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 81 of 87 
+
+End of Block: COVID changes grid 
+ 
+
+Start of Block: Open ended 
+
+OPEN Please use the space below to express in your own words the main ways the 
+
+Coronavirus outbreak has affected your life  and/or your loved ones so far, and what you think 
+
+the effects might be in the future.  
+
+ 
+
+You can write as much or little as you like, and cover any topic you choose. 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+
+________________________________________________________________ 
+
+ 
+
+End of Block: Open ended 
+ 
+
+Start of Block: Outro block 
+
+ 
+
+Display This Question: 
+
+If COHORTID = 3 
+
+ 
+
+NSIMP You have nearly completed the survey.  We would just like to ask a couple more 
+
+questions. 
+
+ 
+
+ 
+
+The next major survey is likely to be in the next year or two and may involve a home visit from 
+
+an interviewer if social distancing rules are relaxed to allow this.  We are interested to know 
+
+whether the Coronavirus outbreak could affect your willingness to be visited at home by an 
+
+interviewer.  Which of the following statements applies to you?  
+
+o The Coronavirus outbreak is likely to make me less willing to be visited at home.  
+
+(1)  
+
+o The Coronavirus outbreak will have no impact on my willingness to be visited at 
+
+home.  (2)  
+
+o The Coronavirus outbreak is likely to make me more willing to be visited at home.  
+
+(3)  
+
+  
+
+
+
+ 
+
+ 
+
+ Page 82 of 87 
+
+Display This Question: 
+
+If COHORTID = 1 
+
+ 
+
+NCDSMO Home visits for the 'Life in Your Early 60s' Survey began in January but have been 
+
+paused because of the Coronavirus outbreak.  As we do not know when social distancing rules 
+
+will allow us to restart home visits we are considering whether to ask study members to take 
+
+part in the Life in Your Early 60s Survey in other ways.  Would you be willing to take part in any 
+
+of the following ways? 
+
+ 
+
+Please select all that apply. 
+
+▢  Video call with an interviewer (e.g. using Skype, Zoom or similar)  (1)  
+
+▢  Telephone interview  (2)  
+
+▢  Online questionnaire  (3)  
+
+▢  Paper questionnaire  (4)  
+
+▢  None of the above  (6)  
+
+Display This Question: 
+
+If COHORTID = 2 
+
+ 
+
+BCSMO Home visits for the BCS70 Age 50 Survey were due to start in June but this will not be 
+
+possible because of the Coronavirus outbreak.  As we do not know when social distancing rules 
+
+will allow us to start home visits we are considering whether to ask study members to take part 
+
+in the Age 50 Survey in other ways.  Would you be willing to take part in any of the following 
+
+ways? 
+
+ 
+
+ 
+
+Please select all that apply. 
+
+▢  Video call with an interviewer (e.g. using Skype, Zoom or similar)  (1)  
+
+▢  Telephone interview  (2)  
+
+▢  Online questionnaire  (3)  
+
+▢  Paper questionnaire  (4)  
+
+▢  None of the above  (6)  
+
+ 
+
+
+
+ 
+
+ 
+
+ Page 83 of 87 
+
+Display This Question: 
+
+If COHORTID = 3 
+
+ 
+
+NSWIL We are considering whether to ask study members to take part in the next survey in 
+
+other ways. How willing or unwilling would you be to take part by having a video call with an 
+
+interviewer (e.g. using Skype, Zoom or similar)? 
+
+o Very willing  (1)  
+
+o Fairly willing  (2)  
+
+o Neither willing nor unwilling  (3)  
+
+o Fairly unwilling  (4)  
+
+o Very unwilling  (5)  
+
+ 
+
+ 
+
+EMOK  
+
+ 
+
+The email address we currently hold for you is ${e://Field/RecipientEmail}.   
+
+ 
+
+ 
+
+Is this the best email address to use to contact you? 
+
+o Yes  (1)  
+
+o No  (2)  
+
+ 
+
+Display This Question: 
+
+If Current email okay = No 
+
+ 
+ 
+
+EMUPDAT Please enter below the best email address to use to contact you in the future. 
+
+________________________________________________________________ 
+ 
+
+  
+
+
+
+ 
+
+ 
+
+ Page 84 of 87 
+
+Display This Question: 
+
+If COHORTID = 1 
+
+ 
+
+NCDSAPP    Finally – we’d like to ask you to download a COVID-19 Symptoms Tracker 
+
+app.    Many people are recording symptoms of COVID-19 using specially designed symptom 
+
+tracker apps. These are helping to slow the outbreak, by recording which symptoms are most 
+
+common, and identifying high risk areas in the UK.      As a member of NCDS you can play a 
+
+special role.  We have teamed up with the organisations running the COVID-19 symptom 
+
+tracker, designed by Kings College London, to allow the results from the symptoms tracker app 
+
+to be combined with the information held by NCDS.       All you need to do is to download the 
+
+app on your mobile device, and record your symptoms every day. If you have already been 
+
+recording your symptoms using this app, the symptoms you have already recorded can also be 
+
+linked.      Please click HERE to download the app.       You can download the symptoms 
+
+tracker and start recording your symptoms at any time.  You can also find the link to download 
+
+the symptoms tracker app on our study website.       If you DO NOT wish your information held 
+
+by NCDS to be linked to information collected by the COVID-19 symptom tracker app please 
+
+tick the box below.    
+
+o I DO NOT wish my NCDS information to be linked with information collected by 
+
+the COVID-19 tracker app  (5)  
+
+ 
+
+ 
+
+Display This Question: 
+
+If COHORTID = 1 
+
+ 
+
+NCDSOPT For further information about how your symptoms tracker data will be securely 
+
+linked, and how it will be used for research, please see our FAQs, here.        
+
+You can also opt out of linking your NCDS information to the symptoms tracker at any time by 
+
+calling us for free on 0800 0355761 or email us at ncds@ucl.ac.uk.  
+
+ 
+
+ 
+
+Display This Question: 
+
+If COHORTID = 2 
+
+ 
+
+BCSAPP Finally – we’d like to ask you to download a COVID-19 Symptoms Tracker 
+
+app.     Many people are recording symptoms of COVID-19 using specially designed symptom 
+
+tracker apps. These are helping to slow the outbreak, by recording which symptoms are most 
+
+common, and identifying high risk areas in the UK.      As a member of BCS70 you can play a 
+
+special role.  We have teamed up with the organisations running the COVID-19 symptom 
+
+tracker, designed by Kings College London, to allow the results from the symptoms tracker app 
+
+to be combined with the information held by BCS70.       All you need to do is to download the 
+
+app on your mobile device, and record your symptoms every day. If you have already been 
+
+https://covid.joinzoe.com/
+https://ncds.info/faqs/#covid19tracker
+https://ncds.info/faqs/#covid19tracker
+
+
+ 
+
+ 
+
+ Page 85 of 87 
+
+recording your symptoms using this app, the symptoms you have already recorded can also be 
+
+linked.      Please click HERE to download the app.       You can download the symptoms tracker 
+
+and start recording your symptoms at any time.  You can also find the link to download the 
+
+symptoms tracker app on our study website.       If you DO NOT wish your information held by 
+
+BCS70 to be linked to information collected by the COVID-19 symptom tracker app please tick 
+
+the box below.    
+
+o I DO NOT wish my BCS70 information to be linked with information collected by 
+
+the COVID-19 tracker app  (5)  
+
+ 
+
+ 
+
+Display This Question: 
+
+If COHORTID = 2 
+
+ 
+
+BCSOPT For further information about how your symptoms tracker data will be securely linked, 
+
+and how it will be used for research, please see our FAQs, here.       
+
+    
+
+You can also opt out of linking your BCS70 information to the symptoms tracker at any time by 
+
+calling us for free on 0800 0355761 or email us at bcs70@ucl.ac.uk.      
+
+ 
+
+ 
+
+Display This Question: 
+
+If COHORTID = 3 
+
+ 
+
+NSAPP    Finally – we’d like to ask you to download a COVID-19 Symptoms Tracker 
+
+app.     Many people are recording symptoms of COVID-19 using specially designed symptom 
+
+tracker apps. These are helping to slow the outbreak, by recording which symptoms are most 
+
+common, and identifying high risk areas in the UK.      As a member of Next Steps you can play 
+
+a special role.  We have teamed up with the organisations running the COVID-19 symptom 
+
+tracker, designed by Kings College London, to allow the results from the symptoms tracker app 
+
+to be combined with the information held by Next Steps.       All you need to do is to download 
+
+the app on your mobile device, and record your symptoms every day. If you have already been 
+
+recording your symptoms using this app, the symptoms you have already recorded can also be 
+
+linked.      Please click HERE to download the app.       You can download the symptoms tracker 
+
+and start recording your symptoms at any time.  You can also find the link to download the 
+
+symptoms tracker app on our study website.       If you DO NOT wish your information held by 
+
+Next Steps to be linked to information collected by the COVID-19 symptom tracker app please 
+
+tick the box below.    
+
+o I DO NOT wish my Next Steps information to be linked with information collected 
+
+by the COVID-19 tracker app  (5)  
+
+ 
+
+https://covid.joinzoe.com/
+http://bcs70.info/faqs/#covid19tracker
+https://bcs70.info/faqs/#covid19tracker
+https://covid.joinzoe.com/
+http://nextstepsstudy.org.uk/faqs/#covid19tracker
+
+
+ 
+
+ 
+
+ Page 86 of 87 
+
+Display This Question: 
+
+If COHORTID = 3 
+
+ 
+
+NSOPT For further information about how your symptoms tracker data will be securely linked, 
+
+and how it will be used for research, please see our FAQs, here.       
+
+    
+
+You can also opt out of linking your Next Steps information to the symptoms tracker at any time 
+
+by calling us for free on 0800 977 4566 or email us at nextsteps@ucl.ac.uk.  
+
+ 
+
+ 
+
+Display This Question: 
+
+If COHORTID = 4 
+
+ 
+
+MCSAPP    Finally – we’d like to ask you to download a COVID-19 Symptoms Tracker 
+
+app.     Many people are recording symptoms of COVID-19 using specially designed symptom 
+
+tracker apps. These are helping to slow the outbreak, by recording which symptoms are most 
+
+common, and identifying high risk areas in the UK.      As a member of Child of the New Century 
+
+you can play a special role.  We have teamed up with the organisations running the COVID-19 
+
+symptom tracker, designed by Kings College London, to allow the results from the symptoms 
+
+tracker app to be combined with the information held by Child of the New Century.       All you 
+
+need to do is to download the app on your mobile device, and record your symptoms every day. 
+
+If you have already been recording your symptoms using this app, the symptoms you have 
+
+already recorded can also be linked.      Please click HERE to download the app.       You can 
+
+download the symptoms tracker and start recording your symptoms at any time.  You can also 
+
+find the link to download the symptoms tracker app on our study website.       If you DO NOT 
+
+wish your information held by Child of the New Century to be linked to information collected by 
+
+the COVID-19 symptom tracker app please tick the box below.    
+
+o I DO NOT wish my Child of the New Century information to be linked with 
+
+information collected by the COVID-19 tracker app  (5)  
+
+ 
+
+ 
+
+Display This Question: 
+
+If COHORTID = 4 
+
+ 
+
+MCSOPT For further information about how your symptoms tracker data will be securely linked, 
+
+and how it will be used for research, please see our FAQs, here.       
+
+    
+
+You can also opt out of linking your Child of the New Century information to the symptoms 
+
+tracker at any time by calling us for free on 0800 0921250 or email us at childnc@ucl.ac.uk.  
+
+ 
+
+End of Block: Outro block 
+
+http://nextstepsstudy.org.uk/faqs/#covid19tracker
+https://covid.joinzoe.com/
+http://childnc.net/faqs/#covid19tracker
+http://childnc.net/faqs/#covid19tracker
+
+
+ 
+
+ 
+
+ Page 87 of 87 
+
+ 
+
+Start of Block: COVID APP Block 
+
+ 
+
+SUBMIT You have come to the end of the questions. If you'd like to go back to check or change 
+
+any of your answers you should do so now.      Once you've clicked to go to the next screen you 
+
+won't be able to go back.     Thank you for your help! 
+
+ 
+
+End of Block: COVID APP Block 
+ 
+
+ 
+
+

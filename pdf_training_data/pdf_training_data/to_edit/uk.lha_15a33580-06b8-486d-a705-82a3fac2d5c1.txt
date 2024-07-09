@@ -1,0 +1,812 @@
+
+njs
+Typewritten Text
+MARAG68
+
+njs
+Typewritten Text
+NOCHIL68
+
+njs
+Typewritten Text
+PREGNOW68
+
+njs
+Typewritten Text
+
+ 
+
+ 
+
+STRICTLY H3
+CONFIDENTIAL
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+NATIONAL SURVEY OF HEALTH AND DEVELOPMENT
+(Medical Research Council)
+
+M.R.C. Unit,
+London School of Economics,
+
+Houghton Street,
+London, W.C.2.
+
+HEALTH AND EMPLOYMENT QUESTIONNAIRE 1968
+
+ 
+
+(if changed)
+
+ 
+
+ 
+
+Ref. No.
+
+Name
+ee Address
+and
+Address
+
+ 
+
+ 
+
+ 
+
+ 
+
+Will you please bring this information on marriage and children up-to-date
+
+Date of marriage
+CHILDREN
+
+ 
+
+MARAG68
+1 Name Sex Date of birth
+
+ 
+
+If engaged, date of NOCHIL68
+
+marriage, if fixed
+
+ 
+
+196
+
+ 
+
+ 
+
+Are you (or your wife)
+expecting a baby?
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Yes 1
+No 0
+PREGNOW68
+
+About this form
+
+The accompanying card gives you news of this study which may interest you. This year besides getting
+up-to-date news on marriage, families, hospital admissions and visits to the doctor, we are asking questions about
+housing and jobs.
+
+How to complete this form
+
+Please complete this form yourself. If you have any difficulty you should get someone to help you, but it
+is important that the answers should be yours.
+
+Either write your answer in the box or space provided or put a circle round the number which is correct,
+for example:
+
+Were you born in March 1946? Yes @
+No 0
+
+If you wish to add any comments, please do so below the questions. We enclose a special envelope for
+the return of this form; it does not need a stamp.
+
+
+
+
+njs
+Typewritten Text
+ACCS68
+
+njs
+Typewritten Text
+HOAD68
+
+njs
+Typewritten Text
+HOOP68
+
+njs
+Typewritten Text
+H3RETM
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+OPSC68
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+Punched via extraction sheet
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+GENERAL HEALTH
+
+1. (@) The last accident we have recorded for you was
+
+ 
+
+We have no accidents recorded for you for a long time.
+
+since then Z
+Have you had any accident ince you left school in which you were burnt or scalded, you broke a bone,
+
+you were badly cut or bruised, or injured by a chemical? ene ACCS68
+No 0
+
+(b) (if “yes” please give the following details about each accident, starting with the earliest)
+
+ 
+
+ACCIDENT 1 ACCIDENT 2
+
+ 
+
+What sort of injury?
+
+(t.e. burn, cut, broken bone etc.)
+
+ 
+
+What part was hurt?
+
+ 
+
+When did it happen?
+
+ 
+
+Where was it treated?
+
+ 
+
+Who by?
+
+ 
+
+What sort of scar or trouble
+does it still give you?
+
+ 
+
+How did the accident happen?
+
+ 
+
+Where did it happen?
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2. (a) The last hospital admission we have recorded 3. Ilave you attended a hospital out-patient department
+
+or Clinic since this time last year?
+for you was
+
+ 
+
+We have no hospital admissions recorded for HOOP 68
+you for a long time.
+
+Vex 4 H3RETM
+
+hae oe No 0
+Have you been in hospital as an inpatient
+
+since then/since you left school?
+HOAD68 Yes 1 CH eS)
+No 0
+
+ 
+
+What hospital/clinic
+was it?
+
+(b) (If “yes”)
+
+ 
+
+ 
+
+What hospital was it?
+When did you go first?
+
+ 
+
+ 
+
+When did you go in?
+Why did you go?
+
+ 
+
+What were you in
+hospital for?
+
+ 
+
+ 
+
+ 
+
+ 
+
+CB SC6s
+How long were you
+in hospital?
+
+ 
+
+What was the doctors
+name who looked
+after you?
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+njs
+Typewritten Text
+H3RETM
+
+njs
+Typewritten Text
+DRVST68
+
+njs
+Typewritten Text
+TNVSTS68
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+CONO68; CONE68; NCONE68; CTWO68;
+
+njs
+Typewritten Text
+NCTWO68; CTRE68; NCTRE68;CFOR68;
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+NCFOR68
+
+njs
+Typewritten Text
+OWKIL68
+
+njs
+Typewritten Text
+NOWIL68
+
+njs
+Typewritten Text
+OWONE68       OWWO68; OWTWO68; OWWT68
+
+njs
+Typewritten Text
+OWTRE68
+
+njs
+Typewritten Text
+OWWRE68; TWOW68
+
+njs
+Typewritten Text
+WLIVE68
+
+njs
+Typewritten Text
+RENT68
+
+njs
+Typewritten Text
+ADCOM68
+
+4. Apart from what you have just put in questions 1, 2 and 3, have you consulted a doctor since this time last
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ar?
+oe H3RETM Yea
+No 0
+(If "yes”)
+REASON FOR VISITS NUMBER OF VISITS
+es ees Ea pode At Doctor’s surgery At your home
+EXAMPLE: GOUT 4 1
+DRVST68 TNVSTS68
+CONO68; CONE68; NCONE68; CTWO68;
+NCTWO68; CTRE68; NCTRE68; CFOR68;
+NCFOR68
+5. Have you been off work or indoors through accident or illness since this time last year?
+OWKIL68
+Yes 1
+No 0
+(If “yes”)
+APPROXIMATE DATE NATURE OF ACCIDENT, ILLNESS TIME OFF WORK
+NOWIL68
+OWONE68 OWWO68; OWTWO68; OWWT68
+OWTRE68 OWWRE68; TWOW68
+HOUSING
+6. (a) Where are you living?
+At home with your parents 1
+With your in-laws 2
+In lodgings/hostel (some meals provided) 3 WLIVE68
+In furnished flat/room (no meals provided) 4
+In unfurnished house/flat you rent 5
+In a house/flat you are buying 6
+
+(b) How much do you pay a week in rent or mortgage
+If you are in shared accommodation
+
+payments?
+
+put down your share.
+
+Nothing
+Under £1
+
+él
+£2
+co
+£4
+£5
+£6
+£8
+
+£10 or over
+
+to
+to
+to
+to
+to
+to
+to
+
+£l.
+£23
+oe
+£4.
+£5.
+Ho
+Soe
+
+None of these but
+
+Os
+19,
+Ley
+HO la
+19. 11
+Ost
+1 Sali
+
+11
+11
+11
+
+RENT68 ADCOM68
+
+OWN AUNARWN YH OC
+
+ 
+
+(c) What do you feel about the adequacy of your
+present housing arrangements?
+
+ 
+
+
+
+
+njs
+Typewritten Text
+CJOB68
+
+njs
+Typewritten Text
+RCOCC68
+
+njs
+Typewritten Text
+PTST66/7
+
+njs
+Typewritten Text
+PTST67/8
+
+njs
+Typewritten Text
+SPFWK68
+
+njs
+Typewritten Text
+UXWK68
+
+10. (a) Is there any other sort of work that you would change to if you had the chance?
+
+Yes
+
+Ri CJOB68
+
+(If “yes”)
+
+(b) What work? Why would you prefer it?
+
+RCOCC68
+
+EDUCATION
+
+11. (a) Have you been taking any part-time day or evening classes, a correspondence course, or studying at home,
+since September 1966? If so, please fill in the details. If not go to Q.12.
+
+ 
+
+College Name of COLLEGE or of Name of COURSE or Day, Evening, Home
+Year CORRESPONDENCE COURSE SUBJECTS STUDIED or Correspondence?
+
+ 
+
+1966/7 | PTST66/7
+
+ 
+
+1967/8 | PTST67/8
+
+ 
+
+ 
+
+ 
+
+(b) What exams have you passed?
+
+ 
+
+(c) What exams are you finally aiming at through
+part-time study?
+
+ 
+
+(d) How will passing these exams affect your future?
+
+ 
+
+(e) What assistance do you get from your employer
+to make part-time study easier?
+
+ 
+
+ 
+
+ 
+
+ 
+
+12. (a) Looking back now, how well do you feel your last few years at school or college prepared you for work?
+
+Very well
+
+Fairly well
+eee Not really very well
+
+Hardly at all
+
+Not at all
+
+a & WN
+
+(b) What did you find when you first started working, and in the first few months at work, that you hadn’t
+expected? What weren’t you prepared for?
+
+UXWK68
+
+
+
+
+njs
+Typewritten Text
+OCHOU68
+
+njs
+Typewritten Text
+COCC68
+
+njs
+Typewritten Text
+TOCC68
+
+njs
+Typewritten Text
+PAYBT68
+
+EMPLOYMENT
+
+7. (a@) Are you now,.........6. 00. Working full-time 1
+Working part-time Diveenses how many hours a week? ............
+A full-time housewife
+OCHOU68 A full-time student
+
+Not working (from choice)
+
+nun & WwW
+
+Unemployed
+
+None of these, but
+
+(b) When we last contacted you, you were in the occupation we have written in red. Please bring the record up-
+to-date with the details of all the jobs you have done since, finishing with what you are doing now. If you
+have been promoted or changed your work within the same firm, please give the details. If you are still in
+the same job, please write “still there”.
+
+If you are a full-time student, please give the name of the college and the courst, if the information in red
+is not correct.
+
+ 
+
+Date Date
+Job Type of job Type of firm started |. left R forienel
+Number (i.e. what do YOU do?) (i.e. what do THEY do?) | (Month, | (Month, eee OR Or caving
+
+Year) Year)
+
+ 
+
+COCC68 TOCC68
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+(If you are not working go straight to Q.11)
+
+8. How much do you earn a week on the average (before deductions such as tax and insurance)?
+
+Less than £5 1
+
+£5 — £ 9.19.11 2
+
+£10 — £14.19.11 3
+
+PAYBT68 £15 — £19.19.11 4
+£20 — £24.19. 11 5
+
+£25 — £29.19. 11 6
+
+7
+
+£30 or over
+
+9. Please describe in detail what you do in your job, what training you have had, and what responsibilities you
+have.
+
+
+
+
+njs
+Typewritten Text
+YEOUSE68
+
+njs
+Typewritten Text
+PAGEL68
+
+njs
+Typewritten Text
+PREFE68
+
+njs
+Typewritten Text
+RNFE68
+
+13. Youth Employment Officers (Careers Advisory Officers) go to most schools to help leavers decide what to do.
+How much help do you feel they gave you in choosing the right sort of work?
+
+A great deal of help 1
+YEOUSE68
+Fairly helpful 2
+Were of some use 3
+Were of very little use 4
+I don’t remember what they said 5
+I wasn’t interviewed 6
+14. If you had your time again, at what age would you choose to leave school?
+PAGEL68
+Heriauce- Seeman eas hoe years
+
+15. (a) If you had your time again and circumstances allowed it, would you go on to further full-time education
+at a college?
+
+No 0
+College of further education 1
+PREFEO8 Technical college 2,
+Secretarial college 3
+College of art 4
+Teachers training college 5
+College of advanced technology 6
+University Uf
+
+Other, namely
+
+(b) If this is not what you actually did, please explain: RNFE 68
+
+
+
+
+njs
+Typewritten Text
+MTCOM68
+
+njs
+Typewritten Text
+COMPH3
+
+njs
+Typewritten Text
+IH31
+
+njs
+Typewritten Text
+
+GENERAL
+
+h ‘ :
+16. On the last questionnaire many of you wrote at length about yourselves and your opinions of life in general.
+
+We are still most i i j
+: S anistested to hear what is happening to you, whether this is inside or outside the special
+topics we have covered in this questionnaire.
+
+MTCOM68 COMPH3 JEERSee
+
+TODAY’S DATE:
+
+ 
+
+PLEASE CHECK THAT YOU HAVE ANSWERED ALL THE QUESTIONS THAT APPLY TO YOU.
+
+HAVE YOU CHECKED THE INFORMATION ON THE FRONT?
+
+PLEASE POST THE FORM DIRECTLY TO US
+IN THE SPECIAL ENVELOPE — YOU DON’T NEED A
+STAMP AS WE WILL PAY THE POSTAGE.
+
+THANK YOU VERY MUCH FOR ALL YOUR HELP
+
+
+
+
+

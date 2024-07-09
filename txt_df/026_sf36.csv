@@ -1,0 +1,150 @@
+text,label
+SF-36 QUESTIONNAIRE,0
+Name:____________________ Ref. Dr:___________________ Date: _______,0
+ID#: _______________ Age: _______ Gender: M / F,0
+"Please answer the 36 questions of the Health Survey completely, honestly, and without interruptions.",0
+GENERAL HEALTH:,0
+"In general, would you say your health is:",1
+Excellent Very Good Good Fair Poor,0
+"Compared to one year ago, how would you rate your health in general now?",1
+Much better now than one year ago,0
+Somewhat better now than one year ago,0
+About the same,0
+Somewhat worse now than one year ago,0
+Much worse than one year ago,0
+LIMITATIONS OF ACTIVITIES:,0
+The following items are about activities you might do during a typical day. Does your health now limit you in these,0
+"activities? If so, how much?",0
+"Vigorous activities, such as running, lifting heavy objects, participating in strenuous sports.",1
+"Yes, Limited a lot Yes, Limited a Little No, Not Limited at all",0
+"Moderate activities, such as moving a table, pushing a vacuum cleaner, bowling, or playing golf",1
+"Yes, Limited a Lot Yes, Limited a Little No, Not Limited at all",0
+Lifting or carrying groceries,1
+"Yes, Limited a Lot Yes, Limited a Little No, Not Limited at all",0
+Climbing several flights of stairs,1
+"Yes, Limited a Lot Yes, Limited a Little No, Not Limited at all",0
+Climbing one flight of stairs,1
+"Yes, Limited a Lot Yes, Limited a Little No, Not Limited at all",0
+"Bending, kneeling, or stooping",1
+"Yes, Limited a Lot Yes, Limited a Little No, Not Limited at all",0
+Walking more than a mile,1
+"Yes, Limited a Lot Yes, Limited a Little No, Not Limited at all",0
+Walking several blocks,1
+"Yes, Limited a Lot Yes, Limited a Little No, Not Limited at all",0
+Walking one block,1
+"Yes, Limited a Lot Yes, Limited a Little No, Not Limited at all",0
+Bathing or dressing yourself,1
+"Yes, Limited a Lot Yes, Limited a Little No, Not Limited at all",0
+PHYSICAL HEALTH PROBLEMS:,0
+"During the past 4 weeks, have you had any of the following problems with your work or other regular daily activities as",0
+a result  of your physical health?,0
+Cut down the amount of time you spent on work or other activities,1
+Yes No,0
+Accomplished less than you would like,1
+Yes No,0
+Were limited in the kind of work or other activities,1
+Yes No,0
+"Had difficulty performing the work or other activities (for example, it took extra effort)",1
+Yes No,0
+EMOTIONAL HEALTH PROBLEMS:,0
+"During the past 4 weeks, have you had any of the following problems with your work or other regular daily activities as",0
+a result  of any emotional problems (such as feeling depressed or anxious)?,0
+Cut down the amount of time you spent on work or other activities,1
+Yes No,0
+Accomplished less than you would like,1
+Yes No,0
+Didn't do work or other activities as carefully as usual,1
+Yes No,0
+SOCIAL ACTIVITIES:,0
+"Emotional problems interfered with your normal social activities with family, friends, neighbors, or groups?",1
+Not at all Slightly Moderately Severe Very Severe,0
+PAIN:,0
+How much bodily pain have you had during the past 4 weeks?,1
+None Very Mild Mild Moderate Severe Very Severe,0
+"During the past 4 weeks,  how much did pain interfere with your normal work (including both work outside the",0
+home and housework)?,0
+Not at all A little bit Moderately Quite a bit Extremely,0
+ENERGY AND EMOTIONS:,0
+These questions are about how you feel and how things have been with you during the last 4 weeks. For each,0
+"question, please give the answer that comes closest to the way you have been feeling.",0
+Did you feel full of pep?,1
+All of the time,0
+Most of the time,0
+A good Bit of the Time,0
+Some of the time,0
+A little bit  of the time,0
+None of the Time,0
+Have you been a very nervous person?,1
+All of the time,0
+Most of the time,0
+A good Bit of the Time,0
+Some of the time,0
+A little bit  of the time,0
+None of the Time,0
+Have you felt so down in the dumps that nothing could cheer you up?,1
+All of the time,0
+Most of the time,0
+A good Bit of the Time,0
+Some of the time,0
+A little bit  of the time,0
+None of the Time,0
+Have you felt calm and peaceful?,1
+All of the time,0
+Most of the time,0
+A good Bit of the Time,0
+Some of the time,0
+A little bit  of the time,0
+None of the Time,0
+Did you have a lot of energy?,1
+All of the time,0
+Most of the time,0
+A good Bit of the Time,0
+Some of the time,0
+A little bit  of the time,0
+None of the Time,0
+Have you felt downhearted and blue?,1
+All of the time,0
+Most of the time,0
+A good Bit of the Time,0
+Some of the time,0
+A little bit  of the time,0
+None of the Time,0
+Did you feel worn out?,1
+All of the time,0
+Most of the time,0
+A good Bit of the Time,0
+Some of the time,0
+A little bit  of the time,0
+None of the Time,0
+Have you been a happy person?,1
+All of the time,0
+Most of the time,0
+A good Bit of the Time,0
+Some of the time,0
+A little bit  of the time,0
+None of the Time,0
+Did you feel tired?,1
+All of the time,0
+Most of the time,0
+A good Bit of the Time,0
+Some of the time,0
+A little bit  of the time,0
+None of the Time,0
+SOCIAL ACTIVITIES:,0
+"<q>During the past 4 weeks,  how much of the time has your physical health or emotional problems interfered with",0
+"your social activities (like visiting with friends, relatives, etc.)?</q>",0
+All of the time,0
+Most of the time,0
+Some of the time,0
+A little bit  of the time,0
+None of the Time,0
+GENERAL HEALTH:,0
+How true or false is each of the following statements for you?,0
+I seem to get sick a little easier than other people,1
+Definitely true Mostly true Don't know Mostly false Definitely false,0
+I am as healthy as anybody I know,1
+Definitely true Mostly true Don't know Mostly false Definitely false,0
+I expect my health to get worse,1
+Definitely true Mostly true Don't know Mostly false Definitely false,0
+My health is excellent,1
+Definitely true Mostly true Don't know Mostly false Definitely false,0

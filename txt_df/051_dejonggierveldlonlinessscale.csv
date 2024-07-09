@@ -1,0 +1,114 @@
+text,label
+De Jong Gierveld Scale,0
+None of,0
+the time,0
+Rarely,0
+Some of,0
+the time,0
+Often,0
+All of,0
+the time,0
+1,0
+<q>There is always someone I can talk to about,0
+my day-to-day problems</q>,0
+I miss having a really close friend,1
+I experience a general sense of emptiness,1
+4,0
+<q>There are plenty of people I can lean on when,0
+I have problems</q>,0
+I miss the pleasure of the company of others,1
+6,0
+<q>I find my circle of friends and acquaintances,0
+too limited</q>,0
+There are many people I can trust completely,1
+There are enough people I feel close to,1
+I miss having people around me,1
+I often feel rejected,1
+I can call on my friends whenever I need them,1
+processing the scale data manually,0
+Step 1,0
+"Count the neutral and positive answers (""more or less"", ""yes"", or ""yes!"") on items 2, 3, 5, 6, 9, 10. This is the",0
+emotional loneliness score.,0
+"Count the missing values (i.e., no answer) on items 2, 3, 5, 6, 9, 10. This is the missing emotional loneliness",0
+score.,0
+"Count the neutral and negative (""no!"", ""no"", or ""more or less"") answers on items 1, 4, 7, 8, 11. This is the",0
+social loneliness score.,0
+"Count the missing values (i.e., no answer) on items 1, 4, 7, 8, 11. This is the missing social loneliness score.",0
+Step 2,0
+Compute the total loneliness score by taking the sum of the emotional loneliness score and the social,0
+loneliness score.,0
+Step 3,0
+The emotional loneliness score is valid only if the missing emotional loneliness score equals 0.,0
+The social loneliness score is valid only if the missing social loneliness score equals 0.,0
+The total loneliness score is valid only if the sum of the missing emotional loneliness score and the missing,0
+social loneliness score equals 0 or 1.,0
+Step 4,0
+"If desired, the total loneliness score can be categorized into four levels: not lonely (score 0, 1 or 2), moderate",0
+"lonely (score 3 through 8), severe lonely (score 9 or 10), and very severe lonely (score 11).",0
+8 A short scale,0
+"A 6-item version for overall, emotional and social loneliness has been developed because the length of the",0
+11-item version has sometimes rendered it difficult to use the scale in large surveys. The construction and,0
+empirically testing is reported in De Jong Gierveld & Van Tilburg (2006). The selected items are:,0
+I experience a general sense of emptiness,1
+There are plenty of people I can rely on when I have problems,1
+There are many people I can trust completely,1
+I miss having people around,1
+There are enough people I feel close to,1
+I often feel rejected,1
+Whether to use the 11-item version or the shortened 6-item version of the loneliness scale is not a neutral,0
+"decision. Whereas studies detailing the prevalence of loneliness, or in-depth studies of loneliness among",0
+"certain individuals, as well as research into the changing nature and impact of loneliness after specific life",0
+"events may benefit from using the 11-item scale, the use of the shortened 6-item loneliness scale may be",0
+"sufficient in other studies. In both cases, however, the researcher has a reliable and valid measuring",0
+"instrument at hand, which can be used as a unidimensional overall loneliness measure as well as provide",0
+information about the emotional and/or social loneliness situation of respondents.,0
+Appendix 1,0
+Requested background data for the purpose of validation studies,0
+Identification subsamples,0
+Year and months of data collection,0
+Sex,0
+Age (or year and month of birth),0
+Official marital status,0
+- unmarried and never married,0
+- married,0
+- divorced (separated),0
+- widowed,0
+Household composition,0
+"- unmarried, living with parent(s)",0
+"- living with partner, no children",0
+- living with partner and children,0
+- living with partner in household of different composition,0
+- one-parent family,0
+- living without partner in household of different composition,0
+- living alone,0
+Residential situation,0
+- living independently,0
+- living in with private person,0
+"- home for the elderly, personal care home",0
+- student residence,0
+"- independent planned housing, congregate housing (only for elderly persons)",0
+- other,0
+Employment status (paid employment),0
+- no employment history,0
+"- employed, >19 hours a week",0
+"- employed, <20 hours a week",0
+- disabled,0
+- retired,0
+- other non-employed,0
+"Education (highest level, whether or not completed)",0
+- primary education (6 years),0
+- lower vocational training (6+3 years),0
+- intermediate vocational training (6+4 years),0
+- lower secondary education (6+4 years),0
+- intermediate secondary education (6+5 years),0
+- higher secondary education (6+6 years),0
+- higher vocational training (6+5+4 years),0
+- university (6+6+4 years),0
+Self-rated health,0
+What is your general state of health?,0
+"1 poor, 2 not so good, 3 fair, 4 good, 5 very good",0
+ADL capacity,0
+- Can you walk up and down stairs?,0
+- Can you get up from and sit down in a chair?,0
+- Can you dress and undress yourself?,0
+"1 not at all, 2 only with assistance, 3 with much difficulty, 4 with some difficulty, 5 without difficulty",0

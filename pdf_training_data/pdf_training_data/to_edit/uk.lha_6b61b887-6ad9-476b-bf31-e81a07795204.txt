@@ -1,0 +1,5133 @@
+
+njs
+Typewritten Text
+MARJ72
+
+njs
+Typewritten Text
+MARFA72
+
+njs
+Typewritten Text
+MARF72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+MARAG72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+MARFS72
+
+njs
+Typewritten Text
+MARB72
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+CHIL72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+CHILA72
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+CHILD72
+
+njs
+Typewritten Text
+STEPC72
+
+njs
+Typewritten Text
+ADOP72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+OWN72
+
+njs
+Typewritten Text
+DWEL72
+
+njs
+Typewritten Text
+ROOM72
+
+njs
+Typewritten Text
+KITS72
+
+njs
+Typewritten Text
+BATS72
+
+njs
+Typewritten Text
+LAVS72
+
+njs
+Typewritten Text
+HWAT72
+
+njs
+Typewritten Text
+
+NATIONAL SURVEY OF HEALTH AND DEVELOPMENT
+
+(Medical Research Council) 20 HANWAY PLACE LONDON WIP OAJ
+
+ 
+
+ 
+
+ 
+
+ 
+
+Time now
+
+THE SURVEY MEMBER
+
+ 
+
+ 
+
+ 
+
+ 
+
+. (a) Are you now single, married,
+
+widowed, separated or
+
+MARJ72
+MARFA72
+
+ 
+
+divorced?
+Sepatatedi=te.aresscs 3
+DIVOrCediteecn. Sst 4
+IF ‘SINGLE’ GO TO Q.2.
+IF NOT ASK (6), (c), @).
+(6), ©, @ MARF72
+() Is :
+this your first marriage? =» -YeS ..............e.seee eee 1
+Was
+IN Onseoeecosnatsss teskieneeas 0
+MARAG72
+(c) When were you married? ............ day <saan month 19.....
+(current marriage only) MARFS72
+@) Is husband’s WES sesccearsess casecdecevs 1
+this your
+Was wife’s NO ic. noses es 0
+first marriage? MARB72
+
+IF WIDOWED, SEPARATED OR DIVORCED ASK
+
+(e) When were you widowed ...
+separated ...
+
+divorced
+
+ 
+
+ASK ALL (INCLUDE SINGLE MEN)
+
+. have you
+How many children
+
+has your wife
+
+(Record details in grid below)
+
+ 
+
+CHIL72
+had?
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1 2, 3
+
+Name
+Sex
+Date of CHILAY2
+birth
+Name of hospital
+where born
+
+he CHILD 42
+
+now
+
+she
+alive and well?
+Date of death STEPCA2
+
+ADOP72
+
+1972
+
+ 
+
+ 
+
+A.
+
+ 
+
+ 
+
+ 
+
+STRICTLY
+CONFIDENTIAL
+
+ 
+
+ 
+
+ 
+
+(if changed)
+
+Name
+
+Address
+
+ 
+
+ 
+
+ASK ALL
+
+THE HOUSEHOLD
+
+OWN72
+
+3. (a) Who owns your dwelling—do you or your spouse:
+Own or are you buying it? .............. 0
+Rent it from the Council? .............. 1
+Rent it from a relative?................. Z
+Rent it from a private landlord?.......... 3
+Other, namely 52 coc ssstccuccictcsateasam ene
+
+DWEL72
+
+(b) What sort of accommodation do you live in—is it:
+A whole house or bungalow?............. 0
+A self-contained flat or maisonette? ...... 1
+
+Unfurnished rooms (not self-contained)? . . .2
+
+Furnished rooms (not self-contained)?..... 3
+Lodging house or hostel?................ 4
+Other, namely :..3.0.c:20 eh ee
+
+(c) How many rooms does your household use?
+(Living rooms include kitchen only if used as a living room,
+exclude scullery)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Bedrooms Own living Living rooms Total
+rooms shared with
+other
+households
+ROOM72
+Ker SWE
+(d) Is there a kitchen used by Yes, not shared.......... 1
+your household? Vesrshared. sc sam ne etg 2
+INO is chattels ie eee 0
+(e) Is there a bathroom used by Yes, not shared B A TS le
+your household? WSs sharedy en < eid. nat 2,
+
+ 
+
+ 
+
+(f) Do you have an indoor Yes, not shared LAVS 7,2
+lavatory? sYes; shared) (lees see eee 2
+NO see dacs seetucsseacens rete 0
+HWAT72
+(g) Do you have running hot Y¢S...........ccsseccsseeueseeece 1
+water?
+IF ‘NO’ ASK
+
+(h) How do you obtain hot water?
+
+ 
+
+
+
+
+njs
+Typewritten Text
+HOU72
+
+njs
+Typewritten Text
+INF72
+
+njs
+Typewritten Text
+CH72
+
+njs
+Typewritten Text
+AD72
+
+njs
+Typewritten Text
+INFB72
+
+njs
+Typewritten Text
+CHB72
+
+njs
+Typewritten Text
+ADB72
+
+njs
+Typewritten Text
+OTHP72
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+NHT72
+
+njs
+Typewritten Text
+HT72
+
+njs
+Typewritten Text
+NIH72
+
+njs
+Typewritten Text
+NWT72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+NIWT72
+
+njs
+Typewritten Text
+WT72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HTS72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+WTS72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HLTH72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HTWTC72
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+WTHTCS72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+JOB72
+
+njs
+Typewritten Text
+JOBSTR72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+(((((
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+((((((((
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HOMSTR72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+((((((
+
+njs
+Typewritten Text
+HAND172HAND272HAND372
+
+njs
+Typewritten Text
+NERV72
+
+njs
+Typewritten Text
+NERVA72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+NERVRE72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+(((
+
+4. How many people live in this household, including you?
+(Record details in grid below) | |
+
+Relationship to Sex Age
+Survey Member
+
+ 
+
+ 
+
+First Name
+
+ 
+
+INF72
+Gre
+
+AD72
+INFB72
+
+CHB72
+ADB72
+
+OTHP72
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+HEALTH
+
+Now I should like to ask you a few questions about your health.
+NHT72 Hee,
+5. (a) How tall are you? NIH7 a
+
+ 
+
+HLTH72
+6. (a) Would you say that at the [Excellent................ 1
+present time your state Of  Go0d .............seceeceeeeeees 2
+health was: NBA Sis spac savenpasstassavo5a04 46 3
+HIWTIC72 POOL Ise amigo tomes tas 4
+
+Other, namely nn wc.asteeneee
+WTHTCS72
+
+ 
+
+IF ‘EXCELLENT’ OR ‘GOOD’ GO TO Q.7
+IF ‘FAIR’, ‘POOR’ OR WORSE ASK:
+
+(b) What is wrong?
+(Complaints OF SYMPLOMS) .weeeeseenneenmenmnannnenreaninee
+
+ 
+
+INNOthiNng rs. 4.7 cece sats 0
+(c) Have you consulted Doctor................. 1
+anyone about your con-
+dition?
+
+ 
+
+IF CONSULTED DOCTOR ASK
+GG) SWAG. id He aay, WS a scree ccesrsssncmsssorotiseroeesriecbions
+wrong with you
+
+ 
+
+ 
+
+Nothing .
+ASK ALL JOB72
+7. (a) Do you have a job now? Own housework only..... 1
+SOD sari can a ecszaesse eyeteiess 2
+NO JOD NOW tnicessessesccvaese 0
+
+IF ‘NO JOB NOW’ GO TO Q.8
+IF HAS A JOB ASK:
+(>) Would you say that in your work you are under:
+
+( Some nervous strain?...... 2
+
+JOBSTR72 ( Little or no nervous strain? . 1
+
+IF ‘SEVERE’ OR ‘SOME’ ASK
+) Could you say what is the
+
+MAIN CAUSE Of SER ALR 2 meso cece cea cceendee atts mocaninae.sies cena
+
+ 
+
+(d) How does it affect your? nessnesessseintesnesisssnienes
+
+ 
+
+ 
+
+ 
+
+ASK ALL
+8. (a) Would you say that in your home and personal life you are
+under:
+( Severe nervous strain?....... 3
+( Some nervous strain?........ 2
+Little or no nervous strain?. ..1
+(
+HOMSTR72
+
+(F ‘LITTLE OR NONE’ GO TO Q.9
+ea ‘SEVERE’ OR ‘SOME’ STRAIN ASK:
+
+( (b) Could you say what is the main cause of strain?....
+
+(
+
+ 
+
+ 
+
+ 
+
+(C) How does it affect YOur?....cccccccccssssssnesssssssusieeutussssnsnsssinsies
+
+ 
+
+ASK ALL
+
+9; ((a) Have you any illness or other handicap which Yes ....... 1
+
+prevents you from taking part insome kinds No........ 0
+
+( of leisure activity or some kinds of jobs? HAND172
+Such as deafness, bad sight, asthma, hearing
+
+( trouble or physical injury?
+
+(
+
+ 
+
+ 
+
+ 
+
+HAND272
+IF ‘YES? HAND372
+( (b) Please give detail
+(
+ASK ALL
+
+10. (a) Have you ever had any nervous
+
+trouble? NERV72
+
+ 
+
+IF ‘NO’ GO TO Q.1I.
+IF ‘YES’ ASK (b)-(h)
+
+(b) How old were youwhenitstarted? 9200 suns YTS.
+NERVA72
+
+(c) What sort of trouble Was it?....ccccsecsssscssssstsstesetesastnessinee
+
+ 
+
+(G) How did it affect yOour?....cccecsssscssssssusnssssnssssssnseesetestnssneseseee
+
+ 
+
+ 
+
+(e) Did anything particular bring it OM? ....cseccssacsmsnene
+
+ 
+
+ 
+
+ 
+
+(f) Did you talk to a doctor Yes ..............eeseeeeeee il
+about it?
+
+( (g) How long did the trouble last? smmsssnesmssssse
+
+( NERVRE72
+
+(h) Has it bothered you since? BV eSiatiwcncs aus Yrs.
+( (give ages)
+
+
+
+
+njs
+Typewritten Text
+RELD72
+
+njs
+Typewritten Text
+RELN72
+
+njs
+Typewritten Text
+RELST72
+
+njs
+Typewritten Text
+RELS72
+
+njs
+Typewritten Text
+RELNS72
+
+njs
+Typewritten Text
+RELSTS72
+
+njs
+Typewritten Text
+SIBL72
+
+njs
+Typewritten Text
+SIBD72
+
+njs
+Typewritten Text
+SIBST72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+BROL6672
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+BRED1572
+
+njs
+Typewritten Text
+BRED1672
+
+njs
+Typewritten Text
+BRED1772
+
+njs
+Typewritten Text
+BRED1872
+
+njs
+Typewritten Text
+SISTL6672
+
+njs
+Typewritten Text
+SISED1572
+
+njs
+Typewritten Text
+SISED1672
+
+njs
+Typewritten Text
+SISED1772
+
+njs
+Typewritten Text
+SISED1872
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+BROS72
+
+njs
+Typewritten Text
+SIST72
+
+njs
+Typewritten Text
+BROST72
+
+njs
+Typewritten Text
+SISTS72
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+(derived)
+
+njs
+Typewritten Text
+(derived)
+
+RELIGION
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ASK ALL ASK ALL MARRIED
+11. (a) Were you brought up inany REID 72 husband
+faith or religious (d) Was your wife RELS72
+denomination? faith brought up in any
+faith? faith
+IN ONO reese evcatscuierireossevieve 0
+None weiirsenseeecsuesseteeeee 0
+(b) Do Son Ng have any faith REI.N/2
+or religious
+denomination? faith (@ Does your Wee RELNS72
+INONG sagas dents eee 0 mow tistyes any saith? tai
+INODEG. ion cenives eeivarssacatnnsed 0
+(c) How strongly would you RE See £) How str Id
+say you held these beliefs? Very strongly............ 3 © oe sneer RELSTS72
+say “ held these beliefs?
+Moderately strongly......... 2 she Very stronglyso seine 5
+Little or not at all .......... 1
+Moderately strongly......... 2
+ALL SINGLE GO TO Q.12 ;
+ALL MARRIED CONTINUE (d)-(f) NEXT COLUMN. Little or not at all .......... 1
+BROTHERS AND SISTERS
+ASK ALL
+May I now ask about your brothers and sisters?
+12. (a) Do you have any living brothers or sisters? Slee ae
+(b) Do you have any brothers or sisters who are now dead? NCS acteeettreasee as eoseamsaneete 1 SIBD72
+INO Miccetees ccd svesoncscrsusssens 0)
+(c) Do you have any step, half or adopted brothers or sisters? BV. OS ieiratcn atcha ce eae aeaeeeee
+Nowe te ee 0 Saas
+(record details below for those answering ‘‘yes’’ to (a) (b) or (c) above)
+First Name Sex Age Age Age at Present job Type of firm Self- Full (F)
+last at leaving employed Step (S)
+birthday | death full Wes as 1 | Half (H)
+time INO) gases 0 | Adopted (A)
+education (specify
+which)
+BROL6672
+Basle) 2
+BRED1672
+BRED1772
+BRED1872
+SleSul4 Glow
+Sees HDseo 77.
+Ses HD aNon,
+SISED1772
+SISED1872
+BROS72
+SreSEe a4
+BROST72
+SeSHow er
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+njs
+Typewritten Text
+TRAIN72
+
+njs
+Typewritten Text
+TRAINC72
+
+njs
+Typewritten Text
+TROTJ72
+
+njs
+Typewritten Text
+OTJDR72
+
+njs
+Typewritten Text
+TRANFT72
+
+njs
+Typewritten Text
+OTJL72
+
+njs
+Typewritten Text
+FTSL72
+
+njs
+Typewritten Text
+TRAM72
+
+njs
+Typewritten Text
+TRAY72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+TRNC72
+
+njs
+Typewritten Text
+TRAPF72
+
+njs
+Typewritten Text
+TRALOJ72
+
+njs
+Typewritten Text
+TRALFT72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+13.
+
+TRAINING
+
+ASK ALL TRAIN72
+(a) Have you ever started training WITH ANY OF THE EMPLOYERS you have had since leaving school? YES .........s00ccseeceeeeeeeeeeee 1
+INO} icsseses ceetarseresenn eetee 0
+IF ‘NO’ GO TO Q.14
+IF ‘YES’ ASK:
+(b) Did this include a full time course, day release or training on-the-job? Bulletime ses. sees eee 1
+(ring more than one if necessary) Day release: srewsseseeerserase 2
+
+  
+
+On-the-job ..
+
+Other, namely
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+   
+
+IF ‘DAY RELEASE’ ONLY GO TO Q.14
+ALL OTHERS WITH TRAINING ASK (c)-(m) TRAINC72
+Ist training or 2nd training or 3rd training or
+full time course full time course full time course
+(c) What were you being trained to do? Tie Owe
+(d) Was this on-the-job training or a full time On-the-job ............086 1 On-the-job ...............- 1 On-the-job ............066 1
+course?
+Full time course ......... 2, Full time course.......... 2 Full time course.......... 2
+OTJDR72
+IF ON-THE-JOB
+(e) Did this include day release? WESmereaites cn cane wtensataboole 1 WES Siesceesreacscsccenetesess if} WESrsc, ciatescetecsscawnaree 1
+INO war tercsscesasesne.sveoe! 0 IN O/ice..sanseetine manceelete 0 IN Ola snth ene debarendayece ees 0
+ASK ALL WITH TRAINING TRANF'T72
+(f) Were you known as an apprentice, trainee or
+something similar while you were training?
+(write in name)
+OTJL72
+(g) How long should the training have lasted?
+aglaSla eZ
+(h) When did you start? (Month/ Year) TRAM72
+(i) When did you stop? (Month/ Year) TRAY72
+(i) Did you stop before the end of the scheme? ER or ron ee if WY CS Meiccessqncumteceseer esos 1 WES Hestas-ssevcsuesyeseeere 1
+NOMS. oe cceceneec cesar 0 INOisicsecesstentscecseertensas 0 NO wocsssceocesecnsceveocaces 0
+TRNGTZ
+IF YES
+(k) Why did you stop?
+TRAPF72
+ASK ALL THOSE WITH TRAINING
+WHO ARE WORKING WES. cfivesssssseeneeo metas 1 BY GSU scteetastierece sees’ 1 Wes 7 ivonctneuniines 1
+(@ Was this training with your present
+employer? ING sr ccdeseatecteentesseeetat 0 INOpstessooseccucesteecscesece 0 NO kes esecessnossesaetedens 0
+TRALOJ72
+(m) How much do you find you use the training in : OJ
+your present job? all thestimey..cnt..0s-se- 1 all the time................ 1 all the time................ 1
+eraser ilbemiaies) frequently frequently frequently
+from time to time ....... 3 from time to time ....... 3 from time to time ....... 3
+infrequently ............... 4 infrequently ............... 4 mnfrequently:.s<s.c.sesecess 4
+motatiall < sc. 22 .ccescsdose 5: Notatialliee,. ses. 5 notatiall. ccc eees 5.
+TRALFT72
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+njs
+Typewritten Text
+LASER172
+
+njs
+Typewritten Text
+LASER272
+
+njs
+Typewritten Text
+S72
+
+njs
+Typewritten Text
+(BATCH72)
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+WORK71+
+
+njs
+Typewritten Text
+((((((((((((((
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+WKST72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+WRKFT71-72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+MNM72
+
+njs
+Typewritten Text
+SEG72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+SG72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+INDU72
+
+njs
+Typewritten Text
+GRO72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+EMPS72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+SE
+
+njs
+Typewritten Text
+EMP72
+
+njs
+Typewritten Text
+SEEMP72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+JOBMS
+
+njs
+Typewritten Text
+JOBYS
+
+njs
+Typewritten Text
+(((((((
+
+njs
+Typewritten Text
+WORKPT71-72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+JOBNO71+
+
+njs
+Typewritten Text
+FIRMS71+
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+WRKP
+
+njs
+Typewritten Text
+WRKPR
+
+njs
+Typewritten Text
+WORKPT71-72
+
+njs
+Typewritten Text
+NONWK
+
+njs
+Typewritten Text
+NONWKL
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+Not marked here allocated later
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1972
+LASER172 STRICTLY
+CONFIDENTIAL
+LASER272 B
+S72
+(BATCH72) NATIONAL SURVEY OF HEALTH AND DEVELOPMENT
+(Medical Research Council) 20 HANWAY PLACE LONDON WIP OAJ
+EMPLOYMENT ALL IN PAID WORK ASK
+ASK ALL 16. What is your present Job? .......cc:0.0 M NM72 Sa ee
+14. (a) Are you now in paid work? Yes ..........-..+---+5- 1 mEGL2
+— 6 SG72
+. Reeenmie Mer OR Eres 17. What sort of work does your firm do? (probe 45 details)
+IF ‘YE.
+‘YES’ GO TO Q.15 TNDUT2
+IF ‘NO’ ASK GRO72
+(b) What are you doing at Unemployed ............ 1 EMP S72
+the moment? Fullitime student.......-..
+Hull time housewife 18. (a) Are you self employed? SE VES Sic letige Serderies 1
+Other, namely... IS fe ysonnogectoseanocboosvoctadadcod 0
+IF ‘NO’ ASK
+WRKFT71-72 (b) How many people are Less than10..........-.. 1
+WKST7 oe) Have you worked AT YesS..............000005 1 aie i ye ee is se te foe hae f
+ALL since your 25th No.........0.00e0e0e ees 0 sono? cert ae BME To.”
+ie thday ying March « WORK ‘Lat, IF SELF EMPLOYED ASK
+1971? SEEMP 72
+(c) How many people do you employ? 2 2rtsrtnecestecnt Satan
+IF ‘NO’ GO TO Q.22
+IF ‘YES? ASK (d) AND THEN GO TO 0.20 (a) ASK ALLVIN PAID WORK
+(d) Could you tell us about all the jobs, including promo- (9. (a) When did you start this job?
+tions or changes within the firm, that you have done IF AFTER 9.3.71 GO TO Q.20.
+since your 25th birthday? Could you start with the job, ( IF BEFORE 9.3.71 ASK
+if any, on your 25th birthday? (Ask Q.20 (a)-(e) for (b) Have you been pro-
+each job.) ( moted or changed your
+ALL NOW IN PAID WORK ASK ( WORK Pipb/ Withiy Othe firm
+15. (a)Is this work full time or Fulltime................ 1 since March 1971?
+part time? IPA? (HITE oo canceaconcnce 0 (IF ‘NO’ GO TO Q.21
+IF ‘PART TIME’ ASK IF CHANGES SINCE 9.3.71 ASK
+(b) Do you work on ayer- YeS .........--000 00000 1 G0. Could you tell us about all the jobs, including promotions or
+f h 8 N changes within the firm, that you did between your 25th birthday
+Soe ee Seca Ore eee re) oe = ieeiane) eo etaievore=e 2) 0 (and starting your present job? Could you first tell us about the
+hours a week? job, if any, on your 25th birthday. (Ask Q.20 (a)-(e) for each job.)
+He JOBNO7/1+ FIRMS7/1+
+(a) What job did you do?
+(b) What does the firm do?
+(c) When did you start?
+(d) Was it full time or part time?
+(e) When did you leave?
+IF WORKING ASK
+21 Have there been any periods when you have not been in paid work for a week or more for any reason since your Yes.
+25th birthday? INO Baie eae reenter
+IF ‘NO’ GO TO Q.24
+IF ‘YES’ ASK 23 (a)-(e) FOR EACH EPISODE STARTING WITH PERIOD NEAREST MARCH 1971. WORKPT71-72
+WRKP
+IF NOT WORKING ASK
+22 Could I now ask you some more details about the periods when you haye not been in paid work for a week or more for any reason since your
+25th birthday? (Ask Q.23 (a)-(e) for each episode starting with period nearest March 1971.) WRKPR
+23;
+(a) What were you doing in this period? NONWK
+NONWKL
+
+(b) When did this start?
+
+ 
+
+(c) When did this end?
+
+ 
+
+(d) Did you register as unemployed?
+
+ 
+
+(e) Were you actually looking for work?
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+IF NOT NOW WORKING OR WORKING LESS THAN 8 HOURS A WEEK GO TO Q.53.
+
+
+
+
+njs
+Typewritten Text
+SUP72
+
+njs
+Typewritten Text
+SUPNA72
+
+njs
+Typewritten Text
+SUPOS72
+
+njs
+Typewritten Text
+PROM72
+
+njs
+Typewritten Text
+PROMN72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+PROMA72
+
+njs
+Typewritten Text
+PROMW72
+
+njs
+Typewritten Text
+ABIL72
+
+njs
+Typewritten Text
+EDUCHL72
+
+njs
+Typewritten Text
+TRAHL72
+
+njs
+Typewritten Text
+MACH72
+
+njs
+Typewritten Text
+MACHT72
+
+njs
+Typewritten Text
+REPM72
+
+njs
+Typewritten Text
+LOAD72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+DRIVO72
+
+njs
+Typewritten Text
+DRIVEM72
+
+njs
+Typewritten Text
+SET72
+
+njs
+Typewritten Text
+ADJUST72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+ADJOW72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+SKIJ72
+
+njs
+Typewritten Text
+SKIE72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+TIMEM72
+
+24.
+
+25,
+
+SUPERVISION AND PROMOTION
+
+ASK ALL WORKING
+
+Would you now think about the person who directly supervises
+your work?
+
+(a) Are you supervised by a Man SUP 72 hcenea ts 1
+man or a woman? WOMAN is. cees ecu ess sass vsees 2
+Not applicable because
+
+IF NO SUPERVISION GO TO Q.25.
+ALL WHO ARE SUPERVISED ASK
+(b) What is his/her official sta-
+
+tus? Is he/she, for example,
+
+a foreman, a supervisor or
+something like that?
+
+ 
+
+(c) Is it possible that someone Yes PROM72 1
+at your level could be pro- No, because (write in)...
+moted to his/her job? (a job
+
+his/her level).
+
+ 
+
+ 
+
+ 
+
+IF NO GO TO Q.25
+IF ‘YES’ ASK
+
+(@) What would you have to do to get promoted? What
+experience would you need and so on?
+
+ 
+
+ 
+
+ 
+
+(e) How old would you
+expect to be before you
+might get this promo-
+tion?
+
+(f) Would you want the
+promotion?
+
+PROMA72
+
+PROMW72
+
+ABILITY AND EDUCATION
+
+ASK ALL WORKING
+
+(a) Would you say your job
+
+gave you a chance to use Quitefully.............. 2
+your abilities to the full? Notmuch............... 3
+Would you say: (Read out) Not atall............... 4
+
+(b) Comparing yourself with other people of about your age who
+are doing your sort of work, would you say:
+
+Your own level of education
+at school or college was:
+(Read out)
+
+IF ‘HIGHER’ OR ‘LOWER’ ASK
+
+(c) In what way is it higher/lower?....00...cscssisscosasesnnsnstiens
+
+ 
+
+ 
+
+ASK ALL WORKING
+
+(d) Would you say your own
+level of training was:
+(Read out)
+
+FIG here aco ee et 1
+About the same
+
+ 
+
+IF *‘ HIGHER’ OR ‘LOWER’
+
+(e) In what way is it higher/lower?
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+DETAILED JOB DESCRIPTION
+
+ASK ALL WORKING
+
+26. Can I now ask you in more detail about what you do in your
+present job? We are interested in what you, yourself, do in your
+work with your present employer. First we would like to talk
+about six common areas of work, then we will ask you to fill in
+the gaps we have not talked about. First we would like to ask
+about the machines you use in your work.
+
+(a) What machines or machine tools do you use in your work? I
+would include things you drive or operate, such as vehicles
+or typewriters. (write in machine names).
+
+MACH72 No machines........-... 0
+
+IF NO MACHINES GO TO Q.27
+
+MACHT72
+
+ 
+
+IF TYPEWRITERS, CALCULATING MACHINE OR
+VEHICLE ONLY ASK (b) then GO TO (i).
+
+(b) Do you repair or main- No..................... 0
+tain the machine/vehicle? Yes (give details)
+REPM72
+
+ 
+
+ 
+
+ALL OTHER MACHINES ASK
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Do you— Machine(s)
+(c) Load or feed (any of) the Ves) 1
+machine(s)?
+(underline alternative) LOAD72 NOT iat 0
+(d) Operate or driye (any of) the EY.CS) se20 1
+machine(s)?
+(underline alternative) DRIVO7P INOl ess: 0
+(e) Repair or maintain (any of) the BYeSineee 1
+machine(s)?
+(underline alternative) DRIVEMY/ 2 INGE 0
+(f) Set up (any of) the machine(s)? IWeSiccrer 1
+Sir gD ING borsa! 0
+(g) Adjust (any of) the machine(s) WeSienee 1
+once the job has started? ADs. ING geen! 0
+(h) Use the machine(s) in some other Westen: 1
+way? (write in) INOE.ceon 0
+mnt D JOWT 2
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+@ What part of your work WITH MACHINES requires the
+most skill and judgment? (prompt: what is it about this that
+requires skill and judgment?)
+
+ 
+
+ 
+
+ 
+
+ 
+
+Segoe
+
+‘S Kelana
+(j) Would you say this task A great deal of skill......... 3
+required (Read out) A fair amount of skill... .2
+Not very much skill......... 1
+(No skill needed) ............ 0
+
+(k) Do you spend as much as a TIMEM72
+
+quarter of your time at work es ml
+
+ 
+
+using machines of all kinds? = NO........ 0... ee cceceeecneee eee 0
+
+IF YES
+
+ 
+
+(@) Would you say you spent
+(Read out)
+
+Almost all your time .......2
+At least half your time...
+Less than half your time... .4
+
+w
+
+
+
+
+njs
+Typewritten Text
+WRKH72
+
+njs
+Typewritten Text
+TOOL72
+
+njs
+Typewritten Text
+SKILJ72
+
+njs
+Typewritten Text
+SKILE72
+
+njs
+Typewritten Text
+TIMEH72
+
+njs
+Typewritten Text
+MFRA72
+
+njs
+Typewritten Text
+INSPEC72
+
+njs
+Typewritten Text
+SKILME72
+
+njs
+Typewritten Text
+SKILEM72
+
+njs
+Typewritten Text
+PREC72
+
+njs
+Typewritten Text
+DRIVE72
+
+njs
+Typewritten Text
+SKILRA72
+
+njs
+Typewritten Text
+SKILR72
+
+njs
+Typewritten Text
+READ72
+
+njs
+Typewritten Text
+READT72
+
+njs
+Typewritten Text
+READSK72
+
+njs
+Typewritten Text
+WRI72
+
+njs
+Typewritten Text
+WRIT72
+
+njs
+Typewritten Text
+SENT72
+
+njs
+Typewritten Text
+CHOICE72
+
+njs
+Typewritten Text
+CALCUL72
+
+njs
+Typewritten Text
+CALCL72
+
+njs
+Typewritten Text
+
+ASK ALL WORKING
+
+27. (a) What work do you do with your hands or hand tools? I mean
+apart from writing, driving, or using typewriters or calculat-
+ing machines (write in description)
+
+No work with hands...... 0
+
+WRKH72
+
+ 
+
+ 
+
+ 
+
+ 
+
+IF NO WORK WITH HANDS GO TO Q.28.
+
+(b) Do you use any hand tools, including powered tools in this?
+(write in examples).
+
+TOOL] 2
+
+ 
+
+ 
+
+(c) What part of your work WITH YOUR HANDS requires
+the most skill or judgment? (prompt: what is it about this
+that requires skill or judgment?)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Skelsiewiak,
+(d) Would you say this task A great deal of skill......... 3
+required: (read out) A fair amount of skill ...... 2;
+Not very much skill......... 1
+SKILE72 (No skill needed) ............ 0
+(e) Do you spend as muchasa_ Yes... =i
+
+ 
+
+quarter of your time at
+work using your hands or
+hand tools?
+
+TIMEH72
+
+TE YAE SS
+
+(f) Would you say you Almostallyourtime...... 4
+spent (Read out) At least half your time... .3
+Less than half your time...2
+
+ASK ALL WORKING
+
+28. (a) Is it your job to make or Yes MFRA72 b eemeieizis 6 1
+finish, repair or assemble No...................-. 0
+anything?
+
+IF ‘NO’ GO TO Q.29
+IF ‘YES’ ASK
+
+(b) Can you give me examples of the different sort of things
+you work on? (write in examples).
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+(©) What part of this is your responsibility? In what form
+does the work come to you, and what do you do to it?
+(write in description).
+
+ 
+
+ 
+
+ 
+
+ 
+
+(d) Is this work inspected or checked in some way, or is it
+up to you to make sure your work is up to standard? Is
+
+it (Read out) Always inspected or checked........ d
+Sometimes inspected or checked ...... 2
+INSPEC72 Never inspected or checked............+ 3
+
+ASK ALL WORKING
+
+29. What reading do you do in your job? In this I would include
+things like checking a list, following written instruction or taking
+readings, as well as more complicated things. (Write in
+
+ 
+
+ 
+
+ 
+
+ 
+
+description.) Woreadin ge...) a.eet cee 0
+SKILLMEZ2 SKILEM72
+EEN CWP, READ72
+DRIVE 72 READT72
+SKILBAT72 READSK12
+SKILR72
+
+ 
+
+ 
+
+ASK ALL WORKING
+
+30. (a) What writing do you do in your job? In this I would include
+things like keeping records or making out bills, as well as
+more complicated things. (Write in description.)
+
+ 
+
+ 
+
+ 
+
+ 
+
+INO) Wiitin ee een erie ie ae 0
+WRI72
+WRIT72
+IF NO WRITING GO TO Q.31.
+ALL WITH WRITING ASK SENT72
+
+(b) Do you ever haye to write in
+sentences or paragraphs, or
+do you just have to note
+things down, like numbers, Sentences etc.
+names and so on? Note only
+
+ 
+ 
+
+IF ‘SENTENCES etc.’ ASK
+(c) Do you ever have to choose WHAT to write about or
+
+the WAY in which to write it? (Write in examples and
+INOICHOICE MRE EE enti. 0
+
+CHOMCHE 2
+
+circumstances.)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ASK ALL WORKING
+
+31. What calculations do you do in your job? In this I would include
+things like working out change or estimating amounts of
+material, as well as more formal calculations? (Write in
+description.) No calculations.......... 0
+
+CALCUL?72
+CALCL72
+
+ 
+
+ 
+
+ 
+
+
+
+
+njs
+Typewritten Text
+RWCT72
+
+njs
+Typewritten Text
+PLAN72
+
+njs
+Typewritten Text
+OFFST72
+
+njs
+Typewritten Text
+JOBSUP72
+
+njs
+Typewritten Text
+PSNM72
+
+njs
+Typewritten Text
+PSN72
+
+njs
+Typewritten Text
+NONMAN72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+MAN72
+
+njs
+Typewritten Text
+MFNM72
+
+njs
+Typewritten Text
+MFM72
+
+njs
+Typewritten Text
+PLANNM72
+
+njs
+Typewritten Text
+PLANM72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+PLANT72
+
+njs
+Typewritten Text
+TEACH72
+
+njs
+Typewritten Text
+TEAS72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+OFFW72
+
+njs
+Typewritten Text
+TEAHL72
+
+njs
+Typewritten Text
+TEAWHO72
+
+njs
+Typewritten Text
+CLASS72
+
+njs
+Typewritten Text
+OTJP72
+
+njs
+Typewritten Text
+CLASAL72
+
+njs
+Typewritten Text
+CLASAH72
+
+njs
+Typewritten Text
+OTJAL72
+
+njs
+Typewritten Text
+OTJAH72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+SUBJ72
+
+njs
+Typewritten Text
+SUBOTJ
+
+njs
+Typewritten Text
+TEAT72
+
+njs
+Typewritten Text
+JOBAE72
+
+njs
+Typewritten Text
+CONT72
+
+njs
+Typewritten Text
+PEOPL72
+
+njs
+Typewritten Text
+PEOWL72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HAPPY72
+
+njs
+Typewritten Text
+HAPMR72
+
+IF NO READING, WRITING OR CALCULATIONS GO
+
+TO Q.33.
+IF ANY ASK:
+
+32. (a) Do you spend as much as a
+quarter of your time at
+work on reading, writing or
+calculations?
+
+IF “VES*:
+(b) Would you say you
+spent: (Read out)
+
+ASK ALL WORKING
+
+33. (a) Does your work involve
+planning or supervising the
+work of other people?
+
+IF ‘NO’ GO TO (Q.34.
+IF ‘YES’ ASK:
+(b) What is your official status?
+
+RWCT72
+VES emia ue, saienentt ol oor
+INO} ee io cial 0
+Almost all your time......... 4
+
+At least half your time...... 3
+Less than half your time ...2
+
+WES i oscocsnr sent cecsseceseeonse 1
+
+ING (si cecssscetessessssersscevoues 0
+PLAN72
+ORES IE TZ
+
+ 
+
+ 
+
+ASK ALL WHO PLAN OR SUPERVISE
+
+ 
+
+Group 1
+
+Group 2
+
+ 
+
+(c) What are the jobs of the
+people whose work you
+plan or supervise?
+
+JOBSUP7P
+
+ 
+
+(d) Do you plan their work,
+supervise their work or
+both?
+
+PSNM72
+PSN72
+
+ 
+
+(e)How many at any one
+time are there in this type
+of work?
+
+NONMAN72
+MAN72
+
+ 
+
+(f) Can these be men, women
+or both?
+
+MENM72
+MEM72
+
+ 
+
+(g)Do you plan or supervise
+more than half their work?
+
+ 
+
+ 
+
+PLANNM7
+IPLANM72
+
+TO
+
+ 
+
+ 
+
+ 
+
+(h) Do you plan or supervise
+other people’s work for as
+much as a quarter of your
+time at work?
+
+IF ‘YES’ ASK:
+
+(@) Would you say you
+spent: (Read out)
+
+ASK ALL WORKING
+
+34. (a) Does your work involve
+teaching anything? I would
+include on-the-job training
+and showing new workers
+the job, as well as classroom
+teaching.
+
+IF ‘NO’ GO TO Q.35
+IF ‘YES’ ASK:
+
+(b) What sort of teaching is this?
+Is it (Read out)
+
+PLANT72
+
+Almost all your time......... 4
+At least half your time...... 3
+Less than half your time ...2
+
+TEACH72
+
+ 
+
+TEAS72
+
+“Classroom teaching” ...... 1
+Teaching on-the-job......... 2,
+or some other sort
+
+of teaching (Write in.)
+
+ 
+
+ 
+
+IF CLASSROOM TEACHING ONLY, GO TO (e)
+
+OTHERS ASK
+(c) Is this part of your
+work recognised by
+
+your employer? (Prompt:
+
+Part of your officially
+defined job?)
+
+OFFW72
+WV(CS)uevsiiewuessieceate susiiocs cee 1
+INO} hescesutusuecsveeansmeocsnens 0
+THAHL7/2
+
+(a) For how long will any one trainee be attached to you?
+
+ 
+
+ 
+
+ASK ALL WHO TEACH OR TRAIN ANYBODY
+
+(e) Who do you teach? (i.e. their occupation)
+
+TEAWHO72
+CLASS72
+
+OME y A
+
+(£) How many students or trainees are involved at any one time?
+
+ 
+
+ 
+
+CLASAL72
+(g) What is their age range? CLASAH72
+
+OTJAL72
+
+ 
+
+OTJAH72
+
+ 
+
+(h) What do you teach them? (i.e. range of subjects/skills)
+
+ 
+
+ 
+
+SUBJ72
+SUBOMG
+(@ Do you train or teach any- YES .............eeeceeceeree eres 1
+one for as muchasa quarter NO ...........0c0esseeceeereeees 0
+of your time at work?
+TEAT72
+IF ‘YES’ ASK:
+(j) Would you say: (Read out) Almost all the time......... 4
+At least half the time......... Z
+
+Less than half the time ...... 3
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ASK ALL WORKING VORA
+35. Is there anything else you do in your job? CONT72
+PEOPL72
+PEOWL72
+ASK ALL WORKING HAPPY72
+36. (a) On the whole, how happy Very happy....................+ 1
+would you say you were with Fairly happy .................+
+your job? Would you say: Not very happy.. “a
+(Read out) Very unhappy .s..c....s0000
+
+ 
+
+IF ‘VERY HAPPY’ OR ‘NOT VERY HAPPY’
+
+(b) What are the main reasons for this?
+
+HAPMR72
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+njs
+Typewritten Text
+IOA
+
+njs
+Typewritten Text
+IOF
+
+njs
+Typewritten Text
+IOH
+
+njs
+Typewritten Text
+HOH
+
+njs
+Typewritten Text
+HTH
+
+njs
+Typewritten Text
+IOO
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+IVH
+
+njs
+Typewritten Text
+ISV
+
+njs
+Typewritten Text
+ILH
+
+njs
+Typewritten Text
+ISH
+
+njs
+Typewritten Text
+ITH
+
+njs
+Typewritten Text
+IBS
+
+njs
+Typewritten Text
+IBP
+
+njs
+Typewritten Text
+IBPA
+
+njs
+Typewritten Text
+INH
+
+njs
+Typewritten Text
+IHS
+
+njs
+Typewritten Text
+ISP1
+
+njs
+Typewritten Text
+ISP2
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+ISP3
+
+njs
+Typewritten Text
+ISP4
+
+njs
+Typewritten Text
+ISP5
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+IBT
+
+njs
+Typewritten Text
+IBTA
+
+njs
+Typewritten Text
+IPT
+
+njs
+Typewritten Text
+IPTP
+
+njs
+Typewritten Text
+IPTA
+
+njs
+Typewritten Text
+IXY
+
+njs
+Typewritten Text
+IXYA
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+IF NOT WORKING OR WORKING LESS THAN 8
+HOURS GO TO 0.53, P.10.
+
+IF SELF EMPLOYED GO TO Q.47, P.10.
+
+ 
+
+Sis
+
+HOH
+HTH
+
+38.
+
+39%
+
+40.
+
+HOURS AND EARNINGS
+
+ASK ALL EMPLOYEES
+
+Could I now ask you about your hours of work in this job? First
+of all:
+
+ 
+
+ 
+
+ 
+
+(a) Do you ever work PAID overtime hours? NE eas 1
+INO ie ehe ule 0
+IF ‘YES’ ASK
+(b) How much overtime do you work regularly and how
+much occasionally? (Obtain actual hours, not pay hours
+and how often overtime is worked.)
+Regular overtime. How often Worked .....ccsessssseneene
+IOA
+Hours IOH
+Occasional overtime. How often worked ...ccccceescnen
+LO®
+MEL OUTS see scscce ee ateeiianreceam eet
+(a) Apart from overtime do you
+work a fixed number of paid LVieSti nie aeieenass 1
+hours each week? HENCE NOSE koe 0
+IF ‘YES’ ASK ESE
+(b) How many hours is that? Be areca corse
+IF ‘NO’ ASK (c) AND (d)
+(c) Could you tell me the largest At most.2.H1.. hrs.
+and the smallest number of
+hours you work, excluding
+overtime? At jeast. LOH. hrs,
+(d) How many hours would you
+say you work in a typical
+week, excluding overtime? oe be hrs.
+ASK ALL EMPLOYEES
+(a) Are these ALL working All working ............ 0
+hours or do they include any Include breaks ......... 1
+official meal breaks?
+IF MEAL BREAKS INCLUDED ASK
+(b) How much of this time iS ecmnnumnesnmnne DES.
+taken up with formal meal
+breaks in a week? . mins,
+I should now like to ask you about your earnings in this job.
+
+Could you tell me first of all on what basis you are paid, is it, for
+example, on an hourly basis, a weekly basis, a salary, on a piece-
+work or payment-by-results basis, on commission, or on some
+other basis?
+
+(Write in details.)
+
+ 
+
+ 
+
+ 
+
+41.
+
+42.
+
+43.
+
+44.
+
+1972
+
+ 
+
+ 
+
+STRICTLY
+Cc CONFIDENTIAL
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+NATIONAL SURVEY OF HEALTH AND DEVELOPMENT
+(Medical Research Council) 20 HANWAY PLACE LONDON WIP OAJ
+
+TES
+(a) In your job is there a BASIC or CS! wemstraes 1
+STANDARD rate of pay? ING Gers eries 0
+DYKeseee sot 9
+
+IF ‘NO’ OR ‘D/K’ GO TO 0.42
+IF ‘YES’ ASK (b) (c) AND (d)
+
+ 
+   
+
+(b) How much is this, BEFORE
+DEDUCTIONS for Tax,
+National Insurance etc.?
+Uf hourly paid try to get
+basic hourly wage.)
+
+IEA:
+
+Per hour.
+Per weeke ens «agsnr 2
+
+ 
+
+(c) How many of your working hours are paid at this rate,
+is it—
+
+All hours. NH Seek
+All except overtime. . .2
+Or only some hours. . .0
+
+IF ‘ONLY SOME’ ASK
+(d) How many hourS.......ccccccnnnenenesien
+
+ASK ALL EMPLOYEES
+
+Do you receive any of these kinds of payments most weeks or
+months in your job?
+
+(a) Profit sharing Yes....... {Note 2 oISPl
+(b) Weekly or monthly bonuses Yes....... Lt Nowa e se 0 ISP2
+(c) Tips or commission AVES srtareaene dy i Nowecelts 0 ISP3
+(d) Danger or inconvenience
+
+money NV eSi a cates 1” INOee sos 0 ISP4
+
+(e) Or any other special payments most weeks or months in
+YOUr PAY? (Obtain AeSCriptiOn) .ccccscovsescssssrvscscsrsrsssvsnsonsnseeninnnsnsesesey
+
+ 
+
+ESTES)
+
+(a) Including ALL REGULAR £.....BT OoeneeDy
+PAYMENTS such as over-
+time, bonuses etc.,howmuch Per week...............0+.00000 1
+do you earn in a typical Percalendar month......... 2
+week or month BEFORE Per four weeks ............... 3
+DEDUCTIONS for Tax, Other
+National Insurance etc.?
+
+(b) How much do you earn IBTA
+AFTER DEDUCTIONS
+for Tax, National Insurance feo eae a Oke d,
+and Compulsory Pensions
+Contributions? Period-k PURE. eee ee
+
+IPLTA
+
+(a) Do you ever receive any
+occasional payments during
+the year: e.g. at Christmas
+or holiday time, which you
+HAVE NOT INCLUDED
+in the figure you gave just
+now?
+
+ 
+
+IF ‘YES’ ASK
+
+(b) What are they?
+(Obtain description and
+amount and how often
+
+received.) Value: 2c...) a eee
+
+
+
+
+njs
+Typewritten Text
+IPS
+
+njs
+Typewritten Text
+IHWD
+
+njs
+Typewritten Text
+HRVA
+
+njs
+Typewritten Text
+HRVS72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HRLA72
+
+njs
+Typewritten Text
+HRSM
+
+njs
+Typewritten Text
+HRTYP72
+
+njs
+Typewritten Text
+PERBYT
+
+njs
+Typewritten Text
+PAYBF
+
+njs
+Typewritten Text
+ACCBT
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+PAYAP72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+TERAT
+
+njs
+Typewritten Text
+ACCAT
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+IFB
+
+njs
+Typewritten Text
+IVFB
+
+njs
+Typewritten Text
+IWF
+
+njs
+Typewritten Text
+IFA
+
+njs
+Typewritten Text
+IFAP
+
+njs
+Typewritten Text
+IHL
+
+njs
+Typewritten Text
+IRHL
+
+njs
+Typewritten Text
+I1C
+
+njs
+Typewritten Text
+IAMC
+
+njs
+Typewritten Text
+I1CA
+
+njs
+Typewritten Text
+IES
+
+njs
+Typewritten Text
+INCPAIBPPADINCSDINCGDIBPSDIBPG
+
+njs
+Typewritten Text
+
+45. (a) Does your EMPLOYER
+make a contribution to any
+PRIVATE pension or
+superannuation scheme you
+belong to?
+
+(Not state pensions.)
+
+IF ‘YES’ ASK
+
+(b) Could you tell me what
+HIS contribution is?
+
+(Obtain details in per-
+centage or amounts.)
+
+46. (a) Do you get paid holidays in
+this job?
+IF ‘YES’ ASK
+
+(b) How much holiday do
+you get each year in-
+cluding bank holidays?
+
+GO TO Q.50
+
+VESissecsvsvcnveet 1
+
+INO" ss ecnesseasate 0
+
+D/Kiiye. cateeeee-: 9
+2S
+
+ 
+
+ 
+
+ 
+
+ 
+
+SELF EMPLOYED ONLY
+
+from week to week?
+
+(b) —or from season to season
+
+(c) How much do they vary?
+(Obtain details and
+maximum and mini-
+mum hours)
+
+ASK ALL
+
+48. How many hours would you say
+you work in a typical week,
+if you exclude the time you
+take off for meal breaks?
+
+49. I should now like to ask you
+about your income from this
+work.
+
+(a) What is your personal in-
+come after deducting busi-
+ness costs but before any
+deductions for your own tax
+and National Insurance?
+(Obtain details of period to
+which income relates.)
+
+(b) How much is this after Tax
+and National Insurance have
+been deducted?
+
+ 
+
+47. Could I now ask you about your hours of work in this job?
+
+(a) Do the hours you work vary HRVA RVESLuescuanurene 1
+
+IF ‘YES’ TO (a) OR (b) ASK (c) =HRVS72
+
+IN OSs. sees secee 0
+BYCS cacao taco asain 1
+INO! ieestescacnienee 0
+
+HRLA72
+
+ 
+
+ 
+
+HRSM
+
+ 
+
+ 
+
+Eisenia
+
+ 
+
+er arenas a Pe Rec tes hours
+fe were p.
+Period 2 Acoso nunca!
+ACCBT
+PAYAP72
+
+Leper ep Ore areDe
+
+Berio: eed aes
+
+ 
+
+ 
+
+ALL WORKING SURVEY
+SELF EMPLOYED)
+
+50. (a) Does your work proyide you
+
+with—
+
+ERS
+
+IF ANY OF THESE
+
+(b) How much would you
+say this was worth to
+you in a year in money
+terms?
+
+10
+
+MEMBERS (INCLUDING
+
+Private use of firm’s car...... 1
+Housing or
+
+accommodation............... 2
+Or any other goods or
+services (Obtain details)...
+
+  
+
+None of these
+
+ln SED Gennes p per year
+
+51. (a) Thinking about the kinds of
+things you do in your work,
+would you say that your
+earnings were fair for the
+demands it makes on you?
+
+IF ‘NO’
+
+(b) What do you think a
+fair amount would be
+per week or month
+before deductions?
+
+52. (a) Compared with other people
+WITH YOUR EDUCA-
+TION do you think your
+present earnings are higher,
+lower or about the same as.
+theirs?
+
+IF ‘HIGHER’ OR ‘LOWER?
+
+IWF
+NOS ss cence ieyave 1
+INO sew tievensscs: 0
+IFA
+
+Loven @s....p» Month... 1
+
+TFAP Weeks.
+
+IHL
+Higher nsec 1
+TOWED secesncsescuans 2
+Sameacsy<sur.s-5,00. 3
+lat Rer=te le
+
+(b) Why do you think this i8?..0.00...cccncmmrninsnnsnnsnnenneese
+
+ 
+
+ASK ALL SURVEY MEMBERS
+
+ 
+
+(a) Could you say which cate-
+gory your total income
+AFTER DEDUCTIONS
+for Tax and National In-
+surance belongs to?
+
+(b) Do you receive any occa-
+sional sums during the year
+such as interest on savings
+or investments, -bonuses
+from work, rent or any
+allowances which you have
+NOT INCLUDED in your
+total income?
+
+IF °YES?
+
+(c) If you include this in-
+come would your aver-
+age weekly or monthly
+income belong to a
+different category?
+
+ 
+
+TOTAL INCOME
+
+53. Could I now ask you about your TOTAL INCOME? (Hand
+card). By total income I mean what you (if married say and
+your husband/wife) receive from ALL sources including such
+things as rent from property, family allowances, benefits|
+ete., as well as what you earn.
+
+Looking at the categories on this card, numbered from 1 to 10—
+
+Category a 1c aaietioineaunate
+ITAMC
+
+Y€S).Ssssevscmtes 1
+INO Ses scien 0
+I1CA
+ENS
+
+Salleneseeee se wee tees 0
+
+Different category,
+
+namely
+
+ 
+
+ 
+
+ 
+
+ 
+
+INCPA
+iSeoe a
+DINCS
+DINCG
+DIBPS
+Dag bic
+
+
+
+
+njs
+Typewritten Text
+MPI72
+
+njs
+Typewritten Text
+REAT72
+
+njs
+Typewritten Text
+REAR72
+
+ 
+
+ 
+
+ 
+
+U2 STRICTLY
+D CONFIDENTIAL
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+NATIONAL SURVEY OF HEALTH AND DEVELOPMENT
+
+(Medical Research Council) 20 HANWAY PLACE LONDON WIP OAj
+
+ 
+
+ 
+
+ 
+
+SELF RATING QUESTIONNAIRES
+
+THE TWO SELF RATING QUESTIONNAIRES ARE IN THE SEPARATE TEST BOOKLET WHICH SHOULD BE GIVEN TO
+THE SURVEY MEMBER TO FILL IN HIMSELF
+
+THE INTERVIEWER SHOULD PROVIDE A PENCIL AND SHOULD HAVE A WATCH WITH A SECOND HAND OR A STOP WATCH
+
+FIRST QUESTIONNAIRE
+ALL SURVEY MEMBERS
+
+I should now like you to answer two questionnaires which you filled in about 10 years ago. The first consists of some questions regarding the way
+you behave, feel and act. It is on the front page of the booklet I have just given you.
+
+After each question there is a ‘“‘Yes’’, and ‘‘?”? (question mark) and a ‘‘No”’. Try and decide whether ‘“Yes’’ or No” represents your usual way of
+acting or feeling; then put a circle round the “‘Yes’’ or ‘‘No”’. If you find it absolutely impossible to decide, put a circle round the ‘‘?”, but do not
+use this answer except very occasionally. Work quickly, and don’t spend too much time oyer any question; we want your first reaction, not a long
+drawn-out thought process. The whole questionnaire shouldn’t take more than a few minutes. Be sure not to omit any questions. Now go ahead, work
+quickly, and remember to answer every question. There are no right or wrong answers, and this isn’t a test of intelligence or ability, but simply a
+measure of the way you behave.
+
+(When the questionnaire is completed make sure that all questions have been answered. Then proceed to the reading test.)
+
+mage,
+
+SECOND QUESTIONNAIRE (READING TEST)
+ALL SURVEY MEMBERS
+THE FOLLOWING INSTRUCTIONS SHOULD BE FOLLOWED EXACTLY
+I should now like you to do a test which you filled in once before when you were 15. Here it is—don’t start before I ask you to do so.
+Two examples are given on page 1. Will you read the first? (Help the survey member if necessary)
+
+(A bird lays its eggs in a pond, stream, cloud, house, nest). Which is right? Yes, “NEST” is the right word, so nest has a line underneath it. All
+other words are wrong. Now read the next one.
+
+(Bread is made from wood, flour, grass, stone, salt.) Which is right? Yes, ‘“FLOUR”’ is right, so a line has been put under it.
+
+Do you see what to do? You go through the sentences on the following three pages and find the right word in each one, and then draw a line under it.
+DON’T START YET.
+
+You are not expected to do all the sentences. You only have 10 minutes so just do as many as you can. Notice that there are three pages (2, 3
+and 4). When you have finished the first two pages check what you have done, and then, if you have time turn over to the third page and continue.
+
+If you make a mistake and want to alter a line, just cross through the wrong line, with your pencil, and draw in the right one.
+
+Do you understand? Right! Turn over to page 2. Begin.
+
+NOTE THE EXACT TIME WHEN “BEGIN” WAS SAID AND ALSO WHAT THE TIME WILL BE 10 (TEN) MINUTES LATER
+AT THE END OF EXACTLY 10 MINUTES, SAY:
+
+Put down your pencil. This is the end of this test. REAT72
+
+IF THE SURVEY MEMBER COMPLETED THE WHOLE TEST BEFORE THE TEN MINUTES ARE UP ENTER THE TIME TAKEN
+
+ 
+
+ae Se eee ALLIES REAR72
+
+ 
+
+ 
+
+ 
+
+11
+
+
+
+
+njs
+Typewritten Text
+FLIV72
+
+njs
+Typewritten Text
+MLIV72
+
+njs
+Typewritten Text
+PADS72
+
+njs
+Typewritten Text
+LIVEW72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+IND72
+
+njs
+Typewritten Text
+GROF72
+
+njs
+Typewritten Text
+EMPSF72
+
+njs
+Typewritten Text
+MNMF72
+
+njs
+Typewritten Text
+SEGF72
+
+njs
+Typewritten Text
+SGF72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+(((((((((((
+
+njs
+Typewritten Text
+FAGS72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+DAB72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+PARENTS
+
+ASK ALL
+
+I should now like to ask some questions about your own parents.
+
+ 
+
+54. (a) Is your father still alive? Yes fe Eee, Pe tn eee 1
+INO: seeiictsccactcs earevaconeceees 0
+IF ‘NO’ ASK
+(b) How old were you when £2 annneennman Yrs.
+your father died?
+(© When did your father die? .......... AY. IMODHH 19.
+55. (a) Is your mother still alive? Yes MELIV 12 abasurooses 1
+INO icv estwetsesacaeccusteresese ccd 0
+IF BOTH PARENTS ALIVE GO TO Q.57
+IF ‘NO’ ASK
+(b) How old were you when
+your mother died? ete nceae VTS
+(c) When did your mother die? day......... month 19...........
+
+ASK THOSE WHOSE FATHER OR MOTHER HAS DIED
+
+56. (a) Did your ee remarry?
+
+ 
+
+ 
+
+ 
+
+IF YES:
+(b) How old were you
+
+when ue remarried? YTS.
+
+ASK ALL
+
+PADS72
+
+57. (a) Have your parents ever Divorced .................066 ul
+been divorced or separated? Separated mie),
+INeitherteten ccc emeteereee oss 0
+
+IF NEITHER GO TO Q.59.
+IF ‘SEPARATED’ OR ‘ DIVORCED” ASK
+
+ 
+
+ 
+
+ 
+
+(b) How old were you when DAB72
+this occurred? eae VLS.
+(c) With whom did you live Mother alone............... i
+immediately after that? Father alone aD
+(d) Did either of your parents Mother only ............... 1
+remarry? Father only
+IBothiGee. scosscep sss
+INeithenrccesvesccere seeeen
+
+ 
+
+12
+
+I a eS ee nn ae ee eC
+
+ 
+
+58.
+
+59.
+
+3B
+
+61.
+
+IF NEITHER PARENT REMARRIED GO TO Q.59.
+IF PARENT(S) REMARRIED ASK
+
+(a) How old were you when
+your father remarried?
+
+ 
+
+(b) How old were you when
+
+your mother remarried? .. YIS.
+
+ 
+
+(c) Who did you then live Father & step-mother...... I
+with until you were 15 years Mother & step-father...... Z
+old? Other, namely...
+
+  
+
+ASK ALL WHOSE PARENT(S) ARE ALIVE
+
+Where is their/his/her JOint Home. esas eeenscervaes
+permanent home now?
+(Give full address.) Serpents css asus ep n aE
+
+ 
+
+ 
+
+ASK ALL—INCLUDING THOSE WHOSE FATHER HAS
+DIED
+
+ 
+
+ie IND72
+(a) What JS your father’s (9000 weer rt tenement
+Gas) Gulicime 3002 SIRE Zee
+EMPSF72
+MNMF'72
+SEGF72
+() Wi i his firm do? (000 tent
+SGF72
+ie Eoereeaineas IV. C8 tee cece sos ene eos 1
+e self employed?
+© Was a Nob satetas yee teeny 0
+IF YES ASK
+D
+@) Did he employ less than Lessithan 10" c 3c .<cssseescess 1
+10 people or 10 or more 10ormore..................... 2
+people?
+At what age did your father Still working BAG A
+stop working full time? full. time tetas cower rere 00
+PL seeps atoms yrs.
+
+
+
+
+njs
+Typewritten Text
+INDFL72
+
+njs
+Typewritten Text
+GROFL72
+
+njs
+Typewritten Text
+EMPSFL72
+
+njs
+Typewritten Text
+MNMFL72
+
+njs
+Typewritten Text
+SEGFL72
+
+njs
+Typewritten Text
+SGFL72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+(((((((((((((
+
+njs
+Typewritten Text
+FAGFL72
+
+njs
+Typewritten Text
+SPAGE72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+SPLIVE72
+
+njs
+Typewritten Text
+SPSTO72
+
+njs
+Typewritten Text
+SPBRE72
+
+njs
+Typewritten Text
+SPWO72
+
+njs
+Typewritten Text
+SPIND72
+
+njs
+Typewritten Text
+GROS72
+
+njs
+Typewritten Text
+EMPSS72
+
+njs
+Typewritten Text
+MNMS72
+
+njs
+Typewritten Text
+SEGS72
+
+njs
+Typewritten Text
+SGS72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+SPLS
+
+njs
+Typewritten Text
+SPCO
+
+njs
+Typewritten Text
+SPSLA
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+(
+(
+(
+(
+(
+(
+(
+(
+(
+(
+(
+(
+(
+
+FATHER-IN-LAW
+
+UNMARRIED GO TO Q.69 P.15.
+
+ASK ALL MARRIED
+
+ 
+
+PPS Ee Py pee ee
+62. (a) What is was Your father-in-
+law’s last full-time job? = GROFIT 2
+EMPSP U2 wu
+MNMF'L72
+(b) What @ did - 0€S his firmjdo?
+Is BY CS len eascseseetodeesssecesesanens 1
+S Was ie Pell cnployed? IN ypepeeenaceencochocee anaes 0
+IF SELF EMPLOYED. ASK
+Does
+@) pia he employ less than 7 ess than 10........-..-e0-00 1
+10 people or 10 or more
+people? 10\or more fs.5-5-0.2..-cee 2
+FAGFL72
+63. At what age did your father-in- Still working full time...... 00
+Jaw stop working full-time? At ummmennnanune VTS,
+HUSBANDS AND WIVES
+May I now ask you a little about your husbape!
+64. (a) How old is hee S PAGE72 i a Yrs.
+() What is HS date of birth? —_....... GAY ven month 19.....
+(c) Where was a OLN 2p is teeeeee eae Town/Village
+Sienssencresteveverseesnaes County
+
+65. (a) Did your Bead live with
+
+both he own parents
+throughout childhood and
+until 15 years?
+
+ 
+
+IF ‘NO’ ASK
+
+(b) At what age did . ie e Stop
+
+SIS OWA say
+
+living with both Bi fe own
+
+parents?
+SPBRE72
+(c) With whom did ne thea Mother alone.....-............ 0
+iver (ile more than atheralOlei. sss eee 1
+one if necessary) Natural father
+step mother......... 22)
+Natural mother
+step father.......... 3
+Adoptive parents ............ 4
+
+Foster parents ..
+Other, namely.
+
+ 
+  
+
+ 
+
+ASK ALL MARRIED
+
+SPWO72
+Full time job................-+ 1
+66. (a) Is your pep now in ‘ ks
+Part time jJob:...s:cs,s.im.e.n-< 2
+paid work?
+Hotisewife..casstiividessesss 5
+Unemployed .................. 4
+
+Student
+
+ 
+
+ 
+
+Other, namely.
+
+(b) What was the last full-time SPIND7/2 eevstnchiiat ease
+CE ie: eGR cea eae
+se € did?
+
+Es EI MIEAS) Sal hae eine
+
+Never in full-time work..........0
+
+IF NEVER HAD FULL-TIME JOB GO TO Q.67
+
+ALL EVER FULLY EMPLOYED ASK:
+
+«1 his
+(c) What did her “rm do?
+
+ 
+
+ 
+
+ 
+ 
+
+(a) Was i self employed?
+
+No. MN MGEEZ> aie 0
+SEGS72
+SGS72
+IF SELF EMPLOYED ASK
+(©) Does ue employ less than essithanel Opesssene ereeeas 1
+10 people or 10 or more 10 or mote..................... 2
+people?
+ASK ALL MARRIED
+husband
+67. How old was your ae SPL RORY re
+when Le Jeft school?
+(b) What was the last sort of Die ©
+school a went to? SPSLA
+
+(Do not read list but if asked
+say ‘such as secondary
+modern, comprehensive’)
+
+(England & Wales)
+
+ 
+
+Secondary modern .......... 4
+Comprehensive ............:.. 5
+Private or Indep... -........... 6
+
+Other, namely.
+
+ 
+
+ 
+
+ 
+
+(Scotland) Senior secondary.. wll
+Grant aided yoo. ..,.cceersecs 2
+Junior secondary............. 4
+Comprehensive ............... 5
+Private or Indep.............. 6
+
+Other, namely.....
+
+ 
+
+ 
+
+
+
+
+njs
+Typewritten Text
+SPFE
+
+njs
+Typewritten Text
+SPQU
+
+njs
+Typewritten Text
+SPQU1
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+RY7807RY7808RY7810RY7811RY7812RY7813RY7815RY7816RY7817RY7818RY7820RY7821
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+Written down RH margin
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+))))))))))))
+
+68. (a) Since leaving school has your ae attended any Evening Classes, taken any Courses or gone to
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+College , Training College or University or taken a Correspondence Course? ING Suite recess c eater eerael
+IF ‘NO’ GO TO Q.69 P15 SPFE
+IF ‘YES’ CONTINUE
+1st Course 2nd Course 3rd Course
+(b) What College or other Institution did 27°
+attend?
+(c) What sort of course did ae take?
+(prompt—‘What was the course leading to’?)
+(d) What was the main subject taken?
+(e) Was the course part or full time? Full time.... 1 ollitineseecesesece ee ] Bullitime se-ss-sese-seeese == 1
+Part time.. 2 Part timereecesccesseencen 2 Partitines..vessieserestees 2
+(@ For how long did ae take this course?
+(@) Did gi, complete the course? Neo aerusbemiag Noe een es ewes mea
+-, He A . . EV CSE ee eae reece ore 1 SV.OS [Secescsereeiecncceecas sce 1 WES Fics cena rsscsemeoes 1
+(h) Did gy, receive any qualifications? aecee s, SeS Oc | kere eens 0) t| Nosae ee ae 0
+SIO
+IF ‘YES’
+What qualifications did er receive?
+SPQUL
+If the survey member does not know the details of spouses
+education leave a card and prepaid enyelope and tick here DO
+NOT FORGET TO PUT THE SURVEY MEMBER’S
+NAME AND NUMBER ON THE CARD BEFORE
+LEAVING IT.
+Rea sSlOm)
+SPACE FOR ADDITIONAL COMMENT ON THIS SECTION.
+RY7808
+RY7810
+RSYau AS lees
+RAC FAB ALZ
+Yep aS
+Raa oules)
+RY7816
+RAVeT/A Seley)
+Raver Ropes)
+Rey e.g)
+
+14 RY7821
+
+
+
+
+njs
+Typewritten Text
+CLASS
+
+njs
+Typewritten Text
+CLANO
+
+njs
+Typewritten Text
+CLALAR
+
+njs
+Typewritten Text
+CLATWO
+
+njs
+Typewritten Text
+NOTCLA
+
+njs
+Typewritten Text
+CDMON
+
+njs
+Typewritten Text
+CDLIFE
+
+njs
+Typewritten Text
+CDORIG
+
+njs
+Typewritten Text
+CDPERS
+
+njs
+Typewritten Text
+CDEDUC
+
+njs
+Typewritten Text
+CDJOB
+
+njs
+Typewritten Text
+CDCIRC
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+CDCLA
+
+njs
+Typewritten Text
+CCEDUC
+
+njs
+Typewritten Text
+CCWORK
+
+njs
+Typewritten Text
+CCAPP
+
+njs
+Typewritten Text
+CCMON
+
+njs
+Typewritten Text
+CCSACC
+
+njs
+Typewritten Text
+CCLUCK
+
+njs
+Typewritten Text
+CCJOB
+
+njs
+Typewritten Text
+FUTCC
+
+njs
+Typewritten Text
+LIKECC
+
+njs
+Typewritten Text
+CONFL
+
+njs
+Typewritten Text
+OWNCN
+
+njs
+Typewritten Text
+OWNC
+
+njs
+Typewritten Text
+FAMCN
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+SPCN
+
+njs
+Typewritten Text
+CLOSC
+
+ 
+
+ 
+
+ 
+
+ 
+
+69. Now I have some very different questions. I would like to know
+your opinions on how you see society.
+
+CLASS
+
+Some people say that Britain is divided into social classes and
+that people belong to one social class or another.
+
+IF SURVEY MEMBERS CAN’T OR WON’T ANSWER
+SOCIAL CLASS QUESTIONS, (e.g. DOESN’T UNDER-
+STAND, DENIES CLASS, HAS NO PICTURE OF
+SOCIETY ETC.) GO TO Q.71.
+
+OTHERWISE ASK (a) FOR ALL CLASSES AND THEN
+(6) and (c)
+
+(a) What would
+you say are the
+
+ 
+
+(ask for each class) Cone miltiyan
+
+ 
+
+classes in (b) What type of put these classes
+Britain today? people are in in order starting
+(POMPE crrsrissrsessicen the ns with the highest?
+and any more?) class?
+CLANO
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+- d) Which of these classes has the most people in it?
+
+(Write name, not number)
+
+ 
+
+CHECK THAT THIS CLASS IS MENTIONED IN GRID; IF NOT,
+CLARIFY
+
+IF ONLY TWO CLASSES MENTIONED GO TO Q.69(f)
+(e) Which would you say is the next largest class?
+CTAT WO mes
+
+CHECK THAT THIS CLASS IS MENTIONED IN GRID; IF
+NOT, CLARIFY
+
+ASK ALL SURVEY MEMBERS NOmGL A
+
+(Write name, not number) ...
+
+(f) Are there any sort of people = YS .............sseccneeeeeeeeees 1
+who don’t fit into any Of NO.............scceeceeee een eens 0
+these classes? DD [KE ac vceveretos vesecoaeeey = 9
+
+IF ’YES’ ASK
+(g) Which people are not included? .........ccceccncrissusnnunnannnse
+
+ 
+
+ 
+
+ 
+
+ 
+
+ie STRICTLY
+E CONFIDENTIAL
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+NATIONAL SURVEY OF HEALTH AND DEVELOPMENT
+
+(Medical Research Council) 20 HANWAY PLACE LONDON WIP OAJ
+
+(h) What would you say it is that mainly distinguishes one
+class from another?..........(DFOMPL) ...c.. and anything else?
+
+ 
+
+ 
+
+CDMON CDRS GD Cine
+CDLIFE EDEDUG
+CDORIG CDJOB
+
+ 
+
+(j) On the basis of what you Impossible.....................
+
+know, how difficult would
+you say it was for people to
+
+Very difficult ...
+Fairly difficult aa
+Not very difficult ............ 4
+
+ 
+
+ 
+
+move from one social class
+
+to another in Britain today? Easy ................ssseseeseees 5
+
+(Read out alternatives) DIRE ee rreesn do eee ee tae 6
+CDCLA
+
+IF “IMPOSSIBLE” GO TO Q.69(n).
+OTHERS ASK (k)—(m)
+(k) How do you think someone can change their social
+
+ 
+
+ 
+
+CVASS?..escsssssn (DOME) wiser and anything else?
+CCHD UG CeCSACE
+CCWORK
+LUCK
+CCAPP CoRUs
+CCMON SCUOE
+
+ 
+
+(@ Do you think it is likely that
+in the future you will change
+your social class?
+
+(m) Would you like to change
+your social class?
+
+ 
+
+ASK ALL SURVEY MEMBERS.
+
+(n) On the whole do you think Conflict CONE’L........ 1
+that there is bound to be No conflict..................... 2
+some conflict between D/K ............::ccseeeeeeeeeee 9
+different social classes, or
+do you think that they can
+get along together without
+any conflict?
+
+70. (a) Which social class would __......... OWNC Na ee ae
+you say you were a member
+OL} a aa eae Meee OWNGS Ses oom
+CHECK THAT THIS CLASS IS MENTIONED IN GRID; IF NOT,
+CLARIFY
+(b) And which social class rm AMIC Meare
+
+would you say your family
+WAS WHEN YOU WETE YOUNG? recientes
+
+CHECK THAT THIS CLASS IS MENTIONED IN GRID; IF NOT,
+CLARIFY
+
+IF SINGLE GO TO Q.70()
+ASK ALL MARRIED.
+(c) And how about your ict a? Ns odie
+husband’s .
+wife’s family?
+
+CHECK THAT THIS CLASS IS MENTIONED IN GRID; IF
+NOT, CLARIFY
+
+ASK ALL
+(d) Would you say that youfeel Closer Ge OS Game es 1
+closer to people of yourown Not closer ....
+social class or that you D/K ..........ccc.cceeeeeeeceeee
+
+ 
+
+don’t feel closer to them
+than you do towards other
+people?
+
+15
+
+
+
+
+njs
+Typewritten Text
+CLBW72
+
+njs
+Typewritten Text
+HMA72
+
+njs
+Typewritten Text
+HOBSC72
+
+njs
+Typewritten Text
+TU72
+
+njs
+Typewritten Text
+TUKJ72
+
+njs
+Typewritten Text
+TUM72
+
+njs
+Typewritten Text
+ADEC72
+
+njs
+Typewritten Text
+PP72
+
+njs
+Typewritten Text
+PPB72
+
+njs
+Typewritten Text
+LABIT72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+PTA72
+
+njs
+Typewritten Text
+CLBO72
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+TUSM72
+
+njs
+Typewritten Text
+BBSM72
+
+njs
+Typewritten Text
+EMPA72
+
+njs
+Typewritten Text
+OPIN72
+
+njs
+Typewritten Text
+INFL72
+
+njs
+Typewritten Text
+GETON72
+
+njs
+Typewritten Text
+GETONO72
+
+ASK ALL SURVEY MEMBERS
+
+71. Do you belong to any clubs or organizations or anything like
+that? Let me go through some examples.
+
+(a) Social club or workingmen’s Yes ECA Weer ete
+club? NOM csccsstareccusrecessensetenes
+
+ 
+
+ASK MARRIED WOMEN ONLY
+
+(b) Housewives or young = Yes .LALE ALL ieee ceeeeeeeeee
+mothers’ association INOSse ese ieveccespelssensteresessss 0
+
+ASK ALL SURVEY MEMBERS
+
+(c) Sports or hobby club? Yes PO pe Ce eeespees 1
+
+INO Vecsey cvuscasle vassetayssecaes 0
+
+(d@) Trade union or staff asso- Yes men oe aaitge cea sneer 1
+ciation?
+
+ 
+
+IF ‘NO’ GO TO Q.71 (h)
+
+(e) Name of trade union or
+staff association
+
+(f) Do you have to belong Yes TUK TZ2 neces 1
+to keep your job? INO PRL SRERE Detoectiediekdeeses 0
+
+ 
+
+ 
+
+IF ‘NO’ GO TO Q.71 (A)
+
+(g) Would you belong if you Yes WM I eeesadetenaane 1
+did not have to? INO Reaiiscessesarscossscrveserss 0
+
+ASK ALL SURVEY MEMBERS
+
+(h) Adult education or evening
+class? 1S (oisendacdennogpeccdaccanssouscod 0
+
+IF ‘ YES’
+(i) (Specify—course, subject college)..PP.L.2, APE wade ais
+
+ 
+
+ 
+
+ASK ALL
+(j) Political party?
+
+ 
+
+IF ‘YES?
+@&) (specify)
+
+PPBI2
+
+IF ‘LABOUR’ ASK LABIT?72
+
+@ Are you an individual Individual...
+member or is it through Trade Union
+a Trade Union?
+
+ 
+
+ASK ALL SURVEY MEMBERS
+(m) Parent-Teacher Associa-
+tion?
+
+(n) Are there any other clubs or
+organisations you belong to?
+
+ 
+
+Cle Oye
+
+IF ‘YES’
+(0) (specify)
+
+ 
+
+ 
+
+ 
+
+16
+
+ 
+
+ASK ALL SURVEY MEMBERS
+
+72. We would also like to ask you some more general questions
+
+(a) Do you think the trade
+unions have too much or not
+too much say in the way the
+country is run?
+
+(b) Do you think that big busi-
+ness has too much or not too
+much say in the way the
+country is run?
+
+(c) Some people feel that work-
+ers are treated fairly by
+their employers, others say
+that employers try to take
+advantage of the workers.
+Do you feel that in general
+you agree more with the
+first or the second view?
+
+(d) Do you think that the opin-
+ions of people like yourself
+are taken into account
+enough in the way the
+country is run?
+
+(e) Some people say that there
+is a small group of people
+who have a major influence
+on eyents in this country.
+Do you agree very much,
+partly or not at all?
+
+IF ‘VERY MUCH” ASK
+
+(f) Which people are these?
+
+Too muchvees sn sence: 1
+
+ 
+  
+
+Not too much..
+
+D/K .LUSM7.
+MLOOMUCH etwas. see ceeacet 1
+INOt too mucha arenes sees 0
+
+Firstinen.ch eens ae 1
+SECON Hare nsec ace 2
+DK eee) scarce tee ee cke 9
+EMPA72
+BYES Weenie teenies eer seerete 1
+Dy (oe ae een on AbSnoontcod 0
+RCo Sak See Pa ere 9
+OPIN72
+WerVemUCh ats. ueemenssten er 1
+Partly (oe recesses 2
+Notiatalle ecm scene. 3
+DK ores. hatetten ataseteets vs 9
+INFL72
+
+ 
+
+ 
+
+ 
+
+ASK ALL SURVEY MEMBERS
+
+(g) Would you say that your
+chances of ‘getting on in the
+world’ have been as good as,
+not as good as, or better
+than your parents were?
+
+IF “BETTER” OR “D/K” GO TO
+
+AS'g00d! aSvc.c0ccseossess see 1
+INotias 200d ASS veces oe. eo 2eee 2
+Better riccscccre-scscssssesesrce 3
+DiKi ne eee 9
+GETON72
+
+0.72 (i).
+
+IF “AS GOOD AS” OR “NOT AS GOOD AS” ASK
+
+(h) Why would you say this i8?...0...cssssssssneesmnersnsesssisenetney
+
+ 
+
+ 
+
+ 
+
+ASK ALL SURVEY MEMBERS
+
+(i) And haye your chances of
+“setting on in the world’’
+been as good as, not as good
+as or better than most others
+of your age?
+
+AS) S00d/aSy. 2.05... 400 eeceeee 1
+INOGaS/ COO AS een sees 2
+Better. ccc cee eee 3
+DIKE vc ceclenca ss aetice Sone 9
+GETONO72
+
+IF “AS GOOD AS” OR “D/K” GO TO Q.72 (k).
+IF “NOT AS GOOD AS” OR ” BETTER”, ASK
+
+(@) Why would you say this is?
+
+ 
+
+ 
+
+ 
+
+
+
+
+njs
+Typewritten Text
+GOEDUC
+
+njs
+Typewritten Text
+GOWILL
+
+njs
+Typewritten Text
+GOARE
+
+njs
+Typewritten Text
+GOMON
+
+njs
+Typewritten Text
+GOSOC
+
+njs
+Typewritten Text
+GOINF
+
+njs
+Typewritten Text
+GOOPP
+
+njs
+Typewritten Text
+VOTE72
+
+njs
+Typewritten Text
+VOTNE72
+
+njs
+Typewritten Text
+VOTNEP72
+
+njs
+Typewritten Text
+POLIP72
+
+njs
+Typewritten Text
+POLIPP72
+
+njs
+Typewritten Text
+POLIS72
+
+njs
+Typewritten Text
+POLIC72
+
+njs
+Typewritten Text
+POLICP
+
+njs
+Typewritten Text
+VOTS72
+
+njs
+Typewritten Text
+VOTSP72
+
+njs
+Typewritten Text
+VOTF72
+
+njs
+Typewritten Text
+VOTFP72
+
+njs
+Typewritten Text
+VOTM72
+
+njs
+Typewritten Text
+VOTMP72
+
+njs
+Typewritten Text
+VOTP72
+
+ASK ALL SURVEY MEMBERS.
+
+(k) What kinds of things would you say help people to “‘get on
+
+ 
+
+ 
+
+ 
+
+ 
+
+ago when the conservatives
+were led by Ted Heath and
+Labour by Harold Wilson,
+do you remember if you
+voted then?
+
+IF “VOTED” ASK
+
+IF “DID NOT VOTE” ASK
+
+in the world”, nowadays?............. (POMPT) rece ANd any-
+thing else?
+
+GOEDUC GOMON
+
+GOWLLE GOSOC
+
+GOQARE GOINE:
+
+GOOPP
+VOTE72
+73. (a) Thinking of the last general Voted ............-000.eseeseeee 1
+
+election, the one two years Did not vote
+
+ 
+
+Won’t say
+
+ 
+
+VOTP72
+(b) Which party did you vote f0r? ...........cseennnnnnnnnninninnns
+
+(c) Would you mind saying why you did not vote? ................
+
+ 
+
+ 
+
+ 
+
+ASK ALL SURVEY MEMBERS \7O TNE] 2
+
+(d) How do you think you will
+yote in the next general
+election?
+
+IF “WILL VOTE” ASK
+
+(©) (name Of PArty) rr:
+
+IF “WILL NOT VOTE’ ASK
+
+Will Vote ae. eer eoe esos conse ss 1
+Will not Wotert.-.-scssees5c 2
+IWOnitisay <ccsccsenscsseec see: il
+TD Keo cece teeseeveccecsmessssse a 9
+VOTNEP72
+
+(f) May I ask why you will not be Voting?..........ccoennnnnurnn
+
+ 
+
+ 
+
+ 
+
+ASK ALL SURVEY MEMBERS.
+
+(g) Do you consider yourself to
+be a supporter of a political
+party?
+
+Olea a2
+
+Yes.
+SNOne eos
+
+ 
+
+IF “NO” OR “D/K” GO TO Q.73(j).
+
+IF “YES” ASK (h) and (i)
+
+(h) Which party?
+(i) How strongly do you
+
+feel about this party?
+(Read alternatives.)
+
+GO TO Q.74.
+
+Very strongly...............00+
+Fairly strongly =
+Not very strongly .......... 3)
+ID [Keeley 9
+
+POLS we,
+
+ 
+
+ 
+
+74.
+
+   
+
+IF “NO” OR “D/K” ASK POinkewe
+(i) Do you generally think Yes .........--.::sserreees reek
+of yourself as being a No... 0
+little closer to one of the D/K ........... ee)
+
+parties?
+
+IF “NO” OR “D/K” GO TO Q.74.
+
+IF “YES” ASK
+PORTCE.
+
+(k) Which party is that?
+
+IF SINGLE GO TO (c).
+
+ASK ALL MARRIED
+$.. VGTST Austen
+
+husband
+
+ 
+
+(a) Did your wife yote in NOgetiscss errs cesesecperseencees
+the last general election? Won’t say
+D/ Kis tecsseceectee
+IF “YES’ ASK
+(b) Which party was that? en. MOT BLL smn
+
+ASK ALL SURVEY MEMBERS.
+
+(© Did your father usually yote Yes YOR ie a seeaeerie 1
+for one of the parties? NOE Avteseessenscrstecovenctence 0
+DK wees ccscsersstonscessseses 9
+
+IF “YES” ASK
+(@) Which party was that? ecm. MOTE DTZ. scum
+
+ASK ALL SURVEY MEMBERS
+
+(e) And how about your
+Mother; did she usually
+yote for one of the
+parties?
+
+ 
+
+IF “YES” ASK
+
+= VA cee ce
+
+(f) Which party was that?
+
+ 
+
+PLEASE TURN OVER TO Q.75
+
+ 
+
+Space for additional comments on this section.
+
+17
+
+
+
+
+njs
+Typewritten Text
+FWSTATFWJOBFWFAMFWMARFWMONFWSECFWEXP
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+PREHW72PRESC72PRESP72PRESIL72PRESO72DATE72INT72TYPIN72
+
+njs
+Typewritten Text
+COMP72
+
+ASK ALL
+
+FWSTAT
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+FWJOB
+75. Now finally, looking to the future, what are the two main things FWFAM
+you would like happen to you over the next 10 years.
+FWMAR
+1 EF WMON
+Zs FWSEC
+FWEXP
+PREHW72
+RES Cae,
+eplearanen camara”
+PhS ee
+PRI SO YZ
+DATE72
+TNE COMP 72
+pipraale Nie 7
+Time now
+
+Present at interview:
+
+Survey member ..................066+ i
+Husband/wife .........--........-.--. 2
+Gbildrenyreccen-escscsesssoseesce es se0> 3
+PATENL(S) ese ceets mss ses ssctn cence es 4
+Parent(s)-in-law ..........ecseeeeeeee 5
+
+Other, namely ...
+
+ 
+
+ 
+
+18
+
+ 
+
+ 
+
+mins.
+
+ 
+
+ 
+
+IEEE VIC WELSUIN O28 ipennntace niece ee ee
+
+Name.
+
+Date.
+
+1972
+
+
+

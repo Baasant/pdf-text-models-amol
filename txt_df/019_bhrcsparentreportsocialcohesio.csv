@@ -1,0 +1,63 @@
+text,label
+Seus vizinhos tomariam alguma,0
+atitude se...,0
+Muito,0
+provável,0
+Provável  Nem,0
+provável,0
+nem,0
+improvável,0
+Improvável  Muito,0
+improvável,0
+Não,0
+sabe,0
+CS1.  <q>As crianças faltarem na,0
+escola e ficarem brincando na,0
+rua?</q>,0
+(   ) 1,0
+(   ) 2,0
+(   ) 3,0
+(   ) 4,0
+(   ) 5,0
+(   ),0
+99,0
+CS2.  <q>Se as crianças estiverem,0
+pichando um muro do bairro?</q>,0
+(   ) 1,0
+(   ) 2,0
+(   ) 3,0
+(   ) 4,0
+(   ) 5,0
+(   ),0
+99,0
+CS3.  <q>Se as crianças estiverem,0
+sendo mal educadas com um,0
+adulto?</q>,0
+(   ) 1,0
+(   ) 2,0
+(   ) 3,0
+(   ) 4,0
+(   ) 5,0
+(   ),0
+99,0
+CS4.  <q>Se acontecer uma briga,0
+em,0
+frente a sua casa?</q>,0
+(   ) 1,0
+(   ) 2,0
+(   ) 3,0
+(   ) 4,0
+(   ) 5,0
+(   ),0
+99,0
+CS5.  <q>Se houver diminuição do,0
+número de postos de saúde ou,0
+outros serviços essenciais no,0
+bairro?</q>,0
+(   ) 1,0
+(   ) 2,0
+(   ) 3,0
+(   ) 4,0
+(   ) 5,0
+(   ),0
+99,0

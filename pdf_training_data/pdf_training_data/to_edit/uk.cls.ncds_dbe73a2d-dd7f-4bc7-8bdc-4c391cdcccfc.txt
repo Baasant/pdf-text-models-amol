@@ -1,0 +1,2158 @@
+
+Jon Johnson
+Not answered (-1)
+Does not apply (-2)
+
+Jon Johnson
+NCDSID
+
+Jon Johnson
+N533
+
+Jon Johnson
+N545
+
+Jon Johnson
+N520 (to first mature birth)
+
+Jon Johnson
+N490 (occupations)
+
+Jon Johnson
+N492 (Social Class)
+
+Jon Johnson
+N494
+
+Jon Johnson
+POD
+
+Jon Johnson
+N0REGION
+
+Jon Johnson
+N236
+
+ 
+
+QUESTIONNAIRE
+
+CONFIDENTIAL
+
+Not answered (-1)
+Does not apply (-2)
+
+NCDSID
+
+SERIAL No. | | |
+
+PERINATAL MORTALITY SURVEY
+
+NATIONAL BIRTHDAY TRUST FUND
+
+One of these questionnaires to be filled in for each baby born during the period of the main survey (first minute March 3rd-last minute 9th,
+
+1958, inclusive) and sent in as instructed,
+
+In addition, during the months of March, April, May, 1958, a questionnaire is required for all still births ‘and each infant dying before the age of
+
+28 days, and sent In as instructed as soon as possible after death.
+
+GENERAL INSTRUCTIONS
+
+1. Where the questions have been pre-coded, i.e. the possible answers are listed and a code number or letter attached (e.g.Questions 6, 9, 11a)—~
+
+indicate the answer by ringing the code of the answer that applies.
+
+2. Ignore the small boxes placed alongside some questions, e.g. Questions 10 and 11; these are to be used in analysis at Headquarters.
+
+3. If you are unable to record an answer to any question because the details are not known or available, please DO NOT LEAVE A BLANK
+but record ‘‘ doesn’t remember,”’ ‘‘ don’t know,”’ ‘‘ no records,” etc. ”
+
+ 
+
+ 
+
+1 Name of person completing this form .....-.m
+
+ 
+
+2 (a) Name and address of Institution and/or L.A. to which
+(1) is attached.
+
+NOREGION
+
+ 
+
+ 
+
+(b) If the birth is institutional, please give the Regional Hospital
+Board.
+
+ 
+
+ 
+
+SECTION I GENERAL INFORMATION
+
+3 Full name of patient
+
+4 Patient’s usual place of residence... enmenun
+
+ 
+
+ 
+
+ 
+
+5 Address at which baby delivered (If same as Question 4, write
+
+“ same")
+
+ 
+
+ 
+
+ 
+
+6 Place of delivery POD
+Note.—If baby delivered on way to hospital, in ambulance, taxi,
+street, etc., this should be classified below as ‘‘ elsewhere.”
+
+Hospital as booked case.....
+
+ 
+
+ 
+
+0
+
+code Hospital as unbooked case (including emergency).
+only—
+see
+
+ne Domiciliary—Midwife unbooked
+N.HLS. Maternity Home + .....
+Private Nursing Home
+
+Private ward of N.H.S. hospital............
+
+ 
+ 
+
+Domiciliary—Midwife booked
+
+ 
+
+ 
+
+ 
+
+ 
+
+Elsewhere (specify, e.g. taxi, street, ambulance, etc.).... 5
+
+ 
+
+ 
+
+a G.P, unit where there is no resident Medical Officer.
+
+ 
+
+7 Time and date of delivery...
+rere OF renee
+
+a.M./p.m. on the
+siny 1988
+
+   
+
+ 
+
+ 
+
+SECTION II (Questions 8-22 inclusive)
+
+The information required for the questions in this section should
+be got from the mother only. If the mother cannot be questioned,
+refer to instructions.
+
+ 
+
+ 
+
+8 Age of patient last birthday
+
+ 
+
+9 Present marital status NS45
+Married Y
+Single x
+
+ 
+
+ 
+
+Widowed, divorced, separated.
+
+IF NOT MARRIED, OMIT Qns. 10-12 inclusive
+
+IF MARRIED, questions about husband’s employment refer to
+time of delivery. If not working, or on National Service,
+give last occupation, and give reason, e.g. unemployed, sick,
+National Service, etc.
+
+10 Date of present marriage
+
+ 
+
+semaine (PAY) OF snuinnenee (Month) wow (yar)
+
+N520 (to first mature birth) [|
+11 What was the husband’s occupation?
+
+Actual job NA 90 (occupat ions) ne L|
+
+  
+
+ 
+
+ 
+
+Industry .......
+(a) Is the husband paid weekly, monthly, or is he self.
+employed?
+: Weekly... 1
+N492 (Social Class)
+Monthly ..
+N236 oat
+
+Self-employed... 3
+If self-employed
+
+(i) Dees he employ 10 or more persons?
+
+If not self-employed
+
+(ii) Does he supervise others (e.g. foreman, manager,
+charge-hand?)
+
+ 
+
+12 Age of husband last birthday?
+
+ 
+
+ 
+
+ 
+
+
+
+
+Jon Johnson
+N537
+
+Jon Johnson
+N496
+
+Jon Johnson
+N497 (Gestation period)
+
+Jon Johnson
+N500
+
+Jon Johnson
+N524, N525 (Occupation)
+
+Jon Johnson
+N526, N571 (Class)
+
+Jon Johnson
+N546
+
+Jon Johnson
+N549
+
+Jon Johnson
+N552
+
+Jon Johnson
+N550, N551
+
+Jon Johnson
+N539 (When Started)
+
+Jon Johnson
+N540 (During)
+
+Jon Johnson
+N512 
+(Persons per room)
+
+Jon Johnson
+N501
+
+Jon Johnson
+N543
+
+Jon Johnson
+N542
+
+Jon Johnson
+N502
+
+Jon Johnson
+N503
+
+Jon Johnson
+PLANC
+
+ 
+ 
+ 
+
+ 
+
+TION II (cont’d.) MOTHER ONLY
+
+SECTION II (cont’d.) MOTHER ONLY
+
+ 
+
+43 Did the patient stay at school after minimum school-leaving age?
+
+   
+   
+     
+    
+
+N537
+
+ 
+
+If stayed at school
+ooearaeineenriniaaniinnnieiane
+(a) At what age did she finish her full-time education?
+
+nmaanemennennne YES
+
+44 What was her father’s occupation when she left school?
+
+N524, N525 (Occupat fon
+
+, NS71
+
+Actual job
+
+ 
+
+ 
+
+Industry
+(a) Was he:
+Self-employed, not employing others.............
+
+ 
+
+ 
+
+Employer..........
+
+ 
+
+Employee not supervising others
+
+Employee supervising others........
+
+ 
+
+45 At the time she left school, how many brothers and sisters did
+
+ 
+
+ 
+
+ 
+
+~ the patent have (living and dead)? N549
+: Number N
+- still alive umber
+D, N551 : then dead
+Older than patient N552
+Younger than patient
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+16 Did the patient have a paid job when she started this baby?
+
+ 
+
+: No job..........
+—N539 (When Started)
+a Actual job...
+~N540 (During)
+Industry .......
+
+ 
+
+ 
+
+If employed when pregnancy began
+‘ f
+
+(a) How many hours a week was she working at that time?
+
+N543
+
+ 
+
+(b) When did she finally give up work?
+date...
+
+ 
+
+17 How many persons are there now ih the patient’s household
+= (including her husband and herself and any boarders, and
+excluding this baby and any lodgers who take thelr meals
+
+- separately)?
+, 15 yrs. and over.......
+
+ 
+
+ersons per room) Under 15yrs.......
+
+  
+
+(a) How many rooms do these people occupy now (excluding
+bathroom, scullery, kitchen—unless used as living room)?
+
+meristem rooms
+
+(b) For how many people did the patient cook and keep
+house at the beginning of pregnancy (including her husband
+and herself)?
+
+ 
+
+Was general anaesthesia administered for any purpose during
+this pregnancy (including dental gases)?
+
+ 
+
+ 
+
+ 
+
+Yes ..
+: No won
+: If administered, when and for what purpose? .
+(a) ‘ s at week
+(b) . at week
+
+ 
+
+ 
+
+ 
+
+19 What was the patient’s approx. weight before this pregnancy?
+N496 mommies SEONES emreiine IDSs [|
+
+20 What was'the date of the first day of her last menstrual period?
+
+N497 (Gestation period) [|
+
+peer . day ... month 1957
+
+ 
+
+21 (a) In which week of the pregnancy did the patient make her
+first visit for antenatal care (excluding visit(s) solely to
+confirm pregnancy)?
+
+(b) Beginning with, and including, the visit mentioned In 21(a)
+how many times did the patient attend for antenatal care
+at the following places? (Exclude visits solely for relaxation
+or mothercraft instruction, and dental treatment.)
+
+ 
+
+|
+| Number of
+
+visits
+
+ 
+
+Place
+During | Rest of
+4st 28 | Preg-
+weeks | nancy
+
+ 
+
+Hospital antenatal clinic
+
+ 
+
+L.H.A. clinic (run for, or
+on behalf of L.A.)
+
+Surgery (G.P.)
+
+Patient’s home (G.P.)
+
+ 
+
+ 
+
+ 
+
+Patient’s home (midwife)
+
+ 
+
+ 
+
+Other (specify)
+
+| [|
+L]
+
+ 
+
+ 
+
+ 
+
+ 
+
+Total visits
+
+PLANC
+
+ 
+
+N501
+
+ 
+
+22 Does the patient think her B.P. was taken on each occasion
+mentioned in 21(b) above?
+
+ 
+
+(a) If NO on how many visits was B.P. not taken?
+
+ 
+
+23 Did the patient smoke as many as one cigarette a day during the
+42 months before the start of this pregnancy? If so, how many
+per day during that period? N502
+
+Did not smoke as many as 1 per day... ¥
+
+ 
+
+Number smoked per day in that period...
+If smoked one or more per day
+eerie
+
+(a) Did the patient change her smoking habits during this
+pregnancy ? Record any changes in the table below—
+and month of pregnancy change made. 7503
+
+Nochange ....¥
+
+ 
+
+Month of -
+
+ 
+
+ 
+
+ 
+
+Pregnancy Number per day
+Changed. smoked after change
+Gave up 0
+Cut down
+Increased
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+Jon Johnson
+N504 (Parity)
+
+Jon Johnson
+N532 (Interval between this birth and last pregnancy)
+
+Jon Johnson
+N505 
+(Abortions)
+
+Jon Johnson
+N506 
+(Premature)
+
+Jon Johnson
+N507 
+(Large)
+
+Jon Johnson
+N508
+(Still &
+Neonatal)
+
+Jon Johnson
+N509
+(Toxaemia,
+Antepartum,
+Haemorrage,
+Caesarian)
+
+Jon Johnson
+N510 (inches)
+
+Jon Johnson
+BOOKING
+
+Se
+
+ 
+
+SECTION Iil~Please note carefully; the information in this section is te be got from records if at all possible. If this is not possible, get
+details from mother. :
+
+ 
+
+ 
+
+PAST OBSTETRIC HISTORY.—Exclude present pregnancy. N504 (Parity)
+24 Has the patient had any previous pregnancies (including miscarriages)? — YES nein sevtanersscrin WE
+
+ 
+
+No 2
+If‘ Yes ”” please give details below, taking the pregnancies in order of occurrence (the earliest first). Record twins as two separate births,
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Date of Sex’ Place of Outcome of Delivery Complications Method of
+Delivery Delivery - of Pregnancy Delivery
+Livebirth :
+N532 (Intelrvall between this birth and lasl pregnancy) >
+Birth 9 - *
+Weight 2 Lo a SQ
+3 2 3 e¢ #8 §9
+N505 5 S3| 5 2 3 é & 3 #8 5
+Zz a gE S s te & § g§ s oa
+i f Eo is S 4 2 ES 3218 °
+(Abortions) @ 8 se£|/F 7 5 wie Sexless 6 a O8 18 § &
+a| s 2 Ss eel/f@ak 5s § ts gee § S8is 2 be 8
+eee Pe) 3 (3 § sge|2 BR Bie 2 Fess eels bg Bs
+(Premature)| = | = & =f oO £2 < 066 6'16 Hie coz 28a & Gok
+a - | ~
+N507 Y x DS. vnnnnn028. | O 23 4 516 7 8)Y X01 2/3 45 6 7
+(Large)
+N508 2 YX Fecal Ibs....028./0 1 1/2 3 4 516 7 BIY XO 1 2/3 4 5 6 7
+~ (Still &
+Neonatal
+) 3 YK | ene Ibs, ........028. | 0 1 23 4 5:6 7 81Y X 0 1 213 4 5 6 7
+N509 :
+(Toxaemia, | 4 Y x 0 1/2 3 4 5:6 7 8|\Y XO 141 2/3 4 5 6 7
+Antepartum,.
+Haemorrage,
+- Caesarian) 5 YK Fee Ibs. ozs.| 0 1 2 3 4 5:6 7 8Y X 0 1 2;3 4 5 6 7
+6 YK fe PDS. ae! os.}0 1 1/2 3 4 5:6 7 8Y XO 1 2/3 45 6 7
+7 Y x ibs. ow.{/0 1/2 3 4 51:6 7 8)Y XO 1 2/3 4 5 6 7
+8 YX poe PDS. sacacue ows.}0 1. 1/2 3 4 536 7 BY X04 2)3 4 5 6 7
+9 YX | coe Ibs. ows./0 1 7/2 3 4 5:6 7 BY X01 2/53 4 5 6 7
+10 Y xX | 2 3 4 516 7 B8)Y XO 41 2/3 45 6 7
+|
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+a
+
+PRESENT PREGNANCY
+
+25 Patient’s Height
+(measure if not recorded, upright against the wall, without shoes) ft inches
+Recorded .......
+
+Measured by midwife......
+
+N510 (inches)
+
+ 
+
+ 
+
+ 
+
+ 
+
+Not recorded, unable to measure..
+
+id if original booking domiciliary
+
+{i) Why was this booking domiciliary?
+
+26 Was any booking made for this delivery?
+. Yes... Y
+
+  
+
+ 
+
+No...
+If a booking made No hospital indication Jinrtesrion
+(a) Week original booking made? Hospital recommended but patient refused ....X
+! 0k °
+
+ 
+
+Hospital indicated no bed available...
+week [| If not for any of above reasons, specify
+
+“LI
+
+x (li) Was this booking changed to an institutional booking
+0 during the pregnancy? If so, in which week was the
+1
+2
+3
+
+ 
+
+(b) What kind of booking was this original one?
+Domiciliary Y~
+
+ 
+
+ 
+
+BOOKING
+
+N.H.S. Maternity Home
+Private Nursing Home.
+Private ward of N.H.S. Hospital
+Other place (specify)...
+
+ 
+
+change made?
+
+ 
+
+Not changed...........
+Changed on the ........
+
+   
+
+ 
+
+(ili), What was reason for change?
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+Jon Johnson
+N548 (Raised blood pressure, Proteinuria)
+
+Jon Johnson
+N518
+
+Jon Johnson
+N519 (Haemoglobin level)
+
+Jon Johnson
+DIASTOL
+
+Jon Johnson
+MAXBP
+
+Jon Johnson
+ALBECL
+
+ 
+
+SECTION IV (cont'd) RECORDS ONLY
+
+ 
+
+     
+  
+    
+   
+    
+
+Information about records used in this section.
+
+Has the person completing this questionnaire full information
+about each of the places of antenatal care used by the patient?
+(Gee Question 21(b).)
+
+ 
+
+If notes, etc., not all available
+ecient
+
+(a) Which notes or records are not available?
+
+ 
+
+LJ
+
+ 
+
+ 
+
+28 Expected date of delivery...
+
+yor
+
+(a) Was this calculated from last menstrual period, or
+estimated by other means?
+
+month.
+
+day
+
+Calculated from L.M.P.. creer GD
+
+ 
+
+ 
+
+Estimated from other means.
+
+ 
+
+29 Excluding readings taken when hospital in-patient, how many
+ee times was blood pressure recorded during the antenatal period,
+~~ fies up to onset of labour.
+
+Numb of times.
+
+No records available.
+
+ 
+ 
+
+Some records only available.
+
+If B.P. recorded at all in antenatal period
+
+ 
+
+(a) What were the first, last and highest systolic/diastolic
+B.P. readings recorded in this pregnancy, and in which
+weeks were these taken? (Include readings taken
+when hospital in-patient).
+
+First (or only)
+readi |. at the
+
+ 
+
+Last reading... sense nnsence BE ENG ceeessnene week
+
+ 
+
+Reading with highest diastolic
+|
+
+(b) What was the B.P. reading with the highest diastolic
+recorded during labour?
+
+ 
+
+ 
+
+ALBECL
+
+_ If Albuminuria occurred
+
+(a) In which week of pregnancy did it occur?
+
+ 
+
+(b) Was a catheter specimen taken?
+
+ 
+
+(c) Was urinary infection present?
+
+ 
+
+ 
+
+N548 (Raised blood pressure, Proteinu
+
+ 
+
+32 Did eclamptic fits occur?
+
+ 
+
+If eclamptic fits occurred
+
+ 
+
+(a) When?
+Antepartum ..
+Intra partum... 4
+Post partum ...... 2
+
+(b) How many fits occurred altogether?
+Number of fits...
+
+33 Was the patient admitted to hospital for pre-eclamptic toxaemia
+(P.E.T.) or hypertension?
+
+If Admitted
+
+ 
+
+(a) B.P. reading on admission
+
+ria :
+) (b) In which week was she admitted?
+
+ 
+
+If not Admitted
+
+{d) Was P.E.T. diagnosed and treated without
+hospitalisation [|
+
+ 
+
+34 Was there a blood group test made for this pregnancy? or if not,
+
+ 
+
+ 
+
+ 
+
+was there a record of any previous test? N518
+One Tested for this pregnancy....... saw ¥
+code Not tested, but previous record 2
+only Not tested and no previous record... cece MD
+
+If any test made for this or previous pregnancy
+
+ 
+
+(a) What was the result?
+
+ 
+
+ 
+
+(Ring both Rh Pos
+Rhesus factor Rh. Neg... 3B
+and ABO group) A. 4
+
+ 
+
+ 
+
+If Rh. Negative
+
+(i) Was blood tested for Rh. Antibodies during this
+pregnancy?
+sn on
+
+ 
+
+ 
+
+35 How many times was haemoglobin tested in this pregnancy?
+
+Not tested at all -O
+
+ 
+
+Number of times tested
+
+ 
+
+If Haemoglobin tested at all this Pregnancy?
+
+ 
+
+(a) Result.
+
+First (or only) test.
+
+ 
+
+9 N519
+
+ 
+
+Last test.
+
+(Haemoglobin level)
+
+ 
+
+
+
+
+Jon Johnson
+N522
+
+Jon Johnson
+N527
+
+Jon Johnson
+N528
+
+Jon Johnson
+N529
+
+Jon Johnson
+XRAY
+
+Jon Johnson
+ABNORM0X
+
+Jon Johnson
+ABNORM00
+
+Jon Johnson
+Text
+
+Jon Johnson
+ABNORM01
+
+Jon Johnson
+ABNORM02
+
+Jon Johnson
+ABNORM03
+
+Jon Johnson
+ABNORM04
+
+Jon Johnson
+ABNORM05
+
+Jon Johnson
+ABNORM06
+
+Jon Johnson
+ABNORM07
+
+Jon Johnson
+ABNORM08 (Epilepsy)
+
+Jon Johnson
+ABNORM09 (Other)
+
+Jon Johnson
+BLEED
+
+Jon Johnson
+AD2HOSP
+
+Jon Johnson
+ADTYPE
+
+SECTION IV (cont’d.) RECORDS ONLY
+
+SECTION IV (cont'd.) RECORDS ONLY
+
+ 
+
+36 X-ray examinations during this pregnancy.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Chest:
+Abdominal: No X-ray.
+XePAY Ab ChE...eunnesnnennnmmntnnnnnne th week
+Pelvimetry: NO Xe ay.nnnennunnnmmnmnneininnineninennnsni mm 4
+X-ray at the th week
+
+ 
+
+LiL
+
+37 Were any of the following abnormalities or illnesses or any other
+condition (not P.E.T.) encountered during this pregnancy?
+If so, please give the week diagnosed in each case.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ABNORMOX
+Ring code if condition encountered NS22
+ABNORMO0 If none encountered ring this code ......
+Week
+Condition Code | First Comments
+Noted
+ABNORMO1 Diabetes Y
+ABNORMO2_ | Heart disease
+Tuberculosis °
+ABNORMO3 (active)
+ABNORMO4 | Influenza 1
+ABNORMO5 German measles 2
+Vaginal bleeding
+before 28th week 3
+Accidental
+A| haemorrhage 4
+Placenta
+BLEED P| praevia 5
+Cause
+H| unknown 6
+Suspected
+ABNORMO 6 disproportion 7
+Psychiatric
+disorder (under
+treatment) 8
+ABNORMO7 External
+version 9
+ABNORMO8 = |@ Specity
+(Epilepsy) a
+R
+ABNORMO9 \
+(Other) b
+N
+E
+Ss
+Ss
+E
+Ss
+°
+R
+A
+B
+N
+°
+R
+M
+A
+L
+|
+17
+I
+E
+s
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+10
+
+ 
+
+38 Was the patient admitted to a hospital or maternity/nursing
+home or other institution during the antenatal period (for any
+other reason than P.E.T.) i.e. in pregnancy up to the time of the
+onset of labour ?
+
+No...
+Yes, to hospital
+
+ 
+
+ 
+
+Code
+
+all Yes, to maternity home......
+that +
+
+apply Yes, to nursing home
+
+ 
+
+ 
+
+Yes, to other institutions (specify).
+
+ 
+
+If admitted to any institution in antenatal period
+
+(a) Give the principal diagnosis or reason, date and duration
+for each admission.
+
+ 
+
+ 
+
+ 
+
+ 
+
+Adm. | Week | Days
+
+No. Reason of in
+Preg. | Ward
+
+1 AD2HOSP
+
+2
+
+3
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+39 Was patient admitted to institution during labour (include both
+ADTYPE
+
+booked and emergency cases)?
+Not admitted during fabour .......
+Admitted during labour as booked case
+Admitted during labour as emergency (give reasons for
+emergency) ......
+
+  
+
+ 
+
+If admitted.as booked or emergency case
+
+(a) Approximate time between onset of labour and
+
+CO
+
+ 
+
+admission. ........
+
+ 
+
+SECTION V.—DETAILS OF LABOUR
+The information for this section should be got from records, notes
+or the experience of the person(s) who actually delivered the infant.
+
+ 
+
+40 Did the person(s) conducting the delivery have full information
+about the antenatal period at time of labour ?
+
+Yes ..
+
+No ..
+
+1
+
+ 
+
+ 
+
+If No
+Specify what information was missing, and state reason.
+
+|
+LI
+
+Y
+=. mins. Not known....X<
+
+ 
+
+ 
+
+ 
+
+41 How long was the labour?
+First stage
+
+ 
+ 
+
+Second stage.
+
+42 How long before delivery did the membranes rupture, either
+spontaneously or by artificial means: N529
+
+Not known...O [|
+
+(a) Did the patient run a temperature above normal during
+this interval?
+
+nom MINS.
+
+ 
+
+YS eteion T
+INO cence 2
+Not known ... 3
+
+ 
+
+ 
+
+ 
+
+
+
+
+Jon Johnson
+N531
+
+Jon Johnson
+N536
+
+Jon Johnson
+N534
+
+Jon Johnson
+N535
+
+Jon Johnson
+N557
+
+Jon Johnson
+N556 (Place of booking and delivey)
+
+Jon Johnson
+PRESENT
+
+Jon Johnson
+LDRUG001 to LDRUG09
+
+Jon Johnson
+ATHETIC
+
+  
+
+ 
+
+ 
+
+ 
+
+PRESENT
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+  
+
+‘SECTION V (cont’d.)-RECORDS, NOTES, OR EXPERI-
+ENCE OF PERSON DELIVERING INFANT
+
+SECTION V (cont’d.).—RECORDS, NOTES, OR EXPERI-
+ENCE OF PERSON DELIVERING INFANT
+
+ 
+
+N531
+
+43 Was induction carried out?
+
+If delivery induced
+
+(a) Why was induction necessary?
+
+ 
+
+ 
+
+ 
+
+ 
+
+Post urity °
+
+Hypertension .... iw A
+
+Other cause (specify). 2
+(b) Which method(s) was used?
+
+Medical: O.B.E. a 6
+
+ 
+
+ 
+
+ 
+
+Codeall Medical: Pitocin ..... Vo
+that
+Apply Medical: Other
+
+Surgical ......
+
+ 
+
+If surgical induction used
+(i) Specify method used.
+
+Gi) How soon after surgical induction did delivery occur?
+
+senneneee DPS crete EAS.
+
+ 
+
+44 What was the presenting part when the baby was delivered?
+Vertex O.A..
+Vertex P.O.P..
+Breech.
+
+ 
+
+ 
+
+Should
+
+Face
+
+ 
+
+Other presentation (specify)
+
+   
+
+ 
+
+ 
+
+ 
+
+45 Was episiotomy carried out? Yes sae
+No.
+46 What was the method of actual delivery? N534
+
+  
+
+Spontaneous ......
+
+ 
+
+Forceps ......
+
+ 
+
+Elective caesarean
+Emergency caesarean .....
+Other method (specify).
+
+ 
+
+If delivery not spontaneous
+
+(a) What was the reason for assistance?
+
+N535
+
+(i) Foetal distress:
+prolapsed cord
+
+ 
+
+ 
+
+passage of meconium
+
+ 
+
+foetal heart: slow, rapid, irreg.
+
+au a w
+
+ 
+
+Code (li) Maternal distress.
+
+ 
+
+all i i
+that (iii) Toxaemia.
+
+ 
+
+Apply (iv) Delay in second stage ........
+
+ 
+
+(vy) Other reasons (specify)
+
+ 
+
+47 Were there are any complications of labour which have not been
+mentioned above; if so, please specify.
+
+sv ¥
+
+ 
+
+No other complication.s........
+
+ 
+ 
+
+Complications
+
+ 
+
+ 
+
+ 
+
+ 
+
+48 Was inhalational analgesia available at delivery and given?
+
+ 
+
+Not available at delivery........
+
+ 
+
+ 
+
+Available and given .......
+
+ 
+
+Available, not given (specify reason)
+
+ 
+
+If given
+
+{a) What agent was given?
+
+ 
+
+Gas and Air..
+Trilene 4
+Others (specify) 5
+
+(i) For how long previous to last hour before delivery?
+
+ 
+
+ 
+
+49 Was analgesia or sedative given by any other route than inhala-
+tion
+
+ 
+
+If yes
+
+(a) What drugs were given and how much was given in
+last 2 hours (and in the previous 10 hours) of labour?
+
+ 
+
+Amount given
+
+ 
+
+Name of Drug In last
+2 hours
+
+In previous
+10 hours
+
+ 
+
+LDRUGOO1 to
+LDRUGO9
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+50 Was any local, general or spinal anaesthetic administered during
+labour?
+Code
+all
+that
+
+Apply
+
+None .....
+
+ 
+
+General
+Spinal
+
+Local.
+
+Pid.
+F
+
+ 
+
+dal block 2
+If any anaesthetic administered
+
+(a) Why was it given?.......
+
+ 
+
+ 
+
+If general
+
+(b) What general anaesthetic was given.........
+
+ 
+
+ 
+
+51 Which of the following persons were present at the delivery?
+(Qualified, trained or in training only)
+
+ 
+
+ 
+
+ 
+
+N557 Person wha Also
+delivered present
+the baby | at delivery
+
+No trained person (e.g. B.B.A.,
+
+policeman, etc.) ae ae 0 0
+Midwife... wee ae eee 4 i 1
+Consultant obstet. ve 2 | 2
+Registrar... 0s. ee oe 3 | 3
+Hospital M.O. . 4 i 4
+GPa i 5 | 5
+Medical Student ... . 6 | 6
+Pupil Midwife... on ane 7 i 7
+Other (specify) ... tee oe 8 | 8
+
+ 
+
+ 
+
+ 
+
+11
+
+ 
+
+ 
+
+ 
+
+N556 (Place
+
+ 
+
+N536
+
+ 
+
+ 
+
+
+
+
+Jon Johnson
+N622
+
+Jon Johnson
+N574
+
+Jon Johnson
+N646 
+
+Jon Johnson
+N515 (weight: Std Dev)
+N516 (percentile)
+
+Jon Johnson
+RESUS
+
+Jon Johnson
+DTB1 to 
+DTB10
+
+Jon Johnson
+ILLNESS
+
+Jon Johnson
+MOD, TOD, AAD, SBNND
+
+Jon Johnson
+PLCWGT
+
+ 
+
+SECTION VI—THE INFANT. RECORDS, NOTES, OR
+EXPERIENCE OF PERSON ATTENDING INFANT
+
+SECTION VI (contd). — RECORDS, NOTES,
+EXPERIENCE OF PERSON ATTENDING INFANT.
+
+OR
+
+ 
+
+52 What was the outcome of the delivery?
+Stillbirth ........ ¥
+
+Livebirth .......%
+
+ 
+
+Single birth... 1
+
+Triplet 0 3
+Note.—-For multiple births, a separate schedule is required for each
+child, but Sections 11, II and IV need only be completed for the first
+birth. Clip questionnaires together when despatching.
+
+ 
+
+53 Sex of infant.
+
+54 Weight at birth?
+Not weighed at birth......0
+
+If not weighed at birth
+(a) Estimated weight at birth.
+
+ 
+
+IF LIVE BIRTH
+
+' 55 Did the baby require resuscitation other than aspiration of the
+air passages? if so, please specify the method used, including
+details of oxygen.
+
+RESUS Resuscitation not required
+Methods and drugs use
+
+ 
+
+ 
+
+ 
+
+ 
+
+56 Was the baby given any drugs or antibiotics during the period
+covered by this questionnaire (apart from drugs given for the
+purpose of resuscitation)?
+
+ 
+
+ 
+
+ 
+
+ 
+
+No. of | Dosage
+Name of Drug Reason Given days ‘per
+given day
+DTB1 to
+DTB10
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+57 Did this baby have any laboratory tests or X-rays carried out
+during the period covered by this questionnaire?
+
+ 
+
+ 
+
+Nature of Day
+test/X-ray Reason carried Result
+out
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+58 Did this baby have any congenital abnormality? If so, please
+specify. .
+
+No congenital abnormality.......... ion
+
+ 
+
+Congenital abnormality.........
+
+  
+
+ 
+
+ 
+
+ 
+
+59 What illness did this baby have during the first week of life?
+
+None °
+
+ILLNESS
+
+HIness(es)
+
+ 
+
+ 
+
+ 
+
+ 
+
+60 Fate of infant at end of first weeks of life,
+Alive
+
+ 
+
+Died before 7 days old..............
+
+ 
+
+Transferred before 7 days olfd.....
+
+ 
+
+If transferred before 7 days old
+
+(a) At what agei.......
+(b) Where to? .........
+
+ 
+
+ 
+
+ 
+
+(c) Reason for Transfer? ummm
+
+  
+
+ 
+
+ 
+
+SECTION VII.—The remainder of this questionnaire applies
+ONLY to stillbirth or neonatal deaths. Information should
+be got from records, notes or experience of person(s)
+attending the patient or infant.
+
+ 
+
+61 Date of death?
+Died at......
+
+‘Stillbirth ..
+
+ 
+
+ 
+
+IF STILLBIRTH
+
+62 When did foetal death occur?
+
+Before onset of labour.
+
+ 
+
+During labour ..
+
+ 
+
+Not known whether before or during labour.........0
+
+If known when foetal death occurred
+A TT SAPS ANA
+(a) How long before delivery did foetal death ‘occur?
+
+days . hrs.
+
+mins.
+
+63 Was the foetus macerated?
+
+ 
+
+IF STILLBIRTH, OR DIED UNDER 28 DAYS
+64 Was a P.M, examination made? If so, where was this done?
+
+No P.M. examination oi... sian
+
+ 
+
+ 
+
+Place (address)
+
+ 
+
+PLCWGT
+
+ 
+
+ 
+
+TO BE FILLED IN BY M.O.H.
+
+65 Please give registered cause of this stillbirth (if in Scotland) or
+neo-natal death.
+
+ 
+
+ 
+
+12
+
+ 
+
+N515
+N516
+
+(weight: Std Dev)
+(percentile)
+
+ 
+
+
+
+
+  
+  
+  
+  
+
+EC 1ON VIL. (Contd.) PLEASE FILL IN THIS SECTION IF THE BABY WAS STILLBORN OR DIED UNDER 28 DAYS.
+
+lease use an extra sheet if short of space
+
+jease give a short summary of present pregnancy, with special reference to abnormalities, illnesses; please include also conditions leading up
+to foetal death, if these occurred before labour.
+
+67 Please give short summary of course of labour, with special reference to any complications; please include also conditions leading up to
+foetal death if these occurred during labour.
+
+68 Please give short clinical history of baby between time of delivery and death, with special reference to any abnormalities or illnesses, and
+any notes which may help to explain why death occurred,
+
+ 
+
+ 
+
+Checked by:
+ae |
+
+13
+
+  
+
+ 
+
+
+

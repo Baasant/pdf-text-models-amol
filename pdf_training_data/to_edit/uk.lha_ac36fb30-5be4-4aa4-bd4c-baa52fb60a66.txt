@@ -1,0 +1,5617 @@
+
+ 1
+ 
+
+ 
+MRC NATIONAL SURVEY OF HEALTH AND DEVELOPMENT 
+
+University College London Medical School 
+Department of Epidemiology and Public Health 
+
+1-19 Torrington Place 
+London WC1E 6BT 
+
+ 
+ 
+
+NURSE INTERVIEW 1999 
+ 
+
+CAPI Version 5  
+ 
+ 
+
+23rd January 2002 
+ 
+ 
+ 
+KEY 
+ 
+Normal text Nurse reads this out to cohort member  
+
+Bold  Emphasis for the nurse when reading out question 
+
+Italics   Instruction to nurse only 
+
+#      Instruction to nurse to press shift and F2 to save 
+
+^     Instruction to nurse to press 1 to continue 
+
+[ ]   Indicates inserted feed forward data from elsewhere 
+
+FF   Warren's feed forward data 
+
+LFF  Local feed forward data (i.e. data collected in interview) 
+
+SFF  SCPR feed forward data 
+
+  
+
+
+
+ 2
+ 
+1. Enter a numeric value between 1 and 990.    + 
+  Point number    
+ 
+2. You are in the interview schedule for serial number [SFF]. Enter a numeric value between 1001 and 7002. + 
+  Serial number     
+ 
+3. Nurse: check date of interview and alter if not correct. Version: Ver05. # ^   +  
+     day              month                    year 
+  Interview date     1 9 9 9 
+ 
+4. Before I start the interview, I need to check that I have opened the right file for you. Code: Cohort member's sex.    
+  Male 1     + 
+  Female 2 
+ 
+5. Can I check? What day in March is your birthday? Enter a numeric value between 3 & 9. + 
+  Birth date  
+ 
+6. Can I check, is your name still .......(read from ARF) or have you changed it for any reason?  +   
+  Same 1 
+  Changed 2 Nurse: please record name change details in full on ARF page 1 by label. ^  
+ 
+7. Nurse: please code whether you are interviewing the cohort member themselves or conducting a proxy interview with the 
+
+cohort member's carer? 
+  Interview conducted with cohort member 1Q8a  + 
+  Interview conducted with carer 2Q8b 
+ 
+8. Before we begin the interview, I need to get your written permission to carry out this interview. Please read and sign Consent  
+ Form 1. Nurse: Make sure the form has been signed and dated.  +  
+  Form 1 signed 1 Nurse: circle codes 01 and 04 on front of consent booklet. ^ 
+  Form 1 refused 2 Nurse: circle codes 02, 04, 06, 08, 10, 12, 14, 16, 18, 20, 22, 24 and 26 on front of consent  
+          booklet. Q133 
+ 
+8b. Nurse: address this question to the carer. Before we begin the interview, I need to get your written permission to carry out this 
+
+interview on behalf of the cohort member. Please read and sign Consent Form 2. Nurse: Make sure the form has been signed 
+and dated.  + 
+
+  Form 2 signed 1 Nurse: circle codes 02 and 03 on front of consent booklet. ^ 
+  Form 2 refused 2 Nurse: circle codes 02, 04, 06, 08, 10, 12, 14, 16, 18, 20, 22, 24 and 26 on front of consent  
+          booklet. Q133 
+ 
+9. Nurse to code: Is cohort member in an institution?    + 
+  Yes 1 
+  No 2 
+ 
+10. I would like to start by asking you some questions about your household. How many people in total live in this household, 
+
+including yourself? Include individuals absent temporarily e.g. someone working away or a child that is a student. Enter a 
+numeric value between 1 and 20. 
+
+  Number    *                        (If total is one, go toQ14) 
+ 
+11. Do you have a husband/wife or partner living in this household?  *  
+  Spouse  1 
+  Partner   2 
+  Neither   3  
+
+ 
+12. How many children under 16 live in your household all of the time? Include any step, adopted or foster children you are  
+ responsible for. Include all children for whom survey member is parent figure. Enter a numeric value between 0 and 15.  
+  Number   + 
+ 
+13. Now children aged 16 or over, including grown up ones. How many live in your household all of the time?  
+ Include step, foster, adopted or any for whom survey member is parent figure. Enter a numeric value between 0 and 15.  
+  Number   + 
+ 
+ 
+ 
+
+njs
+Typewritten Text
+POINT
+
+njs
+Typewritten Text
+SERIAL
+
+njs
+Typewritten Text
+INTDATE
+
+njs
+Typewritten Text
+CMSEX
+
+njs
+Typewritten Text
+BDAT
+
+njs
+Typewritten Text
+CMNAME
+
+njs
+Typewritten Text
+INTWHO
+
+njs
+Typewritten Text
+CONSENT1
+
+njs
+Typewritten Text
+CONSENT2
+
+njs
+Typewritten Text
+INST
+
+njs
+Typewritten Text
+HOU
+
+njs
+Typewritten Text
+REL1
+
+njs
+Typewritten Text
+HMC16
+
+njs
+Typewritten Text
+HMCAD
+
+
+
+ 3
+14. Now I would like to get some general information about your household. Does your household own or rent this  
+ accommodation? Please give an answer from this card. (Show card A) 
+  Owns it or is buying it  1Q15 
+  Renting it from the Council  2Q15 
+  Renting if from a relative  3Q15  * 
+  Renting it from a private landlord 4Q15 
+  Renting it from a housing association 5Q15 
+  Other (please specify)  6Q14b 
+ 
+b. In what way does your household occupy this accommodation?  + 
+ __________________________________________________ 
+ 
+15. I would now like to update our records about marriages and partners. First, what is your current marital status... 
+  Single, that is never married   1Q15c 
+  Married and living with your husband/wife   2Q15b 
+  Married and separated from your husband/wife 3Q15b + 
+  Divorced     4Q15b 
+  Or, widowed?     5Q15b 
+ 
+b. Can I check, have you been married once or more than once? If more than once, probe for number of marriages. Enter number  
+ of marriages. Enter a numeric value between 0 and 9.   + 
+  Number  Q16 
+ 
+c. Since we last interviewed you in [FF], have you lived with a partner for more than a year? * 
+  Yes 1Q17 
+  No 2Q17 
+ 
+16.Thinking of your [LFF e.g. first/second/last] marriage, when were you married. Can you tell me the year? Nurse: If respondent  
+ gives you an age rather than a year you can enter the age here instead. Enter a numeric value between 16 and 1999.   
+  Year or age       * (x=1-4) 
+ 
+b. How did this marriage end?   * (x=1-4) 
+  Marriage not ended 1Q17 
+  Death  2Q16c 
+  Divorce  3Q16d 
+  Separation  4Q16d 
+ 
+c. When did your partner die - just tell me the year. Enter a numeric value between 1956 and 2000. ? (x=1-2) 
+  Year     Q25 
+ 
+d. When did you stop living together - just tell me the year? Enter a numeric value between 1956 and 2000.? (x=1-3) 
+  Year     Q25 
+If more marriages, go back to Q16a 
+ 
+17.Turning now to children of your own... Refer only to biological children. Exclude still births and miscarriages. ^ Have you  
+ ever had any children of your own. Include biological children only. Exclude still births and miscarriages.  * 
+  Yes 1 
+  No 2 Q20 
+ 
+b. How many children of your own have you had altogether? Include biological children only. Exclude still births and  
+ miscarriages. Enter number of children. Enter a numeric value between 0 and 25.  * 
+  Number   
+ 
+18. Thinking of your [LFF e.g. first/next/last] child...  ^  What is your child called? +  + (x=2-5) 
+ ______________________________________ 
+ 
+b. Is [LFF] a boy or girl?        * (x=1-5) 
+  Boy  1 
+  Girl  2 
+ 
+c. In what year was [LFF] born? Enter a numeric value between 1960 and 2000. * (x=1-5) 
+  Year      
+If more children, ^,  go back to Q25c 
+
+njs
+Typewritten Text
+OWN
+
+njs
+Typewritten Text
+OWNOTH
+
+njs
+Typewritten Text
+MARSTATS
+
+njs
+Typewritten Text
+MARNUM
+
+njs
+Typewritten Text
+MARP
+
+njs
+Typewritten Text
+MARY
+
+njs
+Typewritten Text
+MARY2
+
+njs
+Typewritten Text
+MARB
+
+njs
+Typewritten Text
+MARB2
+
+njs
+Typewritten Text
+MADY
+
+njs
+Typewritten Text
+MADY2
+
+njs
+Typewritten Text
+MASY
+
+njs
+Typewritten Text
+MASY2
+
+njs
+Typewritten Text
+CHIL
+
+njs
+Typewritten Text
+CHILN
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+CHILNAME
+
+njs
+Typewritten Text
+CHILNAM2
+
+njs
+Typewritten Text
+CHSS 
+
+njs
+Typewritten Text
+CHSS2
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+MASY3
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+CHSS3
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+CHSS4
+
+njs
+Typewritten Text
+CHSS5
+
+njs
+Typewritten Text
+CHDS
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+CHDS2
+
+njs
+Typewritten Text
+CHDS3
+
+njs
+Typewritten Text
+CHDS4
+
+njs
+Typewritten Text
+CHDS5
+
+njs
+Typewritten Text
+MARY3
+
+njs
+Typewritten Text
+MARY4
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+MARB3
+
+njs
+Typewritten Text
+MARB4
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+CHILNAM3
+
+njs
+Typewritten Text
+CHILNAM4
+
+njs
+Typewritten Text
+CHILNAM5
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+
+
+ 4
+19a.Do any of your own children now have children of their own?    * 
+  Yes  1 
+  No  2 Q26 
+ 
+b. In what year was the first one born?       * 
+  Year      
+ 
+20.Now something about hospital treatment. Since we last saw you in [FF year], when you were [FF age], have you been  
+ admitted to hospital as an in-patient?  In-patient= at least one overnight stay.  * 
+  Yes  1 
+  No  2  Nurse: circle code 06 on front of consent booklet. ^Q23 
+ 
+b. How many times have you been admitted to hospital since we saw you last in [FF year]? Enter no of admissions. Enter a  
+ numeric value between 1 and 25.       * 
+  Number   
+ 
+21. I would like some information about your in-patient admissions. ^ Thinking of the [LFF time e.g. first/last] time you were in 
+
+hospital as an in-patient since we last saw you in [FF]. Which hospital did you go into? Collect full name of hospital and name 
+of town/city in which located. Enter verbatim.      +  + (x=1-16) 
+
+  ______________________________________ 
+ 
+b. Which town was this in?       +  + (x=1-16)
+ ______________________________________ 
+ 
+c. Were you an NHS or a private patient?       * (x=1-16) 
+  NHS  1 
+  Private  2 
+ 
+d. When did you go in, first tell me the month and then the year? Enter a numeric value between 1 and 12. 
+  Month      * (x=1-16) 
+ 
+e. And the year? If year not known enter age. If both not known press <Ctrl + K>. Enter a numeric value between 0 and 2000. 
+  Year       * (x=1-16) 
+ 
+f. Why were you admitted to hospital as an in-patient on this occasion? Probe for full reason and diagnosis. Record all reasons 
+
+leading to admission. Enter verbatim.      + (x=1-16) 
+ ______________________________________ 
+ 
+g. What was the name of the ward you were in? If in more than one ward - enter names of all wards remembered.  
+ ______________________________________      +(x=1-16) 
+ 
+h.  What was the name of the doctor who was in charge of your case while you were in hospital? Record verbatim.  
+ ______________________________________      + (x=1-16) 
+ 
+If more inpatient hospital admissions,  go back to Q21a 
+
+ 
+22.Thank you for your help with these questions. It is possible that the research team at the Medical Research Council would like 
+ to obtain more information from the hospital's records. May we ask your permission to consult your hospital records?  
+  Yes, permission given 1      + 
+  Permission refused 2Nurse: circle code 06 on front of consent booklet. ^Q23 
+ 
+b. Before the Medical Research Council can look at your records, they need to have your written consent to confirm that you 
+
+have no objection to them collecting fuller information about your in-patient stay(s) in hospital. Please read and sign Consent 
+form 3. Nurse: Please make sure the form has been signed and dated by the cohort member (and carer if applicable).  
+
+          +  
+  Signature obtained on Consent Form 3   1 Nurse: circle code 05 on front of consent booklet. ^Q23 
+  Signature not obtained (Enter a note to say why) 2Nurse: circle code 06 on front of consent booklet. ^Q23 
+ 
+23. Now some questions about going into hospital as a day patient for treatment or surgery. Since we last saw you in [FF year],  
+ aged [FF age], have you spent a day at a hospital for treatment or surgery and then come home at the end of the day?  
+  Yes  1      ~ 
+  No  2 Q25  
+ 
+
+njs
+Typewritten Text
+GCH
+
+njs
+Typewritten Text
+GCHDF
+
+njs
+Typewritten Text
+HOAD
+
+njs
+Typewritten Text
+HOADN
+
+njs
+Typewritten Text
+HOSPNAME
+
+njs
+Typewritten Text
+HOSPNA2
+
+njs
+Typewritten Text
+HOSPNA3
+
+njs
+Typewritten Text
+HOSPNA4
+
+njs
+Typewritten Text
+HOSPNA5
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HOSPNA6
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HOSPNA7
+
+njs
+Typewritten Text
+HOSPNA8
+
+njs
+Typewritten Text
+HOSPNA9
+
+njs
+Typewritten Text
+HOSPNA10
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HOSPNA11
+
+njs
+Typewritten Text
+HOSPNA12
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HOSPNA13
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HOSPNA14
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HOSPNA15
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HOSPNA16
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+TOWNNAME
+
+njs
+Typewritten Text
+TOWNNA2
+
+njs
+Typewritten Text
+TOWNNA3
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+TOWNNA4
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+TOWNNA5
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+TOWNNA6
+
+njs
+Typewritten Text
+TOWNNA7
+
+njs
+Typewritten Text
+TOWNNA8
+
+njs
+Typewritten Text
+TOWNNA9
+
+njs
+Typewritten Text
+TOWNNA10
+
+njs
+Typewritten Text
+TOWNNA11
+
+njs
+Typewritten Text
+TOWNNA12
+
+njs
+Typewritten Text
+TOWNNA13
+
+njs
+Typewritten Text
+TOWNNA14
+
+njs
+Typewritten Text
+TOWNNA15
+
+njs
+Typewritten Text
+TOWNNA16
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HOXNH
+
+njs
+Typewritten Text
+HOXNH2
+
+njs
+Typewritten Text
+HOXNH3
+
+njs
+Typewritten Text
+HOXNH4
+
+njs
+Typewritten Text
+HOXNH5
+
+njs
+Typewritten Text
+HOXNH6
+
+njs
+Typewritten Text
+HOXNH7
+
+njs
+Typewritten Text
+HOXNH8
+
+njs
+Typewritten Text
+HOXNH9
+
+njs
+Typewritten Text
+HOXNH10
+
+njs
+Typewritten Text
+HOXNH11
+
+njs
+Typewritten Text
+HOXNH12
+
+njs
+Typewritten Text
+HOXNH13
+
+njs
+Typewritten Text
+HOXNH14
+
+njs
+Typewritten Text
+HOXNH15
+
+njs
+Typewritten Text
+HOXNH16
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HOXMT
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HOXMT2
+
+njs
+Typewritten Text
+HOXMT3
+
+njs
+Typewritten Text
+HOXMT4
+
+njs
+Typewritten Text
+HOXMT5
+
+njs
+Typewritten Text
+HOXMT6
+
+njs
+Typewritten Text
+HOXMT7
+
+njs
+Typewritten Text
+HOXMT8
+
+njs
+Typewritten Text
+HOXMT9
+
+njs
+Typewritten Text
+HOXMT10
+
+njs
+Typewritten Text
+HOXMT11
+
+njs
+Typewritten Text
+HOXMT12
+
+njs
+Typewritten Text
+HOXMT13
+
+njs
+Typewritten Text
+HOXMT14
+
+njs
+Typewritten Text
+HOXMT15
+
+njs
+Typewritten Text
+HOXMT16
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HOXYR
+
+njs
+Typewritten Text
+HOXYR2
+
+njs
+Typewritten Text
+HOXYR3
+
+njs
+Typewritten Text
+HOXYR4
+
+njs
+Typewritten Text
+HOXYR5
+
+njs
+Typewritten Text
+HOXYR6
+
+njs
+Typewritten Text
+HOXYR7
+
+njs
+Typewritten Text
+HOXYR8
+
+njs
+Typewritten Text
+HOXYR9
+
+njs
+Typewritten Text
+HOXYR10
+
+njs
+Typewritten Text
+HOXYR11
+
+njs
+Typewritten Text
+HOXYR12
+
+njs
+Typewritten Text
+HOXYR13
+
+njs
+Typewritten Text
+HOXYR14
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HOXYR15
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HOXYR16
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+REASON1
+
+njs
+Typewritten Text
+REASON2
+
+njs
+Typewritten Text
+REASON3
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+REASON16
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+REASON4
+
+njs
+Typewritten Text
+REASON5
+
+njs
+Typewritten Text
+REASON6
+
+njs
+Typewritten Text
+REASON7
+
+njs
+Typewritten Text
+REASON8
+
+njs
+Typewritten Text
+REASON9
+
+njs
+Typewritten Text
+REASON10
+
+njs
+Typewritten Text
+REASON11
+
+njs
+Typewritten Text
+REASON12
+
+njs
+Typewritten Text
+REASON13
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+REASON14
+
+njs
+Typewritten Text
+REASON15
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+WARD1
+
+njs
+Typewritten Text
+WARD2
+
+njs
+Typewritten Text
+WARD3
+
+njs
+Typewritten Text
+WARD4
+
+njs
+Typewritten Text
+WARD5
+
+njs
+Typewritten Text
+WARD6
+
+njs
+Typewritten Text
+WARD7
+
+njs
+Typewritten Text
+WARD8
+
+njs
+Typewritten Text
+WARD9
+
+njs
+Typewritten Text
+WARD10
+
+njs
+Typewritten Text
+WARD11
+
+njs
+Typewritten Text
+WARD12
+
+njs
+Typewritten Text
+WARD13
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+WARD14
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+WARD15
+
+njs
+Typewritten Text
+WARD16
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+DOCTOR1
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+DOCTOR2
+
+njs
+Typewritten Text
+DOCTOR3
+
+njs
+Typewritten Text
+DOCTOR4
+
+njs
+Typewritten Text
+DOCTOR5
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+DOCTOR6
+
+njs
+Typewritten Text
+DOCTOR7
+
+njs
+Typewritten Text
+DOCTOR8
+
+njs
+Typewritten Text
+DOCTOR9
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+DOCTOR10
+
+njs
+Typewritten Text
+DOCTOR11
+
+njs
+Typewritten Text
+DOCTOR12
+
+njs
+Typewritten Text
+DOCTOR13
+
+njs
+Typewritten Text
+DOCTOR14
+
+njs
+Typewritten Text
+DOCTOR15
+
+njs
+Typewritten Text
+DOCTOR16
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+PERMISS3
+
+njs
+Typewritten Text
+CONSENT3
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HD
+
+njs
+Typewritten Text
+
+
+
+ 5
+b. Have you been in hospital as a day patient for just one illness or condition or have you been in for more than one type of 
+
+problem? Count each type of problem/illness/condition as one course of treatment. Enter number of courses of treatment. 
+Enter a numeric value between 1 and 25.      * 
+
+  Number   
+ 
+24. I would like some information about the problems that caused you to go into hospital as a day patient for treatment or surgery. 
+
+Collect information about each course of treatment. Starting with first one since last interview. # ^ What was the illness or 
+condition that was being treated on the first occasion since [FF year]. Record all problems treated.  
+
+  ______________________________________    + (x=1-15) 
+ 
+b. In which year or what age did you go into hospital as a day patient for this first problem?  Nurse: Enter year - this should not 
+
+be before year of last interview. Nurse: If respondent gives you an age rather than a year you can enter the age here instead. 
+Enter a numeric value between 0 and 2000. 
+
+  Year     + (x=1-15) 
+If more day patient admissions, go back to Q24a. 
+
+ 
+25.Now I am going to ask you some questions about your general health. Have you ever been told by a doctor that you have had  
+ angina? 
+  Yes  1       ~ 
+  No  2Q26 
+ 
+b. How old were you when you first had this problem? Nurse: If asked, when respondent first felt they had angina if respondent  
+ was born with this condition, enter 0. Enter number in years. Enter a numeric value between 0 and 53.  ~ 
+  Age   
+ 
+c. Have you had any more attacks since then?       + 
+  Yes 1 
+  No 2 Q25e 
+ 
+d. How old were you when you last had this problem? Enter number in years. Enter a numeric value between 0 and 53.  
+  Age     ~ 
+ 
+e. Have you consulted a doctor or other health professional about your angina in the last 12 months? Code all that apply. Enter at 
+
+most 3 values. 
+ Yes, a doctor   1  
+ Yes, another health professional 2Q25g    + 
+
+  No   3Q25h 
+ 
+f. How often have you consulted a doctor about your angina in the last 12 months? Enter a numeric value between 0 and 100. 
+  Number     ~ 
+If only consulted a doctor, go toQ25g.  
+ 
+g. How often have you consulted a health professional about your angina in the last 12 months? Enter a numeric value between 0 
+
+and 100. 
+  Number     ~ 
+ 
+h. Have you taken any prescribed medicines or tablets for your angina in the last 12 months? 
+  Yes  1  
+  No  2Q26      ~ 
+  (Can't remember)  3Q26 
+
+ 
+i. Please tell me the name of the prescribed medicines or tablets that you have taken for this in the last 12 months. Probe for  
+ others and record verbatim.  
+  ______________________________________    + 
+ 
+26. Have you ever had any pain or discomfort in your chest?     *  
+  Yes   1Q26c  
+  No   2 
+ 
+b. Have you ever had any pressure or heaviness in your chest?   * 
+  Yes  1 
+  No  2Q27 
+    
+   
+
+njs
+Typewritten Text
+HDADN
+
+njs
+Typewritten Text
+CONDIT1
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+CONDIT2
+
+njs
+Typewritten Text
+CONDIT3
+
+njs
+Typewritten Text
+CONDIT4
+
+njs
+Typewritten Text
+CONDIT5
+
+njs
+Typewritten Text
+CONDIT6
+
+njs
+Typewritten Text
+CONDIT7
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+CONDIT8
+
+njs
+Typewritten Text
+CONDIT9
+
+njs
+Typewritten Text
+CONDIT10
+
+njs
+Typewritten Text
+CONDIT11
+
+njs
+Typewritten Text
+CONDIT12
+
+njs
+Typewritten Text
+CONDIT13
+
+njs
+Typewritten Text
+CONDIT14
+
+njs
+Typewritten Text
+CONDIT15
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HDXM
+
+njs
+Typewritten Text
+HDXM2
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HDXM3
+
+njs
+Typewritten Text
+HDXM4
+
+njs
+Typewritten Text
+HDXM5
+
+njs
+Typewritten Text
+HDXM6
+
+njs
+Typewritten Text
+HDXM7
+
+njs
+Typewritten Text
+HDXM8
+
+njs
+Typewritten Text
+HDXM9
+
+njs
+Typewritten Text
+HDXM10
+
+njs
+Typewritten Text
+HDXM11
+
+njs
+Typewritten Text
+HDXM12
+
+njs
+Typewritten Text
+HDXM13
+
+njs
+Typewritten Text
+HDXM14
+
+njs
+Typewritten Text
+HDXM15
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+ANGE
+
+njs
+Typewritten Text
+BANG
+
+njs
+Typewritten Text
+SCPRGH2
+
+njs
+Typewritten Text
+LANG
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+SCPRGH31
+
+njs
+Typewritten Text
+SCPRGH32
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+DANG
+
+njs
+Typewritten Text
+OANG
+
+njs
+Typewritten Text
+PANG
+
+njs
+Typewritten Text
+PANG1
+
+njs
+Typewritten Text
+ANGIN
+
+njs
+Typewritten Text
+CHPR
+
+
+
+ 6
+c.   Do you get it when you walk uphill or hurry?       *   
+  Yes   1   
+  No     2Q27 
+  Never walks uphill or hurries 3 
+ 
+d.   Do you get it when you walk at an ordinary pace on the level?    *  
+  Yes  1   
+  No  2 
+  Never walks  3Q27 
+ 
+b. What do you do if you get it while walking? Do you  ....read out....    *  
+  Stop or slow down     1 
+
+Carry on or       2Q27 
+  Carry on after taking a nitro-glycerine tablet under your tongue?  3Q27               
+      
+f. And if you stand still what happens to it. Does the pain in your chest ....read out....  *  
+  Go away,  1 
+  Or not go away?  2 
+ 
+g.    How soon does it go away. Does it go in ....read out....     * 
+  10 minutes or less 1 
+  Or more than 10 minutes? 2Q27 
+   
+h.   Show card B. Will you show me where you get this pressure or heaviness in the chest? Nurse: Use show card B to help code 
+
+the position. Code all that apply. Probe: Anywhere else? Enter at most 6 values. * 
+   Sternum (upper or middle) 1 
+  Sternum lower  2 
+  Left anterior chest 3 
+  Left arm  4 
+  Right anterior chest 5 
+  Right arm  6 
+  (Somewhere else) 7 
+ 
+i.   Did you see a doctor or hospital specialist because of this pain or discomfort? If yes, probe for who: Who? Code all that apply. 
+
+Enter at most 3 values.         * 
+  No  0 
+  Yes, GP   1 
+  Yes, hospital specialist  2  
+ 
+27. Do you get pain in either leg on walking?       ~  
+  Yes  1  
+  No  2 Q28 
+   Respondent is chair/bed bound 3 Q28 
+ 
+b. Does this pain ever begin when you are standing still or sitting?    ~  
+  Yes  1Q28 
+  No  2  
+ 
+c. In what part of your leg do you feel this pain or discomfort? Nurse: Ask respondent to point.  ~ 
+  In calf muscle(s) 1          
+  Not in calf muscle(s) 2 Q28 
+                  
+d. Do you get it if you walk uphill or hurry      ~  
+  Yes  1 
+  No  2 Q28 
+  Never hurries or walks uphill 3 
+ 
+e. Do you get it when you walk at an ordinary pace on the level?    ~  
+  Yes  1    
+  No  2     
+  Never walks  3Q28 
+f. Does the pain ever disappear while you are walking?     ~ 
+  Yes  1 Q28     
+  No  2     
+ 
+
+njs
+Typewritten Text
+CHPRU
+
+njs
+Typewritten Text
+CHPRN
+
+njs
+Typewritten Text
+CHPRR
+
+njs
+Typewritten Text
+CHPRS
+
+njs
+Typewritten Text
+CHPRT
+
+njs
+Typewritten Text
+CHPRL1
+
+njs
+Typewritten Text
+CHPRL2
+
+njs
+Typewritten Text
+CHPRL3
+
+njs
+Typewritten Text
+CHPRL4
+
+njs
+Typewritten Text
+CHPRL5
+
+njs
+Typewritten Text
+CHPRD1
+
+njs
+Typewritten Text
+CHPRD2
+
+njs
+Typewritten Text
+LGP
+
+njs
+Typewritten Text
+LGPBS
+
+njs
+Typewritten Text
+LGPPT
+
+njs
+Typewritten Text
+LGPU
+
+njs
+Typewritten Text
+LGPN
+
+njs
+Typewritten Text
+LGPD
+
+
+
+ 7
+g. What do you do if you get it when you are walking? Do you ....read out....   ~ 
+  Stop or slow down  1 
+  Carry on  2 Q28 
+   
+h. What happens to it if you stand still. Is the pain....read out....     + 
+  Still not relieved  1 Q28 
+  Or does it go away?  2 
+ 
+i. How soon does it go away. Does it go in....read out....    ~            
+  10 minutes or less  1 
+  Or more than 10 minutes?  2 
+ 
+28.Have you ever suffered from a heart attack?       ~ 
+  Yes  1     
+  No  2Q29     
+ 
+b. How many heart attacks have you had? Nurse: enter number. Enter a numeric value between 1 and 20 ~ 
+  Number   
+ 
+c. Who diagnosed these heart attack(s). Was it ....read out.... Nurse: For more than one heart attack code all that apply.  Enter at most 
+
+2 values.  
+  A GP,   1  
+  A specialist,   2    ~    
+  Or was no medical diagnosis made? 3 
+ 
+d. How old were you when you had your first heart attack? Enter number in years. If less than one, enter 0. Enter a numeric value 
+
+between 0 and 53.  
+  Age    ~ 
+ 
+e. How old were you when you had your most recent heart attack? Enter number in years. Enter a numeric value between 0 and 53.  
+  Age    ~ 
+ 
+29.Now I would like to ask you about some more specific health problems or illnesses. #^ Looking at this card, please tell me which of 
+
+these kinds of heart trouble you have had, if any, in the last ten years that is since you were 43 years old? Nurse code all that 
+apply. Show card C. Enter at most 8 values. 
+
+  Coronary thrombosis 1Q29c 
+  Myocardial infarction 2Q29c 
+  Valvular disease  3Q29c 
+  Aortic stenosis  4Q29c 
+  Ischaemic heart disease 5Q29c    + 
+  Tachycardia  6Q29c 
+  Palpitations or heart murmur 7Q29c 
+  Other (please specify) 8Q32b 
+  None of these  9Q30 
+ 
+b. What kind of heart trouble have you had? Nurse type verbatim.   
+  ______________________________________  + 
+ 
+c. Has a doctor said you had this problem?    + 
+  Yes 1    
+  No 2Q30 
+     
+d. How old were you then? Nurse: Enter age when diagnosis first made. Nurse; If respondent gives you a year rather than an age you 
+
+can enter the year here instead. Enter 0 if born with illness. Enter a numeric value between 0 and 2000. 
+  Age     + 
+ 
+30. Have you had any kind of blood pressure problems in the last ten years that is since you were 43 years old? + 
+  Yes 1    
+  No 2Q31     
+ 
+b. What blood pressure problems have you had? Enter at most 3 values. + 
+  Hypertension/high blood pressure 1 
+  Low blood pressure  2 
+  Other kind of blood pressure  3 
+
+njs
+Typewritten Text
+LGPR
+
+njs
+Typewritten Text
+LGPX
+
+njs
+Typewritten Text
+LGPT
+
+njs
+Typewritten Text
+HARAE
+
+njs
+Typewritten Text
+HARAN
+
+njs
+Typewritten Text
+HARAD1
+
+njs
+Typewritten Text
+HARAD2
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HARAB
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HARAL
+
+njs
+Typewritten Text
+HEART1
+
+njs
+Typewritten Text
+HEART2
+
+njs
+Typewritten Text
+HEART3
+
+njs
+Typewritten Text
+HEART4
+
+njs
+Typewritten Text
+HEART5
+
+njs
+Typewritten Text
+OTHHRT
+
+njs
+Typewritten Text
+HDOCTOLD
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HAGE
+
+njs
+Typewritten Text
+BPPROBS
+
+njs
+Typewritten Text
+WHTBP1
+
+njs
+Typewritten Text
+WHTBP2
+
+
+
+ 8
+c. Has a doctor said you had this problem?    + 
+  Yes 1    
+  No 2 
+ 
+d. How old were you then? Nurse: Enter age when diagnosis first made. Nurse; If respondent gives you a year rather than an age you 
+
+can enter the year here instead. Enter 0 if born with illness. Enter a numeric value between 0 and 2000. 
+  Age     + 
+ 
+31. And in the last ten years (that is since you were 43 years old,) have you had a stroke? + 
+  Yes 1    
+  No 2Q32  
+ 
+b. Has a doctor said you had this problem?    + 
+  Yes 1    
+  No 2 
+ 
+c. How old were you then? Nurse: Enter age when diagnosis first made. Nurse; If respondent gives you a year rather than an age you 
+
+can enter the year here instead. Enter 0 if born with illness. Enter a numeric value between 0 and 2000. 
+  Age      + 
+ 
+32. And in the last ten years (that is since you were 43 years old,) have you had a thyroid disorder? If asked: examples include goitre, 
+
+hyperthyroidism or hypothyroidism.    + 
+  Yes 1    
+  No 2Q33    
+ 
+b. What kind of thyroid disorder have you had? Nurse: code all that apply. Enter at most 4 values.   + 
+  Goitre 1 
+  Hyperthyroidism 2 
+  Hypothyroidism 3 
+  Other  4 
+ 
+c. Has a doctor said you had this problem?    + 
+  Yes 1    
+  No 2 
+ 
+d. How old were you then? Nurse: Enter age when diagnosis first made. Nurse; If respondent gives you a year rather than an age you 
+
+can enter the year here instead. Enter 0 if born with illness. Enter a numeric value between 0 and 2000. 
+  Age      + 
+ 
+33. And in the last ten years (that is since you were 43 years old,) have you had meningitis or encephalitis? + 
+  Yes 1    
+  No 2Q34    
+ 
+b. Has a doctor said you had this problem?    + 
+  Yes 1    
+  No 2 
+ 
+c. How old were you then? Nurse: Enter age when diagnosis first made. Nurse; If respondent gives you a year rather than an age you 
+
+can enter the year here instead. Enter 0 if born with illness. Enter a numeric value between 0 and 2000. 
+  Age      + 
+ 
+34. (And) in the last ten years (that is since you were 43 years old,) have you had shingles? + 
+  Yes 1    
+  No 2Q35    
+ 
+b. If yes, probe 'Did your shingles involve your eyes?' Did you have shingles....read out....  + 
+  Yes, involving the eyes 1 
+  Yes, not involving the eyes 2 
+  No  3 
+ 
+c. Has a doctor said you had this problem?    + 
+  Yes 1    
+  No 2 
+ 
+
+njs
+Typewritten Text
+BDOCTOLD
+
+njs
+Typewritten Text
+BAGE
+
+njs
+Typewritten Text
+STROKE
+
+njs
+Typewritten Text
+SDOCTOLD
+
+njs
+Typewritten Text
+SAGE
+
+njs
+Typewritten Text
+THYRASK
+
+njs
+Typewritten Text
+THYROID1
+
+njs
+Typewritten Text
+TDOCTOLD
+
+njs
+Typewritten Text
+TAGE
+
+njs
+Typewritten Text
+MENIN
+
+njs
+Typewritten Text
+MDOCTOLD
+
+njs
+Typewritten Text
+MAGE
+
+njs
+Typewritten Text
+SHIN
+
+njs
+Typewritten Text
+SPROB
+
+njs
+Typewritten Text
+SHDOCTOLD
+
+njs
+Typewritten Text
+THYROID2
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+
+
+ 9
+d. How old were you then? Nurse: Enter age when diagnosis first made. Nurse; If respondent gives you a year rather than an age you 
+
+can enter the year here instead. Enter 0 if born with illness. Enter a numeric value between 0 and 2000. 
+  Age      + 
+ 
+35. And in the last ten years (that is since you were 43 years old,) have you ever had any fits or epilepsy? + 
+  Yes 1    
+  No 2Q36  
+ 
+b. Has a doctor said you had this problem?    + 
+  Yes 1    
+  No 2 
+ 
+c. How old were you then? Nurse: Enter age when diagnosis first made. Nurse; If respondent gives you a year rather than an age you 
+can enter the year here instead. Enter 0 if born with illness. Enter a numeric value between 0 and 2000. 
+  Age      + 
+ 
+36. And in the last ten years (that is since you were 43 years old,) have you had cancer? + 
+  Yes 1    
+  No 2Q37  
+ 
+b. Looking at this card [please tell me what type of cancer you have had in the last ten years? Show card D. Nurse: Code all that apply 
+
+and give any further details by opening a notepad by using Ctrl+M. Enter at most 11 values. 
+  Leukaemia  1Q36d 
+  Hodgkin's disease  2Q36d 
+  Lymphoma  3Q36d 
+  Skin cancer  4Q36d 
+  Bone cancer  5Q36d   + 
+  Breast cancer  6Q36d 
+  Cancer of the uterus 7Q36d 
+  Cancer of the cervix 8Q36d 
+  Cancer of the colon 9Q36d 
+  Other (specify)  10 
+ 
+c. What other kind of cancer have you had? Nurse: type verbatim.  
+  ________________________________________ + 
+ 
+d. Has a doctor said you had this problem?    + 
+  Yes 1    
+  No 2 
+ 
+c. How old were you then? Nurse: Enter age when diagnosis first made. Nurse; If respondent gives you a year rather than an age you 
+
+can enter the year here instead. Enter 0 if born with illness. Enter a numeric value between 0 and 2000. 
+  Age      + 
+ 
+37. And in the last ten years (that is since you were 43 years old,) have you had Chronic fatigue syndrome or Myaligic 
+encephalomyelitis, better known as ME?   + 
+  Yes 1    
+  No 2Q38  
+ 
+b. Has a doctor said you had this problem?   + 
+  Yes 1    
+  No 2 
+ 
+c. How old were you then? Nurse: Enter age when diagnosis first made. Nurse; If respondent gives you a year rather than an age you 
+can enter the year here instead. Enter 0 if born with illness. Enter a numeric value between 0 and 2000. 
+
+     + 
+ 
+38. And in the last ten years (that is since you were 43 years old,) have you had diabetes? * 
+  Yes 1    
+  No 2Q39  
+ 
+ 
+ 
+ 
+
+njs
+Typewritten Text
+SHAGE
+
+njs
+Typewritten Text
+FIT
+
+njs
+Typewritten Text
+FDOCTOLD
+
+njs
+Typewritten Text
+FAGE
+
+njs
+Typewritten Text
+CANCER
+
+njs
+Typewritten Text
+CWHERE01
+
+njs
+Typewritten Text
+CWHERE02
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+CDOCTOLD
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+OTHCNCER
+
+njs
+Typewritten Text
+CAGE
+
+njs
+Typewritten Text
+ME
+
+njs
+Typewritten Text
+MEDOCTLD
+
+njs
+Typewritten Text
+MEAGE
+
+njs
+Typewritten Text
+DIAB
+
+
+
+ 10
+b. What kind of diabetes have you had. Was it....read out.... Nurse: code all that apply. Enter at most 3 values. + 
+  Insulin-dependent  1 
+  Non-insulin dependent or 2 
+  High blood sugar or 3 
+  Some other kind of diabetes? 4 
+ 
+c. Has a doctor said you had this problem?   + 
+  Yes 1    
+  No 2 
+
+ 
+d. How old were you then? Nurse: Enter age when diagnosis first made. Nurse; If respondent gives you a year rather than an age you 
+
+can enter the year here instead. Enter 0 if born with illness. Enter a numeric value between 0 and 2000. 
+     + 
+
+  
+39. And in the last ten years have you had asthma?   + 
+  Yes 1    
+  No 2Q40 
+ 
+b. Has a doctor said you had this problem?   + 
+  Yes 1    
+  No 2 
+ 
+c. How old were you then? Nurse: Enter age when diagnosis first made. Nurse; If respondent gives you a year rather than an age you 
+
+can enter the year here instead. Enter 0 if born with illness. Enter a numeric value between 0 and 2000. 
+     + 
+
+ 
+40. And in the last ten years that is since you were 43 years old, have you had hay fever? + 
+  Yes 1    
+  No 2Q41 
+ 
+b. Has a doctor said you had this problem?   + 
+  Yes 1    
+  No 2 
+
+ 
+c. How old were you then? Nurse: Enter age when diagnosis first made. Nurse; If respondent gives you a year rather than an age you 
+
+can enter the year here instead. Enter 0 if born with illness. Enter a numeric value between 0 and 2000. 
+     + 
+
+ 
+41. And in the last ten years have you suffered from migraines? + 
+  Yes 1    
+  No 2Q42 
+ 
+b. Has a doctor said you had this problem?   + 
+  Yes 1    
+  No 2 
+ 
+c. How old were you then? Nurse: Enter age when diagnosis first made. Nurse; If respondent gives you a year rather than an age you 
+
+can enter the year here instead. Enter 0 if born with illness. Enter a numeric value between 0 and 2000. 
+     + 
+
+ 
+42. (And in the last ten years that is since you were 43 years old,) have you had a sudden speech problem which got better after a 
+
+day? 
+  Yes 1  +   
+  No 2 
+ 
+43. (And) in the last ten years (that is since you were 43 years old,) have you had sudden sight problems which got better after a 
+
+day? 
+  Yes 1  +   
+  No 2 
+ 
+44. And in the last ten years (that is since you were 43 years old,) have you had a sudden weakness in an arm or leg which got 
+
+better after a day? 
+  Yes 1  +   
+  No 2 
+ 
+
+njs
+Typewritten Text
+KINDDIA1
+
+njs
+Typewritten Text
+KINDDIA2
+
+njs
+Typewritten Text
+DDOCTOLD
+
+njs
+Typewritten Text
+DAGE
+
+njs
+Typewritten Text
+ASTHMA
+
+njs
+Typewritten Text
+ADOCTOLD
+
+njs
+Typewritten Text
+AAGE
+
+njs
+Typewritten Text
+HAYF
+
+njs
+Typewritten Text
+HFDOCTLD
+
+njs
+Typewritten Text
+HFAGE
+
+njs
+Typewritten Text
+HEADACHE
+
+njs
+Typewritten Text
+HADOCTLD
+
+njs
+Typewritten Text
+HAAGE
+
+njs
+Typewritten Text
+SPEECH
+
+njs
+Typewritten Text
+SIGHT
+
+njs
+Typewritten Text
+LIMB
+
+
+
+ 11
+45. And in the last ten years (that is since you were 43 years old,) have you had anaemia? + 
+  Yes 1    
+  No 2  
+ 
+46. (And in the last ten years) have you had any liver diseases?    + 
+  Yes 1    
+  No 2 
+ 
+47. (And in the last ten years) have you had any stomach trouble such as ulcers, gastritis or acid indigestion? 
+  Yes 1       +   
+  No 2 
+ 
+48. (And in the last ten years) have you had gall bladder trouble?   + 
+  Yes 1    
+  No 2 
+ 
+49. (And in the last ten years) have you had any kidney or bladder infections?  + 
+  Yes 1    
+  No 2 
+  
+50. (And in the last ten years) have you had a hernia?      + 
+  Yes 1    
+  No 2 
+ 
+51. (And in the last ten years) have you had any allergies?    + 
+  Yes 1    
+  No 2 
+ 
+52. (And in the last ten years) have you had cataracts, glaucoma or other serious eye trouble? + 
+  Yes 1    
+  No 2 
+ 
+53. (And in the last ten years) have you had any skin trouble such as eczema or psoriasis?  + 
+  Yes 1    
+  No 2 
+ 
+54. (And in the last ten years) have you had any persistent trouble with your gums or mouth? + 
+  Yes 1    
+  No 2 
+ 
+55. Do you now regularly take any prescribed medicines?     * 
+  Yes 1    
+  No 2Q56 
+ 
+b. What are they called? Nurse: Record names of all medicines and they are used for.  + 
+  _______________________________________ 
+ 
+56. Do you usually cough first thing in the morning in the winter?    * 
+  Yes 1 
+  No 2 
+ 
+b. Do you usually cough during the day or night in winter?      *  
+  Yes  1 
+        No  2 (If no to both 56a & bQ57) 
+ 
+c. Do you cough like this on most days for as much as 3 months each year?    *  
+  es 1 
+        No 2 
+ 
+57. Do you usually bring up any phlegm (spit from the chest) first thing in the morning in winter?  *  
+  Yes 1 
+     No 2 
+                   
+                  
+ 
+
+njs
+Typewritten Text
+BLOOD
+
+njs
+Typewritten Text
+LIVER
+
+njs
+Typewritten Text
+TUM
+
+njs
+Typewritten Text
+GALLB
+
+njs
+Typewritten Text
+KIDNEY
+
+njs
+Typewritten Text
+HERNIA
+
+njs
+Typewritten Text
+ALLERGY
+
+njs
+Typewritten Text
+EYE
+
+njs
+Typewritten Text
+SKIN
+
+njs
+Typewritten Text
+GUM
+
+njs
+Typewritten Text
+OHOM
+
+njs
+Typewritten Text
+OHOP
+
+njs
+Typewritten Text
+WIC
+
+njs
+Typewritten Text
+WID
+
+njs
+Typewritten Text
+WIM
+
+njs
+Typewritten Text
+PHL
+
+
+
+ 12
+b.  Do you usually bring up any phlegm during the day or at night in winter?    *  
+  Yes 1 
+   No 2 
+ 
+c. Do you bring up phlegm on most days for as much as 3 months each year?    * 
+      Yes 1 
+  No 2 
+ 
+d.  In the past 3 years, have you had a period of cough and phlegm lasting for 3 weeks or more? *  
+  Yes 1 
+       No 2 
+  
+e. Does your chest ever sound wheezy or whistling?       * 
+  Yes 1                    
+  No 2 Q57g 
+                                         
+ f. Do you get this most days or nights?         *  
+  Yes 1 
+  No 2 
+ 
+g. During the past 3 years, have you had any chest illness, for example, bronchitis or pneumonia, which has kept you off work or  
+ indoors for a week or more?         * 
+  Yes 1 
+  No 2Q58 
+   
+h. How many illnesses like this have you had in the last 3 years. Have you had....read out.... 
+  One or 1        * 
+  More than one 2   
+ 
+i. Did you consult a doctor about this during the last 3 years?     ~ 
+  Yes 1 
+  No 2 
+ 
+58. Now a few  questions about smoking. Can I check, do you smoke cigarettes at all nowadays? * 
+  Yes 1  
+  No 2Q59 
+
+   
+b. How many cigarettes a day do you usually smoke? Nurse: If roll-ups give equivalent number of cigarettes. Enter number. 
+
+Enter a numeric value between 1 and 300. 
+ * 
+ 
+
+c. What is the main brand of cigarettes you smoke? Nurse: Ask to see packet if necessary. Type both the brand and the type.  
+  _________________________________________     * 
+ 
+d. Enter the 4 digit cigarette brand code. Enter a numeric value between 0 and 9999. 
+
+  * Q60
+ 
+59. Have you ever smoked cigarettes regularly, by which I mean at least one cigarette a day for 12 months or more?  * 
+  Yes 1 
+  No 2 
+ 
+60. Do any of the people you live with smoke cigarettes at home?    ~   
+  Yes 1 
+  No 2 Q61 
+  Not applicable 3 Q61 
+ 
+b. Thinking about all the people you live with, on average, about how many cigarettes a day do they smoke at home?
+ Enter total number of cigarettes. Enter a numeric value between 0 and 90.     
+
+ Number   ~ 
+ 
+61. Do you smoke a pipe?         *  
+  Yes 1 
+  No 2 Q62 
+ 
+ 
+
+njs
+Typewritten Text
+PHLD
+
+njs
+Typewritten Text
+PHLM
+
+njs
+Typewritten Text
+COPH
+
+njs
+Typewritten Text
+WZY
+
+njs
+Typewritten Text
+WZYD
+
+njs
+Typewritten Text
+BRONC
+
+njs
+Typewritten Text
+NUM
+
+njs
+Typewritten Text
+BROND
+
+njs
+Typewritten Text
+SMOS
+
+njs
+Typewritten Text
+SMODS
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+SMOSB
+
+njs
+Typewritten Text
+CIGCODEA
+
+njs
+Typewritten Text
+SMOSE
+
+njs
+Typewritten Text
+SMOH
+
+njs
+Typewritten Text
+PIPE
+
+njs
+Typewritten Text
+SMOSP
+
+
+
+ 13
+b. How much pipe tobacco do you usually smoke per week? Nurse: Enter code first and amount at next question. 
+  Grams or 1        + 
+  Ounces 2 
+ 
+c. Nurse: Enter amount in grams. If less than one gram, enter 0. Enter a numeric value between 0 and 900.  
+
+ Amount    ~
+ 
+d. Nurse: Enter amount in ounces. If less than one ounce, enter 0. Enter a numeric value between 0 and 90.  
+
+Amount  *
+ 
+
+f. What brand of tobacco you smoke? Nurse: ask to see packet if necessary.    * 
+ _________________ _________________________ 
+
+ 
+62. Do you smoke cigars?  *                 
+  Yes         1 
+  No 2 Q63 
+ 
+b. How many cigars do you smoke per week? Enter a numeric value between 0 and 300.  + 
+     
+      
+c. What brand of cigars you smoke? Nurse: ask to see packet if necessary.    + 
+  _________________ _________________________ 
+ 
+63. Did either of your parents smoke cigarettes, cigars or pipes when you lived with them as a child? Nurse: If did not live with 
+
+parents, ask about the people respondent lived with. Code all that apply. Enter at most 4 values.  ~ 
+ Mother smoked 1
+ Father smoked 2
+ Neither smoked 3
+ Can't answer 4
+
+ 
+64. Now some questions about your family? #^ Can I now check, is your natural mother alive?  *    
+  Yes 1 Q65 
+  No 2 
+ 
+b. How old was your mother when she died? Enter age in years. Enter a numeric value between 10 and 120.   
+
+ Age    ~
+ 
+c. What was the date of her death, the year first please? If don't know press Ctrl+K. Enter a numeric value between 1946 and 
+
+1999.   
+ Year     *
+
+ 
+d. The month please? If don't know press Ctrl+K. Enter a numeric value between 1 and 12.  
+
+ Month   *
+ 
+e. The day please? If don't know press Ctrl+K. Enter a numeric value between 1 and 31.  
+
+ Day   *
+ 
+f. What was the cause of her death? (If necessary, probe: What was on the death certificate?) Write in fully.  + 
+  _____________________________________________________ 
+ 
+65. (Can I now check,) is your natural father alive?  *    
+  Yes 1 Q66 
+  No 2 
+ 
+b. How old was your father when she died? Enter age in years. Enter a numeric value between 10 and 120.   
+
+ Age    ~
+ 
+c. What was the date of his death, the year first please? If don't know press Ctrl+K. Enter a numeric value between 1946 and 
+
+1999.   
+ Year     *
+
+ 
+d. The month please? If don't know press Ctrl+K. Enter a numeric value between 1 and 12.  
+
+ Month   *
+ 
+
+njs
+Typewritten Text
+PAMNT
+
+njs
+Typewritten Text
+PIPEG
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+POZ
+
+njs
+Typewritten Text
+PIPEB
+
+njs
+Typewritten Text
+CIG
+
+njs
+Typewritten Text
+CIGA
+
+njs
+Typewritten Text
+CIGS
+
+njs
+Typewritten Text
+SMOP1
+
+njs
+Typewritten Text
+SMOP2
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+MLIV
+
+njs
+Typewritten Text
+MDA
+
+njs
+Typewritten Text
+MDY
+
+njs
+Typewritten Text
+MDM
+
+njs
+Typewritten Text
+MDD
+
+njs
+Typewritten Text
+MCAUSE
+
+njs
+Typewritten Text
+FLIV
+
+njs
+Typewritten Text
+FDA
+
+njs
+Typewritten Text
+FDY
+
+njs
+Typewritten Text
+FDM
+
+
+
+ 14
+e.  The day please? If don't know press Ctrl+K. Enter a numeric value between 1 and 31 .  
+
+ Day   *
+ 
+f. What was the cause of his death? (If necessary, probe: What was on the death certificate?) Write in fully.  +  
+  ______________________________________________________ 
+ 
+If male respondent go to Q73. 
+66. I would now like to ask you some questions about mammograms, which are x-rays of the breast. Have you  
+ ever had a mammogram? 
+  Yes 1       ~ 
+  No 2Q69 
+ 
+67. When did you have your first mammogram. Please either tell me the year or how old you were at the time? Nurse: record  
+ whether the answer is being given as a year or as an age. 
+  Age 1Q67b       + 
+  Year 2Q67c 
+ 
+b. Nurse: Enter age in years. Enter a numeric value between 0 and 53.   + 
+
+Age  Q67d 
+ 
+c. Nurse: Enter year using 4 digits. Enter a numeric value between 1946 and 2001. + 
+
+Year    
+ 
+d. What is the name of the hospital/medical facility you attended for your mammogram? Nurse: type in full name. (If don't know, 
+
+type 'dk')         + 
+  __________________________________________________________ 
+ 
+e. What town is the hospital/medical facility in? Nurse: type in full name. (If don't know, type 'dk')  + 
+
+ __________________________________________________________ 
+ 
+f. Was the mammogram part of a routine breast screening?     + 
+  Yes  1   
+  No  2 
+ 
+g. Was anything abnormal found in your first mammogram? 
+  Yes  1      + 
+  No  2Q67i 
+ 
+h. What was found? Nurse: Type in verbatim.      + 
+  __________________________________________________________ 
+ 
+i. Have you had any other mammograms since the one we've just talked about?   + 
+  Yes  1    
+  No  2Q69 
+ 
+68. When did you have your most recent mammogram. Please either tell me the year or how old you were at the time? Nurse: 
+
+record whether the answer is being given as a year or as an age.    + 
+  Age  1Q68b    
+  Year  2Q68c 
+ 
+b. Nurse: Enter age in years. Enter a numeric value between 0 and 53.   + 
+
+ Age   Q68d 
+ 
+c. Nurse: Enter year using 4 digits. Enter a numeric value between 1946 and 2001. + 
+
+ Year     
+ 
+d. What is the name of the hospital/medical facility you attended for your mammogram? Nurse: type in full name. (If don't know, 
+
+type 'dk')        + 
+  _____________________________________________________________ 
+ 
+e. What town is the hospital/medical facility in? Nurse: type in full name. (If don't know, type 'dk') + 
+  ___________________________________________________________ 
+ 
+ 
+
+njs
+Typewritten Text
+FDD
+
+njs
+Typewritten Text
+FCAU
+
+njs
+Typewritten Text
+MME
+
+njs
+Typewritten Text
+AGEYEAR1
+
+njs
+Typewritten Text
+MMMA1
+
+njs
+Typewritten Text
+MMYX
+
+njs
+Typewritten Text
+MAM1NAME
+
+njs
+Typewritten Text
+MAM1TOWN
+
+njs
+Typewritten Text
+MMR1
+
+njs
+Typewritten Text
+MMAB1
+
+njs
+Typewritten Text
+MMB1WHAT
+
+njs
+Typewritten Text
+MAMMOTH
+
+njs
+Typewritten Text
+AGEYEARR
+
+njs
+Typewritten Text
+MMMAR
+
+njs
+Typewritten Text
+MMYXR
+
+njs
+Typewritten Text
+MAMRNAME
+
+njs
+Typewritten Text
+MAMRTOWN
+
+
+
+ 15
+f. Was the mammogram part of a routine breast screening?  + 
+  Yes  1   
+  No  2 
+ 
+g. Was anything abnormal found in your most recent mammogram? 
+  Yes  1   + 
+  No  2Q57 
+ 
+h. What was found? Nurse: Type in verbatim.   + 
+  _________________________________________________________________________________ 
+ 
+69. Have you ever consulted a doctor about breast lumps? ~ 
+  Yes  1 
+  No  2Nurse: circle code 08 on front of consent booklet. ^Q73 
+ 
+70. How many times have you consulted a doctor about breast lumps. Is it ....read out... Nurse: if asked, doctor can be a doctor of 
+
+any kind i.e. GP, hospital consultant etc. 
+  Once  1 
+  Twice  2   + 
+  3 times or  3 
+  More than 3 times? 4 
+ 
+b. I would now like to ask you some questions about your first consultation about breast lumps. When did you have your first 
+
+consultation. Please either tell me the year or how old you were at the time? Nurse: record whether the answer is being given 
+as a year or as an age. 
+
+  Age  1Q70d   + 
+  Year  2Q70e 
+ 
+c. Nurse: Enter age in years. Enter a numeric value between 0 and 53. + 
+
+ Age   Q70f 
+ 
+d. Nurse: Enter year using 4 digits. Enter a numeric value between 1946 and 2001. + 
+
+ Year     
+ 
+e. So your first consultation was in [LFF year] when you were [LFF age]. Is that correct? + 
+  Yes  1   
+  No  2 Nurse: go back and amend. 
+ 
+f. In what month of [LFF year] did you have your first consultation? Nurse: please enter the month. Enter a numeric value 
+
+between 0 and 12. 
+ Month   +
+
+ 
+g. Show Card E. Looking at the show card E, please tell me what was the diagnosis. Please choose an answer from this card. 
+
+Nurse: code one only.     + 
+  No abnormality   1Q70j 
+  Benign breast lump  2Q70j 
+  Breast cancer   3Q70j 
+  Other, specify at next question 4 
+  Status unknown   5Q70j 
+ 
+h. What was the diagnosis?   + 
+  __________________________________________________________ 
+ 
+i. Did you have a breast biopsy, (that is having a small piece of tissue removed from your breast)? +  
+  Yes  1   
+  No  2Q71 
+ 
+j. What is the name of the hospital you attended for your biopsy in [LFF month and year]. Nurse: type in full name. (If don't 
+
+know, type 'dk')  + 
+  ___________________________________________________________ 
+ 
+k. What town is the hospital in? Nurse: type in full name. (If don't know, type 'dk')  + 
+  ___________________________________________________________ 
+ 
+
+njs
+Typewritten Text
+MMRR
+
+njs
+Typewritten Text
+MMABR
+
+njs
+Typewritten Text
+MMBRWHAT
+
+njs
+Typewritten Text
+LUE
+
+njs
+Typewritten Text
+LUTIME
+
+njs
+Typewritten Text
+LUWHENX
+
+njs
+Typewritten Text
+LUAX
+
+njs
+Typewritten Text
+LUYX
+
+njs
+Typewritten Text
+LUXCHK
+
+njs
+Typewritten Text
+LUMX
+
+njs
+Typewritten Text
+LUDGX
+
+njs
+Typewritten Text
+LUOTH
+
+njs
+Typewritten Text
+LUBX
+
+njs
+Typewritten Text
+LUHOSPX
+
+njs
+Typewritten Text
+LUTOWNX
+
+
+
+ 16
+l. And can you tell me the name of the consultant in charge of your biopsy?   + 
+  ____________________________________________________________ 
+ 
+71. If only one consultation about breast lumps, go to Q72. I would now like to ask you some questions about your most recent 
+
+consultation about breast lumps. When did you have your most recent consultation. Please either tell me the year or how old 
+you were at the time? Nurse: record whether the answer is being given as a year or as an age. 
+
+  Age  1Q71d   + 
+  Year  2Q71e 
+ 
+b. Nurse: Enter age in years. Enter a numeric value between 0 and 53. + 
+
+ Age   Q71f 
+ 
+c. Nurse: Enter year using 4 digits. Enter a numeric value between 1946 and 2001. + 
+
+ Year     
+ 
+d. So your first consultation was in [LFF year] when you were [LFF age]. Is that correct? + 
+  Yes  1   
+  No  2 Nurse: go back and amend. 
+ 
+e. In what month of [LFF year] did you have your first consultation? Nurse: please enter the month. Enter a numeric value 
+
+between 0 and 12. 
+ Month   +
+
+ 
+f. Show Card E. Looking at the show card E, please tell me what was the diagnosis. Please choose an answer from this card. 
+
+Nurse: code one only.     ? 
+  No abnormality   1Q71j 
+  Benign breast lump  2Q71j 
+  Breast cancer   3Q71j 
+  Other, specify at next question 4 
+  Status unknown   5Q71j 
+ 
+g. What was the diagnosis?   + 
+  __________________________________________________________ 
+ 
+h. Did you have a breast biopsy, (that is having a small piece of tissue removed from your breast)? + 
+  Yes  1   
+  No  2Q72 
+ 
+i. What is the name of the hospital you attended for your biopsy in [LFF month and year]. Nurse: type in full name. (If don't 
+
+know, type 'dk')  + 
+  ___________________________________________________________ 
+ 
+j. What town is the hospital in? Nurse: type in full name. (If don't know, type 'dk')  + 
+  ___________________________________________________________ 
+ 
+k. And can you tell me the name of the consultant in charge of your biopsy?   + 
+  ____________________________________________________________ 
+
+ 
+72. To help analyse this information more effectively, we may wish to obtain a copy of your mammogram. Would you be willing  
+ for the Medical Research Council to do that?  + 
+  Yes  1 
+  No  2Nurse: circle code 08 on front of consent booklet. ^Q73 
+ 
+b. In order for this to be done, we need to obtain your written permission. Could you please read Consent Form 4 then sign and  
+ date it? + Nurse: Please make sure the form is correctly signed and dated. ^ Nurse: Circle code 07 on front of  
+ consent booklet. ^ 
+ 
+73. In the last 12 months, have you had pain or stiffness in your left hand or fingers on most days for at least a month? Probe for 
+
+which. Code all that apply. Enter at most 2 values. 
+  Pain  1 
+  Stiffness  2 ~ 
+  Neither  3 
+ 
+ 
+
+njs
+Typewritten Text
+LUCONSX
+
+njs
+Typewritten Text
+LUWHENX2
+
+njs
+Typewritten Text
+LUAX2
+
+njs
+Typewritten Text
+LUYX2
+
+njs
+Typewritten Text
+LUXCHK2
+
+njs
+Typewritten Text
+LUMX2
+
+njs
+Typewritten Text
+LUOTH2
+
+njs
+Typewritten Text
+LUDGX2
+
+njs
+Typewritten Text
+LUBX2
+
+njs
+Typewritten Text
+LUTOWNX2
+
+njs
+Typewritten Text
+LUCONSX2
+
+njs
+Typewritten Text
+CNSNT4IN
+
+njs
+Typewritten Text
+CONSENT4
+
+njs
+Typewritten Text
+HNPL1
+
+njs
+Typewritten Text
+HNPL2
+
+njs
+Typewritten Text
+LUHOSPX2
+
+
+
+ 17
+ 
+74. In the last 12 months, have you had pain or stiffness in your right hand or fingers on most days for at least a month? Probe for 
+
+which. Code all that apply. Enter at most 2 values. 
+  Pain  1 
+  Stiffness  2 ~ 
+  Neither  3 
+ 
+75. Do you have difficulty because of long term health problems holding something heavy like a full kettle or removing a stiff lid 
+
+from a jar?   
+  No  0 * 
+  Yes  1 
+ 
+76. Now I would like to examine your hands for any bumps or swellings. Would you be willing for me to examine your hands? If 
+
+no, record whether refusal or other reason. 
+  Yes  1 
+  No refuses  2Q77 + 
+  No for some other reason 3Q77 
+ 
+b. Fill out details on front cover and make examination of each hand and record markings on page 2 of paper test booklet.  
+ Serial: [LFF] Date: [LFF] #^ 
+ 
+77.How frequently at home or at work do you use your hands in strong movements, such as squeezing water out of a towel, 
+
+playing racket sports, digging the garden, or carrying heavy items such as a suitcase, briefcase, bucket or shopping bag. Please 
+choose an answer from this card.  Show card F 
+
+  Several times a day   1 
+  Once a day    2 
+  Once or several times a week 3  ~ 
+  Occasionally    4 
+  Never   5 
+ 
+78.Do you have difficulty because of long term health problems using either arm to reach up high above your head or to reach  
+ behind to tuck a shirt in or do up a zip?     * 
+  Yes 1 
+  No 2 
+ 
+79.How frequently at home or at work do you use your arms to reach up above head, such as dusting high pictures, replacing light 
+
+bulbs, reaching objects on high shelves, or gardening activities like pruning or trimming high hedges. Please choose an answer 
+from this card. Show card F  
+
+  Several times a day   1 
+  Once a day    2 
+  Once or several times a week  3  ~ 
+  Occasionally    4 
+  Never    5 
+ 
+ 80.In the last 12 months, have you had pain or stiffness in your left knee on most days for at least a month?  Probe for which.  
+ Code all that apply. Enter at most 2 values.  ~ 
+  Pain  1 
+  Stiffness  2  
+  Neither  3 
+ 
+81.In the last 12 months, have you had pain or stiffness in your right knee on most days for at least a month?  Probe for which.  
+ Code all that apply. Enter at most 2 values.  ~ 
+  Pain  1 
+  Stiffness  2  
+  Neither  3 
+ 
+82.Have you ever injured your knees badly enough to see a doctor about it? Probe for which. Code all that apply. Enter at most 2 
+
+values.  
+  Right knee  1           
+  Left knee  2  + 
+  Never had a knee injury 3 
+ 
+83. In the last 12 months, have you had sciatica, lumbago or severe backache? + 
+  Yes  1  
+  No  2 
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+HNPR1
+
+njs
+Typewritten Text
+HNPR2
+
+njs
+Typewritten Text
+GRIP
+
+njs
+Typewritten Text
+HAND1
+
+njs
+Typewritten Text
+HAND2
+
+njs
+Typewritten Text
+HNSMF
+
+njs
+Typewritten Text
+ARM
+
+njs
+Typewritten Text
+SHAHF
+
+njs
+Typewritten Text
+KNPL1
+
+njs
+Typewritten Text
+KNPL2
+
+njs
+Typewritten Text
+KNPR1
+
+njs
+Typewritten Text
+KNPR2
+
+njs
+Typewritten Text
+KNEE1
+
+njs
+Typewritten Text
+KNEE2
+
+njs
+Typewritten Text
+BACK
+
+
+
+ 18
+ 
+84.Do you find it difficult to walk for a quarter of a mile on the level because of long term health problems? If asked: a quarter of  
+ a mile is 400 yards.      + 
+  Yes  1  
+  No  2Q85 
+ 
+b. How far can you walk without stopping or severe discomfort. Would you say....read out.... If asked a quarter of a mile is 400 
+
+yards. 
+  More than 400 yards 1 
+  200 to 400 yards  2        * 
+  50 to 200 yards or 3 
+  Less than 50 yards 4 
+ 
+85. Do you find it difficult walking up and down stairs, because of long term health problems?   * 
+  Yes  1  
+  No  2Q86 
+ 
+b. Can you walk up and down a flight of 12 stairs in a normal manner without holding on or taking a rest?  * 
+  Yes  1  
+  No  2 
+ 
+86.Do you easily fall or have difficulty keeping your balance because of long term health problems?  *  
+  Yes  1  
+  No  2 
+ 
+b. Have you fallen at all in the past 12 months that is since [LFF month and year]?   + 
+  Yes  1  
+  No  2Q87 
+ 
+c.  How many times have you fallen in the past 12 months. Have you fallen ....read out....  + 
+  Once or twice       1 
+  Between 3 and 11 times or     2 
+  Have you fallen 12 or more times in the past 12 months 3 
+ 
+87. I would now like to assess your balance and co-ordination. First, I will ask you to fold your arms and, after I count up to three, 
+
+stand on your preferred leg, and raise your other foot off the floor like this (nurse demonstrate).   I will ask you to hold this 
+position for as long as you can or until I tell you to stop.   Then I want you to repeat the test with your eyes closed. Would you 
+be willing to have a go? Nurse code one only. 
+
+  Respondent willing   1 
+  Respondent not willing   2Q88      + 
+  Respondent unable to perform test 3Q88 
+ 
+b. Which is your dominant leg (ignoring any current injury)? If asked: Which leg would you kick a ball with or hop on. Code one 
+
+only.  
+  Right leg 1   ~ 
+  Left leg 2 
+  
+c. Nurse carry out test with cohort member's eyes open. Allow the cohort member to practice. Nurse code one only. 
+  Balance measured   1 
+  Balance refused    2Q87e   + 
+  Balance attempted, not obtained 3Q87e 
+  Balance not attempted   4Q87e 
+ 
+d. Nurse: record time for balance test with eyes open. Enter time in seconds. Enter a numeric value between 0 and 30. 
+
+ Time   ~ 
+ 
+e. Nurse carry out test with cohort member's eyes open. Allow the cohort member to practice. Set stop watch for 30 seconds. 
+
+Nurse code one only. 
+  Balance measured  1 
+  Balance refused   2Q88  + 
+  Balance attempted, not obtained 3Q88 
+  Balance not attempted  4Q88 
+ 
+f.  Nurse: record time for balance test with eyes closed. Enter time in seconds. Enter a numeric value between 0 and 30. 
+
+njs
+Typewritten Text
+WALK
+
+njs
+Typewritten Text
+WALKL
+
+njs
+Typewritten Text
+STEP
+
+njs
+Typewritten Text
+FALL
+
+njs
+Typewritten Text
+FALLEN
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+STEPL
+
+njs
+Typewritten Text
+FALLNO
+
+njs
+Typewritten Text
+BALINT
+
+njs
+Typewritten Text
+LEGDM
+
+njs
+Typewritten Text
+OPENRESP
+
+njs
+Typewritten Text
+LEGBP
+
+njs
+Typewritten Text
+CLSERESP
+
+
+
+ 19
+
+ Time   ~ 
+88. I would now like you to do some chair stands.   First I will ask you to fold your arms and, after I count up to three, I will ask  
+ you to stand up from your chair and sit down again ten times like this (nurse demonstrate). Would you be willing to have a go?  
+ Nurse code one only.   
+  Respondent willing  1 
+  Respondent not willing  2Q89  + 
+  Respondent unable to perform test 3Q89 
+ 
+b. Nurse: Let the cohort member practice then record time for chair stands test. Enter time in seconds. Enter code 888 if  
+ respondent unable to finish. Enter a numeric value between 0 and 888.   ~ 
+ 
+89. Have you broken a bone since you were 25 years old?    ~ 
+  Yes  1  
+  No  2 
+ 
+90. Have you ever been knocked unconscious by a blow to the head?  ~ 
+  Yes  1  
+  No  2 
+ 
+91. In the last 4 weeks, that is since [LFF day and date], have you taken part in any sports or vigorous leisure activities or done any  
+
+exercises in your spare time, not including getting to and from work? If asked: Include things like badminton, swimming, yoga, 
+press-ups, dancing, mountain climbing or jogging and brisk walks for 30 minutes or more. * 
+
+  Yes  1  
+  No  2Q92 
+ 
+b. On how many occasions in the last 4 weeks did you do these activities? Enter a numeric value between 1 and 100.  
+
+  Number    ~
+ 
+c. On how many of these occasions did your exercise make you sweaty and or out of breath? Enter a numeric value between 0 
+
+and 100. 
+  Number    ~
+
+ 
+92. The next few questions are about your social life, particularly with friends and relatives who do not live at home with you. ^  
+ Are there any relatives or friends with whom you have regular contact, either by visit, telephone or letters? + 
+  Yes  1  
+  No  2 
+ 
+b. Thinking of all your relatives or friends, how often do you regularly visit or are visited by these people. Do you see  
+ them....read out....       ~ 
+  Never/almost never   1 
+            Once every few months   2 
+           About once a month   3 
+              About once a week   4 
+   Almost daily    5 
+ 
+c. How often do you regularly visit or are visited by these persons? * 
+  Never/almost never   1 
+  Once every few months   2 
+  About once a month   3 
+  About once a week   4 
+   Almost daily    5 
+ 
+93.  How many relatives or friends do you see once a month or more?  * 
+  None  1 
+  1-2  2 
+  3-5  3 
+  6-10  4 
+  More than 10    5 
+ 
+94. Do you think that you have friends, neighbours or relatives who would help you out if a problem or crisis came up?
+ Would you say you had ....read out....     * 
+  No one to help               1 
+  Would sometimes get help   2 
+  Would often get help, or       3 
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+LEGBC
+
+njs
+Typewritten Text
+CHAIRINT
+
+njs
+Typewritten Text
+CHRST
+
+njs
+Typewritten Text
+BROKB
+
+njs
+Typewritten Text
+KOUNE
+
+njs
+Typewritten Text
+EXER
+
+njs
+Typewritten Text
+EXERN
+
+njs
+Typewritten Text
+EXERS
+
+njs
+Typewritten Text
+FRNDC1
+
+njs
+Typewritten Text
+FRNDC
+
+njs
+Typewritten Text
+not on capi99a, nor in capi source
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+))))
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+FRNDR
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+FRNDH
+
+
+
+ 20
+
+  Would always get help?      4 
+95. Overall do you wish that you had more of a social life, or are things about right for you, or would you prefer to see less of  
+ people? 
+  Prefer less   1 
+  About right   2    * 
+  Prefer more  3 
+                           
+96. I would now like to ask you some questions about things you have experienced over the last 12 months, that is since [LFF 
+
+month and year]. Thinking back over the last 12 months have you developed, or found out that you have, a serious illness or 
+disability?      * 
+
+  Yes  1  
+  No  2 
+ 
+b. Have you had an accident or received an injury which has affected you for a month or more?  * 
+  Yes  1  
+  No  2 
+ 
+c. Have you been assaulted, robbed or been a victim of attempted robbery?    * 
+  Yes  1  
+  No  2 
+ 
+d. Have you lost your job or thought you would soon lose your job?     * 
+  Yes  1  
+  No  2 
+ 
+e. Have you had any other crises or serious disappointments in your work or career in general?  *  
+  Yes  1  
+  No  2 
+ 
+f. Have you moved house in the last 12 months?        * 
+  Yes  1  
+  No  2 
+ 
+g. Did you move away from the area where most of your friends lived?    * 
+  Yes  1  
+  No  2 
+ 
+h. During the last 12 months has your spouse/partner had a serious accident or illness, or received a serious injury, or been 
+
+assaulted?   
+  Yes   1  
+  No   2       * 
+  No spouse/partner 3 
+ 
+i. Has your spouse/partner lost their job or thought they would soon lose their job?   * 
+  Yes   1  
+  No   2 
+  No spouse/partner 3 
+ 
+j. Has your spouse/partner had any other crises or serious disappointments in their work?  * 
+  Yes   1  
+  No   2 
+  No spouse/partner 3 
+ 
+k. Have you had any serious disagreements with your spouse/partner or felt betrayed or disappointed by them?  * 
+  Yes   1  
+  No   2 
+  No spouse/partner 3 
+ 
+l. In the last 12 months have you had any serious difficulties with any of your children, because of their health or behaviour or 
+
+for other reasons?  
+  Yes   1  
+  No   2       * 
+  No children  3 
+ 
+
+njs
+Typewritten Text
+FRNDM
+
+njs
+Typewritten Text
+ILL
+
+njs
+Typewritten Text
+AC
+
+njs
+Typewritten Text
+ROB
+
+njs
+Typewritten Text
+LJOB
+
+njs
+Typewritten Text
+WKC
+
+njs
+Typewritten Text
+HOU2
+
+njs
+Typewritten Text
+HOUM
+
+njs
+Typewritten Text
+SPAC
+
+njs
+Typewritten Text
+SPLJ
+
+njs
+Typewritten Text
+SPCR
+
+njs
+Typewritten Text
+DSSP
+
+njs
+Typewritten Text
+CHDF
+
+
+
+ 21
+
+m. Has a friend or relative (other than your spouse/partner or children) or someone you know well had a serious accident or illness 
+or received a serious injury?    
+
+  Yes      1  
+  No      2    * 
+  Not had a friend/relative known anyone well this year 3 
+ 
+n. Has a friend or relative or someone you know well died during the last 12 months?   * 
+  Yes      1  
+  No      2 
+  Not had a friend/relative known anyone well this year 3 
+ 
+o. Have you fallen out or had a serious disagreement with a friend or relative or felt betrayed by them?  * 
+  Yes      1  
+  No      2 
+  Not had a friend/relative known anyone well this year 3 
+ 
+p. Have you lost contact with a close friend or relative for any other reason?    * 
+  Yes      1  
+  No      2 
+  Not had a friend/relative known anyone well this year 3 
+ 
+q. Have you had any other serious upsets or disappointments in the last year?    * 
+  Yes  1  
+  No  2Q97 
+ 
+r. What were they?  Type verbatim.        * 
+  _____________________________________________ 
+ 
+97. The next section of the interview is about paid work. Are you currently in paid work? Include self-employed, government 
+
+schemes for employment training, temporary absence (e.g. holiday), unpaid work for family business. Exclude: waiting to take 
+up a job. 
+
+  Yes 1Q98      ~ 
+  No 2 
+  
+b.  Are you seriously looking for any kind of paid work? 
+  Yes 1Q97d 
+  No 0       ~ 
+ 
+c. What is the main reason you are not seeking paid work. Show Card G. 
+  Student    1 
+  Looking after home/family  2 
+  Caring for dependent relatives 3  
+  Temporarily sick or injured  4   + 
+  Long term sick or disabled  5 
+  Retired from paid work  6 
+  Other reasons   9 
+  _____________________________ 
+ 
+d. Since 1989 have you had any paid work, include any job held in 1989?  ~ 
+  Yes 1  
+  No 0    
+ 
+98. I am now going to ask some questions about your spouse/partner's work. Is your spouse/partner currently in paid work? 
+
+Include self-employed, government schemes for employment training, temporary absence (e.g. holiday), unpaid work for family 
+business. Exclude: waiting to take up a job. 
+
+  Yes 1Q98d      + 
+  No 2 
+ 
+b.  Are they seriously looking for any kind of paid work?   ~ 
+  Yes  1 
+  No  0     
+ 
+ 
+ 
+
+njs
+Typewritten Text
+RELIL
+
+njs
+Typewritten Text
+RELD
+
+njs
+Typewritten Text
+RDIS
+
+njs
+Typewritten Text
+RLOS
+
+njs
+Typewritten Text
+UPS
+
+njs
+Typewritten Text
+UPS1
+
+njs
+Typewritten Text
+not capi99a
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+JOBW
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+JOBLK
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+WHAT
+
+njs
+Typewritten Text
+JOBE
+
+njs
+Typewritten Text
+SPJW
+
+njs
+Typewritten Text
+SPJLK
+
+njs
+Line
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+2
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+
+
+ 22
+
+c. Since 1989 have they had any paid work, include any job held in 1989? * 
+  Yes 1  
+  No 0    
+ 
+d. What is the full title of your partner's current or most recent job? Use precise terms, for example primary school teacher not 
+
+teacher, production engineer not engineer, chartered accountant not accountant, government: record grade, army: record 
+rank.        ~ 
+
+  _____________________________________________ 
+   
+e. What are/were the main things they do/did in the job?  Clarify for obscure jobs only. If self-explanatory, type 'as above'.  
+  _____________________________________________  + 
+ 
+f. Are/were they working as an employee or are/were they self-employed? 
+  Employee 1Q98i      + 
+  Self employed 2 
+ 
+g. Do/did they have any managerial duties, or are/were they supervising any other employees? 
+  Manager   1 
+  Foreman, supervisor or chargehand 2   + 
+  Not supervising others  3 
+ 
+h. How many employees are/were there at the place where they work(ed)? 
+  1 to 9 1Q99 
+  10 to 24 2Q99      + 
+  25 to 499 3Q99 
+  500 or more 4Q99 
+ 
+i. Do/did they work on their own or do/did they have any employees?  + 
+  On own / with partner(s) but no employees 1Q99 
+  With employees   2 
+ 
+j. How many people do/did they employ at the place where they work(ed)? + 
+  1 to 9 1 
+  10 to 24 2 
+  25 to 499 3 
+  500 or more 4 
+ 
+99. Show card H. Please use this card to tell me your total net household income. Include your own and your partner’s earned  
+ income (after deduction for income tax and national insurance), any state benefits and any other sources of income such as  
+
+pensions and interest. You should also include contributions from other members of your household (such as children). Tell me 
+which of the letters on this card represents your total net household income?  *   
+
+   A 1   J 10  
+   B 2   K 11 
+   C 3   L 12 
+   D 4   M 13 
+   E 5   N 14 
+   F 6   O 15 
+   G 7   P 16 
+   H 8   Q 17 
+   I 9   R 18 
+ 
+100. I would now like to ask you some questions about your present job. What is the full title of your present job? Use precise  
+
+terms, for example primary school teacher not teacher, production engineer not engineer, chartered accountant not 
+accountant, government: record grade, army: record rank.   ~ 
+
+  ______________________________________________________ 
+ 
+b. What are/were the main things you do/did in the job?  Clarify for obscure jobs only. If self-explanatory, type 'as above'. 
+  ______________________________________________________ + 
+ 
+c. Are/were you working as an employee or self-employed? 
+  Employee 1      * 
+  Self employed 2Q101 
+ 
+d. Did/do you have any managerial duties, or were/are you supervising any other employees? 
+
+njs
+Typewritten Text
+SPJE
+
+njs
+Typewritten Text
+SPSOC
+
+njs
+Typewritten Text
+SPSOC2
+
+njs
+Typewritten Text
+SPESR
+
+njs
+Typewritten Text
+SPESS
+
+njs
+Typewritten Text
+SPESR1
+
+njs
+Typewritten Text
+SPESSA
+
+njs
+Typewritten Text
+SPESSB
+
+njs
+Typewritten Text
+INCH
+
+njs
+Typewritten Text
+SOCR
+
+njs
+Typewritten Text
+SOCR2
+
+njs
+Typewritten Text
+ESR
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Typewritten Text
+Q99
+
+
+
+ 23
+
+  Manager   1 
+  Foreman, supervisor or chargehand 2   + 
+  Not supervising others  3 
+ 
+e. How many employees are/were there at the place where you work(ed)? 
+  1-9 1 
+  10 to 24 2      + 
+  25 to 499 3 
+  500 or more 4 
+ 
+101.Were/are you working on your own or did/do you have employees? 
+  On own/with partner(s) but no employees 1Q?   + 
+  With employees    2 
+ 
+b. How many people did/do you employ at the place where you worked/work?  
+  1-9 1 
+  10 to 24 2      + 
+  25 to 499 3 
+  500 or more 4 
+ 
+c. In this job do/did you work....read out....     * 
+  Full time, that is 30 hours or more per week  1 
+  Or part-time    2 
+ 
+d. I would next like to ask you about your usual gross earnings before any deductions and including overtime. What pay period 
+
+would it be convenient for you to use....read out....Nurse: If seasonally employed, do not use code 3 + 
+  One week  1 
+  Four weeks or a month 2 
+  Or one year  3 
+ 
+e. Which of the letters on this card represents your usual gross earnings for that pay period, before any deductions, and including  
+ regular overtime? Nurse enter number.        + 
+   A 1   J 10   S 19 
+   B 2   K 11   T 20 
+   C 3   L 12   U 21 
+   D 4   M 13   V 22 
+   E 5   N 14   W 23 
+   F 6   O 15   X 24 
+   G 7   P 16   Y 25 
+   H 8   Q 17   Z 26 
+   I 9   R 18 
+ 
+f. How many hours a week do you usually work in this job, including regular overtime? Enter number. Enter a numeric value 
+
+between 0 and 120.  
+  Hours    ~
+
+ 
+g. Does your employer contribute towards your pension?  *   
+  Yes 1 
+  No 2 
+ 
+102. As well as this job, do you have a second job?   ~ 
+  Yes  1 
+  No  2   
+ 
+b. Since 1989, how many jobs have you had altogether, including any job held in 1989 and any current job? Enter number. Enter  
+ a numeric value between 0 and 100.    + 
+ 
+103. Going back to 1989, have you had any spells of a month or more when you were not in any kind of paid work? Include 1989. 
+  Yes  1 
+  No  0    * 
+ 
+ 
+ 
+
+njs
+Typewritten Text
+ESS
+
+njs
+Typewritten Text
+ESR1
+
+njs
+Typewritten Text
+ESSA
+
+njs
+Typewritten Text
+ESSB
+
+njs
+Typewritten Text
+WKFR
+
+njs
+Typewritten Text
+EARNP
+
+njs
+Typewritten Text
+SHOW CARD J/1
+
+njs
+Typewritten Text
+EARN1
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Typewritten Text
+9
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+18
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+JOBHW
+
+njs
+Typewritten Text
+EMPCN
+
+njs
+Typewritten Text
+JOBTW
+
+njs
+Typewritten Text
+JOBN
+
+njs
+Typewritten Text
+NWKS
+
+njs
+Typewritten Text
+[If T not selected go to f.]
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+SHOW CARD I/2 {as for e. but with 26 letters and numbers} 
+
+njs
+Typewritten Text
+EARN2
+
+njs
+Typewritten Text
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Line
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+
+
+ 24
+
+ 
+b. Since 1989, how much of the time have you not been in any paid work? Choose an answer from this card? Amount of time not 
+
+in paid work since 1989. Show Card J.  + 
+  Less than 6 months  2 
+  6 - 11 months   3 
+  1-4 years   4 
+  5-9 years   5 
+  Since 1989   6 
+ 
+c. And how much of that time were you unemployed, that is seriously looking for work. Please choose an answer from this card? 
+
+Estimate, if unsure. Show Card J.  + 
+  None of the time  1 
+  Less than 6 months 2 
+  6 - 11 months  3 
+  1 - 4 years  4 
+  5 - 9 years  5 
+  Since 1989  6 
+ 
+104.Now please think of your present job. On the whole, how happy would you say you are /were with your job? Would you say  
+ you were....read out.... 
+  Very happy  1 
+  Fairly happy  2     * 
+  Not very happy, or 3   
+  Unhappy  4 
+ 
+ 
+105. How often did you find your work stressful?   Would you say that it was....read out....  * 
+  Rarely stressful    1 
+  Sometimes stressful   2 
+  Stressful most of the time, or 3 
+  Stressful all of the time   4 
+ 
+106.On your present income do you find (as a family) ....read out....  * 
+  that it’s really quite hard to manage 1 
+  that you manage fairly well  2 
+  that you manage comfortably 3 
+ 
+ b. Has your family/have you had to go without things you really needed in the last year because you were short of money? If yes, 
+
+probe 'Often or sometimes' 
+  Yes, often   1  * 
+  Yes, sometimes   2 
+  No   3 
+ 
+c. Have you found you have been unable to pay the bills in the last year because you were short of money? If yes, probe 'Often or 
+
+sometimes' 
+  Yes, often   1  * 
+  Yes, sometimes   2  
+  No   3  
+  
+107.Over the past 12 months would you say that you had more trouble than you used to with Anything that requires memory for  
+
+example keeping appointments, remembering where you put things, remembering names of people or objects, remembering 
+short lists of things to do?      ~ 
+
+  Yes  1 
+  No  2 
+  
+108.Now for something different.  I want to see how well you remember a list of fifteen words.  I will show you one word at a  
+ time and when I reach the end of the list you have one minute to write down as many words as you can.  Please write the words  
+ in any order you like. It is best not to talk to anyone while you are doing this. Nurse: Hand over the paper test booklet at page  
+ 3 and make sure the cohort member has a pencil. Code one only. 
+  Word tests administered      1 
+  Test not attempted - respondent has difficulty reading/writing 2Q109  + 
+  Word lists refused      3Q109 
+ 
+b. Nurse: Show the words at two second intervals using Word List [FF A/B]. Make sure the last word is shown for two seconds. 
+
+Tell respondent to start. Start the stopwatch and time for one minute then tell the respondent to finish. #^ Turn booklet to page 
+
+njs
+Typewritten Text
+TIME1
+
+njs
+Typewritten Text
+TIME2
+
+njs
+Typewritten Text
+HAPWK
+
+njs
+Typewritten Text
+WKSTR
+
+njs
+Typewritten Text
+INCM
+
+njs
+Typewritten Text
+INCGW
+
+njs
+Typewritten Text
+INCUB
+
+njs
+Typewritten Text
+TRMEM
+
+njs
+Typewritten Text
+WLREF
+
+
+
+ 25
+5. Show the words again. Tell respondent to start. Start the stopwatch and time for one minute then tell the respondent to 
+finish. #^ Turn booklet to page 7. Show the words again. Tell respondent to start. Start the stopwatch and time for one minute 
+then tell the respondent to finish. #^ Nurse: record whether the word list trials were completed. Code one only. 
+
+  All 3 trials were attempted   1Q109 
+  2 out of the 3 trials were attempted  2Q109    + 
+  Only one trial was attempted  3Q109 
+  None of the trials were attempted  4 
+ 
+ 
+c. Nurse: Please record why no word list trials were done.     + 
+  _________________________________________ 
+ 
+109.Nurse: Turn to letter search (page 4 of paper test booklet). I would now like to see how quickly you can work through this  
+
+list, crossing out the P's and W's.  Start at the top left where the arrow is and work along the row from left to right, then go to 
+the beginning of the next row and work from left to right again, like reading a page.  Carry on this way crossing out any P's 
+and W's with one mark of the pencil like this. (Demonstrate).  Carry on until I tell you to stop.  Work as quickly and as 
+accurately as you can. Nurse: Set your stop watch for one minute. Tell the respondent to start and stop at the correct moment. 
+Record whether the letter search was attempted. Code one only. 
+
+  Letter search attempted 1Q110 
+  Letter search not attempted 2 
+ 
+b. Nurse: Please record why the letter search was not attempted.    + 
+  ________________________________________________ 
+ 
+110.Do you remember that list of 15 words I showed you earlier. I would like you to write down as many of those words as you  
+ can remember. I would like you to write down as many of those words as you can remember. Nurse: Turn to page 8 of the  
+ paper test booklet. Record whether the fourth word list trial was attempted. Code one only. 
+  Fourth trial attempted  1Q111     + 
+  Fourth trial not attempted  2 
+  
+b. Nurse: Please record why fourth word list trial was not attempted.    + 
+  ________________________________________________ 
+ 
+111.Nurse: Hold up blank envelope. Later on I am going to give you a name and address to write on this envelope.  When you  
+
+have finished doing that I would like you to do the following: Turn it over, seal it, and write your initials on the back.  Could 
+you remember to do that then, without me reminding you? Nurse: Now put the envelope out of sight.  + 
+
+  Respondent will do the test  1 
+  Respondent refuses to do the test 2 
+ 
+112.Now I would like you to tell me the names of as many different animals as you can in one minute? Animals are everything  
+ that is not vegetable or mineral. If asks for clarification: animals include birds, insects, humans, etc.  Set the stop watch for one  
+ minute and write down the animals on page 8 of the paper test booklet.    + 
+  Respondent will do the test  1 
+  Respondent refuses to do the test 2 
+ 
+113.Nurse: Hand over the envelope. Please write the following name and address on this envelope: John Brown, 42 West Street,  
+
+Bedford. Please go on remembering this name and address and I will ask you about it later. Nurse record if envelope is sealed 
+and initials written on back. 
+
+  Yes, both actions completed correctly, without prompting 1   + 
+  Only one action completed, without prompting  2 
+  No actions completed, without prompting    3 
+ 
+114.I would now like you to read slowly down this list of words, starting here (nurse point to chord).  Continue down this column  
+ and onto the next.  I must warn you that there are many words that you won’t recognise.  In fact most people don’t know them,  
+ so just guess at these.  Please begin when you are ready. Nurse: Hand over NART reading test to respondent. Turn to page 6 of  
+ paper test booklet. Place mark next to each word to indicate correct, incorrect or not sure. Nurse code: 
+  NART test attempted  1Q115 
+  NART test not attempted  2     + 
+  NART test terminated early  3Q115 
+ 
+b. Nurse enter reason test not attempted.        + 
+  _____________________________________________ 
+ 
+115.Can you tell me the name and address I asked you to remember a short while ago? Nurse enter the codes next to the words  
+ remembered. Code all that apply. Enter at most 6 values. 
+
+njs
+Typewritten Text
+WLDONE
+
+njs
+Typewritten Text
+NOWRDLST
+
+njs
+Typewritten Text
+NOLS
+
+njs
+Typewritten Text
+WL4DONE
+
+njs
+Typewritten Text
+ENV
+
+njs
+Typewritten Text
+ANIMLINT
+
+njs
+Typewritten Text
+REMEM
+
+njs
+Typewritten Text
+NARTINT
+
+njs
+Typewritten Text
+NONART
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+LSDONE
+
+njs
+Typewritten Text
+ANIN
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+
+
+ 26
+  John  1 
+  Brown  2 
+  42  3 
+  West   4 + 
+  Street  5 
+  Bedford  6  
+  None of the above 7 
+  Refused  8 
+ 
+116.Nurse: Did the survey member have visual difficulty during testing? 
+  No difficulty 1 
+  Mild difficulty 2 ~ 
+  Severe difficulty 3 
+  No tests done 4 
+ 
+117.Nurse: Did the survey member have hearing difficulty during testing? 
+  No difficulty 1 
+  Mild difficulty 2 ~ 
+  Severe difficulty 3 
+  No tests done 4 
+ 
+118.I would now like you to fill in this questionnaire while I am getting the equipment out for the medical exam. Please ask me if  
+ any of the questions are not clear. Nurse enter details on front cover of yellow self-completion booklet. Serial: [FF] Date:  
+ [LFF] Nurse cross out page(s) [LFF] before handing booklet to respondent. 
+  Booklet accepted 1 
+  Booklet refused 2 
+ 
+b. Nurse: count up and enter the number of animals mentioned. Enter a numeric value between 0 and 100.  
+
+ Number    +
+ 
+c. Nurse: set up equipment for physical measurements. #^ Nurse: Has CM completed the self completion booklet? 
+  Yes  1 
+  No  2      + 
+ 
+d. Nurse: Collect self-completion booklet and record. 
+  Booklet completed independently     1 
+  Booklet completed with assistance from interviewer  2 + 
+  Booklet completed with assistance from someone else 3 
+  Booklet refused      4 
+ 
+119.I would now like to take some physical measurements but before I do I need to obtain your written consent. Please read, sign  
+ and date form 5 of the consent booklet. Nurse: Make sure the form is signed and dated.  + 
+  Form 5 signed 1Nurse: circle 09 on front of consent booklet. #^ 
+  Form 5 refused 2Nurse: circle 10 on front of consent booklet. #^ 
+  
+b. If female ask  Can I check, are you pregnant at the moment?  + 
+        Yes  1Respondent is pregnant. No measurements to be done. ^ Lung function 
+        No  2 
+ 
+120.Now follows the blood pressure module. (As I mentioned earlier) I would like to measure your blood pressure. If asked The  
+ analysis of blood pressure readings will tell us a lot about the health of the population. Are you willing to have your Blood  
+ Pressure measured?  
+  Yes, agrees     1 
+  No, refuses     2Q120i + 
+  Unable to measure BP for reason other than refusal 3Q121? 
+ 
+b. Nurse: Enter serial of Omron. Enter a numeric value between 1 and 60.  
+
+  Serial   + 
+ 
+c. Enter first pulse reading (bpm). If reading not obtained, enter 999. Enter a numeric value between 1 and 999. 
+
+  Pulse    +
+ 
+d. Enter first systolic reading (mmHg). If reading not obtained, enter 999. Enter a numeric value between 1 and 999. 
+
+  Systolic    +
+ 
+
+njs
+Typewritten Text
+NAADTA1
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+NAADTA2
+
+njs
+Typewritten Text
+NAADTA3
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+NAADTA4
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+NAADTA5
+
+njs
+Typewritten Text
+NAADTA6
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+SEET
+
+njs
+Typewritten Text
+HET
+
+njs
+Typewritten Text
+ANIN
+
+njs
+Typewritten Text
+SCFIN
+
+njs
+Typewritten Text
+SC3END
+
+njs
+Typewritten Text
+MEDINTRO
+
+njs
+Typewritten Text
+PREGNTJ
+
+njs
+Typewritten Text
+BPCONST
+
+njs
+Typewritten Text
+OMRON
+
+njs
+Typewritten Text
+PULSE
+
+njs
+Typewritten Text
+SYS
+
+njs
+Typewritten Text
+SCOMP2
+
+
+
+ 27
+e. Enter first diastolic reading (mmHg). If reading not obtained, enter 999. Enter a numeric value between 1 and 999. 
+
+  Diastolic    +
+ 
+f. Enter second pulse reading (bpm). If reading not obtained, enter 999. Enter a numeric value between 1 and 999. 
+
+  Pulse    +
+ 
+g. Enter second systolic reading (mmHg). If reading not obtained, enter 999. Enter a numeric value between 1 and 999. 
+
+  Systolic    +
+ 
+h. Enter second diastolic reading (mmHg). If reading not obtained, enter 999. Enter a numeric value between 1 and 999. 
+
+  Diastolic    +
+Your blood pressure is [LFF normal/...?] ^ Nurse: Circle code 20 on front of consent booklet. ^Q121 
+ 
+i. Record why reading refused. Code all that apply. Enter at most 2 values. + 
+  Respondent upset/anxious/nervous  1code 20  
+  Other reason(s) (Specify at next question)  2  
+ 
+j. Enter full details of other reason(s) for not obtaining/attempting two BP readings. + 
+  __________________________________________ 
+ 
+121.Now I would like to measure your lung function. Can I check, have you had abdominal or chest surgery in the past three  
+ weeks? 
+  Yes 1Q122  + 
+  No  2 
+ 
+b. Have you been admitted to hospital for a heart complaint or stroke in the past six weeks? 
+  Yes 1  + 
+  No  2 
+ 
+c. In the past three weeks, have you had any respiratory infections such as influenza, pneumonia, bronchitis or a severe cold? 
+  Yes 1  + 
+  No  2 
+ 
+d. (Can I just check), have you used an inhaler, puffer or any medication for your breathing in the last 24 hours? 
+  Yes 1  + 
+  No  2 
+ 
+e. How many hours ago did you use it? Interviewer, enter number of hours. If less than one hour, code 0. Enter a numeric value 
+between 0 and 24. 
+
+  Hours   + 
+ 
+f. (As I mentioned earlier). We would like to measure your lung function which will help us to find out more about the health of 
+
+the population. Would you be willing to have your lung function measured? 
+  Yes 1  + 
+  No 2 Q122 
+ 
+g. Nurse: Enter the two-digit spirometer serial number. Enter a numeric value between 1 and 60.  
+
+  Serial   + 
+Explain the procedure and demonstrate the test. Record the results of two blows by the respondent in the boxes below. Record 
+each blow as it is carried out. For each blow, enter measurements and code whether technique was satisfactory. ^ 
+ 
+h. First blow. If no reading obtained enter '0' and suppress all checks. Enter a numeric value between 0.00 and 9.95.   
+
+    .       *
+ 
+i. First blow. If no reading obtained enter '0' and suppress all checks. Enter a numeric value between 0.00 and 9.95.  
+
+    .       *
+ 
+j. First blow. If no reading obtained enter '0' and suppress all checks. Enter a numeric value between 0 and 200.   
+
+     +
+ 
+k. First blow. If no reading obtained enter '0' and suppress all checks. Enter a numeric value between 0 and 995.  
+
+     +
+ 
+l. First blow. Now switch off the spirometer and switch it on again to take another reading. Press enter to continue.  + 
+
+njs
+Typewritten Text
+DIAS
+
+njs
+Typewritten Text
+PULSE2
+
+njs
+Typewritten Text
+SYS2
+
+njs
+Typewritten Text
+DIAS2
+
+njs
+Typewritten Text
+NATTBP
+
+njs
+Typewritten Text
+OTHNBP
+
+njs
+Typewritten Text
+HASURG
+
+njs
+Typewritten Text
+HASTRO
+
+njs
+Typewritten Text
+CHESTINF
+
+njs
+Typewritten Text
+INHALER
+
+njs
+Typewritten Text
+INHALHRS
+
+njs
+Typewritten Text
+LFWILL
+
+njs
+Typewritten Text
+SPIRNO
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+FEV
+
+njs
+Typewritten Text
+FER
+
+njs
+Typewritten Text
+FVC
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+PF
+
+njs
+Typewritten Text
+CL1
+
+
+
+ 28
+ 
+m. First blow. Technique satisfactory?   + 
+ 
+n. Second blow. If no reading obtained enter '0' and suppress all checks. Enter a numeric value between 0.00 and 9.95.  * 
+  
+o. Second blow. If no reading obtained enter '0' and suppress all checks. Enter a numeric value between 0.00 and 9.95.  * 
+  
+p. Second blow. If no reading obtained enter '0' and suppress all checks. Enter a numeric value between 0 and 200.  + 
+ 
+q. Second blow. If no reading obtained enter '0' and suppress all checks. Enter a numeric value between 0 and 995.  + 
+ 
+r. Second blow. Now switch off the spirometer and switch it on again to take another reading. Press enter to continue.   
+      + 
+ 
+s. Second blow. Technique satisfactory?   + 
+ 
+122.I would now like to measure your height and weight. ^ Nurse code: 
+  Standing height measured   1 
+  Standing height refused   2   + 
+  Standing height attempted, not obtained  3 
+  Standing height not attempted  4 
+ 
+b. Nurse: Measure standing height and enter in centimetres to nearest 0.5cm. Enter a numeric value between 0.0 and 244.0.  
+
+      *
+ 
+c. Nurse: Check standing height is entered correctly. You are [LFF] centimetres high or [LFF] feet [LFF] inches? 
+  Yes 1 
+  No 2 
+ 
+123.Nurse code: 
+  Sitting height measured   1 
+  Sitting height refused   2   + 
+  Sitting height attempted, not obtained  3 
+  Sitting height not attempted   4 
+ 
+b. Nurse: Measure sitting height and enter in centimetres to nearest 0.5cm. Enter a numeric value between 0.0 and 244.0.          
++ 
+ 
+124.Nurse code: 
+   Weight measured   1 
+   Weight refused   2   + 
+   Weight attempted, not obtained 3 
+   Weight not attempted  4 
+ 
+b. Nurse: Enter serial number of scales. Enter a numeric value between 1 and 60.  + 
+
+  Serial    
+ 
+c. Nurse: Measure weight to nearest 0.5 kilograms. Enter a numeric value between 0.0 and 244.0. + 
+
+  Weight     .      
+ 
+d. Nurse: Check weight is entered correctly. So you weigh [LFF] kilo's or [LFF] stone [LFF] pounds? 
+  Yes 1 + 
+  No 2 
+ 
+125.I would now like to measure your upper arm circumference. If asked: This gives us information about the distribution of fat.  
+  Measurement agreed  1 
+  Measurement refused  2 + 
+  Unable to take measurement 3 
+ 
+b. Measure circumference of left arm and record in centimetres. If measurement not obtained, enter '99.9'. Enter a numeric value 
+
+between 10.0 and 100.0. 
+    * 
+
+ 
+c. Is this measurement reliable? 
+  Yes 1 + 
+
+njs
+Typewritten Text
+TECHNIQU
+
+njs
+Typewritten Text
+FEV2
+
+njs
+Typewritten Text
+FVC2
+
+njs
+Typewritten Text
+FER2
+
+njs
+Typewritten Text
+PF2
+
+njs
+Typewritten Text
+CL2
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+TECHNIQ2
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+STHTRESP
+
+njs
+Typewritten Text
+HT
+
+njs
+Typewritten Text
+HTREAD
+
+njs
+Typewritten Text
+SITHTRSP
+
+njs
+Typewritten Text
+WTHTRSP
+
+njs
+Typewritten Text
+SITHT
+
+njs
+Typewritten Text
+SCALES
+
+njs
+Typewritten Text
+WEIGHT
+
+njs
+Typewritten Text
+WEICHK
+
+njs
+Typewritten Text
+MUACINT
+
+njs
+Typewritten Text
+RUAC
+
+njs
+Typewritten Text
+CUPREL
+
+
+
+ 29
+  No 2 
+ 
+126.I would now like to measure your chest, waist and hips. Would you be willing to have your chest, waist and hip circumference 
+
+measured? If asked 'These measurements are very useful for assessing the distribution of weight over the body.' 
+  Measurement agreed  1 
+  Measurement refused  2 + 
+  Unable to take measurement 3 
+ 
+b. Nurse: Measure the chest circumference to the nearest mm. Enter chest measurement in centimetres (Remember to include the 
+
+decimal point). If measurement not obtained, enter '999.9'. Enter a numeric value between 0.0 and 1000.0. 
+ Chest      .     *
+
+ 
+c. Nurse: Measure the expanded chest circumference to the nearest mm. Enter expanded chest measurement in centimetres 
+
+(Remember to include the decimal point). If measurement not obtained, enter '999.9'. Enter a numeric value between 0.0 and 
+1000.0. 
+
+ Expanded chest      .     *
+ 
+d. Nurse: Measure the waist circumference to the nearest mm. Enter waist measurement in centimetres (Remember to include the 
+decimal point). If measurement not obtained, enter '999.9'. Enter a numeric value between 0.0 and 1000.0. 
+
+ Waist      .     *
+ 
+e. Nurse: Measure the hip circumference to the nearest mm. Enter measurement of hip circumference  in centimetres (Remember 
+to include the decimal point). If measurement not obtained, enter '999.9'. Enter a numeric value between 0.0 and 1000.0. 
+
+ Hip      .     *
+ 
+f. Nurse: Enter ambient temperature in Celsius to the nearest degree. Enter a numeric value between 0 and 40. 
+
+   * 
+ 
+g. Nurse: Record the time of day.  * 
+  Morning   1 
+  Afternoon   2 
+  Evening  3 
+ 
+127.Now I would like to assess the strength of your hand in a gripping action. I will count up to 3 and then ask you to  squeeze this  
+ handle as hard as you can, just for a couple of seconds and then let go. Please watch the display as you are squeezing so that  
+ you can see how well you are doing. I will take 2 measurements from your right hand followed by 2 measurements from your  
+ left hand. 
+  Measurement agreed  1 
+  Measurement refused  2 + 
+  Unable to take measurement 3 
+ 
+b. Nurse: Enter serial number of dynamometer. Enter a numeric value between 1 and 60.  
+
+  Serial   + 
+ 
+c. Nurse: Record and code one only.   * 
+  Respondent has the use of both hands  1 
+  Respondent is unable to use right hand  2 
+  Respondent is unable to use left hand  3 
+  Respondent is unable to use either hand  4 
+ 
+d. Would you be willing to have your hand grip measured?  * 
+  Yes 1 
+  No 2 
+ 
+e. Which is your dominant hand ? ~     
+   Right hand 1   
+   Left hand  2 
+          
+f. Nurse, position the respondent correctly, select the correct hand grip and set the probable range on the dynamometer. Explain 
+
+the procedure once again. Show the respondent how to do the test and let cohort member have a practice with both hands. ^  
+Left hand, first measurement. Enter the results to one decimal place. Enter a numeric value between 0.1 and 200.0 
+
+      .      ~
+ 
+g. Right hand, first measurement. Enter the results to one decimal place. Enter a numeric value between 0.1 and 200.0 
+
+njs
+Typewritten Text
+CWHINTRO
+
+njs
+Typewritten Text
+CHC
+
+njs
+Typewritten Text
+CHCE
+
+njs
+Typewritten Text
+ABC
+
+njs
+Typewritten Text
+HIPC
+
+njs
+Typewritten Text
+RTEMP
+
+njs
+Typewritten Text
+TIMED
+
+njs
+Typewritten Text
+GRIPINT
+
+njs
+Typewritten Text
+DYNAM
+
+njs
+Typewritten Text
+NOTATT
+
+njs
+Typewritten Text
+GRIPWILL
+
+njs
+Typewritten Text
+HNLR
+
+njs
+Typewritten Text
+GRPL1
+
+
+
+ 30
+
+      .      ~
+ 
+h. Left hand, second measurement. Enter the results to one decimal place. Enter a numeric value between 0.1 and 200.0 
+
+      .      ~
+ 
+i. Right hand, second measurement. Enter the results to one decimal place. Enter a numeric value between 0.1 and 200.0 
+
+      .      ~
+ 
+128. I would now like to examine your knees for any bumps or swellings. Would you be willing for me to examine your knees? If  
+ no, record whether refusal or other reason. 
+  Yes  1 
+  No refuses  2 + 
+  No for some other reason 3 
+ 
+b. Nurse: Make examination of each knee and record answers in CAPI. #^ Nurse record examination of left knee. Code all that 
+
+apply. Enter at most 5 values.  + 
+  Knee tenderness   1 
+  Bony swelling at the joint margin  2 
+  Crepitus    3 
+  Varus   4 
+  Valgus   5 
+  None of these   6 
+ 
+c. Nurse: Make examination of each knee and record answers in CAPI. #^ Nurse record examination of right knee. Code all that 
+
+apply. Enter at most 5 values.  + 
+  Knee tenderness   1 
+  Bony swelling at the joint margin  2 
+  Crepitus    3 
+  Varus   4 
+  Valgus   5 
+  None of these   6 
+ 
+d. Nurse: Are there any other observations to make.  + 
+  Yes  1 
+  No  2 
+ 
+e. Nurse please write in other knee observations. Remember to write in which knee(s) are affected. + 
+  ______________________________________________________ 
+ 
+129.Nurse: I would now like a sample of the cells from the inside of your mouth. This involves you gently rubbing the inside of  
+ your cheeks with a small swab. Are you willing to have a mouth swab taken? If asked The sample will be analysed for  
+ DNA(genetics) study. 
+  Sample agreed  1 
+  Sample refused  2 + 
+  Unable to take sample 3 
+ 
+b. Before I take the sample, I need you to sign and date this form. Nurse, hand over consent form 6 and ring consent code 11.  
+ Make sure the respondent has signed and dated the form before taking the sample. Nurse code one only. 
+  Signature obtained 1 + 
+  Signature not obtained 2 
+ 
+c. Nurse Take mouth swab sample and code: 
+   Buccal sample obtained  1 + 
+   Buccal sample not obtained 2 
+ 
+130.Now follows the blood sample module. Nurse explain purpose and procedure for taking blood. May I check, do you have a  
+ clotting or bleeding disorder? (NB Aspirin therapy is not a contraindication for blood sample.)  + 
+  Yes 1  
+  No 2 
+ 
+b. And have you had a fit in the last three years (including epileptic fit, convulsion or convulsion associated with high fever)?  
+  Yes 1  + 
+  No 2 
+ 
+c. Was this fit brought on by having a blood sample taken?  + 
+
+njs
+Typewritten Text
+GRPR1
+
+njs
+Typewritten Text
+GRPL2
+
+njs
+Typewritten Text
+GRPR2
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+KNEEINT
+
+njs
+Typewritten Text
+LEFTK1
+
+njs
+Typewritten Text
+LEFTK2
+
+njs
+Typewritten Text
+LEFTK3
+
+njs
+Typewritten Text
+LEFTK4
+
+njs
+Typewritten Text
+LEFTK5
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+RIGHTK1
+
+njs
+Typewritten Text
+RIGHTK2
+
+njs
+Typewritten Text
+RIGHTK3
+
+njs
+Typewritten Text
+RIGHTK4
+
+njs
+Typewritten Text
+RIGHTK5
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+KNEEOTH
+
+njs
+Typewritten Text
+KNEEYES
+
+njs
+Typewritten Text
+SALINT1
+
+njs
+Typewritten Text
+CONSENT5
+
+njs
+Typewritten Text
+SALOBT1
+
+njs
+Typewritten Text
+CLOTB
+
+njs
+Typewritten Text
+FIT2
+
+njs
+Typewritten Text
+FIT3
+
+
+
+ 31
+  Yes 1Nurse: No blood sample to be taken. Circle codes 14, 16, 18 and 26 on front of consent booklet. ^ 
+  No 2 
+ 
+d. Would you be willing to have a blood sample taken?  + 
+  Yes 1  
+  No 2 
+ 
+e. Before I can take any blood, I have to obtain your written consent. Nurse: Fill in respondent's name and your name at top of 
+
+consent form 7 in consent booklet. Ask respondent to read, sign and date part 1 of blood sample consent form. ^ Circle 
+consent code 13 on front of consent booklet. ^ Check you have all applicable signatures. Take blood samples. Fill tubes in this 
+order: Tube 2: EDTA (purple) 3 ml. Tube 3: EDTA (purple)2 ml. Tube 4: ACD (yellow) 6 ml. Tube 5: Lithium Heparin (green) 
+4 ml. Tube 6: EDTA (purple) 3 ml. Write the serial number, nurse number, sex and date of collection on the (red) label. Do one 
+label per tube. ^ Code if Tube 2: EDTA (purple) 3 ml was filled (include partially filled tube): 
+
+  Yes 1 + 
+  No 2 
+ 
+f. Code if Tube 3: EDTA (purple)2 ml was filled (include partially filled tube): 
+  Yes 1 + 
+  No 2 
+ 
+g. Code if Tube 4: ACD (yellow) 6 ml was filled (include partially filled tube): 
+  Yes 1 + 
+  No 2 
+ 
+h. Code if Tube 5: Lithium Heparin (green) 4 ml was filled (include partially filled tube): 
+  Yes 1 + 
+  No 2 
+ 
+i. Code if Tube 6: EDTA (purple) 3 ml was filled (include partially filled tube): 
+  Yes 1 + 
+  No 2 
+ 
+j. Blood sample outcome:  + 
+  Blood sample obtained 1 
+  No blood sample obtained 2 
+ 
+k. Record which arm blood taken from: + 
+  Right 1 
+  Left 2 
+  Both 3 
+ 
+l. Record any problems in taking blood sample. Code all that apply. Enter at most 7 values.  + 
+  No problem     1 
+  Incomplete sample    2 
+  Collapsing/poor veins    3 
+  Second attempt necessary    4 
+  Some blood obtained, but respondent felt faint/fainted 5  
+  Unable to use tourniquet    6 
+  Other     7 
+ 
+131.May we have your consent to take part in the genetics study? Nurse: If asked, read out consent form 7 part 2.  
+  Yes 1 + 
+  No 2 
+ 
+b. I need to have your written consent to take part in the genetic studies project. Please read and sign Part 2 of Form 7. ^ Nurse:  
+
+circle consent code 15 on front of consent booklet. ^  May we have your consent to store any remaining blood for future 
+analysis? 
+
+  Storage consent given 1 + 
+  Consent refused  2 
+ 
+c. I have to obtain your written consent for this. Nurse: Ask cohort member to read sign and date part 3 of blood sample consent 
+
+form. Circle consent code 17 on front of consent booklet. ^ This is the end of all the measurements. Can I check, are you 
+currently registered with a GP? 
+
+Yes 1 + 
+No 2 
+
+njs
+Typewritten Text
+BSWILL
+
+njs
+Typewritten Text
+SAMPF1
+
+njs
+Typewritten Text
+SAMPF2
+
+njs
+Typewritten Text
+SAMPF3
+
+njs
+Typewritten Text
+SAMPF4
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+SAMPF5
+
+njs
+Typewritten Text
+SAMPTAK
+
+njs
+Typewritten Text
+SAMPARM
+
+njs
+Typewritten Text
+SAMDIF1
+
+njs
+Typewritten Text
+SAMDIF2
+
+njs
+Typewritten Text
+SAMDIF3
+
+njs
+Typewritten Text
+SAMDIF4
+
+njs
+Typewritten Text
+GENE
+
+njs
+Typewritten Text
+CONSTORB
+
+njs
+Typewritten Text
+GPREG
+
+
+
+ 32
+ 
+ 
+132.Would you like the results of your measurements to be sent to your GP? If asked, please read out the measurements listed  
+ below. Enter at most 12 values. 
+     1 
+     2 
+  Standing height   3 
+  Sitting height   4 
+  Weight   5 
+  Upper arm circumference  6 + 
+  Chest circumference  7  
+  Expanded chest circumference 8 
+  Abdominal circumference  9 
+  Hip circumference  10 
+  Blood sample   11 
+  None of the above  12 
+ 
+b. Before I can pass your results onto your GP, I need your written consent. Please check the details are correct, then sign and 
+
+date Consent Form 8. Nurse please fill in correct details on consent form 8. Check respondent has signed the form. Circle 
+codes as appropriate on front of consent booklet. ^ Check name by which GP knows respondent. Check GP name, address and 
+phone no. Are recorded on front of consent booklet. ^  There is just one more thing the MRC National Survey would like you 
+to do and that is to keep this diet diary for the next 5 days and then send it back in this envelope. All the instructions are in the 
+diary. If you'd like to talk to someone about it please call the number on the diary ask them to return your call. Nurse: If 
+pressed for further clarification say I'm sorry I don't know anything about this but if you'd to talk to someone about it, please 
+call the number on the diary and ask them to return your call. Nurse: Enter details on front of diary and hand over with reply 
+envelope.  Date of interview: [LFF]  Serial number: [LFF] 
+
+  Diary accepted 1 
+  Diary refused 2 
+ 
+133.A few interviews on any survey are checked by a supervisor to make sure people are happy with the way the interview was  
+
+carried out. In case my supervisor needs to contact you...Nurse check front of ARF: If telephone number recorded: may I check 
+your telephone number is ......(read out and amend ARF if different)? If telephone number not recorded: it would be helpful if 
+you could let me have your telephone number? (nurse record on front of ARF. 
+
+  Telephone number obtained  1 
+  Telephone number refused  2 + 
+  No telephone number available  3 
+ 
+^ to close the interview. Please enter the first four digits of your nurse number. If already entered just press <enter> to continue.
+ + 
+
+njs
+Typewritten Text
+SHOWME01
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+SHOWME02
+
+njs
+Typewritten Text
+SHOWME03
+
+njs
+Typewritten Text
+SHOWME04
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+SHOWME05
+
+njs
+Typewritten Text
+SHOWME06
+
+njs
+Typewritten Text
+SHOWME07
+
+njs
+Typewritten Text
+SHOWME08
+
+njs
+Typewritten Text
+SHOWMR09
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+SHOWME10
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+SHOWME11
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+SHOWME12
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+Blood Pressure
+
+njs
+Typewritten Text
+Respiration
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+DIARY1
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+
+njs
+Typewritten Text
+TPHONE
+
+njs
+Typewritten Text
+NURNO
+
+
+
+

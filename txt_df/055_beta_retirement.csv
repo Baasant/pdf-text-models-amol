@@ -1,0 +1,492 @@
+text,label
+Voluntary Super Contributions - Final,0
+Survey Flow,0
+Start of Block: Participant Info Sheet,0
+Q1.1,0
+Voluntary Superannuation Contributions,1
+PARTICIPANT INFORMATION SHEET,0
+Project Title: Saving for retirement survey,0
+What is the project about?,0
+The aim of this project is to learn about people’s saving behaviour in Australia’s retirement system. The survey you are about to undertake will ask you questions about your approach to your retirement planning.,0
+This research is supported by the Behavioural Economics Team of the Australian Government (BETA) at the Department of the Prime Minister and Cabinet (PM&C) and the Department of the Treasury (Treasury).,0
+Why have I been invited to participate?,0
+You have been invited to participate because you are a member of the Qualtrics survey panel.,0
+"You can pull out at any time and it won’t change your relationship with PM&C, Treasury or anyone else.",0
+What will I need to do?,0
+We will ask you to complete a short survey asking about your pre-retirement plans and decisions around retiring. We expect it to take less than 15 minutes to complete.,0
+What will happen to my information?,0
+"Your responses to the survey questions will remain completely anonymous, and you won’t be identified in any way. Your responses will only be used for research purposes unless required by law. In particular, your responses will be used to inform the current Retirement Income Review.",0
+Your data will be held securely by PM&C for at least 15 years. It may also be shared with other researchers to inform their work.,0
+What are the potential risks?,0
+We do not think there are any risks to participating in this research.,0
+Contact,0
+"If you have any concerns or complaints about this research, please contact BETA at BETA@pmc.gov.au.",0
+Ethics Committee Clearance,0
+This research project have been approved by BETA’s Ethics Committee of Peers.,0
+Your answers to this survey may be made available to other researchers to inform their work. Do you consent to proceed with the survey?,1
+yes  (1),0
+no  (2),0
+End of Block: Participant Info Sheet,0
+"Start of Block: Demographics, etc",0
+Are you an Australian citizen or permanent resident?,1
+Yes  (1),0
+No  (3),0
+Skip To: End of Block If Q2.1 = No,0
+"In the last month, did you do any work at all in a job, business or farm?",1
+Yes  (1),0
+"No, I was on leave (for example, on holidays or sick leave)  (2)",0
+"No, and I was not on leave from a job, business or farm  (3)",0
+Skip To: End of Block If Q2.2 != Yes,0
+Have you retired?,1
+"Yes, I have retired  (1)",0
+"No, I have never retired  (2)",0
+"Skip To: End of Block If Q2.3 = Yes, I have retired",0
+What State or Territory do you currently reside in?,1
+NSW  (1),0
+Victoria  (2),0
+Queensland  (3),0
+WA  (4),0
+SA  (5),0
+Tasmania  (6),0
+NT  (7),0
+ACT  (8),0
+Page Break,0
+"The next few questions are about the job or business in which you usually work the most hours, that is, your main job.",1
+"In your main job, do you work for an employer, or in your own business?",1
+Employed by an organisation  (1),0
+Self-employed  (2),0
+"For your main job, please indicate the industry you work in:",1
+"Agriculture, Forestry and Fishing  (1)",0
+Mining  (2),0
+Manufacturing  (3),0
+"Electricity, Gas, Water and Waste Services  (4)",0
+Construction  (6),0
+Wholesale Trade  (5),0
+Retail Trade  (7),0
+Accommodation and Food Services  (10),0
+"Transport, Postal and Warehousing  (11)",0
+Information Media and Telecommunications  (12),0
+Financial and Insurance Services  (13),0
+"Rental, Hiring and Real Estate Services  (14)",0
+"Professional, Scientific and Technical Services  (15)",0
+Administrative and Support Services  (16),0
+Public Administration and Safety  (17),0
+Education and Training  (18),0
+Health Care and Social Assistance  (19),0
+Arts and Recreation Services  (20),0
+Other Services  (21),0
+Display This Question:,0
+If Q2.6 = Employed by an organisation,0
+How long have you worked for your current employer?,1
+Less than 1 year  (1),0
+1 year to less than 2 years  (2),0
+2 years to less than 5 years  (3),0
+5 years or more  (4),0
+Display This Question:,0
+If Q2.6 = Self-employed,0
+How long have you worked in your current business?,1
+Less than 1 year  (1),0
+1 year to less than 2 years  (2),0
+2 years to less than 5 years  (3),0
+5 years or more  (4),0
+Display This Question:,0
+If Q2.6 = Employed by an organisation,0
+"For your main job, what type is your employment?",1
+Permanent or fixed term  (1),0
+Casual  (3),0
+Apprentice or trainee  (2),0
+Labour hire  (4),0
+Contractor or sub-contractor  (5),0
+Other (please specify)  (6) ________________________________________________,0
+"What is your current annual income from all sources, before tax or other deductions are taken out? Please just give your income, excluding other members of your household.",1
+"less than $20,000  (2)",0
+"$20,000 to $29,999  (3)",0
+"$30,000 to $39,999  (6)",0
+"$40,000 to $49,999  (8)",0
+"$50,000 to $59,999  (9)",0
+"$60,000 to $69,999  (4)",0
+"$70,000 to $79,999  (10)",0
+"$80,000 to $89,999  (11)",0
+"$90,000 to $99,999  (12)",0
+"$100,000 to $119,999  (13)",0
+"$120,000 to $139,999  (15)",0
+"$140,000 to $159,999  (17)",0
+"$160,000 to $179,999  (19)",0
+"$180,000 or more  (5)",0
+Page Break,0
+What is your gender?,1
+Male  (1),0
+Female  (2),0
+X (Indeterminate/Intersex/Unspecified)  (3),0
+Prefer not to say  (4),0
+What is your age?,1
+18 - 24  (1),0
+25 - 34  (2),0
+35 - 44  (3),0
+45 - 54  (4),0
+55 - 64  (6),0
+65 - 74  (7),0
+75 - 84  (13),0
+85 or older  (14),0
+Q2.14 Please describe your family.,0
+"For the purposes of this question, ‘dependent child’ refers to any child under 15 years, and dependent students aged 15-24 years and studying full-time.",0
+"Single, no dependent children  (1)",0
+"Single, with dependent children  (2)",0
+"Couple, no dependent children  (4)",0
+"Couple, with dependent children  (6)",0
+Page Break,0
+"Given your current needs and financial responsibilities, would you say that you and your family are . . .",1
+Very poor  (6),0
+Poor  (5),0
+Just getting along  (1),0
+Reasonably comfortable  (2),0
+Very comfortable  (4),0
+Prosperous  (3),0
+At what age do you expect to retire (in the sense that you no longer need to work)? ,1
+45 - 49  (1),0
+50 - 54  (2),0
+55 - 59  (3),0
+60 - 64  (4),0
+65 - 69  (6),0
+70 - 74  (7),0
+75 or more  (9),0
+I intend to keep working as long as I’m able to  (13),0
+I don’t expect to be able to afford to stop working  (14),0
+Display This Question:,0
+"If Q2.14 = Couple, no dependent children",0
+"Or Q2.14 = Couple, with dependent children",0
+What is the home ownership status for you and/or your partner?,1
+We own our home outright  (1),0
+We are paying off the mortgage on our home  (2),0
+We are renting privately  (3),0
+We are living with family or friends  (8),0
+We are living in social or public housing  (9),0
+Other (please specify)  (10) ________________________________________________,0
+Skip To: Q2.21 If Q2.17 = We own our home outright,0
+Display This Question:,0
+"If Q2.14 = Single, no dependent children",0
+"Or Q2.14 = Single, with dependent children",0
+What is your home ownership status?,1
+I own my home outright  (1),0
+I am paying off the mortgage on my home  (2),0
+I am renting privately  (3),0
+I am living with family or friends  (8),0
+I am living in social or public housing  (9),0
+Other (please specify)  (10) ________________________________________________,0
+Skip To: Q2.21 If Q2.18 = I own my home outright,0
+Display This Question:,0
+"If Q2.14 = Single, no dependent children",0
+"Or Q2.14 = Single, with dependent children",0
+Do you think you will own your own home outright before retirement?,1
+Yes  (1),0
+"No, I will still have a mortgage  (2)",0
+"No, I don't think I will ever be able to afford to buy my own home  (4)",0
+"No, I don't want to own my home  (3)",0
+Other (please specify)  (5) ________________________________________________,0
+Display This Question:,0
+"If Q2.14 = Couple, no dependent children",0
+"Or Q2.14 = Couple, with dependent children",0
+Do you think that you and your partner will own your own home outright before retirement?,1
+Yes  (1),0
+"No, we will still have a mortgage  (2)",0
+"No, I don't think we will ever be able to afford to buy our own home  (4)",0
+"No, we don't want to own our home  (3)",0
+Other (please specify)  (5) ________________________________________________,0
+Have you ever received professional financial advice? ,1
+Yes  (1),0
+No  (2),0
+Display This Question:,0
+If Q2.21 = Yes,0
+Roughly what age were you when you first received professional financial advice? ,1
+18 - 24  (1),0
+25 - 29  (2),0
+30 - 34  (3),0
+35 - 39  (4),0
+40 - 44  (6),0
+45 - 49  (7),0
+50 - 54  (9),0
+55 - 59  (10),0
+60 - 64  (11),0
+65 or older  (12),0
+"End of Block: Demographics, etc",0
+Start of Block: Self - employed,0
+Were you aware of that you can receive tax concessions when you make contributions to your superannuation?,1
+"Yes, and I have a good sense of what the tax concessions are  (1)",0
+"Yes, but I don't have a good sense of what the tax concessions are  (3)",0
+"No, I wasn't aware  (2)",0
+Do you make contributions to your superannuation?,1
+"Yes, I make regular contributions  (1)",0
+"Yes, I make occasional contributions  (3)",0
+No  (2),0
+Display This Question:,0
+If Q3.2 = No,0
+Which of the following best represents your retirement savings behaviour?,1
+I don’t have enough income to save for the longer-term  (1),0
+I haven't thought much about saving for retirement  (4),0
+"I invest my savings in other ways than super (eg shares, extra mortgage payments, savings account, invest in my business,  etc)  (2)",0
+"I could save more for the longer-term, but I don't feel I need to  (3)",0
+Display This Question:,0
+If Q3.2 != No,0
+Are your superannuation contributions . . . ,1
+A fixed dollar amount each period  (1),0
+A fixed percentage of your income each period  (2),0
+"A varying amount each period (that is, neither a fixed dollar nor a fixed percentage)  (3)",0
+Occasional contributions when you can afford it  (5),0
+Not sure  (4),0
+Display This Question:,0
+If Q3.2 != No,0
+How important were the following factors in your decision to make super contributions?,1
+Not at all important (1),0
+Slightly important (2),0
+Moderately important (3),0
+Very important (4),0
+Extremely important (5),0
+"Everybody else has super, so I figured I needed some too (1)",0
+Reaching your retirement savings target (8),0
+The tax benefits (2),0
+Advice from a financial adviser (3),0
+It stops me spending the money now - super is locked away until retirement (6),0
+Display This Question:,0
+If Q3.2 != No,0
+Which of the following were important factors in deciding how much your periodic superannuation contributions would be? (Please select all that apply.),1
+The help of my accountant or financial advisor  (1),0
+My own careful calculation  (2),0
+Saving too much superannuation means I miss out on the Age Pension  (7),0
+I think I will get better returns on other investments  (10),0
+I prefer to save in a more stable investment than superannuation  (12),0
+The tax concessions for superannuation contributions  (11),0
+I followed what a friend or family member suggested  (4),0
+I just put in what I can afford  (5),0
+I use the 9.5% standard that employees receive  (8),0
+Other (please specify)  (9) ________________________________________________,0
+Display This Question:,0
+If Q3.2 != No,0
+Approximately how much of your earnings do you contribute to superannuation?,1
+less than 3%  (6),0
+3% to less than 6%  (7),0
+6% to less than 9.5%  (8),0
+9.5%  - the same as employers have to pay to staff  (9),0
+More than 9.5% but less than 12%  (10),0
+More than 12%  (11),0
+Don't know  (12),0
+Display This Question:,0
+If Q3.2 = No,0
+Which of the following describes why you don't make super contributions? (Please select all that apply.),1
+"I want to make voluntary contributions to my super, but have never gotten around to it.  (8)",0
+I don't like having my money locked away until retirement  (2),0
+I don’t have enough income to save generally – for super or otherwise  (3),0
+I think I can achieve better investment returns elsewhere  (7),0
+I prefer to save in a more stable investment than superannuation  (13),0
+Based on financial advice I received  (10),0
+I didn't know that I could  (11),0
+Other (please specify)  (12) ________________________________________________,0
+Display This Question:,0
+If Q3.2 = No,0
+What would need to change about superannuation for you to start making regular contributions?,1
+________________________________________________________________,0
+End of Block: Self - employed,0
+Start of Block: Employed by an organisation,0
+Were you aware of that you can receive tax concessions when you make voluntary contributions to your superannuation? ,1
+"Yes, and I have a good sense of what the tax concessions are  (1)",0
+"Yes, but I don't have a good sense of what the tax concessions are  (3)",0
+"No, I wasn't aware  (2)",0
+Q4.2 Please rate your agreement with the following statement.,0
+The government mandated employer contribution to superannuation of 9.5% was chosen to give people enough to retire on.,0
+Strongly disagree  (1),0
+Disagree  (2),0
+Neutral  (3),0
+Agree  (4),0
+Strongly agree  (5),0
+I wasn't aware of the mandated 9.5% superannuation  (6),0
+Do you currently make voluntary super contributions (that is contributions beyond the amount that employer is required to provide)?,1
+"Yes, I make regular voluntary contributions  (1)",0
+"Yes, I make occasional voluntary contributions  (3)",0
+No  (2),0
+End of Block: Employed by an organisation,0
+Start of Block: Don't make voluntary contributions,0
+Which of the following best represents your retirement savings behaviour?,1
+I don’t have enough income to save for the longer-term  (1),0
+I haven't though much about saving for retirement  (4),0
+"I invest my savings in other ways than super (eg shares, extra mortgage payments, savings account, invest in my business,  etc)  (2)",0
+"I could save more for the longer-term, but I don't feel I need to  (3)",0
+Display This Question:,0
+"If Q5.1 = I invest my savings in other ways than super (eg shares, extra mortgage payments, savings account, invest in my business,  etc)",0
+Which of the following describes why you don't make voluntary super contributions? (Please select all that apply.),1
+"I want to make voluntary contributions to my super, but have never gotten around to it.  (2)",0
+I don't like having my money locked away until retirement.  (1),0
+I don’t have enough income to save generally – for super or otherwise  (13),0
+Saving too much super means I might miss out on the Age Pension.  (5),0
+I think I can achieve better investment returns elsewhere  (7),0
+I prefer to save in a more stable investment than superannuation  (14),0
+Based on financial advice I received  (10),0
+I didn't know that I could  (6),0
+Other (please specify).  (12) ________________________________________________,0
+What rate of super does your employer pay?,1
+9.5%  (1),0
+more than 9.5% but less than 15%  (2),0
+15% or more  (3),0
+not sure  (5),0
+Q5.4 What would need to change about superannuation for you to start making voluntary contributions?,0
+________________________________________________________________,0
+End of Block: Don't make voluntary contributions,0
+Start of Block: Make voluntary contributions,0
+Are these contributions made from your before-tax or after-tax wage?,1
+Before-tax  (1),0
+After-tax  (2),0
+From both before-tax and after-tax wage  (3),0
+Not sure  (4),0
+Are your voluntary contributions . . . ,1
+A fixed dollar amount each period  (1),0
+A fixed percentage of your income each period  (2),0
+"A varying amount each period (that is, neither a fixed dollar nor a fixed percentage)  (5)",0
+Occasional contributions when you can afford it  (3),0
+Other  (4) ________________________________________________,0
+Page Break,0
+Which of the following were important factors in deciding how much your voluntarily superannuation contributions would be? (Please select all that apply.),1
+The help of my accountant or financial advisor  (1),0
+My own careful calculation  (2),0
+Saving too much superannuation means I miss out on the Age Pension  (9),0
+The tax concessions for superannuation contributions  (3),0
+I prefer to save in a more stable investment than superannuation  (10),0
+I followed what a friend or family member suggested  (4),0
+I just put in what I can afford  (5),0
+Other (please specify)  (8) ________________________________________________,0
+How important were the following factors in your decision to make voluntary super contributions?,1
+Not at all important (1),0
+Slightly important (2),0
+Moderate importance (3),0
+Very important (4),0
+Extremely important (5),0
+The tax benefits (1),0
+Reaching your retirement savings target (4),0
+Advice from a financial adviser (9),0
+It stops me spending the money now - super is locked away until retirement (3),0
+Page Break,0
+voluntary superannuation contributions,1
+"I make before-tax contributions below $25,000 per year  (1)",0
+"I make  before-tax contributions of roughly $25,000 per year  (2)",0
+"I make  before-tax  contributions of roughly $25,000 per year, and I make after-tax contributions  (3)",0
+I make after-tax contributions  (4),0
+Other (please specify)  ________________________________________________,0
+What rate of superannuation does your employer pay you?,1
+9.5%  (1),0
+more than 9.5% but less than 15%  (2),0
+15% or more  (3),0
+not sure  (5),0
+Approximately how much of your pay do you estimate that your voluntary contributions represent?,1
+Less than 2%  (1),0
+2% to less than 5%  (2),0
+5% to less than 10%  (3),0
+More than 10%  (4),0
+Not sure  (5),0
+End of Block: Make voluntary contributions,0
+"Start of Block: Retirement planning, etc",0
+Have you (or your financial adviser) ever estimated how much money you will need for your retirement?,1
+Yes  (1),0
+No  (2),0
+Display This Question:,0
+If Q7.1 = No,0
+Why haven't you worked out how much you need to retire on? (Please select all that apply.),1
+Retirement is long way off  (2),0
+"I meant to, but haven't gotten around to it  (3)",0
+I think the Age Pension will be enough  (4),0
+I don’t have enough income to save generally – for super or otherwise  (5),0
+I am confident that I will have enough to retire on  (7),0
+Other  (6) ________________________________________________,0
+Page Break,0
+"Excluding the family home, approximately how much in superannuation and other savings do you aim to enter retirement with? If you are in a couple please provide a combined amount.",1
+"less than $100,000  (1)",0
+"$100,000 to $199,999  (2)",0
+"$200,000 to $299,999  (3)",0
+"$300,000  to $399,999  (4)",0
+"$400,000  to $499,999  (6)",0
+"$500,000  to $599,999  (18)",0
+"$600,000  to $799,999  (19)",0
+"$800,000  to $999,999  (7)",0
+$1 million to less than $1.2 million  (12),0
+$1.2 million to less than $1.4 million  (15),0
+$1.4 million to less than $1.6 million  (16),0
+$1.6 million or more  (13),0
+Not sure  (5),0
+Do you think that you will achieve this amount?,1
+Very likely  (1),0
+Likely  (2),0
+Neither likely nor unlikely  (3),0
+Unlikely  (4),0
+Very unlikely  (5),0
+Page Break,0
+Display This Question:,0
+If Q7.1 = Yes,0
+Have you worked out how much you need to save each year to reach your retirement savings goal?,1
+"Yes, I have worked out a specific amount I need to save each year  (1)",0
+"Yes, I have worked out a rough estimate of what I need to save each year  (3)",0
+No  (2),0
+Display This Question:,0
+If Q2.6 = Employed by an organisation,0
+And Q7.1 = Yes,0
+Did you change how much you are contributing to super as a result of calculating how much money you need for retirement?,1
+"No, I am already saving enough so I didn't make any changes to my savings  (1)",0
+"No, but I changed my savings elsewhere  (2)",0
+"Yes, I decreased my voluntary contributions  (5)",0
+"Yes, I increased my voluntary contributions  (3)",0
+Other (please specify)  (4) ________________________________________________,0
+Display This Question:,0
+If Q2.6 = Self-employed,0
+And Q7.1 = Yes,0
+Did you change how much you are contributing to super as a result of calculating how much money you need for retirement?,1
+"No, I am already saving enough so I didn't make any changes to my savings  (1)",0
+"No, but I changed my savings elsewhere  (4)",0
+"Yes, I decreased my super contributions  (3)",0
+"Yes, I increased my super contributions  (2)",0
+Other (please sepcify)  (5) ________________________________________________,0
+Page Break,0
+"In today’s dollars, approximately what level of annual income do you think you will need for retirement? ",1
+"less than $20,000  (2)",0
+"$20,000 to $29,999  (3)",0
+"$30,000 to $39,999  (6)",0
+"$40,000 to $49,999  (8)",0
+"$50,000 to $59,999  (9)",0
+"$60,000 to $69,999  (4)",0
+"$70,000 to $79,999  (10)",0
+"$80,000 to $89,999  (11)",0
+"$90,000 to $99,999  (12)",0
+"$100,000 to $119,999  (13)",0
+"$120,000 to $139,999  (15)",0
+"$140,000 to $159,999  (17)",0
+"$160,000 to $179,999  (19)",0
+"$180,000 or more  (5)",0
+"Q7.9 Which form of investment do you expect to have the largest value when you retire? Please rank the following options from largest value (1) to smallest. (If some of the components below are not relevant to you, please do not rank them.)",0
+______ Superannuation (1),0
+______ Family home (2),0
+______ Share or property portfolio (4),0
+______ Own business (5),0
+______ Other (please specify) (6),0
+Do you believe that you’ll have the same standard of living in retirement as your parents? ,1
+Certainly better  (1),0
+Likely better  (2),0
+About the same  (3),0
+Likely worse  (4),0
+Certainly worse  (5),0
+Q7.11 Please rate your agreement with the following statements,0
+strongly agree (1),0
+agree (2),0
+neither agree nor disagree (3),0
+disagree (4),0
+strongly disagree (5),0
+The rules of superannuation and Age Pension change too much (2),0
+Superannuation is a stable investment for retirement (3),0
+I am concerned about how financial markets will affect my superannuation (4),0
+Page Break,0
+Please assess the likelihood of the following statements about the Age Pension.,1
+Very unlikely (1),0
+Unlikely (2),0
+Neither likely nor unlikely (3),0
+Likely (4),0
+Very Likely (5),0
+The Age Pension will still exist when I reach retirement age (2),0
+The Age Pension will still be of a similar value when I reach retirement age (3),0
+"End of Block: Retirement planning, etc",0
+Page of,0
+Page 27 of 37,0
+image1.png,0
+image2.png,0

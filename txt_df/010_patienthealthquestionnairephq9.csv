@@ -1,0 +1,103 @@
+text,label
+PATIENT HEALTH QUESTIONNAIRE (PHQ-9),0
+NAME: ~[Title] ~[Forename] ~[Surname]     DATE:,0
+"Over the last 2 weeks, how often have you been",0
+Bothered by any of the following problems?,0
+(use “√” to indicate your answer),0
+add columns:                       +                      +,0
+(Healthcare professional:  For interpretation of TOTAL           TOTAL:,0
+Please refer to accompanying scoring card.),0
+"PHQ-9 is adapted from PRIME MD TODAY, developed by Drs Robert L Spitzer, Janet B.W. Williams, Kurt Kroenke, and colleagues with an",0
+"educational grant from Pfizer Inc.  For research information, contact Dr Spitzer at rs8@columbia.edu.  Use of the PHQ-9 may only be made in",0
+accordance with the Terms of Use available at http://www.pfizer.com.  Copyright ©1999 Pfizer Inc..  All rights reserved.  PRIME MD TODAY is a,0
+trademark of Pfizer Inc.,0
+ZT274388,0
+Little interest or pleasure in doing things,1
+0,0
+1,0
+2,0
+3,0
+"Feeling down, depressed or hopeless",1
+0,0
+1,0
+2,0
+3,0
+"Trouble falling or staying asleep, or sleeping too much",1
+0,0
+1,0
+2,0
+3,0
+Feeling tired or having little energy,1
+0,0
+1,0
+2,0
+3,0
+Poor appetite or overeating,1
+0,0
+1,0
+2,0
+3,0
+6.  <q>Feeling bad about yourself – or that you are,0
+a failure or have let yourself or your family down</q>,0
+0,0
+1,0
+2,0
+3,0
+"7.  <q>Trouble concentrating on things, such as reading the",0
+newspaper or watching television</q>,0
+0,0
+1,0
+2,0
+3,0
+8.  <q>Moving or speaking slowly that other people could,0
+have noticed.  Or the opposite – being so fidgety,0
+or restless that you have been moving around a lot,0
+more than usual.</q>,0
+0,0
+1,0
+2,0
+3,0
+"9.  <q>Thoughts that you would be better off dead,",0
+or of hurting yourself some way.</q>,0
+0,0
+1,0
+2,0
+3,0
+N,0
+ot,0
+a,0
+t a,0
+ll,0
+S,0
+ev,0
+er,0
+al,0
+d,0
+ay,0
+s,0
+M,0
+or,0
+e,0
+th,0
+an,0
+h,0
+al,0
+f,0
+th,0
+e,0
+da,0
+ys,0
+N,0
+ea,0
+rly,0
+e,0
+ve,0
+ry,0
+d,0
+ay,0
+"10.  If you checked off any problems, how                                                                                          Not difficult at all      ________",0
+difficult have these problems made it for,0
+"You to do your work, take care of things at                                                                                  Somewhat difficult   ________",0
+"Home, or get along with other people?",0
+Very difficult            ________,0
+Extremely difficult   ________,0

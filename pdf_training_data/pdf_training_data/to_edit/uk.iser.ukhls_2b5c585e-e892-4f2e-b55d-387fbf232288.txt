@@ -1,0 +1,5646 @@
+
+1 
+ 
+
+Understanding Society Coronavirus Study: July 2020 questionnaire 
+ 
+
+[19/05/2021] 
+ 
+Table of contents 
+ 
+ID check and household composition module ........................................................................................ 2 
+
+Household relationships module ............................................................................................................ 7 
+
+Coronavirus illness module ................................................................................................................... 15 
+
+Long term health condition management module ............................................................................... 21 
+
+Caring within household module .......................................................................................................... 41 
+
+Loneliness module ................................................................................................................................ 46 
+
+Housing module .................................................................................................................................... 47 
+
+Employment module............................................................................................................................. 50 
+
+Finance module ..................................................................................................................................... 71 
+
+Financial security module ..................................................................................................................... 81 
+
+5-11 year-olds: strengths and difficulties questionnaire and special educational needs module ....... 85 
+
+12-17 year-olds: special educational needs module ............................................................................ 94 
+
+Religion module .................................................................................................................................... 97 
+
+Volunteering module .......................................................................................................................... 100 
+
+Sleep module ...................................................................................................................................... 102 
+
+Nutrition module ................................................................................................................................ 106 
+
+Diet and food security module ........................................................................................................... 110 
+
+Life satisfaction module ...................................................................................................................... 113 
+
+GHQ module ....................................................................................................................................... 115 
+
+Closing module .................................................................................................................................... 119 
+
+ 
+ 
+  
+
+
+
+2 
+ 
+
+ID check and household composition module 
+ 
+Variables used for routing – from sample file 
+ 
+ff_country [country of residence]  
+
+1. England 
+2. Wales 
+3. Scotland 
+4. N Ireland 
+
+ 
+forename [forename] 
+ff_dobd [date of birth] 
+ff_dobm [month of birth] 
+ff_doby [year of birth] 
+ 
+Variables used for routing – from other modules 
+ 
+n/a 
+ 
+
+tsidcheckst [Time stamp: id check module start]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time arrived at first question in this module 
+ 
+
+welsh [Welsh language]   
+Universe:  IF ff_country = 2 // Ask if respondent lives in Wales. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Do not display DK and REF answer options, answer required. 
+Text: Would you like to complete this survey in Welsh or English? 
+Hoffech chi gwblhau'r arolwg hwn yn Gymraeg neu yn Saesneg? 
+
+1. Welsh/Cymraeg 
+2. English/Saesneg 
+
+  
+
+
+
+3 
+ 
+
+dob [Respondent date of birth]   
+Universe:  Ask all. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Do not display DK and REF answer options, answer required. Calendar to 
+default to month/year of birth of expected sample member. First name {forename} to 
+appear on screen.  
+Hard check: If date of birth does not match ff_dobd/ff_dobm/ff_doby 
+Hard check text: That date of birth does not match the one we hold in our records. Please 
+make sure you have followed your own unique link to this survey and re-select your date of 
+birth.  
+Hard check text 2: [Second time hard check failed] Sorry, that date of birth does not match 
+the one we hold in our records. You will not be able to complete the survey online this 
+month. Please contact contact@understandingsociety.ac.uk with information about this 
+error, and quote your PID: {ff_pid} 
+Text: We need to make sure we are surveying the correct person. {Forename}, what is your 
+date of birth? 
+Please click on the red calendar in order to select your date of birth. 
+[dd/mm/yyyy – calendar function] 
+ 
+
+dobchk [Check respondent date of birth]   
+
+Universe:  Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Flag of 1 if the dob matches ff_dobd/ff_dobm/ff_doby, and 0 if these do not 
+match.  
+
+0. No match 
+1. Match 
+
+ 
+
+age [Age - derived]   
+
+Universe:  Ask all. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Do not display DK and REF answer options, answer required. Range [16 – 
+110]. 
+DERIVED: Calculate respondent’s age. 
+[Numeric textbox] 
+  
+
+
+
+4 
+ 
+
+sex_cv [Respondent sex]   
+Universe. Ask all. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Do not display DK and REF answer options, answer required. 
+Text: And are you… 
+
+1. Male 
+2. Female 
+3. Prefer not to say 
+
+ 
+
+addrchk [Address check]   
+
+Universe:  Ask all. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Do not display DK and REF answer options, answer required. 
+Text: Can I just check, are you normally resident at this address? 
+{ff_address1} 
+{ff_address2} 
+{ff_address3} 
+{ff_address4} 
+{ff_postcode} 
+
+1. Yes 
+2. No  
+
+ 
+
+addrnew [New postcode]   
+
+Universe:  IF addrchk = 2 // Ask if changed address. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Do not display DK and REF answer options, answer required. 
+Text: Please can you tell us your new postcode? 
+[Textbox] 
+
+1. I live outside the UK 
+  
+
+
+
+5 
+ 
+
+addressuk [New address, UK]   
+Universe: if addrchk = 2 AND addrnew = valid postcode // Ask if changed address and valid 
+UK postcode entered. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Do not display DK and REF answer options, answer required. 
+Text: Please can you tell us your new address? 
+If you need to leave any of the boxes blank, please click ‘Next’ twice 
+
+House/Building number  
+
+Street  University o
+ 
+
+ Wivenhoe P
+ 
+
+Town or city  COLCHEST
+ 
+
+County  Essex
+ 
+
+Postcode  CO4 3SQ
+ 
+
+  
+
+addressnonuk [New address, outside UK]   
+
+Universe: if addrchk = 2 AND addrnew = 1 // Ask if changed address and new address is 
+outside the UK. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Do not display DK and REF answer options, answer required. 
+Text: Please enter your address. 
+[Textbox] 
+ 
+
+couplewsh [Living with a partner]   
+
+Universe:  IF welsh = 1 // Ask if survey completed in Welsh. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Do not display DK and REF answer options, answer required. 
+Text: Are you currently living with a partner? 
+
+1. Yes 
+2. No 
+
+  
+
+
+
+6 
+ 
+
+hhcompwsh [Household composition, excluding respondent]   
+Universe: IF welsh = 1 // Ask if survey completed in Welsh. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Present as a grid. Do not display DK and REF answer options, answer 
+required. Range [0 – 10]. 
+Text: Thinking about the people who live in your household. Without counting yourself, how 
+many are…? 
+Please enter your answers in the boxes below. Enter “0” if no-one is in that age group. 
+hhcompwsha. Aged 0-4 [Numeric textbox] 
+hhcompwshb. Aged 5-15 [Numeric textbox] 
+hhcompwshc. Aged 16-18 [Numeric textbox] 
+hhcompwshd. Aged 19-69 [Numeric textbox] 
+hhcompwshe. Aged 70 or older [Numeric textbox] 
+ 
+
+tsidcheckend [Time stamp: id check module end]   
+
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time completed last question in this module 
+ 
+ 
+  
+
+
+
+7 
+ 
+
+Household relationships module 
+ 
+Note: the questions in this module were not translated into Welsh.  
+Universe for module: IF ff_country is not 2 OR (ff_country = 2 AND welsh = 2) // Ask if 
+respondent is not living in Wales or living in Wales and completed the survey in English.  
+ 
+Variables used for routing – from sample file 
+ 
+ff_country [country of residence]  
+
+1. England 
+2. Wales 
+3. Scotland 
+4. N Ireland 
+
+ 
+Variables used for routing – from other modules 
+ 
+welsh [Welsh language] – ID check and household composition module 
+
+1. Welsh  
+2. English  
+
+ 
+couplewsh [Living with a partner] – ID check and household composition module 
+
+1. Yes 
+2. No 
+
+ 
+Number of other household members – ID check and household composition module 
+hhcompwsha – aged 0-4 
+hhcompwshb – aged 5-15 
+hhcompwshc – aged 16-18 
+hhcompwshd – aged 19-69 
+hhcompwshe – aged 70+ 
+ 
+
+tshhrelst [Time stamp: household relationships module start]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time arrived at first question in this module 
+  
+
+
+
+8 
+ 
+
+hhnum [Household size]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Do not display DK and REF answer options, answer required. Range [1 - 26].  
+Text: Including yourself, how many people are currently living in your household? Please 
+include everyone, even if it is only a temporary arrangement. 
+[Numeric text box]  
+ 
+
+person [Household members]   
+Universe: IF hhnum > 1 // Ask if more than one person in household.  
+Source: UKHLS covid-19 survey 
+Scripting notes IF hhnum > 1 display a grid of hhnum-1 rows. Headings for “sex”, “age” and 
+“relationship”. Within each row a drop-down menu for sex [1 Male/2 Female], age [numeric 
+text box, range 0-120], and drop down box for relationship should appear for every person 
+in the household (excluding the respondent). Do not display DK and REF answer options, 
+answer required.   
+Text: Thinking about the people other than yourself who currently live in your household, 
+please tell us each person’s sex, age and relationship to you. It may help you to start with 
+the oldest person. 
+ 
+personsexa [sex – drop-down] personagea [age – numeric text box] relationa [drop-down] 
+personsexb [sex – drop-down] personageb [age – numeric text box] relationb [drop-down] 
+personsexc [sex – drop-down] personagec [age – numeric text box] relationc [drop-down] 
+personsexd [sex – drop-down] personaged [age – numeric text box] relationd [drop-down]  
+Etc. 
+ 
+Relation drop down options 
+
+1 Husband/wife/civil partner 
+2 Partner/cohabitee 
+3 Son/daughter (incl. adopted, step, foster) 
+4 Parent 
+5 Brother/sister 
+6 Grand-child 
+7 Grand-parent 
+8 Other relative 
+9 Other non-relative 
+
+ 
+  
+
+
+
+9 
+ 
+
+couple [Living with a partner]   
+Universe Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED:  
+1. Yes: IF (welsh = 1 AND couplewsh = 1) OR (welsh is not 1 AND (relationa = 1, 2 OR 
+relationb =   
+
+1, 2 OR relationc = 1, 2 OR relationd = 1, 2 OR relatione = 1, 2 OR relationf = 1, 2 OR 
+relationg = 1, 2 OR relationh = 1, 2 OR relationi = 1, 2 OR relationj = 1, 2 OR relationk 
+= 1, 2 OR relationl = 1, 2 OR relationm = 1, 2 OR relationn = 1, 2 OR relationo = 1, 2 
+OR relationp = 1, 2 OR relationq = 1, 2 OR relationr = 1, 2 OR relations = 1, 2 OR 
+relationt = 1, 2 OR relationu = 1, 2 OR relationv = 1, 2 OR relationw = 1, 2 OR 
+relationx = 1, 2 OR relationy = 1, 2)) 
+
+2. No: otherwise 
+ 
+
+hhcompa [Number of household members aged 0-4, excluding respondent]   
+
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED:  
+IF welsh = 1: hhcompwsha 
+IF welsh = is not 1: Number of household members aged 0-4 based on variables personagea 
+to personagey 
+[Numeric] 
+ 
+
+hhcompb [Number of household members aged 5-15, excluding respondent]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED:  
+IF welsh = 1: hhcompwshb 
+IF welsh = is not 1: Number of household members aged 5-15 based on variables 
+personagea to personagey 
+[Numeric] 
+ 
+
+hhcompc [Number of household members aged 16-18, excluding respondent]   
+
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED:  
+IF welsh = 1: hhcompwshc 
+IF welsh = is not 1: Number of household members aged 16-18 based on variables 
+personagea to personagey 
+[Numeric] 
+
+
+
+10 
+ 
+
+hhcompd [Number of household members aged 19-69, excluding respondent]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED:  
+IF welsh = 1: hhcompwshd 
+IF welsh = is not 1: Number of household members aged 19-69 based on variables 
+personagea to personagey  
+[Numeric] 
+ 
+
+hhcompe [Number of household members aged 70 plus, excluding respondent]   
+
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED:  
+IF welsh = 1: hhcompwshe 
+IF welsh = is not 1: Number of household members aged 70+ based on variables personagea 
+to personagey 
+[Numeric] 
+ 
+
+parent0plus [Parent of children aged 0-4 in household]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED:  
+
+1. Yes: IF (relationa = 3 AND personagea < 5) OR (relationb = 3 AND personageb < 5) OR  
+(relationc = 3 AND personagec < 5) OR  (relationd = 3 AND personaged < 5) OR  
+(relatione = 3 AND personagee < 5) OR  (relationf = 3 AND personagef < 5) OR  
+(relationg = 3 AND personageg < 5) OR  (relationh = 3 AND personageh < 5) OR  
+(relationi = 3 AND personagei < 5) OR  (relationj = 3 AND personagej < 5) OR  
+(relationk = 3 AND personagek < 5) OR  (relationl = 3 AND personagel < 5) OR  
+(relationm = 3 AND personagem < 5) OR  (relationn = 3 AND personagen < 5) OR  
+(relationo = 3 AND personageo < 5) OR  (relationp = 3 AND personagep < 5) OR  
+(relationq = 3 AND personageq < 5) OR  (relationr = 3 AND personager < 5) OR  
+(relations = 3 AND personages < 5) OR  (relationt = 3 AND personaget < 5) OR  
+(relationu = 3 AND personageu < 5) OR  (relationv = 3 AND personagev < 5) OR  
+(relationw = 3 AND personagew < 5) OR  (relationx = 3 AND personagex < 5) OR  
+(relationy = 3 AND personagey < 5) 
+
+2. No: otherwise 
+  
+
+
+
+11 
+ 
+
+parent5plus [Parent of children aged 5+ in household]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED:  
+
+1. Yes: IF (relationa = 3 AND personagea >= 5) OR (relationb = 3 AND personageb => 5) 
+OR  (relationc = 3 AND personagec => 5) OR  (relationd = 3 AND personaged => 5) OR  
+(relatione = 3 AND personagee => 5) OR  (relationf = 3 AND personagef => 5) OR  
+(relationg = 3 AND personageg => 5) OR  (relationh = 3 AND personageh => 5) OR  
+(relationi = 3 AND personagei => 5) OR  (relationj = 3 AND personagej => 5) OR  
+(relationk = 3 AND personagek => 5) OR  (relationl = 3 AND personagel => 5) OR  
+(relationm = 3 AND personagem => 5) OR  (relationn = 3 AND personagen => 5) OR  
+(relationo = 3 AND personageo => 5) OR  (relationp = 3 AND personagep => 5) OR  
+(relationq = 3 AND personageq => 5) OR  (relationr = 3 AND personager => 5) OR  
+(relations = 3 AND personages => 5) OR  (relationt = 3 AND personaget => 5) OR  
+(relationu = 3 AND personageu => 5) OR  (relationv = 3 AND personagev => 5) OR  
+(relationw = 3 AND personagew => 5) OR  (relationx = 3 AND personagex => 5) OR  
+(relationy = 3 AND personagey => 5)  
+
+2. No: otherwise 
+ 
+
+parent015 [Parent of children aged 0-15 in household]   
+
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED:  
+
+1. Yes: IF (relationa = 3 AND personagea < 16) OR (relationb = 3 AND personageb < 16) 
+OR  (relationc = 3 AND personagec < 16) OR  (relationd = 3 AND personaged < 16) OR  
+(relatione = 3 AND personagee < 16) OR  (relationf = 3 AND personagef < 16) OR  
+(relationg = 3 AND personageg < 16) OR  (relationh = 3 AND personageh < 16) OR  
+(relationi = 3 AND personagei < 16) OR  (relationj = 3 AND personagej < 16) OR  
+(relationk = 3 AND personagek < 16) OR  (relationl = 3 AND personagel < 16) OR  
+(relationm = 3 AND personagem < 16) OR  (relationn = 3 AND personagen < 16) OR  
+(relationo = 3 AND personageo < 16) OR  (relationp = 3 AND personagep < 16) OR  
+(relationq = 3 AND personageq < 16) OR  (relationr = 3 AND personager < 16) OR  
+(relations = 3 AND personages < 16) OR  (relationt = 3 AND personaget < 16) OR  
+(relationu = 3 AND personageu < 16) OR  (relationv = 3 AND personagev < 16) OR  
+(relationw = 3 AND personagew < 16) OR  (relationx = 3 AND personagex < 16) OR  
+(relationy = 3 AND personagey < 16) 
+
+2. No: otherwise 
+ 
+
+  
+
+
+
+12 
+ 
+
+parent1619 [Parent of children aged 16-19 in household]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED:  
+
+1. Yes: IF (relationa = 3 AND personagea > 15 AND personagea < 20) OR (relationb = 3 
+AND personageb > 15 AND personageb < 20) OR  (relationc = 3 AND personagec > 15 
+AND personagec < 20) OR  (relationd = 3 AND personaged > 15 AND personaged < 
+20) OR  (relatione = 3 AND personagee > 15 AND personagee < 20) OR  (relationf = 3 
+AND personagef > 15 AND personagef < 20) OR  (relationg = 3 AND personageg > 15 
+AND personageg < 20) OR  (relationh = 3 AND personageh > 15 AND personageh < 
+20) OR  (relationi = 3 AND personagei > 15 AND personagei < 20) OR  (relationj = 3 
+AND personagej > 15 AND personagej < 20) OR  (relationk = 3 AND personagek > 15 
+AND personagek < 20) OR  (relationl = 3 AND personagel > 15 AND personagel < 20) 
+OR  (relationm = 3 AND personagem > 15 AND personagem < 20) OR  (relationn = 3 
+AND personagen > 15 AND personagen < 20) OR  (relationo = 3 AND personageo > 15 
+AND personageo < 20) OR  (relationp = 3 AND personagep > 15 AND personagep < 
+20) OR  (relationq = 3 AND personageq > 15 AND personageq < 20) OR  (relationr = 3 
+AND personager > 15 AND personager < 20) OR  (relations = 3 AND personages > 15 
+AND personages < 20) OR  (relationt = 3 AND personaget > 15 AND personaget < 20) 
+OR  (relationu = 3 AND personageu > 15 AND personageu < 20) OR  (relationv = 3 
+AND personagev > 15 AND personagev < 20) OR  (relationw = 3 AND personagew > 
+15 AND personagew < 20) OR  (relationx = 3 AND personagex > 15 AND personagex < 
+20) OR  (relationy = 3 AND personagey > 15 AND personagey < 20) 
+
+2. No: otherwise 
+ 
+  
+
+
+
+13 
+ 
+
+parent511 [Parent of children aged 5-11 in household]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED:  
+
+1. Yes: IF (relationa = 3 AND personagea > 4 AND personagea < 12) OR (relationb = 3 
+AND personageb > 4 AND personageb < 12) OR  (relationc = 3 AND personagec > 4 
+AND personagec < 12) OR  (relationd = 3 AND personaged > 4 AND personaged < 12) 
+OR  (relatione = 3 AND personagee > 4 AND personagee < 12) OR  (relationf = 3 AND 
+personagef > 4 AND personagef < 12) OR  (relationg = 3 AND personageg > 4 AND 
+personageg < 12) OR  (relationh = 3 AND personageh > 4 AND personageh < 12) OR  
+(relationi = 3 AND personagei > 4 AND personagei < 12) OR  (relationj = 3 AND 
+personagej > 4 AND personagej < 12) OR  (relationk = 3 AND personagek > 4 AND 
+personagek < 12) OR  (relationl = 3 AND personagel > 4 AND personagel < 12) OR  
+(relationm = 3 AND personagem > 4 AND personagem < 12) OR  (relationn = 3 AND 
+personagen > 4 AND personagen < 12) OR  (relationo = 3 AND personageo > 4 AND 
+personageo < 12) OR  (relationp = 3 AND personagep > 4 AND personagep < 12) OR  
+(relationq = 3 AND personageq > 4 AND personageq < 12) OR  (relationr = 3 AND 
+personager > 4 AND personager < 12) OR  (relations = 3 AND personages > 4 AND 
+personages < 12) OR  (relationt = 3 AND personaget > 4 AND personaget < 12) OR  
+(relationu = 3 AND personageu > 4 AND personageu < 12) OR  (relationv = 3 AND 
+personagev > 4 AND personagev < 12) OR  (relationw = 3 AND personagew > 4 AND 
+personagew < 12) OR  (relationx = 3 AND personagex > 4 AND personagex < 12) OR  
+(relationy = 3 AND personagey > 4 AND personagey < 12) 
+
+2. No: otherwise 
+ 
+  
+
+
+
+14 
+ 
+
+parent1217 [Parent of children aged 12-17 in household]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED:  
+
+1. Yes: IF (relationa = 3 AND personagea > 11 AND personagea < 18) OR (relationb = 3 
+AND personageb > 11 AND personageb < 18) OR  (relationc = 3 AND personagec > 11 
+AND personagec < 18) OR  (relationd = 3 AND personaged > 11 AND personaged < 
+18) OR  (relatione = 3 AND personagee > 11 AND personagee < 18) OR  (relationf = 3 
+AND personagef > 11 AND personagef < 18) OR  (relationg = 3 AND personageg > 11 
+AND personageg < 18) OR  (relationh = 3 AND personageh > 11 AND personageh < 
+18) OR  (relationi = 3 AND personagei > 11 AND personagei < 18) OR  (relationj = 3 
+AND personagej > 11 AND personagej < 18) OR  (relationk = 3 AND personagek > 11 
+AND personagek < 18) OR  (relationl = 3 AND personagel > 11 AND personagel < 18) 
+OR  (relationm = 3 AND personagem > 11 AND personagem < 18) OR  (relationn = 3 
+AND personagen > 11 AND personagen < 18) OR  (relationo = 3 AND personageo > 11 
+AND personageo < 18) OR  (relationp = 3 AND personagep > 11 AND personagep < 
+18) OR  (relationq = 3 AND personageq > 11 AND personageq < 18) OR  (relationr = 3 
+AND personager > 11 AND personager < 18) OR  (relations = 3 AND personages > 11 
+AND personages < 18) OR  (relationt = 3 AND personaget > 11 AND personaget < 18) 
+OR  (relationu = 3 AND personageu > 11 AND personageu < 18) OR  (relationv = 3 
+AND personagev > 11 AND personagev < 18) OR  (relationw = 3 AND personagew > 
+11 AND personagew < 18) OR  (relationx = 3 AND personagex > 11 AND personagex < 
+18) OR  (relationy = 3 AND personagey > 11 AND personagey < 18) 
+
+2. No: otherwise 
+ 
+
+tshhrelend [Time stamp: household relationships module end]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time completed last question in this module 
+ 
+ 
+ 
+  
+
+
+
+15 
+ 
+
+Coronavirus illness module   
+ 
+Variables used for routing – from sample file 
+ 
+ff_prevsurv [Whether full respondent in a previous monthly survey]  
+
+0. No  
+1. Yes 
+
+ 
+Date of the last monthly interview the respondent completed: 
+ff_intd [dd]  
+ff_intm [January…]  
+ff_inty [yyyy] 
+ 
+ff_country [country of residence]  
+
+1. England 
+2. Wales 
+3. Scotland 
+4. N Ireland 
+
+ 
+surveymonth – calendar month and year of current survey 
+July 2020 
+ 
+Variables used for routing – from other modules 
+ 
+n/a 
+ 
+
+tscovidst [Time stamp: coronavirus illness module start]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time arrived at first question in this module 
+ 
+
+hadsymp [Has had symptoms that could be coronavirus] 
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+Text: Have you experienced symptoms that could be caused by coronavirus (COVID-19) {IF 
+ff_prevsurv=0: ? / IF ff_prevsurv=1: , since the last time you completed this survey on 
+{ff_intd} {ff_intm} {ff_inty}?} 
+
+1. Yes 
+2. No 
+
+  
+
+
+
+16 
+ 
+
+hassymp [Has symptoms that could be coronavirus] 
+Universe:  IF hadsymp = 1 // Ask if has had symptoms that could be coronavirus. 
+Source: UKHLS covid-19 survey 
+Text: Are you currently experiencing symptoms that could be caused by coronavirus? 
+
+1. Yes 
+2. No 
+
+ 
+
+symptoms [Symptoms] 
+Universe:  IF hadsymp = 1 // Ask if has had symptoms that could be coronavirus. 
+Source: Adapted Wellcome Common Questionnaire 23rd April 2020  
+Scripting notes: For compatibility with the April 2020 version, use code 11 for ‘None of 
+these’, add new categories as codes 12+. Code 11 is exclusive. 
+Text: Which of the following symptoms have you had? 
+Please select all that apply. 
+
+1. High temperature 
+2. A new continuous cough 
+3. Shortness of breath or trouble breathing. 
+4. Runny or stuffy nose  
+5. Muscle or body aches 
+6. Headaches 
+7. Sore throat 
+8. Fatigue  
+9. Diarrhoea/Digestive issues/Upset stomach  
+10. Loss of sense of smell or taste  
+12. Decrease in appetite 
+13. Sneezing 
+14. Sore eyes 
+15. Hoarse voice 
+16. Dizziness 
+17. Tightness in the chest 
+18. Chest pain 
+19. Chills (feeling too cold) 
+20. Difficulty sleeping 
+21. Numbness or tingling somewhere in the body 
+22. Feeling of heaviness in arms or legs 
+11. None of these 
+ 
+ 
+
+ 
+ 
+  
+
+
+
+17 
+ 
+
+cv19treat [Medical help for covid19 symptoms] 
+Universe: IF hadsymp = 1 // Ask if has had symptoms that could be coronavirus. 
+Source: Adapted Wellcome Common Questionnaire 23rd April 2020  
+Text: Did you seek medical attention for the symptoms you experienced?  
+
+1. Yes 
+2. No 
+
+ 
+
+cv19trwhat [What medical help for covid19 symptoms] 
+Universe: IF hadsymp = 1 AND cv19treat = 1 // Ask if has had symptoms that could be 
+coronavirus and sought medical help. 
+Source: Adapted Wellcome Common Questionnaire 23rd April 2020  
+Text: What kind of medical attention did you access?    
+Please select all that apply. 
+
+1. Contacted NHS 111 in England, Wales and Northern Ireland or NHS 24 in Scotland by 
+phone or online  
+
+2. Received an NHS 111 isolation note 
+3. Visited pharmacist  
+4. Consulted GP/practice nurse over the phone or online 
+5. Consulted GP/practice nurse face to face 
+6. Received a ‘fit note’ from GP 
+7. Walk-in centre  
+8. Accident and Emergency 
+9. Inpatient hospital stay 
+10. Employer’s occupational health service 
+11. Other 
+
+  
+
+tested [Tested for coronavirus] 
+Universe:  Ask all. 
+Source: UKHLS covid-19 survey 
+Text: Have you been tested for coronavirus {IF ff_prevsurv=0: ? / IF ff_prevsurv=1: since the 
+last time you completed this survey on {ff_intd} {ff_intm} {ff_inty}?} 
+
+1. Yes 
+2. No 
+
+ 
+ 
+
+  
+
+
+
+18 
+ 
+
+testresult [Result of coronavirus test] 
+Universe:  IF tested = 1 // Ask if tested for coronavirus. 
+Source: UKHLS covid-19 survey 
+Text: What was the result of your coronavirus test? 
+
+1. Positive - it showed I had coronavirus 
+2. Negative - it showed I did not have coronavirus 
+3. Inconclusive 
+4. Waiting for results 
+
+ 
+
+testwhen [When had coronavirus test] 
+
+Universe:  IF tested = 1 AND testresult = 1, 2, 3 // Ask if tested for coronavirus and test 
+result is known. 
+Source: UKHLS covid-19 survey  
+Text: When did you receive the result of your coronavirus test? 
+[dd/mm/yyyy – calendar function] 
+ 
+
+hadcovid [Likelihood of having had coronavirus] 
+Universe:  IF hadsymp = 1 AND (tested = 2 OR (tested = 1 AND testresult is not 1, 2)) // Ask if 
+has had symptoms that could be coronavirus, and has not been tested, or tested and result 
+is not positive or negative. 
+Source: UKHLS covid-19 survey 
+Text: In your view, how likely is it that you have had COVID-19? 
+
+1. Definitely had it 
+2. Very likely 
+3. Likely 
+4. Unlikely 
+5. Very unlikely  
+6. Don’t know/can’t tell 
+
+ 
+
+testtrace [Contacted by test&trace] 
+Universe:  IF tested = 1 AND testresult = 1 // Ask if tested for coronavirus and test result is 
+positive. 
+Source: UKHLS covid-19 survey  
+Text: Were you contacted by the coronavirus NHS test and trace service after your test 
+result? 
+
+1. Yes 
+2. No 
+
+ 
+  
+
+
+
+19 
+ 
+
+traceinfo [Information provided to test&trace] 
+Universe:  IF tested = 1 AND testresult = 1 AND testtrace = 1 // Ask if tested for coronavirus, 
+and test result is positive, and contacted by test & trace service. 
+Source: UKHLS covid-19 survey  
+Text: Were you able to provide information on places you had been and people you had 
+been in contact with prior to your COVID-19 symptoms starting? 
+
+1. Yes, all of them  
+2. Some of them 
+3. No 
+
+ 
+
+traceinfoeng [Contacted by test&trace England] 
+Universe:  IF tested = 1 AND testresult = 1 AND testtrace = 1 AND traceinfo = 1, 2 AND 
+ff_country = 1 // Ask if tested for coronavirus, and test result is positive, and contacted by 
+test & trace service, and was able to report at least some contacts, and living in England. 
+Source: UKHLS covid-19 survey  
+Text: Did you provide information on the NHS website or over the telephone? 
+
+1. Over phone 
+2. On the NHS website  
+
+ 
+
+traced [Traced by test&trace] 
+
+Universe:  Ask all. 
+Source: UKHLS covid-19 survey 
+Text: Have you been contacted by the NHS test and trace service to say you have been in 
+contact with someone who has COVID-19 and should self-isolate {IF surveymonth = July 
+2020: ? / IF surveymonth is not July 2020: since the last time you completed this survey on 
+{ff_intd} {ff_intm} {ff_inty}?} 
+
+1. Yes 
+2. No, but someone in my household has 
+3. No 
+
+ 
+  
+
+
+
+20 
+ 
+
+contactcv19t [Contact with covid19 case including tracing] 
+Universe:  Ask all. 
+Source: Adapted from Wellcome Common Questionnaire 23rd April 2020 , extra categories 
+Scripting notes: Code 4 is exclusive. 
+Text: Have you been in close contact with anyone with COVID-19 in the last two weeks? 
+Please select all that apply. 
+
+1. Yes, and I was contacted by the NHS test and trace service  
+2. Yes, but I was not notified by the NHS test and trace Service 
+3. Yes, I was in contact with a suspected COVID-19 case 
+4. No, not to my knowledge 
+
+ 
+
+riskcv19 [Risk of getting covid19] 
+
+Universe:  Ask all. 
+Source: UKHLS covid-19 survey 
+Text: In your view, how likely is it that you will contract COVID-19 in the next month? 
+
+1. Very likely  
+2. Likely 
+3. Unlikely 
+4. Very unlikely 
+
+ 
+
+nhsshield [NHS shielded patient] 
+Universe:  IF ff_prevsurv = 0 // Ask if not completed any previous monthly covid-19 surveys. 
+Source: UKHLS covid-19 survey 
+Text: Have you received a letter, text or email from the NHS or Chief Medical Officer saying 
+that you have been identified as someone at risk of severe illness if you catch coronavirus, 
+because you have an underlying disease or health condition?  
+
+1. Yes 
+2. No 
+
+ 
+
+tscovidend [Time stamp: coronavirus illness module end]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time completed last question in this module 
+ 
+ 
+  
+
+
+
+21 
+ 
+
+Long term health condition management module 
+ 
+Variables used for routing – from sample file 
+ 
+ff_prevsurv [Whether full respondent in a previous monthly survey]  
+
+0. No  
+1. Yes 
+
+ 
+ff_hcond1 [Long term health condition: Asthma] 
+Notes: cumulative variable that takes on value “1” if respondent has selected response 
+option 1 (Asthma) in responses to hcond_cv or hcondnew_cv in any previous monthly 
+survey.  
+
+0. Not mentioned 
+1. Mentioned 
+
+ 
+ff_hcond2 [Long term health condition: Arthritis] 
+Notes: cumulative variable that takes on value “1” if respondent has selected response 
+option 2 (Arthritis) in responses to hcond_cv or hcondnew_cv in any previous monthly 
+survey.  
+
+0. Not mentioned 
+1. Mentioned 
+
+ 
+…. Etc to … 
+ 
+ff_hcond28 [Long term health condition: Cystic fibrosis]   
+Notes: cumulative variable that takes on value “1” if respondent has selected response 
+option 28 (Cystic fibrosis) in responses to hcond_cv or hcondnew_cv in any previous 
+monthly survey.  
+
+0. Not mentioned 
+1. Mentioned 
+
+ 
+ff_hcondhas [Has long term health condition] 
+Notes: cumulative variable that takes on value “1” if any of the variables ff_hcond1 – 
+ff_hcond28 have value “1”. 
+
+0. Does not have a heath condition 
+1. Has a health condition 
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+22 
+ 
+
+ff_pregnow [Whether pregnant] 
+Notes: values of pregnow from the last monthly survey completed. 
+
+-9. Missing 
+-8. Inapplicable 
+-2. Refusal 
+-1. Don’t know 
+1. Yes 
+2. No 
+3. Don’t know 
+
+ 
+ff_stillpreg [Whether still pregnant] 
+Notes: values of stillpreg from the last monthly survey completed. 
+
+-9. Missing 
+-8. Inapplicable 
+-2. Refusal 
+-1. Don’t know 
+1. Yes 
+2. No 
+3. Don’t know 
+
+ 
+Variables used for routing – from other modules 
+ 
+sex_cv [Respondent sex] - ID and household composition module 
+
+1. Male 
+2. Female 
+3. Prefer not to say 
+
+ 
+age [Age – derived] - ID and household composition module 
+ 
+
+tslthealthst [Time stamp: long term health module start]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time arrived at first question in this module 
+  
+
+
+
+23 
+ 
+
+hcondimpactintro [Intro to long term health condition management module] 
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+Text: The health and social care of many people with long term health conditions has been 
+affected by the coronavirus pandemic. If you have health conditions, we’d like to know the 
+sorts of treatment and support you usually receive and how these have been affected. To 
+start with we would like to ask about long term health conditions you may have. 
+
+
+
+24 
+ 
+
+hcond_cv [Baseline: health condition] 
+Universe: IF ff_prevsurv = 0 // Ask if not completed any previous monthly covid-19 surveys. 
+Source: NHANES, in UKHLS, question HCOND with additional response options 
+Scripting notes: Numbering is deliberately not sequential (to match UKHLS version). Present 
+response options in the order listed below, not in the order of the numbering. Code 96 is 
+exclusive. 
+
+Text: Has a doctor or other health professional ever told you that you have any of these 
+conditions?  
+Please select all that apply. 
+
+1. Asthma  
+2. Arthritis  
+3. Congestive heart failure   
+4. Coronary heart disease   
+5. Angina   
+6. Heart attack or myocardial infarction   
+7. Stroke   
+8. Emphysema   
+11. Chronic bronchitis  
+21. COPD (Chronic Obstructive Pulmonary Disease) 
+28. Cystic fibrosis   
+10. Hypothyroidism or an under-active thyroid  
+12. Any kind of liver condition  
+13. Cancer or malignancy   
+14. Diabetes   
+15. Epilepsy   
+16. High blood pressure/hypertension 
+22. An emotional, nervous or psychiatric problem   
+19. Multiple Sclerosis  
+20. H.I.V.  
+23. Chronic kidney disease 
+24. Conditions affecting the brain and nerves, such as Parkinson's disease, motor 
+neurone disease, a learning disability or cerebral palsy  
+25. Problems with your spleen or you've had your spleen removed 
+26. Sickle cell disease 
+27. Are very overweight (having a BMI of 40 or above) 
+18. Other long standing/chronic condition  
+96. None of these  
+ 
+
+  
+
+
+
+25 
+ 
+
+arthtyp [Baseline: if has arthritis] 
+Universe: IF ff_prevsurv = 0 AND hcond_cv = 2 // Ask if not completed any previous monthly 
+covid-19 surveys and has arthritis. 
+Source: UKHLS  
+
+Text: What type of arthritis was that? 
+1. Osteoarthritis 
+2. Rheumatoid arthritis 
+3. Other type of arthritis 
+4. More than one of the above 
+5. Don't know 
+
+ 
+
+cancertyp_cv [Baseline: if has cancer] 
+Universe: IF ff_prevsurv = 0 AND hcond_cv =13 // Ask if not completed any previous 
+monthly covid-19 surveys and has cancer. 
+Source: UKHLS, question CANCERTYP with additional response options 
+Scripting notes: The numbering is deliberately not sequential for categories 7 and 8.  
+
+Text: What type of cancer or malignancy was that? 
+Please select all that apply. 
+
+1. Bowel/colorectal 
+2. Lung 
+3. Breast 
+4. Prostate {IF sex_cv = 1 // Male} 
+5. Liver 
+6. Skin cancer or melanoma 
+8. Blood or bone marrow cancer, such as leukaemia 
+7. Other 
+
+  
+
+
+
+26 
+ 
+
+mhealthtyp _cv [Baseline: mental health] 
+Universe: IF ff_prevsurv = 0 AND hcond_cv = 22 // Ask if not completed any previous 
+monthly covid-19 surveys and has emotional, nervous or psychiatric problem. 
+Source: UKHLS, question MHEALTHYP with additional response options 
+Scripting notes: The numbering is deliberate, codes 1 and 7 are deliberately missing for 
+compatibility with the UKHLS question. Code 20 is exclusive. 
+Text: What type of emotional, nervous or psychiatric problem was that?  
+Please select all that apply. 
+
+2. Depression 
+3. Psychosis or schizophrenia  
+4. Bipolar disorder (or 'manic depression')  
+5. An eating disorder  
+6. Post-traumatic stress disorder  
+8. A phobia  
+9. Panic attacks  
+10. Attention deficit hyperactivity disorder (ADHD) or Attention deficit disorder (ADD)  
+11. Post-natal depression  
+12. Dementia (including Alzheimers)  
+13. Nervous breakdown  
+14. A personality disorder  
+15. Obsessive compulsive disorder (OCD)  
+16. Seasonal affective disorder  
+17. Alcohol or drug dependence  
+18. Any other anxiety disorder  
+19. Any other mental, emotional or neurological problem or condition 
+20. Don’t know 
+
+  
+
+nhs2019gp [Baseline: use of NHS in 2019 for condition – GP] 
+
+Universe: IF ff_prevsurv = 0 AND hcond_cv is not 96, DK, REF // Ask if not completed any 
+previous monthly covid-19 surveys and has at least one health condition. 
+Source: UKHLS covid-19 survey 
+Text: Thinking back to before the outbreak of the coronavirus pandemic. In the 12 months 
+to the end of February 2020, which NHS services did you access to help manage your 
+condition(s)? 
+GP or primary care practice staff? 
+
+1. Yes  
+2. No 
+3. Not required 
+
+  
+
+
+
+27 
+ 
+
+nhs2019pm [Baseline: use of NHS in 2019 for condition – prescription meds] 
+Universe: IF ff_prevsurv = 0 AND hcond_cv is not 96, DK, REF // Ask if not completed any 
+previous monthly covid-19 surveys and has at least one health condition. 
+Source: UKHLS covid-19 survey 
+Text: Still thinking about the 12 months to the end of February 2020, which NHS services did 
+you access… 
+Prescription medicine? 
+
+1. Yes  
+2. No 
+3. Not required 
+
+ 
+
+nhs2019op [Baseline: use of NHS in 2019 for condition – outpatients] 
+Universe: IF ff_prevsurv = 0 AND hcond_cv is not 96, DK, REF // Ask if not completed any 
+previous monthly covid-19 surveys and has at least one health condition. 
+Source: UKHLS covid-19 survey 
+Text: Which NHS services did you access… 
+Hospital or clinic outpatient? 
+
+1. Yes  
+2. No 
+3. Not required 
+
+ 
+
+nhs2019ip [Baseline: use of NHS in 2019 for condition – inpatients] 
+Universe: IF ff_prevsurv = 0 AND hcond_cv is not 96, DK, REF // Ask if not completed any 
+previous monthly covid-19 surveys and has at least one health condition. 
+Source: UKHLS covid-19 survey 
+
+Text: Still thinking about the 12 months to the end of February 2020, which NHS services did 
+you access… 
+Hospital or clinic inpatient? 
+
+1. Yes  
+2. No 
+3. Not required 
+
+  
+
+
+
+28 
+ 
+
+nhs2019111 [Baseline: use of NHS in 2019 for condition – NHS111] 
+Universe: IF ff_prevsurv = 0 AND hcond_cv is not 96, DK, REF // Ask if not completed any 
+previous monthly covid-19 surveys and has at least one health condition. 
+Source: UKHLS covid-19 survey 
+Text: Which NHS services did you access… 
+NHS 111 in England, Wales and Northern Ireland or NHS 24 in Scotland? 
+
+1. Yes  
+2. No 
+3. Not required 
+
+ 
+
+chsc2019pharm [Baseline: use of CH&SC in 2019 for condition – pharmacists] 
+Universe: IF ff_prevsurv = 0 AND hcond_cv is not 96, DK, REF // Ask if not completed any 
+previous monthly covid-19 surveys and has at least one health condition. 
+Source: UKHLS covid-19 survey 
+Text: Thinking back to before the outbreak of the coronavirus pandemic. In the 12 months 
+to the end of February 2020, which community health and social care services and support 
+did you access to help manage your condition(s)? 
+Local pharmacists for advice? 
+
+1. Yes  
+2. No 
+3. Not required 
+
+ 
+
+chsc2019otcm [Baseline: use of CH&SC in 2019 for condition – otc meds] 
+Universe: IF ff_prevsurv = 0 AND hcond_cv is not 96, DK, REF // Ask if not completed any 
+previous monthly covid-19 surveys and has at least one health condition. 
+Source: UKHLS covid-19 survey 
+Text: Still thinking about the 12 months to the end of February 2020, which community 
+health and social care services and support did you access… 
+Over the counter medications? 
+
+1. Yes  
+2. No 
+3. Not required 
+
+  
+
+
+
+29 
+ 
+
+chsc2019carer [Baseline: use of CH&SC in 2019 for condition – formal carer] 
+Universe: IF ff_prevsurv = 0 AND hcond_cv is not 96, DK, REF // Ask if not completed any 
+previous monthly covid-19 surveys and has at least one health condition. 
+Source: UKHLS covid-19 survey 
+Text: Which community health and social care services and support did you access… 
+Someone visited you at home regularly to help with personal care/ medications/ shopping/ 
+cooking/ cleaning/ wound dressing/ injections? 
+
+1. Yes  
+2. No 
+3. Not required 
+
+ 
+
+chsc2019psy [Baseline: use of CH&SC in 2019 for condition – Psychotherapist] 
+Universe: IF ff_prevsurv = 0 AND hcond_cv is not 96, DK, REF // Ask if not completed any 
+previous monthly covid-19 surveys and has at least one health condition. 
+Source: UKHLS covid-19 survey 
+Text: Still thinking about the 12 months to the end of February 2020, which community 
+health and social care services and support did you access… 
+Counselling or talking therapy? 
+
+1. Yes, in person 
+2. Yes, by telephone or online 
+3. Yes, group sessions  
+4. No 
+5. Not required 
+
+ 
+  
+
+
+
+30 
+ 
+
+hcondnew_cv [New health conditions diagnosed] 
+Universe: IF ff_prevsurv = 1 // Ask if completed at least one previous monthly covid-19 
+survey.  
+Source: UKHLS, question HCONDNEW adapted with additional response options 
+Scripting notes: How to specify comma separation within the list of conditions previously 
+reported? Code 96 is exclusive. 
+Text: Since you last completed this survey on {ff_intd} {ff_intm} {ff_inty}, has a doctor or 
+other health professional told you that you have any of these conditions? {IF ff_hcondhas = 
+1: You have previously already told us that you have been diagnosed with the following 
+health conditions: {IF ff_hcond1 = 1: asthma / IF ff_hcond2 = 1: arthritis / ... / IF ff_hcond28: 
+cystic fibrosis}.} 
+Please select all that apply. 
+
+1. Asthma  
+2. Arthritis  
+3. Congestive heart failure   
+4. Coronary heart disease   
+5. Angina   
+6. Heart attack or myocardial infarction   
+7. Stroke   
+8. Emphysema   
+11. Chronic bronchitis  
+21. COPD (Chronic Obstructive Pulmonary Disease) 
+28. Cystic fibrosis   
+10. Hypothyroidism or an under-active thyroid  
+12. Any kind of liver condition  
+13. Cancer or malignancy   
+14. Diabetes   
+15. Epilepsy   
+16. High blood pressure/hypertension 
+22. An emotional, nervous or psychiatric problem   
+19. Multiple Sclerosis  
+20. H.I.V.  
+23. Chronic kidney disease 
+24. Conditions affecting the brain and nerves, such as Parkinson's disease, motor 
+neurone disease, a learning disability or cerebral palsy  
+25. Problems with your spleen or you've had your spleen removed 
+26. Sickle cell disease 
+27. Are very overweight (having a BMI of 40 or above) 
+18. Other long standing/chronic condition  
+96. None of these  
+ 
+
+
+
+31 
+ 
+
+arthtypn [New: if has arthritis] 
+Universe: IF ff_prevsurv = 1 AND hcondnew_cv = 2 // Ask if completed at least one previous 
+monthly covid-19 survey and reports arthritis as new condition. 
+Source: UKHLS  
+
+Text: What type of arthritis was that? 
+1. Osteoarthritis 
+2. Rheumatoid arthritis 
+3. Other type of arthritis 
+4. More than one of the above 
+5. Don't know 
+
+ 
+
+cancertypn_cv [New: if has cancer] 
+Universe: IF ff_prevsurv = 1 AND hcondnew_cv = 13 // Ask if completed at least one 
+previous monthly covid-19 survey and reports cancer as new condition. 
+Source: UKHLS, question CANCERTYPN with additional response options 
+Scripting notes: The numbering is deliberately not sequential for categories 7 and 8.  
+
+Text: What type of cancer or malignancy was that? 
+Please select all that apply. 
+
+1. Bowel/colorectal 
+2. Lung 
+3. Breast 
+4. Prostate {IF sex_cv = 1 // Male) 
+5. Liver 
+6. Skin cancer or melanoma 
+8. Blood or bone marrow cancer, such as leukaemia 
+7. Other 
+
+  
+
+
+
+32 
+ 
+
+mhealthtypn _cv [New: mental health] 
+Universe: IF ff_prevsurv = 1 AND hcondnew_cv = 22 // Ask if completed at least one 
+previous monthly covid-19 survey and reports emotional, nervous or psychiatric problem as 
+new condition. 
+Source: UKHLS, question MHEALTHTYPN with additional response options 
+Scripting notes: The numbering is deliberate, codes 1 and 7 are deliberately missing for 
+compatibility with the UKHLS question. Code 20 is exclusive. 
+Text: What type of emotional, nervous or psychiatric problem was that?  
+Please select all that apply. 
+
+2. Depression 
+3. Psychosis or schizophrenia  
+4. Bipolar disorder (or 'manic depression')  
+5. An eating disorder  
+6. Post-traumatic stress disorder  
+8. A phobia  
+9. Panic attacks  
+10. Attention deficit hyperactivity disorder (ADHD) or Attention deficit disorder (ADD)  
+11. Post-natal depression  
+12. Dementia (including Alzheimers)  
+13. Nervous breakdown  
+14. A personality disorder  
+15. Obsessive compulsive disorder (OCD)  
+16. Seasonal affective disorder  
+17. Alcohol or drug dependence  
+18. Any other anxiety disorder  
+19. Any other mental, emotional or neurological problem or condition 
+20. Don’t know 
+  
+
+
+
+33 
+ 
+
+hcond_treat [Existing treatments] 
+Universe: Ask All. 
+Source: UKHLS covid-19 survey 
+
+Scripting notes: Code 6 is exclusive.  
+Text: Are you currently receiving treatment or taking medications that may affect your 
+immune system?  
+Please select all that apply. 
+
+1. Medication following an organ transplant  
+2. Medicines such as steroid tablets that weaken the immune system  
+3. Targeted therapy or chemotherapy for cancer treatment  
+4. Radiotherapy for cancer treatment 
+5. Other treatment or medication that may affect immune system 
+6. None of these 
+ 
+
+hcondtreat [Intro to Long Term Health Condition treatment cancelled module] 
+
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+Text: Now we would like to ask whether you had any health care treatment planned and if 
+these plans have been affected by the current coronavirus pandemic. 
+ 
+
+treatment [Treatment planned] 
+
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Code 5 is exclusive. 
+Text: {IF ff_prevsurv = 0: Since 1st January 2020, have you had or been waiting for NHS 
+treatment? / IF ff_prevsurv = 1: Since the last time you completed this survey on {ff_intd} 
+{ff_intm} {ff_inty}, have you had or been waiting for NHS treatment?} 
+Please select all that apply. 
+
+1. Yes, tests/consultations planned or in progress 
+2. Yes, operation or procedure planned 
+3. Yes, targeted therapy, chemotherapy or radiotherapy planned or in progress 
+4. Yes, other treatment planned 
+5. No 
+
+  
+
+
+
+34 
+ 
+
+canceltreat [Health condition treatment cancelled] 
+Universe: IF treatment = 1, 2, 3, 4 // Ask if health condition treatment planned. 
+Source: UKHLS covid-19 survey 
+Text: Has your treatment plan(s) been changed in any way? 
+
+1. Yes, consultations/treatments cancelled or postponed by NHS 
+2. Yes, alternative treatment provided  
+3. Yes, I cancelled or postponed treatment 
+4. No, treatment continuing as planned 
+
+ 
+
+hcondnowintro [Intro to health & social care current use module] 
+
+Universe: IF (ff_prevsurv = 0 AND ((hcond_cv is not 96, DK, REF) OR (treatment = 1, 2, 3, 4))) 
+OR (ff_prevsurv = 1 AND ((ff_hcondhas = 1) OR (hcondnew_cv is not 96, DK, REF) OR 
+(treatment = 1, 2, 3, 4))) // Ask if not completed a previous monthly survey, and reported at 
+least one health condition or currently having/waiting for treatment, or if completed a 
+previous survey and reported at least one health condition in a previous or the current 
+monthly survey, or currently having or waiting for treatment. 
+Source: UKHLS covid-19 survey 
+Text: Thinking about your situation now, we would like to ask you some questions about 
+your current access to NHS and social care services to help manage your condition(s). 
+ 
+
+nhsnowgp [Use of NHS now for condition – GP] 
+
+Universe: IF (ff_prevsurv = 0 AND ((hcond_cv is not 96, DK, REF) OR (treatment = 1, 2, 3, 4))) 
+OR (ff_prevsurv = 1 AND ((ff_hcondhas = 1) OR (hcondnew_cv is not 96, DK, REF) OR 
+(treatment = 1, 2, 3, 4))) // Ask if not completed a previous monthly survey, and reported at 
+least one health condition or currently having/waiting for treatment, or if completed a 
+previous survey and reported at least one health condition in a previous or the current 
+monthly survey, or currently having or waiting for treatment. 
+Source: UKHLS covid-19 survey 
+Text: Thinking about your situation now, have you been able to access the NHS services you 
+need to help manage your condition(s) over the last 4 weeks? 
+GP or primary care practice staff? 
+
+1. Yes, in person 
+2. Yes, online or by phone only 
+3. No, not able to access 
+4. No, decided not to seek help at this time 
+5. Not required 
+
+  
+
+
+
+35 
+ 
+
+nhsnowpm  [Use of NHS for condition – prescription meds] 
+Universe: IF (ff_prevsurv = 0 AND ((hcond_cv is not 96, DK, REF) OR (treatment = 1, 2, 3, 4))) 
+OR (ff_prevsurv = 1 AND ((ff_hcondhas = 1) OR (hcondnew_cv is not 96, DK, REF) OR 
+(treatment = 1, 2, 3, 4))) // Ask if not completed a previous monthly survey, and reported at 
+least one health condition or currently having/waiting for treatment, or if completed a 
+previous survey and reported at least one health condition in a previous or the current 
+monthly survey, or currently having or waiting for treatment. 
+Source: UKHLS covid-19 survey 
+Text: Still thinking about your situation now, have you been able to access the NHS services 
+you need…  
+Prescription medicine? 
+
+1. Yes  
+2. No 
+3. Not required 
+
+ 
+
+nhsnowop  [Use of NHS for condition – outpatients] 
+
+Universe: IF (ff_prevsurv = 0 AND ((hcond_cv is not 96, DK, REF) OR (treatment = 1, 2, 3, 4))) 
+OR (ff_prevsurv = 1 AND ((ff_hcondhas = 1) OR (hcondnew_cv is not 96, DK, REF) OR 
+(treatment = 1, 2, 3, 4))) // Ask if not completed a previous monthly survey, and reported at 
+least one health condition or currently having/waiting for treatment, or if completed a 
+previous survey and reported at least one health condition in a previous or the current 
+monthly survey, or currently having or waiting for treatment. 
+Source: UKHLS covid-19 survey 
+Text: Have you been able to access the NHS services you need…  
+Hospital or clinic outpatient? 
+
+1. Yes, in person 
+2. Yes, online or by phone only 
+3. No, postponed or cancelled by NHS 
+4. No, I postponed or cancelled  
+5. No, different treatment provided 
+6. Not required 
+
+  
+
+
+
+36 
+ 
+
+nhsnowip  [Use of NHS for condition – inpatients] 
+Universe: IF (ff_prevsurv = 0 AND ((hcond_cv is not 96, DK, REF) OR (treatment = 1, 2, 3, 4))) 
+OR (ff_prevsurv = 1 AND ((ff_hcondhas = 1) OR (hcondnew_cv is not 96, DK, REF) OR 
+(treatment = 1, 2, 3, 4))) // Ask if not completed a previous monthly survey, and reported at 
+least one health condition or currently having/waiting for treatment, or if completed a 
+previous survey and reported at least one health condition in a previous or the current 
+monthly survey, or currently having or waiting for treatment. 
+Source: UKHLS covid-19 survey 
+Text: Still thinking about your situation now, have you been able to access the NHS services 
+you need…  
+Hospital or clinic inpatient? 
+
+1. Yes  
+2. No, postponed or cancelled by NHS 
+3. No, I postponed or cancelled  
+4. No, different treatment provided 
+5. Not required 
+
+ 
+
+nhsnow111 [Use of NHS now for condition – NHS111] 
+
+Universe: IF (ff_prevsurv = 0 AND ((hcond_cv is not 96, DK, REF) OR (treatment = 1, 2, 3, 4))) 
+OR (ff_prevsurv = 1 AND ((ff_hcondhas = 1) OR (hcondnew_cv is not 96, DK, REF) OR 
+(treatment = 1, 2, 3, 4))) // Ask if not completed a previous monthly survey, and reported at 
+least one health condition or currently having/waiting for treatment, or if completed a 
+previous survey and reported at least one health condition in a previous or the current 
+monthly survey, or currently having or waiting for treatment. 
+Source: UKHLS covid-19 survey 
+Text: Have you been able to access the NHS services you need…  
+NHS 111 in England, Wales and Northern Ireland or NHS 24 in Scotland? 
+
+1. Yes  
+2. No, not able to access 
+3. No, I decided not to seek help at this time 
+4. Not required 
+
+  
+
+
+
+37 
+ 
+
+chscnowpharm [Use of CH&SC now for condition – pharmacists] 
+Universe: I IF (ff_prevsurv = 0 AND ((hcond_cv is not 96, DK, REF) OR (treatment = 1, 2, 3, 
+4))) OR (ff_prevsurv = 1 AND ((ff_hcondhas = 1) OR (hcondnew_cv is not 96, DK, REF) OR 
+(treatment = 1, 2, 3, 4))) // Ask if not completed a previous monthly survey, and reported at 
+least one health condition or currently having/waiting for treatment, or if completed a 
+previous survey and reported at least one health condition in a previous or the current 
+monthly survey, or currently having or waiting for treatment. 
+Source: UKHLS covid-19 survey 
+Text: Thinking about your situation now, have you been able to access the community 
+health and social care services and support you need to help manage your condition(s) over 
+the last 4 weeks? 
+Local pharmacists for advice? 
+
+1. Yes, in person 
+2. Yes, online or by phone only 
+3. No, not able to access 
+4. No, decided not to seek help at this time 
+5. Not required 
+
+ 
+
+chscnowotcm [Use of CH&SC now for condition – otc meds] 
+Universe: IF (ff_prevsurv = 0 AND ((hcond_cv is not 96, DK, REF) OR (treatment = 1, 2, 3, 4))) 
+OR (ff_prevsurv = 1 AND ((ff_hcondhas = 1) OR (hcondnew_cv is not 96, DK, REF) OR 
+(treatment = 1, 2, 3, 4))) // Ask if not completed a previous monthly survey, and reported at 
+least one health condition or currently having/waiting for treatment, or if completed a 
+previous survey and reported at least one health condition in a previous or the current 
+monthly survey, or currently having or waiting for treatment. 
+Source: UKHLS covid-19 survey 
+Text: Still thinking about your situation now, have you been able to access the community 
+health and social care services and support you need… 
+Over the counter medications? 
+
+1. Yes  
+2. No 
+3. Not required 
+
+  
+
+
+
+38 
+ 
+
+chscnowcarer [Use of CH&SC now for condition – formal carer] 
+Universe: IF (ff_prevsurv = 0 AND ((hcond_cv is not 96, DK, REF) OR (treatment = 1, 2, 3, 4))) 
+OR (ff_prevsurv = 1 AND ((ff_hcondhas = 1) OR (hcondnew_cv is not 96, DK, REF) OR 
+(treatment = 1, 2, 3, 4))) // Ask if not completed a previous monthly survey, and reported at 
+least one health condition or currently having/waiting for treatment, or if completed a 
+previous survey and reported at least one health condition in a previous or the current 
+monthly survey, or currently having or waiting for treatment. 
+Source: UKHLS covid-19 survey 
+Text: Have you been able to access the community health and social care services and 
+support you need… 
+Someone visiting you at home regularly to help with personal care/ medications/ shopping/ 
+cooking/ cleaning/ wound dressing/ injections? 
+
+1. Yes, as before 
+2. Yes, but reduced support 
+3. Yes, with increased support 
+4. No 
+5. Not required 
+
+ 
+
+chscnowpsy [Use of CH&SC now for condition – Psychotherapist 
+Universe IF (ff_prevsurv = 0 AND ((hcond_cv is not 96, DK, REF) OR (treatment = 1, 2, 3, 4))) 
+OR (ff_prevsurv = 1 AND ((ff_hcondhas = 1) OR (hcondnew_cv is not 96, DK, REF) OR 
+(treatment = 1, 2, 3, 4))) // Ask if not completed a previous monthly survey, and reported at 
+least one health condition or currently having/waiting for treatment, or if completed a 
+previous survey and reported at least one health condition in a previous or the current 
+monthly survey, or currently having or waiting for treatment. 
+Source: UKHLS covid-19 survey 
+Text: Still thinking about your situation now, have you been able to access the community 
+health and social care services and support you need… 
+Counselling or talking therapy? 
+
+1. Yes, in person 
+2. Yes, by telephone or online 
+3. Yes, group sessions  
+4. No 
+5. Not required 
+
+  
+
+
+
+39 
+ 
+
+pregnow [Whether pregnant] 
+Universe: IF sex_cv = 2 AND age > 15 AND age < 50 AND (ff_prevsurv = 0 OR (ff_prevsurv = 1 
+AND ff_pregnow is not 1 AND ff_stillpreg is not 1)) // Ask if female respondent aged 
+between 16 and 49 and not completed previous survey,  or completed a previous survey 
+and did not report pregnancy or that still pregnant. 
+Source: UKHLS covid-19 survey 
+Text: Are you currently pregnant? 
+
+1. Yes 
+2. No 
+3. Don’t know 
+
+ 
+
+stillpreg [Whether still pregnant] 
+Universe: IF sex_cv = 2 AND age > 15 AND age < 50 AND ff_prevsurv = 1 AND (ff_pregnow = 
+1 OR ff_stillpreg = 1) // Ask if female respondent aged between 16 and 49, and completed a 
+previous survey, and reported pregnancy or still being pregnant. 
+Source: UKHLS covid-19 survey 
+Text: Are you still pregnant? 
+
+1. Yes 
+2. No 
+3. Don’t know 
+
+ 
+
+pregscan [Ongoing care of pregnant women, scans] 
+Universe: IF sex_cv = 2 AND age > 15 AND age < 50 AND (pregnow = 1 OR stillpreg = 1) // 
+Ask if female respondent aged between 16 and 49, and pregnant. 
+Source: UKHLS covid-19 survey 
+Text: Are you still able to attend support services and appointments as planned? 
+Blood tests and scans? 
+
+1. Yes 
+2. No 
+
+  
+
+
+
+40 
+ 
+
+pregmidwife [Ongoing care of pregnant women, midwife] 
+Universe: IF sex_cv = 2 AND age > 15 AND age < 50 AND (pregnow = 1 OR stillpreg = 1) // 
+Ask if female respondent aged between 16 and 49, and pregnant. 
+Source: UKHLS covid-19 survey 
+Text: Are you still able to attend… 
+Midwife appointments? 
+
+1. Yes, in person 
+2. Yes, online or by phone only 
+3. No, not able to access 
+4. Not required 
+
+ 
+
+pregantenatal [Ongoing care of pregnant women, antenatal] 
+Universe: IF sex_cv = 2 AND age > 15 AND age < 50 AND (pregnow = 1 OR stillpreg = 1) // 
+Ask if female respondent aged between 16 and 49, and pregnant. 
+Source: UKHLS covid-19 survey 
+Text: Are you still able to attend… 
+NHS antenatal classes? 
+
+1. Yes, in person 
+2. Yes, online or by phone only 
+3. No, not able to access 
+4. Not required 
+
+ 
+
+tslthealthend [Time stamp: long term health module end]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time completed last question in this module 
+ 
+ 
+ 
+  
+
+
+
+41 
+ 
+
+Caring within household module 
+ 
+Note: the questions in this module were not translated into Welsh.  
+Universe for module: IF ff_country is not 2 OR (ff_country = 2 AND welsh = 2) // Ask if 
+respondent is not living in Wales or living in Wales and completed the survey in English.  
+ 
+Variables used for routing – from sample file 
+ 
+ff_country [country of residence]  
+
+1. England 
+2. Wales 
+3. Scotland 
+4. N Ireland 
+
+ 
+Variables used for routing – from other modules 
+ 
+welsh [Welsh language] – ID check and household composition module 
+
+1. Welsh  
+2. English  
+
+ 
+Number of other household members – Household relationship module  
+hhcompa – aged 0-4 
+hhcompb – aged 5-15 
+hhcompc – aged 16-18 
+hhcompd – aged 19-69 
+hhcompe – aged 70+ 
+ 
+
+tscaringhhst [Time stamp: caring within household module start]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time arrived at first question in this module 
+  
+
+
+
+42 
+ 
+
+aidhh [Cares for handicapped/other in household] 
+Universe: IF hhcompa > 0 OR hhcompb > 0 OR hhcompc > 0 OR hhcompd > 0  OR hhcompe > 
+0 // Ask if not living alone. 
+Source: UKHLS 
+Text: Is there anyone living with you who is sick, disabled or elderly whom you look after or 
+give special help to (for example, a sick, disabled or elderly relative, husband, wife or friend 
+etc)? 
+
+1. Yes 
+2. No  
+
+ 
+
+aidnum [Number cared for in household] 
+Universe: IF (hhcompa > 0 OR hhcompb > 0 OR hhcompc > 0 OR hhcompd > 0  OR hhcompe 
+> 0) AND aidhh = 1 // Ask if not living alone and cares for someone in household. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Range [1 - 25]. 
+Text: How many people living with you do you look after or give special help to? 
+[Numeric textbox] People 
+ 
+
+carehhc [Cares for sick/disabled/elderly in household] 
+Universe: IF (hhcompa > 0 OR hhcompb > 0 OR hhcompc > 0 OR hhcompd > 0  OR hhcompe 
+> 0) AND aidhh = 1 AND aidnum >= 1 // Ask if not living alone and cares for 1 or more people 
+in household. 
+Source: UKHLS covid-19 survey 
+Text: {IF aidnum > 1: Thinking of the main person you care for in the household.} Please can 
+you tell us the nature of their condition, disability or illness? 
+Please select all that apply. 
+
+1. A long-term health condition (excluding mental health) 
+2. A long-term mental health condition 
+3. A learning disability or developmental disorder such as autism 
+4. A physical disability 
+5. Other problems related to old age   
+6. Other 
+
+  
+
+
+
+43 
+ 
+
+carehhwho [Who caring for inside the household] 
+Universe: IF (hhcompa > 0 OR hhcompb > 0 OR hhcompc > 0 OR hhcompd > 0  OR hhcompe 
+> 0) AND aidhh = 1 // Ask if not living alone and cares for someone in household. 
+Source: UKHLS covid-19 survey 
+Text: Who do you give special help to in your household? 
+Please select all that apply. 
+
+1. Children (under 18) 
+2. Adult children  
+3. Parents or Grandparents, including in-laws 
+4. Siblings 
+5. Spouse or partner 
+6. Friends 
+7. Other relatives 
+8. Someone else 
+
+ 
+
+carehhsh [Share caring responsibilities inside the household] 
+Universe: IF (hhcompa > 0 OR hhcompb > 0 OR hhcompc > 0 OR hhcompd > 0  OR hhcompe 
+> 0) AND aidhh = 1 // Ask if not living alone and cares for someone in household. 
+Source: UKHLS covid-19 survey 
+Text: Do you share these caring responsibilities with another member of the household?  
+
+1. Yes  
+2. No 
+
+ 
+
+aidhrs_cv [Hours per week spent caring] 
+Universe: IF (hhcompa > 0 OR hhcompb > 0 OR hhcompc > 0 OR hhcompd > 0  OR hhcompe 
+> 0) AND aidhh = 1 // Ask if not living alone and cares for someone in household. 
+Source: UKHLS, question AIDHRS adapted wording 
+Text: Now thinking about {IF aidnum = 1: the person /IF aidnum > 1: the people} you said 
+you care for in the household, how many hours do you spend each week looking after or 
+helping them? 
+
+1. 0 - 4 hours per week 
+2. 5 - 9 hours per week 
+3. 10 - 19 hours per week 
+4. 20 - 34 hours per week 
+5. 35 - 49 hours per week 
+6. 50 - 99 hours per week 
+7. 100 or more hours per week/continuous care 
+8. Varies under 20 hours 
+9. Varies 20 hours or more 
+97. Other 
+
+ 
+
+
+
+44 
+ 
+
+blrespite [Baseline: receive respite care] 
+Universe: IF (hhcompa > 0 OR hhcompb > 0 OR hhcompc > 0 OR hhcompd > 0  OR hhcompe 
+> 0) AND aidhh = 1 // Ask if not living alone and cares for someone in household. 
+Source: UKHLS covid-19 survey 
+Text: Thinking back to earlier this year, before the outbreak of the coronavirus pandemic. 
+In January and February 2020, did you receive any respite or support with caring for {IF 
+aidnum = 1: the person /IF aidnum > 1: the people} you have just mentioned, such as at day-
+care centres, school, college or carers supporting them in the home? 
+
+1. Yes 
+2. No  
+
+ 
+
+blrespitefreq [Frequency of respite care] 
+
+Universe: IF (hhcompa > 0 OR hhcompb > 0 OR hhcompc > 0 OR hhcompd > 0  OR hhcompe 
+> 0) AND aidhh = 1 AND blrespite = 1 // Ask if not living alone and gives care to someone in 
+household and they received respite care in Jan/Feb 2020. 
+Source: UKHLS covid-19 survey 
+Text: Still thinking back to January and February 2020, how often did they receive this type 
+of care? 
+
+1. Daily 
+2. Weekly 
+3. Monthly  
+4. Less often 
+
+ 
+
+blrespitehrs [Hours per week of respite care] 
+Universe: IF (hhcompa > 0 OR hhcompb > 0 OR hhcompc > 0 OR hhcompd > 0  OR hhcompe 
+> 0) AND aidhh = 1 AND blrespite = 1 AND blrespitefreq = 1, 2 // Ask if not living alone and 
+gives care to someone in household and they received respite care in Jan/Feb 2020 daily or 
+weekly. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Range [0 – 168]. Allow one decimal.  
+Text: Still thinking back to January and February 2020, how many hours of this type of care 
+did they receive? 
+[Numeric textbox] Hours per week 
+  
+
+
+
+45 
+ 
+
+respitehrs [Hours per week of respite care now] 
+Universe: IF (hhcompa > 0 OR hhcompb > 0 OR hhcompc > 0 OR hhcompd > 0  OR hhcompe 
+> 0) AND aidhh = 1 AND blrespite = 1 // Ask if not living alone and gives care to someone in 
+household and they received respite care in Jan/Feb 2020. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Range [0 – 168]. Allow one decimal.  
+Text: How many hours of this type of care or support do they receive per week now?  
+[Numeric textbox] Hours per week 
+ 
+
+blcarehh [Baseline: care giving in household] 
+
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+Text: Thinking back to earlier this year, before the outbreak of the coronavirus pandemic. 
+In January and February 2020 was anyone living with you who is sick, disabled or elderly 
+whom you looked after or gave special help to? 
+
+1. Yes 
+2. No 
+
+ 
+
+carehhnow [How has care giving changed in household] 
+Universe: Ask all.  
+Source: UKHLS covid-19 survey 
+Scripting notes: Codes 1 and 2 are exclusive. Codes 3 and 4 are mutually exclusive. 
+Text: Thinking about the last 4 weeks, has the help and support you give to members of 
+your household who are sick, disabled or elderly changed compared to January/February 
+2020? 
+Please select all that apply. 
+
+1. No one in my household is sick, disabled or elderly  
+2. There has been no change 
+3. I give more help to the same people as I previously did  
+4. I give less help to the same people as I previously did 
+5. I currently help family or friends in the household who I did not previously help 
+6. A person I was caring for moved out or died 
+7. Other  
+8. Prefer not to say 
+
+ 
+
+tscaringhhend [Time stamp: caring within household module end]   
+
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time completed last question in this module 
+  
+
+
+
+46 
+ 
+
+Loneliness module    
+ 
+Variables used for routing – from sample file 
+ 
+n/a 
+ 
+Variables used for routing – from other modules 
+ 
+n/a 
+ 
+
+tslonelyst [Time stamp: loneliness module start]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time arrived at first question in this module 
+ 
+
+sclonely_cv [How often feels lonely] 
+Universe: Ask all. 
+Source: ELSA, in UKHLS, adapted to ask about last 4 weeks. 
+Text: In the last 4 weeks, how often did you feel lonely? 
+
+1. Hardly ever or never 
+2. Some of the time 
+3. Often 
+
+ 
+
+tslonelyend [Time stamp: loneliness module end]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time completed last question in this module 
+ 
+ 
+  
+
+
+
+47 
+ 
+
+Housing module  
+ 
+Note: the questions in this module were not translated into Welsh.  
+Universe for module: IF ff_country is not 2 OR (ff_country = 2 AND welsh = 2) // Ask if 
+respondent is not living in Wales or living in Wales and completed the survey in English.  
+ 
+Variables used for routing – from sample file 
+ 
+ff_country [country of residence]  
+
+1. England 
+2. Wales 
+3. Scotland 
+4. N Ireland 
+
+ 
+Variables used for routing – from other modules 
+ 
+addrchk [Address check] – ID check module 
+
+1. Yes [still resident at same address] 
+2. No [address changed] 
+
+ 
+Number of other household members – household relationship module  
+hhcompb – aged 5-15 
+hhcompc – aged 16-18 
+hhcompd – aged 19-69 
+hhcompe – aged 70+ 
+ 
+welsh [Welsh language] – ID check and household composition module 
+
+1. Welsh  
+2. English  
+
+ 
+
+tshsingst [Time stamp: housing module start]   
+
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time arrived at first question in this module 
+  
+
+
+
+48 
+ 
+
+hsownd_cv [House owned or rented] 
+Universe: Ask all.  
+Source: BHPS, UKHLS, question HSOWND with added response categories 
+Scripting notes: Numbering is deliberately not sequential. Present response options in the 
+order listed below, not in the order of the numbering. Help text: Shared ownership includes 
+co-ownership and equity sharing schemes: a share in the property is being bought. The 
+occupier may never become the sole owner of the property but will receive a cash sum on 
+leaving the scheme. Where accommodation is owned or part-owned by ex-spouse or 
+separated spouse answer 'owned'. Do not count as rent-free cases where a rent would 
+normally be paid but the whole amount is rebated (or paid direct to the landlord by the 
+DWP through benefit payments). If you live in rent free accommodation owned by relatives 
+answer 'rent free'. 
+Text: The next questions are about your current housing situation.  
+Does your household own this accommodation outright, is it being bought with a mortgage, 
+is it rented or does it come rent-free? 
+
+1. Owned outright   
+2. Owned/being bought on mortgage   
+3. Shared ownership (part-owned part-rented)   
+4. Rented (social housing or from council)   
+6.  Rented (privately) 
+5.  Rent free   
+97. Other  
+
+ 
+
+garden [House outdoor space] 
+Universe: IF ff_prevsurv = 0 OR (ff_prevsurv = 1 AND addrchk = 2) // Ask if not completed 
+previous monthly interview, or completed previous interview and respondent has moved.  
+Source: UKHLS covid-19 survey 
+Scripting notes: Code 6 is exclusive. 
+Text: Does your current accommodation have outdoor space that you can use?  
+Please select all that apply. 
+
+1. Private garden   
+2. Shared garden 
+3. Balcony 
+4. Rooftop garden or terrace 
+5. Other outdoor space 
+6. No 
+
+  
+
+
+
+49 
+ 
+
+deskspace [Desk space for all] 
+Universe: IF (ff_prevsurv = 0 OR (ff_prevsurv = 1 AND addrchk = 2)) AND (hhcompb > 0 OR 
+hhcompc > 0 OR hhcompd > 0 OR hhcompe > 0) // Ask if not completed previous monthly 
+interview or completed previous interview and respondent has moved, and at least one 
+other person aged 5+ in the household. 
+Source: UKHLS covid-19 survey 
+Text: Thinking about everyone in your household who is currently working from home or 
+home schooling. Does everyone have their own quiet space at a desk or table to work at? 
+
+1. Yes  
+2. No 
+
+ 
+
+pcnet [Has access to the internet from home] 
+
+Universe: IF ff_prevsurv = 0 OR (ff_prevsurv = 1 AND addrchk = 2) // Ask if not completed 
+previous monthly interview, or completed previous interview and respondent has moved.  
+Source: BHPS, UKHLS  
+Text: Does your household have access to the internet from home? 
+
+1. Yes 
+2. No 
+
+ 
+
+tshsingend [Time stamp: housing module end]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time completed last question in this module 
+ 
+ 
+ 
+  
+
+
+
+50 
+ 
+
+Employment module  
+ 
+Variables used for routing – from sample file 
+ 
+ff_prevsurv [Whether full respondent in a previous monthly survey]  
+
+0. No  
+1. Yes 
+
+ 
+surveymonth – calendar month and year of current survey 
+July 2020  
+ 
+Date of the last monthly interview the respondent completed: 
+ff_intd [dd] – day  
+ff_intm [January…] – month  
+ff_inty [yyyy] – year  
+ 
+ff_country [country of residence]  
+
+1. England 
+2. Wales 
+3. Scotland 
+4. N Ireland 
+
+ 
+ff_semp [Employee or self-employed] 
+Notes: values of semp from the last monthly survey completed. 
+
+-9. Missing 
+-8. Inapplicable 
+-2. Refusal 
+-1. Don’t know 
+1. Employed 
+2. Self-employed 
+3. Both employed and self-employed 
+4. No 
+
+  
+
+
+
+51 
+ 
+
+ff_sempderived [Employee or self-employed]  
+Notes: values of sempderived from the last monthly survey completed.  
+
+-9. Missing 
+-8. Inapplicable 
+-2. Refusal 
+-1. Don’t know 
+1. Employed  
+2. Self-employed  
+3. Both employed and self-employed  
+4. No 
+
+ 
+ff_hours [Hours worked] 
+Notes: values of hours from the last monthly survey completed. Range [0 – 168]. Allow one 
+decimal. 
+
+Numeric, include 0 
+-9. Missing 
+-8. Inapplicable 
+-2. Refusal 
+-1. Don’t know 
+
+ 
+ff_furlough [Furloughed under the Coronavirus Job Retention Scheme] 
+
+0. Not furloughed: IF furlough is not 1 in any of the previous survey months 
+1. Furloughed: IF furlough = 1 in any of the previous survey months 
+
+ 
+ff_sempgovt [Government support for self-employed] 
+
+0. Not eligible for government support: IF sempgovt is not 1 in any of the previous 
+survey months 
+
+1. Eligible for government support: IF sempgovt = 1 in any of the previous survey 
+months 
+
+ 
+ff_blwork [Baseline: worked in Jan Feb 2020] 
+Notes: values of blwork from the first monthly survey the respondent completed. Don’t 
+over-write.  
+
+-9. Missing 
+-8. Inapplicable  
+-2. Refusal 
+-1. Don’t know 
+5. Yes, employed 
+6. Yes, self-employed 
+7. Yes, both employed and self-employed 
+8. No 
+
+ 
+
+
+
+52 
+ 
+
+Variables used for routing – from other modules 
+ 
+Number of other household members – household relationships module 
+hhcompc – aged 16-18 
+hhcompd – aged 19-69 
+hhcompe – aged 70+ 
+ 
+welsh [Welsh language] – ID check and household composition module 
+
+1. Welsh 
+2. English 
+
+ 
+
+tsempst [Time stamp: employment module start]   
+
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time arrived at first question in this module 
+ 
+
+econintro [Intro to economics module] 
+
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+Text: Many people have been affected financially by the coronavirus. We’d like to know 
+how you have been affected, and how you and your household are coping. 
+
+ 
+
+blwork [Baseline: worked in Jan Feb 2020] 
+Universe: IF ff_prevsurv = 0 // Ask if not completed any previous monthly covid-19 surveys. 
+Source: UKHLS covid-19 survey 
+Text: Thinking back to earlier this year, before the outbreak of the coronavirus pandemic. 
+Were you in paid work or self-employment at any time in January or February 2020? 
+
+1. Yes, employed 
+2. Yes, self-employed 
+3. Yes, both employed and self-employed 
+4. No 
+
+  
+
+
+
+53 
+ 
+
+blnonwork [Baseline: activity in Jan Feb 2020] 
+Universe: IF (ff_prevsurv = 0  AND blwork = 4) OR (ff_prevsurv = 1  AND surveymonth = May 
+2020 AND ff_blwork = 4) // Ask if not completed any previous monthly covid-19 surveys and 
+not in work or self-employment in Jan/Feb 2020, or answered a previous monthly survey 
+and current survey month is May 2020 and in previous survey said was not in work or self-
+employment in Jan/Feb 2020.  
+Source: UKHLS covid-19 survey 
+Text: What best describes what you were doing in January and February 2020? 
+
+1. Unpaid or voluntary work 
+2. Unemployed 
+3. Permanently sick or disabled 
+4. Looking after home/family 
+5. In education at school/college/university or apprenticeship 
+6. Retired 
+7. Other 
+
+ 
+
+blhours [Baseline: hours worked in Jan Feb 2020] 
+Universe: IF ff_prevsurv = 0 AND blwork = 1, 2, 3 // Ask if not completed any previous 
+monthly covid-19 surveys, and in paid work or self-employment in Jan/Feb 2020. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Range [0 – 168]. Allow one decimal. 
+Text: During January and February 2020, how many hours did you usually work per week? 
+Please include all jobs and self-employment activities. If you didn’t work any hours in your 
+job(s), please enter zero. 
+[Numeric textbox] Hours per week 
+ 
+
+blhrshow [Baseline: how working hours were set] 
+Universe: IF ff_prevsurv = 0 AND blwork = 1, 3 // Ask if not completed any previous monthly 
+covid-19 surveys, and in paid work in Jan/Feb 2020. 
+Source: UKHLS covid-19 survey 
+Text: How were your hours set during January and February? If you had more than one job, 
+please tell us about your main job, that normally provided the largest share of your 
+earnings.  
+
+1. Fixed weekly hours 
+2. I chose my hours 
+3. My employer chose my hours, with a minimum guaranteed number of hours 
+4. My employer chose my hours, with no minimum guaranteed number of hours 
+
+  
+
+
+
+54 
+ 
+
+blpayhow [Baseline: how paid] 
+Universe: IF ff_prevsurv = 0 AND blwork = 1, 3 // Ask if not completed any previous monthly 
+covid-19 surveys, and in paid work in Jan/Feb 2020. 
+Source: UKHLS covid-19 survey 
+Text: How were you paid during January and February 2020? If you had more than one job, 
+please tell us about your main job, that normally provided the largest share of your 
+earnings.  
+
+1. Fixed salary 
+2. For each job completed 
+3. By hours worked 
+4. By tips and commission only 
+5. A salary or hourly wage plus tips or commission 
+
+ 
+
+blpay_amount [Baseline: earnings amount] 
+Universe: IF ff_prevsurv = 0 AND blwork = 1, 2, 3 // Ask if not completed any previous 
+monthly covid-19 surveys, and in paid work or self-employment in Jan/Feb 2020. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Range [0 – 1,000,000]. 
+Text: What was your usual take-home pay/earnings during January and February 2020? 
+Take-home pay is after tax, National Insurance and pension contributions have been 
+deducted. Please include all jobs and self-employment activities. 
+[Numeric textbox] Pounds 
+ 
+
+blpay_period [Baseline: earnings period] 
+Universe: IF ff_prevsurv = 0 AND blwork = 1, 2, 3 // Ask if not completed any previous 
+monthly covid-19 surveys, and in paid work or self-employment in Jan/Feb 2020. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Display on same page as blpay_amount. 
+Text: Per  
+
+1. Week 
+2. Two weeks 
+3. Month 
+4. Year 
+
+  
+
+
+
+55 
+ 
+
+blpayweek [Baseline earnings, derived weekly] 
+Note: variable not released. 
+Universe: IF ff_prevsurv = 0 AND blwork = 1, 2, 3 AND blpay_amount is not DK, REF, MIS 
+AND blpay_period is not DK, REF, MIS // Ask if not completed any previous monthly covid-19 
+surveys, and in paid work or self-employment in Jan/Feb 2020, and reported baseline pay 
+and pay period.    
+Source: UKHLS covid-19 survey 
+DERIVED:   
+= blpay_amount: IF blpay_period = 1 
+= blpay_amount/2: IF blpay_period = 2 
+= blpay_amount/4.33: IF blpay_period = 3 
+= blpay_amount/52.14: IF blpay_period = 4 
+ 
+
+blwah [Baseline: worked at home] 
+Universe: IF ff_prevsurv = 0 AND blwork = 1, 2, 3 // Ask if not completed any previous 
+monthly covid-19 surveys, and in paid work or self-employment in Jan/Feb 2020. 
+Source: UKHLS covid-19 survey 
+Text: During January and February how often did you work at home?  
+
+1. Always 
+2. Often 
+3. Sometimes 
+4. Never 
+
+ 
+
+blhhearn_amount [Baseline: household earnings amount] 
+Universe: IF ff_prevsurv = 0 // Ask if not completed any previous monthly covid-19 surveys.    
+Source: UKHLS covid-19 survey 
+Scripting notes: Range [0 – 2,500,000]. 
+Soft check: IF (blhhearn_period = 1 AND blhhearn_amount < blpayweek) OR 
+(blhhearn_period = 2 AND blhhearn_amount/2 < blpayweek) OR (blhhearn_period = 3 AND 
+blhhearn_amount/4.33 < blpayweek) OR (blhhearn_period = 4 AND 
+blhhearn_amount/52.14 < blpayweek) // Baseline household earnings converted to weekly 
+amount are less than baseline weekly net pay.  
+Soft check text: “Your household earnings in January/February 2020 were lower than your 
+net pay.” 
+Text: Thinking about everyone who was living with you in January/February 2020, what was 
+the usual total take-home pay/earnings of your household in January/February 2020? 
+Please only include earnings from paid work or self-employment, after tax, National 
+Insurance and pension contributions have been deducted. If you are not sure, please tell us 
+an approximate amount. 
+[Numeric textbox] Pounds 
+ 
+
+
+
+56 
+ 
+
+blhhearn_period [Baseline: household earnings period] 
+Universe: IF ff_prevsurv = 0 // Ask if not completed any previous monthly covid-19 surveys.    
+Source: UKHLS covid-19 survey 
+Scripting notes: Display on same page as blhhearn_amount. 
+Text: Per  
+
+1. Week 
+2. Two weeks 
+3. Month 
+4. Year 
+
+ 
+
+sempchk [Still employee or self-employed] 
+Universe: IF ff_prevsurv = 1 AND ff_semp= 1, 2, 3, 4 // Ask if completed at least one 
+previous monthly survey and ff_semp is not missing. 
+Source: UKHLS covid-19 survey 
+Text: Last time you completed this survey on {ff_intd} {ff_intm} {ff_inty} you said you were 
+{IF ff_semp=1: employed / IF ff_semp=2: self-employed / IF ff_semp=3: both employed and 
+self-employed / IF ff_semp=4: not employed or self-employed}. Is that still the case? Note 
+that if you have been furloughed you are still employed. 
+
+1. Yes 
+2. No 
+
+ 
+
+semp [Employee or self-employed] 
+Universe: IF ff_prevsurv = 0 OR (ff_prevsurv = 1 AND sempchk is not 1) // Ask if has not 
+completed any previous monthly surveys, or has completed previous surveys and has not 
+confirmed previous employment status as still applying. 
+Source: UKHLS covid-19 survey 
+Text: Thinking about your situation now. Even if you did not do any paid work last week, are 
+you currently employed or self-employed? 
+
+1. Yes, employed only 
+2. Yes, self-employed only 
+3. Both employed and self-employed 
+4. No 
+
+  
+
+
+
+57 
+ 
+
+sempderived [Employee or self-employed, derived] 
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED:  
+
+1. Employed: IF semp=1 OR (sempchk=1 AND ff_semp=1)  
+2. Self-employed: IF semp=2 (OR sempchk=1 AND ff_semp=2) 
+3. Both employed and self-employed: IF semp=3 (OR sempchk=1 AND ff_semp=3) 
+4. No: IF semp=4 (OR sempchk=1 AND ff_semp=4) 
+
+  
+
+
+
+58 
+ 
+
+jbindustry [Industry main activity] 
+Universe:  IF (ff_country is not 2 OR (ff_country = 2 AND welsh is not 1)) AND ((surveymonth 
+= July 2020 AND sempderived = 1, 2, 3) OR (ff_semp = 1, 3 AND (sempchk = 1 OR semp = 1, 
+3) AND empchange = 1)) // Ask if respondent not living in Wales or living in Wales and did 
+not complete survey in Welsh, and survey month is July 2020 and employed or was 
+employed in last survey and is still employed and reported employer change.  
+Source:  UKHLS covid-19 survey 
+Scripting note: Add info buttons with explanation for each category. 
+Agriculture, Forestry and Fishing info button to show: This includes crop and animal 
+production, hunting and related service activities, forestry and logging, and fishing and 
+aquaculture. 
+Mining and Quarrying info button to show: This includes mining of coal, lignite, or metal 
+ores, extraction of crude petroleum and natural gas and mining support service activities.  
+Manufacturing info button to show: This includes, but is not limited to, the manufacture of 
+furniture, machinery, electronics, metals, mineral products, paper, wood, textiles, clothing, 
+food and drink, tobacco and the reproduction of media.  
+Electricity, Gas, Steam and Air Conditioning Supply info button to show: This group includes 
+the generation and distribution of bulk electric power, the manufacture and distribution of 
+natural or synthetic gas through a system of mains, and the production, collection and 
+distribution of steam, hot water and cooled air. This also covers gas marketers and brokers. 
+Water Supply; Sewerage, Waste Management and Remediation Activities info button to 
+show: This includes water collection, water treatment and water supply, waste collection, 
+waste treatment and waste disposal activities, remediation activities and other waste 
+management services. 
+Construction info button to show: This includes the construction of buildings, civil 
+engineering works and specialised construction activities such as electrical installation and 
+plumbing.  
+Wholesale and Retail Trade info button to show: This includes, but is not limited to, the 
+wholesale and retail sale of products such as motor vehicles and motorcycles, clothing, 
+textiles, food and drink, homewares, pet products.  
+Repair of Motor Vehicles and Motorcycles info button to show: This includes the 
+maintenance and repair of motor vehicles and motorcycles and the sale of motor parts and 
+accessories.  
+Transportation and Storage info button to show: This includes land transport and transport 
+via pipelines, e.g. passenger rail and freight rail services, water transport, air transport, 
+postal and courier activities, and warehousing and storage facilities. 
+Accommodation and Food Service Activities info button to show: This includes hotels and 
+short-stay accommodation, camping sites, restaurants and take-away food outlets, licensed 
+clubs, public houses and bars.  
+Information and Communication info button to show: This includes publishing activities, the 
+production of motion pictures, video and television programmes, sound recording and 
+
+
+
+59 
+ 
+
+music publishing, radio and television broadcasting, computer programming and 
+consultancy and data processing and hosting.  
+Financial and Insurance Activities info button to show: This includes the activities of 
+obtaining and redistributing funds other than for the purpose of insurance or pension 
+funding or compulsory social security through banks and building societies, financial leasing, 
+asset management and credit granting  
+Real Estate Activities info button to show: This includes the buying and selling of real estate, 
+renting and operating of owned or leased real estate, and real estate activities on a fee or 
+contract basis.  
+Professional, Scientific and Technical Activities info button to show: This includes, but is not 
+limited, to legal activities, accounting, auditing and tax consultancy, architectural and 
+engineering activities, scientific research and development, advertising and market research 
+and veterinary services.    
+Administrative and Support Service Activities info button to show: This includes office 
+administrative work, employment services (e.g. recruitment, casting), cleaning services, 
+landscaping services, security and investigation activities, travel agency and tour operator 
+services and rental and leasing activities.  
+Public Administration and Defence; Compulsory Social Security info button to show: This 
+includes general public administration activities, regulation of health care, education, 
+cultural services and other social services, and the provision of services to the community 
+relating to foreign affairs, defence activities, justice and judicial activities, public order and 
+safety, fire services and social security services.  
+Education info button to show: This includes pre-primary education, primary education, 
+secondary education, higher education, and other education such as sports and recreation 
+and driving school activities. This also covers educational support activities.  
+Human Health and Social Work Activities info button to show: This includes hospital 
+services, medical and dental practice services, all forms of residential care services, child 
+day-care services and social work with the elderly and disabled.  
+Arts, Entertainment and Recreation info button to show: This includes creative, arts and 
+entertainment activities, libraries, archives, museums and cultural activities (e.g. botanical 
+gardens), gambling and betting services, sports facilities and activities and amusement 
+parks.  
+Other Service Activities info button to show: This includes trade unions, religious 
+organisations and political organisations, the repair of computers and personal and 
+household goods, and other personal services such as hairdressing and beauty, physical 
+well-being and funeral services.  
+Activities of Households as Employers info button to show: This includes the activities of 
+households as employers of domestic personnel such as live-in staff, cooks, hospitality staff, 
+valets, butlers, gardeners, gatekeepers, caretakers, babysitters, tutors, secretaries etc. 
+ 
+
+
+
+60 
+ 
+
+Text: In which industry do you currently work? If you work in more than one industry, 
+please tell us about the main industry, that normally provided the largest share of your 
+earnings.   
+
+1. Agriculture, Forestry and Fishing 
+2. Mining and Quarrying 
+3. Manufacturing 
+4. Electricity, Gas, Steam and Air Conditioning Supply 
+5. Water Supply; Sewerage, Waste Management and Remediation Activities 
+6. Construction 
+7. Wholesale and Retail Trade  
+8. Repair of Motor Vehicles and Motorcycles 
+9. Transportation and Storage 
+10. Accommodation and Food Service Activities 
+11. Information and Communication 
+12. Financial and Insurance Activities 
+13. Real Estate Activities 
+14. Professional, Scientific and Technical Activities 
+15. Administrative and Support Service Activities 
+16. Public Administration and Defence; Compulsory Social Security 
+17. Education 
+18. Human Health and Social Work Activities 
+19. Arts, Entertainment and Recreation 
+20. Other Service Activities 
+21. Activities of Households as Employers 
+
+ 
+
+hours [Hours worked] 
+Universe: IF sempderived= 1, 2, 3 // Ask if currently in paid work or self-employed. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Range [0 – 168]. Allow one decimal. 
+Text: How many hours did you work, as an employee or self-employed, last week? Please 
+include all jobs and self-employment activities. If you didn’t work any hours in your job(s), 
+please enter zero. 
+[Numeric textbox] Hours  
+
+
+
+61 
+ 
+
+hrschange1 [Hours, employees] 
+Universe: IF (ff_prevsurv = 0 AND blwork = 1 AND (hours+1) < blhours AND hours is not 
+DK/REF AND blhours is not DK/REF) OR (ff_prevsurv = 0 AND blwork = 1 AND sempderived = 
+4)  OR (ff_prevsurv = 1 AND sempderived = 1  AND (hours+1) < ff_hours AND hours is not 
+DK/REF/MIS AND ff_hours is not -9, -2, -1) OR (ff_prevsurv = 1 AND ff_sempderived = 1 AND 
+sempderived = 4)) // Ask if not completed any previous monthly covid-19 survey, and in paid 
+work in Jan/Feb 2020, and hours worked last week plus one are less than hours worked in 
+Jan/Feb, and hours and blhours are not missing due to refusal or don’t know answers. Or if 
+not completed any previous survey, and in paid work in Jan/Feb 2020 and not currently in 
+work or self-employed. Or if completed a previous monthly survey, and is currently in paid 
+work, and hours reported now plus one are less than hours in previous survey, and hours 
+are not missing, and previous hours are not missing. Or if completed a previous monthly 
+survey and was previously in work and is now neither in work nor self-employed.   
+Source: UKHLS covid-19 survey 
+Scripting notes: Numbering is deliberately not sequential (to match April 2020 version). 
+Present response options in the order listed below, not in the order of the numbering.  
+Text: Your answers suggest that you are working fewer hours than {IF ff_prevsurv = 0: 
+earlier in the year. / IF ff_prevsurv = 1: when you last completed this survey on {ff_intd} 
+{ff_intm} {ff_inty}.} Can you tell us why? 
+Please select all that apply. 
+
+12. Normal or expected variation 
+1. Laid off by employer with certain recall date 
+2. Laid off or made redundant by employer with some prospect of recall 
+3. Permanently laid off or made redundant by employer/employer ceased 
+
+trading/contract ended 
+4. Employer cut hours/reduced tasks 
+5. Have been put on furlough or paid leave  
+6. Using annual leave 
+13. Quit job/changed employer or job 
+7.  Self-isolating or sick leave with company sick pay 
+8. Self-isolating or sick leave with statutory sick pay 
+9. Self-isolating or sick leave without sick pay 
+14. Avoiding risk of becoming sick 
+10. Caring for children or others/Parental Leave 
+15. Bereavement 
+11. Other reasons 
+
+  
+
+
+
+62 
+ 
+
+hrschange2 [Hours, self-employed] 
+Universe: IF (ff_prevsurv = 0 AND blwork = 2 AND (hours+1) < blhours AND hours is not 
+DK/REF AND blhours is not DK/REF) OR (ff_prevsurv = 0 AND blwork = 2 AND sempderived = 
+4)  OR (ff_prevsurv = 1 AND sempderived = 2  AND (hours+1) < ff_hours AND hours is not 
+DK/REF/MIS AND ff_hours is not -9, -2, -1) OR (ff_prevsurv = 1 AND ff_sempderived = 2 AND 
+sempderived = 4)) // Ask if not completed any previous monthly covid-19 survey, and self-
+employed in Jan/Feb 2020, and hours worked last week plus one are less than hours worked 
+in Jan/Feb, and hours and blhours are not missing due to refusal or don’t know answers. Or 
+if not completed any previous survey, and self-employed in Jan/Feb 2020 and not currently 
+in work or self-employed. Or if completed a previous monthly survey, and is currently self-
+employed, and hours reported now plus one are less than hours in previous survey, and 
+hours are not missing, and previous hours are not missing. Or if completed a previous 
+monthly survey and was previously self-employed and is now neither in work nor self-
+employed.   
+Source: UKHLS covid-19 survey 
+Scripting notes: Numbering is deliberately not sequential (to match April 2020 version). 
+Present response options in the order listed below, not in the order of the numbering.  
+Text: Your answers suggest that you are working fewer hours than {IF ff_prevsurv=0: earlier 
+in the year. / IF ff_prevsurv=1: when you last completed this survey on {ff_intd} {ff_intm} 
+{ff_inty}.} Can you tell us why? 
+Please select all that apply. 
+
+8. Normal or expected variation 
+1. My business is directly affected by regulations on opening or travelling or other new 
+
+regulations related to Coronavirus 
+2. My business is directly affected by a shortage of supplies that I need for my business 
+3. My business is directly affected by reduced demand for my services or products 
+4. Illness 
+5. Self-isolating  
+9. Avoiding risk of becoming sick 
+6. Caring for children or others 
+10. Bereavement 
+7. Other reasons 
+
+  
+
+
+
+63 
+ 
+
+hrschange3 [Hours, employed & self-employed] 
+Universe: IF (ff_prevsurv = 0 AND blwork = 3 AND (hours+1) < blhours AND hours is not 
+DK/REF AND blhours is not DK/REF) OR (ff_prevsurv = 0 AND blwork = 3 AND sempderived = 
+4) OR (ff_prevsurv = 1 AND (sempderived = 3  AND (hours+1) < ff_hours AND hours is not 
+DK/REF/MIS AND ff_hours is not -9, -2, -1) OR (ff_sempderived = 3 AND sempderived = 4)) // 
+Ask if not completed any previous monthly covid-19 survey, and in work and self-employed 
+in Jan/Feb 2020, and hours worked last week plus one are less than hours worked in 
+Jan/Feb, and hours and blhours are not missing due to refusal or don’t know answers. Or if 
+not completed any previous survey, and in paid work or self-employed in Jan/Feb 2020 and 
+not currently in work or self-employed. Or if completed a previous monthly survey, and is 
+currently in work and self-employed, and hours reported now plus one are less than hours 
+in previous survey, and hours are not missing, and previous hours are not missing. Or if 
+completed a previous monthly survey and was previously in work and self-employed and is 
+now neither in work nor self-employed.   
+Source: UKHLS covid-19 survey 
+Scripting notes: Numbering is deliberately not sequential (to match April 2020 version). 
+Present response options in the order listed below, not in the order of the numbering.  
+Text: Your answers suggest that you are working fewer hours than {IF ff_prevsurv=0: earlier 
+in the year. / IF ff_prevsurv=1: when you last completed this survey on {ff_intd} {ff_intm} 
+{ff_inty}.} Can you tell us why? 
+Please select all that apply. 
+
+15. Normal or expected variation 
+1. Laid off by employer with certain recall date 
+2. Laid off or made redundant by employer with some prospect of recall 
+3. Permanently laid off or made redundant by employer/employer ceased 
+
+trading/contract ended 
+4. Employer cut hours/reduced tasks 
+5. Have been put on furlough or paid leave  
+6. Using annual leave 
+16. Quit job/changed employer or job 
+7. My business is directly affected by regulations on opening or travelling or other new 
+regulations related to Coronavirus 
+8. My business is directly affected by a shortage of supplies that I need for my business 
+9. My business is directly affected by reduced demand for my services or products 
+10. Self-isolating or sick leave with company sick pay 
+11. Self-isolating or sick leave with statutory sick pay 
+12. Self-isolating or sick leave without sick pay 
+17. Avoiding risk of becoming sick 
+13. Caring for children or others/parental Leave 
+18. Bereavement 
+14. Other reasons 
+
+
+
+64 
+ 
+
+hrschangeup1 [Increased hours] 
+Universe: IF (ff_country is not 2 OR (ff_country = 2 AND welsh is not 1)) AND   
+((ff_prevsurv = 0 AND blwork = 1, 2, 3 AND (hours+1) > blhours AND hours is not DK/REF 
+AND blhours is not DK/REF)  
+OR (ff_prevsurv = 0 AND blwork = 4 AND sempderived = 1, 2, 3)    
+OR (ff_prevsurv = 1 AND sempderived = 1, 2, 3 AND (hours+1) > ff_hours AND hours is not 
+DK/REF/MIS AND ff_hours is not -9, -2, -1)  
+OR (ff_prevsurv = 1 AND ff_sempderived = 4 AND sempderived = 1, 2, 3))) // Ask if 
+respondent not living in Wales or living in Wales and did not complete survey in Welsh and  
+not completed any previous monthly covid-19 survey, and in paid work or self-employed in 
+Jan/Feb 2020, and hours worked last week plus one are more than hours worked in Jan/Feb, 
+and hours and blhours are not missing due to refusal or don’t know answers. Or if not 
+completed any previous survey, and in not in paid work or self-employed in Jan/Feb 2020 
+and currently in work or self-employed. Or if completed a previous monthly survey, and is 
+currently in paid work or self-employed, and hours reported now plus one are more than 
+hours in previous survey, and hours are not missing, and previous hours are not missing. Or 
+if completed a previous monthly survey and was previously not in work or self-employed 
+and is now either in work or self-employed.   
+Source: UKHLS covid-19 survey 
+Text: Your answers suggest that you are working more hours than {IF ff_prevsurv = 0: earlier 
+in the year. / IF ff_prevsurv = 1: when you last completed this survey on {ff_intd} {ff_intm} 
+{ff_inty}.} Can you tell us why? 
+Please select all that apply. 
+1. Normal or expected variation 
+2. Returned to the same employer from furlough  
+3. Returned to the same employer from self-isolation or sick leave 
+4. Returned to the same employer from leave (other than furlough, self-isolation or sick 
+
+leave) 
+5. Reduction in caring duties for children or others 
+6. Employer increased hours/tasks or changed role with same employer 
+7. Changed employer or started new job 
+8. Started self-employment business 
+9. I am self-employed and government restrictions related to coronavirus have been 
+
+relaxed 
+10. I am self-employed and demand for my business has increased  
+11. I am self-employed and the availability of supplies has increased 
+12. I am self-employed and I am returning from self-isolation or illness 
+13. Other reasons 
+
+ 
+ 
+  
+
+
+
+65 
+ 
+
+furlough [Furloughed under the Coronavirus Job Retention Scheme] 
+Universe: IF sempderived = 1, 3 AND ff_furlough is not 1 // Ask if currently in paid work and 
+has not previously been furloughed. 
+Source: UKHLS covid-19 survey 
+Text: Have you received a written letter or email from your employer to confirm that you 
+have been furloughed under the Coronavirus Job Retention Scheme? 
+
+1. Yes 
+2. No 
+
+ 
+
+sempgovt [Government support for self-employed] 
+
+Universe: If (ff_prevsurv = 0 AND blwork = 2, 3) OR (ff_prevsurv = 1 AND ff_blwork = 2, 3 
+AND ff_sempgovt is not 1) // Ask if was self-employed in Jan/Feb 2020, and has not 
+previously received notification from.   
+Source: UKHLS covid-19 survey 
+Text: Have you been told by HMRC that you are eligible for government support for the self-
+employed? 
+
+1. Yes 
+2. No 
+
+ 
+
+netpay_amount [Current earnings amount] 
+
+Universe: IF sempderived = 1, 2, 3 // Ask if currently in paid work or self-employment.    
+Source: UKHLS covid-19 survey 
+Scripting notes: Range [0 – 1,000,000]. 
+Text: What is your usual take-home pay/earnings now? Take-home pay is after tax, 
+National Insurance and pension contributions have been deducted. Please include all jobs 
+and self-employment activities.   
+[Numeric textbox] Pounds 
+ 
+
+netpay_period [Current earnings period] 
+Universe: IF sempderived = 1, 2, 3 // Ask if currently in paid work or self-employment.    
+Source: UKHLS covid-19 survey 
+Scripting notes: Display on same page as netpay_amount. 
+Text: Per  
+
+1. Week 
+2. Two weeks 
+3. Month 
+4. Year 
+
+  
+
+
+
+66 
+ 
+
+netpayweek [Current earnings, derived weekly] 
+Note: variable not released. 
+Universe: IF sempderived = 1, 2, 3 AND netpay_amount is not DK, REF, MIS AND 
+netpay_period is not DK, REF, MIS // Ask if currently in paid work or self-employment, and 
+reported net pay and pay period.    
+Source: UKHLS covid-19 survey 
+DERIVED:   
+= netpay_amount: IF netpay_period = 1 
+= netpay_amount/2: IF netpay_period = 2 
+= netpay_amount/4.33: IF netpay_period = 3 
+= netpay_amount/52.14: IF netpay_period = 4 
+ 
+
+hhearners [Current household earners] 
+Universe: IF hhcompc > 0 OR hhcompd > 0 OR hhcompe > 0 // Ask if living with others aged 
+16-18, 19-69, or 70+.     
+Source: UKHLS covid-19 survey 
+Text: Thinking about the other people living with you at the moment, are any of them 
+employed or self-employed (even if they did not do any paid work last week)?  
+
+1. Yes 
+2. No 
+
+ 
+
+hhearn_amount [Current household earnings amount] 
+Universe: IF (hhcompc > 0 OR hhcompd > 0 OR hhcompe > 0) AND hhearners = 1 // Ask if 
+living with others aged 16-18, 19-69, or 70+, and at least one other earner in household. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Range [0 – 2,500,000].  
+Soft check: IF (hhearn_period = 1 AND hhearn_amount < netpayweek) OR (hhearn_period = 
+2 AND hhearn_amount/2 < netpayweek) OR (hhearn_period = 3 AND hhearn_amount/4.33 
+< netpayweek) OR (hhearn_period = 4 AND hhearn_amount/52.14 < netpayweek) // 
+Household earnings converted to weekly amount are less than weekly net pay.  
+Soft check text: “Your household earnings are lower than your net pay.” 
+Text: Thinking about everyone living with you at the moment, what is the total take-home 
+pay/earnings of your household now? Please only include earnings from paid work or self-
+employment. If you are not sure, please tell us an approximate amount.  
+[Numeric textbox] Pounds 
+  
+
+
+
+67 
+ 
+
+hhearn_period [Current household earnings period] 
+Universe: IF (hhcompc > 0 OR hhcompd > 0 OR hhcompe > 0) AND hhearners = 1 // Ask if 
+living with others aged 16-18, 19-69, or 70+, and at least one other earner in household. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Display on same page as hhearn_amount.  
+Text: Per  
+
+1. Week 
+2. Two weeks 
+3. Month 
+4. Year 
+
+ 
+
+hhearnweek [Household earnings, derived weekly] 
+
+Note: variable not released. 
+Universe: IF (hhcompc > 0 OR hhcompd > 0 OR hhcompe > 0) AND hhearners = 1 AND 
+hhearn_amount is not DK, REF, MIS AND hhearn_period is not DK, REF, MIS // Ask if living 
+with others aged 16-18, 19-69, or 70+, and at least one other earner in household, and 
+reported household earnings and earnings period. 
+Source: UKHLS covid-19 survey 
+DERIVED:   
+= hhearn_amount: IF hhearn_period = 1 
+= hhearn_amount/2: IF hhearn_period = 2 
+= hhearn_amount/4.33: IF hhearn_period = 3 
+= hhearn_amount/52.14: IF hhearn_period = 4 
+  
+
+
+
+68 
+ 
+
+hhincome_amount [Current household income amount] 
+Universe: Ask all.  
+Source: UKHLS covid-19 survey 
+Scripting notes: Range [0 – 2,500,000].  
+Soft check: IF (hhincome_period = 1 AND hhincome_amount < hhearnweek) OR 
+(hhincome_period = 2 AND hhincome_amount/2 < hhearnweek) OR (hhincome_period = 3 
+AND hhincome_amount/4.33 < hhearnweek) OR (hhincome_period = 4 AND 
+hhincome_amount/52.14 < hhearnweek) // Household income converted to weekly amount 
+is less than weekly household earnings.  
+Soft check text: “Your household income should include earnings for all household 
+members (after tax) added with other sources of income like benefits, pensions and 
+earnings from investments on top. Normally it would be more than household earnings.” 
+Text: Many people have additional sources of income beyond earnings from paid work and 
+self-employment. Thinking about everyone living with you at the moment, what is the total 
+take-home/after tax income of your household now? Please include all sources of income, 
+such as benefits, pensions and earnings from investments, as well as earnings from paid 
+work or self-employment. If you are not sure, please tell us an approximate amount.  
+[Numeric textbox] Pounds 
+ 
+
+hhincome_period [Current household income period] 
+
+Universe: Ask all.  
+Source: UKHLS covid-19 survey 
+Scripting notes: Display on same page as hhincome_amount.  
+Text: Per  
+
+1. Week 
+2. Two weeks 
+3. Month 
+4. Year 
+
+  
+
+
+
+69 
+ 
+
+keyworksector [Key work sector] 
+Universe: IF ff_prevsurv = 0 AND sempderived = 1, 2, 3 // Ask if first interview and currently 
+in paid work or self-employment. 
+Source: DfE COVID-19 Parents Childcare Survey 
+Scripting notes: Include info buttons with government definitions of key worker roles per 
+sector. 
+Health and social care info button to show: This includes but is not limited to doctors, 
+nurses, midwives, paramedics, social workers, care workers, and other frontline health and 
+social care staff including volunteers; the support and specialist staff required to maintain 
+the UK’s health and social care sector; those working as part of the health and social care 
+supply chain, including producers and distributors of medicines and medical and personal 
+protective equipment.  
+Education and childcare info button to show: This includes childcare, support and teaching 
+staff, social workers and those specialist education professionals who must remain active 
+during the coronavirus response. 
+Key Public Services info button to show: This includes those essential to the running of the 
+justice system, religious staff, charities and workers delivering key frontline services, those 
+responsible for the management of the deceased, and journalists and broadcasters who are 
+providing public service broadcasting. 
+Local and national government info button to show: This only includes those administrative 
+occupations essential to the effective delivery of the coronavirus response, or delivering 
+essential public services, such as the payment of benefits, including in government agencies 
+and arms length bodies. 
+Food and other necessary goods info button to show: This includes those involved in food 
+production, processing, distribution, sale and delivery, as well as those essential to the 
+provision of other key goods (for example hygienic and veterinary medicines). 
+Public safety and national security info button to show: This includes police and support 
+staff, Ministry of Defence civilians, contractor and armed forces personnel (those critical to 
+the delivery of key defence and national security outputs and essential to the response to 
+the coronavirus pandemic), fire and rescue service employees (including support staff), 
+National Crime Agency staff, those maintaining border security, prison and probation staff 
+and other national security roles, including those overseas. 
+Transport info button to show: This includes those who will keep the air, water, road and 
+rail passenger and freight transport modes operating during the coronavirus response, 
+including those working on transport systems through which supply chains pass. 
+Utilities, communications and financial services info button to show: This includes staff 
+needed for essential financial services provision (including but not limited to workers in 
+banks, building societies and financial market infrastructure), the oil, gas, electricity and 
+water sectors (including sewerage), information technology and data infrastructure sector 
+and primary industry supplies to continue during the coronavirus response, as well as key 
+staff working in the civil nuclear, chemicals, telecommunications (including but not limited 
+
+
+
+70 
+ 
+
+to network operations, field engineering, call centre staff, IT and data infrastructure, 999 
+and 111 critical services), postal services and delivery, payments providers and waste 
+disposal sectors. 
+ 
+Text: Are you working as a key worker in any of the key sectors below during the current 
+coronavirus situation? 
+
+1. Health and social care 
+2. Education and childcare 
+3. Key public services 
+4. Local and national government  
+5. Food and other necessary goods 
+6. Public safety and national security 
+7. Transport 
+8. Utilities, communications and financial services 
+9. No, I am not working as a key worker 
+
+ 
+
+wah [Working at home] 
+Universe: IF sempderived = 1, 2, 3 // Ask if currently in paid work or self-employment. 
+Source: UKHLS covid-19 survey 
+Text: During the last four weeks how often did you work at home?  
+
+1. Always 
+2. Often 
+3. Sometimes 
+4. Never 
+
+ 
+
+tsempend [Time stamp: employment module end]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time completed last question in this module 
+ 
+  
+
+
+
+71 
+ 
+
+Finance module   
+ 
+Variables used for routing – from sample file 
+ 
+ff_country [country of residence]  
+
+1. England 
+2. Wales 
+3. Scotland 
+4. N Ireland 
+
+ 
+ff_prevsurv [Whether full respondent in a previous monthly survey]  
+
+0. No  
+1. Yes 
+
+ 
+ff_ucredit [Receives Universal Credit] 
+
+1. Award approved or receiving Universal Credit: IF (blbenefitsb65 = 1 OR ucredit = 5, 6 
+in any previous month OR ucredit2 = 1, 2 in any previous month) // respondent has 
+reported award approved or receiving Universal Credit 
+
+2. Application in process: IF (blbenefitsb65 is not 1 AND ucredit is not 5, 6 in any 
+previous month AND ucredit2 is not 1, 2 in any previous month AND (ucredit = 4 in 
+any previous month OR ucredit2 = 3 in any previous month)) // respondent has not 
+reported receiving Universal Credit, but has reported an application in process   
+
+-8. Inapplicable: IF neither code 1 nor code 2 apply 
+ 
+
+ff_morhol [Mortgage holiday] 
+1. Mortgage holiday was granted: IF (morhol = 1 in any previous month OR morhol2 = 1 
+
+in any previous month) // mortgage holiday has been granted. 
+2. Application in process: IF (morhol is not 1 in any previous month AND morhol2 is not 
+
+1 in any previous month AND (morhol = 2 in any previous month OR morhol2 = 3 in 
+any previous month)) // respondent has not reported a granted mortgage holiday, 
+but has reported an application in process 
+
+-8. Inapplicable: IF neither code 1 nor code 2 apply 
+  
+
+
+
+72 
+ 
+
+ff_hsownd_cv [House owned or rented] 
+Notes: values of hsownd_cv from the last monthly survey in which the respondent was 
+asked this question. That is, only over-write ff_hsownd_cv if the value of hsownd_cv from 
+the last survey completed is not -8 “Inapplicable”. 
+
+-9. Missing 
+-8. Inapplicable 
+-2. Refusal 
+-1. Don’t know 
+1. Owned outright   
+2. Owned/being bought on mortgage   
+3. Shared ownership (part-owned part-rented)   
+4. Rented (social housing or from council)     
+5. Rent free 
+6. Rented (privately)_    
+97. Other  
+
+ 
+Variables used for routing – from other modules 
+ 
+hsownd_cv [House owned or rented] – housing module 
+
+1. Owned outright   
+2. Owned/being bought on mortgage   
+3. Shared ownership (part-owned part-rented)   
+4. Rented (social housing or from council)  
+5. Rent free   
+6. Rented (privately)  
+97. Other  
+ 
+
+age [Age – derived] - ID check and household composition module 
+ 
+welsh [Welsh language] – ID check and household composition module 
+
+1. Welsh  
+2. English  
+
+ 
+
+tsfinst [Time stamp: finance module start]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time arrived at first question in this module 
+  
+
+
+
+73 
+ 
+
+blbenefitsb65 [Baseline: benefits] 
+Universe: IF ff_prevsurv = 0 AND age < 66 // Ask if not completed any previous monthly 
+covid-19 surveys and less than state pension age. 
+Source: UKHLS covid-19 survey, question BLBENEFITS adapted to ask those less than state 
+pension age 
+Text: Which of the following benefits were you receiving in January/February 2020? 
+Please select all that apply. 
+
+1. Universal Credit 
+2. Working Tax Credit 
+3. Child Tax Credit 
+4. Jobseeker’s Allowance 
+5. Employment and Support Allowance 
+6. None of these 
+
+ 
+
+blbenchangeb65 [Amount of benefits changed] 
+
+Universe: IF ff_prevsurv = 0 AND blbenefitsb65 = 1, 2, 3 AND age < 66 // Ask if not 
+completed any previous monthly covid-19 surveys, and received Universal Credit, Working 
+Tax Credit, or Child Tax Credit in Jan/Feb 2020, and is younger than state pension age.  
+Source: UKHLS covid-19 survey, question BLBENCHANGE adapted to ask those younger than 
+state pension age 
+Text: Has the amount you receive for Universal Credit, Working Tax Credit or Child Tax 
+Credit changed since January/February 2020? 
+
+1. Yes, increased 
+2. Yes, decreased 
+3. No 
+
+  
+
+
+
+74 
+ 
+
+ucreditb65 [Universal Credit] 
+Universe: IF ((ff_prevsurv = 0 AND blbenefitsb65 is not 1) OR (ff_prevsurv = 1 AND ff_ucredit 
+is not 1, 2)) AND age < 66 // Ask if not completed any previous monthly covid-19 surveys 
+and not already receiving Universal Credit in Jan/Feb 2020, or completed previous surveys 
+but not previously reported receiving Universal Credit and not previously reported 
+application in process and less than state pension age. 
+Source: UKHLS covid-19 survey, question UCREDIT adapted to ask those younger than state 
+pension age. 
+Text: Have you applied for Universal Credit since {IF ff_prevsurv=0: March 1st? / IF 
+ff_prevsurv=1: the last time you completed this survey on {ff_intd} {ff_intm} {ff_inty}?} 
+
+1. No  
+2. I tried, but was unable to complete the application 
+3. Yes, but I am not eligible 
+4. Yes, and my claim is being processed 
+5. Yes, my claim has been approved and I am waiting for the first payment 
+6. Yes, and I am now receiving Universal Credit 
+
+ 
+
+ucredit2b65 [Universal Credit, previous applicants]  
+
+Universe: IF ff_prevsurv = 1 AND ff_ucredit = 2 AND age < 66 // If completed previous 
+monthly covid-19 surveys and reported claim being processed at previous interview and less 
+than state pension age.  
+Source: UKHLS covid-19 survey, question UCREDIT2 adapted to ask those younger than state 
+pension age. 
+Text: The last time you completed this survey on {ff_intd} {ff_intm} {ff_inty}, you said you 
+had applied for Universal Credit and that your claim was being processed. What was the 
+outcome of your application? 
+
+1. My claim has been approved and I am waiting for the first payment 
+2. I am now receiving Universal Credit 
+3. My application is still being processed 
+4. I was not eligible 
+
+ 
+  
+
+
+
+75 
+ 
+
+transfers [Transfers] 
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+Text: Have you given financial help to, or received financial help from, family or friends who 
+do not currently live in the same house as you since {IF ff_prevsurv=0: March 1st? / IF 
+ff_prevsurv=1: the last time you completed this survey on {ff_intd} {ff_intm} {ff_inty}?} 
+Financial help could be in the form of money or paying for goods (for example groceries, 
+medicines). 
+
+1. Gave financial help (money or goods you paid for) 
+2. Received financial help (money or goods someone else paid for) 
+3. Gave and received financial help (money or goods) 
+4. Neither 
+
+ 
+
+transfmade [Transfers made] 
+Universe: IF transfers = 1, 3 // Ask if made financial transfers. 
+Source: UKHLS covid-19 survey 
+Text: Who did you give financial help to? 
+Please select all that apply. 
+
+1. Adult children, including in-laws 
+2. Parents or grandparents, including in-laws 
+3. Siblings 
+4. Former spouse or partner 
+5. Friends 
+6. Neighbours 
+7. Someone else 
+
+ 
+
+transfrec [Financial transfers received] 
+Universe: IF transfers = 2, 3 // Ask if financial transfers received. 
+Source: UKHLS covid-19 survey 
+Text: Who have you received financial help from? 
+Please select all that apply. 
+
+1. Adult children, including in-laws 
+2. Parents or grandparents, including in-laws 
+3. Siblings 
+4. Former spouse or partner 
+5. Friends 
+6. Neighbours 
+7. Someone else 
+
+  
+
+
+
+76 
+ 
+
+xphs_cv [Up to date with housing payments] 
+Universe: IF ff_hsownd_cv is not 1 AND hsownd_cv is not 1 // Ask if home is not owned 
+outright. 
+Source: UKHLS, altered version of question XPHSDB  
+Text: Many people find it hard to keep up with their housing payments. May we ask, are you 
+up to date with your rent/mortgage? 
+
+1. Yes 
+2. No 
+
+ 
+
+morhol [Mortgage holiday] 
+
+Universe: IF ff_prevsurv = 0 AND hsownd_cv = 2 OR (ff_prevsurv = 1 AND (hsownd_cv = 2 
+OR ff_hsownd_cv = 2) AND ff_morhol is NOT 1, 2)  // Ask if not completed any previous 
+monthly covid-19 surveys and home owned with a mortgage, or completed previous surveys 
+and home owned with a mortgage and not reported that bank has granted a mortgage 
+holiday, or that their application was under review. 
+Source: UKHLS covid-19 survey 
+Text: Have you asked your bank for a mortgage holiday? 
+
+1. Yes, it was granted 
+2. Yes, my application is under review 
+3. Yes, but it was declined 
+4. No 
+
+ 
+
+morhol2 [Mortgage holiday – outcome of previous application] 
+
+Universe: IF ff_prevsurv = 1 AND ff_morhol = 2 // Ask if respondent reported in a previous 
+monthly survey that they had applied for a mortgage holiday and it was still under review.   
+Source: UKHLS covid-19 survey 
+Text: You have previously told us that you applied for a mortgage holiday and that your 
+application was under review. What is the current status of your application?  
+
+1. It was granted 
+2. It was declined 
+3. My application is still under review 
+
+ 
+
+renthol [Rent holiday or reduction] 
+
+Universe: IF hsownd_cv = 4 OR hsownd_cv = 6 OR ff_hsownd_cv = 4 OR ff_hsownd_cv = 6 // 
+Ask if home is rented. 
+Source: UKHLS covid-19 survey 
+Text: Do you currently have a rent holiday or reduction? 
+
+1. Yes 
+2. No 
+
+  
+
+
+
+77 
+ 
+
+xpbills_cv [Up to date with bill payments] 
+Universe: Ask all. 
+Source: UKHLS, altered version of question XPHSDBA   
+Text: Sometimes people are not able to pay every household bill when it falls due. May we 
+ask, are you up to date with all your household bills such as electricity, gas, water rates, 
+telephone, council tax, credit cards and other bills or are you behind with any of them? 
+
+1. Up to date with all bills 
+2. Behind with some bills 
+3. Behind with all bills 
+
+ 
+
+credithol [Credit holiday] 
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+Text: Have you applied for/received a payment holiday on any credit product other than a 
+mortgage {IF ff_prevsurv = 0: since March 1st? / ff_prevsurv = 1: since the last time you 
+completed this survey on {ff_intd} {ff_intm} {ff_inty}? For example, a credit card, personal 
+loan, car loan or payday loan. 
+Please select all that apply. 
+
+1. Yes, payment holiday(s) granted 
+2. Yes, some applications successful, others declined 
+3. Yes, but application(s) declined 
+4. No 
+
+  
+
+
+
+78 
+ 
+
+inoutflows [Earnings loss] 
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Numbering is deliberately not sequential (to match April 2020 version). 
+Present response options in the order listed below, not in the order of the numbering. Code 
+8 is exclusive. 
+Text: If your household is now earning less than in January/February 2020, have you done 
+any of the following to deal with this?   
+Please select all that apply. 
+
+1. Reduced spending  
+2. Used savings 
+9.  Accessed pension or reduced pension contribution 
+3.  New borrowing from bank (including personal loan) or credit card 
+4.  New borrowing from family and friends 
+5.  Found new work/increased hours  
+6.  Another member of my household found new work or increased hours 
+10. New or increased welfare benefits 
+7.  Dealt with earnings loss in another way 
+8. None of these/does not apply 
+
+ 
+
+save_cv [Any savings] 
+Universe: IF ff_country is not 2 OR (ff_country = 2 AND welsh is not 1) // Ask if respondent 
+not living in Wales, or living in Wales and did not complete survey in Welsh. 
+Source: UKHLS, question SAVE amended time frame 
+Text: In the last 4 weeks, have you saved any amount of your income, for example by 
+putting some away in a bank, building society, or Post Office account, other than to meet 
+regular bills? Please include share purchase schemes and ISAs. 
+
+1. Yes 
+2. No 
+
+ 
+
+saved_cv [Savings amount] 
+
+Universe: IF ff_country is not 2 OR (ff_country = 2 AND welsh is not 1) AND save_cv = 1 // 
+Ask if respondent not living in Wales or living in Wales and did not complete survey in 
+Welsh, and saves. 
+Source: UKHLS, altered version of question SAVED 
+Scripting notes: Range [0 - 20,000]. 
+Text: About how much have you personally managed to save in the last 4 weeks?  
+[Numeric textbox] Pounds 
+
+  
+
+
+
+79 
+ 
+
+debt [Any debt] 
+Universe: IF ff_country is not 2 OR (ff_country = 2 AND welsh is not 1) // Ask if respondent 
+not living in Wales, or living in Wales and did not complete survey in Welsh. 
+Source: UKHLS covid-19 survey  
+Scripting notes: Range [0 - 1,000,000]. Don’t know and Prefer not to say responses are 
+exclusive. 
+Text: We would now like to ask you about any other financial commitments you may have 
+apart from mortgages. Please include personal loans, overdrafts, credit card balances that 
+are rolled over month-to-month, loans from a private individual or any other unsecured 
+borrowing. Please do not include credit card and other bills being fully paid off in the current 
+month.  
+ 
+About how much do you currently owe in total?  
+[Numeric textbox] Pounds 
+
+1. Don’t know 
+2. Prefer not to say 
+
+ 
+
+debt2 [Debt change] 
+
+Universe: IF ff_country is not 2 OR (ff_country = 2 AND welsh is not 1) // Ask if respondent 
+not living in Wales, or living in Wales and did not complete survey in Welsh. 
+Source: UKHLS covid-19 survey 
+Text: In the last 4 weeks, has this amount of debt: 
+
+1. Gone up  
+2. Stayed the same 
+3. Decreased 
+4. Don’t know 
+5. Prefer not to say 
+
+ 
+
+debt3 [Amount of debt change] 
+Universe: IF ff_country is not 2 OR (ff_country = 2 AND welsh is not 1) AND debt2 = 1, 3 // 
+Ask if respondent not living in Wales or living in Wales and did not complete survey in 
+Welsh, and debt has gone up or decreased. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Range[0 - 1,000,000]. 
+Text: By about how much has your debt changed in the last 4 weeks?  
+[Numeric textbox] Pounds 
+
+  
+
+
+
+80 
+ 
+
+tsfinend [Time stamp: finance module end]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time completed last question in this module 
+  
+
+
+
+81 
+ 
+
+Financial security module   
+ 
+Variables used for routing – from sample file 
+ 
+ff_country [country of residence]  
+
+1. England 
+2. Wales 
+3. Scotland 
+4. N Ireland 
+
+ 
+Variables used for routing – from other modules 
+ 
+welsh [Welsh language] – ID check and household composition module 
+
+1. Welsh  
+2. English  
+
+ 
+sempderived [Employee or self-employed, derived] – employment module 
+
+1. Employed  
+2. Self-employed 
+3. Both employed and self-employed 
+
+ 
+
+tsfinsecst [Time stamp: financial security module start]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time arrived at first question in this module 
+ 
+
+finnow [Subjective financial situation - current]    
+Universe: Ask all. 
+Source: BHPS, UKHLS 
+Text: How well would you say you yourself are managing financially these days? Would you 
+say you are... 
+
+1. Living comfortably   
+2. Doing alright   
+3. Just about getting by 
+4. Finding it quite difficult   
+5. Finding it very difficult 
+
+  
+
+
+
+82 
+ 
+
+finfut_cv [Subjective financial situation - future]    
+Universe: Ask all. 
+Source: UKHLS, question FINFUT altered from yearly to monthly 
+Text: Looking ahead, how do you think you will be financially a month from now, will you 
+be...  
+
+1. Better off 
+2. Worse off than you are now 
+3. Or about the same? 
+
+ 
+jobsec [Job security]    
+Universe: IF sempderived = 1, 2, 3 // Ask if currently in paid work or self-employed. 
+Source: Adapted from survey by Adams-Prassl, Boneva, Golin, and Rauh (2020) 
+Scripting notes: Range [0 – 100]. 
+Text: On a scale of 0-100% how likely do you think it is that you will {IF sempderived = 1: 
+lose your job / IF sempderived = 2: shut your business / IF sempderived = 3: lose your job or 
+shut your business} in the next three months?  
+[Numeric textbox] % 
+ 
+
+finsec [Financial security]    
+Universe: All // Ask all. 
+Source: Adapted from survey by Adams-Prassl, Boneva, Golin, and Rauh (2020) 
+Scripting notes: Range [0 – 100]. 
+Text: On a scale of 0-100% how likely do you think it is that you will have difficulty paying 
+your usual bills and expenses in the next three months?  
+[Numeric textbox] % 
+ 
+
+mpc1 [Marginal propensity to consume]    
+Universe: IF ff_country is not 2 OR (ff_country = 2 AND welsh is not 1) // Ask if respondent 
+not living in Wales, or living in Wales and did not complete survey in Welsh. 
+Source: Adapted from survey by Federal Reserve Bank of New York 
+[https://www.minneapolisfed.org/institute/working-papers/wp18-15.pdf] 
+Text: Now consider a hypothetical situation where you unexpectedly receive a one-time 
+payment of £500 today. We would like to know whether this extra income would cause you 
+to change your spending, borrowing and saving behaviour in any way over the next 3 
+months. 
+ 
+If you received the one-time £500 payment:  
+
+1. Over the next 3 months, I would spend more than if I hadn’t received the £500  
+2. Over the next 3 months, I would spend the same as if I hadn’t received the £500  
+3. Over the next 3 months, I would spend less than if I hadn’t received the £500  
+
+
+
+83 
+ 
+
+mpc2 [Marginal propensity to consume amount]    
+Universe: IF (ff_country is not 2 OR (ff_country = 2 AND welsh is not 1)) AND mpc1 = 1, 3 // 
+Ask if respondent not living in Wales or living in Wales and did not complete survey in 
+Welsh, and would spend more or less than before.  
+Source: Adapted from survey by Federal Reserve Bank of New York 
+[https://www.minneapolisfed.org/institute/working-papers/wp18-15.pdf] 
+Scripting notes: Range [0 - 10000]. 
+Text: You indicated that you would {IF mpc1 = 1: increase / IF mpc1 = 3: reduce} your 
+spending/donations over the next 3 months following the receipt of the £500 payment. How 
+much {IF mpc1 = 1: more / IF mpc1 = 3: less} would you spend than if you hadn’t received 
+the £500?  
+[Numeric textbox] Pounds 
+ 
+
+mpc3 [Marginal propensity to borrow and save]    
+Universe: IF (ff_country is not 2 OR (ff_country = 2 AND welsh is not 1)) AND (mpc1 = 2, 3 
+OR (mpc1 = 1 AND mpc2 <500)) // Ask if respondent not living in Wales or living in Wales 
+and did not complete survey in Welsh, and would spend the same or less, or would spend 
+more but less than £500. 
+Source: Adapted from survey by Federal Reserve Bank of New York 
+[https://www.minneapolisfed.org/institute/working-papers/wp18-15.pdf] 
+Text: You have indicated that you would not spend all of the £500 payment. What would 
+you do with the amount that you do not spend:  
+Please select all that apply. 
+
+1. Over the next 3 months, I would pay off more debt (or borrow less) than if I hadn’t 
+received the £500  
+
+2. Over the next 3 months, I would save more than if I hadn’t received the £500  
+3. Over the next 3 months, I would receive less financial help from friends or family 
+
+than if I hadn’t received the £500. 
+4. Over the next 3 months, I would give more financial help to friends or family than if I 
+
+hadn’t received the £500. 
+5. Other  
+
+  
+
+
+
+84 
+ 
+
+mpc3oth [Marginal propensity to borrow and save, other]    
+Universe: IF (ff_country is not 2 OR (ff_country = 2 AND welsh is not 1)) AND ((mpc1 = 2, 3 
+OR (mpc1 = 1 AND mpc2 < 500)) AND mpc3 = 5) // Ask if respondent not living in Wales or 
+living in Wales and did not complete survey in Welsh, and would spend the same or less or 
+would spend more but less than £500, and would do something other with the amount not 
+spent. 
+Source: Adapted from survey by Federal Reserve Bank of New York 
+[https://www.minneapolisfed.org/institute/working-papers/wp18-15.pdf] 
+Text: What else would you do with the amount that you do not spend? 
+[Textbox] 
+ 
+
+tsfinsecend [Time stamp: financial security module end]   
+
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time completed last question in this module 
+ 
+ 
+  
+
+
+
+85 
+ 
+
+5-11 year-olds: strengths and difficulties questionnaire and special 
+educational needs module 
+ 
+Note: the questions in this module were not translated into Welsh.  
+Universe for module: IF ff_country is not 2 OR (ff_country = 2 AND welsh = 2) // Ask if 
+respondent is not living in Wales or living in Wales and completed the survey in English.  
+ 
+Variables used for routing – from sample file 
+ 
+ff_country [country of residence]  
+
+5. England 
+6. Wales 
+7. Scotland 
+8. N Ireland 
+
+ 
+Variables used for routing – from other modules 
+ 
+welsh [Welsh language] – ID check and household composition module 
+
+1. Welsh  
+2. English  
+
+ 
+parent511 [Parent of child aged 5 to 11 in household] – Household relationships module 
+ 
+
+tssdqst [Time stamp: SDQ module start]   
+
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time arrived at first question in this module 
+ 
+
+num511 [Number of children aged 5-11]   
+
+Universe: If parent511 = 1 // Ask if respondent is parent of 5-11 year old living in the 
+household. 
+Source: UKHLS covid-19 survey 
+Text: How many children of your own aged between 5 and 11 are currently living with you?  
+
+1. 1 child 
+2. 2 children 
+3. 3 children 
+4. 4 children  
+5. 5 or more children 
+6. I don’t have any children aged 5-11 currently living with me 
+
+ 
+
+
+
+86 
+ 
+
+ch511 [Details of 5-11 year olds]   
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 // Ask if respondent is parent of 5-11 
+year old living in the household and number of children in that age group is reported.  
+Source: UKHLS covid-19 survey 
+Scripting notes: Display a grid of rows = num511. Column headings for “First name” and 
+“Date of birth”. Within each row a text box for name and numeric text box for date of birth. 
+Respondents to enter date of birth with format dd/mm/yyyy rather than a date selector. Do 
+not display DK and REF answer options, answer required. Range for ch511dob [24/07/2008 - 
+30/07/2015]. 
+Text: {IF num511 = 1: We would like to ask you about your child aged 5-11 who is living with 
+you./ IF num511 = 2, 3, 4, 5: We would like to ask you about your children aged 5-11 who 
+are living with you.} So it’s easier to know who you are answering about, please give us the 
+child’s first name and date of birth. {IF num511 = 5: If you have 5 or more children, please 
+give us the names of the eldest 5.} 
+  
+ch511namea. [Textbox] Name   ch511doba. [Numeric textbox] Date of birth (dd/mm/yyyy) 
+ch511nameb. [Textbox] Name   ch511dobb. [Numeric textbox] Date of birth (dd/mm/yyyy) 
+ch511namec. [Textbox] Name   ch511dobc. [Numeric textbox] Date of birth (dd/mm/yyyy) 
+ch511named. [Textbox] Name  ch511dobd. [Numeric textbox] Date of birth (dd/mm/yyyy) 
+ch511namee. [Textbox] Name   ch511dobe. [Numeric textbox] Date of birth (dd/mm/yyyy) 
+ 
+START LOOP. 
+LOOP OVER EACH CHILD REPORTED AT CH511.  
+ 
+
+chsdpf_cv [Behaviour: considerate] 
+
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDPF with a different time frame 
+Text: Strengths and Difficulties Questionnaire. 
+We next have some questions about what {ch511name} is like. For each item, please mark 
+the box for Not True, Somewhat True or Certainly True. It would help us if you answered all 
+items as best you can even if you are not absolutely certain or the item seems daft! Please 
+give your answers on the basis of the child's behaviour over the last six months.  
+{ch511name} is considerate of other people’s feelings.   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+  
+
+
+
+87 
+ 
+
+chsdro_cv [Behaviour: restless] 
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDRO with a different time frame 
+Text: {ch511name} is restless, overactive, cannot stay still for long.   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+ 
+
+chsdhs_cv [Behaviour: headaches] 
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDHS with a different time frame 
+Text: {ch511name} often complains of headaches, stomach-aches or sickness.   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+ 
+
+chsdsr_cv [Behaviour: shares readily] 
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDSR with a different time frame 
+Text: {ch511name} shares readily with other children (treats, toys, pencils etc.).   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+ 
+
+chsdtt_cv [Behaviour: temper tantrums] 
+
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDTT with a different time frame 
+Text: {ch511name} often has temper tantrums or hot tempers.   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+  
+
+
+
+88 
+ 
+
+chsdsp_cv [Behaviour: solitary] 
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDSP with a different time frame 
+Text: {ch511name} is rather solitary, tends to play alone.   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+ 
+
+chsdor_cv [Behaviour: obedient] 
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDOR with a different time frame 
+Text: {ch511name} is generally obedient, usually does what adults request.   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+ 
+
+chsdmw_cv [Behaviour: many worries] 
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDMW with a different time 
+frame 
+Text: {ch511name} has many worries, often seems worried.   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+ 
+
+chsdhu_cv [Behaviour: helpful] 
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDHU with a different time frame 
+Text: {ch511name} is helpful if someone is hurt, upset or feeling ill.   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+
+
+89 
+ 
+
+chsdfs_cv [Behaviour: fidgeting] 
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDFS with a different time frame 
+Text: {ch511name} is constantly fidgeting or squirming.   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+ 
+
+chsdgf_cv [Behaviour: good friend] 
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDGF with a different time frame 
+Text: {ch511name} has at least one good friend.   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+ 
+
+chsdfb_cv [Behaviour: fights] 
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDFB with a different time frame 
+Text: {ch511name} often fights with other children or bullies them.   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+ 
+
+chsdud_cv [Behaviour: unhappy] 
+
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDUD with a different time frame 
+Text: {ch511name} is often unhappy, down-hearted or tearful.   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+  
+
+
+
+90 
+ 
+
+chsdlc_cv [Behaviour: liked] 
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDLC with a different time frame 
+Text: {ch511name} is generally liked by other children.   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+ 
+
+chsddc_cv [Behaviour: distracted] 
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDDC with a different time frame 
+Text: {ch511name} is easily distracted, concentration wanders.   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+ 
+
+chsdnc_cv [Behaviour: nervous] 
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDNC with a different time frame 
+Text: {ch511name} is nervous or clingy in new situations, easily loses confidence.   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+ 
+
+chsdky_cv [Behaviour: kind] 
+
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDKY with a different time frame 
+Text: {ch511name} is kind to younger children.   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+  
+
+
+
+91 
+ 
+
+chsdoa_cv [Behaviour: often lies] 
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDOA with a different time frame 
+Text: {ch511name} often lies or cheats.   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+ 
+
+chsdpb_cv [Behaviour: bullied] 
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDPB with a different time frame 
+Text: {ch511name} is picked on or bullied by other children.   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+ 
+
+chsdvh_cv [Behaviour: volunteers] 
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDVH with a different time frame 
+Text: {ch511name} often volunteers to help others (parents, teachers, other children).   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+ 
+
+chsdst_cv [Behaviour: thinks] 
+
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDST with a different time frame 
+Text: {ch511name} thinks things out before acting.   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+  
+
+
+
+92 
+ 
+
+chsdcs_cv [Behaviour: steals] 
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDCS with a different time frame 
+Text: {ch511name} steals from home, school or elsewhere.   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+ 
+
+chsdgb_cv [Behaviour: gets on better] 
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDGB with a different time frame 
+Text: {ch511name} gets on better with adults than with other children.   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+ 
+
+chsdfe_cv [Behaviour: fears] 
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDFE with a different time frame 
+Text: {ch511name} has many fears, easily scared.   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+ 
+
+chsdte_cv [Behaviour: completes tasks] 
+
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: SDQ, Robert Goodman (2005), UKHLS, question CHSDTE with a different time frame 
+Text: {ch511name} sees tasks through to the end, good attention span.   
+
+1. Not true 
+2. Somewhat true 
+3. Certainly true 
+
+  
+
+
+
+93 
+ 
+
+send511 [Child has SEND] 
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing // 
+Ask if respondent is parent of 5-11 year old living in the household, and number of children 
+in that age group is reported, and at least one child name is reported.  
+Source: UKHLS covid-19 survey 
+Text: Do you consider {ch511name} to have a health or behavioural problem, special 
+educational need or a disability? 
+
+1. Yes 
+2. No 
+
+  
+
+senspt511 [Child receives support from local authority] 
+Universe: IF parent511 = 1 AND num511 = 1, 2, 3, 4, 5 AND ch511namea is not missing AND 
+send511 = 1 // Ask if respondent is parent of 5-11 year old living in the household, and 
+number of children in that age group is reported, and at least one child name is reported, 
+and child has SEND.  
+Source: UKHLS covid-19 survey  
+Scripting notes: Info button: in England an Education, Health and Care (EHC) plan is for 
+children and young people who need additional support for special educational needs. EHC 
+plans identify educational, health and social needs. In Wales and Northern Ireland a 
+Statement describes the child’s special educational needs and sets out the additional 
+support to meet those needs. In Scotland, a co-ordinated support plan is an action plan for 
+children and young people who need significant additional support with their education. 
+Text: Does {ch511name} have an Education, Health and Care (EHC) plan, Statement or co-
+ordinated support plan from the local authority?   
+
+1. Yes 
+2. They are currently being assessed or planning to be assessed 
+3. No 
+
+ 
+END LOOP. 
+ 
+
+tssdqend [Time stamp: SDQ module end]   
+
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time completed last question in this module 
+ 
+  
+
+
+
+94 
+ 
+
+12-17 year-olds: special educational needs module 
+ 
+Note: the questions in this module were not translated into Welsh.  
+Universe for module: IF ff_country is not 2 OR (ff_country = 2 AND welsh = 2) // Ask if 
+respondent is not living in Wales or living in Wales and completed the survey in English.  
+ 
+Variables used for routing – from sample file 
+ 
+ff_country [country of residence]  
+
+1. England 
+2. Wales 
+3. Scotland 
+4. N Ireland 
+
+ 
+Variables used for routing – from other modules 
+ 
+welsh [Welsh language] – ID check and household composition module 
+
+1. Welsh  
+2. English  
+
+ 
+parent1217 [Parent of children aged 12-17 in household] – Household relationships 
+module 
+
+1. Yes 
+2. No 
+
+ 
+
+tssendst [Time stamp: special educational needs module start]   
+
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time arrived at first question in this module 
+  
+
+
+
+95 
+ 
+
+num1217 [Number of children aged 1217]   
+Universe: If parent1217 = 1 // Ask if respondent is a parent of a child aged 12-17 living in the 
+household. 
+Source: UKHLS covid-19 survey 
+Text: How many children of your own aged between 12 and 17 are currently living with 
+you?  
+
+1. 1 child 
+2. 2 children 
+3. 3 children 
+4. 4 children  
+5. 5 or more children 
+6. I don’t have any children aged 12-17 living with me 
+
+ 
+
+ch1217 [Details of 12-17 year olds]   
+Universe: IF parent1217 = 1 AND num1217 = 1, 2, 3, 4, 5  // Ask if respondent is parent to at 
+least one child aged 12-17 living in the household and number of children in that age group 
+is reported.  
+Source: UKHLS covid-19 survey 
+Scripting notes: Display a grid of rows = num1217. Column headings for “First name” and 
+“Date of birth”. Within each row a text box for name and numeric text box for date of birth. 
+Respondents to enter date of birth with format dd/mm/yyyy rather than a date selector. Do 
+not display DK and REF answer options, answer required. Range for ch1217dob [24/07/2002  
+to 30/07/2008]. 
+Text: {IF num1217 = 1: We would like to ask you about your child aged 12-17 who is 
+currently living with you./ IF num1217 = 2, 3, 4, 5: We would like to ask you about your 
+children aged 12-17 who are currently living with you.} So it’s easier to know who you are 
+answering about, please give us the child’s first name and date of birth. {IF num1217 = 5: If 
+you have 5 or more children, please give us the names of the eldest 5.} 
+ 
+ch1217namea. [Textbox] Name   ch1217doba. [Numeric textbox] Date of birth 
+(dd/mm/yyyy) 
+ch1217nameb. [Textbox] Name   ch1217dobb. [Numeric textbox] Date of birth 
+(dd/mm/yyyy) 
+ch1217namec. [Textbox] Name   ch1217dobc. [Numeric textbox] Date of birth 
+(dd/mm/yyyy) 
+ch1217named. [Textbox] Name  ch1217dobd. [Numeric textbox] Date of birth 
+(dd/mm/yyyy) 
+ch1217namee. [Textbox] Name   ch1217dobe. [Numeric textbox] Date of birth 
+(dd/mm/yyyy) 
+  
+
+
+
+96 
+ 
+
+START LOOP. 
+LOOP OVER EACH CHILD REPORTED AT CH1217. 
+ 
+
+send1217 [Teen has SEND] 
+
+Universe: IF parent1217 = 1 AND num1217 = 1, 2, 3, 4, 5  AND ch1217namea is not missing 
+// Ask if respondent is parent to at least one child aged 12-17 living in the household, and 
+number of children in that age group is reported, and at least one child name is reported. 
+Source: UKHLS covid-19 survey 
+Text: Do you consider {ch1217name} to have a health or behavioural problem, special 
+educational need or a disability? 
+
+1. Yes 
+2. No 
+
+  
+
+senspt1217 [Teen receives support from local authority] 
+Universe: IF parent1217 = 1 AND num1217 = 1, 2, 3, 4, 5  AND ch1217namea is not missing 
+AND send1217 = 1 // Ask if respondent is parent to at least one child aged 12-17 living in the 
+household, and number of children in that age group is reported, and at least one child 
+name is reported, and child has SEND. 
+Source: UKHLS covid-19 survey  
+Scripting notes: Info button: in England an Education, Health and Care (EHC) plan is for 
+children and young people who need additional support for special educational needs. EHC 
+plans identify educational, health and social needs. In Wales and Northern Ireland a 
+Statement describes the child’s special educational needs and sets out the additional 
+support to meet those needs. In Scotland, a co-ordinated support plan is an action plan for 
+children and young people who need significant additional support with their education. 
+Text: Does {ch1217name} have an Education, Health and Care (EHC) plan, Statement or co-
+ordinated support plan from the local authority?   
+
+1. Yes 
+2. They are currently being assessed or planning to be assessed 
+3. No 
+
+ 
+END LOOP. 
+ 
+
+tssendend [Time stamp: special educational needs module end]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time completed last question in this module 
+ 
+ 
+ 
+  
+
+
+
+97 
+ 
+
+Religion module   
+ 
+Note: the questions in this module were not translated into Welsh.  
+Universe for module: IF ff_country is not 2 OR (ff_country = 2 AND welsh = 2) // Ask if 
+respondent is not living in Wales or living in Wales and completed the survey in English.  
+ 
+Variables used for routing – from sample file 
+ 
+ff_country [country of residence]  
+
+1. England 
+2. Wales 
+3. Scotland 
+4. N Ireland 
+
+ 
+Variables used for routing – from other modules 
+ 
+welsh [Welsh language] – ID check and household composition module 
+
+1. Welsh  
+2. English  
+
+ 
+
+tsrelst [Time stamp: religion module start]   
+
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time arrived at first question in this module 
+ 
+
+oprlg2_cv [Attended religious services in-person] 
+
+Universe: Ask all. 
+Source: UKHLS, question OPRLG2 amended to ask about last 4 weeks and to add the ‘in 
+person’ text 
+Text: Since places of worship opened for religious services on July 4th, how often, if at all, did 
+you attend religious services or meetings in person? 
+
+1. More than once a week 
+2. Once a week 
+3. A couple of times  
+4. Once 
+5. Never 
+
+  
+
+
+
+98 
+ 
+
+relweb [Attended online religious services] 
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+Text: How often did you attend online religious services or meetings in the last 4 weeks? 
+
+1. More than once a week 
+2. Once a week 
+3. A couple of times  
+4. Once 
+5. Never 
+
+ 
+
+prayfreq_cv [Frequency of praying] 
+Universe: Ask all. 
+Source: UKHLS, question PRAYFREQ, amended time frame and categories 
+Text: Apart from when you were at religious services or meetings, how often did you pray in 
+the last 4 weeks? 
+
+1. Every day 
+2. More than once a week 
+3. Once a week 
+4. At least once a month 
+5. Only on special holy days 
+6. Less often 
+7. Never 
+
+ 
+
+fcomhelp [Support from faith community] 
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+Text: Thinking about the last 4 weeks, did you receive any support from your faith 
+community? 
+
+1. Yes 
+2. No, I sought support but did not receive it 
+3. No, I did not seek support  
+4. I do not have a faith community 
+
+  
+
+
+
+99 
+ 
+
+fcomhelpwhat [What support received] 
+Universe: IF fcomhelp = 1 // Ask if received support from faith community. 
+Source: UKHLS covid-19 survey 
+Text: What kind of help did you receive in the last 4 weeks?  
+Please select all that apply.  
+
+1. Pastoral care from clergy/minister/faith leader  
+2. Support for loneliness or depression  
+3. Practical assistance with everyday tasks 
+4. Donations of food or other necessities  
+5. Financial assistance 
+6. Other 
+
+ 
+
+tsrelend [Time stamp: religion module end]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time arrived at last question in this module 
+ 
+ 
+ 
+  
+
+
+
+100 
+ 
+
+Volunteering module 
+ 
+Note: the questions in this module were not translated into Welsh.  
+Universe for module: IF ff_country is not 2 OR (ff_country = 2 AND welsh = 2) // Ask if 
+respondent is not living in Wales or living in Wales and completed the survey in English.  
+ 
+Variables used for routing – from sample file 
+ 
+ff_country [country of residence]  
+
+1. England 
+2. Wales 
+3. Scotland 
+4. N Ireland 
+
+ 
+Variables used for routing – from other modules 
+ 
+welsh [Welsh language] – ID check and household composition module 
+
+1. Welsh  
+2. English  
+
+ 
+
+tsvolst [Time stamp: volunteering module start]   
+
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time arrived at first question in this module 
+ 
+
+volun_cv [Volunteer in last 4 months]   
+
+Universe: Ask all. 
+Source: UKHLS, question VOLUN adapted to ask about last 4 months 
+Text: Since March 2020, have you given any unpaid help or worked as a volunteer for any 
+type of local, national or international organisation or charity?  
+
+1. Yes  
+2. No 
+
+  
+
+
+
+101 
+ 
+
+volcause [Reason for volunteering]   
+Universe: IF volun_cv = 1 // Ask if volunteered in the last 4 months. 
+Source: UKHLS covid-19 survey 
+Text: Why have you been doing unpaid or voluntary work since March 2020? 
+Please select all that apply. 
+
+1. My main motivation was to support the response to the coronavirus pandemic 
+2. Other reasons 
+
+ 
+
+volhow [How volunteering]   
+Universe: IF volun_cv = 1 // Ask if volunteered in the last 4 months. 
+Source: UKHLS covid-19 survey 
+Text: And since March 2020, how have you been doing unpaid or voluntary work?  
+Please select all that apply.  
+
+1. In person, together with other volunteers from outside of my household  
+2. In person, together with other members of my household  
+3. In person, on my own 
+4. Remotely from my home, by making phone calls 
+5. Remotely from my home, by using the internet 
+6. Other 
+
+ 
+
+volhrs [Hours spent volunteering in last 4 weeks]   
+Universe: IF volun_cv = 1 // Ask if volunteered in the last 4 months. 
+Source: UKHLS 
+Soft check: If volhrs > 50  
+Soft check text: “You have just entered that you spent {volhrs} volunteering in the last 4 
+weeks.” Range [0 - 200]. 
+Text: And in the last 4 weeks approximately how many hours have you spent doing unpaid 
+or voluntary work for any organisation? If you volunteer for more than one group or agency, 
+please total the time spent in all groups together. 
+[Numeric textbox] Hours 
+ 
+
+tsvolend [Time stamp: volunteering module end]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time arrived at last question in this module 
+ 
+  
+
+
+
+102 
+ 
+
+Sleep module 
+ 
+Note: the questions in this module were not translated into Welsh.  
+Universe for module: IF ff_country is not 2 OR (ff_country = 2 AND welsh = 2) // Ask if 
+respondent is not living in Wales or living in Wales and completed the survey in English.  
+ 
+Variables used for routing – from sample file 
+ 
+ff_country [country of residence]  
+
+1. England 
+2. Wales 
+3. Scotland 
+4. N Ireland 
+
+ 
+Variables used for routing – from other modules 
+ 
+welsh [Welsh language] – ID check and household composition module 
+
+1. Welsh  
+2. English  
+
+ 
+
+tssleepst [Time stamp: sleep module start]   
+
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time arrived at first question in this module 
+ 
+
+hrs_slph_cv [Hours of actual sleep (hrs)] 
+
+Universe: Ask all.  
+Source: PSQI  / UKHLS, question HRS_SLPH changed to original PSQI wording 
+Scripting notes: Range [0 – 24].  
+Soft Check: IF hrs_slph_cv > 12 // Sleeps for more than 12 hours per night on average 
+Soft check text: “You said you usually sleep for more than {hrs_slph_cv} hours per night. If 
+that’s correct, please continue. Otherwise, please correct your answer.” 
+Soft Check: IF hrs_slph_cv = 0 // Sleeps for 0 hours per night on average 
+Soft check text: “You said you usually sleep for {hrs_slph_cv} hours per night. If that’s 
+correct, please continue. Otherwise, please correct your answer.” 
+Text: The following questions relate to your usual sleep habits during the last month. Please 
+indicate the most accurate reply for the majority of days and nights in the past month. 
+How many hours of actual sleep did you usually get per night during the last month? This 
+may be different than the number of hours you spent in bed. 
+[Numeric textbox] Hours  
+
+
+
+103 
+ 
+
+hrs_slpm_cv [Hours of actual sleep (mins)] 
+Universe: Ask all.  
+Source: PSQI  / UKHLS, question HRS_SLPM, amended to display on same screen as 
+hrs_slph_cv 
+Scripting notes: Range [0 – 59]. Display on same screen as hrs_slph_cv. 
+Hard Check: IF hrs_slph_cv = 23 AND hrs_slpm_cv > 0 // Sleeps for more than 23 hours per 
+night on average 
+Hard check text: “You said you usually sleep for more than {hrs_slph_cv} hours and 
+{hrs_slpm_cv} minutes per night. Please correct your answer.” 
+[Numeric textbox] Minutes 
+ 
+
+tslp_30m_cv [Cannot get to sleep within 30 mins] 
+
+Universe: Ask all.  
+Source: PSQI  / UKHLS, question TSLP_30M, revised to ask as single questions rather than as 
+a grid. 
+Text: During the past month, how often have you had trouble sleeping because you cannot 
+get to sleep within 30 minutes? 
+
+1. Not during the past month 
+2. Less than once a week 
+3. Once or twice a week 
+4. Three or more times a week 
+5. More than once most nights 
+
+ 
+
+tslp_wak_cv [Wake up in the night] 
+Universe: Ask all.  
+Source: PSQI  / UKHLS, question TSLP_WAK, revised to ask as single questions rather than as 
+a grid. 
+Text: During the past month, how often have you had trouble sleeping because you wake 
+up in the middle of the night or early in the morning? 
+
+1. Not during the past month 
+2. Less than once a week 
+3. Once or twice a week 
+4. Three or more times a week 
+5. More than once most nights 
+
+ 
+  
+
+
+
+104 
+ 
+
+tslp_cgh_cv [Cough or snore loudly] 
+Universe: Ask all.  
+Source: PSQI  / UKHLS, question TSLP_CGH, revised to ask as single questions rather than as 
+a grid. 
+Text: During the past month, how often have you had trouble sleeping because you cough 
+or snore loudly? 
+
+1. Not during the past month 
+2. Less than once a week 
+3. Once or twice a week 
+4. Three or more times a week 
+5. More than once most nights 
+
+ 
+
+med_slp_cv [Taken medicine to help sleep] 
+Universe: Ask all.  
+Source: PSQI  / UKHLS, question TSLP_SLP, revised to ask as single questions rather than as a 
+grid. 
+Text: During the past month, how often have you taken medicine (prescribed or "over the 
+counter") to help you sleep? 
+
+1. Not during the past month 
+2. Less than once a week 
+3. Once or twice a week 
+4. Three or more times a week 
+
+ 
+
+tsta_awk_cv [Trouble staying awake during the day] 
+Universe: Ask all.  
+Source: PSQI  / UKHLS, question TSLP_AWK, revised to ask as single questions rather than as 
+a grid. 
+Text: During the past month, how often have you had trouble staying awake while driving, 
+eating meals, or engaging in social activity? 
+
+1. Not during the past month 
+2. Less than once a week 
+3. Once or twice a week 
+4. Three or more times a week 
+
+  
+
+
+
+105 
+ 
+
+slp_qual [Quality of sleep overall] 
+Universe: Ask all.  
+Source: PSQI  / UKHLS 
+Text: During the past month, how would you rate your sleep quality overall? 
+
+1. Very good 
+2. Fairly good 
+3. Fairly bad 
+4. Very bad 
+
+ 
+
+tssleepend [Time stamp: sleep module end]   
+
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time completed last question in this module 
+ 
+ 
+ 
+ 
+  
+
+
+
+106 
+ 
+
+Nutrition module 
+ 
+Note: the questions in this module were not translated into Welsh.  
+Universe for module: IF ff_country is not 2 OR (ff_country = 2 AND welsh = 2) // Ask if 
+respondent is not living in Wales or living in Wales and completed the survey in English.  
+ 
+Variables used for routing – from sample file 
+ 
+ff_country [country of residence]  
+
+1. England 
+2. Wales 
+3. Scotland 
+4. N Ireland 
+
+ 
+Variables used for routing – from other modules 
+ 
+welsh [Welsh language] – ID check and household composition module 
+
+1. Welsh  
+2. English  
+
+ 
+
+tsnutritionst [Time stamp: nutrition module start]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time arrived at first question in this module 
+ 
+
+wkfruit_cv [Days each week eat fruit] 
+Universe: Ask all. 
+Source: Adapted from HILDA, UKHLS question WKFRUIT adapted to change timeframe 
+Text: Thinking about last week, including tinned, frozen, dried and fresh fruit, on how many 
+days did you eat fruit? Please do not include fruit juice. 
+
+1. Never 
+2. 1-3 days 
+3. 4-6 days 
+4. Every day 
+
+ 
+  
+
+
+
+107 
+ 
+
+fruitamt [Amount of fruit eaten per day] 
+Universe: IF wkfruit_cv = 2, 3, 4  // Ask if eats some fruit in a usual week. 
+Source: Adapted from Pot, G. K. et al (2014) Development of the Eating Choices Index (ECI): 
+a four-item index to measure healthiness of diet. Public Health Nutrition 17(12), 2660-2666, 
+UKHLS 
+Scripting notes: Range [0 – 20]. 
+Soft check: IF fruitamt > 15 // If more than 15 portions of fruit eaten per day 
+Soft check text: “You said you usually eat {fruitamt} servings of fruit per day. If that’s 
+correct, please continue. Otherwise, please correct your answer.” 
+Text: On the days when you eat fruit, how many portions (e.g. an apple, an orange, some 
+grapes) do you eat? 
+[Numeric textbox] Portions of fruit 
+ 
+
+wkvege_cv [Days each week eat vegetables] 
+Universe: Ask all. 
+Source: Adapted from HILDA, UKHLS question WKVEGE adapted to change timeframe 
+Text: Thinking about last week, including tinned, frozen and fresh vegetables, on how many 
+days did you eat vegetables? Do not include potatoes, crisps or chips. 
+
+1. Never 
+2. 1-3 days 
+3. 4-6 days 
+4. Every day 
+
+ 
+
+vegeamt [Amount of veg eaten per day] 
+Universe: IF wkvege_cv = 2, 3, 4  // Ask if eats some vegetables in a usual week. 
+Source: Adapted from Pot, G. K. et al (2014) Development of the Eating Choices Index (ECI): 
+a four-item index to measure healthiness of diet. Public Health Nutrition 17(12), 2660-2666, 
+UKHLS 
+Scripting notes: Range [0 – 20]. 
+Soft check: IF vegeamt > 15 // If more than 15 portions of veg eaten per day 
+Soft check text: “You said you usually eat {vegeamt} servings of veg per day. If that’s 
+correct, please continue. Otherwise, please correct your answer.” 
+Text: On the days when you eat vegetables, how many portions (i.e. 3 heaped tablespoons) 
+do you eat? Please do not include potatoes. 
+[Numeric textbox] Portions of vegetables 
+ 
+  
+
+
+
+108 
+ 
+
+breakfst_cv [Days eats breakfast] 
+Universe: Ask all. 
+Source: Adapted from Pot, G. K. et al (2014) Development of the Eating Choices Index (ECI): 
+a four-item index to measure healthiness of diet. Public Health Nutrition 17(12), 2660-2666, 
+UKHLS question BREAKFST adapted to change timeframe 
+Scripting notes: Range [0 – 7]. 
+Text: The next few questions are about your eating habits. Thinking about last week, on how 
+many days did you eat breakfast? 
+[Numeric textbox] Days a week 
+ 
+
+usdairy [Usual type of dairy consumption] 
+Universe: Ask all. 
+Source: Adapted from HILDA, UKHLS 
+Scripting notes: Code 6 is exclusive. 
+Text: Can you tell me the type of milk that you usually use? Please select all the types of 
+milk that you usually use. 
+Please select all that apply. 
+
+1. Whole milk 
+2. Semi-skimmed milk 
+3. Skimmed milk 
+4. Soya milk 
+5. Any other sort of milk 
+6. Don’t use milk 
+
+ 
+
+usbread [Type of bread eats most frequently] 
+
+Universe: Ask all. 
+Source: Adapted from Whitehall, UKHLS 
+Scripting notes: Code 6 is exclusive. 
+Text: What type of bread do you usually eat? Please select all the types of bread that you 
+usually eat. 
+Please select all that apply. 
+
+1. White 
+2. Wholemeal 
+3. Granary or wholegrain 
+4. Other brown 
+5. Both brown and white 
+6. Don’t eat bread 
+7. Other type of bread 
+
+ 
+  
+
+
+
+109 
+ 
+
+tsnutritionend [Time stamp: nutrition module end]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time completed last question in this module 
+ 
+ 
+ 
+ 
+  
+
+
+
+110 
+ 
+
+Diet and food security module 
+ 
+Note: the questions in this module were not translated into Welsh.  
+Universe for module: IF ff_country is not 2 OR (ff_country = 2 AND welsh = 2) // Ask if 
+respondent is not living in Wales or living in Wales and completed the survey in English.  
+ 
+Variables used for routing – from sample file 
+ 
+ff_country [country of residence]  
+
+1. England 
+2. Wales 
+3. Scotland 
+4. N Ireland 
+
+ 
+Variables used for routing – from other modules 
+ 
+welsh [Welsh language] – ID check and household composition module 
+
+1. Welsh  
+2. English  
+
+ 
+
+tsfoodsecst [Time stamp: food security module start]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time arrived at first question in this module 
+ 
+
+lacknutr_cv [Healthy and nutritious food] 
+Universe: Ask all. 
+Source: Adapted from UN Global Food Insecurity Experience. Annual version in UKHLS, 
+question LACKNUTR, with different time frame and variable label.   
+Text: Thinking about last week, were you or others in your household unable to eat healthy 
+and nutritious food? 
+
+1. Yes (unable) 
+2. No (able) 
+
+  
+
+
+
+111 
+ 
+
+hungry_cv [Hungry but did not eat] 
+Universe: Ask all. 
+Source: Adapted from UN Global Food Insecurity Experience. Annual version in UKHLS, 
+question HUNGRY, with different time frame and variable label.  
+Text: Still thinking about last week, was there a time when you or others in your household 
+were hungry but did not eat?    
+
+1. Yes 
+2. No 
+
+ 
+
+hungrywhy [Why hungry] 
+Universe: IF hungry_cv = 1 // Ask if hungry but did not eat. 
+Source: UKHLS Covid-19 survey.  
+Text: Why was that? 
+Please select all that apply. 
+
+1. Because we did not have money for food 
+2. Because the shops did not have the food we needed 
+3. Because we could not go food shopping as we were self-isolating/social 
+
+distancing/shielding 
+4. Other reasons 
+
+ 
+
+cutmeals [Cut meal size or skip due to food insecurity] 
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+Text: Still thinking about last week, did you or other adults in the household have smaller 
+meals than usual or skip meals because you could not afford or get access to food? 
+
+1. Yes 
+2. No  
+
+ 
+
+foodbank_cv [Foodbank use] 
+Universe: Ask all. 
+Source: UKHLS, question FOODBANK adjusted to monthly 
+Text: How often has your household used a food bank, or similar service, in the last four 
+weeks?  
+
+1. Never  
+2. Less than four times  
+3. Four times or more 
+
+  
+
+
+
+112 
+ 
+
+blfoodbank [Baseline: foodbank use in January/February 2020] 
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+Text: Thinking about February 2020, how often did your household use a food bank, or 
+similar service? 
+
+1. Never  
+2. Less than four times  
+3. Four times or more 
+
+ 
+
+tsfoodsecend [Time stamp: food security module end]   
+
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time completed last question in this module 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+
+
+113 
+ 
+
+Life satisfaction module 
+ 
+Note: the questions in this module were not translated into Welsh.  
+Universe for module: IF ff_country is not 2 OR (ff_country = 2 AND welsh = 2) // Ask if 
+respondent is not living in Wales or living in Wales and completed the survey in English.  
+ 
+Variables used for routing – from sample file 
+ 
+ff_country [country of residence]  
+
+1. England 
+2. Wales 
+3. Scotland 
+4. N Ireland 
+
+ 
+Variables used for routing – from other modules 
+ 
+welsh [Welsh language] – ID check and household composition module 
+
+1. Welsh  
+2. English  
+
+ 
+
+tslfsatst [Time stamp: life satisfaction module start]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time arrived at first question in this module 
+ 
+
+sclfsato_cv [Satisfaction with life overall] 
+Universe: Ask all. 
+Source: UKHLS, question SCLFSATO, question wording adapted 
+Text: How satisfied are you currently with your life overall? 
+
+1. Completely dissatisfied 
+2. Mostly dissatisfied 
+3. Somewhat dissatisfied 
+4. Neither satisfied nor dissatisfied 
+5. Somewhat satisfied 
+6. Mostly satisfied 
+7. Completely satisfied 
+
+  
+
+
+
+114 
+ 
+
+tslfsatend [Time stamp: life satisfaction module end]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time completed last question in this module 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+
+
+115 
+ 
+
+GHQ module   
+ 
+Variables used for routing – from sample file 
+ 
+n/a 
+ 
+Variables used for routing – from other modules 
+ 
+n/a 
+ 
+
+tsghqst [Time stamp: GHQ module start]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time arrived at first question in this module 
+ 
+
+scghqa [GHQ: concentration] 
+Universe:  Ask all. 
+Source:  UKHLS  
+Text: The next questions are about how you have been feeling over the last few weeks.  
+Have you recently been able to concentrate on whatever you're doing? 
+
+1. Better than usual 
+2. Same as usual 
+3. Less than usual 
+4. Much less than usual 
+
+ 
+
+scghqb [GHQ: loss of sleep] 
+
+Universe:  Ask all. 
+Source:  UKHLS  
+Text: Have you recently lost much sleep over worry? 
+
+1. Not at all 
+2. No more than usual 
+3. Rather more than usual 
+4. Much more than usual 
+
+  
+
+
+
+116 
+ 
+
+scghqc [GHQ: playing a useful role] 
+Universe:  Ask all. 
+Source:  UKHLS  
+Text: Have you recently felt that you were playing a useful part in things? 
+
+1. More so than usual 
+2. Same as usual 
+3. Less so than usual 
+4. Much less than usual 
+
+ 
+
+scghqd [GHQ: capable of making decisions] 
+
+Universe:  Ask all. 
+Source:  UKHLS  
+Text: Have you recently felt capable of making decisions about things? 
+
+1. More so than usual 
+2. Same as usual 
+3. Less so than usual 
+4. Much less capable 
+
+ 
+
+scghqe [GHQ: constantly under strain] 
+Universe:  Ask all. 
+Source:  UKHLS  
+Text: Have you recently felt constantly under strain? 
+
+1. Not at all 
+2. No more than usual 
+3. Rather more than usual 
+4. Much more than usual 
+
+ 
+
+scghqf [GHQ: problem overcoming difficulties] 
+
+Universe:  Ask all. 
+Source:  UKHLS  
+Text: Have you recently felt you couldn't overcome your difficulties? 
+
+1. Not at all 
+2. No more than usual 
+3. Rather more than usual 
+4. Much more than usual 
+
+  
+
+
+
+117 
+ 
+
+scghqg [GHQ: enjoy day-to-day activities] 
+Universe:  Ask all. 
+Source:  UKHLS  
+Text: Have you recently been able to enjoy your normal day-to-day activities? 
+
+1. More so than usual 
+2. Same as usual 
+3. Less so than usual 
+4. Much less than usual 
+
+ 
+
+scghqh [GHQ: ability to face problems] 
+
+Universe:  Ask all. 
+Source:  UKHLS  
+Text: Have you recently been able to face up to problems? 
+
+1. More so than usual 
+2. Same as usual 
+3. Less able than usual 
+4. Much less able 
+
+ 
+
+scghqi [GHQ: unhappy or depressed] 
+Universe:  Ask all. 
+Source:  UKHLS  
+Text: Have you recently been feeling unhappy or depressed? 
+
+1. Not at all 
+2. No more than usual 
+3. Rather more than usual 
+4. Much more than usual 
+
+ 
+
+scghqj [GHQ: losing confidence] 
+
+Universe:  Ask all. 
+Source:  UKHLS  
+Text: Have you recently been losing confidence in yourself? 
+
+1. Not at all 
+2. No more than usual 
+3. Rather more than usual 
+4. Much more than usual 
+
+  
+
+
+
+118 
+ 
+
+scghqk [GHQ: believe worthless] 
+Universe:  Ask all. 
+Source:  UKHLS  
+Text: Have you recently been thinking of yourself as a worthless person? 
+
+1. Not at all 
+2. No more than usual 
+3. Rather more than usual 
+4. Much more than usual 
+
+ 
+
+scghql [GHQ: general happiness] 
+
+Universe:  Ask all. 
+Source:  UKHLS  
+Text: Have you recently been feeling reasonably happy, all things considered? 
+
+1. More so than usual 
+2. About the same as usual 
+3. Less so than usual 
+4. Much less than usual 
+
+ 
+
+tsghqend [Time stamp: GHQ module end]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time completed last question in this module 
+ 
+ 
+  
+
+
+
+119 
+ 
+
+Closing module 
+ 
+Variables used for routing – from sample file 
+ 
+surveymonth – calendar month and year of current survey 
+July 2020  
+ 
+mobnoflag [Mobile number known] 
+Notes: Set to 1 if a number is known – either from the initial sample file or has been 
+updated since the start of fieldwork. 
+
+0. No 
+1. Yes 
+
+ 
+smsoptout [Opted out of receiving invitations by SMS] 
+Notes: Set to 1 if respondent has opted out of receiving invitations by SMS. 
+
+1. Yes 
+Missing or 0 for everyone else? 
+
+ 
+ emailflag [Valid email address known] 
+
+0. No 
+1. Yes 
+
+ 
+emailoptout [Opted out of receiving invitations by email] 
+
+1. Yes 
+Missing or 0 for everyone else? 
+
+ 
+ff_incentbonus [Treatment allocation for incentive experiment] 
+
+-8.  Inapplicable 
+1. £2 + £10 bonus 
+2. £2 
+
+ 
+Variables used for routing – from other modules 
+ 
+n/a 
+ 
+
+tsclosest [Time stamp: closing module start]   
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time arrived at first question in this module 
+  
+
+
+
+120 
+ 
+
+openend [Other experiences with coronavirus] 
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Display character limit (4,000). 
+Text: Is there anything else you would like to tell us about how the coronavirus is affecting 
+your life, that you have not previously told us about? 
+[Textbox] 
+ 
+
+mobno [Mobile number] 
+Universe: IF monobflag = 0 AND smsoptout is not 1 // Ask if mobile number not known and 
+has not opted out of receiving invitations by SMS. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Range [tbc]. Allow respondent to leave this blank. The script checks the 
+mobile number and this message will appear if incorrect: “Please ensure you enter your 
+mobile number correctly. Your number should start with 07 and be a total of 11 digits, 
+entered with no spaces”. 
+Text: We do not have a mobile number for you. If you would like to receive an invitation for 
+the next monthly survey by SMS, please enter your mobile number.  
+[Numeric textbox] 
+
+1. I do not wish to receive an invitation by SMS 
+2. I do not have a mobile phone 
+
+ 
+
+email1 [Email address] 
+
+Universe: IF emailflag = 0 AND emailoptout is not 1 // Ask if no valid email address known 
+and has not opted out of receiving invitations by email. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Soft check “This is not a valid email address, please enter a valid address 
+(e.g. undcorona@ipsos.com).” Allow respondent to leave this blank. The script checks the 
+email address and this message will appear if incorrect: “This is not a valid email address, 
+please enter a valid address (e.g. undcorona@ipsos.com)”. 
+Text: We do not have an email address for you. If you would like to receive an invitation for 
+the next monthly survey by email, please enter your email. 
+[Alphanumeric textbox] 
+
+1. I do not wish to receive an invitation by email 
+2. I do not have an email address 
+
+  
+
+
+
+121 
+ 
+
+incentives [Incentives earned] 
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+Text: Thank you for telling us about how the coronavirus is affecting your life.  
+Your ‘reward account’ has been credited with £2. {If ff_incentbonus = 1: Plus, as a thank you 
+for your participation in the Coronavirus Study so far, we will add the extra £10 July bonus.} 
+You can exchange the reward amount for a range of gift-cards and electronic vouchers at 
+any point.  
+{IF surveymonth is not March 2021: You currently have vouchers worth £<VALUE>. Would 
+you like to claim this now, or wait until you have completed more surveys?} 
+{IF surveymonth = March 2021: You currently have vouchers worth £<VALUE>. Please click 
+to claim your voucher.} 
+
+1. Claim now – You will need to get to the end of the survey in order to claim your 
+incentive 
+
+2. {IF surveymonth is not March 2021} Wait until I’ve completed more surveys 
+3. Donate everything in my reward account to NHS Charities Together 
+
+ 
+
+email2 [Email address] 
+
+Universe: IF incentives = 1 AND emailflag = 0 AND email1 is not valid address // Ask if wants 
+to claim incentive and no valid email address known and has not provided a valid address at 
+email1. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Soft check “This is not a valid email address, please enter a valid address 
+(e.g. undcorona@ipsos.com).” 
+Text: We currently do not hold an email address for you, please provide one.  
+[Alphanumeric textbox] 
+
+1. I do not have an email address 
+  
+
+
+
+122 
+ 
+
+noemailvoucher [Voucher without email] 
+Universe: IF incentives = 1 AND emailflag = 0 AND email1 is not valid address AND email2 = 
+1 // Ask if wants to claim incentive and no valid email address known and has not provided a 
+valid address at email1 and selects not having an email address at email2. 
+Source: UKHLS covid-19 survey 
+Scripting notes: Do not display DK and REF answer options, answer required. 
+Text: As we do not hold a valid email address for you, our incentive provider SVM Global will 
+send you a letter with a hardcopy voucher to thank you for participating in our study. Please 
+allow up to three weeks for this letter to arrive. 
+ 
+Please select which voucher you would like. 
+
+1. Asda 
+2. John Lewis 
+3. M&S 
+4. Next 
+5. Tesco 
+
+ 
+
+incentclaim [Claiming incentives] 
+
+Universe: IF incentives = 1 AND (emailflag = 1 OR email1 is valid address OR email 2 is valid 
+address) // Ask if respondent wants to claim incentives and we have a valid email address, 
+or they provided a valid address at email1 or email2. 
+Source: UKHLS covid-19 survey 
+Text: You will receive an email from our incentive provider SVM Global explaining exactly 
+how to claim your voucher. Please allow up to ten days for this email to arrive and check 
+your junk mailbox. 
+ 
+
+charclaim [Charity donation] 
+Universe: IF incentives = 3 // Ask if respondent wants to donate incentive value to charity.  
+Source: UKHLS covid-19 survey 
+Text: Thank you for deciding to charitably donate everything in your reward account to NHS 
+Charities Together. The donation will be made automatically, and you do not need to do 
+anything. For more information on this charity, please go to: 
+www.nhscharitiestogether.co.uk  
+  
+
+
+
+123 
+ 
+
+end [Closing statement] 
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+Text: Many thanks for taking the time to answer these questions and for your contributions 
+to the Understanding Society study.  
+  
+If you have any concerns about coronavirus or your mental health or would like further 
+support, please visit http://www.nhs.uk/coronavirus or call the Samaritans on 116 123. 
+ 
+
+tscloseend [Time stamp: closing module end]   
+
+Universe: Ask all. 
+Source: UKHLS covid-19 survey 
+DERIVED: Date and time completed last question in this module 
+ 
+ 
+ 
+ 
+ 
+ 
+
+

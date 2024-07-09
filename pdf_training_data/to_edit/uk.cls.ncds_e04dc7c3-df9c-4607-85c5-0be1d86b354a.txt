@@ -1,0 +1,6257 @@
+
+1
+
+NCDS BIOMEDICAL SURVEY: CAPI QUESTIONNAIRE............................................................. 2
+Foreword ........................................................................................................................................ 2
+Key to the document ..................................................................................................................... 3
+THE QUESTIONNAIRE .................................................................................................................. 5
+Introduction and consents ........................................................................................................... 5
+Near and distance vision .............................................................................................................. 7
+Blood pressure ............................................................................................................................ 17
+Prescribed medicines and self-completion booklet ................................................................ 22
+Hearing ......................................................................................................................................... 24
+Height and sitting height ............................................................................................................ 28
+Weight........................................................................................................................................... 33
+Waist and hips module ............................................................................................................... 37
+Lung function............................................................................................................................... 40
+Vision measures using autorefractor........................................................................................ 46
+Blood samples, including consents .......................................................................................... 48
+CASI self-completion questionnaire: AUDIT and questions about drinking; questions about
+childhood experiences................................................................................................................ 52
+CHECKS........................................................................................................................................ 86
+
+
+
+2
+
+NCDS BIOMEDICAL SURVEY: CAPI QUESTIONNAIRE
+
+Foreword
+
+The interview was carried out by the research nurse as a computer-assisted personal interview (CAPI).  The
+survey instrument was written as a computer program using BLAISE software.  This is the documentation of
+the program.  It shows the wording of questions, instructions to the nurse, routing (i.e. the rules which
+dictated the questions asked) and – at the end of the document – checks built into the program to ensure
+that data was entered correctly.  The last include ‘soft’ checks, to remind nurses of procedures or signal
+improbable values, and ‘hard’ checks, which excluded values outside a pre-determined range or
+unacceptable combinations of response codes.
+
+This is a record of the interview, rather than a guide to the archived data set.  Variables derived as part of
+the CAPI program are included where these are essential parts of the output (e.g. summary variables based
+on several measurements) or are necessary to the routing of the questionnaire.  Other variables in the data
+set, including variables produced as part of the editing process, are not shown.
+
+
+
+3
+
+Key to the document
+
+Example 1
+
+WILL1
+Are you willing for me to test or measure your...
+READ OUT EACH ONE IN TURN AND COMPLETE CONSENT FORM 1 - MEASUREMENTS IN BOTH
+THE CONSENT BOOKLET AND THE COHORT MEMBER'S COPY 
+NURSE: CODE ALL MEASUREMENTS COHORT MEMBER IS WILLING TO HAVE
+1 Vision?
+2 Blood pressure?
+3 Hearing?
+4 Height and sitting height?
+5 Weight?
+6 Waist and hips?
+7 Lung function?
+8 (None)
+[Multiple responses to WILL1 are recorded in variables WILL11 to WILL17]
+
+CIDIWILL
+And are you willing for me to ask you some questions related to mental health?
+1 Yes
+2 No
+
+IF Consent given to tests or measures of Vision or Blood pressure or Hearing or Height and sitting height or
+Weight or Waist and hips or Lung function OR consent to questions about mental health = Yes  [1 = WILL1
+OR 2 = WILL1 OR 4 = WILL1 OR 5 = WILL1 OR 6 = WILL1 OR 7 = WILL1 OR CIDIWILL = 1]
+|  
+|  CONSENT1
+|  SHOW CONSENT FORM 1 - MEASUREMENTS
+|  Before we start, I need to ask you to sign this form. It shows which measurements you have said you are
+|  willing for me to carry out. Please remember that if at any time you change your mind about any
+|  measurement you only need to tell me. I will also make a note of your decisions on this copy
+|  (NURSE: SHOW COHORT MEMBER COPY OF CONSENT BOOKLET) and then at the end of the 
+|   interview I will leave this for you to keep for future reference.
+|   NURSE: ASK COHORT MEMBER TO READ, SIGN AND DATE CONSENT FORM 1.
+|   1 Press <1> and <Enter> to continue
+|  
+|  CONNUR
+|  NURSE: READ, SIGN AND DATE THE BOTTOM SECTION OF CONSENT FORM 1
+|  Press <1> and <Enter> to continue
+|  Range: 1..1
+|  
+END OF FILTER
+
+Question name (usually but
+not always the variable
+name in the data set)
+
+Question text, including
+instructions to nurse shown
+in UPPER CASE.
+
+Response options (unless
+otherwise stated, only one valid
+response per question)
+
+Where multiple responses are valid,
+variables in data set are listed
+
+Filter: rules defining who will be asked this question or group
+of questions, shown in words and as a logical formula
+
+Indicates end of filter
+Where CAPI screen shows an
+instruction rather than a
+question the nurse is asked to
+‘Press 1 and continue’ to move
+to the next screen
+
+
+
+4
+
+Example 2
+
+|  
+|  RE
+|  |    
+|  |    
+|  |  S
+|  |  N
+|  |  O
+|  |  R
+|  |  [D
+|  | [R
+|  |    
+|  Ch
+|  |    
+|  |  D
+|  |  N
+|  |  O
+|  |  R
+|  |  [D
+|  | [R
+|  |    
+|  Ch
+|  |    
+|  |  P
+|  |  N
+|  |  O
+|  |  R
+|  |  [D
+|  | [R
+|  |    
+|  Ch
+|  |    
+|  EN
+|  
+END
+
+READ
+[GEN
+Rang
+
+‘Loop’: instruction to
+repeat a group of
+measures.
+
+Words shown in square
+Continuation of filter
+from previous page
+PEAT THREE TIMES [LOOP FOR I:= 1 TO 3]
+
+  
+YS
+URSE: ENTER THE [FIRST/SECOND/THIRD] SYSTOLIC READING (MMHG). IF READING NOT
+BTAINED, ENTER 999.
+ange: 1..999
+on't Know and Refusal are not allowed]
+
+esponses to SYS are recorded in variables SYS to SYS3]
+
+eck 11
+ 
+IAS
+URSE: ENTER THE [FIRST/SECOND/THIRD] DIASTOLIC READING (MMHG). IF READING NOT
+BTAINED, ENTER 999.
+ange: 1..999
+on't Know and Refusal are not allowed]
+
+esponses to SYS are recorded in variables SYS to SYS3]
+  
+ecks 12 and 13
+ 
+ULSE
+URSE: ENTER THE [FIRST/SECOND/THIRD] PULSE READING (BPM). IF READING NOT
+BTAINED, ENTER 999.
+ange: 1..999
+on't Know and Refusal are not allowed]
+
+esponses to SYS are recorded in variables SYS to SYS3]
+  
+ecks 14 to 23
+  
+D REPEAT
+
+ OF FILTER
+
+S
+ERATED AUTOMATICALLY FROM SYS to PULSE]
+e: 0..3
+
+brackets are alternatives
+used as appropriate
+
+Automatic checks: see
+section at end of document
+
+Indicates permitted range of
+numeric responses
+
+How repeated measures are
+recorded in data set
+
+End of loop
+
+Some variables are
+automatically generated
+by CAPI, as summary
+variables or aids to routing
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Introduction and consents
+
+5
+
+THE QUESTIONNAIRE
+
+Introduction and consents
+
+SERIAL
+SERIAL NUMBER. JUST PRESS <ENTER>.
+Range: 1..99997
+
+MEASQ
+Before we start the medical measurements, I would like to check that you have read the information which
+was sent to you in advance. There will be an opportunity later on to ask any questions about the blood and
+saliva samples, but in the meantime, do you have any questions at this stage about any of the other
+measurements? 
+IF PRIOR INFORMATION NOT RECEIVED OR READ, GIVE COHORT MEMBER COPIES OF RELEVANT
+DOCUMENTS AND TIME TO READ THEM.ANSWER ALL QUESTIONS FULLY AND CODE AS
+APPROPRIATE
+1 No questions asked
+2 Questions asked
+
+WILL1
+Are you willing for me to test or measure your...
+READ OUT EACH ONE IN TURN AND COMPLETE CONSENT FORM 1 - MEASUREMENTS IN BOTH
+THE CONSENT BOOKLET AND THE COHORT MEMBER'S COPY 
+NURSE: CODE ALL MEASUREMENTS COHORT MEMBER IS WILLING TO HAVE
+1 Vision?
+2 Blood pressure?
+3 Hearing?
+4 Height and sitting height?
+5 Weight?
+6 Waist and hips?
+7 Lung function?
+8 (None)
+[Multiple responses to WILL1 are recorded in variables WILL11 to WILL17]
+
+CIDIWILL
+And are you willing for me to ask you some questions related to mental health?
+1 Yes
+2 No
+
+IF Consent given to tests or measures of Vision or Blood pressure or Hearing or Height and sitting height or
+Weight or Waist and hips or Lung function OR consent to questions about mental health = Yes  [1 = WILL1
+OR 2 = WILL1 OR 4 = WILL1 OR 5 = WILL1 OR 6 = WILL1 OR 7 = WILL1 OR CIDIWILL = 1]
+|  
+|  CONSENT1
+|  SHOW CONSENT FORM 1 - MEASUREMENTS
+|  Before we start, I need to ask you to sign this form. It shows which measurements you have said you are
+|  willing for me to carry out. Please remember that if at any time you change your mind about any
+|  measurement you only need to tell me. I will also make a note of your decisions on this copy
+|  (NURSE: SHOW COHORT MEMBER COPY OF CONSENT BOOKLET) and then at the end of the 
+|   interview I will leave this for you to keep for future reference.
+|   NURSE: ASK COHORT MEMBER TO READ, SIGN AND DATE CONSENT FORM 1.
+|   1 Press <1> and <Enter> to continue
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Introduction and consents
+
+6
+
+|  
+|  CONNUR
+|  NURSE: READ, SIGN AND DATE THE BOTTOM SECTION OF CONSENT FORM 1
+|  Press <1> and <Enter> to continue
+|  Range: 1..1
+|  
+END OF FILTER
+
+THERM
+NURSE: TAKE OUT THERMOMETER AND PLACE IT ON SUITABLE SURFACE
+1 Continue
+
+End of Introduction and consents module
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Near and distance vision
+
+7
+
+Near and distance vision
+
+IF consent for vision tests not given  [NOT Vision1 = WILL1]
+|  
+|  NOTWILLV
+|  Earlier on you said that you didn't want your vision tested. Can you tell me why you said that
+|  or have you changed your mind since then?
+|   1 Now willing to have test
+|   2 Scared of equipment
+|   3 Worried about the outcome
+|   4 Other reason (specify at next question)
+|  
+|  IF why consent for vision tests not given = Now willing to have test  [NOTWILLV = 1]
+|  |  
+|  |  VISCON2
+|  |  NURSE: GET COHORT MEMBER TO CHANGE CONSENT FORM- MEASUREMENTS
+|  |  AND INITIAL THE CHANGE. Press <1> and <Enter> to continue.
+|  |  Range: 1..1
+|  |  
+|  END OF FILTER
+|  
+|  IF why consent for vision tests not given = Other reason [NOTWILLV = 4]
+|  |  
+|  |  OTHREASV
+|  |  NURSE: TYPE IN REASON WHY NO MEASUREMENT TO BE TAKEN
+|  |  Open
+|  |  
+|  END OF FILTER
+|  
+|  IF why consent for vision tests not given = Scared of equipment, Worried about outcome, Other reason 
+|   [NOTWILLV = 2, 3, 4]
+|  |  
+|  |  NOTESTV
+|  |  NURSE: NO VISION TESTS TO BE TAKEN. PRESS '1' TO CONTINUE
+|  |   1 Continue
+|  |  
+|  END OF FILTER
+|  
+END OF FILTER
+
+IF consent to have vision tested [Vision1 = WILL1 OR NOTWILLV = 1]
+|  
+|  VISIMP
+|  The first of these measurements will be tests of your eyesight.
+|  IF THE COHORT MEMBER IS VISUALLY IMPAIRED, PLEASE CODE HERE. THIS WILL AFFECT
+|  THE WAY SOME OF THE EYE TESTS ARE CARRIED OUT. DO NOT INCLUDE
+|  BLIND IN ONE EYE
+|   1 Yes, the cohort member seems to be visually impaired
+|   2 No, the cohort member has no obvious signs of serious visual impairment
+|  
+|  VISAIDS
+|  First, I need to know, do you wear glasses, contact lenses or other visual aids at all. This applies to
+|  anything you use either for reading or close work, for everyday activities, or for specific things
+|  like driving, playing sport or watching TV?
+|  IF YES, CODE AND ASK COHORT MEMBER TO FETCH EVERYTHING THEY EVER
+|  WEAR, AS WELL AS ANY SPARE GLASSES IF CONTACT LENSES WORN
+|   1 Yes
+|   2 No
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Near and distance vision
+
+8
+
+|  
+|  IF does cohort member wear glasses or contact lenses = Yes [VisAids = 1]
+|  |  
+|  |  VISWEAR
+|  |  Can I check what you have? CODE ONE ONLY
+|  |   1 Distance glasses only
+|  |   2 Contact lenses only
+|  |   3 Distance glasses and contact lenses worn at different times
+|  |   4 Bifocals or varifocals
+|  |   5 Reading glasses only
+|  |   6 Separate distance glasses and reading glasses
+|  |   7 Reading glasses and contact lenses
+|  |   8 Distance glasses, and contact lenses and reading glasses all used
+|  |  
+|  END OF FILTER
+|  
+|  NVWEAR
+|  First I'm going to check your near vision.
+|  IF RESPONDENT EVER WEARS GLASSES OR CONTACT LENSES, ASK: Please put on what you
+|  would normally wear for reading or close work. If you don't wear glasses specially for reading or close
+|  work, please wear your usual distance glasses or contact lenses, even if you don't always use them.
+|  CODE WHAT COHORT MEMBER IS WEARING FOR NEAR VISION TESTS.
+|   1 no optical correction worn as none prescribed
+|   2 distance glasses only
+|   3 contact lenses only
+|   4 reading glasses only
+|   5 reading glasses with contact lenses
+|   6 bifocals or varifocals
+|   7 distance glasses, reading glasses not available
+|   8 contact lenses, reading glasses not available
+|   9 no optical correction worn as none available
+|  
+Checks 1 and 2
+|  
+|  IF cohort member is visually impaired = No [VisImp = 2]
+|  |  
+|  |  VISNVIS1
+|  |  TEST NEAR VISION - BOTH EYES TOGETHER - USING NEAR VISION CHART. ASK COHORT 
+|  |  MEMBER TO HOLD CHART AT NORMAL READING DISTANCE. POINT TO STARTING LINE. 
+|  |  Can you read the four words underneath the line marked N5? (AWARE-EAVES-SEA-CREAM)
+|  |   1 Cohort member reads all words correctly
+|  |   2 Not all words read correctly
+|  |  
+|  |  IF cohort member can read smallest line  = No [VisNVis1 = 2]
+|  |  |  
+|  |  |  VISNVIS2
+|  |  |  ASK RESPONDENT TO READ OUT THE SMALLEST COMPLETE LINE OF WORDS THEY CAN
+|  |  |  MANAGE. CODE SIZE.
+|  |  |   1 N36 text for posters
+|  |  |   2 N24 display and advertise clearly
+|  |  |   3 N18 nose-one-cause-even
+|  |  |   4 N14 were-crone-our-summer
+|  |  |   5 N12 name-use-means-arose
+|  |  |   6 N10 near-can-remove-sure
+|  |  |   7 N8 crow-verse-see-renew
+|  |  |   8 N6 assume-once-vane-sum
+|  |  |   9 Cannot read any line
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Near and distance vision
+
+9
+
+|  
+|  IF cohort member is visually impaired = Yes [VisImp = 1]
+|  |  
+|  |  NVIMPAID
+|  |  CODE IF COHORT MEMBER IS USING VISUAL AIDS (MAGNIFIER) AS WELL
+|  |  AS GLASSES AND/OR LENSES.
+|  |   1 Using additional visual aid
+|  |   2 Not using any additional visual aids
+|  |  
+|  |  NVIMP1
+|  |  TEST NEAR VISION - BOTH EYES TOGETHER - USING NEAR VISION CHART.
+|  |  ASK COHORT MEMBER TO HOLD CHART AT NORMAL READING
+|  |  DISTANCE. POINT TO STARTING LINE. Can you read the four words
+|  |  underneath the line marked N36 near the top of the chart? (TEXT FOR POSTERS)
+|  |   1 Cohort member reads all words correctly
+|  |   2 Not all words read correctly
+|  |  
+|  |  IF cohort member can read largest line = Yes [NVImp1 = 1]
+|  |  |  
+|  |  |  NVIMP2
+|  |  |  ASK RESPONDENT TO READ OUT THE SMALLEST COMPLETE LINE OF
+|  |  |  WORDS THEY CAN MANAGE. CODE SIZE.
+|  |  |   1 N5 aware-eaves-sea-cream
+|  |  |   2 N6 assume-once-vane-sum
+|  |  |   3 N8 crow-verse-see-renew
+|  |  |   4 N10 near-can-remove-sure
+|  |  |   5 N12 name-use-means-arose
+|  |  |   6 N14 were-crone-our-summer
+|  |  |   7 N18 nose-one-cause-even
+|  |  |   8 N24 display and advertise clearly
+|  |  |   9 Cannot read any line
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+|  VSTEREO
+|  TEST STEREO VISION USING LANG CARD. HOLD CARD AT NORMAL
+|  READING DISTANCE. THE CARD MUST BE HELD UPRIGHT, PARALLEL TO
+|  EYES (SAME DISTANCE FROM EACH EYE). COHORT MEMBER MUST WEAR
+|  SAME LENSES OR GLASSES AS FOR THE FIRST TEST. What images can you see
+|  standing out on this card? Point to each one you can see and tell me what it is.
+|  CODE ALL THAT APPLY.
+|   1 Star
+|   2 Moon
+|   3 Elephant
+|   4 Car
+|   5 Fourth image seen but not identified
+|   6 No images correctly identified
+|   7 Visually impaired: cannot see card
+|  [Multiple responses to VSTEREO are recorded in variables VSTEREO1 to VSTEREO4]
+|  
+Checks 3 to 6
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Near and distance vision
+
+10
+
+|  
+|  DVWEAR
+|  Now I'm going to check your distance vision, that is how well you see things which are a bit further away.
+|  For this you need to wear the glasses or contact lenses you use for activities such as going out,
+|   driving or watching TV. CODE WHAT RESPONDENT WEARS FOR DISTANCE VISION TESTS|  
+|   1 No optical correction worn as none prescribed
+|   2 distance glasses only
+|   3 contact lenses only
+|   4 bifocals or varifocals
+|   5 no optical correction worn as none available
+|   6 No optical correction worn for distance vision
+|  
+Checks 7 and 8
+|  
+|  IF cohort member is visually impaired = No [VisImp = 2]
+|  |  
+|  |  VISDVAR1
+|  |  TEST DISTANCE VISION, USING TESTING BOOKLET. TEST RIGHT EYE
+|  |  FIRST.ASK COHORT MEMBER TO COVER LEFT EYE WITH OCCLUDER.
+|  |  MEASURE 1.5 METRES BETWEEN EYE AND TESTING BOOKLET, AND MARK
+|  |  DISTANCE. CODE '1' TO CONTINUE.
+|  |   1 CONTINUE
+|  |  
+|  |  VISDVAR2
+|  |  SHOW COHORT MEMBER 6/3 PAGE. Can you read the letters on this page?
+|  |   1 Cohort member reads all letters correctly
+|  |   2 Not all letters read correctly
+|  |  
+|  |  IF cohort member can read letters on 6/3 page (right eye) = No [VisDVAR2 = 2]
+|  |  |  
+|  |  |  VISDVAR3
+|  |  |  CONTINUE TESTING RIGHT EYE UNTIL COHORT MEMBER CAN READ A
+|  |  |  COMPLETE LINE OF LETTERS. CODE SIZE OF LINE COMPLETED.
+|  |  |   01 6/3.75
+|  |  |   02 6/5
+|  |  |   03 6/6
+|  |  |   04 6/7.5
+|  |  |   05 6/9.5
+|  |  |   06 6/12
+|  |  |   07 6/15
+|  |  |   08 6/19
+|  |  |   09 6/24
+|  |  |   10 6/30
+|  |  |   11 6/38
+|  |  |   12 Cannot read any line
+|  |  |  
+|  |  |  VISDVAR4
+|  |  |  TEST RIGHT EYE USING PINHOLE. (KEEP GLASSES ON.) ASK COHORT MEMBER TO HOLD
+|  |  |  OCCLUDER OVER NOSE, COVERING LEFT EYE AND LOOKING THROUGH THE PINHOLE
+|  |  |   WITH RIGHT EYE. CODE '1' TO CONTINUE.
+|  |  |   1 Continue
+|  |  |  
+|  |  |  VISDVAR5
+|  |  |  SHOW COHORT MEMBER 6/3 PAGE. Can you read the letters on this page?
+|  |  |   1 Cohort member reads all letters correctly
+|  |  |   2 Not all letters read correctly
+|  |  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Near and distance vision
+
+11
+
+|  |  |  
+|  |  |  IF cohort member can read letters on 6/3 page through pinhole (right eye) = No [VisDVAR5 = 2]
+|  |  |  |  
+|  |  |  |  VISDVAR6
+|  |  |  |  CONTINUE TESTING RIGHT EYE UNTIL COHORT MEMBER CAN READ
+|  |  |  |  A COMPLETE LINE OF LETTERS. CODE SIZE.
+|  |  |  |   01 6/3.75
+|  |  |  |   02 6/5
+|  |  |  |   03 6/6
+|  |  |  |   04 6/7.5
+|  |  |  |   05 6/9.5
+|  |  |  |   06 6/12
+|  |  |  |   07 6/15
+|  |  |  |   08 6/19
+|  |  |  |   09 6/24
+|  |  |  |   10 6/30
+|  |  |  |   11 6/38
+|  |  |  |   12 Cannot read any line
+|  |  |  |  
+|  |  |  END OF FILTER
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  |  VISDVAL1
+|  |  TEST LEFT EYE. ASK COHORT MEMBER TO COVER RIGHT EYE WITH
+|  |  OCCLUDER. CODE '1' TO CONTINUE.
+|  |   1 Continue
+|  |  
+|  |  VISDVAL2
+|  |  SHOW COHORT MEMBER 6/3 PAGE. Can you read the letters on this page?
+|  |   1 Cohort member reads all letters correctly
+|  |   2 Not all letters read correctly
+|  |  
+|  |  IF cohort member can read letters on 6/3 page (left eye) = No [VisDVAL2 = 2]
+|  |  |  
+|  |  |  VISDVAL3
+|  |  |  CONTINUE TESTING LEFT EYE UNTIL COHORT MEMBER CAN READ A
+|  |  |  COMPLETE LINE OF LETTERS. CODE SIZE.
+|  |  |   01 6/3.75
+|  |  |   02 6/5
+|  |  |   03 6/6
+|  |  |   04 6/7.5
+|  |  |   05 6/9.5
+|  |  |   06 6/12
+|  |  |   07 6/15
+|  |  |   08 6/19
+|  |  |   09 6/24
+|  |  |   10 6/30
+|  |  |   11 6/38
+|  |  |   12 Cannot read any line
+|  |  |  
+|  |  |  VISDVAL4
+|  |  |  TEST LEFT EYE USING PINHOLE. (KEEP GLASSES ON.) ASK COHORT
+|  |  |  MEMBER TO HOLD OCCLUDER OVER NOSE, COVERING RIGHT EYE AND
+|  |  |  LOOKING THROUGH THE PINHOLE WITH LEFT EYE. CODE '1' TO
+|  |  |  CONTINUE.
+|  |  |   1 Continue
+|  |  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Near and distance vision
+
+12
+
+|  |  |  
+|  |  |  VISDVAL5
+|  |  |  SHOW COHORT MEMBER 6/3 PAGE.Can you read the letters on this page?
+|  |  |   1 Cohort member reads all letters correctly
+|  |  |   2 Not all letters read correctly
+|  |  |  
+|  |  |  IF cohort member can read letters on 6/3 page through pinhole (left eye) = No [VisDVAL5 = 2]
+|  |  |  |  
+|  |  |  |  VISDVAL6
+|  |  |  |  CONTINUE TESTING LEFT EYE UNTIL COHORT MEMBER CAN READ A
+|  |  |  |  COMPLETE LINE OF LETTERS. CODE SIZE.
+|  |  |  |   01 6/3.75
+|  |  |  |   02 6/5
+|  |  |  |   03 6/6
+|  |  |  |   04 6/7.5
+|  |  |  |   05 6/9.5
+|  |  |  |   06 6/12
+|  |  |  |   07 6/15
+|  |  |  |   08 6/19
+|  |  |  |   09 6/24
+|  |  |  |   10 6/30
+|  |  |  |   11 6/38
+|  |  |  |   12 Cannot read any line
+|  |  |  |  
+|  |  |  END OF FILTER
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+|  IF cohort member is visually impaired = Yes [VisImp = 1]
+|  |  
+|  |  DVIMPAID
+|  |  CODE IF COHORT MEMBER IS USING VISUAL AIDS FOR DISTANCE VISION
+|  |  TESTS AS WELL AS GLASSES AND/OR LENSES.
+|  |   1 Using additional visual aid
+|  |   2 Not using any additional visual aids
+|  |  
+|  |  VIMPR1
+|  |  TEST DISTANCE VISION, USING TESTING BOOKLET. TEST RIGHT EYE FIRST.
+|  |  ASK COHORT MEMBER TO COVER LEFT EYE WITH OCCLUDER. MEASURE
+|  |  1.5 METRES BETWEEN EYE AND TESTING BOOKLET. CODE '1' TO CONTINUE.
+|  |   1 Continue
+|  |  
+|  |  VIMPR2
+|  |  SHOW COHORT MEMBER 6/38 PAGE.Can you read the letters on this page?
+|  |   1 Cohort member reads all letters correctly
+|  |   2 Not all letters read correctly
+|  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Near and distance vision
+
+13
+
+|  |  
+|  |  IF cohort member can read letters on 6/38 page (right eye) = Yes [VImpR2 = 1]
+|  |  |  
+|  |  |  VIMPR3
+|  |  |  CONTINUE TESTING RIGHT EYE TO FIND SMALLEST COMPLETE LINE OF LETTERS
+|  |  |  THAT RESPONDENT CAN READ. CODE SIZE OF SMALLEST LINE COMPLETED.
+|  |  |   01 6/30
+|  |  |   02 6/24
+|  |  |   03 6/19
+|  |  |   04 6/15
+|  |  |   05 6/12
+|  |  |   06 6/9.5
+|  |  |   07 6/7.5
+|  |  |   08 6/6
+|  |  |   09 6/5
+|  |  |   10 6/3.75
+|  |  |   11 6/3
+|  |  |  
+|  |  |  IF smallest line cohort member can read is between 6/30 and 6/3.75 (right eye) [VImpR3 <> 11]
+|  |  |  |  
+|  |  |  |  VIMPR4
+|  |  |  |  TEST RIGHT EYE USING PINHOLE. ASK COHORT MEMBER TO LOOK THROUGH
+|  |  |  |   PINHOLE CARD, AND COVER LEFT EYE. MEASURE 1.5 METRES BETWEEN EYE AND 
+|  |  |  |   TESTING BOOKLET. CODE '1' TO CONTINUE.
+|  |  |  |   1 Continue
+|  |  |  |  
+|  |  |  |  VIMPR5
+|  |  |  |  START WITH SMALLEST PAGE CORRECTLY READ. Can you read the letters on this page?
+|  |  |  |   1 Cohort member reads all letters correctly
+|  |  |  |   2 Not all letters read correctly
+|  |  |  |  
+|  |  |  |  IF cohort member can read letters on page through pinhole (right eye) = Yes [VImpR5 = 1]
+|  |  |  |  |  
+|  |  |  |  |  VIMPR6
+|  |  |  |  |  CONTINUE TESTING RIGHT EYE WITH PINHOLE TO FIND SMALLEST
+|  |  |  |  |  COMPLETE LINE OF LETTERS THAT RESPONDENT CAN READ.CODE
+|  |  |  |  |  SIZE OF SMALLEST LINE COMPLETED.
+|  |  |  |  |   01 6/30
+|  |  |  |  |   02 6/24
+|  |  |  |  |   03 6/19
+|  |  |  |  |   04 6/15
+|  |  |  |  |   05 6/12
+|  |  |  |  |   06 6/9.5
+|  |  |  |  |   07 6/7.5
+|  |  |  |  |   08 6/6
+|  |  |  |  |   09 6/5
+|  |  |  |  |   10 6/3.75
+|  |  |  |  |   11 6/3
+|  |  |  |  |  
+|  |  |  |  END OF FILTER
+|  |  |  |  
+|  |  |  END OF FILTER
+|  |  |  
+|  |  END OF FILTER
+|  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Near and distance vision
+
+14
+
+|  |  
+|  |  IF cohort member can read letters on 6/38 page (right eye)  = No [VImpR2 = 2]
+|  |  |  
+|  |  |  VIMPR7
+|  |  |  I'm going to hold up some fingers and ask you to count how many you can see.
+|  |  |  HOLD UP THREE FINGERS, THEN FIVE FINGERS THEN ONE FINGER. EACH
+|  |  |  TIME ASK: How many fingers am I holding up? CODE.
+|  |  |   1 All three times counted correctly
+|  |  |   2 Some but not all three counted correctly
+|  |  |   3 None counted correctly
+|  |  |  
+|  |  |  IF how many times did cohort member count fingers correctly (right eye) = None [VimpR7 = 3]
+|  |  |  |  
+|  |  |  |  VIMPR8
+|  |  |  |  Can you see light with your right eye?
+|  |  |  |   1 Yes
+|  |  |  |   2 No
+|  |  |  |  
+|  |  |  END OF FILTER
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  |  VIMPL1
+|  |  NOW TEST THE LEFT EYE. ASK COHORT MEMBER TO COVER RIGHT EYE
+|  |  WITH OCCLUDER. MEASURE 1.5 METRES BETWEEN EYE AND TESTING
+|  |  BOOKLET. CODE '1' TO CONTINUE.
+|  |   1 Continue
+|  |  
+|  |  VIMPL2
+|  |  SHOW COHORT MEMBER 6/38 PAGE.Can you read the letters on this page?
+|  |   1 Cohort member reads all letters correctly
+|  |   2 Not all letters read correctly
+|  |  
+|  |  IF cohort member can read letters on 6/38 page (left eye) = Yes [VImpL2 = 1]
+|  |  |  
+|  |  |  VIMPL3
+|  |  |  CONTINUE TESTING LEFT EYE TO FIND SMALLEST COMPLETE LINE OF
+|  |  |  LETTERS THAT RESPONDENT CAN READ. CODE SIZE OF SMALLEST LINE
+|  |  |  COMPLETED.
+|  |  |   01 6/30
+|  |  |   02 6/24
+|  |  |   03 6/19
+|  |  |   04 6/15
+|  |  |   05 6/12
+|  |  |   06 6/9.5
+|  |  |   07 6/7.5
+|  |  |   08 6/6
+|  |  |   09 6/5
+|  |  |   10 6/3.75
+|  |  |   11 6/3
+|  |  |  
+|  |  |  IF smallest line cohort member can read is between 6/30 and 6/3.75 (left eye) [VImpL3 <> 11]
+|  |  |  |  
+|  |  |  |  VIMPL4
+|  |  |  |  TEST LEFT EYE USING PINHOLE. ASK COHORT MEMBER TO LOOK THROUGH PINHOLE
+|  |  |  |   CARD, AND COVER RIGHT EYE. MEASURE 1.5 METRES BETWEEN EYE
+|  |  |  |   AND TESTING BOOKLET. CODE '1' TO CONTINUE.
+|  |  |  |   1 Continue
+|  |  |  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Near and distance vision
+
+15
+
+|  |  |  |  
+|  |  |  |  VIMPL5
+|  |  |  |  START WITH SMALLEST PAGE CORRECTLY READ. Can you read the letters on this page?
+|  |  |  |   1 Cohort member reads all letters correctly
+|  |  |  |   2 Not all letters read correctly
+|  |  |  |  
+|  |  |  |  IF cohort member can read letters on page through pinhole (left eye)  = Yes [VImpL5 = 1]
+|  |  |  |  |  
+|  |  |  |  |  VIMPL6
+|  |  |  |  |  CONTINUE TESTING LEFT EYE WITH PINHOLE TO FIND SMALLEST
+|  |  |  |  |  COMPLETE LINE OF LETTERS THAT RESPONDENT CAN READ.CODE
+|  |  |  |  |  SIZE OF SMALLEST LINE COMPLETED.
+|  |  |  |  |   01 6/30
+|  |  |  |  |   02 6/24
+|  |  |  |  |   03 6/19
+|  |  |  |  |   04 6/15
+|  |  |  |  |   05 6/12
+|  |  |  |  |   06 6/9.5
+|  |  |  |  |   07 6/7.5
+|  |  |  |  |   08 6/6
+|  |  |  |  |   09 6/5
+|  |  |  |  |   10 6/3.75
+|  |  |  |  |   11 6/3
+|  |  |  |  |  
+|  |  |  |  END OF FILTER
+|  |  |  |  
+|  |  |  END OF FILTER
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  |  IF cohort member can read letters on 6/38 page (left eye)   = No [VImpL2 = 2]
+|  |  |  
+|  |  |  VIMPL7
+|  |  |  I'm going to hold up some fingers and ask you to count how many you can see.
+|  |  |  HOLD UP THREE FINGERS, THEN FIVE FINGERS, THEN ONE FINGER.
+|  |  |  EACH TIME ASK: How many fingers am I holding up? CODE.
+|  |  |   1 All three times counted correctly
+|  |  |   2 Some but not all three counted correctly
+|  |  |   3 None counted correctly
+|  |  |  
+|  |  |  IF how many times did cohort member count fingers correctly (left eye)  = None [VimpL7 = 3]
+|  |  |  |  
+|  |  |  |  VIMPL8
+|  |  |  |  Can you see light with your left eye?
+|  |  |  |   1 Yes
+|  |  |  |   2 No
+|  |  |  |  
+|  |  |  END OF FILTER
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Near and distance vision
+
+16
+
+|  
+|  IF glasses worn for near vision tests = Distance glasses only or Bifocals or varifocals OR glasses
+|  worn for distance vision tests = Distance glasses only or Bifocals or varifocals 
+|  [NVWear = 2, 6 OR DVWear = 2, 4]
+|  |  
+|  |  VCROSS1
+|  |  May I quickly look at your distance glasses?
+|  |   1 Cohort member agrees
+|  |   2 Cohort member refuses
+|  |  
+|  END OF FILTER
+|  
+|  IF glasses worn for near vision tests = Contact lenses only or Reading glasses with contact lenses  OR
+|  glasses worn for distance vision tests = Contact lenses [NVWear = 3, 5 OR DVWear = 3]
+|  |  
+|  |  HASSPARE
+|  |  Do you have spare glasses that you can use for distance work. Can I have a look at
+|  |  them? INCLUDE BIFOCALS DO NOT USE READING GLASSES
+|  |   1 Cohort member agrees
+|  |   2 Cohort member refuses
+|  |   3 Cohort member does not have spare glasses
+|  |  
+|  END OF FILTER
+|  
+|  IF look at distance glasses = Agree OR look at spare glasses = Agree [VCross1 = 1 OR HasSpare = 1]
+|  |  
+|  |  VCROSSR
+|  |  HOLD GLASSES FACING YOU, WITH EAR PIECES POINTING TOWARDS +.
+|  |  LOOK AT + THROUGH WEARER'S RIGHT LENS - THE LENS TO YOUR LEFT.
+|  |  (IF BIFOCALS OR VARIFOCALS LOOK THROUGH TOP HALF OF LENS.) DOES + LOOK BIGGER,
+|  |  SMALLER OR THE SAME? IT DOES NOT MATTER IF IT IS DISTORTED
+|  |   1 Bigger
+|  |   2 Smaller
+|  |   3 The same
+|  |   4 Can't tell
+|  |  
+|  |  VCROSSL
+|  |  LOOK AT + THROUGH WEARER'S LEFT LENS - THE LENS TO YOUR RIGHT. LOOK AT THE
+|  |  CROSS IN THE RECORD FORM. DOES IT LOOK BIGGER, SMALLER OR THE SAME?
+|  |   1 Bigger
+|  |   2 Smaller
+|  |   3 The same
+|  |   4 Can't tell
+|  |  
+|  |  VCROSEND
+|  |  RETURN GLASSES. COHORT MEMBER MAY PUT THEM BACK ON
+|  |  CODE '1'TO CONTINUE.
+|  |   1 Continue
+|  |  
+|  END OF FILTER
+|  
+END OF FILTER
+
+End of Near and distance vision module
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Blood pressure
+
+17
+
+Blood pressure 
+
+IF consent for blood pressure tests not given [NOT BP = WILL1]
+|  
+|  NOTWILBP
+|  Earlier on you said that you didn't want your blood pressure tested. Can you tell me
+|  why you said that or have you changed your mind since then?
+|   1 Now willing to have test
+|   2 Scared of equipment
+|   3 Worried about the outcome
+|   4 Other reason (specify at next question)
+|  
+|  IF why consent for blood pressure tests not given = Now willing to have test [NOTWILBP = 1]
+|  |  
+|  |  BPCON2
+|  |  NURSE: GET COHORT MEMBER TO CHANGE CONSENT FORM- MEASUREMENTS
+|  |  AND INITIAL THE CHANGE. Press <1> and <Enter> to continue.
+|  |  Range: 1..1
+|  |  
+|  END OF FILTER
+|  
+|  IF why consent for blood pressure tests not given = Other reason [NOTWILBP = 4]
+|  |  
+|  |  OTHREABP
+|  |  NURSE: TYPE IN REASON WHY NO MEASUREMENT TO BE TAKEN
+|  |  Open
+|  |  
+|  END OF FILTER
+|  
+|  IF why consent for blood pressure tests not given = Scared of equipment, Worried about outcome, Other
+|  reason [NOTWILBP = 2 , 3, 4]
+|  |  
+|  |  NOTESTBP
+|  |  NURSE: NO BLOOD PRESSURE TESTS TO BE TAKEN. PRESS '1' TO CONTINUE
+|  |   1 Continue
+|  |  
+|  END OF FILTER
+|  
+END OF FILTER
+
+IF consent to have blood pressure tested [BP = WILL1 OR NOTWILBP = 1]
+|  
+|  BPMOD
+|  NURSE: NOW FOLLOWS THE BLOOD PRESSURE MODULE. 
+|  Now I would like to measure your blood pressure. Before we start there are just one or two questions I
+|  need to ask you. 
+|  PRESS <1> AND <ENTER> TO CONTINUE.
+|  Range: 1..1
+|  
+|  CONSUBX
+|  May I just check, have you eaten, smoked, drunk alcohol or done any
+|  vigorous exercise in the last 30 minutes? CODE ALL THAT APPLY.
+|   1 Eaten
+|   2 Smoked
+|   3 Drunk alcohol
+|   4 Done vigorous exercise
+|   5 (None of these)
+|  [Multiple responses to CONSUBX are recorded in variables CONSUBX1 to CONSUBX3]
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Blood pressure
+
+18
+
+|  
+Check 9
+|  
+END OF FILTER
+
+IF cohort member’s sex = Female [PSEX = 2]
+|  
+|  PREGNTJ
+|  Can I check, are you pregnant at the moment?
+|   1 Yes
+|   2 No
+|  
+END OF FILTER
+
+NCPREGJ
+[GENERATED AUTOMATICALLY FROM PREGNTJ]
+1 Pregnant
+2 Not pregnant
+
+IF cohort member pregnant = Yes [PREGNTJ = 1]
+|  
+|  PREGMES
+|  NURSE: COHORT MEMBER IS PREGNANT. NO BLOOD PRESSURE/WEIGHT/WAIST AND HIP
+|  CIRCUMFERENCES/LUNG FUNCTION MEASUREMENTS TO BE TAKEN 
+|  ENTER '1' TO CONTINUE
+|  Range: 1..1
+|  
+END OF FILTER
+
+IF consent to have blood pressure AND not pregnant [BP = WILL1 OR NOTWILBP = 1 AND NCPREGJ = 2]
+|   
+|  AIRTEMP
+|  NURSE: RECORD THE AMBIENT AIR TEMPERATURE. ENTER THE
+|  TEMPERATURE IN CENTIGRADE.
+|  Range: 0..40
+|  
+Check 10
+|  
+|  OMRONNO
+|  NURSE: PLEASE RECORD THE OMRON SERIAL NUMBER.
+|  Range: 1..80
+|    
+|  CUFSIZE
+|  (NURSE: MEASURE CM'S LEFT ARM.) SELECT LARGE CUFF IF ARM
+|  CIRCUMFERENCE IS 32CM OR MORE. RECORD CUFF SIZE CHOSEN.
+|  1 Standard (22-32 cm)
+|  2 Extra large (32-42 cm)
+|  
+|  REPEAT THREE TIMES [LOOP FOR I:= 1 TO 3]
+|  |    
+|  |      
+|  |  SYS
+|  |  NURSE: ENTER THE [FIRST/SECOND/THIRD] SYSTOLIC READING (MMHG). IF READING NOT
+|  |  OBTAINED, ENTER 999.
+|  |  Range: 1..999
+|  |  [Don't Know and Refusal are not allowed]
+|  | [Responses to SYS are recorded in variables SYS to SYS3]
+|  |    
+|  Check 11
+|  |    
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Blood pressure
+
+19
+
+|  |  
+|  |  DIAS
+|  |  NURSE: ENTER THE [FIRST/SECOND/THIRD] DIASTOLIC READING (MMHG). IF READING NOT
+|  |  OBTAINED, ENTER 999.
+|  |  Range: 1..999
+|  |  [Don't Know and Refusal are not allowed]
+|  | [Responses to DIAS are recorded in variables DIAS to DIAS3]
+|  |      
+|  Checks 12 and 13
+|  |     
+|  |  PULSE
+|  |  NURSE: ENTER THE [FIRST/SECOND/THIRD] PULSE READING (BPM). IF READING NOT
+|  |  OBTAINED, ENTER 999.
+|  |  Range: 1..999
+|  |  [Don't Know and Refusal are not allowed]
+|  | [Responses to PULSE are recorded in variables PULSE to PULSE3]
+|  |      
+|  Checks 14 to 23
+|  |      
+|  END REPEAT
+|  
+END OF FILTER
+
+READS
+[GENERATED AUTOMATICALLY FROM SYS to PULSE]
+Range: 0..3
+
+IF no blood pressure readings taken [QBPress.Reads = 0]
+|  
+|  YNOBP
+|  NURSE: ENTER REASON FOR NOT RECORDING ANY FULL BP READINGS.
+|  1 Blood pressure measurement attempted but not obtained
+|  2 Blood pressure measurement not attempted
+|  3 Blood pressure measurement refused
+|    
+END OF FILTER
+
+IF pregnant = Pregnant [NCPREGJ = 1]
+|     
+|  NOBP
+|  CM IS PREGNANT - NO BLOOD PRESSURE TO BE TAKEN
+|  PRESS '1' TO CONTINUE
+|  1 Continue
+|    
+END OF FILTER
+
+RESPSBP
+[GENERATED AUTOMATICALLY FROM READS AND YNOBP]
+How many blood pressure measures recorded.
+1 Three
+2 Two
+3 One
+4 Tried
+5 No try
+6 Refused
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Blood pressure
+
+20
+
+IF not pregnant  AND three blood pressure measures not recorded OR why no blood pressure measures
+taken = Attempted but not obtained, Not attempted, Refused OR why consent for blood pressure tests not
+given = Scared of equipment, Worried about outcome, Other reason [NCPREGJ = 2 AND RespBPS = 2 , 3,
+4, 5, 6 OR YNoBP = RESPONSE OR NOTWILBP = 2 , 3, 4]
+|  
+|  NATTBPD
+|  NURSE: RECORD WHY MEASUREMENT REFUSED/NOT OBTAINED/NOT ATTEMPTED 
+|  CODE ALL THAT APPLY.
+|   1 Problems with PC
+|   2 Cohort member upset/anxious/nervous
+|   3 Error reading
+|   4 Other reason(s) (specify at next question)
+|   5 Problems with Cuff fitting/painful
+|   6 Problems with Omron readings (zeros, no readings)
+|  [Multiple responses to NATTBPD are recorded in variables NATTBP1 to NATTBP4]
+|  
+END OF FILTER
+
+IF Reason why measurement not obtained = Other reason [Other = NAttBPD]
+|  
+|  OTHNBP
+|  NURSE: ENTER FULL DETAILS OF OTHER REASON(S) FOR NOT OBTAINING/ATTEMPTING THREE
+|  BP READINGS.
+|  String140
+|  
+END OF FILTER
+
+IF how many blood pressure measurements = One, Two, Three [RespBPS = 3, 2, 1]
+|  
+|  BPOFFER
+|  NURSE: OFFER BLOOD PRESSURE RESULTS TO COHORT MEMBER. 
+|  [ALL THREE READINGS FOR SYSTOLIC BP, DIASTOLIC BP, PULSE SHOWN ON SCREEN]
+|  ENTER THESE ON [COHORT MEMBER’S NAME]'S MEASUREMENT  RECORD CARD 
+|  (COMPLETE NEW RECORD CARD IF REQUIRED). 
+|  [INSTRUCTION TO NURSE TO TICK BOX ON MEASUREMENT RECORD CARD AND GIVE 
+|  APPROPRIATE FEEDBACK – SEE BOX BELOW]
+|  Press <1> and <Enter> to continue.
+|  String1
+|  
+END OF FILTER
+
+SYSRES1
+[AUTOMATICALLY CALCULATED]
+Systolic reading – blood pressure
+
+SYSRES2
+[AUTOMATICALLY CALCULATED]
+Systolic reading – blood pressure
+
+SYSRES3
+[AUTOMATICALLY CALCULATED]
+Systolic reading – blood pressure
+
+DIASRES1
+[AUTOMATICALLY CALCULATED]
+Diastolic reading – blood pressure
+
+DIASRES2
+[AUTOMATICALLY CALCULATED]
+Diastolic reading – blood pressure
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Blood pressure
+
+21
+
+DIASRES3
+[AUTOMATICALLY CALCULATED]
+Diastolic reading – blood pressure
+
+PULSRES1
+[AUTOMATICALLY CALCULATED]
+Pulse reading – blood pressure
+
+PULSRES2
+[AUTOMATICALLY CALCULATED]
+Pulse reading – blood pressure
+
+PULSRES3
+[AUTOMATICALLY CALCULATED]
+Pulse reading – blood pressure
+
+INSTRUCTIONS FOR NURSE FEEDBACK IN BPOFFER IN ORDER OF PRIORITY
+IF SECOND OR THIRD SYSTOLIC BP MEASURE>179 OR SECOND OR THIRD DIASTOLIC BP
+MEASURE>114
+“Tick the considerably raised box and read out 
+‘Your blood pressure is a bit high today.  Blood pressure can vary from day to day and throughout the day so
+that one high reading does not necessarily mean that you suffer from high blood pressure.  
+You are strongly advised to visit your GP within 5 days to see whether this is a once-off finding or not.’”
+
+IF SECOND OR THIRD SYSTOLIC BP MEASURE BETWEEN 160 AND 179 OR SECOND OR THIRD
+DIASTOLIC BP MEASURE BETWEEN 100 AND 114
+ “Tick the moderately raised box and read out 
+‘Your blood pressure is a bit high today.  Blood pressure can vary from day to day and throughout the day so
+that one high reading does not necessarily mean that you suffer from high blood pressure.  
+You are advised to visit your GP within 2-3 weeks to see whether this is a once-off finding or not.’”
+
+IF SECOND OR THIRD SYSTOLIC BP MEASURE BETWEEN 140 AND 159 OR SECOND OR THIRD
+DIASTOLIC BP MEASURE BETWEEN 85 AND 99
+ “Tick the mildly raised box and read out 
+‘Your blood pressure is a bit high today.  Blood pressure can vary from day to day and throughout the day so
+that one high reading does not necessarily mean that you suffer from high blood pressure.  
+You are advised to visit your GP within 3 months to see whether this is a once-off finding or not.’”
+
+IF BOTH SECOND AND THIRD SYSTOLIC BP MEASURE BELOW 140 AND BOTH SECOND AND THIRD
+DIASTOLIC BP MEASURE BELOW 85
+“Tick the normal box and read out 
+‘Your blood pressure is normal.’”
+
+End of Blood pressure module
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Prescribed medicines and self-completion booklet
+
+22
+
+Prescribed medicines and self-completion booklet
+
+MEDCNJD
+Are you taking or using any medicines, pills, syrups, ointments, puffers or injections
+prescribed for you by a doctor or nurse?
+1 Yes
+2 No
+
+IF taking or using any medicines = Yes [MedCNJD = 1]
+|  
+|  MEDINTRO
+|  Could I take down the names of the medicines, including pills, syrups, ointments,
+|  puffers or injections, prescribed for you by a doctor?
+|  ENTER '1' TO CONTINUE.
+|  Range: 1..1
+|  
+|  REPEAT UP TO 22 TIMES [LOOP FOR i:= 1 TO 22]
+|  |  
+|  |  IF take the names of the medicines = 1 OR any more drugs to enter = Yes 
+|  |  [i = 1 OR Medicini - 1.MedBIC= Yes]
+|  |  |  
+|  |  |  MEDBI
+|  |  |  NURSE: ENTER NAME OF DRUG NO. [].ASK IF YOU CAN SEE
+|  |  |  THE CONTAINERS FOR ALL PRESCRIBED MEDICINES CURRENTLY BEING
+|  |  |  TAKEN. IF ASPIRIN, RECORD DOSAGE AS WELL AS NAME.
+|  |  |  String50
+|  |  | [Responses to MEDBI are recorded in variables MEDBI1 to MEDBI22]
+|  |  |  
+|  |  |  MEDBIA
+|  |  |  Have you taken/used [name of medicine] in the last 7 days?
+|  |  |   1 Yes
+|  |  |   2 No
+|  |  | [Responses to MEDBIA are recorded in variables MEDBIA1 to MEDBIA22]
+|  |  |  
+|  |  |  MEDBIC
+|  |  |  NURSE CHECK: Any more drugs to enter?
+|  |  |   1 Yes
+|  |  |   2 No
+|  |  |  [Don't Know and Refusal are not allowed]
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF LOOP
+|  
+END OF FILTER
+
+DRC1 to DRC22
+[ENTERED BY NURSE POST-INTERVIEW]
+British National Formulary (BNF) code of drug.
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Prescribed medicines and self-completion booklet
+
+23
+
+VISSCIN
+GET OUT LILAC SELF-COMPLETION BOOKLET. WRITE ON SERIAL NUMBER/ATTACH BARCODE.
+From time to time throughout the interview there will be moments when I have to get things out or put them
+away. In these spare moments it would be helpful if you would agree to answer the questions in this booklet.
+1 agreed to do self-completion booklet
+2 refused to do self-completion booklet
+
+End of Prescribed medicines and self-completion booklet module
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Hearing
+
+24
+
+Hearing
+
+IF consent for hearing tests not given [NOT Hear = WILL1]
+|  
+|  NOTWILLH
+|  Earlier on you said that you didn't want your hearing tested. Can you tell me why
+|  you said that or have you changed your mind since then?
+|   1 Now willing to have test
+|   2 Scared of equipment
+|   3 Worried about the outcome
+|   4 Other reason (specify at next question)
+|  
+|  IF why consent for hearing tests not given = Now willing to have test [NOTWILLH = 1]
+|  |  
+|  |  AUDCON2
+|  |  NURSE: GET COHORT MEMBER TO CHANGE CONSENT FORM- MEASUREMENTS
+|  |  AND INITIAL THE CHANGE. Press <1> and <Enter> to continue.
+|  |  Range: 1..1
+|  |  
+|  END OF FILTER
+|  
+|  IF why consent for hearing tests not given =  Other reason [NOTWILLH = 4]
+|  |  
+|  |  OTHREASH
+|  |  NURSE: TYPE IN REASON WHY NO MEASUREMENT TO BE TAKEN
+|  |  Open
+|  |  
+|  END OF FILTER
+|  
+|  IF why consent for hearing tests not given = Scared of equipment, Worried about outcome, Other reason
+|   [NOTWILLH = 2 , 3, 4]
+|  |  
+|  |  NOTESTH
+|  |  NURSE: NO HEARING TESTS TO BE TAKEN. PRESS '1' TO CONTINUE
+|  |   1 Continue
+|  |  
+|  END OF FILTER
+|  
+END OF FILTER
+
+IF consent to have hearing tested [Hear = WILL1 OR NOTWILLH = 1]
+|  
+|  AUDCHK
+|  NOW FOLLOWS THE AUDIOMETRY MODULE.CHECK BATTERY AND BOTH EARCUPS. 
+|  SET AUDIOMETER TO 30dB AT 1kHz. NURSE: CONDUCT CHECK USING YOUR OWN EARS.
+|   1 Audiometer working
+|   2 Audiometer not working
+|  [Don't Know and Refusal are not allowed]
+|  
+|  IF audiometer check = Audiometer not working [AudChk = 2]
+|  |  
+|  |  CHKLEAD
+|  |  NURSE: CHECK THAT THE LEADS ARE ATTACHEED CORRECTLY AND FIRMLY.
+|  |  IF STILL NOT WORKING, PHONE OFFICE FOR A REPLACEMENT BEFORE NEXT INTERVIEW
+|  |   1 Audiometer working
+|  |   2 Audiometer not working
+|  |  
+|  END OF FILTER
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Hearing
+
+25
+
+|  
+|  AUDSN
+|  ENTER SERIAL NUMBER OF AUDIOMETER.
+|  Range: 1..99
+|  [Don't Know and Refusal are not allowed]
+|  
+|  HEARAID
+|  Can I check, nowadays, do you usually wear a hearing aid? IF YES: Do you wear it
+|  all or most of the time or just some of the time?
+|   1 Yes, all/most of the time
+|   2 Yes, some of the time
+|   3 No
+|  
+|  IF does cohort member wear hearing aid = All of the time, Some of the time [HearAid = 1 , 2]
+|  |  
+|  |  HAIDON
+|  |  Are you wearing a hearing aid at the moment?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  END OF FILTER
+|  
+|  TINNANY
+|  Nowadays, do you ever get noises in your head or ears which usually last longer than
+|  five minutes at a time, known as tinnitus?
+|   1 No never
+|   2 Some of the time
+|   3 All of the time
+|  
+|  IF does cohort member have tinnitus = Some of the time, All of the time [TinnAny = 2 , 3]
+|  |  
+|  |  TINNNOW
+|  |  At the moment are you hearing any noises in your head or ears?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  END OF FILTER
+|  
+|  GOODEAR
+|  Would you say that your hearing is better in your left ear or your right ear, or is there
+|  no difference as far as you can say?
+|   1 Left
+|   2 Right
+|   3 No difference/don't know
+|  
+|  AUTESTIN
+|  I am going to test your hearing by measuring the faintest sounds you can hear. I will play you two different
+|  tones in each ear, and with each tone, I will play it at different levels of loudness and softness.
+|  As soon as you hear a sound, raise your finger. Keep it raised as long as you can hear the sound,
+|  no matter which ear you hear it in. Put your finger down when you cannot hear the sound.
+|  It is important that you keep as quiet as possible, in order to hear the quietest tones. Even if the sound is
+|  very faint, and no matter which ear it is in, raise your finger. It will help if you breathe quietly through your
+|  mouth. No matter how faint the sound you hear, raise your finger when you think you can hear it
+|  and lower your finger when you can't hear the sound any longer. 
+|  CHECK THAT RESPONDENT IS NOT WEARING HEARING AID, SPECTACLES, EARRINGS. 
+|  PUSH LOOSE HAIR BEHIND EARS. FIT EARCUPS SNUGLY, RED ON RIGHT, BLUE ON LEFT.
+|  ENTER '1' TO CONTINUE.
+|   1 Continue
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Hearing
+
+26
+
+|  
+|  LEADEAR
+|  TEST LEAD EAR FIRST IE [LEFT/RIGHT] EAR.CODE WHICH EAR TESTED FIRST.
+|   1 Left
+|   2 Right
+|  [Don't Know and Refusal are not allowed]
+|  
+|  IF audiometer check = Audiometer working OR audiometer second check = Audiometer working 
+|   [AudChk = 1 OR ChkLead = 1]
+|  |  
+|  |  DO FOR BOTH EARS
+|  |  |   
+|  |  |  AUDEARA
+|  |  |  NURSE:CODE [FIRST/SECOND] EAR AT 1 KHZ. ENTER VALUE BETWEEN -10 AND 100
+|  |  |  IF MEASURE NOT OBTAINED CODE '999'
+|  |  |  Range: -10..999
+|  |  | [Don't Know and Refusal are not allowed]
+|  |  |   
+|  |  Checks 24 and 25
+|  |  |   
+|  |  |  AUDEARC
+|  |  |  NURSE:CODE FIRST/SECOND] EAR AT 4 KHZ. ENTER VALUE BETWEEN -10 AND 100
+|  |  |  IF MEASURE NOT OBTAINED CODE '999'
+|  |  |  Range: -10..999
+|  |  |  [Don't Know and Refusal are not allowed]
+|  |  |   
+|  |  Checks 26 and 27  
+|  |  |    
+|  |  END OF FILTER
+|  |
+|  |   AUDALL
+|  |   CODE WHETHER ALL MEASUREMENTS COMPLETED.
+|  |   1 All measurements completed
+|  |   2 Some measurements completed, not all 
+|  |   3 No measures completed
+|  |  [Don't Know and Refusal are not allowed]
+|  |
+|  END OF FILTER
+|  
+|  IF how many measurements completed = Some measurements completed, No measures completed  
+|   [AudAll = 2 ,  3]
+|  |    
+|  |  AUDNALL
+|  |  REASONS WHY NOT ALL MEASUREMENTS COMPLETED.CODE ALL THAT APPLY
+|  |   1 Cohort member uncomfortable
+|  |   2 Too much background noise
+|  |   3 Cohort member did not sit still
+|  |   4 Other
+|  |  [Don't Know and Refusal are not allowed]
+|  |  
+|  |  IF why not all measurements completed = Other [AudNAll = 4]
+|  |  |  
+|  |  |  AUDNAOTH
+|  |  |  WRITE IN REASON
+|  |  |  String60
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Hearing
+
+27
+
+|  
+|  AUDNOISE
+|  CODE LEVEL OF BACKGROUND NOISE.
+|   1 Background noise at acceptable level for test
+|   2 Background noise distracting
+|  [Don't Know and Refusal are not allowed]
+|  
+END OF FILTER
+
+IF why consent for hearing tests not given = Scared of equipment, Worried about outcome, Other reason
+[NOTWILLH = 2 , 3, 4]
+|  
+|  AUDNOT
+|  CODE WHY TEST NOT ATTEMPTED.
+|   1 Equipment not working
+|   2 Cohort member has ear infection
+|   3 Too much noise/distraction
+|   4 Other
+|  [Don't Know and Refusal are not allowed]
+|  
+|  IF reason why test not attempted = Other [AudNot = 4]
+|  |  
+|  |  AUDNOTH
+|  |  WRITE IN REASON
+|  |  String60
+|  |  
+|  END OF FILTER
+|  
+END OF FILTER
+
+IF consent to have hearing tested [Hear = WILL1 OR NOTWILLH = 1]
+|  
+|  AUDSCIN
+|  Thank you. That is the end of the hearing tests. While I am putting away this equipment and preparing for
+|  the next set of measurements please continue with the paper questionnaire
+|   1 CONTINUE
+|  
+END OF FILTER
+
+AUD1RES1
+[AUTOMATICALLY CALCULATED]
+Hearing threshold measure/result at 1KH
+
+AUD1RES2
+[AUTOMATICALLY CALCULATED]
+Hearing threshold measure/result at 1KH
+
+AUD4RES1
+[AUTOMATICALLY CALCULATED]
+Hearing threshold measure/result at 4KH
+
+AUD4RES2
+[AUTOMATICALLY CALCULATED]
+Hearing threshold measure/result at 4KH
+
+End of Hearing module
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Height and sitting height
+
+28
+
+Height and sitting height
+
+IF consent for height measurement not given [NOT Ht = WILL1]
+|  
+|  NOTWILHT
+|  Earlier on you said that you didn't want your height tested. Can you tell me why you
+|  said that or have you changed your mind since then?
+|   1 Now willing to have test
+|   2 Height already known/measured before
+|   3 Other reason (specify at next question)
+|  
+Check 28  
+|  
+|  IF why consent for height measurement not given = Now willing to have test [NOTWILHT = 1]
+|  |  
+|  |  HTCON2
+|  |  NURSE: GET COHORT MEMBER TO CHANGE CONSENT FORM- MEASUREMENTS AND INITIAL
+|  |  THE CHANGE. Press <1> and <Enter> to continue.
+|  |  Range: 1..1
+|  |  
+|  END OF FILTER
+|  
+|  IF why consent for height measurement not given = Other reason [NOTWILHT = 3]
+|  |  
+|  |  OTHREASH
+|  |  NURSE: TYPE IN REASON WHY NO MEASUREMENT TO BE TAKEN
+|  |  Open
+|  |  
+|  END OF FILTER
+|  
+|  IF why consent for height measurement not given = Height already known, Other reason 
+|  [NOTWILHT = 2 , 3]
+|  |  
+|  |  NOTESTHT
+|  |  NURSE: NO HEIGHT TESTS TO BE TAKEN. PRESS '1' TO CONTINUE
+|  |   1 Continue
+|  |  
+|  END OF FILTER
+|  
+END OF FILTER
+
+IF consent to have height measured  [Ht = WILL1 OR NOTWILHT = 1]
+|  
+|  RESPHTS
+|  PREAMBLE: I would now like to measure your height. MEASURE HEIGHT AND CODE. 
+|  INCLUDE 'DISGUISED' REFUSALS SUCH AS 'IT WILL TAKE TOO LONG', 'I HAVE TO GO OUT' ETC. 
+|  AT CODE 2: Height refused.
+|   1 Height measured
+|   2 Height refused
+|   3 Height attempted, not obtained
+|   4 Height not attempted
+|  [Don't Know and Refusal are not allowed]
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Height and sitting height
+
+29
+
+|  
+|  IF measure cohort member’s height = Height measured [RespHts = 1]
+|  |  
+|  |  HEIGHT
+|  |  ENTER HEIGHT. RECORD TO THE NEAREST CM.MM eg 169.2
+|  |  [Don't Know and Refusal are not allowed]
+|  |  
+|  Checks 29 and 30  
+|  |  
+|  |  RELHITE
+|  |  NURSE: CODE ONE ONLY:
+|  |   1 No problems experienced, reliable height measurement obtained
+|  |   2 Problems experienced - measurement likely to be: Reliable
+|  |   3 Problems experienced - measurement likely to be: Unreliable
+|  |  
+|  |  IF whether height measurement reliable = Measurement likely to be unreliable  [RelHite = 3]
+|  |  |  
+|  |  |  HINREL
+|  |  |  WHAT CAUSED THE HEIGHT MEASUREMENT TO BE UNRELIABLE?
+|  |  |   1 Hairstyle or wig
+|  |  |   2 Turban or other religious headgear
+|  |  |   3 Cohort member wore shoes
+|  |  |   4 Cohort member could not stretch up
+|  |  |   5 Other
+|  |  |  
+|  |  |  IF why height measurement unreliable = Other  [HiNRel = 5]
+|  |  |  |  
+|  |  |  |  OHINREL
+|  |  |  |  PLEASE SPECIFY WHAT CAUSED UNRELIABLE HEIGHT MEASUREMENT.
+|  |  |  |  String60
+|  |  |  |  
+|  |  |  END OF FILTER
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  |  MBOOKHT
+|  |  NURSE: RECORD HEIGHT ON MEASUREMENT RECORD CARD HEIGHT: [height recorded in 
+|  |  centimetres and feet and inches]
+|  |  1 Continue
+|  |  
+|  ELSE
+|  |  
+|  IF measure cohort member’s height = Height refused [RespHts = 2]
+|  |  
+|  |  RESNHI
+|  |  GIVE REASONS FOR REFUSAL.
+|  |   1 Height already known/measured before
+|  |   2 Other
+|  |  
+|  Check 31    
+|  |  
+|  ELSE
+|  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Height and sitting height
+
+30
+
+|  |  
+|  IF measure cohort member’s height = Height attempted not obtained, Height not attempted
+|  [RespHts = 3 , 4]
+|  |  
+|  |  NOHTBC
+|  |  CODE REASON FOR NOT OBTAINING HEIGHT.CODE ALL THAT APPLY.
+|  |  1 Cohort member ill/cannot stand upright/unsteady on feet
+|  |  2 Stadiometer faulty/not available
+|  |  3 Other
+|  |  [Multiple responses to NOHTBC are recorded in variable NOHTBC1]
+|  |
+|  END OF FILTER
+|  
+END OF FILTER
+
+IF measure cohort member’s height = Height refused, Height attempted not obtained, Height not attempted
+OR why consent for height measurement not given = Height already known, Other reason  
+[RespHts = 2, 3, 4 OR NOTWILHT = 2, 3]
+|  
+|  EHTCH
+|  
+|  INTERVIEWER: ASK COHORT MEMBER FOR AN ESTIMATED HEIGHT. WILL IT BE GIVEN IN
+|  METRES OR IN FEET AND INCHES? IF COHORT MEMBER DOESN'T KNOW HEIGHT USE
+|  <CTRL+K>, IF COHORT MEMBER ISN'T WILLING TO GIVE HEIGHT USE <CTRL+R>.
+|   1 Metres
+|   2 Feet and inches
+|  
+|  IF estimated height = Metres [EHtCh = 1]
+|  |  
+|  |  EHTM
+|  |  PLEASE RECORD ESTIMATED HEIGHT IN METRES.
+|  |  
+|  ELSE
+|  |  
+|  |  IF estimated height = Feet and inches [EHtCh = 2]
+|  |  
+|  |  EHTFT
+|  |  PLEASE RECORD ESTIMATED HEIGHT. ENTER FEET.
+|  |  Range: 0..7
+|  |  
+|  |  EHTIN
+|  |  PLEASE RECORD ESTIMATED HEIGHT. ENTER INCHES.
+|  |  Range: 0..11
+|  |  
+|  END OF FILTER
+|  
+END OF FILTER
+
+Check 32    
+
+IF consent to have height measured [Ht = WILL1 OR NOTWILHT = 1]
+|  
+|  SITHTS
+|  Now I would like to measure your height when sitting. 
+|  NURSE: MEASURE SITTING HEIGHT AND CODE. INCLUDE 'DISGUISED' REFUSALS SUCH AS 'IT
+|  WILL TAKE TOO LONG' AT CODE: Ref.
+|   1 Sitting height measured
+|   2 Sitting height refused
+|   3 Sitting height attempted, not obtained
+|   4 Sitting height not attempted
+|  [Don't Know and Refusal are not allowed]
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Height and sitting height
+
+31
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Height and sitting height
+
+32
+
+|  
+|  IF measure cohort member’s sitting height = Sitting height measured [SitHts = 1]
+|  |  
+|  |  SHEIGHT
+|  |  ENTER SITTING HEIGHT. RECORD TO THE NEAREST CM.MM eg 68.4
+|  |  [Don't Know and Refusal are not allowed]
+|  |  
+|  Checks 33 and 34    
+|  |  
+|  |  SHREL
+|  |  IS THE SITTING HEIGHT MEASUREMENT LIKELY TO BE RELIABLE OR UNRELIABLE?
+|  |   1 No problems, reliable measure
+|  |   2 Problems, measure may be unreliable
+|  |  [Don't Know and Refusal are not allowed]
+|  |  
+|  |  IF whether height measurement reliable = May be unreliable [SHRel = 2]
+|  |  |  
+|  |  |  SHNREL
+|  |  |  WHAT CAUSED THE SITTING HEIGHT TO BE UNRELIABLE?
+|  |  |   1 Hairstyle or wig
+|  |  |   2 Turban or other religious headgear
+|  |  |   3 Soft/uneven chair
+|  |  |   4 Cohort member could not stretch up
+|  |  |   5 Other
+|  |  |  [Don't Know and Refusal are not allowed]
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+|  IF measure cohort member’s sitting height = Sitting height attempted not obtained, Sitting height not
+|  attempted [SitHts = 3, 4]
+|  |  
+|  |  WHYSHFL
+|  |  GIVE REASONS WHY SITTING HEIGHT NOT [ATTEMPTED/OBTAINED]. CODE ALL THAT APPLY
+|  |   1 Cohort member ill/cannot stand upright/unsteady on feet
+|  |   2 Stadiometer faulty/no suitable place to set up
+|  |   3 Other
+|  |  
+|  END OF FILTER
+|  
+|  HTSN
+|  NURSE: ENTER SERIAL NUMBER OF STADIOMETER
+|  Range: 1..99
+|  
+END OF FILTER
+
+HTRES
+[AUTOMATICALLY CALCULATED]
+Height result/measure
+
+HTEST
+[AUTOMATICALLY CALCULATED]
+Height result - estimated
+
+End of Height and sitting height module
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Weight
+
+33
+
+Weight 
+
+IF consent for weight measurement not given AND not pregnant [NOT Wt = WILL1 AND
+BPRESS.NCPREGJ = 2]
+|  
+|  NOTWILLW
+|  Earlier on you said that you didn't want your weight tested. Can you tell me why you said that
+|  or have you changed your mind since then?
+|   1 Now willing to have test
+|   2 Cannot see point/Weight already known/Doctor has measurement
+|   3 Too busy/Taken long enough
+|   4 Cohort member too ill/frail/tired/shy
+|   5 Refused (no reason given)
+|   6 Other reason (specify at next question)
+|  
+|  IF why consent for weight measurement not given = Now willing to have test [NOTWILLW = 1]
+|  |  
+|  |  WTCON2
+|  |  NURSE: GET COHORT MEMBER TO CHANGE CONSENT FORM- MEASUREMENTS AND INITIAL
+|  |  THE CHANGE. Press <1> and <Enter> to continue.
+|  |  Range: 1..1
+|  |  
+|  END OF FILTER
+|  
+|  IF why consent for weight measurement not given = Other reason [NOTWILLW = 6]
+|  |  
+|  |  OTHREASW
+|  |  NURSE: TYPE IN REASON WHY NO MEASUREMENT TO BE TAKEN
+|  |  Open
+|  |  
+|  END OF FILTER
+|  
+|  IF why consent for weight measurement not given = Cannot see point, Too busy, Cohort member too ill,
+|  Refused – no reason, Other reason [NOTWILLW = 2 , 3, 4, 5, 6]
+|  |  
+|  |  NOTESTW
+|  |  NURSE: NO WEIGHT TESTS TO BE TAKEN. PRESS '1' TO CONTINUE
+|  |   1 Continue
+|  |  
+|  END OF FILTER
+|  
+END OF FILTER
+
+IF consent to have weight measured [Wt = WILL1 OR NOTWILLW = 1]
+|  
+|  IF not pregnant [BPRESS.NCPREGJ = 2]
+|  |  
+|  |  RESPWTS
+|  |  PREAMBLE: I would now like to measure your weight. MEASURE WEIGHT AND CODE. 
+|  |  INTERVIEWER: IF COHORT MEMBER WEIGHS MORE THAN 150 KG (23 STONES 9 POUNDS) DO
+|  |  NOT WEIGH. CODE AS WEIGHT NOT ATTEMPTED. 'DISGUISED' REFUSALS SUCH AS 'IT WILL
+|  |  TAKE TOO LONG', 'I HAVE TO GO OUT' ETC. AT CODE 2: Weight refused.
+|  |   1 Weight obtained
+|  |   2 Weight refused
+|  |   3 Weight attempted, not obtained
+|  |   4 Weight not attempted
+|  |  [Don't Know and Refusal are not allowed]
+|  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Weight
+
+34
+
+|  |  
+|  |  IF measure cohort member’s weight = Weight obtained [RespWts = 1]
+|  |  |  
+|  |  |  XWEIGHT
+|  |  |  RECORD WEIGHT TO THE NEAREST Kg eg 58.7
+|  |  |  [Don't Know and Refusal are not allowed]
+|  |  |  
+|  |  |  FLOORC
+|  |  |  SCALES PLACED ON?
+|  |  |   1 Uneven floor
+|  |  |   2 Carpet
+|  |  |   3 Neither
+|  |  |  [Multiple responses to FLOORC are recorded in variables FLOORC1 to FLOORC2]
+|  |  |  
+|  |  Check 35    
+|  |  |  
+|  |  |  RELWAITB
+|  |  |  INTERVIEWER CODE ONE ONLY.
+|  |  |   1 No problems experienced, reliable weight measurement obtained
+|  |  |   2 Problems experienced - measurement likely to be: Reliable
+|  |  |   3 Problems experienced - measurement likely to be: Unreliable
+|  |  |  
+|  |  |  MBOOKWT
+|  |  |  NURSE: RECORD WEIGHT ON MEASUREMENT RECORD CARD WEIGHT: [weight recorded in
+|  |  |  kilograms and stones and pounds]  IF WEIGHT LOOKS WRONG, GO BACK TO 'XWeight'
+|  |  |  AND REWEIGH.
+|  |  |   1 Continue
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+END OF FILTER
+
+IF measure cohort member’s weight = Weight refused, Weight attempted not obtained, Weight not
+attempted OR why consent for weight measurement not given = Cannot see point, Too busy, Cohort
+member too ill, Refused – no reason, Other reason OR pregnant 
+[RespWts = 2 , 3, 4 OR NOTWILLW = NoPoint .. Oth OR BPRESS.NCPREGJ = 1]
+|  
+|  IF measure cohort member’s weight = Weight refused  [RespWts =]
+|  |  
+|  |  RESNWT
+|  |  GIVE REASONS FOR REFUSAL.
+|  |   1 Cannot see point/Weight already known/Doctor has measurement
+|  |   2 Too busy/Taken long enough
+|  |   3 Cohort member too ill/frail/tired/shy
+|  |   4 Refused (no reason given)
+|  |   5 Other reason
+|  |  [Don't Know and Refusal are not allowed]
+|  |  
+|  ELSE
+|  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Weight
+
+35
+
+|  |  
+|  IF measure cohort member’s weight = Weight attempted not obtained, Weight not attempted AND not 
+|  pregnant [RespWts = 3 , 4 AND NOT BPRESS.NCPREGJ = 1]
+|  |  
+|  |  NOWTBC
+|  |  CODE REASON FOR NOT OBTAINING WEIGHT.
+|  |   1 Cannot see point/Weight already known/Doctor has measurement
+|  |   2 Too busy/Taken long enough
+|  |   3 Cohort member too ill/frail/tired/shy
+|  |   4 Refused (no reason given)
+|  |   5 Other reason
+|  |  
+|  END OF FILTER
+|  
+|  EWTCH
+|  NURSE: ASK COHORT MEMBER FOR AN ESTIMATED WEIGHT. [IF PREGNANT: ESTIMATED
+|  WEIGHT SHOULD BE IMMEDIATELY PRIOR TO THIS PREGNANCY] WILL IT BE GIVEN IN
+|  KILOGRAMS OR IN STONES AND POUNDS? IF COHORT MEMBER DOESN'T KNOW WEIGHT USE
+|  <CTRL+K>, IF COHORT MEMBER ISN'T WILLING TO GIVE WEIGHT USE <CTRL+R>.
+|   1 Kilograms
+|   2 Stones and pounds
+|  
+|  IF estimated weight = Kilograms [EWtCh = 1]
+|  |  
+|  |  EWTKG
+|  |  PLEASE RECORD ESTIMATED WEIGHT IN KILOGRAMS.
+|  |  
+|  Check 36    
+|  |  
+|  ELSE
+|  |  
+|  IF estimated weight = Stones and pounds [EWtCh = 2]
+|  |  
+|  |  EWTST
+|  |  PLEASE RECORD ESTIMATED WEIGHT. ENTER STONES.
+|  |  Range: 1..32
+|  |  
+|  |  EWTL
+|  |  PLEASE RECORD ESTIMATED WEIGHT. ENTER POUNDS.
+|  |  Range: 0..13
+|  |  
+|  END OF FILTER
+|  
+END OF FILTER
+
+Checks 37 to 40    
+
+IF consent to have weight measured AND not pregnant [Wt = WILL1 OR NOTWILLW = 1 AND
+BPRESS.NCPREGJ = 2]
+|  
+|  WTSN
+|  NURSE: ENTER SERIAL NUMBER OF SCALES
+|  Range: 1..99
+|  
+END OF FILTER
+
+WTRES
+[AUTOMATICALLY CALCULATED]
+Weight result/measure
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Weight
+
+36
+
+WTEST
+[AUTOMATICALLY CALCULATED]
+Weight result - estimated
+
+End of Weight module
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Waist and hips module
+
+37
+
+Waist and hips module
+
+IF not pregnant [BPRESS.NCPREGJ = 2]
+|  
+|  IF consent to have waist and hips measured not given [NOT WH = WILL1]
+|  |  
+|  |  NOTWILWH
+|  |  Earlier on you said that you didn't want your Waist and Hips tested. Can you tell
+|  |  me why you said that or have you changed your mind since then?
+|  |   1 Now willing to have test
+|  |   2 Scared of equipment
+|  |   3 Worried about the outcome
+|  |   4 Other reason (specify at next question)
+|  |  
+|  |  IF why consent for waist and hip measurements not given = Now willing to have test [NOTWILWH = 1]
+|  |  |  
+|  |  |  WHCON2
+|  |  |  NURSE: GET COHORT MEMBER TO CHANGE CONSENT FORM- MEASUREMENTS AND INITIAL
+|  |  |  THE CHANGE. Press <1> and <Enter> to continue.
+|  |  |  Range: 1..1
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  |  IF why consent for waist and hip measurements not given = Other reason [NOTWILWH = 4]
+|  |  |  
+|  |  |  OTHREAWH
+|  |  |  NURSE: TYPE IN REASON WHY NO MEASUREMENT TO BE TAKEN
+|  |  |  Open
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  |  IF why consent for waist and hip measurements not given = Scared of equipment, Worried about
+|  |  outcome, Other reason [NOTWILWH = 2 , 3, 4]
+|  |  |  
+|  |  |  NOTESTWH
+|  |  |  NURSE: NO WAIST AND HIP TESTS TO BE TAKEN. PRESS '1' TO CONTINUE
+|  |  |   1 Continue
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+|  IF consent to have waist and hips measured  [WH = WILL1 OR NOTWILWH = 1]
+|  |  
+|  |  WHINTRO
+|  |  I would now like to measure your waist and hips. These measurements are very
+|  |  useful for assessing the distribution of weight over the body.
+|  |   1 Cohort member agrees to have waist and/or hip circumference measured
+|  |   2 Cohort member refuses to have waist/hip ratio measured
+|  |   3 Unable to measure waist/hip ratio for reason other than refusal
+|  |  
+|  |  IF measure waist and hips = Agree [WHIntro = 1]
+|  |  |  
+|  |  |  WAIST
+|  |  |  NURSE: MEASURE THE WAIST AND HIP CIRCUMFERENCES TO THE NEAREST MM. EG 65.6
+|  |  |  ENTER WAIST MEASUREMENT IN CENTIMETRES (REMEMBER TO INCLUDE THE DECIMAL 
+|  |  |  POINT). IF MEASUREMENT NOT OBTAINED, ENTER '999.9'.
+|  |  |   [Don't Know and Refusal are not allowed]
+|  |  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Waist and hips module
+
+38
+
+|  |  |  
+|  |  Checks 41 to 43    
+|  |  |  
+|  |  |  HIP
+|  |  |  NURSE: MEASURE THE WAIST AND HIP CIRCUMFERENCES TO THE NEAREST MM. E.G 96.8
+|  |  |  ENTER MEASUREMENT OF HIP CIRCUMFERENCE IN CENTIMETRES (REMEMBER TO
+|  |  |  INCLUDE THE DECIMAL POINT). IF MEASUREMENT NOT OBTAINED, ENTER '999.9'.
+|  |  |  [Don't Know and Refusal are not allowed]
+|  |  |  
+|  |  Checks 44 to 48   
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  |  RespWH
+|  |  [GENERATED AUTOMATICALLY FROM WHINTRO, WAIST, HIP]
+|  |   1 Both obtained
+|  |   2 One obtained
+|  |   3 Refused
+|  |   4 NoTry
+|  |  
+|  |  IF one or both measurements not obtained 
+|  |  [QWstHip.Measure.Waist = 999.9 OR QWstHip.Measure.Hip = 999.9]
+|  |  |  
+|  |  |  YNOWH
+|  |  |  ENTER REASON FOR NOT GETTING BOTH MEASUREMENTS
+|  |  |   1 Waist measurement refused
+|  |  |   2 Waist measurement attempted, not obtained
+|  |  |   3 Waist measurement not attempted
+|  |  |   4 Hip measurement refused
+|  |  |   5 Hip measurement attempted, not obtained
+|  |  |   6 Hip measurement not attempted
+|  |  |  [Multiple responses to YNOWH are recorded in variable YNOWH1]
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  |  IF waist measurement obtained [QWstHip.Measure.Waist <> 999.9 AND 
+|  |   QWstHip.Measure.Waist <> EMPTY OR QWstHip.Measure.Waist <> 999.9 AND
+|  |   QWstHip.Measure.Waist <> EMPTY]
+|  |  |  
+|  |  |  WJREL
+|  |  |  RECORD ANY PROBLEMS WITH WAIST MEASUREMENT:
+|  |  |   1 No problems experienced, RELIABLE waist measurement
+|  |  |   2 Problems experienced - waist measurement likely to be RELIABLE
+|  |  |   3 Problems experienced - waist measurement likely to be SLIGHTLY UNRELIABLE
+|  |  |   4 Problems experienced - waist measurement likely to be UNRELIABLE
+|  |  |  
+|  |  |  IF any problems with waist measurement = Problems – measurement reliable, Problems –
+|  |  |  measurement slightly unreliable, Problems - measurement unreliable [WJRel = 2, 3, 4]
+|  |  |  |  
+|  |  |  |  PROBWJ
+|  |  |  |  RECORD WHETHER PROBLEMS EXPERIENCED ARE LIKELY TO INCREASE OR
+|  |  |  |  DECREASE THE WAIST MEASUREMENT.
+|  |  |  |   1 Increases measurement
+|  |  |  |   2 Decreases measurement
+|  |  |  |   3 Stay the same
+|  |  |  |  
+|  |  |  END OF FILTER
+|  |  |  
+|  |  END OF FILTER
+|  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Waist and hips module
+
+39
+
+|  |  
+|  |  IF hip measurement obtained [QWstHip.Measure.Hip <> 999.9 AND QWstHip.Measure.Hip <> EMPTY
+|  |  OR QWstHip.Measure.Hip <> 999.9 AND QWstHip.Measure.Hip <> EMPTY]
+|  |  |  
+|  |  |  HJREL
+|  |  |  RECORD ANY PROBLEMS WITH HIP MEASUREMENT:
+|  |  |   1 No problems experienced, RELIABLE hip measurement
+|  |  |   2 Problems experienced - hip measurement likely to be RELIABLE
+|  |  |   3 Problems experienced - hip measurement likely to be SLIGHTLY UNRELIABLE
+|  |  |   4 Problems experienced - hip measurement likely to be UNRELIABLE
+|  |  |  
+|  |  |  
+|  |  |  IF any problems with hip measurement = Problems – measurement reliable, Problems –
+|  |  |  measurement slightly unreliable, Problems - measurement unreliable [HJRel = 2, 3, 4]
+|  |  |  |  
+|  |  |  |  PROBHJ
+|  |  |  |  RECORD WHETHER PROBLEMS EXPERIENCED ARE LIKELY TO
+|  |  |  |  INCREASE OR DECREASE THE HIP MEASUREMENT.
+|  |  |  |   1 Increases measurement
+|  |  |  |   2 Decreases measurement
+|  |  |  |   3 stay the same
+|  |  |  |  
+|  |  |  END OF FILTER
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  |  IF summary of measurements = Both obtained, One obtained [Both, One] [RespWH = 1, 2]
+|  |  |  
+|  |  |  WHRES
+|  |  |  OFFER TO WRITE RESULTS OF WAIST AND HIP MEASUREMENTS, WHERE APPLICABLE,
+|  |  |  ONTO COHORT MEMBER'S MEASUREMENT RECORD CARD. ENTER '1' TO CONTINUE.
+|  |  |  String1
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+END OF FILTER
+
+WRES
+[AUTOMATICALLY CALCULATED]
+Waist result/measure
+
+HIPRES
+[AUTOMATICALLY CALCULATED]
+Hip result/measure
+
+End of Waist and hips module
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Lung function
+
+40
+
+Lung function
+
+IF not pregnant [BPRESS.NCPREGJ = 2]
+|  
+|  IF consent to have lung function tested not given [NOT LF = WILL1]
+|  |  
+|  |  NOTWILLF
+|  |  Earlier on you said that you didn't want your lung function tested. Can you tell me
+|  |  why you said that or have you changed your mind since then?
+|  |   1 Now willing to have test
+|  |   2 Scared of equipment
+|  |   3 Worried about the outcome
+|  |   4 Other reason (specify at next question)
+|  |  [Don't Know and Refusal are not allowed]
+|  |  
+|  |  IF why consent for lung function tests not given = Now willing to have test [NOTWILLF = 1]
+|  |  |  
+|  |  |  LFCON2
+|  |  |  NURSE: GET COHORT MEMBER TO CHANGE CONSENT FORM- MEASUREMENTS
+|  |  |  AND INITIAL THE CHANGE. Press <1> and <Enter> to continue.
+|  |  |  Range: 1..1
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  |  IF why consent for lung function tests not given = Other reason [NOTWILLF = 4]
+|  |  |  
+|  |  |  OTHREASF
+|  |  |  NURSE: TYPE IN REASON WHY NO MEASUREMENT TO BE TAKEN
+|  |  |  Open
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  |  IF why consent for lung function tests not given = Scared of equipment, Worried about outcome, Other
+|  |  reason [NOTWILLF = 2 , 3, 4]
+|  |  |  
+|  |  |  NOTESTF
+|  |  |  NURSE: NO LUNG FUNCTION TESTS TO BE TAKEN. PRESS '1' TO CONTINUE
+|  |  |   1 Continue
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+|  IF consent for lung function tests given [LF = WILL1 OR NOTWILLF = 1]
+|  |  
+|  |  HASURG
+|  |  NOW FOLLOWS THE LUNG FUNCTION MODULE. Can I check, have you had abdominal
+|  |  or chest surgery in the past three weeks?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  |  IF surgery in past three weeks = No [HaSurg = 2]
+|  |  |  
+|  |  |  HASTRO
+|  |  |  Have you been admitted to hospital for a heart complaint in the past six weeks?
+|  |  |   1 Yes
+|  |  |   2 No
+|  |  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Lung function
+
+41
+
+|  |  |  
+|  |  |  IF admitted for heart condition = No [HaStro = 2]
+|  |  |  |  
+|  |  |  |  CHESTINF
+|  |  |  |  In the past three weeks, have you had any respiratory infections such as influenza, pneumonia,
+|  |  |  |   bronchitis or a severe cold?
+|  |  |  |   1 Yes
+|  |  |  |   2 No
+|  |  |  |  
+|  |  |  |  INHALER
+|  |  |  |  (Can I just check), have used an inhaler, puffer or any medication for your breathing
+|  |  |  |   in the last 24 hours?
+|  |  |  |   1 Yes
+|  |  |  |   2 No
+|  |  |  |  
+|  |  |  |  IF used an inhaler in the last 24 hours = Yes [Inhaler = 1]
+|  |  |  |  |  
+|  |  |  |  |  INHALHRS
+|  |  |  |  |  How many hours ago did you use it?
+|  |  |  |  |  INTERVIEWER, ENTER NUMBER OF HOURS. IF LESS THAN ONE HOUR, CODE 0.
+|  |  |  |  |  Range: 0..24
+|  |  |  |  |  
+|  |  |  |  END OF FILTER
+|  |  |  |  
+|  |  |  END OF FILTER
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  |  IF surgery in past three weeks  = Yes OR admitted for heart condition  = Yes 
+|  |  [HaSurg = 1 OR HaStro = 1]
+|  |  |  
+|  |  |  LFCODE2
+|  |  |  NO LUNG FUNCTION TEST TO BE DONE. ENTER '1' TO CONTINUE.
+|  |  |  Range: 1..1
+|  |  |  
+|  |  ELSE
+|  |  |  
+|  |  IF surgery in past three weeks = No AND not admitted for heart condition = Yes 
+|  |   [HaSurg = 2 AND HaStro <> 1]
+|  |  |  
+|  |  |  SPIRNO
+|  |  |  ENTER THE TWO-DIGIT SPIROMETER SERIAL NUMBER.
+|  |  |  Range: 1..99
+|  |  |  [Don't Know and Refusal are not allowed]
+|  |  |  
+|  |  |  LFREC
+|  |  |  EXPLAIN THE PROCEDURE AND DEMONSTRATE THE TEST. RECORD THE RESULTS OF
+|  |  |  UP TO FIVE BLOWS BY THE COHORT MEMBER IN THE BOXES BELOW. RECORD EACH
+|  |  |  BLOW AS IT IS CARRIED OUT.FOR EACH |  BLOW, ENTER ALL THREE MEASURES AND CODE
+|  |  |  WHETHER TECHNIQUE WAS SATISFACTORY. ENTER '1' TO CONTINUE.
+|  |  |   Range: 1..1
+|  |  |  
+|  |  |  REPEAT BETWEEN THREE AND FIVE TIMES [LOOP FOR Idx:= 1 TO 5]
+|  |  |  |  
+|  |  |  |  NOREAD    
+|  |  |  |  [GENERATED AUTOMATICALLY FROM FVC]
+|  |  |  |  Flag for no LF readings: was the first FVC coded 9.95?
+|  |  |  |   1 Yes
+|  |  |  |   2 No
+|  |  |  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Lung function
+
+42
+
+|  |  |  |  
+|  |  |  |  DONE3    
+|  |  |  |  [GENERATED AUTOMATICALLY FROM TECHNIQUE]
+|  |  |  |  Three technically acceptable blows reached or not?
+|  |  |  |   1 Yes
+|  |  |  |   2 No
+|  |  |  |  
+|  |  |  |  IF first FVC reading not coded as no readings to be taken AND Flag for no LF readings = No AND
+|  |  |  |  three technically acceptable blows = No  [Blow.FVC <> 9.95 AND NoRead = 2 AND DONE3 = 2]
+|  |  |  |  |  
+|  |  |  |  |  FVC
+|  |  |  |  |  IF NO READING OBTAINED ENTER '0'. IF YOU ARE NOT GOING TO OBTAIN ANY
+|  |  |  |  |  READINGS AT ALL ENTER 9.95.
+|  |  |  |  |  [Responses to FVC are recorded in variables FVC1 to FVC5]
+|  |  |  |  |  
+|  |  |  |  Checks 49 and 50      
+|  |  |  |  |  
+|  |  |  |  |  IF FVC reading not coded as no readings to be taken [FVC < 9.95]
+|  |  |  |  |  |  
+|  |  |  |  |  |  FEV
+|  |  |  |  |  |  IF NO READING OBTAINED ENTER '0'.
+|  |  |  |  |  |  [Responses to FEV are recorded in variables FEV1 to FEV5]
+|  |  |  |  |  |  
+|  |  |  |  |  Checks 51 to 55      
+|  |  |  |  |  |  
+|  |  |  |  |  |  PF
+|  |  |  |  |  |  IF NO READING OBTAINED ENTER '0'.
+|  |  |  |  |  |  Range: 0..995
+|  |  |  |  |  |  [Responses to PF are recorded in variables PF1 to PF5]
+|  |  |  |  |  |  
+|  |  |  |  |  Checks 56 and 57        
+|  |  |  |  |  |  
+|  |  |  |  |  |  CL
+|  |  |  |  |  |  TURN THE SPIROMETER OFF THEN ON AGAIN TO TAKE THE NEXT READING
+|  |  |  |  |  |  PRESS ENTER TO CONTINUE.
+|  |  |  |  |  |  Range: 1..1
+|  |  |  |  |  |  
+|  |  |  |  |  |  TECHNIQUE
+|  |  |  |  |  |  WAS THE TECHNIQUE SATISFACTORY?
+|  |  |  |  |  |   1 Yes
+|  |  |  |  |  |   2 No
+|  |  |  |  |  |  [Responses to TECHNIQUE are recorded in variables TECHNIQ1 to TECHNIQ5]
+|  |  |  |  |  |  
+|  |  |  |  |  Check 58     
+|  |  |  |  |  |  
+|  |  |  |  |  END OF FILTER
+|  |  |  |  |  
+|  |  |  |  END OF FILTER  
+|  |  |  |  
+|  |  |  END REPEAT
+|  |  |  
+|  |  |  IF Flag for no LF readings = Yes [NoRead = 1]
+|  |  |  |  
+|  |  |  |  YNOLF
+|  |  |  |  ENTER REASON FOR NOT TAKING ANY LF READINGS.
+|  |  |  |   1 Lung function measurement attempted, not obtained
+|  |  |  |   2 Lung function measurement not attempted
+|  |  |  |   3 Lung function measurement refused
+|  |  |  |  [Don't Know and Refusal are not allowed]
+|  |  |  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Lung function
+
+43
+
+|  |  |  |  
+|  |  |  END OF FILTER
+|  |  |    
+|  |  |  IF reason for not taking any lung function readings = no response [QBlow.YNoLF <> RESPONSE]
+|  |  |  |  
+|  |  |  |  LFSTAND
+|  |  |  |  NURSE: MEASUREMENTS TAKEN WHILE COHORT MEMBER WAS
+|  |  |  |  STANDING OR SITTING?
+|  |  |  |   1 Standing
+|  |  |  |   2 Sitting
+|  |  |  |  
+|  |  |  |  LFRESP
+|  |  |  |  NURSE CHECK: CODE ONE ONLY.
+|  |  |  |   1 First 3 technically satisfactory blows obtained
+|  |  |  |   2 3 technically satisfactory blows obtained from more than 3 blows
+|  |  |  |   3 Some blows, but less than 3 technically satisfactory blows obtained
+|  |  |  |   4 Attempted, but no technically satisfactory blows obtained
+|  |  |  |   5 All blows refused
+|  |  |  |   6 None attempted
+|  |  |  |  
+|  |  |  Checks 59 to 63      
+|  |  |  |  
+|  |  |  |  IF summary of LF response = Some blows, but less than 3 technically satisfactory [LFResp = 3]
+|  |  |  |  |  
+|  |  |  |  |  PROBLF
+|  |  |  |  |  NURSE: GIVE REASONS WHY LESS THAN 5 BLOWS OBTAINED.
+|  |  |  |  |  CODE ALL THAT APPLY.
+|  |  |  |  |   1 Refused to continue
+|  |  |  |  |   2 Breathlessness
+|  |  |  |  |   3 Coughing fit
+|  |  |  |  |   4 Equipment failure
+|  |  |  |  |   5 Other (SPECIFY AT NEXT QUESTION)
+|  |  |  |  |  [Multiple responses to PROBLF are recorded in variables PROBLF1 to PROBLF3]
+|  |  |  |  |  
+|  |  |  |  |  IF why less than 5 blows obtained = Other [Oth = ProbLF]
+|  |  |  |  |  |  
+|  |  |  |  |  |  OTHPROB
+|  |  |  |  |  |  NURSE: GIVE DETAILS OF WHY LESS THAN 5 BLOWS OBTAINED.
+|  |  |  |  |  |  String40
+|  |  |  |  |  |  
+|  |  |  |  |  END OF FILTER
+|  |  |  |  |  
+|  |  |  |  END OF FILTER
+|  |  |  |  
+|  |  |  END OF FILTER
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Lung function
+
+44
+
+|  
+|  IF why consent for lung function tests not given = Scared of equipment, Worried about outcome, Other
+|  reason OR summary of LF response = Attempted, but no technically satisfactory blows, All blows refused,
+|  None attempted  OR reason for not taking any lung function readings = Lung function measurement
+|  attempted, Lung function measurement not attempted, Lung function measurement refused 
+|   [NOTWILLF = 2 , 3, 4 OR LFResp = 4 , 5, 6 OR QBlow.YNoLF = RESPONSE]
+|  |  
+|  |  NOATTLF
+|  |  GIVE REASON WHY LUNG FUNCTION MEASUREMENTS WERE NOT
+|  |  ATTEMPTED/REFUSED. CODE ONE ONLY.
+|  |   1 Temperature of house too cold
+|  |   2 Temperature of house too hot
+|  |   3 Equipment failure
+|  |   4 Breathlessness
+|  |   5 Unwell
+|  |   6 Other reason why measurements not attempted/refused (SPECIFY AT NEXT QUESTION)
+|  |  
+|  |  IF why LF measurements were not attempted or refused = Other [NoAttLF = 6]
+|  |  |   
+|  |  |  OTHNOAT
+|  |  |  NURSE: GIVE DETAILS OF WHY LUNG FUNCTION MEASUREMENTS
+|  |  |  WERE NOT ATTEMPTED/REFUSED.
+|  |  |  String40
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+|  IF summary of LF response = First 3 technically satisfactory blows, 3 technically satisfactory blows
+|  obtained from more than 3 blows, Some blows, but less than 3 technically satisfactory  [LFResp = 1 , 2, 3]
+|  |  
+|  |  NCINS2
+|  |  LUNG FUNCTION MEASURED.OFFER LUNG FUNCTION RESULTS TO COHORT MEMBER.
+|  |  ENTER THEIR HIGHEST FVC AND HIGHEST FEV AND HIGHEST PF READINGS ON MRC.
+|  |  HIGHEST READINGS LISTED BELOW.  [HIGHEST FVC, FEV, PF SHOWN ON SCREEN]
+|  |  ENTER '1' TO CONTINUE.
+|  |  Range: 1..1
+|  |  
+|  END OF FILTER
+|  
+END OF FILTER
+
+HTFVC
+[AUTOMATICALLY CALCULATED]
+Highest technically satisfactory value FVC
+
+HTFEV
+[AUTOMATICALLY CALCULATED]
+Highest technically satisfactory value FEV
+
+HTPF
+[AUTOMATICALLY CALCULATED]
+Highest technically satisfactory value PF
+
+SUM1
+[AUTOMATICALLY CALCULATED]
+Sum of FVC and FEV 1st blow
+
+SUM2
+[AUTOMATICALLY CALCULATED]
+Sum of FVC and FEV 2nd blow
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Lung function
+
+45
+
+SUM3
+[AUTOMATICALLY CALCULATED]
+Sum of FVC and FEV 3rd blow
+
+MAX1
+[AUTOMATICALLY CALCULATED]
+Maximum of SUM1 to SUM3
+
+BESTTEST
+[AUTOMATICALLY CALCULATED]
+Best of first 3 SUM attempts
+
+NEXTBEST
+[AUTOMATICALLY CALCULATED]
+Next best of first 3 SUMs 
+
+VARATIO
+[AUTOMATICALLY CALCULATED]
+Variation in BESTTEST and NEXTBEST
+
+HTFVC2
+[AUTOMATICALLY CALCULATED]
+Highest FVC
+
+HTFEV2
+[AUTOMATICALLY CALCULATED]
+Highest FEV
+
+HTPF2
+[AUTOMATICALLY CALCULATED]
+Highest PF
+
+End of Lung function module
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Vision measures using autorefractor
+
+46
+
+Vision measures using autorefractor
+
+IF consent to have vision tested [Vision1 = WILL1 OR VISION.NOTWILLV = 1]
+|  
+|  VISREFA1
+|  ARE YOU CARRYING AUTOREFRACTOR?
+|   1 Yes
+|   2 No
+|  [Don't Know and Refusal are not allowed]
+|  
+|  IF nurse carrying autorefractor = Yes [VisRefA1 = 1]
+|  |  
+|  |  IF glasses worn for near vision tests = Contact lenses only or Reading glasses with contact lenses OR
+|  |  glasses worn for distance vision tests = Contact lenses  
+|  |  [VISION.NVWear = 3, 5 OR VISION.DVWear = 3]
+|  |  |  
+|  |  |  VREMOVE
+|  |  |  ASK COHORT MEMBER TO REMOVE CONTACT LENSES OR GLASSES.
+|  |  |   1 Continue
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  |  VISREFIN
+|  |  INTRODUCE AUTO REFRACTOR. IT MEASURES THE SIZE AND SHAPE OF THE EYE USING
+|  |  INFRA-RED LIGHT.IT IS NOT DANGEROUS AND IT DOESN'T HURT. THE MEASUREMENT 
+|  |  SHOULD BE TAKEN WITHOUT GLASSES OR CONTACT LENSES. CODE '1' TO CONTINUE.
+|  |   1 Continue
+|  |  
+|  |  VREFREAD
+|  |  TAKE A READING FROM THE RIGHT EYE FIRST. THEN TAKE A READING FROM THE LEFT EYE.
+|  |  PRINT OUT THE RESULTS. MAKE SURE THE QUALITY SCORE IS 8 OR HIGHER.
+|  |  IF QUALITY SCORE IS 7 OR LOWER, CHECK YOUR POSITION, LIGHT LEVELS AND THAT THE
+|  |  SUBJECTS IS NOT BLINKING AND THEN REPEAT UP TO 3 TIMES. PRINT OUT RESULTS. 
+|  |  ENTER SUMMARY (BOTTOM ROW) SCORES FOR EACH EYE INTO CAPI.
+|  |  CODE '1' TO CONTINUE.
+|  |   1 Continue
+|  |  
+|  |  VSPHR
+|  |  RIGHT EYE, FIRST SCORE (SPH). ENTER PLUS OR MINUS, WITH SCORE.
+|  |  
+|  |  VCYLR
+|  |  RIGHT EYE, SECOND SCORE (CYL). ENTER PLUS OR MINUS, WITH SCORE. IF
+|  |  NO SCORE SHOWN, ENTER 0.
+|  |  
+|  |  VAXR
+|  |  RIGHT EYE, THIRD SCORE (AX). IF NO SCORE SHOWN, ENTER 0
+|  |  Range: 0..180
+|  |  
+|  |  VQUALR
+|  |  RIGHT EYE, QUALITY SCORE..IF NO READING POSSIBLE, CODE 99
+|  |  Range: 0..99
+|  |  
+|  Check 64  
+|  |  
+|  |  VSPHL
+|  |  LEFT EYE, FIRST SCORE (SPH). ENTER PLUS OR MINUS, WITH SCORE.
+|  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Vision measures using autorefractor
+
+47
+
+|  |  
+|  |  VCYLL
+|  |  LEFT EYE, SECOND SCORE (CYL). ENTER PLUS OR MINUS, WITH SCORE. IF
+|  |  NO SCORE SHOWN, ENTER 0.
+|  |  
+|  |  VAXL
+|  |  LEFT EYE, THIRD SCORE (AX). IF NO SCORE SHOWN, ENTER 0.
+|  |  Range: 0..180
+|  |  
+|  |  VQUALL
+|  |  LEFT EYE, QUALITY SCORE..IF NO READING POSSIBLE, CODE 99
+|  |  Range: 0..99
+|  |  
+|  Check 65  
+|  |  
+|  |  PRINTOUT
+|  |  ATTACH PRINT OUT WITH BARCODE LABEL TO INSIDE FRONT COVER OF
+|  |  OFFICE CONSENT BOOKLET
+|  |   1 Refractometer slip completed/obtained
+|  |   2 Refractometer slip not completed/obtained
+|  |  [Don't Know and Refusal are not allowed]
+|  |  
+|  |  VISREFA2
+|  |  RECORD SERIAL NUMBER OF AUTOREFRACTOR.
+|  |  Range: 0..99
+|  |  
+|  |  IF cohort member asked to remove contact lenses [Vremove = 1]
+|  |  |  
+|  |  |  VREPLACE
+|  |  |  COHORT MEMBER CAN PUT IN CONTACT LENSES OR PUT ON GLASSES
+|  |  |  AGAIN.CODE '1' TO CONTINUE.
+|  |  |   1 Continue
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+END OF FILTER
+
+End of Vision measures using autorefractor module
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Blood samples, including consent
+
+48
+
+Blood samples, including consents
+
+DRUGCLOT
+[AUTOMATICALLY CALCULATED]
+Any anti-coagulant drugs recorded
+1 Yes
+2 No
+
+BLCONS1
+CONSENT TO BLOOD SAMPLING If you agree I would now like to take a sample of your blood.
+As explained in the information sheet, this is an important part of the study, because the blood can be
+analysed in a number of ways. Some tests will be performed in the lab as soon as they receive the sample.
+Other tests may be done in future on portions of blood which have been stored frozen for many years. 
+There is currently interest in genetic tests which use the DNA contained in white blood cells, and you were
+sent a separate leaflet explaining this. Do you have any questions about the blood collection or
+the storage of blood or DNA for medical research purposes?
+1 Question/s asked
+2 No question/s asked
+
+BLCONS2
+We need your written permission to collect a blood sample, to store portions of it for future research, to use
+the DNA, and to store the white blood cells so that in future they can be used as a renewable source of
+DNA. You can choose whether to give your signed consent for each of these four things. 
+GO THROUGH CONSENT BOOKLET. IF COHORT MEMBER DOES NOT GIVE CONSENT FOR BLOOD
+SAMPLE TO BE TAKEN, DO NOT ASK FOR OTHER CONSENTSCODE EACH CONSENT GIVEN
+1 Collect blood
+2 Store blood
+3 Extract DNA
+4 Cell cultures
+8 No consents given
+[Don't Know and Refusal are not allowed]
+[Multiple responses to BLCONS2 are recorded in variables BLCONS21 to BLCONS24]
+
+Check 66  
+
+IF consent given for blood samples to be taken [cblo = Blcons2]
+|  
+|  BLINTRO
+|  NURSE: NOW FOLLOWS THE BLOOD SAMPLE MODULE. PRESS <1> AND
+|  <Enter> TO CONTINUE.
+|  Range: 1..1
+|  
+|  CLOTB
+|  EXPLAIN PURPOSE AND PROCEDURE FOR TAKING BLOOD.
+|  May I just check, do you have a clotting or bleeding disorder or are you currently on anti-coagulant drugs
+|  such as Warfarin? NB ASPIRIN THERAPY IS NOT A CONTRAINDICATION FOR BLOOD SAMPLE.
+|   1 Yes
+|   2 No
+|  
+|  IF does cohort member have clotting disorder = No [ClotB = 2]
+|  |  
+|  Check 67
+|  |  
+|  |  FIT
+|  |  May I just check, have you had a fit (including epileptic fit, convulsion, convulsion associated with high
+|  |  fever) in the last THREE years?
+|  |   1 Yes
+|  |   2 No
+|  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Blood samples, including consent
+
+49
+
+|  |  
+|  Check 68  
+|  |  
+|  |  IF has cohort member had a fit = No [Fit = 2]
+|  |  |   
+|  |  |  CONSUB
+|  |  |  How long ago did you have anything to eat or drink, excluding water - please
+|  |  |  include snacks and cups of tea, coffee, alcohol or soft drinks?
+|  |  |   1 Less than half an hour ago
+|  |  |   2 Between half an hour and an hour ago,
+|  |  |   3 1 hour but less than 2 hours ago,
+|  |  |   4 2 hours but less than 4 hours ago,
+|  |  |   5 4 hours but less than 8 hours ago,
+|  |  |   6 More than 8 hours ago?
+|  |  |   7 (Can't remember)
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+END OF FILTER
+
+IF consent not given for blood samples to be taken [NOT cblo = Blcons2]
+|  
+|  REFBSC
+|  RECORD WHY BLOOD SAMPLE REFUSED. CODE ALL THAT APPLY.
+|   1 Previous difficulties with venepuncture
+|   2 Dislike/fear of needles
+|   3 Cohort member recently had blood test/health check
+|   4 Refused because of current illness
+|   5 Worried about HIV or AIDS
+|   6 Other
+|  [Multiple responses to REFBSC are recorded in variables REFBSC1 to REFBSC6]
+|  
+END OF FILTER
+
+IF consent not given for blood samples to be taken AND does cohort member have clotting disorder = No
+AND has cohort member had a fit = No [cblo = Blcons2 AND ClotB = 2 AND Fit = 2]
+|  
+|  TAKESAM
+|  TAKE BLOOD SAMPLES: FILL FOUR TUBES IN THIS ORDER: * tube 1: RED (EDTA) – DO NOT
+|   PRE-EVACUATE TUBE * tube 2: GREEN (citrate) - DO PRE-|  EVACUATE TUBE * tube 3: WHITE 
+|   (Plain/serum) - DO PRE-EVACUATE TUBE * tube 4: YELLOW (CPDA) - DO PRE-EVACUATE TUBE
+|  Enter '1' to continue.
+|  String1
+|  
+|  SAMPF1
+|  CODE IF RED EDTA TUBE FILLED OR PARTLY FILLED
+|   1 Yes - completely filled
+|   2 Partly filled
+|   3 No
+|  [Don't Know and Refusal are not allowed]
+|  
+|  SAMPF2
+|  CODE IF GREEN CITRATE TUBE FILLED OR PARTLY FILLED
+|   1 Yes - completely filled
+|   2 Partly filled
+|   3 No
+|  [Don't Know and Refusal are not allowed]
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Blood samples, including consent
+
+50
+
+|  
+|  SAMPF3
+|  CODE IF WHITE SERUM TUBE FILLED OR PARTLY FILLED
+|   1 Yes - completely filled
+|   2 Partly filled
+|   3 No
+|  [Don't Know and Refusal are not allowed]
+|  
+|  SAMPF4
+|  CODE IF YELLOW CPDA TUBE FILLED OR PARTLY FILLED
+|   1 Yes - completely filled
+|   2 Partly filled
+|   3 No
+|  [Don't Know and Refusal are not allowed]
+|  
+|  SAMPTAK
+|  [GENERATED AUTOMATICALLY FROM SAMPF1, SAMPF2, SAMPF3, SAMPF4]
+|  Blood sample outcome
+|   1 Blood sample obtained
+|   2 No blood sample obtained
+|  
+|  IF blood sample outcome = Blood sample obtained  [SampTak = 1]
+|  |  
+|  |  SAMPARM
+|  |  RECORD WHICH ARM BLOOD TAKEN FROM:
+|  |   1 Right
+|  |   2 Left
+|  |   3 Both
+|  |  [Don't Know and Refusal are not allowed]
+|  |  
+|  END OF FILTER
+|  
+|  SAMDIFC
+|  RECORD ANY PROBLEMS IN TAKING BLOOD SAMPLE. CODE ALL THAT
+|  APPLY.
+|   1 No problem
+|   2 Incomplete sample
+|   3 Collapsing/poor veins
+|   4 Second attempt necessary
+|   5 Some blood obtained, but cohort member felt faint/fainted
+|   6 Unable to use tourniquet
+|   7 Other (SPECIFY AT NEXT QUESTION)
+|  [Multiple responses to SAMDIFC are recorded in variables SAMDIF1 to SAMDIF4]
+|   
+Checks 69 and 70  
+|   
+|  IF blood sample outcome = No blood sample obtained [SampTak = 2]
+|  |  
+|  |  NOBSC
+|  |  CODE REASON(S) NO BLOOD OBTAINED.CODE ALL THAT APPLY.
+|  |   1 No suitable or no palpable vein/collapsed veins
+|  |   2 Cohort member was too anxious/nervous
+|  |   3 Cohort member felt faint/fainted
+|  |   4 Other
+|  |  [Multiple responses to NOBSC are recorded in variables NOBSC1 to NOBSC4]
+|  |  
+|  END OF FILTER
+|  
+END OF FILTER
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Blood samples, including consent
+
+51
+
+IF whether red EDTA tube filled = Yes, completely filled, Partially filled OR whether green citrate tube filled=
+Yes, completely filled, Partially filled OR whether white serum tube filled = Yes, completely filled, Partially
+filled OR whether yellow CPDA tube filled = Yes, completely filled, Partially filled 
+[SampF1 = 1 , 2 OR SampF2 = 1 , 2 OR SampF3 = 1 , 2 OR SampF4 = 1 , 2]
+| 
+|  
+|  LABELCHK
+|  NURSE: WHILE THE COHORT MEMBER IS COMPLETING THE CASI (NEXT SECTION): - ATTACH A
+|  SERIAL NUMBER BAR CODE LABEL TO EACH TUBE - WRITE YOUR NURSE NUMBER AND THE
+|  DATE AND TIME OF COLLECTION ON EACH TUBE COMPLETE THE BLOOD SAMPLE DESPATCH
+|  NOTES
+|  PRESS '1'TO CONTINUE
+|   1 Continue
+|  
+END OF FILTER
+
+End of Blood samples, including consents module
+
+
+
+NCDS Biomedical study CAPI questionnaire
+CASI self-completion questionnaire:
+AUDIT and questions about drinking; questions about childhood experiences
+
+52
+
+CASI self-completion questionnaire: AUDIT and questions about drinking; questions about
+childhood experiences
+
+ICASI
+READ OUT TO ALL: The next set of questions will probably be easier if you read them and answer them
+yourself, using the computer. The computer is very easy to use. The questions are quite personal and, this
+way, your answers will be completely confidential and I won't see them. When you have finished, the whole
+section will get automatically locked up inside the computer so that I can't look back at it.
+1 Continue
+
+SCACCEPT
+NURSE CODE:
+1 Respondent accepted CASI
+2 CASI to be asked face to face by nurse
+3 Respondent refused CASI (CODE REASON AT NEXT QUESTION)
+
+IF whether cohort member accepts CASI = Respondent accepted CASI, CASI to be asked face-to-face
+[SCAccept = 1 , 2]
+|  
+|  INPRAC
+|  It is very important to the study that you answer honestly and accurately so please take your time. [First, 
+|  let us do a couple of practice questions together to show you how it works. HAND COMPUTER TO
+|  RESPONDENT AND EXPLAIN HOW [HE/SHE] SHOULD COMPLETE THE PRACTICE QUESTIONS.]
+|   1 Continue
+|  
+|  IF whether cohort member accepts CASI = Respondent accepted CASI [SCAccept = 1]
+|  |  
+|  |  PRAC1A
+|  |  Have you ever used a computer before?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  |  PRAC1C
+|  |  Have you used a typewriter at all?
+|  |   1 Yes, a lot
+|  |   2 Yes, a little
+|  |   3 No
+|  |  
+|  |  PRAC3
+|  |  Which of these things have you done in the last seven days? TYPE EACH NUMBER THAT APPLIES.
+|  |  USE SPACE BAR BETWEEN NUMBERS
+|  |   01 Watched television
+|  |   02 Listened to music
+|  |   03 Read a book
+|  |   04 Read a magazine
+|  |   05 Bought something other than food in a shop, supermarket or warehouse
+|  |   06 Played sports or exercised (indoors or outside)
+|  |   07 Been to a theatre or cinema
+|  |   08 Been to a pub, club or restaurant
+|  |   09 Been to a concert or other performance of live music
+|  |   10 Watched a sports event (in person, not on TV)
+|  |   11 Visited a museum or art gallery
+|  |   12 Visited a theme park or other type of visitor attraction
+|  |  
+|  |  ENDPRAC
+|  |  THAT IS THE END OF THE PRACTICE QUESTIONS. NOW PLEASE ANSWER THE NEXT SET OF
+|  |  QUESTIONS BY YOURSELF. PRESS <1> AND <Enter> TO CONTINUE.
+|  |  String1
+|  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+CASI self-completion questionnaire:
+AUDIT and questions about drinking; questions about childhood experiences
+
+53
+
+|  |  
+|  END OF FILTER
+|  
+END OF FILTER
+
+IF whether cohort member accepts CASI = Respondent refused CASI [SCAccept = 3]
+|   
+|  YNOCASI
+|  NURSE: ENTER REASON WHY CM HAS REFUSED THE CASI MODULE
+|  Open
+|  
+END OF FILTER
+
+IF whether cohort member accepts CASI = Respondent accepted CASI, CASI to be asked face-to-face
+[SCAccept = 1 , 2]
+|  
+|  DRINKFQ
+|  How often do you have a drink containing alcohol?
+|   1 Not in the last 12 months
+|   2 Once a month or less
+|   3 Two to four times a month
+|   4 Two or three times a week
+|   5 Four or more times a week
+|  
+|  IF how often do you have a drink = Not in the last 12 months [DrinkFQ = 1]
+|  |  
+|  |  DRINKANY
+|  |  Have you ever drunk alcohol?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  END OF FILTER
+|  
+|  IF how often do you have a drink = Once a month or less, Two to four times a month, Two or three times a
+|  week, Four or more times a week [DrinkFQ = 2 , 3, 4, 5]
+|  |  
+|  |  DRINKDAY
+|  |  How many standard drinks do you have on a typical day, when you are
+|  |  drinking? A standard drink means half a pint of normal strength beer, or a small
+|  |  glass of wine or a single pub measure of spirits.
+|  |   1 One or two
+|  |   2 Three or four
+|  |   3 Five or six
+|  |   4 Seven to nine
+|  |   5 Ten or more
+|  |  
+|  |  DRINKSIX
+|  |  How often do you have six or more standard drinks on one occasion?
+|  |   1 Never
+|  |   2 Monthly or less
+|  |   3 Monthly
+|  |   4 Weekly
+|  |   5 Daily or almost daily
+|  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+CASI self-completion questionnaire:
+AUDIT and questions about drinking; questions about childhood experiences
+
+54
+
+|  |  
+|  |  DRSTOP
+|  |  How often during the last year have you found that you were not able to stop
+|  |  drinking once you had started?
+|  |   1 Never
+|  |   2 Monthly or less
+|  |   3 Monthly
+|  |   4 Weekly
+|  |   5 Daily or almost daily
+|  |  
+|  |  DRFAIL
+|  |  How often during the last year have you failed to do what was normally
+|  |  expected from you because of drinking?
+|  |   1 Never
+|  |   2 Monthly or less
+|  |   3 Monthly
+|  |   4 Weekly
+|  |   5 Daily or almost daily
+|  |  
+|  |  DRINKAM
+|  |  How often during the last year have you needed an alcoholic drink in the
+|  |  morning to get yourself going after a heavy drinking session?
+|  |   1 Never
+|  |   2 Monthly or less
+|  |   3 Monthly
+|  |   4 Weekly
+|  |   5 Daily or almost daily
+|  |  
+|  |  DRGUILT
+|  |  How often during the last year have you had a feeling of guilt or regret after
+|  |  drinking?
+|  |   1 Never
+|  |   2 Monthly or less
+|  |   3 Monthly
+|  |   4 Weekly
+|  |   5 Daily or almost daily
+|  |  
+|  |  DRFORGET
+|  |  How often during the last year have you been unable to remember what
+|  |  happened the night before because you had been drinking?
+|  |   1 Never
+|  |   2 Monthly or less
+|  |   3 Monthly
+|  |   4 Weekly
+|  |   5 Daily or almost daily
+|  |  
+|  END OF FILTER
+|  
+|  IF how often do you have a drink = Once a month or less, Two to four times a month, Two or three times a
+|  week, Four or more times a week OR have you ever drunk alcohol = Yes 
+|  [DrinkFQ = 2 , 3, 4, 5 OR DrinkAny = 1]
+|  |  
+|  |  DRHURT
+|  |  Have you or has someone else been injured as a result of your drinking?
+|  |   1 No
+|  |   2 Yes, but not in the last year
+|  |   3 Yes, during the last year
+|  |   
+
+
+
+NCDS Biomedical study CAPI questionnaire
+CASI self-completion questionnaire:
+AUDIT and questions about drinking; questions about childhood experiences
+
+55
+
+|  |   
+|  |  DRWORRY
+|  |  Has a relative, friend, doctor or other health worker been concerned about your drinking
+|  |   or suggested that you cut down?
+|  |   1 No
+|  |   2 Yes, but not in the last year
+|  |   3 Yes, during the last year
+|  |    
+|  |  DRHIGH
+|  |  Think back to when your regular drinking was at its highest level. The next two questions are about
+|  |  the time when you were drinking at your highest level over a period of three months or longer.
+|  |  During the time your drinking was at its highest level, how often did you have a drink containing alcohol?
+|  |   1 Monthly or less
+|  |   2 Two to four times a month
+|  |   3 Two or three times a week
+|  |   4 Four or more times a week
+|  |  
+|  |  DRMOST
+|  |  During the time your drinking was at its highest level, how many standard drinks did you have
+|  |  on a typical day?
+|  |   1 One or two
+|  |   2 Three or four
+|  |   3 Five or six
+|  |   4 Seven to nine
+|  |   5 Ten or more
+|  |  
+|  END OF FILTER
+|  
+|  IF how often do you have a drink = Not in the last 12 months AND have you ever drunk alcohol = No 
+|   [DrinkFQ = 1 AND DrinkAny = 2]
+|  |  
+|  |  DRINKNOT
+|  |  Please indicate your reasons for not drinking. You can choose as many as apply. If more than one
+|  |  answer applies, type the first number then press the SPACE bar then type the next number then
+|  |  press the space bar again etc. When you have entered all the numbers that apply, 
+|  |  press the ENTER key.
+|  |   01 I do not like the taste or smell
+|  |   02 Alcohol damages people's health
+|  |   03 I do not like the effect alcohol has on me.
+|  |   04 I have seen the bad influence alcohol has on other people
+|  |   05 One of my parents had or has a drink problem
+|  |   06 My friends do not drink
+|  |   07 I drive and alcohol is dangerous for driving
+|  |   08 I look after my weight and alcohol has a high calorie value
+|  |   09 I am an active person and alcohol harms physical fitness
+|  |   10 I am afraid of becoming dependent on alcohol
+|  |   11 My family disapproves of drinking
+|  |   12 Alcoholic drinks cost a lot of money
+|  |   13 Alcohol could affect my work or studies
+|  |   14 My religion disapproves of alcohol use
+|  |   15 Other
+|  |  [Multiple responses to DRINKNOT are recorded in variables DRINKN01 to DRINKN15]
+|  |  
+|  |  IF reasons for not drinking = Other [Other = DrinkNot]
+|  |  |  
+|  |  |  DRNOOTH
+|  |  |  Please could you say briefly what other reason you have for not drinking.
+|  |  |  Open
+|  |  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+CASI self-completion questionnaire:
+AUDIT and questions about drinking; questions about childhood experiences
+
+56
+
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+|  IF how often do you have a drink = Once a month or less AND drinking at its highest level = Monthly or
+|  less [DrinkFQ  = 2 AND DrHigh = 1]
+|  |    
+|  |  DRLEVEL
+|  |  Please indicate if any of the following have influenced your drinking. You can choose as many as apply.
+|  |  If more than one answer applies, type the first number then press the SPACE bar then type the next
+|  |  number then press the space bar again etc. When you have entered all the numbers that apply,
+|  |  press the ENTER key.
+|  |   01 I do not like the taste or smell
+|  |   02 Alcohol damages people's health
+|  |   03 I do not like the effect alcohol has on me.
+|  |   04 I have seen the bad influence alcohol has on other people
+|  |   05 One of my parents had or has a drink problem
+|  |   06 My friends do not drink
+|  |   07 I drive and alcohol is dangerous for driving
+|  |   08 I look after my weight and alcohol has a high calorie value
+|  |   09 I am an active person and alcohol harms physical fitness
+|  |   10 I am afraid of becoming dependent on alcohol
+|  |   11 My family disapproves of drinking
+|  |   12 Alcoholic drinks cost a lot of money
+|  |   13 Alcohol could affect my work or studies
+|  |   14 My religion disapproves of alcohol use
+|  |   15 Other
+|  |  [Multiple responses to DRLEVEL are recorded in variables DRLEVE01 to DRLEVE15]
+|  |    
+|  |  IF influences on drinking =- Other [Other = DrLevel]
+|  |  |  
+|  |  |  DRLEVOTH
+|  |  |  Please could you say briefly what other things influenced your drinking.
+|  |  |  Open
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+CASI self-completion questionnaire:
+AUDIT and questions about drinking; questions about childhood experiences
+
+57
+
+|  
+|  IF have you ever drunk alcohol = Yes AND drinking at its highest level = Monthly or less, Two to four
+|  times a month, Two or three times a week, Four or more times a week
+|  [DrinkAny = 1 AND DrHigh = 1 , 2, 3, 4]
+|  |  
+|  |  DRSTOP1
+|  |  Why did you give up drinking alcohol? You can choose as many as apply. If more than one answer
+|  |  applies, type the first number then press the SPACE bar then type the next number then press
+|  |  the space bar again etc. When you have entered all the numbers that apply, press the ENTER key.
+|  |   01 I had problems with drink-driving
+|  |   02 I was spending too much money on alcohol
+|  |   03 Alcohol was damaging my health
+|  |   04 I was too dependent on alcohol
+|  |   05 My family or friends disapproved of my drinking
+|  |   06 Drinking was damaging my relationships with other people.
+|  |   07 I was overweight and needed to cut down on drinking
+|  |   08 Drinking was interfering too much with my work or studies
+|  |   09 I gave up for religious reasons
+|  |   10 I saw the bad influence alcohol has on other people
+|  |   11 One of my parents had or has a drink problem
+|  |   12 I did not like the taste or smell
+|  |   13 Alcohol damages people's health
+|  |   14 I did not like the effect alcohol has on me.
+|  |   15 (Women only) I gave up drinking when I became pregnant
+|  |   16 Other
+|  |  [Multiple responses to DRSTOP1 are recorded in variables DRSTOP01 to DRSTOP12]
+|  |  
+|  |  IF why gave up drinking = Other [Other = DrStop1]
+|  |  |  
+|  |  |  DRSTOTH
+|  |  |  Please could you say briefly what other reason caused you to give up alcohol.
+|  |  |  Open
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+|  IF how often do you have a drink = Once a month or less AND drinking at its highest level = Two to four
+|  times a month, Two or three times a week, Four or more times a week 
+|   [DrinkFQ = 2 AND DrHigh = 2 , 3, 4]
+|  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+CASI self-completion questionnaire:
+AUDIT and questions about drinking; questions about childhood experiences
+
+58
+
+|  |  
+|  |  DRCUT
+|  |  Why did you cut down on your drinking? You can choose as many as apply. If more than one answer
+|  |  applies, type the first number then press the SPACE bar then type the next number then press
+|  |  the space bar again etc. When you have entered all the numbers that apply, press the ENTER key.
+|  |   01 I had problems with drink-driving
+|  |   02 I was spending too much money on alcohol
+|  |   03 Alcohol was damaging my health
+|  |   04 I was too dependent on alcohol
+|  |   05 My family or friends disapproved of my drinking
+|  |   06 Drinking was damaging my relationships with other people.
+|  |   07 I was overweight and needed to cut out drinking
+|  |   08 Drinking was interfering too much with my work or studies
+|  |   09 I cut down for religious reasons
+|  |   10 I saw the bad influence alcohol has on other people
+|  |   11 One of my parents had or has a drink problem
+|  |   12 I did not like the taste or smell
+|  |   13 Alcohol damages people's health
+|  |   14 I did not like the effect alcohol has on me.
+|  |   15 (Women only) I cut down my drinking when I became pregnant
+|  |   16 Other
+|  |  [Multiple responses to DRCUT are recorded in variables DRCUT01 to DRCUT10]
+|  |  
+|  |  IF why cut down drinking = Other [Other = DrCut]
+|  |  |  
+|  |  |  DRCUTOTH
+|  |  |  Please you say briefly what other reason caused you to cut down on alcohol.
+|  |  |  Open
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+|  CHAD1
+|  The next few questions are about your childhood. Thinking about your childhood, up to the age of 16,
+|   how affectionate was your father (or father-figure) towards you? ENTER ONE CODE ONLY
+|   1 A lot
+|   2 Somewhat
+|   3 A little
+|   4 Not at all
+|   5 I had no father figure
+|   6 Can't say
+|  
+|  IF NOT how affectionate was your father = No father figure [ChAd1 <> 5]
+|  |  
+|  |  CHAD2
+|  |  Did your father (or father figure) suffer from nervous or emotional trouble or depression?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  |  CHAD3
+|  |  Did your father (or father figure) have trouble with drinking or other drug use?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  END OF FILTER
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+CASI self-completion questionnaire:
+AUDIT and questions about drinking; questions about childhood experiences
+
+59
+
+|  
+|  CHAD4
+|  Thinking about your childhood, up to the age of 16, how affectionate was your mother (or mother-figure)
+|  towards you? ENTER ONE CODE ONLY
+|   1 A lot
+|   2 Somewhat
+|   3 A little
+|   4 Not at all
+|   5 I had no mother figure
+|   6 Can't say
+|  
+|  IF NOT how affectionate was your mother = No mother figure [ChAd4 <> 5]
+|  |  
+|  |  CHAD5
+|  |  Did your mother (or mother figure) suffer from nervous or emotional trouble or depression?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  |  CHAD6
+|  |  Did your mother (or mother figure) have trouble with drinking or other drug use?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  END OF FILTER
+|  
+|  CHAD7
+|  How much conflict and tension was there in your household while you were growing up?
+|   ENTER ONE CODE ONLY
+|   1 A lot
+|   2 Some
+|   3 A little
+|   4 None
+|  
+|  CHAD9A
+|  The following are statements about your childhood. For each, please say whether the statement applies
+|  to you. Firstly, I had a happy childhood
+|   1 Yes
+|   2 No
+|   3 Can't say
+|   
+|  CHAD9B
+|  My parents (or parent-figures) did their best for me
+|   1 Yes
+|   2 No
+|   3 Can't say
+|  
+|  CHAD9C
+|  I was neglected
+|   1 Yes
+|   2 No
+|   3 Can't say
+|  
+|  CHAD9D
+|  I had a strict, authoritarian or regimented upbringing
+|   1 Yes
+|   2 No
+|   3 Can't say
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+CASI self-completion questionnaire:
+AUDIT and questions about drinking; questions about childhood experiences
+
+60
+
+|  
+|  CHAD9E
+|  I grew up in poverty or financial hardship
+|   1 Yes
+|   2 No
+|   3 Can't say
+|  
+|  CHAD9F
+|  I was verbally abused by a parent (or parent-figure)
+|   1 Yes
+|   2 No
+|   3 Can't say
+|  
+|  CHAD9G
+|  I suffered humiliation, ridicule, bullying or mental cruelty from a parent (or parent-figure)
+|   1 Yes
+|   2 No
+|   3 Can't say
+|  
+|  CHAD9H
+|  I witnessed physical or sexual abuse of others in my family
+|   1 Yes
+|   2 No
+|   3 Can't say
+|  
+|  CHAD9I
+|  I was physically abused by a parent - punched, kicked or hit or beaten with an object, or needed
+|  medical treatment
+|   1 Yes
+|   2 No
+|   3 Can't say
+|  
+|  CHAD9J
+|  I received too much physical punishment - hitting, smacking etc
+|   1 Yes
+|   2 No
+|   3 Can't say
+|  
+|  CHAD9K
+|  I was sexually abused by a parent (or parent-figure)
+|   1 Yes
+|   2 No
+|   3 Can't say
+|  
+|  CHAD9L
+|  I suffered another type of mistreatment
+|   1 Yes
+|   2 No
+|   3 Can't say
+|   
+|   
+|  IF suffered another type of mistreatment = Yes [ChAd9l = 1]
+|  |    
+|  |  CHAD9M
+|  |  In what other way were you mistreated by your parents (or parent-figures)?
+|  |  PLEASE TYPE IN YOUR ANSWER AND PRESS ENTER TO MOVE TO THE
+|  |  NEXT QUESTION.
+|  |  String40
+|  |  
+|  END OF FILTER
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+CASI self-completion questionnaire:
+AUDIT and questions about drinking; questions about childhood experiences
+
+61
+
+|  
+|  CHAD9N
+|  Still thinking about your childhood, would you say you had a normal upbringing?
+|   1 Yes
+|   2 No
+|   3 Can't say
+|  
+|  SATIS
+|  That was the last question for you to answer on the computer yourself. We hope that you were able
+|  to answer the questions without too much trouble. Now that you have reached the end, thinking back,
+|  are there any answers you would like to change, or is there anything you would like to add to any of the
+|   answers you have given?
+|  YOU CAN TYPE IN TWO CHOICES BY PRESSING THE SPACEBAR BETWEEN EACH NUMBER.
+|   1 I would like to change one (or more) answers
+|   2 I would like to add some information
+|   3 No changes
+|  [Multiple responses to SATIS are recorded in variables SATIS1 to SATIS2]
+|  
+|  IF that was the last question = I would like to change [Change = Satis]
+|  |  
+|  |  AMEND
+|  |  Please ask the nurse for assistance about how you may go back to a question in order to change
+|  |  your answer. The nurse will NOT have to look at the computer screen or be told any of your answers in
+|  |  order to help. When you come back to this screen, type 1 and press <Enter> to continue.
+|  |   1 Continue
+|  |  
+|  END OF FILTER
+|  
+|  IF that was the last question = I would like to add something [AddSome = Satis]
+|  |  
+|  |  ADDINFO
+|  |  Please type anything you would like to add, or ask the nurse for some paper to write your comments.
+|  |  PRESS <Alt S> WHEN YOU HAVE FINISHED. THEN PRESS THE ENTER KEY
+|  |  Open
+|  |  
+|  END OF FILTER
+|  
+|  ENDCASI1
+|  Thank you very much for answering these questions. Please now type 1 and press <ENTER>.
+|   1 Continue
+|  
+|  IF thank you very much = Continue [EndCASI1 = 1]
+|  |  
+|  |  ENDCASI2
+|  |  Please now type 1 and press <ENTER> again (This will lock-up your answers.)
+|  |  Then hand the computer back to the nurse.
+|  |   1 Continue
+|  |  
+|  END OF FILTER
+|  
+|  RESULTSC
+|  NURSE CODE:
+|   1 CASI section only partially completed (SPECIFY REASON AT NEXT QUESTION)
+|   2 CASI section completed with no help/advice asked for during completion
+|   3 CASI section completed with some help/advice during completion
+|  [Don't Know and Refusal are not allowed]
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+CASI self-completion questionnaire:
+AUDIT and questions about drinking; questions about childhood experiences
+
+62
+
+|  
+|  IF CASI outcome = Only partially completed [ResultSC = 1]
+|  |  
+|  |  XRESULTSC
+|  |  TYPE IN REASON FOR PARTIAL/NON-COMPLETION.
+|  |  String60
+|  |  
+|  END OF FILTER
+|  
+END OF FILTER
+
+End of CASI self-completion questionnaire: AUDIT and questions about drinking;
+questions about childhood experiences
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Clinical Interview Schedule – Revised (CIS-R)
+
+63
+
+Clinical Interview Schedule – Revised (CIS-R)
+
+IF consent to questions about mental health = Yes [CIDIWill = 1]
+|  
+|  CISINTRO
+|  NURSE: THE NEXT SECTION IS THE CIS-R INTERVIEW. MAKE SURE THE CM CAN ANSWER
+|  THESE QUESTIONS IN CONFIDENCE. PLEASE EXPLAIN THAT THESE QUESTIONS ARE
+|  CONFIDENTIAL, AND ASK ANYONE ELSE IN THE ROOM TO LEAVE FOR A FEW MINUTES.
+|  MAKE SURE THAT THE INTERVIEW CANNOT BE OVERHEARD.
+|   1 Press '1' to continue
+|  
+|  APPET1
+|  Now I would like to ask you some questions about your general health. Have you
+|  noticed a marked loss in your appetite in the past month?
+|   1 Yes
+|   2 No
+|  
+|  APPET2
+|  Have you lost any weight in the past month?
+|   1 Yes
+|   2 No/don't know
+|  
+|  IF lost any weight = Yes [APPET2 = 1]
+|  |  
+|  |  APPET3
+|  |  Were you trying to lose weight or on a diet?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  |  IF trying to lose weight = No [APPET3 = 2]
+|  |  |  
+|  |  |  APPET4
+|  |  |  Did you lose half a stone or more, or did you lose less than this? (NOTE: HALF A
+|  |  |  STONE = 7 POUNDS = 3.25 KILOS)
+|  |  |   1 Lost half a stone or more
+|  |  |   2 Lost less than half a stone
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+|  IF lost any weight = No/don’t know [APPET2 = 2]
+|  |  
+|  |  APPET5
+|  |  Have you noticed a marked increase in your appetite over the past month?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  |  APPET6
+|  |  Have you gained weight in the past month? NURSE: DO NOT COUNT WEIGHT
+|  |  GAIN DUE TO PREGNANCY
+|  |   1 Yes
+|  |   2 No/don't know
+|  |  
+|  END OF FILTER
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Clinical Interview Schedule – Revised (CIS-R)
+
+64
+
+|  
+|  FATIGA
+|  The following questions are about how you think and feel about things. Have you
+|  noticed that you've been getting tired in the past month?
+|   1 Yes
+|   2 No
+|  
+|  IF getting tired in the past month = No [FatigA = 2]
+|  |  
+|  |  FATIGB
+|  |  During the past month, have you felt you've been lacking in energy?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  END OF FILTER
+|  
+|  IF getting tired in the past month = Yes OR lacking in energy = Yes [FatigA = 1 OR FatigB = 1]
+|  |  
+|  |  FATIGC
+|  |  Do you know why you have been [getting tired/lacking in energy]?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  |  IF know why cohort member has been tired or lacking in energy = Yes [FatigC = 1]
+|  |  |  
+|  |  |  FATIGD
+|  |  |  SHOW CARD N
+|  |  |   What is the main reason? CODE ONE ONLY
+|  |  |   1 Problems with sleep
+|  |  |   2 Medication
+|  |  |   3 Physical illness
+|  |  |   4 Working too hard (inc. housework, looking after baby)
+|  |  |   5 Stress, worry or other psychological reason
+|  |  |   6 Physical exercise
+|  |  |   97 Other (SPECIFY)
+|  |  |  
+|  |  |  IF main reason tired or lacking in energy = Other [FatigD = 97]
+|  |  |  |  
+|  |  |  |  FATIGDOTH
+|  |  |  |  Please specify other MAIN reason
+|  |  |  |  String120
+|  |  |  |  
+|  |  |  END OF FILTER
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  |  IF NOT main reason tired or lacking in energy = Physical exercise [FatigD <> 6]
+|  |  |  
+|  |  |  FATIGE
+|  |  |  In the past seven days, including last [day of interview] on how many days have you felt
+|  |  |   [tired or lacking in energy]?
+|  |  |   1 4 days or more
+|  |  |   2 1 to 3 days
+|  |  |   3 None
+|  |  |  
+|  |  END OF FILTER
+|  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Clinical Interview Schedule – Revised (CIS-R)
+
+65
+
+|  |  
+|  |  IF on how many days felt tired or lacking in energy = 4 days or more, 1 to 3 days [FatigE = 1
+|  |  OR FatigE = 2]
+|  |  |  
+|  |  |  FATIGF
+|  |  |  Have you felt [tired/lacking in energy] for more than 3 hours in total on any day in the past week?
+|  |  |  INTERVIEWER NOTE: EXCLUDE TIME SPENT SLEEPING
+|  |  |   1 Yes
+|  |  |   2 No
+|  |  |  
+|  |  |  FATIGG
+|  |  |  Have you felt so [tired/lacking in energy] that you've had to push yourself to get things done during
+|  |  |  the past week?
+|  |  |   1 Yes, on at least one occasion
+|  |  |   2 No
+|  |  |  
+|  |  |  FATIGH
+|  |  |  Have you felt [tired/lacking in energy] when doing things that you enjoy during the past week?
+|  |  |   1 Yes, at least once
+|  |  |   2 No
+|  |  |   3 IF SPONTANEOUS: Does not enjoy anything
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  |  IF Tired or lacking in energy when doing things you enjoy = No, Does not enjoy anything [FatigH = 2 OR
+|  |  FatigH = 3]
+|  |  |  
+|  |  |  FATIGI
+|  |  |  Have you in the past week felt [tired/lacking in energy] when doing things that you used to enjoy?
+|  |  |   1 Yes
+|  |  |   2 No
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  |  IF on how many days felt tired or lacking in energy = 4 days or more, 1 to 3 days [FatigE = 1
+|  |  OR FatigE = 2]
+|  |  |  
+|  |  |  FATIGJ
+|  |  |  How long have you been [tired/lacking in energy] in the way you have just described?
+|  |  |   1 less than 2 weeks
+|  |  |   2 2 weeks but less than 6 months
+|  |  |   3 6 months but less than 1 year
+|  |  |   4 1 year but less than 2 years
+|  |  |   5 2 years or more
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+|  FATSUM    
+|  [GENERATED AUTOMATICALLY FROM FATIGE, FATIGF, FATIGG, FATIGH, FATIGI]|  
+|  
+|  FORGETA
+|  In the past month, have you had any problems in concentrating on what you are
+|  doing?
+|   1 Yes, problems concentrating
+|   2 No
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Clinical Interview Schedule – Revised (CIS-R)
+
+66
+
+|  
+|  FORGETB
+|  Have you noticed any problems with forgetting things in the past month?
+|   1 Yes
+|   2 No
+|  
+|  IF problems in concentrating = Yes OR problems with forgetting things = Yes [ForgetA = 1 OR
+|  ForgetB = 1]
+|  |  
+|  |  FORGETC
+|  |  Since last [day of week] on how many days have you noticed problems with your
+|  |  [concentration/memory]?
+|  |   1 4 days or more
+|  |   2 1 to 3 days
+|  |   3 None
+|  |  
+|  END OF FILTER
+|  
+|  IF on how many days had problems with concentration or memory = 4 days or more, 1 to 3 days 
+|  [ForgetA = 1 AND ForgetC = 1 OR ForgetC = 2]
+|  |  
+|  |  FORGETD
+|  |  In the past week could you concentrate on a TV programme, read a newspaper article or talk to
+|  |  someone without your mind wandering?
+|  |   1 Yes
+|  |   2 No/not always
+|  |  
+|  |  FORGETE
+|  |  In the past week, have these problems with your concentration actually stopped you from getting on
+|  |  with things you used to do or would like to do?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  END OF FILTER
+|  
+|  IF problems with forgetting things = Yes [ForgetB = 1]
+|  |  
+|  |  FORGETF
+|  |  Earlier you said you have been forgetting things, have you forgotten anything important in the past
+|  |  seven days?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  END OF FILTER
+|  
+|  IF on how many days had problems with concentration or memory = 4 days or more, 1 to 3 days OR
+|  forgotten anything important = Yes [ForgetC = 1 OR ForgetC = 2 OR ForgetF = 1]
+|  |  
+|  |  FORGETG
+|  |  How long have you been having the problems with your [concentration/memory] as you have
+|  |  described?
+|  |   1 less than 2 weeks
+|  |   2 2 weeks but less than 6 months
+|  |   3 6 months but less than 1 year
+|  |   4 1 year but less than 2 years
+|  |   5 2 years or more
+|  |  
+|  END OF FILTER
+|  
+|  FORGSUM    
+|  [GENERATED AUTOMATICALLY FROM FORGETC, FORGETD, FORGETE, FORGETF]|  
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Clinical Interview Schedule – Revised (CIS-R)
+
+67
+
+|  
+|  SLEEPA
+|  In the past month, have you been having problems with trying to get to sleep or with
+|  getting back to sleep if you woke up or were woken up?
+|   1 Yes
+|   2 No
+|  
+|  IF problems with trying to get to sleep = No [SleepA = 2]
+|  |  
+|  |  SLEEPB
+|  |  Has sleeping more than you usually do been a problem for you in the past month?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  END OF FILTER
+|  
+|  IF problems with trying to get to sleep = Yes OR sleeping more than usual = Yes
+|  [SleepA = 1 OR SleepB = 1]
+|  |  
+|  |  SLEEPC
+|  |  On how many of the past seven nights did you have problems with your sleep?
+|  |   1 4 nights or more
+|  |   2 1 to 3 nights
+|  |   3 None
+|  |  
+|  END OF FILTER
+|  
+|  IF on how many days had problems with sleep = 4 days or more, 1 to 3 days [SleepC = 1 OR SleepC = 2]
+|  |  
+|  |  SLEEPD
+|  |  Do you know why you are having problems with your sleep?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  END OF FILTER
+|  
+|  IF problems with trying to get to sleep = Yes AND on how many days had problems with sleep = 4 days or
+|  more, 1 to 3 days [SleepA = 1 AND SleepC = 1 OR SleepC = 2]
+|  |  
+|  |  SLEEPF
+|  |  Thinking about the night you had the least sleep in the past week, how long did you spend trying to get
+|  |   to sleep? (If you woke up or were woken up I want you to allow a quarter of an hour to get back to
+|  |  sleep) INTERVIEWER: ONLY INCLUDE TIME SPENT TRYING TO GET TO SLEEP
+|  |   1 Less than 1/4 hour
+|  |   2 At least 1/4 hr but less than 1 hr
+|  |   3 At least 1 hr but less than 3 hrs
+|  |   4 3 hrs or more
+|  |  
+|  END OF FILTER
+|  
+|  IF how long spent trying to get to sleep = 3 hours or more [SleepF = 4]
+|  |  
+|  |  SLEEPG
+|  |  In the past week, on how many nights did you spend 3 or more hours trying to get to sleep?
+|  |   1 4 nights or more
+|  |   2 1 to 3 nights
+|  |   3 None
+|  |  
+|  END OF FILTER
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Clinical Interview Schedule – Revised (CIS-R)
+
+68
+
+|  
+|  IF problems with trying to get to sleep = Yes AND on how many days had problems with sleep = 4 days or
+|  more, 1 to 3 days AND how long spent trying to get to sleep = At least ¼ hour, At least 1 hour, 3 hours or
+|  more [SleepA = 1 AND SleepC = 1 OR SleepC = 2 AND SleepF <> 1]
+|  |  
+|  |  SLEEPH
+|  |  Do you wake more than two hours earlier than you need to and then find you
+|  |  can't get back to sleep?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  END OF FILTER
+|  
+|  IF sleeping more than usual = Yes  [SleepB = 1]
+|  |  
+|  |  SLEEPI
+|  |  Thinking about the night you slept the longest in the past week, how much longer
+|  |  did you sleep compared with how long you normally sleep for?
+|  |   1 Less than 1/4 hour
+|  |   2 At least 1/4 hr but less than 1 hr
+|  |   3 At least 1 hr but less than 3 hrs
+|  |   4 3 hrs or more
+|  |  
+|  END OF FILTER
+|  
+|  IF how long spent trying to get to sleep = 3 hours or more [SleepI = 4]
+|  |  
+|  |  SLEEPJ
+|  |  In the past week, on how many nights did you sleep for more than 3 hours longer than you
+|  |  usually do?
+|  |   1 4 nights or more
+|  |   2 1 to 3 nights
+|  |   3 None
+|  |  
+|  END OF FILTER
+|  IF problems with trying to get to sleep = Yes AND on how many days had problems with sleep = 4 days or
+|  more, 1 to 3 days AND how long spent trying to get to sleep = At least ¼ hour, At least 1 hour, 3 hours or
+|  more [SleepA = 1 AND SleepC = 1 OR SleepC = 2 AND
+|  SleepF <> 1]
+|  |  
+|  |  SLEEPK
+|  |  How long have you had these problems with your sleep as you have described?
+|  |   1 less than 2 weeks
+|  |   2 2 weeks but less than 6 months
+|  |   3 6 months but less than 1 year
+|  |   4 1 year but less than 2 years
+|  |   5 2 years or more
+|  |  
+|  END OF FILTER
+|  
+|  SLPSUM    
+|  [GENERATED AUTOMATICALLY FROM SLEEPC, SLEEPF, SLEEPG, SLEEPI, SLEEPJ]|  
+|  
+|  IRRITA
+|  Many people become irritable or short tempered at times, though they may not show it. Have you felt
+|  irritable or short tempered with those around you in the past month?
+|   1 Yes/no more than usual
+|   2 No
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Clinical Interview Schedule – Revised (CIS-R)
+
+69
+
+|  
+|  IF irritable or short tempered in the last month = No [IrritA = 2]
+|  |  
+|  |  IRRITB
+|  |  During the past month did you get short tempered or angry over things which
+|  |  now seem trivial when you look back on them?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  END OF FILTER
+|  
+|  IF irritable or short tempered in the last month = Yes OR short tempered or angry over trivial things = Yes
+|   [IrritA = 1 OR IrritB = 1]
+|  |  
+|  |  IRRITC
+|  |  Since last [day of week], on how many days have you felt [irritable or short tempered/angry]?
+|  |   1 4 days or more
+|  |   2 1 to 3 days
+|  |   3 None
+|  |  
+|  END OF FILTER
+|  
+|  IF on how many days irritable or angry = 4 days or more, 1 to 3 days [IrritC = 1 OR IrritC = 2]
+|  |  
+|  |  IRRITE
+|  |  In total, have you felt [irritable or short tempered/angry] for more than one hour on any day in the
+|  |  past week?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  |  IRRITF
+|  |  During the past week, have you felt so [irritable or short tempered/angry] that you have wanted to
+|  |  shout at someone, even if you haven't actually shouted?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  |  IRRITG
+|  |  In the past seven days, have you had arguments, rows or quarrels or lost your temper with anyone?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  END OF FILTER
+|  
+|  IF had arguments, rows or quarrels = Yes [IrritG = 1]
+|  |  
+|  |  IRRITH
+|  |  Did this happen once or more than once in the past week?
+|  |   1 Once
+|  |   2 More than once
+|  |  
+|  END OF FILTER
+|  
+|  IF arguments, rows or quarrels more than once = Once [IrritH = 1]
+|  |  
+|  |  IRRITI
+|  |  Do you think this was justified?
+|  |   1 Yes, justified
+|  |   2 No, not justified
+|  |  
+|  END OF FILTER
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Clinical Interview Schedule – Revised (CIS-R)
+
+70
+
+|  
+|  IF arguments, rows or quarrels more than once = More than once [IrritH = 2]
+|  |  
+|  |  IRRITJ
+|  |  Do you think this was justified on every occasion?
+|  |   1 Yes
+|  |   2 No, at least one was unjustified
+|  |  
+|  END OF FILTER
+|  
+|  IF on how many days irritable or angry = 4 days or more, 1 to 3 days [IrritC = 1 OR IrritC = 2]
+|  |  
+|  |  IRRITK
+|  |  How long have you been feeling [irritable or short tempered/angry] as you have described?
+|  |   1 less than 2 weeks
+|  |   2 2 weeks but less than 6 months
+|  |   3 6 months but less than 1 year
+|  |   4 1 year but less than 2 years
+|  |   5 2 years or more
+|  |  
+|  END OF FILTER
+|  
+|  IRRITSUM    
+|  [GENERATED AUTOMATICALLY FROM IRRITC, IRRITF, IRRITG, IRRITI, IRRITJ]|  
+|  
+|  DEPA
+|  Almost everyone becomes sad, miserable or depressed at times. Have you had a spell
+|  of feeling sad, miserable or depressed in the past month?
+|   1 Yes
+|   2 No
+|  
+|  DEPB
+|  During the past month, have you been able to enjoy or take an interest in things as
+|  much as you usually do?
+|   1 Yes
+|   2 No/no enjoyment or interest
+|  
+|  IF sad, miserable or depressed in last month = Yes [DepA = 1]
+|  |  
+|  |  DEPC
+|  |  In the past week have you had a spell of feeling sad, miserable or depressed?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  END OF FILTER
+|  
+|  IF able to enjoy or take an interest = No [DepB = 2]
+|  |  
+|  |  DEPD
+|  |  In the past week have you been able to enjoy or take an interest in things as much as usual?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  END OF FILTER
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Clinical Interview Schedule – Revised (CIS-R)
+
+71
+
+|  
+|  IF sad, miserable or depressed in last week = Yes OR able to enjoy or take an interest in last week = No 
+|   [DepC = 1 OR DepD = 2]
+|  |  
+|  |  DEPE
+|  |  Since last [day of the week] on how many days have you felt [sad, miserable or depressed / unable to
+|  |  enjoy or take an interest in things]?
+|  |   1 4 days or more
+|  |   2 2 to 3 days
+|  |   3 1 day
+|  |  
+|  |  DEPF
+|  |  Have you felt [sad, miserable or depressed / unable to enjoy or take an interest in things] for more than 3
+|  |  hours in total (on any day in the past week)?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  |  DEPI
+|  |  In the past week when you felt [sad, miserable or depressed / unable to enjoy or take an interest in
+|  |  things], did you ever become happier when something nice happened, or when you were in company?
+|  |   1 Yes, at least once
+|  |   2 No
+|  |  
+|  |  DEPJ
+|  |  How long have you been feeling [sad, miserable or depressed / unable to enjoy or take an interest in
+|  |  things] as you have described?
+|  |   1 Less than 2 weeks
+|  |   2 2 weeks but less than 6 months
+|  |   3 6 months but less than 1 year
+|  |   4 1 year but less than 2 years
+|  |   5 2 years or more
+|  |  
+|  END OF FILTER
+|  
+|  DEPSUM    
+|  [GENERATED AUTOMATICALLY FROM DEPD, DEPE, DEPF, DEPI]
+|  
+|  IF DEPSUM > 0 [DEP.DEPSUM > 0]
+|  |  
+|  |  IDEASA
+|  |  I would now like to ask you about when you have been feeling [sad, miserable or depressed / unable to
+|  |  enjoy or take an interest in things]. In the past week, was this worse in the morning or in the evening,
+|  |  or did this make no difference?
+|  |   1 in the morning
+|  |   2 in the evening
+|  |   3 no difference/other
+|  |  
+|  |  IDEASB
+|  |  Many people find that feeling sad, miserable or depressed/unable to enjoy or take an interest in things
+|  |  can affect their interest in sex. Over the past month, do you think your interest in sex has ...READ OUT...
+|  |   1 increased
+|  |   2 decreased
+|  |   3 or has it stayed the same?
+|  |   4 (Spontaneous: NOT APPLICABLE)
+|  |  
+|  |  IDEASC
+|  |  When you have felt [sad, miserable or depressed / unable to enjoy or take an interest in things] in the
+|  |  past seven days ...READ OUT... have you been so restless that you couldn't sit still?
+|  |   1 Yes
+|  |   2 No
+|  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Clinical Interview Schedule – Revised (CIS-R)
+
+72
+
+|  |  
+|  |  IDEASD
+|  |  Have you been doing things more slowly, for example, walking more slowly?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  |  IDEASE
+|  |  Have you been less talkative than normal?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  |  IDEASF
+|  |  Now, thinking about the past seven days have you on at least one occasion felt guilty or blamed yourself
+|  |  when things went wrong when it hasn't been your fault?
+|  |   1 Yes, at least once
+|  |   2 No
+|  |  
+|  |  IDEASG
+|  |  During the past week, have you been feeling you are not as good as other people?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  |  IDEASH
+|  |  Have you felt hopeless at all during the past seven days, for instance about your future?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  |  SUIC1
+|  |  In the past week, have you felt that life isn't worth living?
+|  |   1 Yes
+|  |   2 (IF RESPONDENT VOLUNTEERS) Yes, but not in the past week
+|  |   3 No
+|  |  
+|  |  IF felt life isn’t worth living = Yes [SUIC1 = 1]
+|  |  |  
+|  |  |  SUIC2
+|  |  |  In the past week, have you thought of killing yourself?
+|  |  |   1 Yes
+|  |  |   2 (IF RESPONDENT VOLUNTEERS) Yes, but not in the past week
+|  |  |   3 No
+|  |  |  
+|  |  |  IF thought of suicide = Yes [SUIC2 = 1]
+|  |  |  |  
+|  |  |  |  SUIC3
+|  |  |  |  Have you talked to a doctor about these thoughts (of killing yourself)?
+|  |  |  |   1 Yes
+|  |  |  |   2 (IF RESPONDENT VOLUNTEERS) No, but has talked to other people
+|  |  |  |   3 No
+|  |  |  |  
+|  |  |  |  IF talked to a doctor = No talked to other people, No [SUIC3 = 2, 3]
+|  |  |  |  |  
+|  |  |  |  |  SUIC4
+|  |  |  |  |  (You have said that you have been thinking about committing suicide) Since this is a very serious
+|  |  |  |  |   matter, it is important that you talk to a doctor about these thoughts.
+|  |  |  |  |   PRESS '1' TO CONTINUE
+|  |  |  |  |   1 Continue
+|  |  |  |  |  
+|  |  |  |  END OF FILTER
+|  |  |  |  
+|  |  |  END OF FILTER
+|  |  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Clinical Interview Schedule – Revised (CIS-R)
+
+73
+
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+|  IDEASUM    
+|  [GENERATED AUTOMATICALLY FROM IDEASF, IDEASG, IDEASH]
+|  
+|  ANXA
+|  Have you been feeling anxious or nervous in the past month?
+|   1 Yes, anxious or nervous
+|   2 No
+|  
+|  IF anxious or nervous in past month = No [AnxA = 2]
+|  |  
+|  |  ANXB
+|  |  In the past month, did you ever find your muscles felt tense or that you couldn't relax?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  END OF FILTER
+|  
+|  ANXC
+|  Some people have phobias; they get nervous or uncomfortable about specific things or situations when
+|  there is no real danger. For instance they may get nervous when speaking or eating in front of strangers,
+|  when they are far from home or in crowded rooms, or they may have a fear of heights. Others become
+|  nervous at the sight of things like blood or spiders. In the past month have you felt anxious,
+|  nervous or tense about any specific things or situations when there was no real danger?
+|   1 Yes
+|   2 No
+|  
+|  IF anxious or nervous in past month = Yes OR muscles tense or couldn’t relax = Yes AND nervous when
+|  no real danger = Yes  [AnxA = 1 OR AnxB = 1 AND AnxC = 1]
+|  |  
+|  |  ANXD
+|  |  In the past month, when you [felt anxious or nervous/tense], was this always brought on by the phobia
+|  |  about some specific situation or thing or did you sometimes feel generally anxious/nervous/tense?
+|  |   1 Always brought on by phobia
+|  |   2 Sometimes felt generally anxious
+|  |  
+|  END OF FILTER
+|  
+|  IF anxious or nervous in past month = Yes OR muscles tense or couldn’t relax = Yes AND nervous when
+|  no real danger = No OR feelings brought on by specific situation = Sometimes generally anxious 
+|   [AnxA = 1 OR AnxB = 1 AND AnxC = 2 OR AnxD = 2]
+|  |  
+|  |  ANXE
+|  |  The next questions are concerned with general anxiety/nervousness/tension only. [I will ask you about
+|  |  the anxiety which is brought on by the phobia about specific things or situations later] On how many of
+|  |  the past seven days have you felt generally anxious/nervous/tense?
+|  |   1 4 days or more
+|  |   2 1 to 3 days
+|  |   3 None
+|  |  
+|  END OF FILTER
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Clinical Interview Schedule – Revised (CIS-R)
+
+74
+
+|  
+|  IF on how many days anxious, nervous, tense = 4 days or more, 1 to 3 days [AnxE = 1 OR AnxE = 2]
+|  |  
+|  |  ANXF
+|  |  In the past week, has your anxiety/nervousness/tension been ...READ OUT...
+|  |   1 very unpleasant
+|  |   2 a little unpleasant
+|  |   3 or not unpleasant?
+|  |  
+|  |  ANXG
+|  |  SHOW CARD Q
+|  |   In the past week, when you've been anxious/nervous/tense, have you had any of
+|  |  the symptoms shown on this card? CODE ALL THAT APPLY
+|  |   1 Heart racing or pounding
+|  |   2 Hands sweating or shaking
+|  |   3 Feeling dizzy
+|  |   4 Difficulty getting your breath
+|  |   5 Butterflies in stomach
+|  |   6 Dry mouth
+|  |   7 Nausea or feeling as though you wanted to vomit
+|  |   96 None of these
+|  |  [Multiple responses to ANXG are recorded in variables ANXG1 to ANXG7]
+|  |  
+|  Check 71  
+|  |  
+|  |  ANXH
+|  |  Have you felt anxious/nervous/tense for more than 3 hours in total on any one of the past seven days?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  |  ANXI
+|  |  How long have you had these feelings of general anxiety/nervousness/tension as you described?
+|  |   1 less than 2 weeks
+|  |   2 2 weeks but less than 6 months
+|  |   3 6 months but less than 1 year
+|  |   4 1 year but less than 2 years
+|  |   5 2 years or more
+|  |  
+|  END OF FILTER
+|  
+|  ANXSUM    
+|  [GENERATED AUTOMATICALLY FROM ANXE, ANXF, ANXG, ANXH]
+|  
+|  IF nervous when no real danger = No [ANX.AnxC = No]
+|  |  
+|  |  PHOBA
+|  |  Sometimes people avoid a specific situation or thing because they have a phobia about it.
+|  |  For instance, some people avoid eating in public or avoid going to busy places because it would make
+|  |  them feel nervous or anxious. In the past month have you avoided any situation or thing because,
+|  |  it would have made you feel nervous or anxious, even though there was no real danger?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  END OF FILTER
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Clinical Interview Schedule – Revised (CIS-R)
+
+75
+
+|  
+|  IF nervous when no real danger = Yes [ANX.AnxC = Yes]
+|  |  
+|  |  PHOBB
+|  |  SHOW CARD R
+|  |  Can you look at this card and tell me which of the situations or things listed made you the most
+|  |  anxious/nervous/tense in the past month? INTERVIEWER: CODE ONE ONLY
+|  |   1 Crowds or public places, including travelling alone or being far from home
+|  |   2 Enclosed spaces
+|  |   3 Social situations, including eating or speaking in public, being watched or stared at
+|  |   4 The sight of blood or injury
+|  |   5 Any specific single cause including insects, spiders and heights
+|  |   97 Other (specify)
+|  |  
+|  |  IF situations or things that made cohort member most nervous = Other [PhobB = 97]
+|  |  |  
+|  |  |  PHOBDESC
+|  |  |  What other situations or things?
+|  |  |  String100
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+|  IF avoid a specific situation or thing = Yes [PhobA = 1]
+|  |  
+|  |  PHOBC
+|  |  SHOW CARD R
+|  |  Can you look at this card and tell me which of the situations or things did you avoid the most in the past
+|  |  month? INTERVIEWER: CODE ONE ONLY
+|  |   1 Crowds or public places, including travelling alone or being far from home
+|  |   2 Enclosed spaces
+|  |   3 Social situations, including eating or speaking in public, being watched or stared at
+|  |   4 The sight of blood or injury
+|  |   5 Any specific single cause including insects, spiders and heights
+|  |   97 Other (specify)
+|  |  
+|  |  IF which situation or things avoided = Other [PhobC = 97]
+|  |  |  
+|  |  |  PHOBCDESC
+|  |  |  Please specify other
+|  |  |  String100
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+|  IF nervous when no real danger = Yes [ANX.AnxC = Yes]
+|  |  
+|  |  PHOBD
+|  |  In the past seven days, how many times have you felt nervous or anxious about this situation
+|  |  or thing?
+|  |   1 4 times or more
+|  |   2 1 to 3 times
+|  |   3 None
+|  |  
+|  END OF FILTER
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Clinical Interview Schedule – Revised (CIS-R)
+
+76
+
+|  
+|  IF on how many days nervous or anxious about situation or thing = 4 days or more, 1 to 3 days 
+|   [PhobD = 1 OR PhobD = 2]
+|  |  
+|  |  PHOBE
+|  |  SHOW CARD Q
+|  |  In the past week, on those occasions when you felt anxious/nervous tense did you have
+|  |  any of the symptoms on this card?  INTERVIEWER: CODE ALL THAT APPLY
+|  |   1 Heart racing or pounding
+|  |   2 Hands sweating or shaking
+|  |   3 Feeling dizzy
+|  |   4 Difficulty getting your breath
+|  |   5 Butterflies in stomach
+|  |   6 Dry mouth
+|  |   7 Nausea or feeling as though you wanted to vomit
+|  |   96 None of these
+|  |  [Multiple responses to PHOBE are recorded in variables PHOBE1 to PHOBE7]
+|  |  
+|  Check 72  
+|  |  
+|  END OF FILTER
+|  
+|  IF nervous when no real danger = Yes [ANX.AnxC = Yes]
+|  |  
+|  |  PHOBF
+|  |  In the past week, have you avoided any situation or thing because it would have made you
+|  |  feel anxious/nervous/tense even though there was no real danger?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  END OF FILTER
+|  
+|  IF avoided situation or thing in past week = Yes [PhobF = 1]
+|  |  
+|  |  PHOBG
+|  |  How many times have you avoided such situations or things in the past seven days?
+|  |   1 1 to 3 times
+|  |   2 4 times or more
+|  |   3 None
+|  |  
+|  END OF FILTER
+|  
+|  IF on how many days nervous or anxious about situation or thing = 4 days or more, 1 to 3 days OR
+|  how many times avoided situation or thing = 1 to 3 times, 4 times or more [PhobD = 2 OR PhobD = 1 OR
+|  PhobG = 1 OR PhobG = 2]
+|  |  
+|  |  PHOBH
+|  |  How long have you been having these feelings about these situations/things as you have just described?
+|  |   1 less than 2 weeks
+|  |   2 2 weeks but less than 6 months
+|  |   3 6 months but less than 1 year
+|  |   4 1 year but less than 2 years
+|  |   5 2 years or more
+|  |  
+|  END OF FILTER
+|  
+|  PHOBSUM    
+|  [GENERATED AUTOMATICALLY FROM PHOBD, PHOBE, PHOBG]
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Clinical Interview Schedule – Revised (CIS-R)
+
+77
+
+|  
+|  IF anxious or nervous in past month = Yes OR muscles tense or couldn’t relax = Yes OR nervous when
+|  no real danger = Yes [ANX.AnxA = YES OR ANX.AnxB = Yes OR ANX.AnxC = Yes]
+|  |  
+|  |  PANICA
+|  |  Thinking about the past month, did your anxiety or tension ever get so bad that you got in a panic,
+|  |  for instance make you feel that you might collapse or lose control unless you did something about it?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  |  IF got in a panic = Yes [PanicA = 1]
+|  |  |  
+|  |  |  PANICB
+|  |  |  How often has this happened in the past week?
+|  |  |   1 Once
+|  |  |   2 More than once
+|  |  |   3 Not at all
+|  |  |  
+|  |  |  IF how often got in a panic = Once, More than once  [PanicB = 1 OR PanicB = 2]
+|  |  |  |  
+|  |  |  |  PANICC
+|  |  |  |  In the past week, have these feelings of panic been ...READ OUT...
+|  |  |  |   1 ... a little uncomfortable or unpleasant,
+|  |  |  |   2 or have they been very unpleasant or unbearable?
+|  |  |  |  
+|  |  |  |  PANICD
+|  |  |  |  Did [this panic/the worst of these panics] last for longer than 10 minutes?
+|  |  |  |   1 Yes
+|  |  |  |   2 No
+|  |  |  |  
+|  |  |  |  PANICE
+|  |  |  |  Are you relatively free of anxiety between these panics?
+|  |  |  |   1 Yes
+|  |  |  |   2 No
+|  |  |  |  
+|  |  |  END OF FILTER
+|  |  |  
+|  |  |  PANICF
+|  |  |  Is this panic always brought on by the same situation/thing ?
+|  |  |   1 Yes
+|  |  |   2 No
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  |  IF how often got in a panic = Once, More than once [PanicB = 1 OR PanicB = 2]
+|  |  |  
+|  |  |  PANICG
+|  |  |  How long have you been having these feelings of panic as you have described?
+|  |  |   1 less than 2 weeks
+|  |  |   2 2 weeks but less than 6 months
+|  |  |   3 6 months but less than 1 year
+|  |  |   4 1 year but less than 2 years
+|  |  |   5 2 years or more
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Clinical Interview Schedule – Revised (CIS-R)
+
+78
+
+|  
+|  PANSUM    
+|  [GENERATED AUTOMATICALLY FROM PANB, PANC, PAND]
+|  
+|  TOTSUM    
+|  [GENERATED AUTOMATICALLY FROM FATSUM, FORGSUM, SLPSUM, IRRITSUM, DEPSUM,
+|  IDEASUM, ANXSUM, PHOBSUM, PANSUM]
+|  
+|  IF CISR.OVER.TotSum >= 2 [TotSum >= 2]
+|  |  
+|  |  OVERALLA
+|  |  Now I would like to ask you how all of these things that you have told me about have affected you
+|  |  overall. In the past week, has the way you have been feeling ever actually stopped you from getting on
+|  |  with things you used to do or would like to do?
+|  |   1 Yes
+|  |   2 No
+|  |  
+|  |  IF stopped from getting on with things = Yes [OverallA = 1]
+|  |  |  
+|  |  |  OVERALLB
+|  |  |  In the past week, has the way you have been feeling stopped you doing things once or more than
+|  |  |  once?
+|  |  |   1 Once
+|  |  |   2 More than once
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  |  IF stopped from getting on with things = No [OverallA = 2]
+|  |  |  
+|  |  |  OVERALLC
+|  |  |  Has the way you have been feeling made things more difficult even though you have got everything
+|  |  |  done?
+|  |  |   1 Yes
+|  |  |   2 No
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  END OF FILTER
+|  
+END OF FILTER
+
+End of Clinical Interview Schedule – Revised (CIS-R)
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Saliva collection
+
+79
+
+Saliva collection
+
+SALINTRO
+Finally, we need to collect a couple of samples of your saliva. Saliva contains a substance called cortisol,
+which is a measure of stress. Because cortisol levels vary during the day, we need to take samples at
+specific times. Would you be willing to take samples of your saliva during the next couple of days. It won't
+take very much time. We will give you an envelope to post the samples to us.
+1 Yes
+2 No
+
+IF willing to take samples of saliva = Yes [SalIntro = 1]
+|  
+|  SALCONS
+|  COMPLETE FIRST PART OF CONSENT FORM 3 - SALIVA SAMPLE. ASK COHORT MEMBER TO
+|  SIGN AND DATE THE FORM. ENTER '1' TO CONTINUE
+|   1 Continue
+|  
+|  SALTUBE
+|  SHOW COHORT MEMBER THE 'SALIVETTE' TUBES. EXPLAIN THE PROCEDURE: SWAB IN
+|  TUBE, LEAVE PLASTIC ON SWAB, PUT IN MOUTH AND CHEW UNTIL SOAKED (USUALLY ABOUT
+|  1 MINUTE), RETURN SWAB TO TUBE, PUT CAP BACK ON.  CODE '1' TO CONTINUE
+|   1 Continue
+|  
+|  SALHOW
+|  SHOW RESPONDENT RED AND BLUE DOTS ON CAPS. RED DOT FOR FIRST SAMPLE
+|  - 45 MINUTES AFTER WAKING UP (BEFORE BREAKFAST). IMPORTANT, DON'T CLEAN TEETH,
+|  EAT OR DRINK ANYTHING FIRST, ESPECIALLY NO FRUIT OR FRUIT JUICES. BLUE DOT FOR 
+|  SECOND SAMPLE - 3 HOURS AFTER FIRST SAMPLE. IMPORTANT, DON'T EAT OR DRINK IN 
+|  THE 15 MINUTES BEFORE SAMPLE (EG BEFORE LUNCH). CODE '1' TO CONTINUE
+|   1 Continue
+|  
+|  SALSEND
+|  GIVE COHORT MEMBER INSTRUCTION LEAFLET, RETURN FORM AND ENVELOPE.
+|  ATTACH ONE BARCODE LABEL ON BACK OF FORM AND ONE ON EACH SALIVETTE.
+|  EXPLAIN THE TWO SAMPLES TO BE TAKEN ON THE  SAME DAY. WHAT TO DO IF SECOND 
+|  SAMPLE MISSED OR TUBES LOST - PHONE FOR REPLACEMENTS, NUMBER ON LEAFLET.
+|  COHORT MEMBER SHOULD WRITE TIME AND DATE OF COLLECTION ON FORM. TUBES AND
+|  FORM IN ENVELOPE, POST. NO NEED FOR A STAMP. CODE '1' TO CONTINUE
+|   1 Continue
+|  
+END OF FILTER
+
+End of Saliva collection module
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Final consents and end of interview
+
+80
+
+Final consents and end of interview
+
+NEARVOC
+[GENERATED AUTOMATICALLY]
+Near vision outcome.
+1  Obtained
+2  Attempted, not obtained
+3  Not attempted
+4  Refused
+
+DISTROC
+[GENERATED AUTOMATICALLY]
+Distance vision outcome: right eye not visually impaired.
+1  Obtained
+2  Attempted, not obtained
+3  Not attempted
+4  Refused
+
+DISTLOC
+[GENERATED AUTOMATICALLY]
+Distance vision outcome: left eye not visually impaired.
+1  Obtained
+2  Attempted, not obtained
+3  Not attempted
+4  Refused
+
+DIMPROC
+[GENERATED AUTOMATICALLY]
+Distance vision outcome: right eye visually impaired.
+1  Obtained
+2  Attempted, not obtained
+3  Not attempted
+4  Refused
+
+DIMPLOC
+[GENERATED AUTOMATICALLY]
+Distance vision outcome: left eye visually impaired.
+1  Obtained
+2  Attempted, not obtained
+3  Not attempted
+4  Refused
+
+PINROC
+[GENERATED AUTOMATICALLY]
+Distance vision outcome: right eye pinhole.
+1  Obtained
+2  Attempted, not obtained
+3  Not attempted
+4  Refused
+
+PINLOC
+[GENERATED AUTOMATICALLY]
+Distance vision outcome: left eye pinhole.
+1  Obtained
+2  Attempted, not obtained
+3  Not attempted
+4  Refused
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Final consents and end of interview
+
+81
+
+BPOC
+[GENERATED AUTOMATICALLY]
+Blood pressure outcome.
+1  Obtained
+2  Attempted, not obtained
+3  Not attempted
+4  Refused
+5  Not applicable (pregnant)
+
+AUDOC
+[GENERATED AUTOMATICALLY]
+Hearing threshold outcome.
+1  All hearing measurements completed
+2  Some hearing measurements completed
+3  Hearing attempted, not obtained
+4  Hearing not attempted
+
+HTOC
+[GENERATED AUTOMATICALLY]
+Height outcome.
+1  Height measured
+2  Height refused
+3  Height attempted, not obtained
+4  Height not attempted
+5  Height not measured (estimated)
+
+SITOC
+[GENERATED AUTOMATICALLY]
+Sitting height outcome.
+1  Sitting height measured
+2  Sitting height refused
+3  Sitting height attempted, not obtained
+4  Sitting height not attempted
+
+WTOC
+[GENERATED AUTOMATICALLY]
+Height outcome.
+1  Weight measured
+2  Weight refused
+3  Weight attempted, not obtained
+4  Weight not attempted
+5  Weight not measured (estimated)
+
+WHOC
+[GENERATED AUTOMATICALLY]
+Waist Hip outcome.
+1 Both measurements obtained
+2 Only one measurement obtained
+3  Attempted, not obtained
+4  Not attempted
+5  Refused
+6  Not applicable
+
+LFOC
+[GENERATED AUTOMATICALLY]
+Lung function outcome.
+1 At least one technically satisfactory blow
+2  Attempted, not obtained
+3  Not attempted
+4  Refused
+5  Not applicable
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Final consents and end of interview
+
+82
+
+REFOC
+[GENERATED AUTOMATICALLY]
+Autorefractor outcome.
+1  All measurements completed
+2  Some measurements completed, not all
+3  Eye measures refused
+4  Eye measures not attempted
+
+BSOC
+[GENERATED AUTOMATICALLY]
+Blood sample outcome.
+1  Taken (at least a tube)
+2  Agreed, not obtained
+3  Refused
+4  Not applicable (pregnant/Warfarin/epilepsy)
+5  Not attempted
+
+SSOC
+[GENERATED AUTOMATICALLY]
+Saliva sample outcome.
+1  Willing to take
+2  Not willing to take saliva
+3  Not attempted
+4  Refused
+
+GPREG
+Can I check, are you registered with a GP?
+1 Yes
+2 No
+
+IF registered with GP = Yes [GPReg = 1]
+|  
+|  IF any measures of vision obtained [DISTROC = 1 OR DISTLOC = 1 OR DIMPROC = 1 OR
+|  DIMPLOC = 1]
+|  |  
+|  |  GPVIS
+|  |  We would like your permission to feed back some of your measurement and test results to your GP.
+|  |  May we send your GP your…vision tests? - COMPLETE CONSENT FORM 3 - CONSENT TO SEND
+|  |  RESULTS TO GP IN BOTH THE CONSENT BOOKLET AND THE COHORT MEMBER COPY.
+|  |   1 Yes
+|  |   2 No
+|  |  [Don't Know and Refusal are not allowed]
+|  |  
+|  END OF FILTER
+|  
+|  IF blood pressure measurements obtained [BPOC = 1]
+|  |  
+|  |  GPBP
+|  |  (We would like your permission to feed back some of your measurement and test results to your GP.)
+|  |  May we send your GP your…Blood pressure and resting pulse rates? - COMPLETE CONSENT FORM 3
+|  |  - CONSENT TO SEND RESULTS TO GP IN BOTH THE CONSENT BOOKLET AND THE COHORT
+|  |  MEMBER COPY.
+|  |   1 Yes
+|  |   2 No
+|  |  [Don't Know and Refusal are not allowed]
+|  |  
+|  END OF FILTER
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Final consents and end of interview
+
+83
+
+|
+|  IF any tests of hearing completed [AUDOC = 1, 2]
+|  |  
+|  |  GPHEAR
+|  |  (We would like your permission to feed back some of your measurement and test results to your GP.)
+|  |  May we send your GP your…Hearing test results? - COMPLETE CONSENT FORM 3 - CONSENT TO
+|  |  SEND RESULTS TO GP IN BOTH THE CONSENT BOOKLET AND THE COHORT MEMBER COPY.
+|  |   1 Yes
+|  |   2 No
+|  |  [Don't Know and Refusal are not allowed]
+|  |  
+|  END OF FILTER
+|  
+|  IF any measures of height, sitting height or weight obtained [HTOC = 1 OR SitOC = 1 OR
+|  WTOC = 1]
+|  |  
+|  |  GPHTWT
+|  |  (We would like your permission to feed back some of your measurement and test results to your GP.)
+|  |  May we send your GP your…Height and weight results? - COMPLETE CONSENT FORM 3 - CONSENT
+|  |  TO SEND RESULTS TO GP IN BOTH THE CONSENT BOOKLET AND THE COHORT MEMBER
+|  |  COPY.
+|  |   1 Yes
+|  |   2 No
+|  |  [Don't Know and Refusal are not allowed]
+|  |  
+|  END OF FILTER
+|  
+|  IF measures of waist or hip obtained [WHOC = 1, 2]
+|  |  
+|  |  GPWH
+|  |  (We would like your permission to feed back some of your measurement and test results to your GP.)
+|  |  May we send your GP your…Hip and waist results - COMPLETE CONSENT FORM 3 - CONSENT TO
+|  |  SEND RESULTS TO GP IN BOTH THE CONSENT BOOKLET AND THE COHORT MEMBER COPY.
+|  |   1 Yes
+|  |   2 No
+|  |  [Don't Know and Refusal are not allowed]
+|  |  
+|  END OF FILTER
+|  
+|  IF measures of lung function obtained [LFOC = 1]
+|  |  
+|  |  GPLF
+|  |  (We would like your permission to feed back some of your measurement and test results to your GP.)
+|  |  May we send your GP your…Lung function test results? - COMPLETE CONSENT FORM 3 - CONSENT
+|  |  TO SEND RESULTS TO GP IN BOTH THE CONSENT BOOKLET AND THE COHORT MEMBER
+|  |  COPY.
+|  |   1 Yes
+|  |   2 No
+|  |  [Don't Know and Refusal are not allowed]
+|  |  
+|  END OF FILTER
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Final consents and end of interview
+
+84
+
+|  
+|  IF any blood samples taken [BSOC = 1]
+|  |  
+|  |  GPBL
+|  |  (We would like your permission to feed back some of your measurement and test results to your GP.)
+|  |  May we send your GP your…Blood test results for blood cholesterol and glycosylated haemoglobin? -
+|  |  COMPLETE CONSENT FORM 3 - CONSENT TO SEND RESULTS TO GP IN BOTH THE CONSENT
+|  |  BOOKLET AND THE COHORT MEMBER COPY.
+|  |   1 Yes
+|  |   2 No
+|  |  [Don't Know and Refusal are not allowed]
+|  |  
+|  END OF FILTER
+|  
+END OF FILTER
+
+IF any blood samples taken [BSOC = 1]
+|  
+|  RESPRES
+|  Would you like to be sent the results of your blood sample analysis?
+|   1 Yes
+|   2 No
+|  
+END OF FILTER
+
+CONCODES
+NURSE CIRCLE CODES ON FRONT OF CONSENT BOOKLET. [FOR EACH CONSENT, SCREEN
+SHOWS WHICH CODE TO CIRCLE] IF ANY RESULTS TO GO TO GP WRITE DOWN GP'S NAME
+ADDRESS AND TELEPHONE NUMBER ON CONSENT BOOKLET, CHECK THE NAME BY WHICH GP
+KNOWS CM, AND CODE QUESTION 7.
+1 PRESS 1 TO CONTINUE
+
+ARCHOK
+Finally, there are two more things for which I need to seek your consent. READ OUT
+CONSENT 4a AND ASK CM TO SIGN AND DATE
+1 Consent given
+2 Consent not given
+
+NHSOK
+READ OUT CONSENT 4b AND ASK CM TO SIGN AND DATE
+1 Consent given
+2 Consent not given
+
+SCOMP1
+COLLECT LILAC SELF COMPLETION BOOKLET.
+1 Complete/obtained
+2 Not completed/obtained
+[Don't Know and Refusal are not allowed]
+
+SCOMP2
+NURSE: COLLECT YELLOW SELF-COMPLETION BOOKLET (SENT OUT BY OFFICE) AND CODE.
+GIVE ENVELOPE IF CM IS POSTING BOOKLET BACK TO OFFICE
+1 Booklet completed and returned by nurse
+2 Booklet left behind, CM will post
+3 CM already returned booklet (NURSE: NOTE WHERE SENT ON ARF)
+4 Refused
+[Don't Know and Refusal are not allowed]
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Final consents and end of interview
+
+85
+
+THANK
+NURSE: THANK THE COHORT MEMBER FOR THEIR CO-OPERATION THEN PRESS
+<1> AND <ENTER> TO FINISH
+Range: 1..1
+[Don't Know and Refusal are not allowed]
+
+End of Final consents and end of interview module
+
+END OF INTERVIEW
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Vision checks
+
+86
+
+CHECKS
+
+In near and distance vision module:
+
+Checks 1 and 2
+After NVWEAR
+
+|  
+|  IF [NVWear = 2…9]
+|  |  
+|  |  CHECK: [NOT VisAids = No ENG]
+|  |  |  
+|  |  |  CM CODED AS NOT WEARING GLASSES, CONTACT LENSES OR OTHER VISUAL AIDS
+|  |  |  AT <VISAIDS>.PLEASE CHECK.
+|  |  |  
+|  |  END CHECK
+|  |  
+|  END OF FILTER
+|  
+|  IF [NVWear = 1]
+|  |  
+|  |  CHECK: [VisAids = Yes INVOLVING NVWear ENG]
+|  |  |  
+|  |  |  <VISAIDS> CODED AS 'YES'. PLEASE AMEND YOUR CODING
+|  |  |  
+|  |  END CHECK
+|  |  
+|  END OF FILTER
+|  
+
+Checks 3 to 6
+After VSTEREO
+
+|  
+|  IF [VStereo.CARDINAL > 1]
+|  |  
+|  |  CHECK: [NOT None = VStereo ENG]
+|  |  |  
+|  |  |  NO IMAGE IS AN EXCLUSIVE CODE. PLEASE RE-ENTER
+|  |  |  
+|  |  END CHECK
+|  |  
+|  END OF FILTER
+|  
+|  IF [VStereo.CARDINAL > 1]
+|  |  
+|  |  CHECK: [NOT VisImpA = VStereo ENG]
+|  |  |  
+|  |  |  VISUALLY IMPARED IS AN EXCLUSIVE CODE. PLEASE RE-ENTER
+|  |  |  
+|  |  END CHECK
+|  |  
+|  END OF FILTER
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Vision checks
+
+87
+
+|  
+|  IF [NUM <= 2]
+|  |  
+|  |  CHECK: [NOT NotCar = VStereo ENG]
+|  |  |  
+|  |  |  'FOURTH IMAGE SEEN BUT NOT IDENTIFIED' IS NOT A VALID CODE.
+|  |  |  PLEASE CHECK CODING
+|  |  |  
+|  |  END CHECK
+|  |  
+|  END OF FILTER
+|  
+|  IF [Star = VStereo AND 2 = VStereo AND 3 = VStereo AND 4 = VStereo]
+|  |  
+|  |  CHECK: [NOT NotCar = VStereo ENG]
+|  |  |  
+|  |  |  FOURTH IMAGE HAS BEEN IDENTIFIED. PLEASE CHECK CODING
+|  |  |  
+|  |  END CHECK
+|  |  
+|  END OF FILTER
+|  
+
+Checks 7 and 8
+After DVWEAR
+
+|  
+|  IF [DVWear = 2 , 3, 4, 5]
+|  |  
+|  |  CHECK: [NOT VisAids = No INVOLVING DVWear ENG]
+|  |  |  
+|  |  |  CM CODED AS NOT WEARING GLASSES, CONTACT LENSES OR OTHER
+|  |  |  VISUAL AIDS AT <VISAIDS>.PLEASE CHECK.
+|  |  |  
+|  |  END CHECK
+|  |  
+|  END OF FILTER
+|  
+|  IF [DVWear = 1]
+|  |  
+|  |  CHECK: [VisAids <> Yes INVOLVING DVWear ENG]
+|  |  |  
+|  |  |  <VISAIDS> CODED AS 'YES'. PLEASE AMEND YOUR CODING
+|  |  |  
+|  |  END CHECK
+|  |  
+|  END OF FILTER
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Blood pressure module checks
+
+88
+
+In blood pressure module:
+
+Check 9 
+After CONSUBX
+
+|  
+|  IF [None = ConSubX]
+|  |  
+|  |  CHECK: [ConSubX.CARDINAL = 1 ENG]
+|  |  |  
+|  |  |  ConSubX: 'Neither' is an exclusive answer.
+|  |  |  
+|  |  END CHECK
+|  |  
+|  END OF FILTER
+|  
+
+Check 10 
+After AIRTEMP
+
+|  
+|  IF [AirTemp = RESPONSE]
+|  |  
+|  |  CHECK: [AirTemp <= 25 AND AirTemp >= 15]
+|  |  |  
+|  |  |  Please check. It is very unusual for the room temperature to be more than 25
+|  |  |  centigrades or less than 15 centigrades.
+|  |  |    
+|  |  END CHECK
+|  |    
+|  END OF FILTER
+|  
+
+Check 11 
+After SYS
+
+|  |  
+|  |  CHECK: [Sys = 51…299, 999 OR Sys <> RESPONSE ENG]
+|  |  |  
+|  |  |  Systolic reading should be between 51 and 299 or 999.
+|  |  |    
+|  |  END CHECK
+|  |    
+
+Checks 12 and 13 
+After DIAS
+
+|  |  
+|  |  CHECK: [Dias >= 31 OR Dias <> RESPONSE ENG]
+|  |  |  
+|  |  |  Diastolic reading should be more than 31.
+|  |  |  
+|  |  END CHECK
+|  |  
+|  |  CHECK: [Dias <= 199 OR Dias = ENG]
+|  |  |  
+|  |  |  Diastolic reading should be less than 200 or 999.
+|  |  |  
+|  |  END CHECK
+|  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Blood pressure module checks
+
+89
+
+Checks 14 to 23 
+After PULSE
+
+|  |  
+|  |  CHECK: [Pulse >= 30 OR Pulse <> RESPONSE ENG]
+|  |  |  
+|  |  |  Pulse reading should be more than 29.
+|  |  |  
+|  |  END CHECK
+|  |  
+|  |  CHECK: [Pulse = 30…160, 999 OR Pulse <> RESPONSE ENG]
+|  |  |  
+|  |  |  Pulse reading should be between 30 and 160 or 999.
+|  |  |  
+|  |  END CHECK
+|  |  
+|  |    
+|  |  CHECK: [Pulse > 48 OR Pulse <> RESPONSE ENG]
+|  |  |    
+|  |  |  This pulse reading is rather low. Please double check.
+|  |  |   
+|  |  END CHECK
+|  |    
+|  |  CHECK: [Pulse = 1…110, 999 OR Pulse <> RESPONSE ENG]
+|  |  |    
+|  |  |  This pulse reading is rather high. Please double check.
+|  |  |    
+|  |  END CHECK
+|  |   
+|  |  CHECK: [Sys >= 90 OR Sys <> RESPONSE ENG]
+|  |  |   
+|  |  |  This systolic reading is rather low. Please double check.
+|  |  |      
+|  |  END CHECK
+|  |   
+|  |  CHECK: [Sys <= 250 OR Sys = ENG]
+|  |  |    
+|  |  |  This systolic reading is rather high. Please double check.
+|  |  |   
+|  |  END CHECK
+|  |  
+|  |  CHECK: [Dias >= 60 OR Dias <> RESPONSE ENG]
+|  |  |   
+|  |  |  This diastolic reading is rather low. Please double check.
+|  |  |  
+|  |  END CHECK
+|  |  
+|  |  CHECK: [Dias <= 130 OR Dias = ENG]
+|  |  |  
+|  |  |  This diastolic reading is rather high. Please double check.
+|  |  |  
+|  |  END CHECK
+|  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Blood pressure module checks
+
+90
+
+|  |   
+|  |  IF [BPReadI  -1.Sys < 844 AND BPReadI - 1.Dias < 844]
+|  |  |  
+|  |  |  CHECK: [ABS BPRead.Sys - BPReadI - 1.Sys < 40 ENG]
+|  |  |  
+|  |  |  The difference between the two systolic readings is equal to or more
+|  |  |  than 40mmHg.Please check you have entered the readings correctly.
+|  |  |  
+|  |  |  END CHECK
+|  |  |  
+|  |  |  CHECK: [ABS BPRead.Dias - BPReadI - 1.Dias < 30 ENG]
+|  |  |  |  
+|  |  |  |  The difference between the two diastolic readings is equal to or more
+|  |  |  |  than 30mmHg.Please check you have entered the readings correctly.
+|  |  |  |  
+|  |  |  END CHECK
+|  |  |  
+|  |  END OF FILTER
+|  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Height and sitting height module checks
+
+91
+
+In hearing module:
+
+Checks 24 and 25 
+After AUDEARA
+
+|  |  |   
+|  |  |  IF [AudEarA <>  EMPTY]
+|  |  |  |  
+|  |  |  |  CHECK: [NOT AudEarA = 101…998 ENG]
+|  |  |  |  |  
+|  |  |  |  |  INVALID RANGE. PLEASE RE-ENTER
+|  |  |  |  |  
+|  |  |  |  END CHECK
+|  |  |  |  
+|  |  |  |  CHECK: [AudEarA = -10, -5, 0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90,
+|  |  |  |  95, 100, 999 ENG]
+|  |  |  |  |  
+|  |  |  |  |  INVALID VALUE. VALUE MUST BE A MULTIPLE OF 5. PLEASE RE- ENTER
+|  |  |  |  |  
+|  |  |  |  END CHECK
+|  |  |  |   
+|  |  |  END OF FILTER
+|  |  |    
+
+Checks 26 and 27
+After AUDEARC
+
+|  |  |    
+|  |  |  IF [AudEarC <> EMPTY]
+|  |  |  |    
+|  |  |  |  CHECK: [NOT AudEarC = 101…998 ENG]
+|  |  |  |  |    
+|  |  |  |  |  INVALID RANGE. PLEASE RE-ENTER
+|  |  |  |  |   
+|  |  |  |  END CHECK
+|  |  |  |    
+|  |  |  |  CHECK: [AudEarC = -10, -5, 0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90,
+|  |  |  |  95, 100, 999 ENG]
+|  |  |  |  |  
+|  |  |  |  |  INVALID VALUE. VALUE MUST BE A MULTIPLE OF 5. PLEASE RE- ENTER
+|  |  |  |  |  
+|  |  |  |  END CHECK
+|  |  |  |  
+|  |  |  END OF FILTER
+|  |  |    
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Height and sitting height module checks
+
+92
+
+In height and sitting height module:
+
+Check 28 
+After NOTWILHT
+
+|  
+|  IF [NOTWILHT <> EMPTY]
+|  |  
+|  |  CHECK: [NOTWILHT <> Known ENG]
+|  |  |  
+|  |  |  NURSE: PLEASE ENCOURAGE COHORT MEMBER TO HAVE HEIGHT MEASURED:
+|  |  |  Even when you are an adult your height changes over time and
+|  |  |  we want to see if this is important for your health.
+|  |  |  
+|  |  END CHECK
+|  |  
+|  END OF FILTER
+|  
+
+Checks 29 and 30 
+After HEIGHT
+
+|  |     
+|  |  HTLOW    
+|  |   [GENERATED AUTOMATICALLY]
+|  |  Men: HTLOW=(-0.132 * Age + 165)
+|  |  Women: HTLOW=(-0.158 * Age + 155.5)
+|  |    
+|  |  HTHIGH    
+|  |   [GENERATED AUTOMATICALLY]
+|  |  Men: HTHIGH=(-0.118 * Age + 193)
+|  |  Women: HTHIGH=(-0.132 * Age + 179.1)
+|  |     
+
+|  |     
+|  |  IF [Height = RESPONSE]
+|  |  |  
+|  |  |  CHECK: [FRAC Height <> 0]
+|  |  |  |  
+|  |  |  |  Please record height with one decimal digit, using the full stop as decimal point.
+|  |  |  |  If the decimal is zero, suppress this warning and continue.
+|  |  |  |  
+|  |  |  END CHECK
+|  |  |  
+|  |  |  CHECK: [Height >= HtLow AND Height <= HtHigh]
+|  |  |  |  
+|  |  |  |  This person's height is [height in feet and inches]. Is this correct? If correct, suppress this warning.
+|  |  |  |  
+|  |  |  END CHECK
+|  |  |  
+|  |  END OF FILTER
+|  |     
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Height and sitting height module checks
+
+93
+
+Check 31 
+After RESNIHT
+
+|  |  
+|  |  IF [ResNHi <> EMPTY]
+|  |  |  
+|  |  |  CHECK: [ResNHi <> Already ENG]
+|  |  |  |  
+|  |  |  |  NURSE: PLEASE ENCOURAGE COHORT MEMBER TO HAVE HEIGHT MEASURED:
+|  |  |  |  Even when you are an adult your height changes over time
+|  |  |  |  and we want to see if this is important for your health.
+|  |  |  |  
+|  |  |  END CHECK
+|  |  |  
+|  |  END OF FILTER
+|  |  
+
+Check 32
+After EHTM or EHTIN
+
+IF [EHtCh = RESPONSE AND EHtFt = RESPONSE OR EHtIn = RESPONSE OR EHtm = RESPONSE
+AND EstHt = RESPONSE]
+|  
+|  CHECK: [EstHt >= HtLow AND EstHt <= HtHigh OR Edit1 = 1 ENG]
+|  |  
+|  |  This person's height is [height in feet and inches]. Is this correct? If correct, suppress this warning.
+|  |  
+|  END CHECK
+|  
+END OF FILTER
+
+Checks 33 to 34
+After SHEIGHT
+
+|  |  
+|  |  IF [SHeight = RESPONSE]
+|  |  |  
+|  |  |  CHECK: [FRAC SHeight <> 0]
+|  |  |  |  
+|  |  |  |  Please record height with one decimal digit, using the full stop as decimal point.
+|  |  |  |  If the decimal is zero, suppress this warning and continue.
+|  |  |  |  
+|  |  |  END CHECK
+|  |  |  
+|  |  END OF FILTER
+|  |  
+|  |  IF [SHeight = RESPONSE AND HEIGHT.Height = RESPONSE AND SHeight < HEIGHT.Height]
+|  |  |  
+|  |  |  CHECK: [DIFFH >= 10 ENG]
+|  |  |  |  
+|  |  |  |  SHEIGHT SHOULD BE AT LEAST 10.0 cms LESS THAN STANDING HEIGHT
+|  |  |  |  
+|  |  |  END CHECK
+|  |  |  
+|  |  END OF FILTER
+|  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Weight module checks
+
+94
+
+In weight module:
+
+Check 35
+After FLOORC
+
+|  |  |  
+|  |  |  IF [Neither = FloorC]
+|  |  |  |  
+|  |  |  |  CHECK: [FloorC.CARDINAL = 1 ENG]
+|  |  |  |  |  
+|  |  |  |  |  'Neither' is an exclusive code for this question.
+|  |  |  |  |  
+|  |  |  |  END CHECK
+|  |  |  |  
+|  |  |  END OF FILTER
+|  |  |  
+
+Check 36
+After EWTKG
+
+|  |  
+|  |  IF [EWtkg =  RESPONSE]
+|  |  |  
+|  |  |  CHECK: [FRAC EWtkg <> 0]
+|  |  |  |  
+|  |  |  |  Please record weight with one decimal digit, using the full stop as decimal point.
+|  |  |  |  If the decimal is zero, suppress this warning and continue.
+|  |  |  |  
+|  |  |  END CHECK
+|  |  |  
+|  |  END OF FILTER
+
+Checks 37 to 40
+After EWTKG or EWTL
+
+WTLOW    
+ [GENERATED AUTOMATICALLY]
+Men: WTLOW=(0.039 * Age + 52.37)
+Women: WTLOW=(0.043 * Age + 40.32)
+
+WTHIGH    
+ [GENERATED AUTOMATICALLY]
+Men: WTHIGH=(0.02 * Age + 102.18)
+Women: WTHIGH=(0.0375 * Age + 89.4)
+
+IF [XWeight = RESPONSE AND Weight = RESPONSE]
+|  
+|  CHECK: [FRAC XWeight <> 0]
+|  |  
+|  |  Please record weight with one decimal digit, using the full stop as decimal point.
+|  |  If the decimal is zero, suppress this warning and continue.
+|  |  
+|  END CHECK
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Weight module checks
+
+95
+
+|  
+|  CHECK: [XWeight <> 150 ENG]
+|  |  
+|  |  YOU HAVE RECORDED THE WEIGHT AS EXACTLY 150.0kg. IS THIS THE
+|  |  ACTUAL WEIGHT, OR SHOULD YOU HAVE ENTERED AN ESTIMATE? IF
+|  |  CORRECT, PRESS <S> TO SUPPRESS THIS WARNING.
+|  |  
+|  END CHECK
+|  
+|  CHECK: [Weight >= WtLow AND Weight <= WtHigh]
+|  |  
+|  |  This person's weight is [weight in stones and pounds]. Is this correct? Press <S>
+|  |  to suppress this warning.
+|  |  
+|  END CHECK
+|  
+END OF FILTER
+
+IF [EWtCh = RESPONSE AND EWtSt = RESPONSE OR EWtL = RESPONSE OR EWtkg =
+RESPONSE AND EstWt = RESPONSE]
+|  
+|  CHECK: [EstWt >= WtLow AND EstWt <= WtHigh]
+|  |  
+|  |  This person's weight is [weight in stones and pounds]. Is this correct? If correct, suppress this warning.
+|  |  
+|  END CHECK
+|  
+END OF FILTER
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Waist and hips module checks
+
+96
+
+In waist and hips module:
+
+Checks 41 to 43
+After WAIST
+
+|  |  |  
+|  |  |  CHECK: [Waist <> 1000 ENG]
+|  |  |  |  
+|  |  |  |  1000 is above the valid range, please amend.
+|  |  |  |  
+|  |  |  END CHECK
+|  |  |  
+|  |  |  IF [Waist <> EMPTY AND PSEX = 1]
+|  |  |  |  
+|  |  |  |  CHECK: [Waist = 65…140 OR Waist = 999.9 ENG]
+|  |  |  |  |  
+|  |  |  |  |  IS THIS CORRECT (IS TAPE IN CORRECT POSITION)?
+|  |  |  |  |  
+|  |  |  |  END CHECK
+|  |  |  |  
+|  |  |  END OF FILTER
+|  |  |  
+|  |  |  IF  [Waist <> EMPTY AND PSEX = 2]
+|  |  |  |  
+|  |  |  |  CHECK: [Waist = 55…140 OR Waist = 999.9 ENG]
+|  |  |  |  |  
+|  |  |  |  |  IS THIS CORRECT (IS TAPE IN CORRECT POSITION)?
+|  |  |  |  |  
+|  |  |  |  END CHECK
+|  |  |  |  
+|  |  |  END OF FILTER
+|  |  |  
+
+Checks 44 to 48
+After HIPS
+
+|  |  |  
+|  |  |  CHECK: [Hip <> 1000 ENG]
+|  |  |  |  
+|  |  |  |  1000 is above the valid range, please amend.
+|  |  |  |  
+|  |  |  END CHECK
+|  |  |  
+|  |  |  IF [Hip <> EMPTY AND PSEX = 1]
+|  |  |  |  
+|  |  |  |  CHECK: [Hip = 70…155 OR Hip = 999.9 ENG]
+|  |  |  |  |  
+|  |  |  |  |  IS THIS CORRECT (IS TAPE IN CORRECT POSITION)?
+|  |  |  |  |  
+|  |  |  |  END CHECK
+|  |  |  |  
+|  |  |  END OF FILTER
+|  |  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Waist and hips module checks
+
+97
+
+|  |  |  
+|  |  |  IF [Hip <> EMPTY AND PSEX = 2]
+|  |  |  |  
+|  |  |  |  CHECK: [Hip = 70…175 OR Hip = 999.9 ENG]
+|  |  |  |  |  
+|  |  |  |  |  IS THIS CORRECT (IS TAPE IN CORRECT POSITION)?
+|  |  |  |  |  
+|  |  |  |  END CHECK
+|  |  |  |  
+|  |  |  END OF FILTER
+|  |  |  
+|  |  |  IF [Measure.Waist = RESPONSE]
+|  |  |  |  
+|  |  |  |  CHECK: [FRAC Measure.Waist <> 0 ENG]
+|  |  |  |  |  
+|  |  |  |  |  Please record waist measurement with one decimal digit, using the full stop as decimal point.
+|  |  |  |  |  If the decimal is zero, suppress this warning and continue.
+|  |  |  |  |  
+|  |  |  |  END CHECK
+|  |  |  |  
+|  |  |  END OF FILTER
+|  |  |  
+|  |  |  IF [Measure.Hip = RESPONSE]
+|  |  |  |  
+|  |  |  |  CHECK: [FRAC Measure.Hip <> 0 ENG]
+|  |  |  |  |  
+|  |  |  |  |  Please record hip measurement with one decimal digit, using the full stop as decimal point.
+|  |  |  |  |  If the decimal is zero, suppress this warning and continue.
+|  |  |  |  |  
+|  |  |  |  END CHECK
+|  |  |  |  
+|  |  |  END OF FILTER
+|  |  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Lung function module checks
+
+98
+
+In tests of lung function:
+
+Checks 49 and 50
+After FVC
+
+|  |  |  |  |  
+|  |  |  |  |  CHECK: [FVC <= 7 OR FVC = 9.95 ENG]
+|  |  |  |  |  |  
+|  |  |  |  |  |  ARE YOU SURE? THIS VALUE SEEMS A BIT HIGH.
+|  |  |  |  |  |  
+|  |  |  |  |  END CHECK
+|  |  |  |  |  
+|  |  |  |  |  CHECK: [FRAC FVC <> 0 OR FVC = 0 ENG]
+|  |  |  |  |  |  
+|  |  |  |  |  |  Please record the value with two decimal digits, using the full stop as decimal point.
+|  |  |  |  |  |  If the decimal is zero, suppress this warning and continue.
+|  |  |  |  |  |  
+|  |  |  |  |  END CHECK
+|  |  |  |  |  
+
+Checks 51 to 55
+After FEV
+
+|  |  |  |  |  |  
+|  |  |  |  |  |  CHECK: [FEV <= 7 ENG]
+|  |  |  |  |  |  |  
+|  |  |  |  |  |  |  ARE YOU SURE? THIS VALUE SEEMS A BIT HIGH.
+|  |  |  |  |  |  |  
+|  |  |  |  |  |  END CHECK
+|  |  |  |  |  |  
+|  |  |  |  |  |  CHECK: [FRAC FEV <> 0 OR FEV = 0 ENG]
+|  |  |  |  |  |  |  
+|  |  |  |  |  |  |  Please record the value with tWo decimal digits, using the full stop as decimal point.
+|  |  |  |  |  |  |  If the decimal is zero, suppress this warning and continue.
+|  |  |  |  |  |  |   
+|  |  |  |  |  |  END CHECK
+|  |  |  |  |  |  
+|  |  |  |  |  |  CHECK: [FEV <= 9.95 ENG]
+|  |  |  |  |  |  |  
+|  |  |  |  |  |  |  FEV must be less than 9.95. Please correct.
+|  |  |  |  |  |  |  
+|  |  |  |  |  |  END CHECK
+|  |  |  |  |  |  
+|  |  |  |  |  |  CHECK: [FVC <> FEV OR FEV = 0 ENG]
+|  |  |  |  |  |  |  
+|  |  |  |  |  |  |  ARE YOU SURE? BOTH VALUES ARE THE SAME.
+|  |  |  |  |  |  |  
+|  |  |  |  |  |  END CHECK
+|  |  |  |  |  |  
+|  |  |  |  |  |  CHECK: [FVC > FEV OR FVC = 0 ENG]
+|  |  |  |  |  |  |  
+|  |  |  |  |  |  |  THIS IS INCORRECT, FEV MUST BE LESS THAN FVC. PLEASE TRY AGAIN.
+|  |  |  |  |  |  |  
+|  |  |  |  |  |  END CHECK
+|  |  |  |  |  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Lung function module checks
+
+99
+
+Checks 56 and 57
+After PF
+
+|  |  |  |  |  |  
+|  |  |  |  |  |  CHECK: [PF <= 700 ENG]
+|  |  |  |  |  |  |  
+|  |  |  |  |  |  |  ARE YOU SURE? THIS VALUE SEEMS A BIT HIGH.
+|  |  |  |  |  |  |  
+|  |  |  |  |  |  END CHECK
+|  |  |  |  |  |  
+|  |  |  |  |  |  CHECK: [PF <= 995 ENG]
+|  |  |  |  |  |  |  
+|  |  |  |  |  |  |  PF must be less than 995. Please correct.
+|  |  |  |  |  |  |  
+|  |  |  |  |  |  END CHECK
+|  |  |  |  |  |  
+
+Check 58
+After TECHNIQUE
+
+|  |  |  |  |  |  
+|  |  |  |  |  |  IF [FVC = 0 OR FEV = 0 OR PF = 0]
+|  |  |  |  |  |  |  
+|  |  |  |  |  |  |  CHECK: [Technique = No ENG]
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |  |  |  TECHNIQUE CANNOT HAVE BEEN SATISFACTORY AS AT
+|  |  |  |  |  |  |  |  LEAST ONE OF THE READINGS WAS 0.
+|  |  |  |  |  |  |  |  
+|  |  |  |  |  |  |  END CHECK
+|  |  |  |  |  |  |  
+|  |  |  |  |  |  END OF FILTER
+|  |  |  |  |  |  
+
+Checks 59 to 63
+After LFRESP
+
+|  |  |  |  
+|  |  |  |  IF [QBlow.Blow.Technique = 1 AND QBlow.Blow.Technique = 1 AND
+|  |  |  |  QBlow.Blow.Technique = 1 AND QBlow.FIRST3 = 1]
+|  |  |  |  |  
+|  |  |  |  |  CHECK: [LFResp = All ENG]
+|  |  |  |  |  |  
+|  |  |  |  |  |  FIRST 3 BLOWS WERE CORRECT TECHNIQUE. LFResp SHOULD BE CODE 1.
+|  |  |  |  |  |  
+|  |  |  |  |  END CHECK
+|  |  |  |  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Lung function module checks
+
+100
+
+|  |  |  |  |  
+|  |  |  |  ELSE
+|  |  |  |  |  
+|  |  |  |  IF [QBlow.Blow.Technique = 1 AND QBlow.Blow.Technique = 1 AND
+|  |  |  |  QBlow.Blow.Technique = 1 OR QBlow.Blow.Technique = 1 AND
+|  |  |  |  QBlow.Blow.Technique = 1 AND QBlow.Blow.Technique = 1 OR
+|  |  |  |  QBlow.Blow.Technique = 1 AND QBlow.Blow.Technique = 1 AND
+|  |  |  |  QBlow.Blow.Technique = 1 OR QBlow.Blow.Technique = 1 AND
+|  |  |  |  QBlow.Blow.Technique = 1 AND QBlow.Blow.Technique = 1 OR
+|  |  |  |  QBlow.Blow.Technique = 1 AND QBlow.Blow.Technique = 1 AND
+|  |  |  |  QBlow.Blow.Technique = 1 OR QBlow.Blow.Technique = 1 AND
+|  |  |  |  QBlow.Blow.Technique = 1 AND QBlow.Blow.Technique = 1 OR
+|  |  |  |  QBlow.Blow.Technique = 1 AND QBlow.Blow.Technique = 1 AND
+|  |  |  |  QBlow.Blow.Technique = 1 OR QBlow.Blow.Technique = 1 AND
+|  |  |  |  QBlow.Blow.Technique = 1 AND QBlow.Blow.Technique = 1 OR
+|  |  |  |  QBlow.Blow.Technique = 1 AND QBlow.Blow.Technique = 1 AND
+|  |  |  |  QBlow.Blow.Technique = 1 OR QBlow.Blow.Technique = 1 AND
+|  |  |  |  QBlow.Blow.Technique = 1 AND QBlow.Blow.Technique = 1]
+|  |  |  |  |  
+|  |  |  |  |  CHECK: LFResp = All5 ENG [LFResp = All5 ENG]
+|  |  |  |  |  |  
+|  |  |  |  |  |  3 BLOWS WERE CORRECT TECHNIQUE FROM MORE THAN 3 BLOWS.
+|  |  |  |  |  |   LFResp SHOULD BE CODE 2.
+|  |  |  |  |  |  
+|  |  |  |  |  END CHECK
+|  |  |  |  |  
+|  |  |  |  ELSE
+|  |  |  |  |  
+|  |  |  |  |  CHECK: [NOT LFResp = All, All5 ENG]
+|  |  |  |  |  |  
+|  |  |  |  |  |  SOME BLOWS WERE NOT CORRECT TECHNIQUE. LFResp CANNOT BE CODE 1-2.
+|  |  |  |  |  |  
+|  |  |  |  |  END CHECK
+|  |  |  |  |  
+|  |  |  |  END OF FILTER
+|  |  |  |  
+|  |  |  |  IF QBlow.Blow.Technique = Yes OR QBlow.Blow.Technique = Yes OR
+|  |  |  |  QBlow.Blow.Technique = Yes OR QBlow.Blow.Technique = Yes OR
+|  |  |  |  QBlow.Blow.Technique = Yes [QBlow.Blow.Technique = 1 OR
+|  |  |  |  QBlow.Blow.Technique = 1 OR QBlow.Blow.Technique = 1 OR
+|  |  |  |  QBlow.Blow.Technique = 1 OR QBlow.Blow.Technique = 1]
+|  |  |  |  |
+|  |  |  |  |  CHECK: [LFResp = All .. Some ENG]
+|  |  |  |  |  |  
+|  |  |  |  |  |  LFResp SHOULD BE CODE 3 AS SOME BLOWS WERE CORRECT TECHNIQUE.
+|  |  |  |  |  |  
+|  |  |  |  |  END CHECK
+|  |  |  |  |  
+|  |  |  |  ELSE
+|  |  |  |  |  
+|  |  |  |  |  CHECK: [LFResp <> Some ENG]
+|  |  |  |  |  |  
+|  |  |  |  |  |  NO BLOWS WERE CORRECT TECHNIQUE. LFResp CANNOT BE CODE 2.
+|  |  |  |  |  |  
+|  |  |  |  |  |    
+|  |  |  |  |  END CHECK
+|  |  |  |  |   
+|  |  |  |  END OF FILTER
+|  |  |  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Autorefractor module checks
+
+101
+
+In Autorefractor module:
+
+Check 64
+After VQUALR
+
+|  |  
+|  |  IF [VQUALR <> EMPTY]
+|  |  |  
+|  |  |  CHECK: [VQUALR = 0…10, 98, 99 ENG]
+|  |  |  |  
+|  |  |  |  INVALID RANGE. PLEASE RE-ENTER
+|  |  |  |  
+|  |  |  END CHECK
+|  |  |  
+|  |  END OF FILTER
+|  |  
+
+Check 65
+After VQUALL
+
+|  |  
+|  |  IF [VQUALL <> EMPTY]
+|  |  |  
+|  |  |  CHECK: [VQUALL = 0…10, 98, 99 ENG]
+|  |  |  |  
+|  |  |  |  INVALID RANGE. PLEASE RE-ENTER
+|  |  |  |  
+|  |  |  END CHECK
+|  |  |  
+|  |  END OF FILTER
+|  |  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Blood samples module checks
+
+102
+
+In Blood samples module:
+
+Check 66
+After BLCONS2
+
+IF [Blcons2.CARDINAL > 1]
+|  
+|  CHECK: [NOT noc = Blcons2 ENG]
+|  |  
+|  |  No Consent given is exclusive. Please re-enter.
+|  |  
+|  END CHECK
+|  
+END OF FILTER
+
+Check 67
+After CLOTB
+
+|  |  
+|  |  CHECK: [DrugClot <> 1 ENG]
+|  |  |  
+|  |  |  Earlier, in the Medicines Section, this person is recorded as taking either
+|  |  |  Warfarin or Heparin. Please check.
+|  |  |  
+|  |  END CHECK
+|  |  
+
+Check 68
+After FIT
+
+|  |  
+|  |  CHECK: [Fit <> Yes ENG]
+|  |  |  
+|  |  |  NURSE: You have coded that the CM has had a fit (including epileptic fit, convulsion,
+|  |  |  convulsion associated with high fever) in the last three years?
+|  |  |  This means that no blood is to be taken. Is this correct?
+|  |  |  If yes suppress this warning and continue. If no go back and code 2.
+|  |  |  
+|  |  END CHECK
+|  |  
+
+Checks 69 and 70
+After SAMDIFC
+
+|   
+|  IF [SampF1 = 3 OR SampF2 = 3]
+|  |  
+|  |  CHECK: [NOT NoProb = SamDifC ENG]
+|  |  |  
+|  |  |  You should not code 'No problems' as you did not fill both tubes. Please amend or
+|  |  |  explain in a note <Ctrl M>."
+|  |  |  
+|  |  END CHECK
+|  |  
+|  END OF FILTER
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+Blood samples module checks
+
+103
+
+|  
+|  IF [NoProb = SamDifC]
+|  |  
+|  |  CHECK: [SamDifC.CARDINAL = 1 ENG]
+|  |  |  
+|  |  |  If code 1 'No problem' is used then no other codes are allowed.
+|  |  |  
+|  |  |  END CHECK
+|  |  
+|  END OF FILTER
+|  
+
+
+
+NCDS Biomedical study CAPI questionnaire
+CIS-R checks
+
+104
+
+In Clinical Interview Schedule – Revised (CIS-R):
+
+Check 71
+After ANXG
+
+|  |  
+|  |  IF [NONE = AnxG]
+|  |  |  
+|  |  |  CHECK: [AnxG.CARDINAL = 1 ENG]
+|  |  |  |  
+|  |  |  |  'None' is an exclusive code at this question. Please change.
+|  |  |  |  
+|  |  |  END CHECK
+|  |  |  
+|  |  END OF FILTER
+|  |  
+
+Check 72
+After PHOBE
+
+|  |  
+|  |  CHECK: [PhobE.CARDINAL = 1 AND NONE = PhobE OR NOT NONE = PhobE ENG]
+|  |  |  
+|  |  |  NONE is an exclusive code.
+|  |  |  
+|  |  END CHECK
+|  |  
+
+
+
+P2107         FatigD
+
+CARD N
+
+Problems with sleep 01
+Medication 02
+Physical illness 03
+Working too hard (inc. housework, 
+looking after baby) 04
+Stress, worry or other psychological 
+reason 05 
+Physical exercise 06
+Other 97
+
+
+
+ P2107 WorryC,WorryD
+
+CARD P
+
+Members of the family 01
+Relationship with spouse/partner 02
+Relationships with friends 03
+Housing 04
+Money/bills 05 
+Own physical health
+(inc. pregnancy) 06
+Own mental health 07 
+Work or lack of work (inc. student) 08
+Legal difficulties 09
+Political issues/the news 10
+Other 11
+None of these 12
+
+
+
+P2107         PhobB,PhobC
+
+CARD R
+
+Crowds or public places, including 
+travelling alone or being far 
+from home 01
+
+Enclosed spaces 02
+
+Social situations, including eating 
+or speaking in public, being 
+watched or stared at 03
+
+The sight of blood or injury 04
+
+Any specific single cause including 
+insects, spiders and heights 05 
+
+Other (specify) 97
+
+
+
+P2107 AnxG,PhobE
+
+CARD Q
+
+Heart racing or pounding 01
+Hands sweating or shaking 02
+Feeling dizzy 03
+Difficulty getting your breath 04
+Butterflies in stomach 05 
+Dry mouth 06
+Nausea or feeling as though 
+you wanted to vomit 07 
+None of these 96
+
+
+	NCDS biomedical survey 2002-2004
+	Contents
+	Acknowledgements
+	Abbreviations used in the text
+	Introduction
+	The National Child Development Study
+	The biomedical survey
+
+	Development
+	Introduction
+	Pilot 1
+	Objectives
+	The interview
+	Fieldwork
+	Outcomes
+
+	Pilot 2
+	Objectives
+	The interview
+	Fieldwork
+	Outcomes
+
+	Pilot 3
+	Objectives
+	The sample
+	The interview
+	Fieldwork
+	Response
+	Outcomes
+
+
+	Survey interview content
+	Sample design
+	Background
+	The target sample
+	Exclusions from the sample
+	The issued sample
+	The sample issued to NatCen
+	The sample issued to the field
+
+	Serial numbers
+
+	Fieldwork procedures
+	Nurse briefings
+	Issue of work
+	The Address Record Form (ARF)
+
+	Advance letters
+	Making contact
+	Tracing procedures
+
+	Fieldwork progress
+	Informed consent
+	Saliva reminders
+	Feedback
+	Fieldwork quality control
+
+	Response
+	Summary
+	Details of survey response
+	Non-contact
+	Refusals
+	Other unproductives
+
+	Response to survey elements
+	Biometric measures
+	Autorefractors
+
+	CASI and CIS-R
+	Saliva and blood samples
+	Self-completion questionnaires
+
+
+	Coding and editing
+	CAPI data
+	Self-completion questionnaire data
+
+	Collection, processing and analysis of blood and saliva samples
+	Blood samples
+	Collection
+	Processing
+	Biochemical analyses of blood samples
+	Cell line transformation
+	DNA extraction and distribution
+
+	Collection and processing of saliva samples
+
+
+	Appendix A The questionnaires
+	CAPI questionnaire documentation
+	CIS-R showcards
+	Self-completion questionnaire 1
+	Self-completion questionnaire 2
+
+	Appendix B Nurse protocols
+	Appendix C Survey documents
+	Address record form (ARF)
+	Advance letter
+	Information leaflet
+	Genetics leaflet
+	Appointment record card
+	Consent booklet (office copy)
+	Consent booklet (cohort member's copy)
+	Measurement record card
+	Saliva collection form
+	Saliva reminder letter
+	Thankyou letter
+	GP letter
+
+	Appendix D  Editing and coding instructions
+	CAPI and self-completion editing and coding instructions
+	Medicines coding booklet
+
+
+
+
